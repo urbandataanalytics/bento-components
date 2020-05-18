@@ -1,0 +1,34 @@
+name: uDA Components Workflow
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Test
+        run: yarn test:ci
+
+      - name: Build library
+        run: yarn deploy:storybook --ci
+        env:
+          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+
+#      - name: Publish to the npm registry
+#        uses: "primer/publish@v2.0.0"
+#        with:
+#          args: "-- --unsafe-perm --allow-same-version"
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

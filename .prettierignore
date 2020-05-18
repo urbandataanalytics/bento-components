@@ -1,0 +1,5 @@
+package.json
+node_modules
+lib
+coverage
+src/serviceWorker.js

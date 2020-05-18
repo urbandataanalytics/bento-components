@@ -1,0 +1,7 @@
+/.npmignore
+/*/
+!/svg/
+!.gitignore
+!.npmignore
+index.d.ts
+index.js

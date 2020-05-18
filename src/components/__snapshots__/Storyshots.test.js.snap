@@ -1,0 +1,3540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Block 1`] = `
+.c0 {
+  border-width: 1px;
+  font-weight: 500;
+  border-style: solid;
+  font-family: "Roboto Bold",Arial,sans-serif;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  width: 100%;
+  padding: 11px 32px;
+  font-size: 12px;
+  min-width: 120px;
+  color: #FFFFFF;
+  background-color: #1778FB;
+  border-color: #1778FB;
+  border-radius: 4px;
+}
+
+.c0:disabled {
+  cursor: default;
+}
+
+.c0:hover {
+  background-color: #5FAEDA;
+  border-color: #5FAEDA;
+  color: #FFFFFF;
+}
+
+.c0:disabled {
+  background-color: #DCDFE6;
+  border-color: #DCDFE6;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <button
+    className="c0"
+    disabled={false}
+    onClick={[Function]}
+    size="medium"
+  >
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button Normal 1`] = `
+.c0 {
+  border-width: 1px;
+  font-weight: 500;
+  border-style: solid;
+  font-family: "Roboto Bold",Arial,sans-serif;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  padding: 11px 32px;
+  font-size: 12px;
+  min-width: 120px;
+  color: #FFFFFF;
+  background-color: #1778FB;
+  border-color: #1778FB;
+  border-radius: 4px;
+}
+
+.c0:disabled {
+  cursor: default;
+}
+
+.c0:hover {
+  background-color: #5FAEDA;
+  border-color: #5FAEDA;
+  color: #FFFFFF;
+}
+
+.c0:disabled {
+  background-color: #DCDFE6;
+  border-color: #DCDFE6;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <button
+    className="c0"
+    disabled={false}
+    onClick={[Function]}
+    size="medium"
+  >
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button With Icon 1`] = `
+.c0 {
+  border-width: 1px;
+  font-weight: 500;
+  border-style: solid;
+  font-family: "Roboto Bold",Arial,sans-serif;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  padding: 11px 32px;
+  font-size: 12px;
+  min-width: 120px;
+  color: #FFFFFF;
+  background-color: #1778FB;
+  border-color: #1778FB;
+  border-radius: 4px;
+}
+
+.c0:disabled {
+  cursor: default;
+}
+
+.c0:hover {
+  background-color: #5FAEDA;
+  border-color: #5FAEDA;
+  color: #FFFFFF;
+}
+
+.c0:disabled {
+  background-color: #DCDFE6;
+  border-color: #DCDFE6;
+}
+
+.c1 {
+  margin: 0 8px 0 0;
+}
+
+.c1 > svg {
+  width: 15px;
+  height: 15px;
+}
+
+.c2 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <button
+    className="c0"
+    disabled={false}
+    onClick={[Function]}
+    size="medium"
+  >
+    <span
+      className="c1"
+      direction="left"
+      size="medium"
+    >
+      <svg
+        className="c2"
+        data-name="IconWarning"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+      >
+        <path
+          clipRule="evenodd"
+          d="M14.457 5.404a3.145 3.145 0 014.232 1.11l.003.005L27.57 21.34l.009.015a3.144 3.144 0 01-2.69 4.717H7.11a3.145 3.145 0 01-2.689-4.717l.009-.015L13.308 6.52l.9.538-.897-.543c.28-.462.675-.844 1.146-1.11zm.648 2.195l-8.872 14.81a1.048 1.048 0 00.895 1.567h17.744a1.048 1.048 0 00.895-1.567l-8.87-14.808-.002-.002a1.05 1.05 0 00-1.79 0zM16 11.397c.579 0 1.048.47 1.048 1.048v4.193a1.048 1.048 0 01-2.096 0v-4.193c0-.579.47-1.048 1.048-1.048zm-.005 8.386c-.576 0-1.043.469-1.043 1.048 0 .579.467 1.048 1.043 1.048h.01c.576 0 1.043-.47 1.043-1.048 0-.579-.467-1.048-1.043-1.048h-.01z"
+        />
+      </svg>
+    </span>
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Checkbox Normal 1`] = `
+.c4 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
+}
+
+.c3 {
+  position: relative;
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #FFFFFF;
+  border: 2px solid #DCDFE6;
+  padding: 0;
+  margin: 0;
+  border-radius: 2px;
+  width: 24px;
+  height: 24px;
+}
+
+.c3 > svg {
+  visibility: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.c1 {
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:checked + .c2 {
+  border: 0;
+  background-color: #1778FB;
+}
+
+.c1:checked + .c2 > svg {
+  visibility: visible;
+}
+
+.c1:disabled + .c2 {
+  border: 0;
+  background-color: #DCDFE6;
+}
+
+.c1:disabled ~ .c5 {
+  color: #DCDFE6;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.c0 .c2 {
+  color: #FFFFFF;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <label
+    checked={false}
+    className="c0"
+    disabled={false}
+  >
+    <input
+      checked={false}
+      className="c1"
+      disabled={false}
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <div
+      checked={false}
+      className="c2 c3"
+      disabled={false}
+      size="medium"
+    >
+      <svg
+        className="c4"
+        data-name="IconCheck"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+      >
+        <path
+          clipRule="evenodd"
+          d="M21.562 11.27c.512.418.586 1.168.165 1.676l-6.308 7.62a1.203 1.203 0 01-1.753.107l-3.292-3.096a1.184 1.184 0 01-.045-1.683 1.207 1.207 0 011.697-.044l2.356 2.216 5.49-6.631a1.207 1.207 0 011.69-.164z"
+        />
+      </svg>
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Storyshots Checkbox With Label 1`] = `
+.c4 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
+}
+
+.c3 {
+  position: relative;
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #FFFFFF;
+  border: 2px solid #DCDFE6;
+  padding: 0;
+  margin: 0;
+  border-radius: 2px;
+  width: 24px;
+  height: 24px;
+}
+
+.c3 > svg {
+  visibility: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 0 0 16px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: "Roboto Regular",Arial,sans-serif;
+  font-size: 14px;
+  color: #212632;
+}
+
+.c1 {
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:checked + .c2 {
+  border: 0;
+  background-color: #1778FB;
+}
+
+.c1:checked + .c2 > svg {
+  visibility: visible;
+}
+
+.c1:disabled + .c2 {
+  border: 0;
+  background-color: #DCDFE6;
+}
+
+.c1:disabled ~ .c5 {
+  color: #DCDFE6;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.c0 .c2 {
+  color: #FFFFFF;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <label
+    checked={false}
+    className="c0"
+    disabled={false}
+  >
+    <input
+      checked={false}
+      className="c1"
+      disabled={false}
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <div
+      checked={false}
+      className="c2 c3"
+      disabled={false}
+      size="medium"
+    >
+      <svg
+        className="c4"
+        data-name="IconCheck"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+      >
+        <path
+          clipRule="evenodd"
+          d="M21.562 11.27c.512.418.586 1.168.165 1.676l-6.308 7.62a1.203 1.203 0 01-1.753.107l-3.292-3.096a1.184 1.184 0 01-.045-1.683 1.207 1.207 0 011.697-.044l2.356 2.216 5.49-6.631a1.207 1.207 0 011.69-.164z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c5 c6"
+    >
+      Checkbox
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Storyshots FormGroup Playground 1`] = `
+.c5 {
+  border-width: 1px;
+  font-weight: 500;
+  border-style: solid;
+  font-family: "Roboto Bold",Arial,sans-serif;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  width: 100%;
+  padding: 17px 32px;
+  font-size: 14px;
+  min-width: 140px;
+  color: #FFFFFF;
+  background-color: #1778FB;
+  border-color: #1778FB;
+  border-radius: 4px;
+}
+
+.c5:disabled {
+  cursor: default;
+}
+
+.c5:hover {
+  background-color: #5FAEDA;
+  border-color: #5FAEDA;
+  color: #FFFFFF;
+}
+
+.c5:disabled {
+  background-color: #DCDFE6;
+  border-color: #DCDFE6;
+}
+
+.c0 {
+  margin-bottom: 2rem;
+}
+
+.c4 {
+  font-size: 12px;
+  color: #363C4B;
+  margin-bottom: 4px;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.c2 {
+  outline: 0;
+  font-size: 14px;
+  line-height: 48px;
+  text-indent: 24px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border-color: #DCDFE6;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.c2:focus {
+  background-color: #EFF7FB;
+  border-color: #5FAEDA;
+}
+
+.c2:focus + .c3 {
+  color: #5FAEDA;
+}
+
+.c2:disabled {
+  background-color: #F8F8F8;
+  border-color: #DCDFE6;
+  color: #DCDFE6;
+}
+
+.c2:disabled + .c3 {
+  color: #DCDFE6;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className=""
+    >
+      <label
+        className="c1"
+      >
+        <input
+          className="c2"
+          disabled={false}
+          onChange={[Function]}
+          placeholder="Type your email address"
+          type="email"
+          value=""
+        />
+        <p
+          className="c3 c4"
+          disabled={false}
+        >
+          Email
+        </p>
+      </label>
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <div
+      className=""
+    >
+      <label
+        className="c1"
+      >
+        <input
+          className="c2"
+          disabled={false}
+          onChange={[Function]}
+          placeholder="Type your password"
+          type="password"
+          value=""
+        />
+        <p
+          className="c3 c4"
+          disabled={false}
+        >
+          Password
+        </p>
+      </label>
+    </div>
+  </div>
+  <div
+    className="c0"
+  >
+    <button
+      className="c5"
+      disabled={true}
+      size="large"
+    >
+      Sign in
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Grid Playground 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": "8px",
+          "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "padding": "3rem 0",
+          "textAlign": "center",
+        }
+      }
+    >
+      1
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": "8px",
+          "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "padding": "3rem 0",
+          "textAlign": "center",
+        }
+      }
+    >
+      2
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": "8px",
+          "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "padding": "3rem 0",
+          "textAlign": "center",
+        }
+      }
+    >
+      3
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": "8px",
+          "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "padding": "3rem 0",
+          "textAlign": "center",
+        }
+      }
+    >
+      4
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Icon All Icons 1`] = `
+.c0 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  color: #000000;
+  width: 32px;
+  height: 32px;
+}
+
+<ul
+  style={
+    Object {
+      "backgroundColor": "#f8f8f8",
+      "display": "grid",
+      "gridGap": "2rem",
+      "gridTemplateColumns": "repeat(3, 1fr)",
+      "height": "100vh",
+      "listStyle": "none",
+      "padding": "2rem",
+    }
+  }
+>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconActivity"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M12.727 5c.47 0 .887.3 1.035.746l5.51 16.531 2.239-6.713a1.091 1.091 0 011.035-.746h4.363a1.09 1.09 0 110 2.182h-3.577l-3.024 9.072a1.091 1.091 0 01-2.07 0l-5.51-16.531-2.239 6.713A1.091 1.091 0 019.455 17H5.09a1.09 1.09 0 110-2.182h3.577l3.024-9.072A1.091 1.091 0 0112.727 5z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconActivity
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconAdd"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M16 6.182c-5.422 0-9.818 4.396-9.818 9.818s4.396 9.818 9.818 9.818 9.818-4.396 9.818-9.818S21.422 6.182 16 6.182zM4 16C4 9.373 9.373 4 16 4s12 5.373 12 12-5.373 12-12 12S4 22.627 4 16zm12-5.454c.602 0 1.09.488 1.09 1.09v3.273h3.274a1.09 1.09 0 110 2.182H17.09v3.273a1.09 1.09 0 11-2.182 0V17.09h-3.273a1.09 1.09 0 110-2.182h3.273v-3.273c0-.602.489-1.09 1.091-1.09z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconAdd
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconArrowClose"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M9.293 12.293a1 1 0 011.414 0L16 17.586l5.293-5.293a1 1 0 011.414 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconArrowClose
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconArrowOpen"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M15.293 12.293a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L16 14.414l-5.293 5.293a1 1 0 01-1.414-1.414l6-6z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconArrowOpen
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconAsset"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M15.198 4.368a1.266 1.266 0 011.785 0l.001.001 11.873 11.889.012.014a1.265 1.265 0 01-1.785 1.785l-.014-.012-1.173-1.174v9.23A1.899 1.899 0 0124 28h-5.855v-7.912H14.03V28H8.175a1.899 1.899 0 01-1.9-1.899v-9.237l-1.172 1.173-.014.012a1.266 1.266 0 01-1.785-1.785l.012-.014L15.197 4.37l.001-.002zm-6.707 10.28v11.137h3.323v-7.912h8.545v7.912h3.323v-11.13l-7.595-7.601-7.596 7.595z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconAsset
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconAttach"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M20.686 6.123c-.845 0-1.655.336-2.253.933l-9.755 9.755a5.31 5.31 0 007.511 7.51l9.755-9.754a1.061 1.061 0 111.5 1.501l-9.754 9.755A7.434 7.434 0 117.177 15.31l9.755-9.755a5.31 5.31 0 017.509 7.51l-9.765 9.754a3.186 3.186 0 01-4.505-4.505l9.012-9.002a1.061 1.061 0 011.5 1.502l-9.011 9a1.064 1.064 0 00.751 1.815c.282 0 .552-.112.752-.311l9.765-9.755a3.188 3.188 0 00-2.254-5.44z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconAttach
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconBarChart"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 24 24"
+    >
+      <path
+        clipRule="evenodd"
+        d="M22.889 12.333c.675 0 1.222.547 1.222 1.223v12.222a1.222 1.222 0 01-2.444 0V13.556c0-.675.547-1.223 1.222-1.223zM15.556 5c.675 0 1.222.547 1.222 1.222v19.556a1.222 1.222 0 01-2.445 0V6.222c0-.675.547-1.222 1.223-1.222zM8.222 17.222c.675 0 1.222.547 1.222 1.222v7.334a1.222 1.222 0 01-2.444 0v-7.334c0-.675.547-1.222 1.222-1.222z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconBarChart
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconChartBar"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M14.79 6.07v19.82h2.405l.042-19.82H14.79zM13.817 4h4.364c.602 0 1.09.537 1.09 1.2v21.6c0 .663-.488 1.2-1.09 1.2h-4.364c-.602 0-1.09-.537-1.09-1.2V5.2c0-.663.488-1.2 1.09-1.2zm8.728 6h4.363c.603 0 1.091.537 1.091 1.2v15.6c0 .663-.488 1.2-1.09 1.2h-4.364c-.603 0-1.091-.537-1.091-1.2V11.2c0-.663.488-1.2 1.09-1.2zM5.09 16h4.364c.602 0 1.09.537 1.09 1.2v9.6c0 .663-.488 1.2-1.09 1.2H5.09C4.488 28 4 27.463 4 26.8v-9.6c0-.663.488-1.2 1.09-1.2zm18.432-3.895v13.786h2.36V12.106h-2.36zM6.074 25.883h2.39V18.07h-2.39v7.813z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconChartBar
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconChartPie"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M16 4a1.09 1.09 0 00-1.09 1.091v10.912c0 .602.488 1.09 1.09 1.09h10.91c.602 0 1.09-.488 1.09-1.09a12.006 12.006 0 00-7.408-11.09A11.997 11.997 0 0016 4zm1.091 10.911V6.243a9.816 9.816 0 018.666 8.668h-8.666zm-5.018-7.914a1.091 1.091 0 00-.873-2 12 12 0 00-6.652 14.588 12.003 12.003 0 0013.783 8.186 11.998 11.998 0 008.721-7.099 1.091 1.091 0 00-2.01-.85 9.82 9.82 0 01-11.87 5.58A9.818 9.818 0 016.349 14.2a9.821 9.821 0 015.725-7.203z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconChartPie
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconCheck"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M21.562 11.27c.512.418.586 1.168.165 1.676l-6.308 7.62a1.203 1.203 0 01-1.753.107l-3.292-3.096a1.184 1.184 0 01-.045-1.683 1.207 1.207 0 011.697-.044l2.356 2.216 5.49-6.631a1.207 1.207 0 011.69-.164z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconCheck
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconClose"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M22.707 10.707a1 1 0 00-1.414-1.414L16 14.586l-5.293-5.293a1 1 0 00-1.414 1.414L14.586 16l-5.293 5.293a1 1 0 101.414 1.414L16 17.414l5.293 5.293a1 1 0 001.414-1.414L17.414 16l5.293-5.293z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconClose
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconCompany"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M26.286 8.429h-5.143V6.714C21.143 5.743 20.4 5 19.429 5H12.57c-.971 0-1.714.743-1.714 1.714V8.43H5.714C4.743 8.429 4 9.17 4 10.143v14.286c0 .971.743 1.714 1.714 1.714h20.572c.971 0 1.714-.743 1.714-1.714V10.143c0-.972-.743-1.714-1.714-1.714zM12.57 6.714h6.858V8.43H12.57V6.714zm13.715 3.429v4.286c-.115 0-.286 0-.4.114-.057 0-3.6 1.714-7.143 2.457-.229-.629-.857-1.086-1.6-1.086h-2.286c-.743 0-1.371.457-1.6 1.143-3.657-.686-7.2-2.457-7.2-2.514-.114-.057-.228-.057-.286-.114v-4.286h20.515zm-9.143 7.428v1.715h-2.286V17.57h2.286zM5.714 24.43v-8.115c1.257.572 4.343 1.886 7.429 2.457v.515c0 .971.743 1.714 1.714 1.714h2.286c.971 0 1.714-.743 1.714-1.714v-.629c3.543-.628 6.572-2.057 7.429-2.514v8.228l-20.572.058z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconCompany
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconCompare"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M4.997 10.879h18.974l-3.504 3.503a.976.976 0 000 1.375.978.978 0 001.402 0l5.174-5.175a.976.976 0 000-1.374l-5.201-5.175a.976.976 0 00-1.375 0 .976.976 0 000 1.375l3.504 3.503H4.997a.966.966 0 00-.97.97c0 .54.431.998.97.998zm21.319 9.729H7.342l3.504-3.504a.976.976 0 000-1.374.976.976 0 00-1.375 0l-5.175 5.174c-.053.054-.08.108-.134.162 0 .027-.027.027-.027.054a.205.205 0 00-.054.108c0 .027-.027.054-.027.08 0 .028-.027.055-.027.082 0 .053-.027.134-.027.188s0 .135.027.189c0 .027.027.054.027.08.027.055.027.082.027.109.027.027.027.08.054.107 0 .027.027.027.027.054.027.054.08.108.134.162l5.175 5.175a.979.979 0 001.402 0 .976.976 0 000-1.375l-3.504-3.504h18.974c.539 0 .97-.43.97-.97-.027-.539-.458-.997-.997-.997z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconCompare
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconCopy"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M6.501 6.501a1.09 1.09 0 01.772-.32h9.818a1.091 1.091 0 011.09 1.092v1.09a1.09 1.09 0 102.183 0v-1.09A3.273 3.273 0 0017.09 4H7.273A3.273 3.273 0 004 7.273v9.818a3.273 3.273 0 003.273 3.273h1.09a1.09 1.09 0 100-2.182h-1.09a1.09 1.09 0 01-1.091-1.091V7.273c0-.29.115-.567.32-.772zm7.317 8.408c0-.602.489-1.09 1.091-1.09h9.818c.603 0 1.091.488 1.091 1.09v9.818a1.09 1.09 0 01-1.09 1.091h-9.819a1.09 1.09 0 01-1.09-1.09v-9.819zm1.091-3.273a3.273 3.273 0 00-3.273 3.273v9.818A3.273 3.273 0 0014.91 28h9.818A3.273 3.273 0 0028 24.727V14.91a3.273 3.273 0 00-3.273-3.273H14.91z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconCopy
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconDelete"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M12.956 6.501a1.09 1.09 0 01.771-.32h4.364a1.091 1.091 0 011.09 1.092v1.09h-6.545v-1.09c0-.29.115-.567.32-.772zm8.408.772v1.09h4.363a1.09 1.09 0 110 2.183h-1.09v14.181A3.272 3.272 0 0121.363 28h-10.91a3.273 3.273 0 01-3.272-3.273V10.546H6.09a1.091 1.091 0 010-2.182h4.364V7.273A3.273 3.273 0 0113.726 4h4.364a3.273 3.273 0 013.273 3.273zm-12 3.273v14.181a1.091 1.091 0 001.09 1.091h10.91a1.091 1.091 0 001.09-1.09V10.544H9.365zm4.363 3.272c.603 0 1.091.489 1.091 1.091v6.545a1.091 1.091 0 11-2.182 0V14.91c0-.602.489-1.09 1.091-1.09zm5.455 1.091a1.09 1.09 0 10-2.182 0v6.545a1.091 1.091 0 102.182 0V14.91z"
+        fillRule="evenodd"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconDelete
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconDownloadCloud"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M10.757 21.155a1.2 1.2 0 011.696 0l3.95 3.95 3.949-3.95a1.2 1.2 0 111.696 1.697l-4.798 4.797a1.2 1.2 0 01-1.696 0l-4.797-4.797a1.2 1.2 0 010-1.697z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M16.402 14.808a1.2 1.2 0 011.2 1.199v10.794a1.2 1.2 0 01-2.399 0V16.007a1.2 1.2 0 011.2-1.2z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M12.406 4.007a10.794 10.794 0 0110.569 7.203h.622a7.199 7.199 0 016.866 5.022 7.196 7.196 0 01-2.721 8.06 1.2 1.2 0 01-1.38-1.962 4.798 4.798 0 00-2.763-8.722h-1.512a1.2 1.2 0 01-1.162-.9 8.395 8.395 0 10-14.418 7.65 1.2 1.2 0 01-1.796 1.589 10.794 10.794 0 017.695-17.94z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconDownloadCloud
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconDownloadPdf"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M26.869 3H7.066A2.057 2.057 0 005 5.066v21.196c0 1.148.918 2.066 2.066 2.066h3.188a1.123 1.123 0 000-2.246H8.098a.812.812 0 01-.82-.82V6.066c0-.46.361-.82.82-.82h17.836c.46 0 .82.36.82.82v19.196c0 .46-.36.82-.82.82h-1.696a1.123 1.123 0 100 2.246h2.696A2.057 2.057 0 0029 26.262V5.066A2.135 2.135 0 0026.869 3z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M11.293 23.293a1 1 0 011.414 0L17 27.586l4.293-4.293a1 1 0 011.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M17 17a1 1 0 011 1v11a1 1 0 11-2 0V18a1 1 0 011-1z"
+      />
+      <path
+        d="M10.725 12.83V15H9.182V8.602h2.553c.49 0 .922.09 1.297.272.378.179.67.435.874.77.208.33.312.707.312 1.129 0 .623-.224 1.123-.672 1.498-.445.372-1.058.558-1.837.558h-.984zm0-1.192h1.01c.3 0 .526-.075.681-.224.159-.15.238-.36.238-.633 0-.299-.08-.537-.242-.716-.161-.179-.38-.27-.66-.273h-1.027v1.846zM15.044 15V8.602h2.061c.566 0 1.074.128 1.525.386.451.255.803.617 1.055 1.086.255.466.384.989.387 1.569v.294c0 .586-.125 1.112-.374 1.578a2.714 2.714 0 01-1.046 1.09c-.448.26-.949.392-1.503.395h-2.105zm1.543-5.208v4.021h.536c.442 0 .782-.156 1.02-.47.237-.316.355-.785.355-1.406v-.277c0-.618-.118-1.084-.355-1.397-.238-.314-.583-.47-1.038-.47h-.518zm8.306 2.659h-2.488V15h-1.542V8.602h4.28v1.19h-2.738v1.473h2.488v1.186z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconDownloadPdf
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconDownload"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M5 26.079c0 .602.488 1.09 1.09 1.09h19.637a1.091 1.091 0 000-2.181H6.091A1.09 1.09 0 005 26.078z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M8.293 13.293a1 1 0 011.414 0L16 19.586l6.293-6.293a1 1 0 011.414 1.414l-7 7a1 1 0 01-1.414 0l-7-7a1 1 0 010-1.414z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M16 4a1 1 0 011 1v16a1 1 0 11-2 0V5a1 1 0 011-1z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconDownload
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconEdit"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M18.09 6.634L7.183 17.543v2.82h2.82l10.91-10.908-2.821-2.821zm.772-2.314l4.364 4.363a1.09 1.09 0 010 1.543l-12 12a1.09 1.09 0 01-.772.32H6.091c-.603 0-1.091-.489-1.091-1.091V17.09c0-.29.115-.567.32-.771l12-12a1.09 1.09 0 011.542 0zM6.091 28a1.09 1.09 0 110-2.182h19.636a1.09 1.09 0 110 2.182H6.091z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconEdit
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconEyeOff"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M5.707 4.293a1 1 0 00-1.414 1.414l4.275 4.276a19.45 19.45 0 00-4.45 5.544 1 1 0 00-.012.92c-.018-.032.161.304.208.387a20.522 20.522 0 002.831 3.85C9.105 22.774 12.101 25 16 25h.016a11.07 11.07 0 005.81-1.76l4.467 4.467a1 1 0 001.414-1.414l-5.06-5.06-3.816-3.816-.007-.007-4.234-4.234-.007-.007-3.816-3.816-5.06-5.06zm14.664 17.493l-2.321-2.322a4.02 4.02 0 01-2.054.61 4.038 4.038 0 01-2.9-1.17 4.038 4.038 0 01-1.17-2.9 4.02 4.02 0 01.61-2.054l-2.549-2.549a17.45 17.45 0 00-3.844 4.602 18.68 18.68 0 002.462 3.313c1.789 1.909 4.29 3.68 7.387 3.684a9.07 9.07 0 004.38-1.214zm-6.343-6.344a2 2 0 002.53 2.53l-2.53-2.53zm10.725 2.246L16.073 9c3.067.028 5.546 1.789 7.322 3.684a18.678 18.678 0 012.463 3.314 17.51 17.51 0 01-1.105 1.69zm3.129-1.217a1 1 0 00.012-.918c-.232-.464-.507-.91-.788-1.346a20.672 20.672 0 00-2.251-2.89C22.895 9.226 19.9 7 16 7a10.12 10.12 0 00-2.329.266 1 1 0 00-.48 1.68l10.94 10.95a1 1 0 001.473-.062 19.505 19.505 0 002.277-3.363z"
+        fillRule="evenodd"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconEyeOff
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconEye"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M4.894 14.207a15.186 15.186 0 00-.788 1.346 1 1 0 000 .894c.14.281.404.75.788 1.346.636.985 1.387 1.969 2.251 2.89C9.661 23.368 12.62 25 16 25c3.38 0 6.339-1.633 8.855-4.316a20.483 20.483 0 002.25-2.892c.385-.595.649-1.064.79-1.345a1 1 0 000-.894c-.141-.281-.405-.75-.79-1.346a20.483 20.483 0 00-2.25-2.89C22.339 8.631 19.38 7 16 7c-3.38 0-6.339 1.632-8.855 4.316a20.485 20.485 0 00-2.25 2.891zm3.71 5.11A18.521 18.521 0 016.142 16a18.521 18.521 0 012.464-3.316C10.776 10.368 13.255 9 16 9c2.745 0 5.224 1.367 7.395 3.684A18.521 18.521 0 0125.86 16a18.521 18.521 0 01-2.464 3.316C21.224 21.632 18.745 23 16 23c-2.745 0-5.224-1.367-7.395-3.684zM12 16a4 4 0 108 0 4 4 0 00-8 0zm6 0a2 2 0 11-4 0 2 2 0 014 0z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconEye
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconFile"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M18 4c.602 0 1.09.488 1.09 1.09v5.456h5.456a1.09 1.09 0 010 2.181H18a1.09 1.09 0 01-1.09-1.09V5.09C16.91 4.488 17.397 4 18 4z"
+      />
+      <path
+        d="M10.364 17.09c0-.602.488-1.09 1.09-1.09h2.182a1.09 1.09 0 110 2.182h-2.181a1.09 1.09 0 01-1.091-1.091zM10.364 21.454c0-.602.488-1.09 1.09-1.09h8.728a1.09 1.09 0 010 2.181h-8.727c-.603 0-1.091-.488-1.091-1.09z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M9.273 4A3.273 3.273 0 006 7.273v17.454A3.272 3.272 0 009.273 28h13.09a3.273 3.273 0 003.273-3.273v-13.09c0-.29-.115-.567-.32-.772L18.772 4.32A1.091 1.091 0 0018 4H9.273zM8.5 6.501a1.09 1.09 0 01.772-.32h8.275l5.907 5.907v12.64a1.09 1.09 0 01-1.091 1.09H9.273a1.091 1.091 0 01-1.091-1.09V7.272c0-.29.115-.567.32-.772z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconFile
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconFilter"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M3.093 4.58A1 1 0 014 4h24a1 1 0 01.764 1.646L19.4 16.718V26.6a1 1 0 01-1.447.894l-4.8-2.4a1 1 0 01-.553-.894v-7.482L3.236 5.646a1 1 0 01-.143-1.067zM6.155 6l8.209 9.706a1 1 0 01.236.646v7.23l2.8 1.4v-8.63a1 1 0 01.236-.646L25.845 6H6.155z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconFilter
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconFolder"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconFolder
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconGlobal"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M16.003 27C22.077 26.998 27 22.074 27 16c0-6.075-4.925-11-11-11S5 9.925 5 16c0 6.073 4.922 10.997 10.994 11h.01zM13.726 7.29A9.008 9.008 0 007.055 15h3.995a16.3 16.3 0 012.676-7.71zm4.548 0A16.3 16.3 0 0120.95 15h3.995a9.008 9.008 0 00-6.67-7.71zm.668 7.71A14.3 14.3 0 0016 7.55 14.3 14.3 0 0013.058 15h5.884zm-5.884 2h5.884A14.3 14.3 0 0116 24.45 14.3 14.3 0 0113.058 17zm-2.008 0H7.055a9.008 9.008 0 006.67 7.71A16.3 16.3 0 0111.05 17zm7.224 7.71A16.3 16.3 0 0020.95 17h3.995a9.008 9.008 0 01-6.67 7.71z"
+        fillRule="evenodd"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconGlobal
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconGrid"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M7 6a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V7a1 1 0 00-1-1H7zm1 7V8h5v5H8zm10-7a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V7a1 1 0 00-1-1h-7zm1 7V8h5v5h-5zm-2 5a1 1 0 011-1h7a1 1 0 011 1v7a1 1 0 01-1 1h-7a1 1 0 01-1-1v-7zm2 1v5h5v-5h-5zM7 17a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1v-7a1 1 0 00-1-1H7zm1 7v-5h5v5H8z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconGrid
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconInfo"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M16 6.182c-5.422 0-9.818 4.396-9.818 9.818s4.396 9.818 9.818 9.818 9.818-4.396 9.818-9.818S21.422 6.182 16 6.182zM4 16C4 9.373 9.373 4 16 4s12 5.373 12 12-5.373 12-12 12S4 22.627 4 16zm12-1.09c.602 0 1.09.488 1.09 1.09v4.364a1.09 1.09 0 11-2.18 0V16c0-.602.488-1.09 1.09-1.09zm-.005-4.364c-.6 0-1.086.488-1.086 1.09 0 .603.486 1.091 1.086 1.091h.01c.6 0 1.086-.488 1.086-1.09 0-.603-.486-1.091-1.086-1.091h-.01z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconInfo
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconLineChart"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M29.501 6.635A1 1 0 0129.865 8l-11 19a1 1 0 01-1.72.018L9.413 14.283 4.3 21.1a1 1 0 11-1.6-1.2l6-8a1 1 0 011.655.081L17.98 24.54 28.135 6.998a1 1 0 011.366-.364z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconLineChart
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconLogout"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8.3 7.2a1.1 1.1 0 00-1.1 1.1v15.4a1.1 1.1 0 001.1 1.1h4.4a1.1 1.1 0 010 2.2H8.3A3.3 3.3 0 015 23.7V8.3A3.3 3.3 0 018.3 5h4.4a1.1 1.1 0 010 2.2H8.3zm11.322 2.522a1.1 1.1 0 011.556 0l5.5 5.5a1.1 1.1 0 010 1.556l-5.5 5.5a1.1 1.1 0 11-1.556-1.556L24.344 16l-4.722-4.722a1.1 1.1 0 010-1.556z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M11.6 16a1.1 1.1 0 011.1-1.1h13.2a1.1 1.1 0 010 2.2H12.7a1.1 1.1 0 01-1.1-1.1z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconLogout
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconMapPin"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M10.343 8.343A8 8 0 0124 14c0 3.098-2.016 6.104-4.226 8.437A29.412 29.412 0 0116 25.773a29.412 29.412 0 01-3.774-3.335C10.016 20.103 8 17.097 8 14a8 8 0 012.343-5.657zm5.102 19.489L16 27l.555.832a1 1 0 01-1.11 0zm0 0L16 27c.555.832.556.831.556.831l.002-.001.007-.005.023-.015.082-.057c.071-.05.173-.12.302-.214a31.433 31.433 0 004.254-3.727C23.516 21.397 26 17.903 26 14a10 10 0 00-20 0c0 3.902 2.484 7.396 4.774 9.813a31.433 31.433 0 004.254 3.726 18.887 18.887 0 00.384.27l.023.016.007.005.003.002zM14 14a2 2 0 114 0 2 2 0 01-4 0zm2-4a4 4 0 100 8 4 4 0 000-8z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconMapPin
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconMap"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M12 5a.995.995 0 00-.511.14L4.504 9.132A1 1 0 004 10v16a1 1 0 001.496.868l6.535-3.734 7.504 3.751a.994.994 0 00.976-.026l6.985-3.99A1 1 0 0028 22V6a1 1 0 00-1.496-.868l-6.536 3.734-7.503-3.751A.995.995 0 0012 5zm9 19.277l5-2.857V7.723l-5 2.857v13.697zm-2-13.659l-6-3v13.764l6 3V10.618zM6 10.58l5-2.857V21.42l-5 2.857V10.58z"
+        fillRule="evenodd"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconMap
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconMaximize"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M25.924 6.617a.997.997 0 00-.215-.322l-.004-.004A.997.997 0 0025 6h-6a1 1 0 100 2h3.586l-5.293 5.293a1 1 0 001.414 1.414L24 9.414V13a1 1 0 102 0V7v-.003a.996.996 0 00-.076-.38z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconMaximize
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconMenu"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M3 16a1 1 0 011-1h24a1 1 0 110 2H4a1 1 0 01-1-1zm0-8a1 1 0 011-1h24a1 1 0 110 2H4a1 1 0 01-1-1zm0 16a1 1 0 011-1h24a1 1 0 110 2H4a1 1 0 01-1-1z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconMenu
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconMinimize"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M25.707 7.707L20.414 13H24a1 1 0 110 2h-6.003A.997.997 0 0117 14V8a1 1 0 112 0v3.586l5.293-5.293a1 1 0 111.414 1.414zM6.293 24.293L11.586 19H8a1 1 0 110-2h6.003A.997.997 0 0115 18v6a1 1 0 11-2 0v-3.586l-5.293 5.293a1 1 0 01-1.414-1.414z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconMinimize
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconMore"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M14.02 7.268a2.247 2.247 0 114.495 0 2.247 2.247 0 01-4.494 0zm0 8.732a2.247 2.247 0 114.495 0 2.247 2.247 0 01-4.494 0zm2.248 6.485a2.247 2.247 0 100 4.494 2.247 2.247 0 000-4.494z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconMore
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconMove"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M8 9.6a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm0 6.216a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm1.6 4.617a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2zM14.4 9.6a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm0 6.216a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm1.6 4.617a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2zM20.8 9.6a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm0 6.216a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm1.6 4.617a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconMove
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconNavigation"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M7 15l19-9-9 19-2-8-8-2z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconNavigation
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconNotification"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M18.595 7.499a1 1 0 000-1.004 3 3 0 00-5.19 0 1 1 0 000 1.004A6.999 6.999 0 009 14c0 3.353-.717 5.435-1.378 6.646a5.938 5.938 0 01-.88 1.244 3.036 3.036 0 01-.305.284l-.003.002A1 1 0 007 24h18a1 1 0 00.566-1.824l-.002-.002a3.026 3.026 0 01-.306-.283 5.939 5.939 0 01-.88-1.245C23.718 19.435 23 17.353 23 14a7 7 0 00-4.405-6.501zM9.149 22h13.702a9.363 9.363 0 01-.229-.396C21.783 20.065 21 17.647 21 14a5 5 0 10-10 0c0 3.647-.783 6.065-1.622 7.604-.076.14-.153.271-.229.396z"
+        fillRule="evenodd"
+      />
+      <path
+        d="M13.768 25.135a1 1 0 011.367.363 1 1 0 001.73 0 1 1 0 111.73 1.004 3 3 0 01-5.19 0 1 1 0 01.363-1.367z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconNotification
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconPin"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M16 5a1 1 0 01.897.557l2.857 5.79 6.39.934a1 1 0 01.554 1.705l-4.623 4.503 1.09 6.362a1 1 0 01-1.45 1.054L16 22.9l-5.715 3.005a1 1 0 01-1.45-1.054l1.09-6.362-4.623-4.503a1 1 0 01.553-1.706l6.39-.933 2.858-5.79A1 1 0 0116 5zm0 3.26l-2.193 4.443a1 1 0 01-.752.546l-4.907.718 3.55 3.457a1 1 0 01.288.885l-.838 4.883 4.386-2.307a1 1 0 01.931 0l4.387 2.307-.838-4.883a1 1 0 01.288-.885l3.55-3.457-4.907-.718a1 1 0 01-.752-.546L16 8.259z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconPin
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconSearch"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M6.4 14.8a8.4 8.4 0 1114.45 5.828 1.199 1.199 0 00-.222.222A8.4 8.4 0 016.4 14.8zm15.141 8.438A10.755 10.755 0 0114.8 25.6C8.835 25.6 4 20.765 4 14.8 4 8.835 8.835 4 14.8 4c5.965 0 10.8 4.835 10.8 10.8 0 2.55-.884 4.894-2.362 6.741l4.41 4.41a1.2 1.2 0 01-1.696 1.697l-4.41-4.41z"
+        fillRule="evenodd"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconSearch
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconSettings"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M27.923 17.39a1.467 1.467 0 01-1.45 1.3h-.2a1.613 1.613 0 00-1.07 2.813c.57.526.64 1.402.16 2.01a11.84 11.84 0 01-1.95 1.92 1.471 1.471 0 01-.9.313 1.493 1.493 0 01-1.09-.477 1.72 1.72 0 00-1.25-.521c-.192-.001-.382.035-.56.105a1.634 1.634 0 00-1 1.56 1.476 1.476 0 01-1.31 1.514c-.898.1-1.804.097-2.7-.007a1.463 1.463 0 01-1.29-1.547 1.636 1.636 0 00-.99-1.585 1.5 1.5 0 00-.57-.11 1.726 1.726 0 00-1.25.521 1.48 1.48 0 01-2.02.16 11.856 11.856 0 01-1.89-1.923 1.459 1.459 0 01.16-1.99c.497-.46.66-1.18.41-1.81a1.6 1.6 0 00-1.45-1h-.06a1.572 1.572 0 01-1.57-1.304c-.11-.907-.11-1.823 0-2.73.079-.76.735-1.329 1.5-1.3a1.731 1.731 0 001.63-.985 1.624 1.624 0 00-.41-1.823 1.484 1.484 0 01-.16-2.01 12.027 12.027 0 011.94-1.92c.26-.201.58-.311.91-.313.414.001.809.175 1.09.48.329.335.78.521 1.25.517.19.002.38-.032.56-.1a1.636 1.636 0 001-1.563 1.475 1.475 0 011.31-1.512 12.01 12.01 0 012.7.007c.772.09 1.339.77 1.29 1.546-.039.685.358 1.32.99 1.587.181.072.375.109.57.108a1.73 1.73 0 001.25-.52 1.472 1.472 0 012.01-.161c.705.565 1.342 1.21 1.9 1.92.483.605.413 1.48-.16 2a1.612 1.612 0 001.11 2.808 1.57 1.57 0 011.56 1.3c.104.904.104 1.817 0 2.722zm-1.98-2.323a3.216 3.216 0 01-2.24-5.447c-.39-.48-.826-.92-1.3-1.315-.622.58-1.44.9-2.29.9a3.061 3.061 0 01-1.19-.233 3.227 3.227 0 01-1.97-2.947 10.03 10.03 0 00-1.85 0 3.021 3.021 0 01-2.07 2.7 2.916 2.916 0 01-1.1.417 3.352 3.352 0 01-2.28-.891 9.7 9.7 0 00-1.34 1.317 3.226 3.226 0 01.66 3.484 3.3 3.3 0 01-2.94 1.966 10.727 10.727 0 00-.01 1.88 3.211 3.211 0 012.24 5.449c.395.475.83.915 1.3 1.316a3.387 3.387 0 012.29-.9c.411-.003.82.076 1.2.234a3.22 3.22 0 011.97 2.945 9.942 9.942 0 001.85 0 3.247 3.247 0 011.99-2.893 3.1 3.1 0 011.17-.224 3.36 3.36 0 012.29.892c.485-.398.933-.84 1.34-1.317a3.207 3.207 0 01-.66-3.484 3.254 3.254 0 012.94-1.974c.06-.625.06-1.254 0-1.88v.005zm-9.94 4.923a4.006 4.006 0 113.99-4.006 4 4 0 01-3.99 4.006zm0-5.992a2 2 0 10.02 4.002 2 2 0 00-.02-4.003z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconSettings
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconShare"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M22.454 6.182a2.182 2.182 0 100 4.363 2.182 2.182 0 000-4.363zm-3.1 5.252a4.364 4.364 0 10-1.1-1.884l-5.79 3.38a4.364 4.364 0 100 6.141l5.792 3.374A4.369 4.369 0 0022.455 28a4.364 4.364 0 10-3.097-7.438l-5.794-3.376a4.368 4.368 0 000-2.373l5.79-3.379zm-8.136 3.416a1.092 1.092 0 00.06.104c.17.31.267.667.267 1.046a2.171 2.171 0 01-.327 1.15 2.182 2.182 0 110-2.3zm9.055 8.786c0-.354.084-.69.235-.985a1.088 1.088 0 00.133-.228 2.182 2.182 0 11-.369 1.214z"
+        fillRule="evenodd"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconShare
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconSuccess"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M18.933 12.252a1.115 1.115 0 011.561-.152c.474.386.543 1.082.153 1.553l-5.046 6.095a1.113 1.113 0 01-1.621.1l-2.633-2.477a1.097 1.097 0 01-.042-1.56 1.115 1.115 0 011.568-.04l1.769 1.663 4.29-5.182z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M16 4C9.373 4 4 9.373 4 16s5.373 12 12 12 12-5.373 12-12S22.627 4 16 4zM6.182 16c0-5.422 4.396-9.818 9.818-9.818s9.818 4.396 9.818 9.818-4.396 9.818-9.818 9.818S6.182 21.422 6.182 16z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconSuccess
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconTeam"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M12.8 4a6 6 0 100 12 6 6 0 000-12zm-3.6 6a3.6 3.6 0 117.2 0 3.6 3.6 0 01-7.2 0z"
+      />
+      <path
+        d="M8 18.4a6 6 0 00-6 6v2.4a1.2 1.2 0 002.4 0v-2.4A3.6 3.6 0 018 20.8h9.6a3.6 3.6 0 013.6 3.6v2.4a1.2 1.2 0 002.4 0v-2.4a6 6 0 00-6-6H8zm16.838 1.056a1.2 1.2 0 011.462-.862 6 6 0 014.5 5.805V26.8a1.2 1.2 0 01-2.4 0v-2.4a3.601 3.601 0 00-2.7-3.482 1.2 1.2 0 01-.862-1.462zm-3.34-15.262a1.2 1.2 0 00-.596 2.324 3.6 3.6 0 010 6.976 1.2 1.2 0 00.596 2.325 6 6 0 000-11.625z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconTeam
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconUpdate"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M4 12.995c0 .124.022.248.068.365l.005.013a1 1 0 00.927.625h6a1 1 0 100-2H7.525l2.8-2.631a8.015 8.015 0 017.446-2.17 8 8 0 015.776 5.134 1 1 0 101.886-.667 10 10 0 00-16.5-3.733L6 10.686V6.998a1 1 0 10-2 0v5.997zm23 6.007a1 1 0 00-.068-.364l-.005-.013A1 1 0 0026 18h-6a1 1 0 100 2h3.476l-2.8 2.631a8.015 8.015 0 01-7.447 2.17 8 8 0 01-5.776-5.135 1 1 0 00-1.886.668 10 10 0 0016.5 3.733L25 21.312V25a1 1 0 102 0v-5.998z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconUpdate
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconUploadCloud"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M17.154 4.916A10.802 10.802 0 004.708 21.954a1.2 1.2 0 101.798-1.59 8.4 8.4 0 1114.429-7.666c.137.53.615.9 1.162.9h1.511a4.8 4.8 0 012.295 9.016 1.2 1.2 0 001.149 2.107 7.201 7.201 0 00-3.443-13.523h-.625a10.804 10.804 0 00-5.83-6.282zM15.559 15.15a1.196 1.196 0 011.702.004l4.796 4.797a1.2 1.2 0 11-1.697 1.697l-2.752-2.752V26.8a1.2 1.2 0 11-2.4 0v-7.904l-2.752 2.752a1.2 1.2 0 01-1.697-1.697l4.8-4.801z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconUploadCloud
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconUpload"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M5 26.079c0 .602.488 1.09 1.09 1.09h19.637a1.091 1.091 0 000-2.181H6.091c-.603 0-1.091.489-1.091 1.09z"
+      />
+      <path
+        clipRule="evenodd"
+        d="M8.293 12.707a1 1 0 001.414 0L16 6.414l6.293 6.293a1 1 0 001.414-1.414l-7-7a1 1 0 00-1.414 0l-7 7a1 1 0 000 1.414z"
+        fillRule="evenodd"
+      />
+      <path
+        clipRule="evenodd"
+        d="M16 22a1 1 0 001-1V5a1 1 0 10-2 0v16a1 1 0 001 1z"
+        fillRule="evenodd"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconUpload
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconUser"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M12.2 10a3.6 3.6 0 117.2 0 3.6 3.6 0 01-7.2 0zm3.6-6a6 6 0 100 12 6 6 0 000-12zM11 18.4a6 6 0 00-6 6v2.4a1.2 1.2 0 002.4 0v-2.4a3.6 3.6 0 013.6-3.6h9.6a3.6 3.6 0 013.6 3.6v2.4a1.2 1.2 0 002.4 0v-2.4a6 6 0 00-6-6H11z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconUser
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconWarning"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M14.457 5.404a3.145 3.145 0 014.232 1.11l.003.005L27.57 21.34l.009.015a3.144 3.144 0 01-2.69 4.717H7.11a3.145 3.145 0 01-2.689-4.717l.009-.015L13.308 6.52l.9.538-.897-.543c.28-.462.675-.844 1.146-1.11zm.648 2.195l-8.872 14.81a1.048 1.048 0 00.895 1.567h17.744a1.048 1.048 0 00.895-1.567l-8.87-14.808-.002-.002a1.05 1.05 0 00-1.79 0zM16 11.397c.579 0 1.048.47 1.048 1.048v4.193a1.048 1.048 0 01-2.096 0v-4.193c0-.579.47-1.048 1.048-1.048zm-.005 8.386c-.576 0-1.043.469-1.043 1.048 0 .579.467 1.048 1.043 1.048h.01c.576 0 1.043-.47 1.043-1.048 0-.579-.467-1.048-1.043-1.048h-.01z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconWarning
+      /&gt;
+    </pre>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots Icon Normal 1`] = `
+.c0 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  color: #000000;
+  width: 32px;
+  height: 32px;
+}
+
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "100vh",
+      "justifyContent": "center",
+    }
+  }
+>
+  <svg
+    className="c0"
+    data-name="IconWarning"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 32 32"
+  >
+    <path
+      clipRule="evenodd"
+      d="M14.457 5.404a3.145 3.145 0 014.232 1.11l.003.005L27.57 21.34l.009.015a3.144 3.144 0 01-2.69 4.717H7.11a3.145 3.145 0 01-2.689-4.717l.009-.015L13.308 6.52l.9.538-.897-.543c.28-.462.675-.844 1.146-1.11zm.648 2.195l-8.872 14.81a1.048 1.048 0 00.895 1.567h17.744a1.048 1.048 0 00.895-1.567l-8.87-14.808-.002-.002a1.05 1.05 0 00-1.79 0zM16 11.397c.579 0 1.048.47 1.048 1.048v4.193a1.048 1.048 0 01-2.096 0v-4.193c0-.579.47-1.048 1.048-1.048zm-.005 8.386c-.576 0-1.043.469-1.043 1.048 0 .579.467 1.048 1.043 1.048h.01c.576 0 1.043-.47 1.043-1.048 0-.579-.467-1.048-1.043-1.048h-.01z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Storyshots InputField Disabled 1`] = `
+.c3 {
+  font-size: 12px;
+  color: #363C4B;
+  margin-bottom: 4px;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.c4 {
+  padding-top: 4px;
+  display: block;
+  font-size: 12px;
+  color: #212632;
+}
+
+.c1 {
+  outline: 0;
+  font-size: 14px;
+  line-height: 48px;
+  text-indent: 24px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border-color: #DCDFE6;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.c1:focus {
+  background-color: #EFF7FB;
+  border-color: #5FAEDA;
+}
+
+.c1:focus + .c2 {
+  color: #5FAEDA;
+}
+
+.c1:disabled {
+  background-color: #F8F8F8;
+  border-color: #DCDFE6;
+  color: #DCDFE6;
+}
+
+.c1:disabled + .c2 {
+  color: #DCDFE6;
+}
+
+.c5:focus + .c2 {
+  color: #5FAEDA;
+}
+
+.c5:disabled + .c2 {
+  color: #DCDFE6;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className=""
+  >
+    <label
+      className="c0"
+    >
+      <input
+        className="c1"
+        disabled={true}
+        onChange={[Function]}
+        placeholder="Placeholder text"
+        type="text"
+        value="Value text"
+      />
+      <p
+        className="c2 c3"
+        disabled={true}
+      >
+        Label text
+      </p>
+    </label>
+    <small
+      className="c4"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InputField Error 1`] = `
+.c3 {
+  font-size: 12px;
+  color: #363C4B;
+  margin-bottom: 4px;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.c4 {
+  padding-top: 4px;
+  display: block;
+  font-size: 12px;
+  color: #CD4C41;
+}
+
+.c5:focus + .c2 {
+  color: #5FAEDA;
+}
+
+.c5:disabled + .c2 {
+  color: #DCDFE6;
+}
+
+.c1 {
+  outline: 0;
+  font-size: 14px;
+  line-height: 48px;
+  text-indent: 24px;
+  border-radius: 4px;
+  background-color: #FAEDEC;
+  border-color: #CD4C41;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.c1:focus {
+  background-color: #EFF7FB;
+  border-color: #5FAEDA;
+}
+
+.c1:focus + .c2 {
+  color: #5FAEDA;
+}
+
+.c1:disabled {
+  background-color: #F8F8F8;
+  border-color: #DCDFE6;
+  color: #DCDFE6;
+}
+
+.c1:disabled + .c2 {
+  color: #DCDFE6;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className=""
+  >
+    <label
+      className="c0"
+    >
+      <input
+        className="c1"
+        disabled={false}
+        onChange={[Function]}
+        placeholder="Placeholder text"
+        type="text"
+        value="Value text"
+      />
+      <p
+        className="c2 c3"
+        disabled={false}
+      >
+        Label text
+      </p>
+    </label>
+    <small
+      className="c4"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InputField Normal 1`] = `
+.c3 {
+  font-size: 12px;
+  color: #363C4B;
+  margin-bottom: 4px;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.c4 {
+  padding-top: 4px;
+  display: block;
+  font-size: 12px;
+  color: #212632;
+}
+
+.c1 {
+  outline: 0;
+  font-size: 14px;
+  line-height: 48px;
+  text-indent: 24px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border-color: #DCDFE6;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.c1:focus {
+  background-color: #EFF7FB;
+  border-color: #5FAEDA;
+}
+
+.c1:focus + .c2 {
+  color: #5FAEDA;
+}
+
+.c1:disabled {
+  background-color: #F8F8F8;
+  border-color: #DCDFE6;
+  color: #DCDFE6;
+}
+
+.c1:disabled + .c2 {
+  color: #DCDFE6;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className=""
+  >
+    <label
+      className="c0"
+    >
+      <input
+        className="c1"
+        disabled={false}
+        onChange={[Function]}
+        placeholder="Placeholder text"
+        type="text"
+        value="Value text"
+      />
+      <p
+        className="c2 c3"
+        disabled={false}
+      >
+        Label text
+      </p>
+    </label>
+    <small
+      className="c4"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Notification Error 1`] = `
+.c2 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 16px;
+  color: #CD4C41;
+  background-color: #FAEDEC;
+}
+
+.c3 {
+  font-family: "Roboto Regular",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+}
+
+.c1 {
+  margin-right: 11px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <svg
+        className="c2"
+        data-name="IconWarning"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+      >
+        <path
+          clipRule="evenodd"
+          d="M14.457 5.404a3.145 3.145 0 014.232 1.11l.003.005L27.57 21.34l.009.015a3.144 3.144 0 01-2.69 4.717H7.11a3.145 3.145 0 01-2.689-4.717l.009-.015L13.308 6.52l.9.538-.897-.543c.28-.462.675-.844 1.146-1.11zm.648 2.195l-8.872 14.81a1.048 1.048 0 00.895 1.567h17.744a1.048 1.048 0 00.895-1.567l-8.87-14.808-.002-.002a1.05 1.05 0 00-1.79 0zM16 11.397c.579 0 1.048.47 1.048 1.048v4.193a1.048 1.048 0 01-2.096 0v-4.193c0-.579.47-1.048 1.048-1.048zm-.005 8.386c-.576 0-1.043.469-1.043 1.048 0 .579.467 1.048 1.043 1.048h.01c.576 0 1.043-.47 1.043-1.048 0-.579-.467-1.048-1.043-1.048h-.01z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c3"
+    >
+      Message
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Notification Normal 1`] = `
+.c2 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 16px;
+  color: #212632;
+  background-color: #EFF7FB;
+}
+
+.c3 {
+  font-family: "Roboto Regular",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+}
+
+.c1 {
+  margin-right: 11px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <svg
+        className="c2"
+        data-name="IconInfo"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+      >
+        <path
+          clipRule="evenodd"
+          d="M16 6.182c-5.422 0-9.818 4.396-9.818 9.818s4.396 9.818 9.818 9.818 9.818-4.396 9.818-9.818S21.422 6.182 16 6.182zM4 16C4 9.373 9.373 4 16 4s12 5.373 12 12-5.373 12-12 12S4 22.627 4 16zm12-1.09c.602 0 1.09.488 1.09 1.09v4.364a1.09 1.09 0 11-2.18 0V16c0-.602.488-1.09 1.09-1.09zm-.005-4.364c-.6 0-1.086.488-1.086 1.09 0 .603.486 1.091 1.086 1.091h.01c.6 0 1.086-.488 1.086-1.09 0-.603-.486-1.091-1.086-1.091h-.01z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c3"
+    >
+      Message
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Notification Success 1`] = `
+.c2 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 16px;
+  color: #299B9A;
+  background-color: #EEF8F6;
+}
+
+.c3 {
+  font-family: "Roboto Regular",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+}
+
+.c1 {
+  margin-right: 11px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <svg
+        className="c2"
+        data-name="IconSuccess"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+      >
+        <path
+          d="M18.933 12.252a1.115 1.115 0 011.561-.152c.474.386.543 1.082.153 1.553l-5.046 6.095a1.113 1.113 0 01-1.621.1l-2.633-2.477a1.097 1.097 0 01-.042-1.56 1.115 1.115 0 011.568-.04l1.769 1.663 4.29-5.182z"
+        />
+        <path
+          clipRule="evenodd"
+          d="M16 4C9.373 4 4 9.373 4 16s5.373 12 12 12 12-5.373 12-12S22.627 4 16 4zM6.182 16c0-5.422 4.396-9.818 9.818-9.818s9.818 4.396 9.818 9.818-4.396 9.818-9.818 9.818S6.182 21.422 6.182 16z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c3"
+    >
+      Message
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Notification With Custom Icon 1`] = `
+.c2 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 16px;
+  color: #299B9A;
+  background-color: #EEF8F6;
+}
+
+.c3 {
+  font-family: "Roboto Regular",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+}
+
+.c1 {
+  margin-right: 11px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <svg
+        className="c2"
+        data-name="IconPin"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+      >
+        <path
+          clipRule="evenodd"
+          d="M16 5a1 1 0 01.897.557l2.857 5.79 6.39.934a1 1 0 01.554 1.705l-4.623 4.503 1.09 6.362a1 1 0 01-1.45 1.054L16 22.9l-5.715 3.005a1 1 0 01-1.45-1.054l1.09-6.362-4.623-4.503a1 1 0 01.553-1.706l6.39-.933 2.858-5.79A1 1 0 0116 5zm0 3.26l-2.193 4.443a1 1 0 01-.752.546l-4.907.718 3.55 3.457a1 1 0 01.288.885l-.838 4.883 4.386-2.307a1 1 0 01.931 0l4.387 2.307-.838-4.883a1 1 0 01.288-.885l3.55-3.457-4.907-.718a1 1 0 01-.752-.546L16 8.259z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c3"
+    >
+      Message
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TextLink Primary 1`] = `
+.c0 {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto Bold",Arial,sans-serif;
+  font-weight: 500;
+  margin: 0;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #1778FB;
+}
+
+.c0:hover {
+  color: #5FAEDA;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <a
+    className="c0"
+    disabled={false}
+    href="#"
+    onClick={[Function]}
+    size="medium"
+  >
+    Message
+  </a>
+</div>
+`;
+
+exports[`Storyshots TextLink Secondary 1`] = `
+.c0 {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto Bold",Arial,sans-serif;
+  font-weight: 500;
+  margin: 0;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #747D93;
+}
+
+.c0:hover {
+  color: #5FAEDA;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <a
+    className="c0"
+    disabled={false}
+    href="#"
+    onClick={[Function]}
+    size="medium"
+  >
+    Message
+  </a>
+</div>
+`;

@@ -1,0 +1,36 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "import",
+    "prettier",
+    "jest",
+    "react-hooks"
+  ],
+  "extends": [
+    "react-app",
+    "prettier",
+    "prettier/react"
+  ],
+  "rules": {
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "prettier/prettier": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/icons/**/*.js",
+          "**/components/**/*.js",
+          "**/setupTests.js",
+          "**/*.test.js",
+          "**/*.spec.js",
+          "**/*.stories.js",
+          "**/stories/**",
+          "/scripts/**",
+          "/config/**"
+        ]
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "printWidth": 100,
+  "jsxBracketSameLine": false,
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "singleQuote": true,
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": "*.d.ts",
+      "options": {
+        "trailingComma": "es5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+export interface TextLinkProps {
+  children: React.ReactNode;
+  className?: string;
+  disabled?: boolean;
+  external?: boolean;
+  href: string;
+  size: 'medium' | 'large';
+  tabIndex?: string;
+  title?: string;
+  variant: 'primary' | 'secondary';
+}
+
+declare const TextLink: React.FunctionComponent<TextLinkProps>;
+
+export default TextLink;
