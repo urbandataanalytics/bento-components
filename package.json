@@ -1,7 +1,7 @@
 {
   "name": "@uda/bento-components",
   "description": "uDA component library",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "license": "MIT",
   "keywords": [
     "react",
@@ -23,7 +23,7 @@
     "build:icons": "babel-node scripts/svgIcon.js",
     "build:storybook": "yarn build:icons && build-storybook -s public",
     "build:local": "yarn build:icons && react-scripts build",
-    "copy:lib": "copyfiles -u 1 \"./src/icons/**\" dist && yarn copy:ts && yarn copy:fonts && yarn copy:package",
+    "copy:lib": "copyfiles -u 1 \"./src/icons/**\" dist && yarn copy:ts && yarn copy:fonts",
     "copy:ts": "copyfiles -u 1 \"./src/**/*.d.ts\" dist",
     "copy:fonts": "copyfiles -u 1 \"./src/fonts/*\" dist",
     "deploy:storybook": "cross-env BABEL_TARGET=\"storybook\" storybook-to-ghpages",
