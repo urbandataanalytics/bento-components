@@ -99,7 +99,6 @@ export const Label = styled.label`
   align-items: center;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
   position: relative;
-  margin-bottom: 16px;
 
   ${CheckboxContainer} {
     color: ${props => props.theme.components.checkboxIconColor};

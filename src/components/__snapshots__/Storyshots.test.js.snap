@@ -346,7 +346,6 @@ exports[`Storyshots Checkbox Normal 1`] = `
   align-items: center;
   cursor: pointer;
   position: relative;
-  margin-bottom: 16px;
 }
 
 .c0 .c2 {
@@ -513,7 +512,6 @@ exports[`Storyshots Checkbox With Label 1`] = `
   align-items: center;
   cursor: pointer;
   position: relative;
-  margin-bottom: 16px;
 }
 
 .c0 .c2 {
