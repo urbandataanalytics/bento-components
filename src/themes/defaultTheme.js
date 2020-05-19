@@ -40,6 +40,22 @@ const color = {
   white: '#FFFFFF'
 };
 
+const spacings = {
+  small1: '4px',
+  small2: '8px',
+  small3: '16px',
+  small4: '24px',
+  medium1: '32px',
+  medium2: '40px',
+  medium3: '48px',
+  medium4: '56px',
+  medium5: '64px',
+  large1: '80px',
+  large2: '96px',
+  large3: '128px',
+  large4: '200px'
+};
+
 const global = {
   bgColor: 'white',
   fontColor: '#333',
@@ -181,5 +197,6 @@ export default {
   fonts,
   global,
   headings,
+  spacings,
   shapes
 };

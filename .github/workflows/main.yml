@@ -24,3 +24,14 @@ jobs:
         run: yarn deploy:storybook --ci
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+
+      # Setup .npmrc file to publish to npm
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: yarn
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
