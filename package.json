@@ -1,7 +1,21 @@
 {
   "name": "@uda/bento-components",
-  "version": "0.1.0",
+  "description": "uDA component library",
+  "version": "0.0.1",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "react-component",
+    "ui",
+    "library",
+    "component"
+  ],
+  "author": "Urban Data Analytics",
+  "homepage": "https://github.com/urbandataanalytics/bento-components",
+  "bugs": {
+    "url": "https://github.com/urbandataanalytics/bento-components/issues"
+  },
+  "private": false,
   "scripts": {
     "storybook": "yarn build:icons && start-storybook -p 9009 -s public",
     "build": "yarn clean && yarn build:icons && yarn build:lib",
@@ -9,10 +23,9 @@
     "build:icons": "babel-node scripts/svgIcon.js",
     "build:storybook": "yarn build:icons && build-storybook -s public",
     "build:local": "yarn build:icons && react-scripts build",
-    "copy:lib": "copyfiles -u 1 \"./src/icons/**\" dist && yarn copy:ts && yarn copy:fonts && yarn copy:package",
+    "copy:lib": "copyfiles -u 1 \"./src/icons/**\" dist && yarn copy:ts && yarn copy:fonts",
     "copy:ts": "copyfiles -u 1 \"./src/**/*.d.ts\" dist",
     "copy:fonts": "copyfiles -u 1 \"./src/fonts/*\" dist",
-    "copy:package": "copyfiles package.json dist",
     "deploy:storybook": "cross-env BABEL_TARGET=\"storybook\" storybook-to-ghpages",
     "test": "jest",
     "test:ci": "yarn build:icons && jest --ci --coverage",
