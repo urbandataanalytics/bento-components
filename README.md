@@ -24,14 +24,14 @@
 Run the following command using [Yarn](https://yarnpkg.com/en/):
 
 ```bash
-yarn add @urbandataanalytics/bento-components
+yarn add @uda/bento-components
 ```
 
 If you prefer [npm](https://www.npmjs.com/), use the following command
 instead:
 
 ```bash
-npm install @urbandataanalytics/bento-components
+npm install @uda/bento-components
 ```
 
 ## 📋  Changelog
