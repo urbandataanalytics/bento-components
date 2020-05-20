@@ -1,7 +1,7 @@
 {
   "name": "@uda/bento-components",
   "description": "uDA component library",
-  "version": "0.1.0",
+  "version": "0.1.10",
   "license": "MIT",
   "keywords": [
     "react",
@@ -19,11 +19,11 @@
   "scripts": {
     "storybook": "yarn build:icons && start-storybook -p 9009 -s public",
     "build": "yarn clean && yarn build:icons && yarn build:lib",
-    "build:lib": "yarn copy:lib && cross-env NODE_ENV=\"production\" babel --out-dir lib --ignore **/*.stories.js,**/*.test.js src",
+    "build:lib": "yarn copy:lib && cross-env NODE_ENV=\"production\" babel --out-dir lib --ignore **/*.stories.js,**/*.test.js,**/serviceWorker.js,**/setupTests.js src",
     "build:icons": "babel-node scripts/svgIcon.js",
     "build:storybook": "yarn build:icons && build-storybook -s public",
     "build:local": "yarn build:icons && react-scripts build",
-    "copy:lib": "copyfiles -u 1 \"./src/icons/**\" lib && yarn copy:ts && yarn copy:fonts",
+    "copy:lib": "copyfiles -u 1 \"./src/icons/**\" --exclude \"./src/icons/svg/**\" lib && yarn copy:ts && yarn copy:fonts",
     "copy:ts": "copyfiles -u 1 \"./src/**/*.d.ts\" lib",
     "copy:fonts": "copyfiles -u 1 \"./src/fonts/*\" lib",
     "deploy:storybook": "cross-env BABEL_TARGET=\"storybook\" storybook-to-ghpages",
@@ -45,8 +45,7 @@
     "README.md",
     ".babelrc",
     ".eslintrc",
-    "package.json",
-    "yarn.lock"
+    "package.json"
   ],
   "repository": {
     "type": "git",
