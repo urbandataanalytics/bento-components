@@ -80,6 +80,10 @@ const StyledCloseButton = styled.button`
   }
 `;
 
+StyledCloseButton.defaultProps = {
+  theme: defaultTheme
+};
+
 const Notification = props => {
   const { showIcon, icon, variant, children, closable, onClose } = props;
 
