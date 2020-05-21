@@ -699,6 +699,22 @@ exports[`Storyshots FormGroup Playground 1`] = `
   color: #CD4C41;
 }
 
+.c2.error:focus::-webkit-input-placeholder {
+  color: #DCDFE6;
+}
+
+.c2.error:focus::-moz-placeholder {
+  color: #DCDFE6;
+}
+
+.c2.error:focus:-ms-input-placeholder {
+  color: #DCDFE6;
+}
+
+.c2.error:focus::placeholder {
+  color: #DCDFE6;
+}
+
 .c2:focus {
   background-color: #EFF7FB;
   border-color: #5FAEDA;
@@ -2993,6 +3009,22 @@ exports[`Storyshots InputField Disabled 1`] = `
   color: #CD4C41;
 }
 
+.c1.error:focus::-webkit-input-placeholder {
+  color: #DCDFE6;
+}
+
+.c1.error:focus::-moz-placeholder {
+  color: #DCDFE6;
+}
+
+.c1.error:focus:-ms-input-placeholder {
+  color: #DCDFE6;
+}
+
+.c1.error:focus::placeholder {
+  color: #DCDFE6;
+}
+
 .c1:focus {
   background-color: #EFF7FB;
   border-color: #5FAEDA;
@@ -3137,6 +3169,22 @@ exports[`Storyshots InputField Error 1`] = `
   color: #CD4C41;
 }
 
+.c1.error:focus::-webkit-input-placeholder {
+  color: #DCDFE6;
+}
+
+.c1.error:focus::-moz-placeholder {
+  color: #DCDFE6;
+}
+
+.c1.error:focus:-ms-input-placeholder {
+  color: #DCDFE6;
+}
+
+.c1.error:focus::placeholder {
+  color: #DCDFE6;
+}
+
 .c1:focus {
   background-color: #EFF7FB;
   border-color: #5FAEDA;
@@ -3279,6 +3327,22 @@ exports[`Storyshots InputField Normal 1`] = `
 
 .c1.error::placeholder {
   color: #CD4C41;
+}
+
+.c1.error:focus::-webkit-input-placeholder {
+  color: #DCDFE6;
+}
+
+.c1.error:focus::-moz-placeholder {
+  color: #DCDFE6;
+}
+
+.c1.error:focus:-ms-input-placeholder {
+  color: #DCDFE6;
+}
+
+.c1.error:focus::placeholder {
+  color: #DCDFE6;
 }
 
 .c1:focus {
