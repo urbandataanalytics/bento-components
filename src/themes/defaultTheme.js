@@ -87,6 +87,15 @@ const headings = [
   }
 ];
 
+const texts = {
+  p2: {
+    fontFamily: global.fontFamilyRegular,
+    fontSize: '12px',
+    color: color.charcoal800,
+    lineHeight: ' 150%'
+  }
+};
+
 const shapes = {
   borderRadiusLarge: '8px',
   borderRadiusMedium: '4px',
@@ -198,5 +207,6 @@ export default {
   global,
   headings,
   spacings,
-  shapes
+  shapes,
+  texts
 };
