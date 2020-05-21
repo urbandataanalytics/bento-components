@@ -565,7 +565,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
 `;
 
 exports[`Storyshots FormGroup Playground 1`] = `
-.c5 {
+.c6 {
   border-width: 1px;
   font-weight: 500;
   border-style: solid;
@@ -601,17 +601,17 @@ exports[`Storyshots FormGroup Playground 1`] = `
   border-radius: 4px;
 }
 
-.c5:disabled {
+.c6:disabled {
   cursor: default;
 }
 
-.c5:hover {
+.c6:hover {
   background-color: #5FAEDA;
   border-color: #5FAEDA;
   color: #FFFFFF;
 }
 
-.c5:disabled {
+.c6:disabled {
   background-color: #DCDFE6;
   border-color: #DCDFE6;
 }
@@ -628,18 +628,75 @@ exports[`Storyshots FormGroup Playground 1`] = `
   transition: 300ms ease-in-out;
 }
 
+.c5 {
+  padding-top: 4px;
+  display: block;
+  font-size: 12px;
+  min-height: 18px;
+  color: #212632;
+}
+
+.c5.error {
+  color: #CD4C41;
+}
+
 .c2 {
   outline: 0;
   font-size: 14px;
   line-height: 48px;
   text-indent: 24px;
   border-radius: 4px;
-  background-color: #FFFFFF;
-  border-color: #DCDFE6;
   border-width: 1px;
   border-style: solid;
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
+  background-color: #FFFFFF;
+  border-color: #DCDFE6;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c2::-moz-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c2:-ms-input-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c2::placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c2.error {
+  background-color: #FAEDEC;
+  border-color: #CD4C41;
+}
+
+.c2.error::-webkit-input-placeholder {
+  color: #CD4C41;
+}
+
+.c2.error::-moz-placeholder {
+  color: #CD4C41;
+}
+
+.c2.error:-ms-input-placeholder {
+  color: #CD4C41;
+}
+
+.c2.error::placeholder {
+  color: #CD4C41;
 }
 
 .c2:focus {
@@ -681,9 +738,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
   <div
     className="c0"
   >
-    <div
-      className=""
-    >
+    <div>
       <label
         className="c1"
       >
@@ -702,14 +757,15 @@ exports[`Storyshots FormGroup Playground 1`] = `
           Email
         </p>
       </label>
+      <small
+        className="c5"
+      />
     </div>
   </div>
   <div
     className="c0"
   >
-    <div
-      className=""
-    >
+    <div>
       <label
         className="c1"
       >
@@ -728,13 +784,16 @@ exports[`Storyshots FormGroup Playground 1`] = `
           Password
         </p>
       </label>
+      <small
+        className="c5"
+      />
     </div>
   </div>
   <div
     className="c0"
   >
     <button
-      className="c5"
+      className="c6"
       disabled={true}
       size="large"
     >
@@ -2867,7 +2926,12 @@ exports[`Storyshots InputField Disabled 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
+  min-height: 18px;
   color: #212632;
+}
+
+.c4.error {
+  color: #CD4C41;
 }
 
 .c1 {
@@ -2876,12 +2940,57 @@ exports[`Storyshots InputField Disabled 1`] = `
   line-height: 48px;
   text-indent: 24px;
   border-radius: 4px;
-  background-color: #FFFFFF;
-  border-color: #DCDFE6;
   border-width: 1px;
   border-style: solid;
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
+  background-color: #FFFFFF;
+  border-color: #DCDFE6;
+}
+
+.c1::-webkit-input-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1::-moz-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1:-ms-input-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1::placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1.error {
+  background-color: #FAEDEC;
+  border-color: #CD4C41;
+}
+
+.c1.error::-webkit-input-placeholder {
+  color: #CD4C41;
+}
+
+.c1.error::-moz-placeholder {
+  color: #CD4C41;
+}
+
+.c1.error:-ms-input-placeholder {
+  color: #CD4C41;
+}
+
+.c1.error::placeholder {
+  color: #CD4C41;
 }
 
 .c1:focus {
@@ -2903,14 +3012,6 @@ exports[`Storyshots InputField Disabled 1`] = `
   color: #DCDFE6;
 }
 
-.c5:focus + .c2 {
-  color: #5FAEDA;
-}
-
-.c5:disabled + .c2 {
-  color: #DCDFE6;
-}
-
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2928,9 +3029,7 @@ exports[`Storyshots InputField Disabled 1`] = `
     }
   }
 >
-  <div
-    className=""
-  >
+  <div>
     <label
       className="c0"
     >
@@ -2971,15 +3070,12 @@ exports[`Storyshots InputField Error 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
+  min-height: 18px;
+  color: #212632;
+}
+
+.c4.error {
   color: #CD4C41;
-}
-
-.c5:focus + .c2 {
-  color: #5FAEDA;
-}
-
-.c5:disabled + .c2 {
-  color: #DCDFE6;
 }
 
 .c1 {
@@ -2988,12 +3084,57 @@ exports[`Storyshots InputField Error 1`] = `
   line-height: 48px;
   text-indent: 24px;
   border-radius: 4px;
-  background-color: #FAEDEC;
-  border-color: #CD4C41;
   border-width: 1px;
   border-style: solid;
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
+  background-color: #FFFFFF;
+  border-color: #DCDFE6;
+}
+
+.c1::-webkit-input-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1::-moz-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1:-ms-input-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1::placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1.error {
+  background-color: #FAEDEC;
+  border-color: #CD4C41;
+}
+
+.c1.error::-webkit-input-placeholder {
+  color: #CD4C41;
+}
+
+.c1.error::-moz-placeholder {
+  color: #CD4C41;
+}
+
+.c1.error:-ms-input-placeholder {
+  color: #CD4C41;
+}
+
+.c1.error::placeholder {
+  color: #CD4C41;
 }
 
 .c1:focus {
@@ -3032,14 +3173,12 @@ exports[`Storyshots InputField Error 1`] = `
     }
   }
 >
-  <div
-    className=""
-  >
+  <div>
     <label
       className="c0"
     >
       <input
-        className="c1"
+        className="c1 error"
         disabled={false}
         onChange={[Function]}
         placeholder="Placeholder text"
@@ -3054,7 +3193,7 @@ exports[`Storyshots InputField Error 1`] = `
       </p>
     </label>
     <small
-      className="c4"
+      className="c4 error"
     >
       Help text
     </small>
@@ -3075,7 +3214,12 @@ exports[`Storyshots InputField Normal 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
+  min-height: 18px;
   color: #212632;
+}
+
+.c4.error {
+  color: #CD4C41;
 }
 
 .c1 {
@@ -3084,12 +3228,57 @@ exports[`Storyshots InputField Normal 1`] = `
   line-height: 48px;
   text-indent: 24px;
   border-radius: 4px;
-  background-color: #FFFFFF;
-  border-color: #DCDFE6;
   border-width: 1px;
   border-style: solid;
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
+  background-color: #FFFFFF;
+  border-color: #DCDFE6;
+}
+
+.c1::-webkit-input-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1::-moz-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1:-ms-input-placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1::placeholder {
+  color: #DCDFE6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.c1.error {
+  background-color: #FAEDEC;
+  border-color: #CD4C41;
+}
+
+.c1.error::-webkit-input-placeholder {
+  color: #CD4C41;
+}
+
+.c1.error::-moz-placeholder {
+  color: #CD4C41;
+}
+
+.c1.error:-ms-input-placeholder {
+  color: #CD4C41;
+}
+
+.c1.error::placeholder {
+  color: #CD4C41;
 }
 
 .c1:focus {
@@ -3128,9 +3317,7 @@ exports[`Storyshots InputField Normal 1`] = `
     }
   }
 >
-  <div
-    className=""
-  >
+  <div>
     <label
       className="c0"
     >

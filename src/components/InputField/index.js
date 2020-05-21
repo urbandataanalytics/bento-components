@@ -19,6 +19,10 @@ const HelpText = styled.small`
   display: block;
   font-size: ${({ theme }) => theme.components.inputFieldHelpFontSize};
   min-height: 18px;
+  color: ${({ theme }) => theme.components.inputFieldHelpColor};
+  &.error {
+    color: ${({ theme }) => theme.components.inputFieldErrorHelpColor};
+  }
 `;
 
 HelpText.defaultProps = {
@@ -31,10 +35,29 @@ const Input = styled.input`
   line-height: ${({ theme }) => theme.components.inputFieldLineHeight};
   text-indent: ${({ theme }) => theme.components.inputFieldTextIndent};
   border-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
-
   border-width: 1px;
   border-style: solid;
   transition: 300ms ease-in-out;
+  background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
+  border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
+
+  &::placeholder {
+    color: ${({ theme }) => theme.components.inputFieldPlaceholderColor};
+    transition: color 300ms ease-in-out;
+  }
+
+  &.error {
+    background-color: ${({ theme }) => theme.components.inputFieldErrorBackgroundColor};
+    border-color: ${({ theme }) => theme.components.inputFieldErrorBorderColor};
+
+    &::placeholder {
+      color: ${({ theme }) => theme.components.inputFieldErrorPlaceholderColor};
+    }
+
+    &:focus::placeholder {
+      color: ${({ theme }) => theme.components.inputFieldPlaceholderColor};
+    }
+  }
 
   &:focus {
     background-color: ${({ theme }) => theme.components.inputFieldFocusBackgroundColor};
@@ -69,36 +92,6 @@ Label.defaultProps = {
   theme: defaultTheme
 };
 
-const InputFieldContainer = styled.div`
-  > ${Label} {
-    > ${Input} {
-      background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
-      border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
-    }
-
-    + ${HelpText} {
-      color: ${({ theme }) => theme.components.inputFieldHelpColor};
-    }
-  }
-
-  &.error {
-    > ${Label} {
-      > ${Input} {
-        background-color: ${({ theme }) => theme.components.inputFieldErrorBackgroundColor};
-        border-color: ${({ theme }) => theme.components.inputFieldErrorBorderColor};
-      }
-
-      + ${HelpText} {
-        color: ${({ theme }) => theme.components.inputFieldErrorHelpColor};
-      }
-    }
-  }
-`;
-
-InputFieldContainer.defaultProps = {
-  theme: defaultTheme
-};
-
 const InputField = React.forwardRef((props, ref) => {
   const {
     className,
@@ -116,9 +109,10 @@ const InputField = React.forwardRef((props, ref) => {
   } = props;
 
   return (
-    <InputFieldContainer className={error ? `error ${className}` : className}>
+    <div className={className}>
       <Label>
         <Input
+          className={error ? `error` : null}
           type={type}
           disabled={disabled}
           value={value}
@@ -131,8 +125,8 @@ const InputField = React.forwardRef((props, ref) => {
         />
         {label && <LabelText disabled={disabled}>{label}</LabelText>}
       </Label>
-      <HelpText>{help}</HelpText>
-    </InputFieldContainer>
+      <HelpText className={error ? 'error' : null}>{help}</HelpText>
+    </div>
   );
 });
 

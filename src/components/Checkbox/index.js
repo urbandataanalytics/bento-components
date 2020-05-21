@@ -113,7 +113,7 @@ const Checkbox = React.forwardRef((props, ref) => {
   const { size, checked, disabled, label, name, tabIndex, onChange, ...other } = props;
   const handleToggle = event => {
     if (!disabled && onChange) {
-      onChange(!checked, event);
+      onChange(event, !checked);
     }
   };
 
