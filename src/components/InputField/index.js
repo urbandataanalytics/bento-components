@@ -14,20 +14,11 @@ LabelText.defaultProps = {
   theme: defaultTheme
 };
 
-const InputFieldContainer = styled.div``;
-
-InputFieldContainer.defaultProps = {
-  theme: defaultTheme
-};
-
 const HelpText = styled.small`
   padding-top: 4px;
   display: block;
   font-size: ${({ theme }) => theme.components.inputFieldHelpFontSize};
-  color: ${props =>
-    props.error
-      ? props.theme.components.inputFieldErrorHelpColor
-      : props.theme.components.inputFieldHelpColor};
+  min-height: 18px;
 `;
 
 HelpText.defaultProps = {
@@ -40,15 +31,6 @@ const Input = styled.input`
   line-height: ${({ theme }) => theme.components.inputFieldLineHeight};
   text-indent: ${({ theme }) => theme.components.inputFieldTextIndent};
   border-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
-  background-color: ${props =>
-    props.error
-      ? props.theme.components.inputFieldErrorBackgroundColor
-      : props.theme.components.inputFieldBackgroundColor};
-
-  border-color: ${props =>
-    props.error
-      ? props.theme.components.inputFieldErrorBorderColor
-      : props.theme.components.inputFieldBorderColor};
 
   border-width: 1px;
   border-style: solid;
@@ -87,6 +69,36 @@ Label.defaultProps = {
   theme: defaultTheme
 };
 
+const InputFieldContainer = styled.div`
+  > ${Label} {
+    > ${Input} {
+      background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
+      border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
+    }
+
+    + ${HelpText} {
+      color: ${({ theme }) => theme.components.inputFieldHelpColor};
+    }
+  }
+
+  &.error {
+    > ${Label} {
+      > ${Input} {
+        background-color: ${({ theme }) => theme.components.inputFieldErrorBackgroundColor};
+        border-color: ${({ theme }) => theme.components.inputFieldErrorBorderColor};
+      }
+
+      + ${HelpText} {
+        color: ${({ theme }) => theme.components.inputFieldErrorHelpColor};
+      }
+    }
+  }
+`;
+
+InputFieldContainer.defaultProps = {
+  theme: defaultTheme
+};
+
 const InputField = React.forwardRef((props, ref) => {
   const {
     className,
@@ -104,10 +116,9 @@ const InputField = React.forwardRef((props, ref) => {
   } = props;
 
   return (
-    <InputFieldContainer>
-      <Label className={className}>
+    <InputFieldContainer className={error ? `error ${className}` : className}>
+      <Label>
         <Input
-          error={error}
           type={type}
           disabled={disabled}
           value={value}
@@ -118,13 +129,9 @@ const InputField = React.forwardRef((props, ref) => {
           ref={ref}
           {...other}
         />
-        {label && (
-          <LabelText error={error} disabled={disabled}>
-            {label}
-          </LabelText>
-        )}
+        {label && <LabelText disabled={disabled}>{label}</LabelText>}
       </Label>
-      {help && <HelpText error={error}>{help}</HelpText>}
+      <HelpText>{help}</HelpText>
     </InputFieldContainer>
   );
 });
@@ -133,6 +140,7 @@ InputField.propTypes = {
   className: PropTypes.string,
   disabled: PropTypes.bool,
   error: PropTypes.bool,
+  help: PropTypes.string,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
   onChange: PropTypes.func.isRequired,
