@@ -34,7 +34,7 @@ const variants = {
   }
 };
 
-const StyledNotification = styled.div`
+const StyledNotification = styled.aside`
   position: relative;
   display: flex;
   align-items: flex-start;
