@@ -21,6 +21,7 @@
           "**/icons/**/*.js",
           "**/components/**/*.js",
           "**/setupTests.js",
+          "**/rollup.config.js",
           "**/*.test.js",
           "**/*.spec.js",
           "**/*.stories.js",
