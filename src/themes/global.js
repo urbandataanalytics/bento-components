@@ -41,7 +41,6 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
     transition: color 300ms ease-in-out;
     white-space: nowrap;
 
