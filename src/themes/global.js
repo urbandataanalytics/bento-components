@@ -18,6 +18,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.global.fontColor};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 150%;
   }
 
   ${({ theme }) => headingsGenerator(theme.headings)}
