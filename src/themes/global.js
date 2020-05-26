@@ -22,6 +22,11 @@ const GlobalStyle = createGlobalStyle`
 
   ${({ theme }) => headingsGenerator(theme.headings)}
 
+  strong {
+    font-family: ${({ theme }) => theme.global.fontFamilyBold};
+    font-weight: 500;
+  }
+
   button{
     -webkit-appearance: none;
     background-color: transparent;
