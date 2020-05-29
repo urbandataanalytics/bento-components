@@ -5,7 +5,7 @@ export interface CheckboxProps {
   name?: string;
   size?: 'medium' | 'small';
   tabIndex?: string;
-  onChange?: (isChecked: boolean, event: React.SyntheticEvent<HTMLInputElement>) => void;
+  onChange?: (event: React.SyntheticEvent<HTMLInputElement>, isChecked: boolean) => void;
 }
 
 declare const Checkbox: React.FunctionComponent<CheckboxProps & React.InputHTMLAttributes<HTMLInputElement>>;

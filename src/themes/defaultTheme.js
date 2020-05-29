@@ -157,6 +157,7 @@ const components = {
   iconSecondaryColor: color.charcoal600,
 
   /*InputField Theme props*/
+
   inputFieldBackgroundColor: color.white,
   inputFieldBorderColor: color.charcoal400,
   inputFieldBorderRadius: shapes.borderRadiusMedium,
@@ -167,6 +168,7 @@ const components = {
   inputFieldErrorBackgroundColor: color.redclay100,
   inputFieldErrorBorderColor: color.redclay500,
   inputFieldErrorHelpColor: color.redclay500,
+  inputFieldErrorPlaceholderColor: color.redclay500,
   inputFieldFocusBackgroundColor: color.primary100,
   inputFieldFocusBorderColor: color.primary300,
   inputFieldFocusLabelColor: color.primary300,
@@ -176,6 +178,7 @@ const components = {
   inputFieldLabelColor: color.charcoal700,
   inputFieldLabelFontSize: '12px',
   inputFieldLineHeight: '48px',
+  inputFieldPlaceholderColor: color.charcoal400,
   inputFieldTextIndent: '24px',
 
   /* Notification Theme Props */

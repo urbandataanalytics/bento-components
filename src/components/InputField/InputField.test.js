@@ -26,16 +26,6 @@ describe(`InputField`, () => {
     expect(input().props().disabled).toBe(false);
   });
 
-  it('should set error prop on input', () => {
-    const wrapper = shallow(<InputField error {...props} />);
-
-    const input = () => wrapper.find('InputField__Input');
-    expect(input().props().error).toBe(true);
-
-    wrapper.setProps({ error: false });
-    expect(input().props().error).toBe(false);
-  });
-
   it('should set tabindex prop on input', () => {
     const wrapper = shallow(<InputField tabIndex="-1" {...props} />);
 
@@ -53,18 +43,22 @@ describe(`InputField`, () => {
 
   describe('styles', () => {
     const component = mount(<InputField error {...props} />);
-    const container = component.find('InputField__Input');
-    const theme = container.prop('theme');
+    const help = component.find('InputField__HelpText');
+    const input = component.find('InputField__Input');
+    const theme = input.prop('theme');
 
-    it('should have error styles', () => {
-      expect(container).toHaveStyleRule(
-        'background-color',
-        theme.components.inputFieldErrorBackgroundColor
-      );
-      expect(container).toHaveStyleRule(
-        'border-color',
-        theme.components.inputFieldErrorBorderColor
-      );
+    it('should have error classname', () => {
+      expect(input.hasClass('error')).toBe(true);
+      expect(input).toHaveStyleRule('border-color', theme.components.inputFieldErrorBorderColor, {
+        modifier: '&.error'
+      });
+    });
+
+    it('should have error classname', () => {
+      expect(help.hasClass('error')).toBe(true);
+      expect(help).toHaveStyleRule('color', theme.components.inputFieldErrorHelpColor, {
+        modifier: '&.error'
+      });
     });
   });
 });

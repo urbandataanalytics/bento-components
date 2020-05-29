@@ -18,9 +18,15 @@ const GlobalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.global.fontColor};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 150%;
   }
 
   ${({ theme }) => headingsGenerator(theme.headings)}
+
+  strong {
+    font-family: ${({ theme }) => theme.global.fontFamilyBold};
+    font-weight: 500;
+  }
 
   button{
     -webkit-appearance: none;
@@ -36,7 +42,6 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
     transition: color 300ms ease-in-out;
     white-space: nowrap;
 

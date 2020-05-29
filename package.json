@@ -1,7 +1,7 @@
 {
   "name": "@uda/bento-components",
   "description": "uDA component library",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "license": "MIT",
   "keywords": [
     "react",
@@ -22,7 +22,7 @@
     "build:lib": "yarn copy:lib && cross-env NODE_ENV=\"production\" babel --out-dir lib --ignore **/*.stories.js,**/*.test.js,**/serviceWorker.js,**/setupTests.js src",
     "build:icons": "babel-node scripts/svgIcon.js",
     "build:storybook": "yarn build:icons && build-storybook -s public",
-    "build:local": "yarn build:icons && react-scripts build",
+    "build:local": "yarn build:icons && yarn build:lib",
     "copy:lib": "copyfiles -u 1 \"./src/icons/**\" --exclude \"./src/icons/svg/**\" lib && yarn copy:ts && yarn copy:fonts",
     "copy:ts": "copyfiles -u 1 \"./src/**/*.d.ts\" lib",
     "copy:fonts": "copyfiles -u 1 \"./src/fonts/*\" lib",
