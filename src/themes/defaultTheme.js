@@ -92,7 +92,7 @@ const texts = {
     fontFamily: global.fontFamilyRegular,
     fontSize: '12px',
     color: color.charcoal800,
-    lineHeight: ' 150%'
+    lineHeight: '1.5'
   }
 };
 
@@ -142,17 +142,17 @@ const components = {
   checkboxLabelColor: color.charcoal800,
   checkboxLabelDisabled: color.charcoal400,
   checkboxLabelFontSize: '14px',
-  checkboxLabelMargin: '16px',
-  checkboxSizeMedium: '24px',
-  checkboxSizeSmall: '16px',
+  checkboxLabelMargin: spacings.small3,
+  checkboxSizeMedium: spacings.small4,
+  checkboxSizeSmall: spacings.small3,
 
   /*FormGroup Theme props*/
-  formGroupMarginBottom: '2rem',
+  formGroupMarginBottom: spacings.small3,
 
   /* Icon Theme props */
   iconSizeLarge: '32px',
-  iconSizeMedium: '24px',
-  iconSizeSmall: '16px',
+  iconSizeMedium: spacings.small4,
+  iconSizeSmall: spacings.small3,
   iconPrimaryColor: color.primary500,
   iconSecondaryColor: color.charcoal600,
 
@@ -179,7 +179,7 @@ const components = {
   inputFieldLabelFontSize: '12px',
   inputFieldLineHeight: '48px',
   inputFieldPlaceholderColor: color.charcoal400,
-  inputFieldTextIndent: '24px',
+  inputFieldTextIndent: spacings.small4,
 
   /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
@@ -188,7 +188,7 @@ const components = {
   notificationErrorColor: color.redclay500,
   notificationNormalBackgroundColor: color.primary100,
   notificationNormalColor: color.charcoal800,
-  notificationPadding: '16px',
+  notificationPadding: spacings.small3,
   notificationSuccessBackgroundColor: color.emerald100,
   notificationSuccessColor: color.emerald600,
 

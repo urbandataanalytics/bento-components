@@ -144,6 +144,10 @@ InputField.propTypes = {
   value: PropTypes.string.isRequired
 };
 
+InputField.defaultProps = {
+  value: ''
+};
+
 InputField.displayName = 'InputField';
 
 export default InputField;
