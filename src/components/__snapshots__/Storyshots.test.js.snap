@@ -592,7 +592,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   width: 100%;
-  padding: 17px 32px;
+  padding: 19px 32px;
   font-size: 14px;
   min-width: 140px;
   color: #FFFFFF;

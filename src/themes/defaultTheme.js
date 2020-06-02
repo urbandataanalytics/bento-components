@@ -118,7 +118,7 @@ const components = {
   buttonFontSizeMedium: '12px',
   buttonMinWidthLarge: '140px',
   buttonMinWidthMedium: '120px',
-  buttonPaddingLarge: '17px 32px',
+  buttonPaddingLarge: '19px 32px',
   buttonPaddingMedium: '11px 32px',
   buttonPrimaryBackgroundColor: color.primary500,
   buttonPrimaryBorderColor: color.primary500,
