@@ -18,7 +18,7 @@ const HelpText = styled.small`
   padding-top: 4px;
   display: block;
   font-size: ${({ theme }) => theme.components.inputFieldHelpFontSize};
-  min-height: 18px;
+  min-height: 25px;
   color: ${({ theme }) => theme.components.inputFieldHelpColor};
   &.error {
     color: ${({ theme }) => theme.components.inputFieldErrorHelpColor};

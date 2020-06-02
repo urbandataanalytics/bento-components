@@ -632,7 +632,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
-  min-height: 18px;
+  min-height: 25px;
   color: #212632;
 }
 
@@ -2980,7 +2980,7 @@ exports[`Storyshots InputField Disabled 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
-  min-height: 18px;
+  min-height: 25px;
   color: #212632;
 }
 
@@ -3140,7 +3140,7 @@ exports[`Storyshots InputField Error 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
-  min-height: 18px;
+  min-height: 25px;
   color: #212632;
 }
 
@@ -3300,7 +3300,7 @@ exports[`Storyshots InputField Normal 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
-  min-height: 18px;
+  min-height: 25px;
   color: #212632;
 }
 
