@@ -60,7 +60,6 @@ const TextLink = React.forwardRef((props, ref) => {
     href,
     size,
     tabIndex,
-    title,
     variant,
     ...other
   } = props;
@@ -89,7 +88,6 @@ TextLink.propTypes = {
   href: PropTypes.string.isRequired,
   size: PropTypes.oneOf(['medium', 'large']),
   tabIndex: PropTypes.string,
-  title: PropTypes.string,
   variant: PropTypes.oneOf(['primary', 'secondary'])
 };
 
