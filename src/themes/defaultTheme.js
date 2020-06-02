@@ -1,4 +1,5 @@
 import RobotoRegular from '../fonts/Roboto-Regular.ttf';
+import RobotoMedium from '../fonts/Roboto-Medium.ttf';
 import RobotoBold from '../fonts/Roboto-Bold.ttf';
 
 const fontCallback = 'Arial, sans-serif';
@@ -11,10 +12,16 @@ const fonts = [
     weight: 'normal'
   },
   {
+    name: 'Roboto Medium',
+    src: RobotoMedium,
+    style: 'normal',
+    weight: 500
+  },
+  {
     name: 'Roboto Bold',
     src: RobotoBold,
     style: 'normal',
-    weight: 500
+    weight: 700
   }
 ];
 
@@ -60,29 +67,30 @@ const global = {
   bgColor: 'white',
   fontColor: '#333',
   fontFamilyBold: `"Roboto Bold", ${fontCallback}`,
+  fontFamilyMedium: `"Roboto Medium", ${fontCallback}`,
   fontFamilyRegular: `"Roboto Regular", ${fontCallback}`,
   fontSize: '14px'
 };
 
 const headings = [
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamilyMedium,
     size: '3.4rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamilyMedium,
     size: '2.5rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamilyMedium,
     size: '1.7rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamilyMedium,
     size: '1.1rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamilyMedium,
     size: '0.8rem'
   }
 ];
