@@ -14,7 +14,7 @@ const StyledLabel = styled.label`
 const ChildrenContainer = styled.div`
   opacity: ${props => (props.isOpen ? '1' : '0')};
   visibility: ${props => (props.isOpen ? 'visible' : 'hidden')};
-  transform: translate(${props => (props.isOpen ? '10px, 10px' : '10px, 0')});
+  transform: translate(${props => (props.isOpen ? '0, 10px' : '0, 0')});
   transition: ${props => props.theme.global.transition};
   position: fixed;
   min-width: 200px;
