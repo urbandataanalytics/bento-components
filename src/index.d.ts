@@ -23,3 +23,6 @@ export * from './components/Notification';
 
 export { default as TextLink } from './components/TextLink';
 export * from './components/TextLink';
+
+export { default as Drawer } from './components/Drawer';
+export * from './components/Drawer';

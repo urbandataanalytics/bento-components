@@ -564,6 +564,310 @@ exports[`Storyshots Checkbox With Label 1`] = `
 </div>
 `;
 
+exports[`Storyshots Drawer Normal 1`] = `
+Array [
+  .c0 {
+  border-width: 1px;
+  font-weight: 500;
+  border-style: solid;
+  font-family: "Roboto Bold",Arial,sans-serif;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  padding: 11px 32px;
+  font-size: 12px;
+  min-width: 120px;
+  color: #FFFFFF;
+  background-color: #1778FB;
+  border-color: #1778FB;
+  border-radius: 4px;
+}
+
+.c0:disabled {
+  cursor: default;
+}
+
+.c0:hover {
+  background-color: #5FAEDA;
+  border-color: #5FAEDA;
+  color: #FFFFFF;
+}
+
+.c0:disabled {
+  background-color: #DCDFE6;
+  border-color: #DCDFE6;
+}
+
+<button
+    className="c0"
+    disabled={false}
+    onClick={[Function]}
+    size="medium"
+  >
+    Open drawer
+  </button>,
+  .c4 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.c0 {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 16;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 320px;
+  border-left: 1px solid #EFF2F7;
+  background-color: #ffffff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -webkit-transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+}
+
+.c1 {
+  padding: 17px 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px solid #eff2f7;
+}
+
+.c2 {
+  display: block;
+}
+
+.c3 {
+  margin-left: auto;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #dcdfe6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.c6 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto Medium",Arial,sans-serif;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.c6:hover {
+  background-color: #EFF2F7;
+  color: #747D93;
+}
+
+.c7 {
+  margin-right: 19px;
+  color: #747D93;
+}
+
+.c7 > svg {
+  fill: #747D93;
+}
+
+.c8 {
+  color: #747D93;
+}
+
+.c8 > a {
+  color: #747D93;
+}
+
+.c8 > a:hover {
+  color: #747D93;
+}
+
+.c8 > svg {
+  fill: #747D93;
+}
+
+.c8 > svg:hover {
+  fill: #747D93;
+}
+
+.c5 {
+  padding: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid #EFF2F7;
+  box-sizing: border-box;
+  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
+  border-radius: 4px;
+}
+
+<div
+    className=""
+    open={true}
+  >
+    <aside
+      className="c0"
+      open={true}
+    >
+      <header
+        className="c1"
+      >
+        <div
+          className=""
+        >
+          <h4>
+            Title
+          </h4>
+          <div
+            className="c2"
+          >
+            <small>
+              Subtitle
+            </small>
+          </div>
+        </div>
+        <button
+          className="c3"
+          onClick={[Function]}
+        >
+          <svg
+            className="c4"
+            data-name="IconClose"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 32 32"
+          >
+            <path
+              d="M22.707 10.707a1 1 0 00-1.414-1.414L16 14.586l-5.293-5.293a1 1 0 00-1.414 1.414L14.586 16l-5.293 5.293a1 1 0 101.414 1.414L16 17.414l5.293 5.293a1 1 0 001.414-1.414L17.414 16l5.293-5.293z"
+            />
+          </svg>
+        </button>
+      </header>
+      <div
+        className=""
+      >
+        <ul
+          className="c5"
+        >
+          <li
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <svg
+                className="c4"
+                data-name="IconUser"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M12.2 10a3.6 3.6 0 117.2 0 3.6 3.6 0 01-7.2 0zm3.6-6a6 6 0 100 12 6 6 0 000-12zM11 18.4a6 6 0 00-6 6v2.4a1.2 1.2 0 002.4 0v-2.4a3.6 3.6 0 013.6-3.6h9.6a3.6 3.6 0 013.6 3.6v2.4a1.2 1.2 0 002.4 0v-2.4a6 6 0 00-6-6H11z"
+                />
+              </svg>
+            </div>
+            <div
+              className="c8"
+            >
+              Text
+            </div>
+          </li>
+          <li
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <svg
+                className="c4"
+                data-name="IconAsset"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M15.198 4.368a1.266 1.266 0 011.785 0l.001.001 11.873 11.889.012.014a1.265 1.265 0 01-1.785 1.785l-.014-.012-1.173-1.174v9.23A1.899 1.899 0 0124 28h-5.855v-7.912H14.03V28H8.175a1.899 1.899 0 01-1.9-1.899v-9.237l-1.172 1.173-.014.012a1.266 1.266 0 01-1.785-1.785l.012-.014L15.197 4.37l.001-.002zm-6.707 10.28v11.137h3.323v-7.912h8.545v7.912h3.323v-11.13l-7.595-7.601-7.596 7.595z"
+                />
+              </svg>
+            </div>
+            <div
+              className="c8"
+            >
+              Text
+            </div>
+          </li>
+          <li
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <svg
+                className="c4"
+                data-name="IconFolder"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+                />
+              </svg>
+            </div>
+            <div
+              className="c8"
+            >
+              Text
+            </div>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </div>,
+]
+`;
+
 exports[`Storyshots Dropdown Playground 1`] = `
 .c2 {
   border-width: 1px;
