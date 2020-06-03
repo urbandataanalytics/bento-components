@@ -29,7 +29,7 @@ const Dropdown = ({ children, label, autoClose, ...other }) => {
   const ref = useRef();
 
   useOnclickOutside(ref, () => {
-    if (autoClose) return;
+    if (!autoClose) return;
     setOpen(false);
   });
 
