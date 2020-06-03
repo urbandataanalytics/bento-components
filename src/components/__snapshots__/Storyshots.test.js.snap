@@ -678,6 +678,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
 
 .c3 {
   opacity: 0;
+  visibility: hidden;
   -webkit-transform: translate(10px,0);
   -ms-transform: translate(10px,0);
   transform: translate(10px,0);
@@ -961,6 +962,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 
 .c3 {
   opacity: 0;
+  visibility: hidden;
   -webkit-transform: translate(10px,0);
   -ms-transform: translate(10px,0);
   transform: translate(10px,0);
