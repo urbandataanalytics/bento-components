@@ -47,21 +47,31 @@ const GlobalStyle = createGlobalStyle`
 
     &.primary{
       color: ${({ theme }) => theme.color.primary500};
+      &:visited{
+        color: ${({ theme }) => theme.color.primary500};
+      }
     }
 
     &.disabled{
       color: ${({ theme }) => theme.color.charcoal400};
+      &:visited{
+        color: ${({ theme }) => theme.color.charcoal400};
+      }
     }
 
     &.secondary{
       color: ${({ theme }) => theme.color.charcoal600};
+      &:visited{
+        color: ${({ theme }) => theme.color.charcoal600};
+      }
     }
 
     &.large{
       font-size: 14px;
     }
 
-    &:hover{
+    &:hover,
+    .active{
       color: ${({ theme }) => theme.color.primary300};
     }
   }
