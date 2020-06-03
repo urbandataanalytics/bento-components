@@ -23,8 +23,8 @@ const Dropdown = React.forwardRef((props, ref) => {
 
   return (
     <StyledDropdown {...other}>
-      <StyledLabel>{label}</StyledLabel>
-      <ChildrenContainer>{children}</ChildrenContainer>
+      <StyledLabel onClick={() => setOpen(true)}>{label}</StyledLabel>
+      <ChildrenContainer isOpen={isOpen}>{children}</ChildrenContainer>
     </StyledDropdown>
   );
 });
