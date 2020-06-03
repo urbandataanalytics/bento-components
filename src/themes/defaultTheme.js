@@ -69,7 +69,8 @@ const global = {
   fontFamilyBold: `"Roboto Bold", ${fontCallback}`,
   fontFamilyMedium: `"Roboto Medium", ${fontCallback}`,
   fontFamilyRegular: `"Roboto Regular", ${fontCallback}`,
-  fontSize: '14px'
+  fontSize: '14px',
+  transition: 'all 300ms ease-in-out'
 };
 
 const headings = [
@@ -207,7 +208,21 @@ const components = {
   textLinkPrimaryColor: color.primary500,
   textLinkPrimaryHoverColor: color.primary300,
   textLinkSecondaryColor: color.charcoal600,
-  textLinkSecondaryHoverColor: color.primary300
+  textLinkSecondaryHoverColor: color.primary300,
+
+  /*List Theme props*/
+  listBackgroundColor: color.white,
+  listBorderColor: color.charcoal300,
+  listBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
+  listBorderRadius: shapes.borderRadiusMedium,
+  listPadding: spacings.small2,
+
+  /*ListItem Theme props*/
+  listItemSeparatorColor: color.charcoal300,
+  listItemColorActive: color.primary500,
+  listItemColorActiveHover: color.primary100,
+  listItemColorDefault: color.charcoal600,
+  listItemColorDefaultHover: color.charcoal300
 };
 
 export default {

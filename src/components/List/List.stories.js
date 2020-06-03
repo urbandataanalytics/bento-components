@@ -2,6 +2,7 @@ import React from 'react';
 import { number } from '@storybook/addon-knobs';
 import List from './index';
 import ListItem from './ListItem/';
+import IconFolder from '../../icons/Folder/index';
 
 export default {
   title: 'List',
@@ -41,12 +42,12 @@ export const WithChildrens = () => {
   return (
     <div style={containerStyle}>
       <List>
-        <ListItem leftContent="Icon">Text</ListItem>
-        <ListItem rightContent="Icon" active>
+        <ListItem leftContent={<IconFolder />}>Text</ListItem>
+        <ListItem rightContent={<IconFolder />} active>
           Text
         </ListItem>
         <ListItem separator />
-        <ListItem leftContent="Icon" rightContent="Icon">
+        <ListItem leftContent={<IconFolder />} rightContent={<IconFolder />}>
           Text
         </ListItem>
       </List>

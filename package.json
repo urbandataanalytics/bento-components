@@ -155,5 +155,7 @@
     "typescript": "^3.8.3",
     "webpack-cli": "^3.3.11"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-cool-onclickoutside": "^1.4.8"
+  }
 }

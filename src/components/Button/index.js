@@ -60,10 +60,10 @@ const StyledButton = styled.button`
   cursor: pointer;
   margin: 0;
   white-space: nowrap;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: all 300ms ease-in-out;
+  transition: ${props => props.theme.global.transition};
 
   &:disabled {
     cursor: default;

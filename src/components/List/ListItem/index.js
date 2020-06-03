@@ -7,16 +7,25 @@ const StyledListItem = styled.li`
   display: flex;
   align-items: center;
   background-color: ${props =>
-    props.active ? props.theme.color.primary100 : props.theme.color.white};
-  color: ${props => (props.active ? props.theme.color.primary500 : props.theme.color.charcoal600)};
+    props.active ? props.theme.components.listItemColorActiveHover : props.theme.color.white};
+  color: ${props =>
+    props.active
+      ? props.theme.components.listItemColorActive
+      : props.theme.components.listItemColorDefault};
   font-size: 14px;
   font-family: ${props => props.theme.global.fontFamilyMedium};
-  transition: all 300ms ease-in-out;
+  transition: ${props => props.theme.global.transition};
   cursor: pointer;
 
   &:hover {
-    background-color: ${props => props.theme.color.primary100};
-    color: ${props => props.theme.color.primary500};
+    background-color: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActiveHover
+        : props.theme.components.listItemColorDefaultHover};
+    color: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
   }
 `;
 StyledListItem.defaultProps = {
@@ -25,12 +34,29 @@ StyledListItem.defaultProps = {
 
 const StyledLeftContent = styled.div`
   margin-right: 19px;
+  color: ${props =>
+    props.active
+      ? props.theme.components.listItemColorActive
+      : props.theme.components.listItemColorDefault};
 
   > svg {
-    fill: ${props => (props.active ? props.theme.color.primary500 : props.theme.color.charcoal600)};
+    fill: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
+  }
 
-    &:hover {
-      fill: ${props => props.theme.color.primary500};
+  &:hover {
+    color: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
+
+    > svg {
+      fill: ${props =>
+        props.active
+          ? props.theme.components.listItemColorActive
+          : props.theme.components.listItemColorDefault};
     }
   }
 `;
@@ -40,12 +66,22 @@ StyledLeftContent.defaultProps = {
 };
 
 const StyledContent = styled.div`
+  color: ${props =>
+    props.active
+      ? props.theme.components.listItemColorActive
+      : props.theme.components.listItemColorDefault};
+  &:hover {
+    color: ${props => props.theme.components.listItemColorActive};
+  }
+
   > a {
     color: ${props =>
-      props.active ? props.theme.color.primary500 : props.theme.color.charcoal600};
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
 
     &:hover {
-      color: ${props => props.theme.color.primary500};
+      color: ${props => props.theme.components.listItemColorActive};
     }
   }
 `;
@@ -56,12 +92,29 @@ StyledContent.defaultProps = {
 
 const StyledRightContent = styled.div`
   margin-left: auto;
+  color: ${props =>
+    props.active
+      ? props.theme.components.listItemColorActive
+      : props.theme.components.listItemColorDefault};
 
   > svg {
-    fill: ${props => (props.active ? props.theme.color.primary500 : props.theme.color.charcoal600)};
+    fill: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
+  }
 
-    &:hover {
-      fill: ${props => props.theme.color.primary500};
+  &:hover {
+    color: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
+
+    > svg {
+      fill: ${props =>
+        props.active
+          ? props.theme.components.listItemColorActive
+          : props.theme.components.listItemColorDefault};
     }
   }
 `;
@@ -74,10 +127,11 @@ const StyledListSeparator = styled.hr`
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid ${props => props.theme.color.charcoal300};
+  border-top: 1px solid ${props => props.theme.components.listItemSeparatorColor};
   margin: 0;
   padding: 0;
 `;
+
 StyledListSeparator.defaultProps = {
   theme: defaultTheme
 };
@@ -88,10 +142,10 @@ const ListItem = React.forwardRef((props, ref) => {
   return separator ? (
     <StyledListSeparator />
   ) : (
-    <StyledListItem separator={separator} {...other} active={active}>
-      {leftContent && <StyledLeftContent>{leftContent}</StyledLeftContent>}
-      <StyledContent>{children}</StyledContent>
-      {rightContent && <StyledRightContent>{rightContent}</StyledRightContent>}
+    <StyledListItem {...other} active={active}>
+      {leftContent && <StyledLeftContent active={active}>{leftContent}</StyledLeftContent>}
+      <StyledContent active={active}>{children}</StyledContent>
+      {rightContent && <StyledRightContent active={active}>{rightContent}</StyledRightContent>}
     </StyledListItem>
   );
 });

@@ -4,6 +4,7 @@ import ListItem from '../List/ListItem/';
 import List from '../List/';
 import Button from '../Button/';
 import Dropdown from './index';
+import IconFolder from '../../icons/Folder/index';
 
 export default {
   title: 'Dropdown',
@@ -26,7 +27,7 @@ export const Playground = () => {
 
   return (
     <div style={containerStyle}>
-      <Dropdown label={<Button size="large">Label example</Button>}>
+      <Dropdown label={<Button>Label example</Button>}>
         <List {...getCommonProps()}>
           {elements.map((e, i) => (
             <ListItem key={i}>{i + 1}</ListItem>
@@ -44,11 +45,11 @@ export const WithChildrens = () => {
 
   return (
     <div style={containerStyle}>
-      <Dropdown label={<Button size="large">Label example</Button>}>
+      <Dropdown label={<Button>Label example</Button>}>
         <List>
-          <ListItem leftContent="Icon">Text</ListItem>
-          <ListItem rightContent="Icon">Text</ListItem>
-          <ListItem leftContent="Icon" rightContent="Icon" active>
+          <ListItem leftContent={<IconFolder />}>Text</ListItem>
+          <ListItem rightContent={<IconFolder />}>Text</ListItem>
+          <ListItem leftContent={<IconFolder />} rightContent={<IconFolder />} active>
             Text
           </ListItem>
         </List>

@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 
 const StyledList = styled.ul`
-  padding: 8px;
-  background-color: ${props => props.theme.color.white};
-  border: 1px solid ${props => props.theme.color.charcoal300};
+  padding: ${props => props.theme.components.listPadding};
+  background-color: ${props => props.theme.components.listBackgroundColor};
+  border: 1px solid ${props => props.theme.components.listBorderColor};
   box-sizing: border-box;
-  box-shadow: 0px 16px 32px rgba(54, 60, 75, 0.1);
-  border-radius: 4px;
+  box-shadow: ${props => props.theme.components.listBoxShadow};
+  border-radius: ${props => props.theme.components.listBorderRadius};
 `;
 
 StyledList.defaultProps = {
