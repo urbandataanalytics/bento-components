@@ -592,7 +592,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   width: 100%;
-  padding: 17px 32px;
+  padding: 19px 32px;
   font-size: 14px;
   min-width: 140px;
   color: #FFFFFF;
@@ -617,7 +617,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
 }
 
 .c0 {
-  margin-bottom: 2rem;
+  margin-bottom: 16px;
 }
 
 .c4 {
@@ -632,7 +632,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
-  min-height: 18px;
+  min-height: 25px;
   color: #212632;
 }
 
@@ -1039,6 +1039,44 @@ exports[`Storyshots Icon All Icons 1`] = `
     >
       &lt;
       IconArrowClose
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconArrowLeft"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 32 32"
+    >
+      <path
+        d="M26.316 15.161H7.342l3.504-3.504a.976.976 0 000-1.374.976.976 0 00-1.375 0l-5.175 5.175c-.053.053-.08.107-.134.161 0 .027-.027.027-.027.054a.205.205 0 00-.054.108c0 .027-.027.054-.027.08 0 .028-.027.055-.027.082 0 .054-.027.134-.027.188s0 .135.027.189c0 .027.027.054.027.08.027.055.027.082.027.109.027.027.027.08.054.108 0 .027.027.027.027.053.027.054.08.108.134.162l5.175 5.175a.979.979 0 001.402 0 .976.976 0 000-1.375L7.369 17.13h18.974c.539 0 .97-.432.97-.97-.027-.54-.458-.998-.997-.998z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconArrowLeft
       /&gt;
     </pre>
   </li>
@@ -2942,7 +2980,7 @@ exports[`Storyshots InputField Disabled 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
-  min-height: 18px;
+  min-height: 25px;
   color: #212632;
 }
 
@@ -3102,7 +3140,7 @@ exports[`Storyshots InputField Error 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
-  min-height: 18px;
+  min-height: 25px;
   color: #212632;
 }
 
@@ -3262,7 +3300,7 @@ exports[`Storyshots InputField Normal 1`] = `
   padding-top: 4px;
   display: block;
   font-size: 12px;
-  min-height: 18px;
+  min-height: 25px;
   color: #212632;
 }
 

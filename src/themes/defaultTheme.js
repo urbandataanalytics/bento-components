@@ -1,4 +1,5 @@
 import RobotoRegular from '../fonts/Roboto-Regular.ttf';
+import RobotoMedium from '../fonts/Roboto-Medium.ttf';
 import RobotoBold from '../fonts/Roboto-Bold.ttf';
 
 const fontCallback = 'Arial, sans-serif';
@@ -11,10 +12,16 @@ const fonts = [
     weight: 'normal'
   },
   {
+    name: 'Roboto Medium',
+    src: RobotoMedium,
+    style: 'normal',
+    weight: 500
+  },
+  {
     name: 'Roboto Bold',
     src: RobotoBold,
     style: 'normal',
-    weight: 500
+    weight: 700
   }
 ];
 
@@ -60,29 +67,30 @@ const global = {
   bgColor: 'white',
   fontColor: '#333',
   fontFamilyBold: `"Roboto Bold", ${fontCallback}`,
+  fontFamilyMedium: `"Roboto Medium", ${fontCallback}`,
   fontFamilyRegular: `"Roboto Regular", ${fontCallback}`,
   fontSize: '14px'
 };
 
 const headings = [
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamilyMedium,
     size: '3.4rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamilyMedium,
     size: '2.5rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamilyMedium,
     size: '1.7rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamilyMedium,
     size: '1.1rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamilyMedium,
     size: '0.8rem'
   }
 ];
@@ -92,7 +100,7 @@ const texts = {
     fontFamily: global.fontFamilyRegular,
     fontSize: '12px',
     color: color.charcoal800,
-    lineHeight: ' 150%'
+    lineHeight: '1.5'
   }
 };
 
@@ -110,7 +118,7 @@ const components = {
   buttonFontSizeMedium: '12px',
   buttonMinWidthLarge: '140px',
   buttonMinWidthMedium: '120px',
-  buttonPaddingLarge: '17px 32px',
+  buttonPaddingLarge: '19px 32px',
   buttonPaddingMedium: '11px 32px',
   buttonPrimaryBackgroundColor: color.primary500,
   buttonPrimaryBorderColor: color.primary500,
@@ -142,17 +150,17 @@ const components = {
   checkboxLabelColor: color.charcoal800,
   checkboxLabelDisabled: color.charcoal400,
   checkboxLabelFontSize: '14px',
-  checkboxLabelMargin: '16px',
-  checkboxSizeMedium: '24px',
-  checkboxSizeSmall: '16px',
+  checkboxLabelMargin: spacings.small3,
+  checkboxSizeMedium: spacings.small4,
+  checkboxSizeSmall: spacings.small3,
 
   /*FormGroup Theme props*/
-  formGroupMarginBottom: '2rem',
+  formGroupMarginBottom: spacings.small3,
 
   /* Icon Theme props */
   iconSizeLarge: '32px',
-  iconSizeMedium: '24px',
-  iconSizeSmall: '16px',
+  iconSizeMedium: spacings.small4,
+  iconSizeSmall: spacings.small3,
   iconPrimaryColor: color.primary500,
   iconSecondaryColor: color.charcoal600,
 
@@ -179,7 +187,7 @@ const components = {
   inputFieldLabelFontSize: '12px',
   inputFieldLineHeight: '48px',
   inputFieldPlaceholderColor: color.charcoal400,
-  inputFieldTextIndent: '24px',
+  inputFieldTextIndent: spacings.small4,
 
   /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
@@ -188,7 +196,7 @@ const components = {
   notificationErrorColor: color.redclay500,
   notificationNormalBackgroundColor: color.primary100,
   notificationNormalColor: color.charcoal800,
-  notificationPadding: '16px',
+  notificationPadding: spacings.small3,
   notificationSuccessBackgroundColor: color.emerald100,
   notificationSuccessColor: color.emerald600,
 
