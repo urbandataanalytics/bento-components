@@ -643,16 +643,20 @@ exports[`Storyshots Dropdown Playground 1`] = `
   color: #747D93;
 }
 
-.c6:hover {
-  color: #1778FB;
-}
-
 .c6 > a {
   color: #747D93;
 }
 
 .c6 > a:hover {
-  color: #1778FB;
+  color: #747D93;
+}
+
+.c6 > svg {
+  fill: #747D93;
+}
+
+.c6 > svg:hover {
+  fill: #747D93;
 }
 
 .c4 {
@@ -871,14 +875,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   fill: #747D93;
 }
 
-.c6:hover {
-  color: #747D93;
-}
-
-.c6:hover > svg {
-  fill: #747D93;
-}
-
 .c11 {
   margin-right: 19px;
   color: #1778FB;
@@ -888,20 +884,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   fill: #1778FB;
 }
 
-.c11:hover {
-  color: #1778FB;
-}
-
-.c11:hover > svg {
-  fill: #1778FB;
-}
-
 .c8 {
   color: #747D93;
-}
-
-.c8:hover {
-  color: #1778FB;
 }
 
 .c8 > a {
@@ -909,14 +893,18 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 }
 
 .c8 > a:hover {
-  color: #1778FB;
+  color: #747D93;
+}
+
+.c8 > svg {
+  fill: #747D93;
+}
+
+.c8 > svg:hover {
+  fill: #747D93;
 }
 
 .c12 {
-  color: #1778FB;
-}
-
-.c12:hover {
   color: #1778FB;
 }
 
@@ -928,6 +916,14 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   color: #1778FB;
 }
 
+.c12 > svg {
+  fill: #1778FB;
+}
+
+.c12 > svg:hover {
+  fill: #1778FB;
+}
+
 .c9 {
   margin-left: auto;
   color: #747D93;
@@ -937,28 +933,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   fill: #747D93;
 }
 
-.c9:hover {
-  color: #747D93;
-}
-
-.c9:hover > svg {
-  fill: #747D93;
-}
-
 .c13 {
   margin-left: auto;
   color: #1778FB;
 }
 
 .c13 > svg {
-  fill: #1778FB;
-}
-
-.c13:hover {
-  color: #1778FB;
-}
-
-.c13:hover > svg {
   fill: #1778FB;
 }
 
@@ -4023,16 +4003,20 @@ exports[`Storyshots List Playground 1`] = `
   color: #747D93;
 }
 
-.c2:hover {
-  color: #1778FB;
-}
-
 .c2 > a {
   color: #747D93;
 }
 
 .c2 > a:hover {
-  color: #1778FB;
+  color: #747D93;
+}
+
+.c2 > svg {
+  fill: #747D93;
+}
+
+.c2 > svg:hover {
+  fill: #747D93;
 }
 
 .c0 {
@@ -4162,20 +4146,8 @@ exports[`Storyshots List With Childrens 1`] = `
   fill: #747D93;
 }
 
-.c2:hover {
-  color: #747D93;
-}
-
-.c2:hover > svg {
-  fill: #747D93;
-}
-
 .c4 {
   color: #747D93;
-}
-
-.c4:hover {
-  color: #1778FB;
 }
 
 .c4 > a {
@@ -4183,14 +4155,18 @@ exports[`Storyshots List With Childrens 1`] = `
 }
 
 .c4 > a:hover {
-  color: #1778FB;
+  color: #747D93;
+}
+
+.c4 > svg {
+  fill: #747D93;
+}
+
+.c4 > svg:hover {
+  fill: #747D93;
 }
 
 .c6 {
-  color: #1778FB;
-}
-
-.c6:hover {
   color: #1778FB;
 }
 
@@ -4202,6 +4178,14 @@ exports[`Storyshots List With Childrens 1`] = `
   color: #1778FB;
 }
 
+.c6 > svg {
+  fill: #1778FB;
+}
+
+.c6 > svg:hover {
+  fill: #1778FB;
+}
+
 .c9 {
   margin-left: auto;
   color: #747D93;
@@ -4211,28 +4195,12 @@ exports[`Storyshots List With Childrens 1`] = `
   fill: #747D93;
 }
 
-.c9:hover {
-  color: #747D93;
-}
-
-.c9:hover > svg {
-  fill: #747D93;
-}
-
 .c7 {
   margin-left: auto;
   color: #1778FB;
 }
 
 .c7 > svg {
-  fill: #1778FB;
-}
-
-.c7:hover {
-  color: #1778FB;
-}
-
-.c7:hover > svg {
   fill: #1778FB;
 }
 

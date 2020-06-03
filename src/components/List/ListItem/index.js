@@ -28,6 +28,7 @@ const StyledListItem = styled.li`
         : props.theme.components.listItemColorDefault};
   }
 `;
+
 StyledListItem.defaultProps = {
   theme: defaultTheme
 };
@@ -45,20 +46,6 @@ const StyledLeftContent = styled.div`
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
   }
-
-  &:hover {
-    color: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
-
-    > svg {
-      fill: ${props =>
-        props.active
-          ? props.theme.components.listItemColorActive
-          : props.theme.components.listItemColorDefault};
-    }
-  }
 `;
 
 StyledLeftContent.defaultProps = {
@@ -70,9 +57,6 @@ const StyledContent = styled.div`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
-  &:hover {
-    color: ${props => props.theme.components.listItemColorActive};
-  }
 
   > a {
     color: ${props =>
@@ -81,7 +65,24 @@ const StyledContent = styled.div`
         : props.theme.components.listItemColorDefault};
 
     &:hover {
-      color: ${props => props.theme.components.listItemColorActive};
+      color: ${props =>
+        props.active
+          ? props.theme.components.listItemColorActive
+          : props.theme.components.listItemColorDefault};
+    }
+  }
+
+  > svg {
+    fill: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
+
+    &:hover {
+      fill: ${props =>
+        props.active
+          ? props.theme.components.listItemColorActive
+          : props.theme.components.listItemColorDefault};
     }
   }
 `;
@@ -102,20 +103,6 @@ const StyledRightContent = styled.div`
       props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
-  }
-
-  &:hover {
-    color: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
-
-    > svg {
-      fill: ${props =>
-        props.active
-          ? props.theme.components.listItemColorActive
-          : props.theme.components.listItemColorDefault};
-    }
   }
 `;
 
