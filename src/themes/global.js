@@ -6,9 +6,9 @@ const GlobalStyle = createGlobalStyle`
 
   ${reset}
 
-  html{
-    font-family: ${({ theme }) => theme.global.fontfamily};
-    font-weight: ${props => props.theme.global.fontWeightRegultar};
+  html {
+    font-family: ${({ theme }) => theme.global.fontFamily};
+    font-weight: ${({ theme }) => theme.global.fontWeightRegular};
     font-size: ${({ theme }) => theme.global.fontSize};
   }
 
@@ -27,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: ${props => props.theme.global.fontWeightBold};
   }
 
-  button{
+  button {
     -webkit-appearance: none;
     background-color: transparent;
     border: none;
@@ -36,7 +36,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
   
-  a{
+  a {
     font-family: ${props => props.theme.global.fontFamily};
     font-weight: ${props => props.theme.global.fontWeightBold};
     text-decoration: none;
@@ -44,49 +44,37 @@ const GlobalStyle = createGlobalStyle`
     transition: color 300ms ease-in-out;
     white-space: nowrap;
 
-    &.primary{
+    &.primary {
       color: ${({ theme }) => theme.color.primary500};
-      &:visited{
+      &:visited {
         color: ${({ theme }) => theme.color.primary500};
       }
     }
 
-    &.disabled{
+    &.disabled {
       color: ${({ theme }) => theme.color.charcoal400};
-      &:visited{
+      &:visited {
         color: ${({ theme }) => theme.color.charcoal400};
       }
     }
 
-    &.secondary{
+    &.secondary {
       color: ${({ theme }) => theme.color.charcoal600};
-      &:visited{
+      &:visited {
         color: ${({ theme }) => theme.color.charcoal600};
       }
     }
 
-    &.large{
+    &.large {
       font-size: 14px;
     }
 
     &:hover,
-    .active{
+    .active {
       color: ${({ theme }) => theme.color.primary300};
     }
   }
 `;
-
-const fontFaceGenerator = config =>
-  config.map(
-    ({ name, src, weight, style }) =>
-      `@font-face {
-      font-family: '${name}';
-      src: local('${name}'), local('${name}'),
-      url(${src}) format('truetype');
-      font-weight: ${weight};
-      font-style: ${style};
-    }`
-  );
 
 const headingsGenerator = config =>
   config.map(
