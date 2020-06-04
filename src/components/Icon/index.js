@@ -68,7 +68,6 @@ const Icon = props => {
     ariaLabel,
     ...other
   } = props;
-  console.log(other);
 
   return (
     <StyledIcon
