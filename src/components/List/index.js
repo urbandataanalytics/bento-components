@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
+import PropTypes from 'prop-types';
 
 const StyledList = styled.ul`
   padding: ${props => props.theme.components.listPadding};
@@ -26,5 +27,9 @@ const List = React.forwardRef((props, ref) => {
 });
 
 List.displayName = 'List';
+
+List.propTypes = {
+  children: PropTypes.node.isRequired
+};
 
 export default List;

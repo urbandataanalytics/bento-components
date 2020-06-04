@@ -13,7 +13,8 @@ const StyledListItem = styled.li`
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
   font-size: 14px;
-  font-family: ${props => props.theme.global.fontFamilyMedium};
+  font-family: ${props => props.theme.global.fontFamily};
+  font-weight: ${props => props.theme.global.fontWeightMedium};
   transition: ${props => props.theme.global.transition};
   cursor: pointer;
 

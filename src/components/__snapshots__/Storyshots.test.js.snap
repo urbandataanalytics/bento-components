@@ -3,9 +3,9 @@
 exports[`Storyshots Button Block 1`] = `
 .c0 {
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -73,9 +73,9 @@ exports[`Storyshots Button Block 1`] = `
 exports[`Storyshots Button Normal 1`] = `
 .c0 {
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -142,9 +142,9 @@ exports[`Storyshots Button Normal 1`] = `
 exports[`Storyshots Button With Icon 1`] = `
 .c0 {
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -464,7 +464,8 @@ exports[`Storyshots Checkbox With Label 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  font-family: "Roboto Regular",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
   color: #212632;
 }
@@ -567,9 +568,9 @@ exports[`Storyshots Checkbox With Label 1`] = `
 exports[`Storyshots Dropdown Playground 1`] = `
 .c2 {
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -628,7 +629,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
   background-color: #FFFFFF;
   color: #747D93;
   font-size: 14px;
-  font-family: "Roboto Medium",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   cursor: pointer;
@@ -761,9 +763,9 @@ exports[`Storyshots Dropdown Playground 1`] = `
 exports[`Storyshots Dropdown With Childrens 1`] = `
 .c2 {
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -832,7 +834,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   background-color: #FFFFFF;
   color: #747D93;
   font-size: 14px;
-  font-family: "Roboto Medium",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   cursor: pointer;
@@ -856,7 +859,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   background-color: #EFF7FB;
   color: #1778FB;
   font-size: 14px;
-  font-family: "Roboto Medium",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   cursor: pointer;
@@ -1096,9 +1100,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 exports[`Storyshots FormGroup Playground 1`] = `
 .c6 {
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -3990,7 +3994,8 @@ exports[`Storyshots List Playground 1`] = `
   background-color: #FFFFFF;
   color: #747D93;
   font-size: 14px;
-  font-family: "Roboto Medium",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   cursor: pointer;
@@ -4104,7 +4109,8 @@ exports[`Storyshots List With Childrens 1`] = `
   background-color: #FFFFFF;
   color: #747D93;
   font-size: 14px;
-  font-family: "Roboto Medium",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   cursor: pointer;
@@ -4128,7 +4134,8 @@ exports[`Storyshots List With Childrens 1`] = `
   background-color: #EFF7FB;
   color: #1778FB;
   font-size: 14px;
-  font-family: "Roboto Medium",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   cursor: pointer;
@@ -4358,7 +4365,8 @@ exports[`Storyshots Notification Error 1`] = `
 }
 
 .c3 {
-  font-family: "Roboto Regular",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   width: 100%;
@@ -4432,7 +4440,8 @@ exports[`Storyshots Notification Normal 1`] = `
 }
 
 .c3 {
-  font-family: "Roboto Regular",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   width: 100%;
@@ -4506,7 +4515,8 @@ exports[`Storyshots Notification Success 1`] = `
 }
 
 .c3 {
-  font-family: "Roboto Regular",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   width: 100%;
@@ -4583,7 +4593,8 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
 }
 
 .c3 {
-  font-family: "Roboto Regular",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   width: 100%;
@@ -4631,7 +4642,7 @@ exports[`Storyshots TextLink Primary 1`] = `
 .c0 {
   cursor: pointer;
   display: inline-block;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
   margin: 0;
   outline: none;
@@ -4671,7 +4682,7 @@ exports[`Storyshots TextLink Secondary 1`] = `
 .c0 {
   cursor: pointer;
   display: inline-block;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
   margin: 0;
   outline: none;

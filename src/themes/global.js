@@ -6,10 +6,9 @@ const GlobalStyle = createGlobalStyle`
 
   ${reset}
 
-  ${({ theme }) => fontFaceGenerator(theme.fonts)}
-
   html{
-    font-family: ${({ theme }) => theme.global.fontFamilyRegular};
+    font-family: ${({ theme }) => theme.global.fontfamily};
+    font-weight: ${props => props.theme.global.fontWeightRegultar};
     font-size: ${({ theme }) => theme.global.fontSize};
   }
 
@@ -24,8 +23,8 @@ const GlobalStyle = createGlobalStyle`
   ${({ theme }) => headingsGenerator(theme.headings)}
 
   strong {
-    font-family: ${({ theme }) => theme.global.fontFamilyBold};
-    font-weight: 500;
+    font-family: ${props => props.theme.global.fontFamily};
+    font-weight: ${props => props.theme.global.fontWeightBold};
   }
 
   button{
@@ -38,10 +37,10 @@ const GlobalStyle = createGlobalStyle`
   }
   
   a{
-    font-family: ${({ theme }) => theme.global.fontFamilyBold};
+    font-family: ${props => props.theme.global.fontFamily};
+    font-weight: ${props => props.theme.global.fontWeightBold};
     text-decoration: none;
     font-style: normal;
-    font-weight: 500;
     transition: color 300ms ease-in-out;
     white-space: nowrap;
 
