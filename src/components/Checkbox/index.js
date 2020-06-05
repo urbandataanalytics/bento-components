@@ -50,7 +50,8 @@ const LabelText = styled.div`
   flex-direction: column;
   margin: ${props => `0 0 0 ${props.theme.components.checkboxLabelMargin}`};
   flex: 1;
-  font-family: ${props => props.theme.global.fontFamilyRegular};
+  font-family: ${props => props.theme.global.fontFamily};
+  font-weight: ${props => props.theme.global.fontWeightRegular};
   font-size: ${props => props.theme.components.checkboxLabelFontSize};
   color: ${props => props.theme.components.checkboxLabelColor};
 `;
