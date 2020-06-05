@@ -37,11 +37,11 @@ NavigationRight.defaultProps = {
   theme: defaultTheme
 };
 
-const NavigationHeader = styled.div`
+const NavigationLeftHeader = styled.div`
   padding: 0 17px;
 `;
 
-NavigationHeader.defaultProps = {
+NavigationLeftHeader.defaultProps = {
   theme: defaultTheme
 };
 
@@ -108,10 +108,9 @@ const NavigationBar = props => {
     <StyledNavigation {...other}>
       <NavigationLeft>
         {dropdownMenu && <Dropdown label={<Menu />}>{dropdownMenu}</Dropdown>}
-        {header && <NavigationHeader>{header}</NavigationHeader>}
+        {header && <NavigationLeftHeader>{header}</NavigationLeftHeader>}
       </NavigationLeft>
 
-      {/*<NavigationRight>{linkList && <StyledLinkList>{linkList}</StyledLinkList>}</NavigationRight>*/}
       <NavigationRight>
         <NavigationContent>
           <NavigationLink>
