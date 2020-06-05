@@ -52,18 +52,18 @@ const componentVariants = theme => ({
 
 const StyledButton = styled.button`
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: ${({ theme }) => theme.global.fontFamilyBold};
+  font-family: ${props => props.theme.global.fontFamily};
+  font-weight: ${props => props.theme.global.fontWeightMedium};
   outline: none;
   appearance: none;
   cursor: pointer;
   margin: 0;
   white-space: nowrap;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: all 300ms ease-in-out;
+  transition: ${props => props.theme.global.transition};
 
   &:disabled {
     cursor: default;

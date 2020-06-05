@@ -50,7 +50,8 @@ StyledNotification.defaultProps = {
 };
 
 const StyledMessage = styled.div`
-  font-family: ${props => props.theme.global.fontFamilyRegular};
+  font-family: ${props => props.theme.global.fontFamily};
+  font-weight: ${props => props.theme.global.fontWeightRegular};
   font-size: 14px;
   line-height: 24px;
   width: 100%;

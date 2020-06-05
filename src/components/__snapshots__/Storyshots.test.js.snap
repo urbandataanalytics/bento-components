@@ -3,9 +3,9 @@
 exports[`Storyshots Button Block 1`] = `
 .c0 {
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -13,10 +13,10 @@ exports[`Storyshots Button Block 1`] = `
   cursor: pointer;
   margin: 0;
   white-space: nowrap;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -73,9 +73,9 @@ exports[`Storyshots Button Block 1`] = `
 exports[`Storyshots Button Normal 1`] = `
 .c0 {
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -83,10 +83,10 @@ exports[`Storyshots Button Normal 1`] = `
   cursor: pointer;
   margin: 0;
   white-space: nowrap;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -142,9 +142,9 @@ exports[`Storyshots Button Normal 1`] = `
 exports[`Storyshots Button With Icon 1`] = `
 .c0 {
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -152,10 +152,10 @@ exports[`Storyshots Button With Icon 1`] = `
   cursor: pointer;
   margin: 0;
   white-space: nowrap;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -205,8 +205,8 @@ exports[`Storyshots Button With Icon 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 
 <div
@@ -251,8 +251,8 @@ exports[`Storyshots Checkbox Normal 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 
 .c3 {
@@ -400,8 +400,8 @@ exports[`Storyshots Checkbox With Label 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 
 .c3 {
@@ -464,7 +464,8 @@ exports[`Storyshots Checkbox With Label 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  font-family: "Roboto Regular",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
   color: #212632;
 }
@@ -564,12 +565,12 @@ exports[`Storyshots Checkbox With Label 1`] = `
 </div>
 `;
 
-exports[`Storyshots FormGroup Playground 1`] = `
-.c6 {
+exports[`Storyshots Dropdown Playground 1`] = `
+.c2 {
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -577,10 +578,542 @@ exports[`Storyshots FormGroup Playground 1`] = `
   cursor: pointer;
   margin: 0;
   white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  padding: 11px 32px;
+  font-size: 12px;
+  min-width: 120px;
+  color: #FFFFFF;
+  background-color: #1778FB;
+  border-color: #1778FB;
+  border-radius: 4px;
+}
+
+.c2:disabled {
+  cursor: default;
+}
+
+.c2:hover {
+  background-color: #5FAEDA;
+  border-color: #5FAEDA;
+  color: #FFFFFF;
+}
+
+.c2:disabled {
+  background-color: #DCDFE6;
+  border-color: #DCDFE6;
+}
+
+.c5 {
+  padding: 11px 19px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.c5:hover {
+  background-color: #EFF2F7;
+  color: #747D93;
+}
+
+.c6 {
+  color: #747D93;
+}
+
+.c6 > a {
+  color: #747D93;
+}
+
+.c6 > a:hover {
+  color: #747D93;
+}
+
+.c6 > svg {
+  fill: #747D93;
+}
+
+.c6 > svg:hover {
+  fill: #747D93;
+}
+
+.c4 {
+  padding: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid #EFF2F7;
+  box-sizing: border-box;
+  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
+  border-radius: 4px;
+}
+
+.c0 {
+  position: relative;
+}
+
+.c1 {
+  cursor: pointer;
+}
+
+.c3 {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  transform: translate(0,0);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  position: fixed;
+  min-width: 200px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <label
+      className="c1"
+      onClick={[Function]}
+    >
+      <button
+        className="c2"
+        disabled={false}
+        size="medium"
+      >
+        Label example
+      </button>
+    </label>
+    <div
+      className="c3"
+    >
+      <ul
+        className="c4"
+      >
+        <li
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            1
+          </div>
+        </li>
+        <li
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            2
+          </div>
+        </li>
+        <li
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            3
+          </div>
+        </li>
+        <li
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            4
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Dropdown With Childrens 1`] = `
+.c2 {
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  padding: 11px 32px;
+  font-size: 12px;
+  min-width: 120px;
+  color: #FFFFFF;
+  background-color: #1778FB;
+  border-color: #1778FB;
+  border-radius: 4px;
+}
+
+.c2:disabled {
+  cursor: default;
+}
+
+.c2:hover {
+  background-color: #5FAEDA;
+  border-color: #5FAEDA;
+  color: #FFFFFF;
+}
+
+.c2:disabled {
+  background-color: #DCDFE6;
+  border-color: #DCDFE6;
+}
+
+.c7 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.c5 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.c5:hover {
+  background-color: #EFF2F7;
+  color: #747D93;
+}
+
+.c10 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #EFF7FB;
+  color: #1778FB;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.c10:hover {
+  background-color: #EFF7FB;
+  color: #1778FB;
+}
+
+.c6 {
+  margin-right: 19px;
+  color: #747D93;
+}
+
+.c6 > svg {
+  fill: #747D93;
+}
+
+.c11 {
+  margin-right: 19px;
+  color: #1778FB;
+}
+
+.c11 > svg {
+  fill: #1778FB;
+}
+
+.c8 {
+  color: #747D93;
+}
+
+.c8 > a {
+  color: #747D93;
+}
+
+.c8 > a:hover {
+  color: #747D93;
+}
+
+.c8 > svg {
+  fill: #747D93;
+}
+
+.c8 > svg:hover {
+  fill: #747D93;
+}
+
+.c12 {
+  color: #1778FB;
+}
+
+.c12 > a {
+  color: #1778FB;
+}
+
+.c12 > a:hover {
+  color: #1778FB;
+}
+
+.c12 > svg {
+  fill: #1778FB;
+}
+
+.c12 > svg:hover {
+  fill: #1778FB;
+}
+
+.c9 {
+  margin-left: auto;
+  color: #747D93;
+}
+
+.c9 > svg {
+  fill: #747D93;
+}
+
+.c13 {
+  margin-left: auto;
+  color: #1778FB;
+}
+
+.c13 > svg {
+  fill: #1778FB;
+}
+
+.c4 {
+  padding: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid #EFF2F7;
+  box-sizing: border-box;
+  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
+  border-radius: 4px;
+}
+
+.c0 {
+  position: relative;
+}
+
+.c1 {
+  cursor: pointer;
+}
+
+.c3 {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  transform: translate(0,0);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  position: fixed;
+  min-width: 200px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <label
+      className="c1"
+      onClick={[Function]}
+    >
+      <button
+        className="c2"
+        disabled={false}
+        size="medium"
+      >
+        Label example
+      </button>
+    </label>
+    <div
+      className="c3"
+    >
+      <ul
+        className="c4"
+      >
+        <li
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <svg
+              className="c7"
+              data-name="IconFolder"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+            >
+              <path
+                clipRule="evenodd"
+                d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c8"
+          >
+            Text
+          </div>
+        </li>
+        <li
+          className="c5"
+        >
+          <div
+            className="c8"
+          >
+            Text
+          </div>
+          <div
+            className="c9"
+          >
+            <svg
+              className="c7"
+              data-name="IconFolder"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+            >
+              <path
+                clipRule="evenodd"
+                d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+              />
+            </svg>
+          </div>
+        </li>
+        <li
+          className="c10"
+        >
+          <div
+            className="c11"
+          >
+            <svg
+              className="c7"
+              data-name="IconFolder"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+            >
+              <path
+                clipRule="evenodd"
+                d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c12"
+          >
+            Text
+          </div>
+          <div
+            className="c13"
+          >
+            <svg
+              className="c7"
+              data-name="IconFolder"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+            >
+              <path
+                clipRule="evenodd"
+                d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+              />
+            </svg>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots FormGroup Playground 1`] = `
+.c6 {
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3447,6 +3980,361 @@ exports[`Storyshots InputField Normal 1`] = `
 </div>
 `;
 
+exports[`Storyshots List Playground 1`] = `
+.c1 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.c1:hover {
+  background-color: #EFF2F7;
+  color: #747D93;
+}
+
+.c2 {
+  color: #747D93;
+}
+
+.c2 > a {
+  color: #747D93;
+}
+
+.c2 > a:hover {
+  color: #747D93;
+}
+
+.c2 > svg {
+  fill: #747D93;
+}
+
+.c2 > svg:hover {
+  fill: #747D93;
+}
+
+.c0 {
+  padding: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid #EFF2F7;
+  box-sizing: border-box;
+  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
+  border-radius: 4px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <ul
+    className="c0"
+  >
+    <li
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        1
+      </div>
+    </li>
+    <li
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        2
+      </div>
+    </li>
+    <li
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        3
+      </div>
+    </li>
+    <li
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        4
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots List With Childrens 1`] = `
+.c3 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.c1 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.c1:hover {
+  background-color: #EFF2F7;
+  color: #747D93;
+}
+
+.c5 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #EFF7FB;
+  color: #1778FB;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.c5:hover {
+  background-color: #EFF7FB;
+  color: #1778FB;
+}
+
+.c2 {
+  margin-right: 19px;
+  color: #747D93;
+}
+
+.c2 > svg {
+  fill: #747D93;
+}
+
+.c4 {
+  color: #747D93;
+}
+
+.c4 > a {
+  color: #747D93;
+}
+
+.c4 > a:hover {
+  color: #747D93;
+}
+
+.c4 > svg {
+  fill: #747D93;
+}
+
+.c4 > svg:hover {
+  fill: #747D93;
+}
+
+.c6 {
+  color: #1778FB;
+}
+
+.c6 > a {
+  color: #1778FB;
+}
+
+.c6 > a:hover {
+  color: #1778FB;
+}
+
+.c6 > svg {
+  fill: #1778FB;
+}
+
+.c6 > svg:hover {
+  fill: #1778FB;
+}
+
+.c9 {
+  margin-left: auto;
+  color: #747D93;
+}
+
+.c9 > svg {
+  fill: #747D93;
+}
+
+.c7 {
+  margin-left: auto;
+  color: #1778FB;
+}
+
+.c7 > svg {
+  fill: #1778FB;
+}
+
+.c8 {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #EFF2F7;
+  margin: 0;
+  padding: 0;
+}
+
+.c0 {
+  padding: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid #EFF2F7;
+  box-sizing: border-box;
+  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
+  border-radius: 4px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <ul
+    className="c0"
+  >
+    <li
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <svg
+          className="c3"
+          data-name="IconFolder"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 32 32"
+        >
+          <path
+            clipRule="evenodd"
+            d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4"
+      >
+        Text
+      </div>
+    </li>
+    <li
+      className="c5"
+    >
+      <div
+        className="c6"
+      >
+        Text
+      </div>
+      <div
+        className="c7"
+      >
+        <svg
+          className="c3"
+          data-name="IconFolder"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 32 32"
+        >
+          <path
+            clipRule="evenodd"
+            d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+          />
+        </svg>
+      </div>
+    </li>
+    <hr
+      className="c8"
+    />
+    <li
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <svg
+          className="c3"
+          data-name="IconFolder"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 32 32"
+        >
+          <path
+            clipRule="evenodd"
+            d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4"
+      >
+        Text
+      </div>
+      <div
+        className="c9"
+      >
+        <svg
+          className="c3"
+          data-name="IconFolder"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 32 32"
+        >
+          <path
+            clipRule="evenodd"
+            d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+          />
+        </svg>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
 exports[`Storyshots Notification Error 1`] = `
 .c2 {
   -webkit-flex-shrink: 0;
@@ -3477,7 +4365,8 @@ exports[`Storyshots Notification Error 1`] = `
 }
 
 .c3 {
-  font-family: "Roboto Regular",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   width: 100%;
@@ -3551,7 +4440,8 @@ exports[`Storyshots Notification Normal 1`] = `
 }
 
 .c3 {
-  font-family: "Roboto Regular",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   width: 100%;
@@ -3625,7 +4515,8 @@ exports[`Storyshots Notification Success 1`] = `
 }
 
 .c3 {
-  font-family: "Roboto Regular",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   width: 100%;
@@ -3702,7 +4593,8 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
 }
 
 .c3 {
-  font-family: "Roboto Regular",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   width: 100%;
@@ -3750,7 +4642,7 @@ exports[`Storyshots TextLink Primary 1`] = `
 .c0 {
   cursor: pointer;
   display: inline-block;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
   margin: 0;
   outline: none;
@@ -3790,7 +4682,7 @@ exports[`Storyshots TextLink Secondary 1`] = `
 .c0 {
   cursor: pointer;
   display: inline-block;
-  font-family: "Roboto Bold",Arial,sans-serif;
+  font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
   margin: 0;
   outline: none;

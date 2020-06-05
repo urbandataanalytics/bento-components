@@ -23,3 +23,12 @@ export * from './components/Notification';
 
 export { default as TextLink } from './components/TextLink';
 export * from './components/TextLink';
+
+export { default as Dropdown } from './components/Dropdown';
+export * from './components/Dropdown';
+
+export { default as List } from './components/List';
+export * from './components/List';
+
+export { default as ListItem } from './components/List/ListItem';
+export * from './components/List/ListItem';

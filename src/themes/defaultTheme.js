@@ -1,25 +1,18 @@
-import RobotoRegular from '../fonts/Roboto-Regular.ttf';
-import RobotoMedium from '../fonts/Roboto-Medium.ttf';
-import RobotoBold from '../fonts/Roboto-Bold.ttf';
-
 const fontCallback = 'Arial, sans-serif';
 
 const fonts = [
   {
-    name: 'Roboto Regular',
-    src: RobotoRegular,
+    name: 'Roboto-Regular',
     style: 'normal',
     weight: 'normal'
   },
   {
     name: 'Roboto Medium',
-    src: RobotoMedium,
     style: 'normal',
     weight: 500
   },
   {
     name: 'Roboto Bold',
-    src: RobotoBold,
     style: 'normal',
     weight: 700
   }
@@ -66,38 +59,49 @@ const spacings = {
 const global = {
   bgColor: 'white',
   fontColor: '#333',
+  fontFamily: `"Roboto", ${fontCallback}`,
   fontFamilyBold: `"Roboto Bold", ${fontCallback}`,
-  fontFamilyMedium: `"Roboto Medium", ${fontCallback}`,
-  fontFamilyRegular: `"Roboto Regular", ${fontCallback}`,
-  fontSize: '14px'
+  fontFamilyMedium: `"Roboto-Medium", ${fontCallback}`,
+  fontFamilyRegular: `"Roboto", ${fontCallback}`,
+  fontSize: '14px',
+  transition: 'all 300ms ease-in-out',
+  fontWeightRegular: 400,
+  fontWeightMedium: 500,
+  fontWeightBold: 700
 };
 
 const headings = [
   {
-    fontFamily: global.fontFamilyMedium,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '3.4rem'
   },
   {
-    fontFamily: global.fontFamilyMedium,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '2.5rem'
   },
   {
-    fontFamily: global.fontFamilyMedium,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '1.7rem'
   },
   {
-    fontFamily: global.fontFamilyMedium,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '1.1rem'
   },
   {
-    fontFamily: global.fontFamilyMedium,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '0.8rem'
   }
 ];
 
 const texts = {
   p2: {
-    fontFamily: global.fontFamilyRegular,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightRegular,
     fontSize: '12px',
     color: color.charcoal800,
     lineHeight: '1.5'
@@ -207,7 +211,21 @@ const components = {
   textLinkPrimaryColor: color.primary500,
   textLinkPrimaryHoverColor: color.primary300,
   textLinkSecondaryColor: color.charcoal600,
-  textLinkSecondaryHoverColor: color.primary300
+  textLinkSecondaryHoverColor: color.primary300,
+
+  /*List Theme props*/
+  listBackgroundColor: color.white,
+  listBorderColor: color.charcoal300,
+  listBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
+  listBorderRadius: shapes.borderRadiusMedium,
+  listPadding: spacings.small2,
+
+  /*ListItem Theme props*/
+  listItemSeparatorColor: color.charcoal300,
+  listItemColorActive: color.primary500,
+  listItemColorActiveHover: color.primary100,
+  listItemColorDefault: color.charcoal600,
+  listItemColorDefaultHover: color.charcoal300
 };
 
 export default {
