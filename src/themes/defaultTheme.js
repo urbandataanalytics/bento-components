@@ -1,25 +1,18 @@
-import RobotoRegular from '../fonts/Roboto-Regular.ttf';
-import RobotoMedium from '../fonts/Roboto-Medium.ttf';
-import RobotoBold from '../fonts/Roboto-Bold.ttf';
-
 const fontCallback = 'Arial, sans-serif';
 
 const fonts = [
   {
     name: 'Roboto-Regular',
-    src: RobotoRegular,
     style: 'normal',
     weight: 'normal'
   },
   {
     name: 'Roboto Medium',
-    src: RobotoMedium,
     style: 'normal',
     weight: 500
   },
   {
     name: 'Roboto Bold',
-    src: RobotoBold,
     style: 'normal',
     weight: 700
   }
