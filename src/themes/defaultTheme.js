@@ -112,6 +112,7 @@ const shapes = {
   borderRadiusLarge: '8px',
   borderRadiusMedium: '4px',
   borderRadiusSmall: '2px',
+  borderRadiusFull: '50%',
   borderWidthMedium: '2px',
   borderWidthSmall: '1px'
 };
@@ -192,6 +193,14 @@ const components = {
   inputFieldLineHeight: '48px',
   inputFieldPlaceholderColor: color.charcoal400,
   inputFieldTextIndent: spacings.small4,
+
+  /* Avatar Theme Props */
+  avatarBorderRadius: shapes.borderRadiusFull,
+  avatarBackgroundColor: color.primary500,
+  avatarColor: color.white,
+  avatarSizeSmall: spacings.small3,
+  avatarSizeMedium: spacings.medium1,
+  avatarSizeLarge: spacings.medium3,
 
   /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
