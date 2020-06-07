@@ -28,7 +28,7 @@
     "deploy:storybook": "cross-env BABEL_TARGET=\"storybook\" storybook-to-ghpages",
     "test": "jest",
     "test:ci": "yarn build:icons && jest --ci --coverage",
-    "test:updateSnapnshot": "yarn test --updateSnapshot",
+    "test:updateSnapshot": "yarn test --updateSnapshot",
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/**/*.js",
