@@ -37,7 +37,9 @@ StyledAvatar.defaultProps = {
   theme: defaultTheme
 };
 
-const StyledImg = styled(({ className, ...props }) => <img className={className} {...props} />)`
+const StyledImg = styled(({ className, alt, ...props }) => (
+  <img className={className} alt={alt} {...props} />
+))`
   width: inherit;
   height: inherit;
   border-radius: inherit;
