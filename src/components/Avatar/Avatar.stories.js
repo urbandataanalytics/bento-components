@@ -17,6 +17,7 @@ const getCommonProps = () => {
 export const Normal = () => (
   <Avatar
     {...getCommonProps()}
+    alt={'John Doe photo'}
     src={text('Notification Text', 'https://atlantaseo.marketing/wp-content/uploads/avatar-2.png')}
   />
 );

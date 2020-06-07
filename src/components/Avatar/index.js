@@ -5,6 +5,7 @@ import defaultTheme from '../../themes/defaultTheme';
 import { forwardRef } from 'react';
 import { IconUser } from '../../icons';
 import { getInitials } from '../../utils/initials';
+import useLoadedImage from '../../hooks/useLoadedImage';
 
 const componentSizes = theme => ({
   small: {
@@ -43,10 +44,10 @@ const StyledImg = styled(({ className, ...props }) => <img className={className}
 `;
 
 const Avatar = forwardRef((props, ref) => {
-  // const [loaded, setLoaded] = React.useState(false);
   const {
     children: childrenProp,
     src,
+    srcSet,
     alt,
     size,
     color,
@@ -56,9 +57,14 @@ const Avatar = forwardRef((props, ref) => {
     ...other
   } = props;
   let children = null;
+  const imageLoaded = useLoadedImage({ src, srcSet });
+  const hasImg = src || srcSet;
+  const hasImageAndLoaded = hasImg && imageLoaded !== 'error';
 
-  if (src) {
+  if (hasImageAndLoaded) {
     children = <StyledImg alt={alt} src={src} size={size} {...imgProps} />;
+  } else if (hasImg && alt) {
+    children = getInitials(alt, initialsNum);
   } else if (childrenProp != null) {
     children = getInitials(childrenProp, initialsNum);
   } else {
@@ -78,6 +84,7 @@ Avatar.defaultProps = {
 
 Avatar.propTypes = {
   src: PropTypes.string,
+  srcSet: PropTypes.string,
   alt: PropTypes.string,
   initialsNum: PropTypes.number,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
