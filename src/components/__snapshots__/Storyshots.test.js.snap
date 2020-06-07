@@ -22,12 +22,20 @@ exports[`Storyshots Avatar Normal 1`] = `
   justify-content: center;
 }
 
+.c1 {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
 <div
   className="c0"
   size="medium"
 >
   <img
-    className=""
+    alt="John Doe photo"
+    className="c1"
+    size="medium"
     src="https://atlantaseo.marketing/wp-content/uploads/avatar-2.png"
   />
 </div>
