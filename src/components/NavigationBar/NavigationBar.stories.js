@@ -1,6 +1,4 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
-import { text, boolean, select } from '@storybook/addon-knobs';
 import NavigationBar from './index';
 import List from '../List';
 import ListItem from '../List/ListItem';

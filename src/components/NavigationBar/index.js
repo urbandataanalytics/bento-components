@@ -112,13 +112,15 @@ const NavigationBar = props => {
       </NavigationLeft>
 
       <NavigationRight>
-        <NavigationContent>
-          <NavigationLink>
-            {Children.map(children, child => (
-              <NavigationLinkItem>{React.cloneElement(child)}</NavigationLinkItem>
-            ))}
-          </NavigationLink>
-        </NavigationContent>
+        {children && (
+          <NavigationContent>
+            <NavigationLink>
+              {Children.map(children, child => (
+                <NavigationLinkItem>{React.cloneElement(child)}</NavigationLinkItem>
+              ))}
+            </NavigationLink>
+          </NavigationContent>
+        )}
         {rightContent && <NavigationRightContent>{rightContent}</NavigationRightContent>}
       </NavigationRight>
     </StyledNavigation>
