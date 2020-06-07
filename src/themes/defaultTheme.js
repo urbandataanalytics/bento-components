@@ -198,9 +198,12 @@ const components = {
   avatarBorderRadius: shapes.borderRadiusFull,
   avatarBackgroundColor: color.primary500,
   avatarColor: color.white,
-  avatarSizeSmall: spacings.small3,
+  avatarSizeSmall: spacings.small4,
   avatarSizeMedium: spacings.medium1,
   avatarSizeLarge: spacings.medium3,
+  avatarFontSizeSmall: '12px',
+  avatarFontSizeMedium: '14px',
+  avatarFontSizeLarge: '24px',
 
   /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,

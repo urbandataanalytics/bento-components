@@ -1,6 +1,6 @@
 import Avatar from './index';
 import React from 'react';
-import { color, select, text } from '@storybook/addon-knobs';
+import { color, select, text, number } from '@storybook/addon-knobs';
 
 export default {
   title: 'Avatar',
@@ -9,8 +9,7 @@ export default {
 
 const getCommonProps = () => {
   return {
-    size: select('Size', ['small', 'medium', 'large'], 'medium'),
-    color: select('Color', [null, 'primary', 'secondary'], null)
+    size: select('Size', ['small', 'medium', 'large'], 'medium')
   };
 };
 
@@ -22,4 +21,14 @@ export const Normal = () => (
   />
 );
 
-export const WithInitials = () => <Avatar {...getCommonProps()}>John Doe</Avatar>;
+export const WithInitials = () => (
+  <Avatar
+    {...getCommonProps()}
+    initialsNum={number('Initials number', 2)}
+    color={select('Color', [null, 'primary', 'secondary'], null)}
+    customColor={color('Custom Color', '#1778FB')}
+    customTextColor={color('Custom Text Color', '#FFFFFF')}
+  >
+    {text('Text', 'John Doe')}
+  </Avatar>
+);

@@ -10,23 +10,27 @@ import useLoadedImage from '../../hooks/useLoadedImage';
 const componentSizes = theme => ({
   small: {
     width: theme.components.avatarSizeSmall,
-    height: theme.components.avatarSizeSmall
+    height: theme.components.avatarSizeSmall,
+    fontSize: theme.components.avatarFontSizeSmall
   },
   medium: {
     width: theme.components.avatarSizeMedium,
-    height: theme.components.avatarSizeMedium
+    height: theme.components.avatarSizeMedium,
+    fontSize: theme.components.avatarFontSizeMedium
   },
   large: {
     width: theme.components.avatarSizeLarge,
-    height: theme.components.avatarSizeLarge
+    height: theme.components.avatarSizeLarge,
+    fontSize: theme.components.avatarFontSizeLarge
   }
 });
 
 const StyledAvatar = styled.div`
   ${props => componentSizes(props.theme)[props.size]};
   border-radius: ${({ theme }) => theme.components.avatarBorderRadius};
-  background-color: ${({ theme }) => theme.components.avatarBackgroundColor};
-  color: ${({ theme }) => theme.components.avatarColor};
+  background-color: ${({ theme, customColor }) =>
+    customColor || theme.components.avatarBackgroundColor};
+  color: ${({ theme, customTextColor }) => customTextColor || theme.components.avatarColor};
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -66,7 +70,7 @@ const Avatar = forwardRef((props, ref) => {
   if (hasImageAndLoaded) {
     children = <StyledImg alt={alt} src={src} size={size} {...imgProps} />;
   } else if (hasImg && alt) {
-    children = getInitials(alt, initialsNum);
+    children = getInitials(childrenProp ? childrenProp : alt, initialsNum);
   } else if (childrenProp != null) {
     children = getInitials(childrenProp, initialsNum);
   } else {
@@ -74,7 +78,7 @@ const Avatar = forwardRef((props, ref) => {
   }
 
   return (
-    <StyledAvatar size={size} {...other}>
+    <StyledAvatar size={size} customColor={customColor} {...other}>
       {children}
     </StyledAvatar>
   );
@@ -93,7 +97,8 @@ Avatar.propTypes = {
   imgProps: PropTypes.object,
   color: PropTypes.oneOf(['primary', 'secondary']),
   children: PropTypes.string,
-  customColor: PropTypes.string
+  customColor: PropTypes.string,
+  customTextColor: PropTypes.string
 };
 
 export default Avatar;
