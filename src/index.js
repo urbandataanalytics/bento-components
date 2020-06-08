@@ -32,3 +32,9 @@ export * from './components/List';
 
 export { default as ListItem } from './components/List/ListItem';
 export * from './components/List/ListItem';
+
+export { default as NavigationBar } from './components/NavigationBar';
+export * from './components/NavigationBar';
+
+export { default as Avatar } from './components/Avatar';
+export * from './components/Avatar';
