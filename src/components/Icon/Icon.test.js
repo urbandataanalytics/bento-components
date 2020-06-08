@@ -18,8 +18,8 @@ describe(`Icon`, () => {
   });
 
   it('should have default sizing', () => {
-    expect(svg).toHaveStyleRule('height', theme.components.iconSizeSmall);
-    expect(svg).toHaveStyleRule('width', theme.components.iconSizeSmall);
+    expect(svg).toHaveStyleRule('height', theme.components.iconSizeMedium);
+    expect(svg).toHaveStyleRule('width', theme.components.iconSizeMedium);
   });
 
   it('should have passed props', () => {

@@ -1,20 +1,20 @@
-import RobotoRegular from '../fonts/Roboto-Regular.ttf';
-import RobotoBold from '../fonts/Roboto-Bold.ttf';
-
 const fontCallback = 'Arial, sans-serif';
 
 const fonts = [
   {
-    name: 'Roboto Regular',
-    src: RobotoRegular,
+    name: 'Roboto-Regular',
     style: 'normal',
     weight: 'normal'
   },
   {
-    name: 'Roboto Bold',
-    src: RobotoBold,
+    name: 'Roboto Medium',
     style: 'normal',
     weight: 500
+  },
+  {
+    name: 'Roboto Bold',
+    style: 'normal',
+    weight: 700
   }
 ];
 
@@ -59,40 +59,52 @@ const spacings = {
 const global = {
   bgColor: 'white',
   fontColor: '#333',
+  fontFamily: `"Roboto", ${fontCallback}`,
   fontFamilyBold: `"Roboto Bold", ${fontCallback}`,
-  fontFamilyRegular: `"Roboto Regular", ${fontCallback}`,
-  fontSize: '14px'
+  fontFamilyMedium: `"Roboto-Medium", ${fontCallback}`,
+  fontFamilyRegular: `"Roboto", ${fontCallback}`,
+  fontSize: '14px',
+  transition: 'all 300ms ease-in-out',
+  fontWeightRegular: 400,
+  fontWeightMedium: 500,
+  fontWeightBold: 700
 };
 
 const headings = [
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '3.4rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '2.5rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '1.7rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '1.1rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '0.8rem'
   }
 ];
 
 const texts = {
   p2: {
-    fontFamily: global.fontFamilyRegular,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightRegular,
     fontSize: '12px',
     color: color.charcoal800,
-    lineHeight: ' 150%'
+    lineHeight: '1.5'
   }
 };
 
@@ -100,6 +112,7 @@ const shapes = {
   borderRadiusLarge: '8px',
   borderRadiusMedium: '4px',
   borderRadiusSmall: '2px',
+  borderRadiusFull: '50%',
   borderWidthMedium: '2px',
   borderWidthSmall: '1px'
 };
@@ -110,7 +123,7 @@ const components = {
   buttonFontSizeMedium: '12px',
   buttonMinWidthLarge: '140px',
   buttonMinWidthMedium: '120px',
-  buttonPaddingLarge: '17px 32px',
+  buttonPaddingLarge: '19px 32px',
   buttonPaddingMedium: '11px 32px',
   buttonPrimaryBackgroundColor: color.primary500,
   buttonPrimaryBorderColor: color.primary500,
@@ -142,17 +155,17 @@ const components = {
   checkboxLabelColor: color.charcoal800,
   checkboxLabelDisabled: color.charcoal400,
   checkboxLabelFontSize: '14px',
-  checkboxLabelMargin: '16px',
-  checkboxSizeMedium: '24px',
-  checkboxSizeSmall: '16px',
+  checkboxLabelMargin: spacings.small3,
+  checkboxSizeMedium: spacings.small4,
+  checkboxSizeSmall: spacings.small3,
 
   /*FormGroup Theme props*/
-  formGroupMarginBottom: '2rem',
+  formGroupMarginBottom: spacings.small3,
 
   /* Icon Theme props */
   iconSizeLarge: '32px',
-  iconSizeMedium: '24px',
-  iconSizeSmall: '16px',
+  iconSizeMedium: spacings.small4,
+  iconSizeSmall: spacings.small3,
   iconPrimaryColor: color.primary500,
   iconSecondaryColor: color.charcoal600,
 
@@ -179,7 +192,28 @@ const components = {
   inputFieldLabelFontSize: '12px',
   inputFieldLineHeight: '48px',
   inputFieldPlaceholderColor: color.charcoal400,
-  inputFieldTextIndent: '24px',
+  inputFieldTextIndent: spacings.small4,
+
+  /* Avatar Theme Props */
+  avatarBorderRadius: shapes.borderRadiusFull,
+  avatarBackgroundColor: color.primary500,
+  avatarColor: color.white,
+  avatarSizeSmall: spacings.small4,
+  avatarSizeMedium: spacings.medium1,
+  avatarSizeLarge: spacings.medium3,
+  avatarFontSizeSmall: '12px',
+  avatarFontSizeMedium: '14px',
+  avatarFontSizeLarge: '24px',
+
+  /* Navigation Theme Props */
+  navigationBorder: `1px solid ${color.charcoal300}`,
+  navigationMenuPadding: `20px ${spacings.small4}`,
+  navigationMenuBackgroundColor: color.charcoal300,
+  navigationMenuOpenBackgroundColor: color.primary100,
+  navigationMenuHoverBackgroundColor: color.charcoal400,
+  navigationContentMargin: '0 42px 0 0',
+  navigationLinkMargin: '0 24px 0 0',
+  navigationHeaderPadding: '0 17px',
 
   /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
@@ -188,7 +222,7 @@ const components = {
   notificationErrorColor: color.redclay500,
   notificationNormalBackgroundColor: color.primary100,
   notificationNormalColor: color.charcoal800,
-  notificationPadding: '16px',
+  notificationPadding: spacings.small3,
   notificationSuccessBackgroundColor: color.emerald100,
   notificationSuccessColor: color.emerald600,
 
@@ -199,7 +233,21 @@ const components = {
   textLinkPrimaryColor: color.primary500,
   textLinkPrimaryHoverColor: color.primary300,
   textLinkSecondaryColor: color.charcoal600,
-  textLinkSecondaryHoverColor: color.primary300
+  textLinkSecondaryHoverColor: color.primary300,
+
+  /*List Theme props*/
+  listBackgroundColor: color.white,
+  listBorderColor: color.charcoal300,
+  listBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
+  listBorderRadius: shapes.borderRadiusMedium,
+  listPadding: spacings.small2,
+
+  /*ListItem Theme props*/
+  listItemSeparatorColor: color.charcoal300,
+  listItemColorActive: color.primary500,
+  listItemColorActiveHover: color.primary100,
+  listItemColorDefault: color.charcoal600,
+  listItemColorDefaultHover: color.charcoal300
 };
 
 export default {

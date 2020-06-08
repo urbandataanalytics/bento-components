@@ -39,8 +39,8 @@ const componentDisabled = theme => ({
 const StyledTextLink = styled.a`
   cursor: ${props => (props.disabled ? 'default' : 'pointer')};
   display: inline-block;
-  font-family: ${({ theme }) => theme.global.fontFamilyBold};
-  font-weight: 500;
+  font-family: ${props => props.theme.global.fontFamily};
+  font-weight: ${props => props.theme.global.fontWeightMedium};
   margin: 0;
   outline: none;
   text-decoration: none;
@@ -60,7 +60,6 @@ const TextLink = React.forwardRef((props, ref) => {
     href,
     size,
     tabIndex,
-    title,
     variant,
     ...other
   } = props;
@@ -89,7 +88,6 @@ TextLink.propTypes = {
   href: PropTypes.string.isRequired,
   size: PropTypes.oneOf(['medium', 'large']),
   tabIndex: PropTypes.string,
-  title: PropTypes.string,
   variant: PropTypes.oneOf(['primary', 'secondary'])
 };
 

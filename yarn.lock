@@ -14782,6 +14782,11 @@ react-color@^2.17.0:
     reactcss "^1.2.0"
     tinycolor2 "^1.4.1"
 
+react-cool-onclickoutside@^1.4.8:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/react-cool-onclickoutside/-/react-cool-onclickoutside-1.4.8.tgz#0ce627e43600e431680986620a527695d6770fd7"
+  integrity sha512-FgM1mXtDTA3FOkrArp0Hn1G4G4TKhy/2Yls77bHC1OoBo8uXErhxVcQbYRfZ+xvGDPx07s74GjHH64SNKjqpqg==
+
 react-dev-utils@^10.2.1:
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.1.tgz#f6de325ae25fa4d546d09df4bb1befdc6dd19c19"

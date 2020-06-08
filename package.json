@@ -1,7 +1,7 @@
 {
   "name": "@uda/bento-components",
   "description": "uDA component library",
-  "version": "0.1.10",
+  "version": "0.1.12",
   "license": "MIT",
   "keywords": [
     "react",
@@ -24,13 +24,13 @@
     "build:lib": "yarn copy:lib && cross-env NODE_ENV=\"production\" babel --out-dir lib --ignore **/*.stories.js,**/*.test.js,**/serviceWorker.js,**/setupTests.js src",
     "build:icons": "babel-node scripts/svgIcon.js",
     "build:storybook": "yarn build:icons && build-storybook -s public",
-    "build:local": "yarn build:icons && yarn build:lib",
-    "copy:lib": "copyfiles -u 1 \"./src/icons/**\" --exclude \"./src/icons/svg/**\" lib && yarn copy:ts && yarn copy:fonts",
+    "build:local": "yarn build:icons && yarn build:lib && yalc publish",
+    "copy:lib": "copyfiles -u 1 \"./src/icons/**\" --exclude \"./src/icons/svg/**\" lib && yarn copy:ts",
     "copy:ts": "copyfiles -u 1 \"./src/**/*.d.ts\" lib",
-    "copy:fonts": "copyfiles -u 1 \"./src/fonts/*\" lib",
-    "deploy:storybook": "cross-env BABEL_TARGET=\"storybook\" storybook-to-ghpages -o .out",
+    "deploy:storybook": "cross-env BABEL_TARGET=\"storybook\" storybook-to-ghpages",
     "test": "jest",
     "test:ci": "yarn build:icons && jest --ci --coverage",
+    "test:updateSnapshot": "yarn test --updateSnapshot",
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/**/*.js",
@@ -157,5 +157,7 @@
     "typescript": "^3.8.3",
     "webpack-cli": "^3.3.11"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-cool-onclickoutside": "^1.4.8"
+  }
 }

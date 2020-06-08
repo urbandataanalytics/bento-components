@@ -6,10 +6,9 @@ export interface TextLinkProps {
   href: string;
   size: 'medium' | 'large';
   tabIndex?: string;
-  title?: string;
   variant: 'primary' | 'secondary';
 }
 
-declare const TextLink: React.FunctionComponent<TextLinkProps>;
+declare const TextLink: React.FunctionComponent<TextLinkProps & React.AnchorHTMLAttributes<HTMLAnchorElement>>;
 
 export default TextLink;
