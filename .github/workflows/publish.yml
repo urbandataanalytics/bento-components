@@ -38,9 +38,15 @@ jobs:
       - name: Build playroom
         run: yarn playroom:build
 
+      - name: Deploy storybook to gh-pages
+        run: yarn deploy:storybook --ci
+        env:
+          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+
       - name: Deploy playroom to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./.out
           keep_files: true
+
