@@ -12,7 +12,7 @@ module.exports = {
       Hello World!
     </Button>
   `,
-  baseUrl: '/playroom/',
+  baseUrl: '/bento-components/playroom/',
   webpackConfig: () => ({
     module: {
       rules: [
