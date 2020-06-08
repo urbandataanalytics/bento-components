@@ -15,6 +15,8 @@
 > Is an open-source component library built by Urban Data Analytics Team
 > made with [React](https://github.com/facebook/react)
 
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@uda/bento-components)
+![npm](https://img.shields.io/npm/v/@uda/bento-components)
 [![CircleCI](https://img.shields.io/circleci/project/github/urbandataanalytics/bento-components/master.svg)](https://circleci.com/gh/urbandataanalytics/bento-components/tree/master)
 ![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=urbandataanalytics/bento-components)](https://dependabot.com)
@@ -33,6 +35,36 @@ instead:
 ```bash
 npm install @uda/bento-components
 ```
+
+## 🚀 Usage
+Load Roboto font from CDN:
+```html
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" />
+```
+or via css:
+```html
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+```
+Now you can start using components:
+```jsx
+import { Button } from '@uda/bento-components';
+
+const Sample = () => (
+  <Button>
+    Bento rules!
+  </Button>
+);
+```
+
+## 📚  Storybook
+UI components guide
+
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://urbandataanalytics.github.io/bento-components/)
+
+## 🕹️ Playroom
+**[Bento Playroom](https://urbandataanalytics.github.io/bento-components/playroom)**
+
+Create quick mock-ups and interactive prototypes with real code.
 
 ## 📋  Changelog
 
