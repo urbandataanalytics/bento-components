@@ -48,4 +48,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./.out
           keep_files: true
-          allow_empty_commit: true
+          user_name: 'GH Pages Bot'
+          user_email: 'hello@ghbot.com'
+          commit_message: 'Deploy to GitHub Pages [skip ci]'
