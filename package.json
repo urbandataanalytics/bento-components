@@ -18,6 +18,8 @@
   "private": false,
   "scripts": {
     "storybook": "yarn build:icons && start-storybook -p 9009 -s public",
+    "playroom:start": "playroom start",
+    "playroom:build": "playroom build",
     "build": "yarn clean && yarn build:icons && yarn build:lib",
     "build:lib": "yarn copy:lib && cross-env NODE_ENV=\"production\" babel --out-dir lib --ignore **/*.stories.js,**/*.test.js,**/serviceWorker.js,**/setupTests.js src",
     "build:icons": "babel-node scripts/svgIcon.js",
@@ -141,6 +143,7 @@
     "mkdirp": "^1.0.4",
     "prettier": "^2.0.5",
     "prop-types": "^15.7.2",
+    "playroom": "^0.18.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
