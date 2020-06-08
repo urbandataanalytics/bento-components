@@ -20,10 +20,10 @@ jobs:
         run: yarn test:ci
 
       - name: Build
-          run: yarn build
+        run: yarn build
 
       - name: Build playroom
-          run: yarn playroom:build
+        run: yarn playroom:build
 
       - name: Deploy playroom to gh-pages
         uses: peaceiris/actions-gh-pages@v3
