@@ -3,6 +3,7 @@ export interface Props {
   rightContent?: React.ReactNode;
   dropdownMenu?: React.ReactNode;
   header?: React.ReactNode;
+  iconMenu?: React.ReactNode;
 }
 
 declare const NavigationBar: React.FunctionComponent<Props>;

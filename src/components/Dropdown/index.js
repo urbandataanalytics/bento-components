@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
 import defaultTheme from '../../themes/defaultTheme';
@@ -24,7 +24,7 @@ ChildrenContainer.defaultProps = {
   theme: defaultTheme
 };
 
-const Dropdown = ({ children, label, autoClose, ...other }) => {
+const Dropdown = ({ children, label, autoClose, onChange = () => {}, ...other }) => {
   const [isOpen, setOpen] = useState(false);
 
   const ref = useRef();
@@ -33,6 +33,10 @@ const Dropdown = ({ children, label, autoClose, ...other }) => {
     if (!autoClose) return;
     setOpen(false);
   });
+
+  useEffect(() => {
+    onChange(isOpen);
+  }, [onChange, isOpen]);
 
   return (
     <StyledDropdown {...other} ref={ref}>
