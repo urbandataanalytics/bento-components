@@ -205,6 +205,16 @@ const components = {
   avatarFontSizeMedium: '14px',
   avatarFontSizeLarge: '24px',
 
+  /* Navigation Theme Props */
+  navigationBorder: `1px solid ${color.charcoal300}`,
+  navigationMenuPadding: `20px ${spacings.small4}`,
+  navigationMenuBackgroundColor: color.charcoal300,
+  navigationMenuOpenBackgroundColor: color.primary100,
+  navigationMenuHoverBackgroundColor: color.charcoal400,
+  navigationContentMargin: '0 42px 0 0',
+  navigationLinkMargin: '0 24px 0 0',
+  navigationHeaderPadding: '0 17px',
+
   /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
   notificationCloseButtonColor: color.charcoal800,

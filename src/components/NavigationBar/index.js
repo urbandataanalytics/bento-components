@@ -5,12 +5,13 @@ import defaultTheme from '../../themes/defaultTheme';
 import IconMove from '../../icons/Move';
 import Dropdown from '../Dropdown';
 import { Children } from 'react';
+import { useState } from 'react';
 
 const StyledNavigation = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid ${({ theme }) => theme.color.charcoal300};
+  border-bottom: ${({ theme }) => theme.components.navigationBorder};
 `;
 
 StyledNavigation.defaultProps = {
@@ -38,7 +39,7 @@ NavigationRight.defaultProps = {
 };
 
 const NavigationLeftHeader = styled.div`
-  padding: 0 17px;
+  padding: ${({ theme }) => theme.components.navigationHeaderPadding};
 `;
 
 NavigationLeftHeader.defaultProps = {
@@ -46,11 +47,15 @@ NavigationLeftHeader.defaultProps = {
 };
 
 const StyledMenu = styled.div`
-  padding: 20px ${({ theme }) => theme.spacings.small4};
-  background-color: ${({ theme }) => theme.color.charcoal300};
+  padding: ${({ theme }) => theme.components.navigationMenuPadding};
+  background-color: ${({ theme }) => theme.components.navigationMenuBackgroundColor};
+  transition: background-color 0.5s linear;
+  ${({ theme, isOpenDropdown }) =>
+    isOpenDropdown && `background-color: ${theme.components.navigationMenuOpenBackgroundColor};`}
 
   &:hover {
-    background-color: ${({ theme }) => theme.color.charcoal400};
+    background-color: ${({ theme, isOpenDropdown }) =>
+      !isOpenDropdown && theme.components.navigationMenuHoverBackgroundColor};
   }
 `;
 
@@ -59,7 +64,7 @@ StyledMenu.defaultProps = {
 };
 
 const NavigationContent = styled.div`
-  margin-right: 42px;
+  margin: ${({ theme }) => theme.components.navigationContentMargin};
   display: flex;
   align-items: center;
 `;
@@ -81,10 +86,10 @@ const NavigationLinkItem = styled.li`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 24px;
+  margin: ${({ theme }) => theme.components.navigationLinkMargin};
 
   &:last-child {
-    margin-right: 0;
+    margin: 0;
   }
 `;
 
@@ -100,13 +105,26 @@ NavigationRightContent.defaultProps = {
 
 const NavigationBar = props => {
   const { children, header, dropdownMenu, rightContent, iconMenu, linkList, ...other } = props;
+  const [isOpenDropdown, setOpenDropdown] = useState(false);
 
-  const Menu = () => <StyledMenu>{iconMenu ? iconMenu : <IconMove size="large" />}</StyledMenu>;
+  const handleDropdown = isOpen => {
+    setOpenDropdown(isOpen);
+  };
+
+  const Menu = () => (
+    <StyledMenu isOpenDropdown={isOpenDropdown}>
+      {iconMenu ? iconMenu : <IconMove size="large" />}
+    </StyledMenu>
+  );
 
   return (
     <StyledNavigation {...other}>
       <NavigationLeft>
-        {dropdownMenu && <Dropdown label={<Menu />}>{dropdownMenu}</Dropdown>}
+        {dropdownMenu && (
+          <Dropdown onChange={handleDropdown} label={<Menu />}>
+            {dropdownMenu}
+          </Dropdown>
+        )}
         {header && <NavigationLeftHeader>{header}</NavigationLeftHeader>}
       </NavigationLeft>
 
@@ -130,7 +148,8 @@ NavigationBar.propTypes = {
   header: PropTypes.node,
   dropdownMenu: PropTypes.node,
   rightContent: PropTypes.node,
-  children: PropTypes.node
+  children: PropTypes.node,
+  iconMenu: PropTypes.node
 };
 
 export default NavigationBar;

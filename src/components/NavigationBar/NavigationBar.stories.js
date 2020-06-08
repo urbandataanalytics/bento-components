@@ -5,6 +5,8 @@ import ListItem from '../List/ListItem';
 import { IconSettings, IconUpdate, IconUser } from '../../icons';
 import TextLink from '../TextLink';
 import { Dropdown } from '../../index';
+import { select } from '@storybook/addon-knobs';
+import * as Icons from '../../icons';
 
 export default {
   title: 'Navigation',
@@ -35,6 +37,8 @@ export const Normal = () => {
     </svg>
   );
 
+  const CustomIcon = Icons[select('Icon Menu', Object.keys(Icons), 'IconMove')];
+
   return (
     <NavigationBar
       header={HeaderLogo}
@@ -44,6 +48,7 @@ export const Normal = () => {
           <ListItem leftContent={<IconUpdate />}>Text</ListItem>
         </List>
       }
+      iconMenu={<CustomIcon size={'large'} />}
       rightContent={rightContent}
     >
       <TextLink href={'#'} size={'large'} variant={'primary'}>
