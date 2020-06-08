@@ -72,7 +72,8 @@ const Avatar = forwardRef((props, ref) => {
   } else if (hasImg && alt) {
     children = getInitials(childrenProp ? childrenProp : alt, initialsNum);
   } else if (childrenProp != null) {
-    children = getInitials(childrenProp, initialsNum);
+    const childrenString = Array.isArray(childrenProp) ? childrenProp.join(' ') : childrenProp;
+    children = getInitials(childrenString, initialsNum);
   } else {
     children = <IconUser size={size} />;
   }
@@ -96,7 +97,7 @@ Avatar.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   imgProps: PropTypes.object,
   color: PropTypes.oneOf(['primary', 'secondary']),
-  children: PropTypes.string,
+  children: PropTypes.node,
   customColor: PropTypes.string,
   customTextColor: PropTypes.string
 };
