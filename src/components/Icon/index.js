@@ -28,7 +28,7 @@ const componentVariants = theme => ({
 });
 
 const StyledIcon = styled(
-  ({ className, viewBox, name, children, ariaHidden, ariaLabel, color, ...other }) => (
+  ({ className, viewBox, name, children, ariaHidden, ariaLabel, color, customColor, ...other }) => (
     <svg
       className={className}
       viewBox={viewBox}
@@ -64,7 +64,6 @@ const Icon = props => {
     viewBox,
     name,
     ariaHidden,
-    reverseOnRtl,
     ariaLabel,
     ...other
   } = props;
@@ -78,7 +77,6 @@ const Icon = props => {
       customColor={customColor}
       color={color}
       ariaHidden={ariaHidden}
-      reverseOnRtl={reverseOnRtl}
       ariaLabel={ariaLabel}
       {...other}
     >

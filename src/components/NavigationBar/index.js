@@ -48,6 +48,10 @@ NavigationLeftHeader.defaultProps = {
 const StyledMenu = styled.div`
   padding: 20px ${({ theme }) => theme.spacings.small4};
   background-color: ${({ theme }) => theme.color.charcoal300};
+
+  &:hover {
+    background-color: ${({ theme }) => theme.color.charcoal400};
+  }
 `;
 
 StyledMenu.defaultProps = {
@@ -65,7 +69,6 @@ NavigationContent.defaultProps = {
 };
 
 const NavigationLink = styled.ul`
-  margin-right: 42px;
   display: flex;
   align-items: center;
 `;
@@ -96,13 +99,9 @@ NavigationRightContent.defaultProps = {
 };
 
 const NavigationBar = props => {
-  const { children, header, dropdownMenu, rightContent, linkList, ...other } = props;
+  const { children, header, dropdownMenu, rightContent, iconMenu, linkList, ...other } = props;
 
-  const Menu = () => (
-    <StyledMenu>
-      <IconMove size="large" />
-    </StyledMenu>
-  );
+  const Menu = () => <StyledMenu>{iconMenu ? iconMenu : <IconMove size="large" />}</StyledMenu>;
 
   return (
     <StyledNavigation {...other}>
