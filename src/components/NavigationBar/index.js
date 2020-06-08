@@ -12,6 +12,8 @@ const StyledNavigation = styled.nav`
   justify-content: space-between;
   align-items: center;
   border-bottom: ${({ theme }) => theme.components.navigationBorder};
+  ${({ dropdownMenu, header, theme }) =>
+    !dropdownMenu || !header ? `min-height: ${theme.components.navigationMinHeight}` : ''}
 `;
 
 StyledNavigation.defaultProps = {
@@ -118,7 +120,7 @@ const NavigationBar = props => {
   );
 
   return (
-    <StyledNavigation {...other}>
+    <StyledNavigation header={header} dropdownMenu={dropdownMenu} {...other}>
       <NavigationLeft>
         {dropdownMenu && (
           <Dropdown onChange={handleDropdown} label={<Menu />}>
