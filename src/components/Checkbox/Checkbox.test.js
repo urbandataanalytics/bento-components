@@ -50,7 +50,7 @@ describe(`Checkbox`, () => {
       const wrapper = shallow(<Checkbox onChange={onChange} />);
 
       wrapper.find('Checkbox__Input').simulate('change');
-      const [isChecked] = onChange.mock.calls[0];
+      const [event, isChecked] = onChange.mock.calls[0];
 
       expect(onChange).toHaveBeenCalled();
       expect(isChecked).toBe(true);

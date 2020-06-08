@@ -50,7 +50,8 @@ const LabelText = styled.div`
   flex-direction: column;
   margin: ${props => `0 0 0 ${props.theme.components.checkboxLabelMargin}`};
   flex: 1;
-  font-family: ${props => props.theme.global.fontFamilyRegular};
+  font-family: ${props => props.theme.global.fontFamily};
+  font-weight: ${props => props.theme.global.fontWeightRegular};
   font-size: ${props => props.theme.components.checkboxLabelFontSize};
   color: ${props => props.theme.components.checkboxLabelColor};
 `;
@@ -99,7 +100,6 @@ export const Label = styled.label`
   align-items: center;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
   position: relative;
-  margin-bottom: 16px;
 
   ${CheckboxContainer} {
     color: ${props => props.theme.components.checkboxIconColor};
@@ -114,7 +114,7 @@ const Checkbox = React.forwardRef((props, ref) => {
   const { size, checked, disabled, label, name, tabIndex, onChange, ...other } = props;
   const handleToggle = event => {
     if (!disabled && onChange) {
-      onChange(!checked, event);
+      onChange(event, !checked);
     }
   };
 

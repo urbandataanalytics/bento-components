@@ -92,7 +92,7 @@ Icon.propTypes = {
 };
 
 Icon.defaultProps = {
-  size: 'small'
+  size: 'medium'
 };
 
 export default Icon;

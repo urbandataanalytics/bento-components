@@ -22,6 +22,7 @@ time, mark, audio, video {
 
 *{
   box-sizing: border-box;
+  outline: none;
 }
 
 article, aside, details, figcaption, figure, 

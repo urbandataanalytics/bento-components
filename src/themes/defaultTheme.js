@@ -1,20 +1,20 @@
-import RobotoRegular from '../fonts/Roboto-Regular.ttf';
-import RobotoBold from '../fonts/Roboto-Bold.ttf';
-
 const fontCallback = 'Arial, sans-serif';
 
 const fonts = [
   {
-    name: 'Roboto Regular',
-    src: RobotoRegular,
+    name: 'Roboto-Regular',
     style: 'normal',
     weight: 'normal'
   },
   {
-    name: 'Roboto Bold',
-    src: RobotoBold,
+    name: 'Roboto Medium',
     style: 'normal',
     weight: 500
+  },
+  {
+    name: 'Roboto Bold',
+    style: 'normal',
+    weight: 700
   }
 ];
 
@@ -40,36 +40,73 @@ const color = {
   white: '#FFFFFF'
 };
 
+const spacings = {
+  small1: '4px',
+  small2: '8px',
+  small3: '16px',
+  small4: '24px',
+  medium1: '32px',
+  medium2: '40px',
+  medium3: '48px',
+  medium4: '56px',
+  medium5: '64px',
+  large1: '80px',
+  large2: '96px',
+  large3: '128px',
+  large4: '200px'
+};
+
 const global = {
   bgColor: 'white',
   fontColor: '#333',
+  fontFamily: `"Roboto", ${fontCallback}`,
   fontFamilyBold: `"Roboto Bold", ${fontCallback}`,
-  fontFamilyRegular: `"Roboto Regular", ${fontCallback}`,
-  fontSize: '14px'
+  fontFamilyMedium: `"Roboto-Medium", ${fontCallback}`,
+  fontFamilyRegular: `"Roboto", ${fontCallback}`,
+  fontSize: '14px',
+  transition: 'all 300ms ease-in-out',
+  fontWeightRegular: 400,
+  fontWeightMedium: 500,
+  fontWeightBold: 700
 };
 
 const headings = [
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '3.4rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '2.5rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '1.7rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '1.1rem'
   },
   {
-    fontFamily: global.fontFamilyBold,
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightMedium,
     size: '0.8rem'
   }
 ];
+
+const texts = {
+  p2: {
+    fontFamily: global.fontFamily,
+    fontWeight: global.fontWeightRegular,
+    fontSize: '12px',
+    color: color.charcoal800,
+    lineHeight: '1.5'
+  }
+};
 
 const shapes = {
   borderRadiusLarge: '8px',
@@ -85,7 +122,7 @@ const components = {
   buttonFontSizeMedium: '12px',
   buttonMinWidthLarge: '140px',
   buttonMinWidthMedium: '120px',
-  buttonPaddingLarge: '17px 32px',
+  buttonPaddingLarge: '19px 32px',
   buttonPaddingMedium: '11px 32px',
   buttonPrimaryBackgroundColor: color.primary500,
   buttonPrimaryBorderColor: color.primary500,
@@ -117,21 +154,22 @@ const components = {
   checkboxLabelColor: color.charcoal800,
   checkboxLabelDisabled: color.charcoal400,
   checkboxLabelFontSize: '14px',
-  checkboxLabelMargin: '16px',
-  checkboxSizeMedium: '24px',
-  checkboxSizeSmall: '16px',
+  checkboxLabelMargin: spacings.small3,
+  checkboxSizeMedium: spacings.small4,
+  checkboxSizeSmall: spacings.small3,
 
   /*FormGroup Theme props*/
-  formGroupMarginBottom: '2rem',
+  formGroupMarginBottom: spacings.small3,
 
   /* Icon Theme props */
   iconSizeLarge: '32px',
-  iconSizeMedium: '24px',
-  iconSizeSmall: '16px',
+  iconSizeMedium: spacings.small4,
+  iconSizeSmall: spacings.small3,
   iconPrimaryColor: color.primary500,
   iconSecondaryColor: color.charcoal600,
 
   /*InputField Theme props*/
+
   inputFieldBackgroundColor: color.white,
   inputFieldBorderColor: color.charcoal400,
   inputFieldBorderRadius: shapes.borderRadiusMedium,
@@ -142,6 +180,7 @@ const components = {
   inputFieldErrorBackgroundColor: color.redclay100,
   inputFieldErrorBorderColor: color.redclay500,
   inputFieldErrorHelpColor: color.redclay500,
+  inputFieldErrorPlaceholderColor: color.redclay500,
   inputFieldFocusBackgroundColor: color.primary100,
   inputFieldFocusBorderColor: color.primary300,
   inputFieldFocusLabelColor: color.primary300,
@@ -151,7 +190,8 @@ const components = {
   inputFieldLabelColor: color.charcoal700,
   inputFieldLabelFontSize: '12px',
   inputFieldLineHeight: '48px',
-  inputFieldTextIndent: '24px',
+  inputFieldPlaceholderColor: color.charcoal400,
+  inputFieldTextIndent: spacings.small4,
 
   /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
@@ -160,7 +200,7 @@ const components = {
   notificationErrorColor: color.redclay500,
   notificationNormalBackgroundColor: color.primary100,
   notificationNormalColor: color.charcoal800,
-  notificationPadding: '16px',
+  notificationPadding: spacings.small3,
   notificationSuccessBackgroundColor: color.emerald100,
   notificationSuccessColor: color.emerald600,
 
@@ -171,7 +211,21 @@ const components = {
   textLinkPrimaryColor: color.primary500,
   textLinkPrimaryHoverColor: color.primary300,
   textLinkSecondaryColor: color.charcoal600,
-  textLinkSecondaryHoverColor: color.primary300
+  textLinkSecondaryHoverColor: color.primary300,
+
+  /*List Theme props*/
+  listBackgroundColor: color.white,
+  listBorderColor: color.charcoal300,
+  listBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
+  listBorderRadius: shapes.borderRadiusMedium,
+  listPadding: spacings.small2,
+
+  /*ListItem Theme props*/
+  listItemSeparatorColor: color.charcoal300,
+  listItemColorActive: color.primary500,
+  listItemColorActiveHover: color.primary100,
+  listItemColorDefault: color.charcoal600,
+  listItemColorDefaultHover: color.charcoal300
 };
 
 export default {
@@ -181,5 +235,7 @@ export default {
   fonts,
   global,
   headings,
-  shapes
+  spacings,
+  shapes,
+  texts
 };

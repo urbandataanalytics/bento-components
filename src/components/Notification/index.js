@@ -34,7 +34,7 @@ const variants = {
   }
 };
 
-const StyledNotification = styled.div`
+const StyledNotification = styled.aside`
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -50,7 +50,8 @@ StyledNotification.defaultProps = {
 };
 
 const StyledMessage = styled.div`
-  font-family: ${props => props.theme.global.fontFamilyRegular};
+  font-family: ${props => props.theme.global.fontFamily};
+  font-weight: ${props => props.theme.global.fontWeightRegular};
   font-size: 14px;
   line-height: 24px;
   width: 100%;
@@ -79,6 +80,10 @@ const StyledCloseButton = styled.button`
     outline: none;
   }
 `;
+
+StyledCloseButton.defaultProps = {
+  theme: defaultTheme
+};
 
 const Notification = props => {
   const { showIcon, icon, variant, children, closable, onClose } = props;

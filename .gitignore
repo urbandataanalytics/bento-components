@@ -12,7 +12,7 @@ coverage
 
 # dependencies
 /node_modules
-/dist
+/lib
 /.pnp
 .pnp.js
 

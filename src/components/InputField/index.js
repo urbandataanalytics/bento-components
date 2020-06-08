@@ -14,20 +14,15 @@ LabelText.defaultProps = {
   theme: defaultTheme
 };
 
-const InputFieldContainer = styled.div``;
-
-InputFieldContainer.defaultProps = {
-  theme: defaultTheme
-};
-
 const HelpText = styled.small`
   padding-top: 4px;
   display: block;
   font-size: ${({ theme }) => theme.components.inputFieldHelpFontSize};
-  color: ${props =>
-    props.error
-      ? props.theme.components.inputFieldErrorHelpColor
-      : props.theme.components.inputFieldHelpColor};
+  min-height: 25px;
+  color: ${({ theme }) => theme.components.inputFieldHelpColor};
+  &.error {
+    color: ${({ theme }) => theme.components.inputFieldErrorHelpColor};
+  }
 `;
 
 HelpText.defaultProps = {
@@ -40,19 +35,29 @@ const Input = styled.input`
   line-height: ${({ theme }) => theme.components.inputFieldLineHeight};
   text-indent: ${({ theme }) => theme.components.inputFieldTextIndent};
   border-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
-  background-color: ${props =>
-    props.error
-      ? props.theme.components.inputFieldErrorBackgroundColor
-      : props.theme.components.inputFieldBackgroundColor};
-
-  border-color: ${props =>
-    props.error
-      ? props.theme.components.inputFieldErrorBorderColor
-      : props.theme.components.inputFieldBorderColor};
-
   border-width: 1px;
   border-style: solid;
   transition: 300ms ease-in-out;
+  background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
+  border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
+
+  &::placeholder {
+    color: ${({ theme }) => theme.components.inputFieldPlaceholderColor};
+    transition: color 300ms ease-in-out;
+  }
+
+  &.error {
+    background-color: ${({ theme }) => theme.components.inputFieldErrorBackgroundColor};
+    border-color: ${({ theme }) => theme.components.inputFieldErrorBorderColor};
+
+    &::placeholder {
+      color: ${({ theme }) => theme.components.inputFieldErrorPlaceholderColor};
+    }
+
+    &:focus::placeholder {
+      color: ${({ theme }) => theme.components.inputFieldPlaceholderColor};
+    }
+  }
 
   &:focus {
     background-color: ${({ theme }) => theme.components.inputFieldFocusBackgroundColor};
@@ -104,10 +109,10 @@ const InputField = React.forwardRef((props, ref) => {
   } = props;
 
   return (
-    <InputFieldContainer>
-      <Label className={className}>
+    <div className={className}>
+      <Label>
         <Input
-          error={error}
+          className={error ? `error` : null}
           type={type}
           disabled={disabled}
           value={value}
@@ -118,14 +123,10 @@ const InputField = React.forwardRef((props, ref) => {
           ref={ref}
           {...other}
         />
-        {label && (
-          <LabelText error={error} disabled={disabled}>
-            {label}
-          </LabelText>
-        )}
+        {label && <LabelText disabled={disabled}>{label}</LabelText>}
       </Label>
-      {help && <HelpText error={error}>{help}</HelpText>}
-    </InputFieldContainer>
+      <HelpText className={error ? 'error' : null}>{help}</HelpText>
+    </div>
   );
 });
 
@@ -133,6 +134,7 @@ InputField.propTypes = {
   className: PropTypes.string,
   disabled: PropTypes.bool,
   error: PropTypes.bool,
+  help: PropTypes.string,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
   onChange: PropTypes.func.isRequired,
@@ -140,6 +142,10 @@ InputField.propTypes = {
   tabIndex: PropTypes.string,
   type: PropTypes.string.isRequired,
   value: PropTypes.string.isRequired
+};
+
+InputField.defaultProps = {
+  value: ''
 };
 
 InputField.displayName = 'InputField';
