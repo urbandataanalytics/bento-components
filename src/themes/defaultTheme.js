@@ -248,7 +248,18 @@ const components = {
   listItemColorActive: color.primary500,
   listItemColorActiveHover: color.primary100,
   listItemColorDefault: color.charcoal600,
-  listItemColorDefaultHover: color.charcoal300
+  listItemColorDefaultHover: color.charcoal300,
+
+  /* LinkList Theme Props */
+  linkListMargin: '0 0 5px',
+  linkListBorderRadius: shapes.borderRadiusSmall,
+  linkListActiveBackground: color.primary100,
+  linkListActiveColor: color.primary500,
+  linkListColor: color.charcoal800,
+  linkListDisabledColor: color.charcoal400,
+  linkListActiveIconColor: color.primary500,
+  linkListActiveIconMargin: '0 15px 0 auto;',
+  linkListPadding: '7px 16px'
 };
 
 export default {
