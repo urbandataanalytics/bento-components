@@ -415,6 +415,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemColorDisabled": "#DCDFE6",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -815,6 +816,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemColorDisabled": "#DCDFE6",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -1232,6 +1234,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemColorDisabled": "#DCDFE6",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -1461,7 +1464,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
 
 .c5:hover {
   background-color: #EFF2F7;
-  color: #747D93;
 }
 
 .c6 {
@@ -1666,7 +1668,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 
 .c5:hover {
   background-color: #EFF2F7;
-  color: #747D93;
 }
 
 .c10 {
@@ -1691,7 +1692,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 
 .c10:hover {
   background-color: #EFF7FB;
-  color: #1778FB;
 }
 
 .c6 {
@@ -1948,6 +1948,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "listItemColorActiveHover": "#EFF7FB",
                     "listItemColorDefault": "#747D93",
                     "listItemColorDefaultHover": "#EFF2F7",
+                    "listItemColorDisabled": "#DCDFE6",
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
@@ -2227,6 +2228,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "listItemColorActiveHover": "#EFF7FB",
                     "listItemColorDefault": "#747D93",
                     "listItemColorDefaultHover": "#EFF2F7",
+                    "listItemColorDisabled": "#DCDFE6",
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
@@ -2496,6 +2498,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "listItemColorActiveHover": "#EFF7FB",
                     "listItemColorDefault": "#747D93",
                     "listItemColorDefaultHover": "#EFF2F7",
+                    "listItemColorDisabled": "#DCDFE6",
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
@@ -2766,6 +2769,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "listItemColorActiveHover": "#EFF7FB",
                     "listItemColorDefault": "#747D93",
                     "listItemColorDefaultHover": "#EFF2F7",
+                    "listItemColorDisabled": "#DCDFE6",
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
@@ -3411,6 +3415,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -3700,6 +3705,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -3989,6 +3995,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4278,6 +4285,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4566,6 +4574,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4855,6 +4864,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -5144,6 +5154,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -5433,6 +5444,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -5722,6 +5734,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6010,6 +6023,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6299,6 +6313,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6588,6 +6603,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6876,6 +6892,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -7164,6 +7181,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -7452,6 +7470,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -7741,6 +7760,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8031,6 +8051,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8328,6 +8349,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8627,6 +8649,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8923,6 +8946,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -9211,6 +9235,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -9501,6 +9526,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -9790,6 +9816,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10086,6 +10113,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10375,6 +10403,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10664,6 +10693,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10954,6 +10984,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -11243,6 +11274,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -11532,6 +11564,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -11821,6 +11854,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12114,6 +12148,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12403,6 +12438,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12693,6 +12729,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12981,6 +13018,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -13270,6 +13308,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -13559,6 +13598,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -13848,6 +13888,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -14137,6 +14178,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -14425,6 +14467,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -14718,6 +14761,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15007,6 +15051,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15297,6 +15342,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15586,6 +15632,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15876,6 +15923,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -16168,6 +16216,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -16460,6 +16509,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -16749,6 +16799,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -17038,6 +17089,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -17336,6 +17388,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -17625,6 +17678,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -17924,6 +17978,7 @@ exports[`Storyshots Icon Normal 1`] = `
           "listItemColorActiveHover": "#EFF7FB",
           "listItemColorDefault": "#747D93",
           "listItemColorDefaultHover": "#EFF2F7",
+          "listItemColorDisabled": "#DCDFE6",
           "listItemSeparatorColor": "#EFF2F7",
           "listPadding": "8px",
           "navigationBorder": "1px solid #EFF2F7",
@@ -18576,7 +18631,6 @@ exports[`Storyshots List Playground 1`] = `
 
 .c1:hover {
   background-color: #EFF2F7;
-  color: #747D93;
 }
 
 .c2 {
@@ -18691,7 +18745,6 @@ exports[`Storyshots List With Childrens 1`] = `
 
 .c1:hover {
   background-color: #EFF2F7;
-  color: #747D93;
 }
 
 .c5 {
@@ -18716,7 +18769,30 @@ exports[`Storyshots List With Childrens 1`] = `
 
 .c5:hover {
   background-color: #EFF7FB;
-  color: #1778FB;
+}
+
+.c8 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  cursor: default;
+}
+
+.c8:hover {
+  background-color: #FFFFFF;
 }
 
 .c2 {
@@ -18769,11 +18845,31 @@ exports[`Storyshots List With Childrens 1`] = `
 }
 
 .c9 {
+  color: #DCDFE6;
+}
+
+.c9 > a {
+  color: #DCDFE6;
+}
+
+.c9 > a:hover {
+  color: #DCDFE6;
+}
+
+.c9 > svg {
+  fill: #DCDFE6;
+}
+
+.c9 > svg:hover {
+  fill: #DCDFE6;
+}
+
+.c10 {
   margin-left: auto;
   color: #747D93;
 }
 
-.c9 > svg {
+.c10 > svg {
   fill: #747D93;
 }
 
@@ -18786,7 +18882,7 @@ exports[`Storyshots List With Childrens 1`] = `
   fill: #1778FB;
 }
 
-.c8 {
+.c11 {
   display: block;
   height: 1px;
   border: 0;
@@ -18935,6 +19031,7 @@ exports[`Storyshots List With Childrens 1`] = `
                 "listItemColorActiveHover": "#EFF7FB",
                 "listItemColorDefault": "#747D93",
                 "listItemColorDefaultHover": "#EFF2F7",
+                "listItemColorDisabled": "#DCDFE6",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listPadding": "8px",
                 "navigationBorder": "1px solid #EFF2F7",
@@ -19085,7 +19182,7 @@ exports[`Storyshots List With Childrens 1`] = `
       <div
         className="c4"
       >
-        Text
+        Default
       </div>
     </li>
     <li
@@ -19094,7 +19191,7 @@ exports[`Storyshots List With Childrens 1`] = `
       <div
         className="c6"
       >
-        Text
+        Active
       </div>
       <div
         className="c7"
@@ -19214,6 +19311,285 @@ exports[`Storyshots List With Childrens 1`] = `
                 "listItemColorActiveHover": "#EFF7FB",
                 "listItemColorDefault": "#747D93",
                 "listItemColorDefaultHover": "#EFF2F7",
+                "listItemColorDisabled": "#DCDFE6",
+                "listItemSeparatorColor": "#EFF2F7",
+                "listPadding": "8px",
+                "navigationBorder": "1px solid #EFF2F7",
+                "navigationContentMargin": "0 42px 0 0",
+                "navigationHeaderPadding": "0 17px",
+                "navigationLinkMargin": "0 24px 0 0",
+                "navigationMenuBackgroundColor": "#EFF2F7",
+                "navigationMenuHoverBackgroundColor": "#DCDFE6",
+                "navigationMenuOpenBackgroundColor": "#EFF7FB",
+                "navigationMenuPadding": "20px 24px",
+                "navigationMinHeight": "73px",
+                "notificationBorderRadius": "8px",
+                "notificationCloseButtonColor": "#212632",
+                "notificationErrorBackgroundColor": "#FAEDEC",
+                "notificationErrorColor": "#CD4C41",
+                "notificationNormalBackgroundColor": "#EFF7FB",
+                "notificationNormalColor": "#212632",
+                "notificationPadding": "16px",
+                "notificationSuccessBackgroundColor": "#EEF8F6",
+                "notificationSuccessColor": "#299B9A",
+                "textLinkDisabledColor": "#DCDFE6",
+                "textLinkFontSizeLarge": "14px",
+                "textLinkFontSizeMedium": "12px",
+                "textLinkPrimaryColor": "#1778FB",
+                "textLinkPrimaryHoverColor": "#5FAEDA",
+                "textLinkSecondaryColor": "#747D93",
+                "textLinkSecondaryHoverColor": "#5FAEDA",
+              },
+              "fonts": Array [
+                Object {
+                  "name": "Roboto-Regular",
+                  "style": "normal",
+                  "weight": "normal",
+                },
+                Object {
+                  "name": "Roboto Medium",
+                  "style": "normal",
+                  "weight": 500,
+                },
+                Object {
+                  "name": "Roboto Bold",
+                  "style": "normal",
+                  "weight": 700,
+                },
+              ],
+              "global": Object {
+                "bgColor": "white",
+                "fontColor": "#333",
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontSize": "14px",
+                "fontWeightBold": 700,
+                "fontWeightMedium": 500,
+                "fontWeightRegular": 400,
+                "transition": "all 250ms ease-in-out",
+              },
+              "headings": Array [
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "3.4rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "2.5rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "1.7rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "1.1rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "0.8rem",
+                },
+              ],
+              "shapes": Object {
+                "borderRadiusFull": "50%",
+                "borderRadiusLarge": "8px",
+                "borderRadiusMedium": "4px",
+                "borderRadiusSmall": "2px",
+                "borderWidthMedium": "2px",
+                "borderWidthSmall": "1px",
+              },
+              "spacings": Object {
+                "large1": "80px",
+                "large2": "96px",
+                "large3": "128px",
+                "large4": "200px",
+                "medium1": "32px",
+                "medium2": "40px",
+                "medium3": "48px",
+                "medium4": "56px",
+                "medium5": "64px",
+                "small1": "4px",
+                "small2": "8px",
+                "small3": "16px",
+                "small4": "24px",
+              },
+              "texts": Object {
+                "p1": Object {
+                  "color": "#212632",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+                "p1b": Object {
+                  "color": "#212632",
+                  "fontSize": "14px",
+                  "fontWeight": 500,
+                  "lineHeight": "1.5",
+                },
+                "p2": Object {
+                  "color": "#212632",
+                  "fontSize": "12px",
+                  "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+                "p2b": Object {
+                  "color": "#212632",
+                  "fontSize": "12px",
+                  "fontWeight": 500,
+                  "lineHeight": "1.5",
+                },
+                "p3b": Object {
+                  "color": "#212632",
+                  "fontSize": "10px",
+                  "fontWeight": 700,
+                  "lineHeight": "1.5",
+                },
+              },
+            }
+          }
+          viewBox="0 0 32 32"
+        >
+          <path
+            clipRule="evenodd"
+            d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+          />
+        </svg>
+      </div>
+    </li>
+    <li
+      className="c8"
+      disabled={true}
+    >
+      <div
+        className="c9"
+        disabled={true}
+      >
+        Disabled
+      </div>
+      <div
+        className="c10"
+        disabled={true}
+      >
+        <svg
+          className="c3"
+          data-name="IconFolder"
+          preserveAspectRatio="xMidYMid meet"
+          size="medium"
+          theme={
+            Object {
+              "breakpoints": Array [
+                "544px",
+                "768px",
+                "1012px",
+                "1280px",
+              ],
+              "color": Object {
+                "charcoal200": "#F8F8F8",
+                "charcoal300": "#EFF2F7",
+                "charcoal400": "#DCDFE6",
+                "charcoal500": "#B6BBC6",
+                "charcoal600": "#747D93",
+                "charcoal700": "#363C4B",
+                "charcoal800": "#212632",
+                "emerald100": "#EEF8F6",
+                "emerald500": "#55BAA9",
+                "emerald600": "#299B9A",
+                "primary100": "#EFF7FB",
+                "primary300": "#5FAEDA",
+                "primary500": "#1778FB",
+                "primary700": "#0C1B7A",
+                "redclay100": "#FAEDEC",
+                "redclay500": "#CD4C41",
+                "white": "#FFFFFF",
+              },
+              "components": Object {
+                "avatarBackgroundColor": "#1778FB",
+                "avatarBorderRadius": "50%",
+                "avatarColor": "#FFFFFF",
+                "avatarFontSizeLarge": "24px",
+                "avatarFontSizeMedium": "14px",
+                "avatarFontSizeSmall": "12px",
+                "avatarSizeLarge": "48px",
+                "avatarSizeMedium": "32px",
+                "avatarSizeSmall": "24px",
+                "buttonFontSizeLarge": "14px",
+                "buttonFontSizeMedium": "12px",
+                "buttonMinWidthLarge": "140px",
+                "buttonMinWidthMedium": "120px",
+                "buttonPaddingLarge": "19px 32px",
+                "buttonPaddingMedium": "11px 32px",
+                "buttonPrimaryBackgroundColor": "#1778FB",
+                "buttonPrimaryBorderColor": "#1778FB",
+                "buttonPrimaryBorderRadius": "4px",
+                "buttonPrimaryColor": "#FFFFFF",
+                "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+                "buttonPrimaryDisabledBorderColor": "#DCDFE6",
+                "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+                "buttonPrimaryHoverBorderColor": "#5FAEDA",
+                "buttonPrimaryHoverColor": "#FFFFFF",
+                "buttonSecondaryBackgroundColor": "#FFFFFF",
+                "buttonSecondaryBorderColor": "#212632",
+                "buttonSecondaryBorderRadius": "4px",
+                "buttonSecondaryColor": "#212632",
+                "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+                "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+                "buttonSecondaryHoverBackgroundColor": "#212632",
+                "buttonSecondaryHoverBorderColor": "#5FAEDA",
+                "buttonSecondaryHoverColor": "#FFFFFF",
+                "checkboxBackground": "#FFFFFF",
+                "checkboxBackgroundChecked": "#1778FB",
+                "checkboxBackgroundDisabled": "#DCDFE6",
+                "checkboxBorderColor": "#DCDFE6",
+                "checkboxBorderRadius": "2px",
+                "checkboxBorderWidth": "2px",
+                "checkboxIconColor": "#FFFFFF",
+                "checkboxLabelColor": "#212632",
+                "checkboxLabelDisabled": "#DCDFE6",
+                "checkboxLabelFontSize": "14px",
+                "checkboxLabelMargin": "16px",
+                "checkboxSizeMedium": "24px",
+                "checkboxSizeSmall": "16px",
+                "formGroupMarginBottom": "16px",
+                "iconPrimaryColor": "#1778FB",
+                "iconSecondaryColor": "#747D93",
+                "iconSizeLarge": "32px",
+                "iconSizeMedium": "24px",
+                "iconSizeSmall": "16px",
+                "inputFieldBackgroundColor": "#FFFFFF",
+                "inputFieldBorderColor": "#DCDFE6",
+                "inputFieldBorderRadius": "4px",
+                "inputFieldDisabledBackgroundColor": "#F8F8F8",
+                "inputFieldDisabledBorderColor": "#DCDFE6",
+                "inputFieldDisabledColor": "#DCDFE6",
+                "inputFieldDisabledLabelColor": "#DCDFE6",
+                "inputFieldErrorBackgroundColor": "#FAEDEC",
+                "inputFieldErrorBorderColor": "#CD4C41",
+                "inputFieldErrorHelpColor": "#CD4C41",
+                "inputFieldErrorPlaceholderColor": "#CD4C41",
+                "inputFieldFocusBackgroundColor": "#EFF7FB",
+                "inputFieldFocusBorderColor": "#5FAEDA",
+                "inputFieldFocusLabelColor": "#5FAEDA",
+                "inputFieldFontSize": "14px",
+                "inputFieldHelpColor": "#212632",
+                "inputFieldHelpFontSize": "12px",
+                "inputFieldLabelColor": "#363C4B",
+                "inputFieldLabelFontSize": "12px",
+                "inputFieldLineHeight": "48px",
+                "inputFieldPlaceholderColor": "#DCDFE6",
+                "inputFieldTextIndent": "24px",
+                "listBackgroundColor": "#FFFFFF",
+                "listBorderColor": "#EFF2F7",
+                "listBorderRadius": "4px",
+                "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+                "listItemColorActive": "#1778FB",
+                "listItemColorActiveHover": "#EFF7FB",
+                "listItemColorDefault": "#747D93",
+                "listItemColorDefaultHover": "#EFF2F7",
+                "listItemColorDisabled": "#DCDFE6",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listPadding": "8px",
                 "navigationBorder": "1px solid #EFF2F7",
@@ -19363,7 +19739,7 @@ exports[`Storyshots List With Childrens 1`] = `
       </div>
     </li>
     <hr
-      className="c8"
+      className="c11"
     />
     <li
       className="c1"
@@ -19486,6 +19862,7 @@ exports[`Storyshots List With Childrens 1`] = `
                 "listItemColorActiveHover": "#EFF7FB",
                 "listItemColorDefault": "#747D93",
                 "listItemColorDefaultHover": "#EFF2F7",
+                "listItemColorDisabled": "#DCDFE6",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listPadding": "8px",
                 "navigationBorder": "1px solid #EFF2F7",
@@ -19636,10 +20013,10 @@ exports[`Storyshots List With Childrens 1`] = `
       <div
         className="c4"
       >
-        Text
+        With Contents
       </div>
       <div
-        className="c9"
+        className="c10"
       >
         <svg
           className="c3"
@@ -19756,6 +20133,7 @@ exports[`Storyshots List With Childrens 1`] = `
                 "listItemColorActiveHover": "#EFF7FB",
                 "listItemColorDefault": "#747D93",
                 "listItemColorDefaultHover": "#EFF2F7",
+                "listItemColorDisabled": "#DCDFE6",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listPadding": "8px",
                 "navigationBorder": "1px solid #EFF2F7",
@@ -19962,7 +20340,6 @@ exports[`Storyshots NavigationBar Normal 1`] = `
 
 .c8:hover {
   background-color: #EFF2F7;
-  color: #747D93;
 }
 
 .c9 {
@@ -20298,6 +20675,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
                   "listItemColorDefaultHover": "#EFF2F7",
+                  "listItemColorDisabled": "#DCDFE6",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -20573,6 +20951,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
                       "listItemColorDefaultHover": "#EFF2F7",
+                      "listItemColorDisabled": "#DCDFE6",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -20847,6 +21226,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
                       "listItemColorDefaultHover": "#EFF2F7",
+                      "listItemColorDisabled": "#DCDFE6",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -21182,6 +21562,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
                   "listItemColorDefaultHover": "#EFF2F7",
+                  "listItemColorDisabled": "#DCDFE6",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -21461,6 +21842,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
                   "listItemColorDefaultHover": "#EFF2F7",
+                  "listItemColorDisabled": "#DCDFE6",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -21732,6 +22114,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
                       "listItemColorDefaultHover": "#EFF2F7",
+                      "listItemColorDisabled": "#DCDFE6",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -22006,6 +22389,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
                       "listItemColorDefaultHover": "#EFF2F7",
+                      "listItemColorDisabled": "#DCDFE6",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -22427,6 +22811,7 @@ exports[`Storyshots Notification Error 1`] = `
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemColorDisabled": "#DCDFE6",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -22752,6 +23137,7 @@ exports[`Storyshots Notification Normal 1`] = `
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemColorDisabled": "#DCDFE6",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -23077,6 +23463,7 @@ exports[`Storyshots Notification Success 1`] = `
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemColorDisabled": "#DCDFE6",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -23405,6 +23792,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemColorDisabled": "#DCDFE6",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",

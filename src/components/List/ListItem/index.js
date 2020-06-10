@@ -16,17 +16,15 @@ const StyledListItem = styled.li`
   font-family: ${props => props.theme.global.fontFamily};
   font-weight: ${props => props.theme.global.fontWeightMedium};
   transition: ${props => props.theme.global.transition};
-  cursor: pointer;
+  cursor: ${props => (props.disabled ? 'default' : 'pointer')};
 
   &:hover {
     background-color: ${props =>
-      props.active
+      props.disabled
+        ? props.theme.color.white
+        : props.active
         ? props.theme.components.listItemColorActiveHover
         : props.theme.components.listItemColorDefaultHover};
-    color: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
   }
 `;
 
@@ -37,13 +35,17 @@ StyledListItem.defaultProps = {
 const StyledLeftContent = styled.div`
   margin-right: 19px;
   color: ${props =>
-    props.active
+    props.disabled
+      ? props.theme.components.listItemColorDisabled
+      : props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
 
   > svg {
     fill: ${props =>
-      props.active
+      props.disabled
+        ? props.theme.components.listItemColorDisabled
+        : props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
   }
@@ -55,19 +57,25 @@ StyledLeftContent.defaultProps = {
 
 const StyledContent = styled.div`
   color: ${props =>
-    props.active
+    props.disabled
+      ? props.theme.components.listItemColorDisabled
+      : props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
 
   > a {
     color: ${props =>
-      props.active
+      props.disabled
+        ? props.theme.components.listItemColorDisabled
+        : props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
 
     &:hover {
       color: ${props =>
-        props.active
+        props.disabled
+          ? props.theme.components.listItemColorDisabled
+          : props.active
           ? props.theme.components.listItemColorActive
           : props.theme.components.listItemColorDefault};
     }
@@ -75,13 +83,17 @@ const StyledContent = styled.div`
 
   > svg {
     fill: ${props =>
-      props.active
+      props.disabled
+        ? props.theme.components.listItemColorDisabled
+        : props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
 
     &:hover {
       fill: ${props =>
-        props.active
+        props.disabled
+          ? props.theme.components.listItemColorDisabled
+          : props.active
           ? props.theme.components.listItemColorActive
           : props.theme.components.listItemColorDefault};
     }
@@ -125,15 +137,25 @@ StyledListSeparator.defaultProps = {
 };
 
 const ListItem = React.forwardRef((props, ref) => {
-  const { children, leftContent, rightContent, separator, active, ...other } = props;
+  const { children, leftContent, rightContent, separator, active, disabled, ...other } = props;
 
   return separator ? (
     <StyledListSeparator />
   ) : (
-    <StyledListItem {...other} active={active}>
-      {leftContent && <StyledLeftContent active={active}>{leftContent}</StyledLeftContent>}
-      <StyledContent active={active}>{children}</StyledContent>
-      {rightContent && <StyledRightContent active={active}>{rightContent}</StyledRightContent>}
+    <StyledListItem {...other} active={active} disabled={disabled}>
+      {leftContent && (
+        <StyledLeftContent active={active} disabled={disabled}>
+          {leftContent}
+        </StyledLeftContent>
+      )}
+      <StyledContent active={active} disabled={disabled}>
+        {children}
+      </StyledContent>
+      {rightContent && (
+        <StyledRightContent active={active} disabled={disabled}>
+          {rightContent}
+        </StyledRightContent>
+      )}
     </StyledListItem>
   );
 });

@@ -42,13 +42,16 @@ export const WithChildrens = () => {
   return (
     <div style={containerStyle}>
       <List>
-        <ListItem leftContent={<IconFolder />}>Text</ListItem>
+        <ListItem leftContent={<IconFolder />}>Default</ListItem>
         <ListItem rightContent={<IconFolder />} active>
-          Text
+          Active
+        </ListItem>
+        <ListItem rightContent={<IconFolder />} disabled>
+          Disabled
         </ListItem>
         <ListItem separator />
         <ListItem leftContent={<IconFolder />} rightContent={<IconFolder />}>
-          Text
+          With Contents
         </ListItem>
       </List>
     </div>

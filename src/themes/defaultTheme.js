@@ -268,7 +268,8 @@ const components = {
   listItemColorActive: color.primary500,
   listItemColorActiveHover: color.primary100,
   listItemColorDefault: color.charcoal600,
-  listItemColorDefaultHover: color.charcoal300
+  listItemColorDefaultHover: color.charcoal300,
+  listItemColorDisabled: color.charcoal400
 };
 
 export default {
