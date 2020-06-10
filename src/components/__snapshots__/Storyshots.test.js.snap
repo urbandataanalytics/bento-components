@@ -98,8 +98,8 @@ exports[`Storyshots Button Block 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   width: 100%;
   padding: 11px 32px;
   font-size: 12px;
@@ -168,8 +168,8 @@ exports[`Storyshots Button Normal 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   padding: 11px 32px;
   font-size: 12px;
   min-width: 120px;
@@ -247,8 +247,8 @@ exports[`Storyshots Button With Icon 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   padding: 11px 32px;
   font-size: 12px;
   min-width: 120px;
@@ -464,14 +464,11 @@ exports[`Storyshots Button With Icon 1`] = `
               "bgColor": "white",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-              "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-              "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-              "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 300ms ease-in-out",
+              "transition": "all 250ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -524,11 +521,34 @@ exports[`Storyshots Button With Icon 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "12px",
                 "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p2b": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p3b": Object {
+                "color": "#212632",
+                "fontSize": "10px",
+                "fontWeight": 700,
                 "lineHeight": "1.5",
               },
             },
@@ -844,14 +864,11 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "bgColor": "white",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-              "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-              "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-              "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 300ms ease-in-out",
+              "transition": "all 250ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -904,11 +921,34 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "12px",
                 "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p2b": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p3b": Object {
+                "color": "#212632",
+                "fontSize": "10px",
+                "fontWeight": 700,
                 "lineHeight": "1.5",
               },
             },
@@ -1241,14 +1281,11 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "bgColor": "white",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-              "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-              "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-              "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 300ms ease-in-out",
+              "transition": "all 250ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -1301,11 +1338,34 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "12px",
                 "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p2b": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p3b": Object {
+                "color": "#212632",
+                "fontSize": "10px",
+                "fontWeight": 700,
                 "lineHeight": "1.5",
               },
             },
@@ -1353,8 +1413,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   padding: 11px 32px;
   font-size: 12px;
   min-width: 120px;
@@ -1394,8 +1454,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
   font-size: 14px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   cursor: pointer;
 }
 
@@ -1447,8 +1507,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
   -webkit-transform: translate(0,0);
   -ms-transform: translate(0,0);
   transform: translate(0,0);
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   position: fixed;
   min-width: 200px;
 }
@@ -1558,8 +1618,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   padding: 11px 32px;
   font-size: 12px;
   min-width: 120px;
@@ -1599,8 +1659,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   font-size: 14px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   cursor: pointer;
 }
 
@@ -1624,8 +1684,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   font-size: 14px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   cursor: pointer;
 }
 
@@ -1733,8 +1793,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-transform: translate(0,0);
   -ms-transform: translate(0,0);
   transform: translate(0,0);
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   position: fixed;
   min-width: 200px;
 }
@@ -1937,14 +1997,11 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "bgColor": "white",
                     "fontColor": "#333",
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                    "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                    "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                     "fontSize": "14px",
                     "fontWeightBold": 700,
                     "fontWeightMedium": 500,
                     "fontWeightRegular": 400,
-                    "transition": "all 300ms ease-in-out",
+                    "transition": "all 250ms ease-in-out",
                   },
                   "headings": Array [
                     Object {
@@ -1997,11 +2054,34 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "small4": "24px",
                   },
                   "texts": Object {
+                    "p1": Object {
+                      "color": "#212632",
+                      "fontSize": "14px",
+                      "fontWeight": 400,
+                      "lineHeight": "1.5",
+                    },
+                    "p1b": Object {
+                      "color": "#212632",
+                      "fontSize": "14px",
+                      "fontWeight": 500,
+                      "lineHeight": "1.5",
+                    },
                     "p2": Object {
                       "color": "#212632",
-                      "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "12px",
                       "fontWeight": 400,
+                      "lineHeight": "1.5",
+                    },
+                    "p2b": Object {
+                      "color": "#212632",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "lineHeight": "1.5",
+                    },
+                    "p3b": Object {
+                      "color": "#212632",
+                      "fontSize": "10px",
+                      "fontWeight": 700,
                       "lineHeight": "1.5",
                     },
                   },
@@ -2196,14 +2276,11 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "bgColor": "white",
                     "fontColor": "#333",
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                    "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                    "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                     "fontSize": "14px",
                     "fontWeightBold": 700,
                     "fontWeightMedium": 500,
                     "fontWeightRegular": 400,
-                    "transition": "all 300ms ease-in-out",
+                    "transition": "all 250ms ease-in-out",
                   },
                   "headings": Array [
                     Object {
@@ -2256,11 +2333,34 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "small4": "24px",
                   },
                   "texts": Object {
+                    "p1": Object {
+                      "color": "#212632",
+                      "fontSize": "14px",
+                      "fontWeight": 400,
+                      "lineHeight": "1.5",
+                    },
+                    "p1b": Object {
+                      "color": "#212632",
+                      "fontSize": "14px",
+                      "fontWeight": 500,
+                      "lineHeight": "1.5",
+                    },
                     "p2": Object {
                       "color": "#212632",
-                      "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "12px",
                       "fontWeight": 400,
+                      "lineHeight": "1.5",
+                    },
+                    "p2b": Object {
+                      "color": "#212632",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "lineHeight": "1.5",
+                    },
+                    "p3b": Object {
+                      "color": "#212632",
+                      "fontSize": "10px",
+                      "fontWeight": 700,
                       "lineHeight": "1.5",
                     },
                   },
@@ -2445,14 +2545,11 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "bgColor": "white",
                     "fontColor": "#333",
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                    "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                    "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                     "fontSize": "14px",
                     "fontWeightBold": 700,
                     "fontWeightMedium": 500,
                     "fontWeightRegular": 400,
-                    "transition": "all 300ms ease-in-out",
+                    "transition": "all 250ms ease-in-out",
                   },
                   "headings": Array [
                     Object {
@@ -2505,11 +2602,34 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "small4": "24px",
                   },
                   "texts": Object {
+                    "p1": Object {
+                      "color": "#212632",
+                      "fontSize": "14px",
+                      "fontWeight": 400,
+                      "lineHeight": "1.5",
+                    },
+                    "p1b": Object {
+                      "color": "#212632",
+                      "fontSize": "14px",
+                      "fontWeight": 500,
+                      "lineHeight": "1.5",
+                    },
                     "p2": Object {
                       "color": "#212632",
-                      "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "12px",
                       "fontWeight": 400,
+                      "lineHeight": "1.5",
+                    },
+                    "p2b": Object {
+                      "color": "#212632",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "lineHeight": "1.5",
+                    },
+                    "p3b": Object {
+                      "color": "#212632",
+                      "fontSize": "10px",
+                      "fontWeight": 700,
                       "lineHeight": "1.5",
                     },
                   },
@@ -2695,14 +2815,11 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "bgColor": "white",
                     "fontColor": "#333",
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                    "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                    "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                     "fontSize": "14px",
                     "fontWeightBold": 700,
                     "fontWeightMedium": 500,
                     "fontWeightRegular": 400,
-                    "transition": "all 300ms ease-in-out",
+                    "transition": "all 250ms ease-in-out",
                   },
                   "headings": Array [
                     Object {
@@ -2755,11 +2872,34 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "small4": "24px",
                   },
                   "texts": Object {
+                    "p1": Object {
+                      "color": "#212632",
+                      "fontSize": "14px",
+                      "fontWeight": 400,
+                      "lineHeight": "1.5",
+                    },
+                    "p1b": Object {
+                      "color": "#212632",
+                      "fontSize": "14px",
+                      "fontWeight": 500,
+                      "lineHeight": "1.5",
+                    },
                     "p2": Object {
                       "color": "#212632",
-                      "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "12px",
                       "fontWeight": 400,
+                      "lineHeight": "1.5",
+                    },
+                    "p2b": Object {
+                      "color": "#212632",
+                      "fontSize": "12px",
+                      "fontWeight": 500,
+                      "lineHeight": "1.5",
+                    },
+                    "p3b": Object {
+                      "color": "#212632",
+                      "fontSize": "10px",
+                      "fontWeight": 700,
                       "lineHeight": "1.5",
                     },
                   },
@@ -2805,8 +2945,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   width: 100%;
   padding: 19px 32px;
   font-size: 14px;
@@ -3320,14 +3460,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -3380,11 +3517,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -3589,14 +3749,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -3649,11 +3806,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -3858,14 +4038,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -3918,11 +4095,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -4127,14 +4327,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -4187,11 +4384,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -4395,14 +4615,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -4455,11 +4672,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -4664,14 +4904,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -4724,11 +4961,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -4933,14 +5193,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -4993,11 +5250,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -5202,14 +5482,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -5262,11 +5539,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -5471,14 +5771,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -5531,11 +5828,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -5739,14 +6059,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -5799,11 +6116,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -6008,14 +6348,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -6068,11 +6405,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -6277,14 +6637,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -6337,11 +6694,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -6545,14 +6925,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -6605,11 +6982,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -6813,14 +7213,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -6873,11 +7270,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -7081,14 +7501,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -7141,11 +7558,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -7350,14 +7790,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -7410,11 +7847,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -7620,14 +8080,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -7680,11 +8137,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -7897,14 +8377,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -7957,11 +8434,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -8176,14 +8676,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -8236,11 +8733,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -8452,14 +8972,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -8512,11 +9029,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -8720,14 +9260,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -8780,11 +9317,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -8990,14 +9550,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -9050,11 +9607,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -9259,14 +9839,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -9319,11 +9896,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -9535,14 +10135,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -9595,11 +10192,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -9804,14 +10424,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -9864,11 +10481,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -10073,14 +10713,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -10133,11 +10770,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -10343,14 +11003,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -10403,11 +11060,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -10612,14 +11292,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -10672,11 +11349,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -10881,14 +11581,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -10941,11 +11638,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -11150,14 +11870,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -11210,11 +11927,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -11423,14 +12163,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -11483,11 +12220,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -11692,14 +12452,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -11752,11 +12509,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -11962,14 +12742,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -12022,11 +12799,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -12230,14 +13030,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -12290,11 +13087,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -12499,14 +13319,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -12559,11 +13376,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -12768,14 +13608,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -12828,11 +13665,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -13037,14 +13897,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -13097,11 +13954,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -13306,14 +14186,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -13366,11 +14243,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -13574,14 +14474,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -13634,11 +14531,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -13847,14 +14767,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -13907,11 +14824,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -14116,14 +15056,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -14176,11 +15113,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -14386,14 +15346,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -14446,11 +15403,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -14655,14 +15635,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -14715,11 +15692,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -14925,14 +15925,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -14985,11 +15982,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -15197,14 +16217,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -15257,11 +16274,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -15469,14 +16509,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -15529,11 +16566,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -15738,14 +16798,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -15798,11 +16855,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -16007,14 +17087,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -16067,11 +17144,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -16285,14 +17385,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -16345,11 +17442,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -16554,14 +17674,11 @@ exports[`Storyshots Icon All Icons 1`] = `
             "bgColor": "white",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-            "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-            "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-            "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 300ms ease-in-out",
+            "transition": "all 250ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -16614,11 +17731,34 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "12px",
               "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
               "lineHeight": "1.5",
             },
           },
@@ -16833,14 +17973,11 @@ exports[`Storyshots Icon Normal 1`] = `
           "bgColor": "white",
           "fontColor": "#333",
           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-          "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-          "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-          "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
           "fontSize": "14px",
           "fontWeightBold": 700,
           "fontWeightMedium": 500,
           "fontWeightRegular": 400,
-          "transition": "all 300ms ease-in-out",
+          "transition": "all 250ms ease-in-out",
         },
         "headings": Array [
           Object {
@@ -16893,11 +18030,34 @@ exports[`Storyshots Icon Normal 1`] = `
           "small4": "24px",
         },
         "texts": Object {
+          "p1": Object {
+            "color": "#212632",
+            "fontSize": "14px",
+            "fontWeight": 400,
+            "lineHeight": "1.5",
+          },
+          "p1b": Object {
+            "color": "#212632",
+            "fontSize": "14px",
+            "fontWeight": 500,
+            "lineHeight": "1.5",
+          },
           "p2": Object {
             "color": "#212632",
-            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "12px",
             "fontWeight": 400,
+            "lineHeight": "1.5",
+          },
+          "p2b": Object {
+            "color": "#212632",
+            "fontSize": "12px",
+            "fontWeight": 500,
+            "lineHeight": "1.5",
+          },
+          "p3b": Object {
+            "color": "#212632",
+            "fontSize": "10px",
+            "fontWeight": 700,
             "lineHeight": "1.5",
           },
         },
@@ -17409,8 +18569,8 @@ exports[`Storyshots List Playground 1`] = `
   font-size: 14px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   cursor: pointer;
 }
 
@@ -17524,8 +18684,8 @@ exports[`Storyshots List With Childrens 1`] = `
   font-size: 14px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   cursor: pointer;
 }
 
@@ -17549,8 +18709,8 @@ exports[`Storyshots List With Childrens 1`] = `
   font-size: 14px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   cursor: pointer;
 }
 
@@ -17824,14 +18984,11 @@ exports[`Storyshots List With Childrens 1`] = `
                 "bgColor": "white",
                 "fontColor": "#333",
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "14px",
                 "fontWeightBold": 700,
                 "fontWeightMedium": 500,
                 "fontWeightRegular": 400,
-                "transition": "all 300ms ease-in-out",
+                "transition": "all 250ms ease-in-out",
               },
               "headings": Array [
                 Object {
@@ -17884,11 +19041,34 @@ exports[`Storyshots List With Childrens 1`] = `
                 "small4": "24px",
               },
               "texts": Object {
+                "p1": Object {
+                  "color": "#212632",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+                "p1b": Object {
+                  "color": "#212632",
+                  "fontSize": "14px",
+                  "fontWeight": 500,
+                  "lineHeight": "1.5",
+                },
                 "p2": Object {
                   "color": "#212632",
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "12px",
                   "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+                "p2b": Object {
+                  "color": "#212632",
+                  "fontSize": "12px",
+                  "fontWeight": 500,
+                  "lineHeight": "1.5",
+                },
+                "p3b": Object {
+                  "color": "#212632",
+                  "fontSize": "10px",
+                  "fontWeight": 700,
                   "lineHeight": "1.5",
                 },
               },
@@ -18083,14 +19263,11 @@ exports[`Storyshots List With Childrens 1`] = `
                 "bgColor": "white",
                 "fontColor": "#333",
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "14px",
                 "fontWeightBold": 700,
                 "fontWeightMedium": 500,
                 "fontWeightRegular": 400,
-                "transition": "all 300ms ease-in-out",
+                "transition": "all 250ms ease-in-out",
               },
               "headings": Array [
                 Object {
@@ -18143,11 +19320,34 @@ exports[`Storyshots List With Childrens 1`] = `
                 "small4": "24px",
               },
               "texts": Object {
+                "p1": Object {
+                  "color": "#212632",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+                "p1b": Object {
+                  "color": "#212632",
+                  "fontSize": "14px",
+                  "fontWeight": 500,
+                  "lineHeight": "1.5",
+                },
                 "p2": Object {
                   "color": "#212632",
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "12px",
                   "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+                "p2b": Object {
+                  "color": "#212632",
+                  "fontSize": "12px",
+                  "fontWeight": 500,
+                  "lineHeight": "1.5",
+                },
+                "p3b": Object {
+                  "color": "#212632",
+                  "fontSize": "10px",
+                  "fontWeight": 700,
                   "lineHeight": "1.5",
                 },
               },
@@ -18335,14 +19535,11 @@ exports[`Storyshots List With Childrens 1`] = `
                 "bgColor": "white",
                 "fontColor": "#333",
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "14px",
                 "fontWeightBold": 700,
                 "fontWeightMedium": 500,
                 "fontWeightRegular": 400,
-                "transition": "all 300ms ease-in-out",
+                "transition": "all 250ms ease-in-out",
               },
               "headings": Array [
                 Object {
@@ -18395,11 +19592,34 @@ exports[`Storyshots List With Childrens 1`] = `
                 "small4": "24px",
               },
               "texts": Object {
+                "p1": Object {
+                  "color": "#212632",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+                "p1b": Object {
+                  "color": "#212632",
+                  "fontSize": "14px",
+                  "fontWeight": 500,
+                  "lineHeight": "1.5",
+                },
                 "p2": Object {
                   "color": "#212632",
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "12px",
                   "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+                "p2b": Object {
+                  "color": "#212632",
+                  "fontSize": "12px",
+                  "fontWeight": 500,
+                  "lineHeight": "1.5",
+                },
+                "p3b": Object {
+                  "color": "#212632",
+                  "fontSize": "10px",
+                  "fontWeight": 700,
                   "lineHeight": "1.5",
                 },
               },
@@ -18585,14 +19805,11 @@ exports[`Storyshots List With Childrens 1`] = `
                 "bgColor": "white",
                 "fontColor": "#333",
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "14px",
                 "fontWeightBold": 700,
                 "fontWeightMedium": 500,
                 "fontWeightRegular": 400,
-                "transition": "all 300ms ease-in-out",
+                "transition": "all 250ms ease-in-out",
               },
               "headings": Array [
                 Object {
@@ -18645,11 +19862,34 @@ exports[`Storyshots List With Childrens 1`] = `
                 "small4": "24px",
               },
               "texts": Object {
+                "p1": Object {
+                  "color": "#212632",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+                "p1b": Object {
+                  "color": "#212632",
+                  "fontSize": "14px",
+                  "fontWeight": 500,
+                  "lineHeight": "1.5",
+                },
                 "p2": Object {
                   "color": "#212632",
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "12px",
                   "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+                "p2b": Object {
+                  "color": "#212632",
+                  "fontSize": "12px",
+                  "fontWeight": 500,
+                  "lineHeight": "1.5",
+                },
+                "p3b": Object {
+                  "color": "#212632",
+                  "fontSize": "10px",
+                  "fontWeight": 700,
                   "lineHeight": "1.5",
                 },
               },
@@ -18715,8 +19955,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   font-size: 14px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   cursor: pointer;
 }
 
@@ -18777,8 +20017,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   -webkit-transform: translate(0,0);
   -ms-transform: translate(0,0);
   transform: translate(0,0);
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   position: fixed;
   min-width: 200px;
 }
@@ -19107,14 +20347,11 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "bgColor": "white",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                  "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                  "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                  "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 300ms ease-in-out",
+                  "transition": "all 250ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -19167,11 +20404,34 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontSize": "12px",
                     "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
+                  "p2b": Object {
+                    "color": "#212632",
+                    "fontSize": "12px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
+                  "p3b": Object {
+                    "color": "#212632",
+                    "fontSize": "10px",
+                    "fontWeight": 700,
                     "lineHeight": "1.5",
                   },
                 },
@@ -19362,14 +20622,11 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "bgColor": "white",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                      "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                      "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                      "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
                       "fontWeightBold": 700,
                       "fontWeightMedium": 500,
                       "fontWeightRegular": 400,
-                      "transition": "all 300ms ease-in-out",
+                      "transition": "all 250ms ease-in-out",
                     },
                     "headings": Array [
                       Object {
@@ -19422,11 +20679,34 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
-                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontSize": "12px",
                         "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
+                      "p2b": Object {
+                        "color": "#212632",
+                        "fontSize": "12px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
+                      "p3b": Object {
+                        "color": "#212632",
+                        "fontSize": "10px",
+                        "fontWeight": 700,
                         "lineHeight": "1.5",
                       },
                     },
@@ -19616,14 +20896,11 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "bgColor": "white",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                      "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                      "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                      "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
                       "fontWeightBold": 700,
                       "fontWeightMedium": 500,
                       "fontWeightRegular": 400,
-                      "transition": "all 300ms ease-in-out",
+                      "transition": "all 250ms ease-in-out",
                     },
                     "headings": Array [
                       Object {
@@ -19676,11 +20953,34 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
-                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontSize": "12px",
                         "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
+                      "p2b": Object {
+                        "color": "#212632",
+                        "fontSize": "12px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
+                      "p3b": Object {
+                        "color": "#212632",
+                        "fontSize": "10px",
+                        "fontWeight": 700,
                         "lineHeight": "1.5",
                       },
                     },
@@ -19931,14 +21231,11 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "bgColor": "white",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                  "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                  "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                  "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 300ms ease-in-out",
+                  "transition": "all 250ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -19991,11 +21288,34 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontSize": "12px",
                     "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
+                  "p2b": Object {
+                    "color": "#212632",
+                    "fontSize": "12px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
+                  "p3b": Object {
+                    "color": "#212632",
+                    "fontSize": "10px",
+                    "fontWeight": 700,
                     "lineHeight": "1.5",
                   },
                 },
@@ -20190,14 +21510,11 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "bgColor": "white",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                  "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                  "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                  "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 300ms ease-in-out",
+                  "transition": "all 250ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -20250,11 +21567,34 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontSize": "12px",
                     "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
+                  "p2b": Object {
+                    "color": "#212632",
+                    "fontSize": "12px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
+                  "p3b": Object {
+                    "color": "#212632",
+                    "fontSize": "10px",
+                    "fontWeight": 700,
                     "lineHeight": "1.5",
                   },
                 },
@@ -20441,14 +21781,11 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "bgColor": "white",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                      "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                      "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                      "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
                       "fontWeightBold": 700,
                       "fontWeightMedium": 500,
                       "fontWeightRegular": 400,
-                      "transition": "all 300ms ease-in-out",
+                      "transition": "all 250ms ease-in-out",
                     },
                     "headings": Array [
                       Object {
@@ -20501,11 +21838,34 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
-                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontSize": "12px",
                         "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
+                      "p2b": Object {
+                        "color": "#212632",
+                        "fontSize": "12px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
+                      "p3b": Object {
+                        "color": "#212632",
+                        "fontSize": "10px",
+                        "fontWeight": 700,
                         "lineHeight": "1.5",
                       },
                     },
@@ -20695,14 +22055,11 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "bgColor": "white",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                      "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-                      "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-                      "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
                       "fontWeightBold": 700,
                       "fontWeightMedium": 500,
                       "fontWeightRegular": 400,
-                      "transition": "all 300ms ease-in-out",
+                      "transition": "all 250ms ease-in-out",
                     },
                     "headings": Array [
                       Object {
@@ -20755,11 +22112,34 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
-                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontSize": "12px",
                         "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
+                      "p2b": Object {
+                        "color": "#212632",
+                        "fontSize": "12px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
+                      "p3b": Object {
+                        "color": "#212632",
+                        "fontSize": "10px",
+                        "fontWeight": 700,
                         "lineHeight": "1.5",
                       },
                     },
@@ -21096,14 +22476,11 @@ exports[`Storyshots Notification Error 1`] = `
               "bgColor": "white",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-              "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-              "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-              "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 300ms ease-in-out",
+              "transition": "all 250ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -21156,11 +22533,34 @@ exports[`Storyshots Notification Error 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "12px",
                 "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p2b": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p3b": Object {
+                "color": "#212632",
+                "fontSize": "10px",
+                "fontWeight": 700,
                 "lineHeight": "1.5",
               },
             },
@@ -21401,14 +22801,11 @@ exports[`Storyshots Notification Normal 1`] = `
               "bgColor": "white",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-              "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-              "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-              "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 300ms ease-in-out",
+              "transition": "all 250ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -21461,11 +22858,34 @@ exports[`Storyshots Notification Normal 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "12px",
                 "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p2b": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p3b": Object {
+                "color": "#212632",
+                "fontSize": "10px",
+                "fontWeight": 700,
                 "lineHeight": "1.5",
               },
             },
@@ -21706,14 +23126,11 @@ exports[`Storyshots Notification Success 1`] = `
               "bgColor": "white",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-              "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-              "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-              "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 300ms ease-in-out",
+              "transition": "all 250ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -21766,11 +23183,34 @@ exports[`Storyshots Notification Success 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "12px",
                 "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p2b": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p3b": Object {
+                "color": "#212632",
+                "fontSize": "10px",
+                "fontWeight": 700,
                 "lineHeight": "1.5",
               },
             },
@@ -22014,14 +23454,11 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "bgColor": "white",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-              "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
-              "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
-              "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 300ms ease-in-out",
+              "transition": "all 250ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -22074,11 +23511,34 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "12px",
                 "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p2b": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p3b": Object {
+                "color": "#212632",
+                "fontSize": "10px",
+                "fontWeight": 700,
                 "lineHeight": "1.5",
               },
             },
