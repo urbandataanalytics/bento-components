@@ -3,10 +3,19 @@ import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 import PropTypes from 'prop-types';
 
+const componentSizes = theme => ({
+  medium: {
+    padding: theme.components.linkListPaddingMedium
+  },
+  large: {
+    padding: theme.components.linkListPaddingLarge
+  }
+});
+
 const StyledList = styled.ul`
-  padding: ${props => props.theme.components.listPadding};
   background-color: ${props => props.theme.components.listBackgroundColor};
   box-sizing: border-box;
+  ${props => componentSizes(props.theme)[props.size]};
 `;
 
 StyledList.defaultProps = {
@@ -14,10 +23,10 @@ StyledList.defaultProps = {
 };
 
 const List = React.forwardRef((props, ref) => {
-  const { children, className, ...other } = props;
+  const { children, size, className, ...other } = props;
 
   return (
-    <StyledList className={className} {...other}>
+    <StyledList className={className} size={size} {...other}>
       {children}
     </StyledList>
   );
@@ -25,8 +34,13 @@ const List = React.forwardRef((props, ref) => {
 
 List.displayName = 'List';
 
+List.defaultProps = {
+  size: 'medium'
+};
+
 List.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  size: PropTypes.oneOf(['medium', 'large'])
 };
 
 export default List;

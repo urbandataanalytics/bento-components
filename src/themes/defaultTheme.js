@@ -263,7 +263,8 @@ const components = {
   linkListDisabledColor: color.charcoal400,
   linkListActiveIconColor: color.primary500,
   linkListActiveIconMargin: '0 15px 0 auto;',
-  linkListPadding: '7px 16px'
+  linkListPaddingMedium: '7px 16px',
+  linkListPaddingLarge: '11px 16px'
 };
 
 export default {
