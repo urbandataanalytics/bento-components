@@ -17969,6 +17969,8 @@ exports[`Storyshots LinkList Normal 1`] = `
   -ms-flex-positive: 1;
   flex-grow: 1;
   padding: 7px 16px;
+  font-weight: 500;
+  font-size: 12px;
   color: #212632;
 }
 
@@ -18006,6 +18008,8 @@ exports[`Storyshots LinkList Normal 1`] = `
   -ms-flex-positive: 1;
   flex-grow: 1;
   padding: 7px 16px;
+  font-weight: 500;
+  font-size: 12px;
   color: #1778FB;
 }
 
@@ -18042,6 +18046,8 @@ exports[`Storyshots LinkList Normal 1`] = `
   -ms-flex-positive: 1;
   flex-grow: 1;
   padding: 7px 16px;
+  font-weight: 500;
+  font-size: 12px;
   color: #212632;
 }
 

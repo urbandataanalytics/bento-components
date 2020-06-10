@@ -21,6 +21,8 @@ const StyledLinkListItem = styled.li`
     flex-shrink: 0;
     flex-grow: 1;
     padding: ${props => props.theme.components.linkListPadding};
+    font-weight: ${props => props.theme.global.fontWeightMedium};
+    font-size: 12px;
     color: ${props =>
       props.active
         ? props.theme.components.linkListActiveColor
