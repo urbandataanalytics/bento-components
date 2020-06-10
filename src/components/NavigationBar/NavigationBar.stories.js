@@ -39,8 +39,6 @@ export const Normal = () => {
 
   const CustomIcon = Icons[select('Icon Menu', Object.keys(Icons), 'IconMove')];
 
-  const CustomIcon = Icons[select('Icon Menu', Object.keys(Icons), 'IconMove')];
-
   return (
     <NavigationBar
       header={HeaderLogo}
