@@ -214,6 +214,7 @@ const components = {
   navigationContentMargin: '0 42px 0 0',
   navigationLinkMargin: '0 24px 0 0',
   navigationHeaderPadding: '0 17px',
+  navigationMinHeight: '73px',
 
   /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
