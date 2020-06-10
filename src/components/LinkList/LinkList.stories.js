@@ -1,7 +1,7 @@
 import React from 'react';
 import LinkList from './index';
-import TextLink from '../TextLink';
 import LinkListItem from './LinkListItem';
+import { select } from '@storybook/addon-knobs';
 
 export default {
   title: 'LinkList',
@@ -10,15 +10,13 @@ export default {
 
 export const Normal = () => {
   return (
-    <LinkList style={{ margin: '20px' }}>
-      <LinkListItem>
-        <TextLink href={'#'}>Link 1</TextLink>
+    <LinkList size={select('Sizes', ['medium', 'large'], 'medium')} style={{ margin: '20px' }}>
+      <LinkListItem href={'#'}>Link default</LinkListItem>
+      <LinkListItem href={'#'} active>
+        Link active
       </LinkListItem>
-      <LinkListItem active>
-        <TextLink href={'#'}>Link 2</TextLink>
-      </LinkListItem>
-      <LinkListItem disabled>
-        <TextLink href={'#'}>Link 3</TextLink>
+      <LinkListItem href={'#'} disabled>
+        Link disabled
       </LinkListItem>
     </LinkList>
   );

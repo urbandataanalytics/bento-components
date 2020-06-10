@@ -2,6 +2,17 @@ import React from 'react';
 import styled from 'styled-components';
 import defaultTheme from '../../../themes/defaultTheme';
 
+const componentSizes = theme => ({
+  medium: {
+    padding: theme.components.listItemPaddingMedium,
+    fontSize: theme.components.listItemFontSizeMedium
+  },
+  large: {
+    padding: theme.components.listItemPaddingLarge,
+    fontSize: theme.components.listItemFontSizeLarge
+  }
+});
+
 const StyledLeftContent = styled.div`
   margin-right: 19px;
   color: ${props =>
@@ -22,18 +33,6 @@ const StyledLeftContent = styled.div`
     ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
   }
 `;
-const StyledComponentT = styled(({ asComponent, children, ...props }) =>
-  // React.createElement(asComponent, props, children)
-  React.cloneElement('TextLink', props)
-)``;
-
-// const StyledComponent = styled.div`
-//   display: flex;
-//   flex-basis: 100%;
-//   align-items: center;
-//   align-content: center;
-//   padding: 11px 19px;
-// `;
 
 const StyledComponent = styled(({ className, children, as: Component, ...props }) =>
   Component ? (
@@ -44,15 +43,6 @@ const StyledComponent = styled(({ className, children, as: Component, ...props }
     <div className={className}>{children}</div>
   )
 )``;
-// const StyledComponent = styled.div``;
-// const StyledComponent = styled(({ asComponent, ...props }) => {
-//   return <Component as={asComponent}></Component>;
-//   // return React.cloneElement(Component, props);
-//   // return (
-//   //   <Component {...props}>{props.children}</Component>
-//   //   // <Component {...props}>{props.children}</Component>
-//   // );
-// })``;
 
 StyledComponent.defaultProps = {
   theme: defaultTheme
@@ -170,7 +160,7 @@ const StyledListItem = styled.li`
     flex-basis: 100%;
     align-items: center;
     align-content: center;
-    padding: 11px 19px;
+    ${props => componentSizes(props.theme)[props.size]};
   }
 `;
 
@@ -178,56 +168,24 @@ StyledListItem.defaultProps = {
   theme: defaultTheme
 };
 
-// const styledBlock = styled(Block)`
-//  background: steelblue;
-// `
-
 const ListItem = React.forwardRef((props, ref) => {
-  // const DefaultComponent = props => <div {...props} />;
-
   const {
     children,
-    // asComponent = DefaultComponent,
-    // as: Component = () => <div />,
     as: Component,
-    asProps,
-    asComponent = 'div',
     leftContent,
     rightContent,
     separator,
+    size,
     active,
     disabled,
     ...other
   } = props;
 
-  // let Co = () => <div />;
-  // console.log(typeof asC);
-  // if (typeof asC === 'string') {
-  //   Co = () => asC;
-  // }
-
   return separator ? (
     <StyledListSeparator />
   ) : (
-    <StyledListItem active={active} disabled={disabled}>
-      {/*<CComponent {...props.asProps}>{children}</CComponent>*/}
-      {/*<Component {...asProps}>{children}</Component>*/}
-      {/*{Component ? (*/}
-      {/*  <Component>*/}
-      {/*    <StyledComponent active={active} disabled={disabled}>*/}
-      {/*      {leftContent && (*/}
-      {/*        <StyledLeftContent active={active} disabled={disabled}>*/}
-      {/*          {leftContent}*/}
-      {/*        </StyledLeftContent>*/}
-      {/*      )}*/}
-
-      {/*      {children}*/}
-      {/*    </StyledComponent>*/}
-      {/*  </Component>*/}
-      {/*) : (*/}
-      {/*  <StyledComponent {...props}>{children}</StyledComponent>*/}
-      {/*)}*/}
-      <StyledComponent {...props} as={Component}>
+    <StyledListItem active={active} disabled={disabled} size={size}>
+      <StyledComponent {...other} as={Component}>
         {leftContent && (
           <StyledLeftContent active={active} disabled={disabled}>
             {leftContent}
@@ -242,28 +200,6 @@ const ListItem = React.forwardRef((props, ref) => {
           </StyledRightContent>
         )}
       </StyledComponent>
-      {/*<Component>{Component().props.children}</Component>*/}
-      {/*<Component>YUHU</Component>*/}
-      {/*{Component}*/}
-      {/*{React.createElement(Component, props)}*/}
-      {/*<Component>HOLA</Component>*/}
-      {/*<StyledComponent {...props} asComponent={asComponent}>*/}
-      {/*  {leftContent && (*/}
-      {/*    <StyledLeftContent active={active} disabled={disabled}>*/}
-      {/*      {leftContent}*/}
-      {/*    </StyledLeftContent>*/}
-      {/*  )}*/}
-
-      {/*  <StyledContent active={active} disabled={disabled}>*/}
-      {/*    {children}*/}
-      {/*  </StyledContent>*/}
-
-      {/*{rightContent && (*/}
-      {/*  <StyledRightContent active={active} disabled={disabled}>*/}
-      {/*    {rightContent}*/}
-      {/*  </StyledRightContent>*/}
-      {/*)}*/}
-      {/*</StyledComponent>*/}
     </StyledListItem>
   );
 });

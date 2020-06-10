@@ -1,21 +1,11 @@
-import React from 'react';
+import React, { Children, cloneElement } from 'react';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 import PropTypes from 'prop-types';
 
-const componentSizes = theme => ({
-  medium: {
-    padding: theme.components.linkListPaddingMedium
-  },
-  large: {
-    padding: theme.components.linkListPaddingLarge
-  }
-});
-
 const StyledList = styled.ul`
   background-color: ${props => props.theme.components.listBackgroundColor};
   box-sizing: border-box;
-  ${props => componentSizes(props.theme)[props.size]};
 `;
 
 StyledList.defaultProps = {
@@ -27,7 +17,7 @@ const List = React.forwardRef((props, ref) => {
 
   return (
     <StyledList className={className} size={size} {...other}>
-      {children}
+      {Children.map(children, child => cloneElement(child, { size }))}
     </StyledList>
   );
 });

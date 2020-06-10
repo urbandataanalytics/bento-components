@@ -253,18 +253,10 @@ const components = {
   listItemColorDefaultHover: color.charcoal300,
   listItemDisabledColor: color.charcoal400,
   listItemMargin: '0 0 4px',
-
-  /* LinkList Theme Props */
-  linkListMargin: '0 0 5px',
-  linkListBorderRadius: shapes.borderRadiusSmall,
-  linkListActiveBackground: color.primary100,
-  linkListActiveColor: color.primary500,
-  linkListColor: color.charcoal800,
-  linkListDisabledColor: color.charcoal400,
-  linkListActiveIconColor: color.primary500,
-  linkListActiveIconMargin: '0 15px 0 auto;',
-  linkListPaddingMedium: '7px 16px',
-  linkListPaddingLarge: '11px 16px'
+  listItemPaddingMedium: '7px 16px',
+  listItemPaddingLarge: '11px 16px',
+  listItemFontSizeMedium: '12px',
+  listItemFontSizeLarge: '14px'
 };
 
 export default {

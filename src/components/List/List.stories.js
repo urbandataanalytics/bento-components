@@ -41,39 +41,20 @@ export const WithChildrens = () => {
     padding: '2rem'
   };
 
-  const CustomLink = props => <TextLink {...props}>prueba</TextLink>;
-
   return (
     <div style={containerStyle}>
-      <List size={select('Sizes', ['medium', 'large'], 'medium')}>
-        <TextLink href={'#'}>Link</TextLink>
-        <TextLink href={'#'}>Link</TextLink>
-      </List>
-
       <List size={select('Sizes', ['medium', 'large'], 'medium')}>
         <ListItem leftContent={<IconFolder />}>Text</ListItem>
         <ListItem rightContent={<IconFolder />} active>
           Text
         </ListItem>
         <ListItem separator />
-        <ListItem leftContent={<IconFolder />}>
-          <TextLink href={'#'}>Link</TextLink>
-        </ListItem>
-
-        <ListItem leftContent={<IconUser />} as={TextLink} asProps={{ href: '#' }}>
+        <ListItem leftContent={<IconUser size={'small'} />} as={TextLink} href={'#'}>
           With Link
         </ListItem>
-
-        <ListItem leftContent={<IconFolder />} as={CustomLink}></ListItem>
-        {/*<ListItem*/}
-        {/*  leftContent={<IconFolder />}*/}
-        {/*  rightContent={<IconFolder />}*/}
-        {/*  asComponent={'TextLink'}*/}
-        {/*  href={'#'}*/}
-        {/*>*/}
-        {/*  Link*/}
-        {/*  /!*<TextLink href={'#'}>Link</TextLink>*!/*/}
-        {/*</ListItem>*/}
+        <ListItem as={TextLink} href={'#'}>
+          No icon with Link
+        </ListItem>
         <ListItem leftContent={<IconFolder />} rightContent={<IconFolder />}>
           Text
         </ListItem>
