@@ -1,99 +1,86 @@
 import React from 'react';
 import styled from 'styled-components';
 import defaultTheme from '../../../themes/defaultTheme';
+import PropTypes from 'prop-types';
 
-const StyledListItem = styled.li`
-  padding: 11px 19px;
-  display: flex;
-  align-items: center;
-  background-color: ${props =>
-    props.active ? props.theme.components.listItemColorActiveHover : props.theme.color.white};
-  color: ${props =>
-    props.active
-      ? props.theme.components.listItemColorActive
-      : props.theme.components.listItemColorDefault};
-  font-size: 14px;
-  font-family: ${props => props.theme.global.fontFamily};
-  font-weight: ${props => props.theme.global.fontWeightMedium};
-  transition: ${props => props.theme.global.transition};
-  cursor: ${props => (props.disabled ? 'default' : 'pointer')};
-
-  &:hover {
-    background-color: ${props =>
-      props.disabled
-        ? props.theme.color.white
-        : props.active
-        ? props.theme.components.listItemColorActiveHover
-        : props.theme.components.listItemColorDefaultHover};
+const componentSizes = theme => ({
+  medium: {
+    padding: theme.components.listItemPaddingMedium,
+    fontSize: theme.components.listItemFontSizeMedium
+  },
+  large: {
+    padding: theme.components.listItemPaddingLarge,
+    fontSize: theme.components.listItemFontSizeLarge
   }
-`;
-
-StyledListItem.defaultProps = {
-  theme: defaultTheme
-};
+});
 
 const StyledLeftContent = styled.div`
   margin-right: 19px;
   color: ${props =>
-    props.disabled
-      ? props.theme.components.listItemColorDisabled
-      : props.active
+    props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
+  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
 
   > svg {
     fill: ${props =>
-      props.disabled
-        ? props.theme.components.listItemColorDisabled
-        : props.active
+      props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
+    ${props => props.disabled && `fill: ${props.theme.components.listItemColorDisabled}`}
+  }
+
+  > * {
+    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
   }
 `;
 
-StyledLeftContent.defaultProps = {
+const StyledComponent = styled(({ className, children, as: Component, theme, ...props }) =>
+  Component ? (
+    <Component className={className} {...props}>
+      {children}
+    </Component>
+  ) : (
+    <div className={className}>{children}</div>
+  )
+)``;
+
+StyledComponent.defaultProps = {
   theme: defaultTheme
 };
 
 const StyledContent = styled.div`
   color: ${props =>
-    props.disabled
-      ? props.theme.components.listItemColorDisabled
-      : props.active
+    props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
-
-  > a {
-    color: ${props =>
-      props.disabled
-        ? props.theme.components.listItemColorDisabled
-        : props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
-
-    &:hover {
-      color: ${props =>
-        props.disabled
-          ? props.theme.components.listItemColorDisabled
-          : props.active
-          ? props.theme.components.listItemColorActive
-          : props.theme.components.listItemColorDefault};
-    }
-  }
+  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
 
   > svg {
     fill: ${props =>
-      props.disabled
-        ? props.theme.components.listItemColorDisabled
-        : props.active
+      props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
 
     &:hover {
       fill: ${props =>
-        props.disabled
-          ? props.theme.components.listItemColorDisabled
-          : props.active
+        props.active
+          ? props.theme.components.listItemColorActive
+          : props.theme.components.listItemColorDefault};
+    }
+  }
+
+  > * {
+    color: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
+    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
+    ${props => props.disabled && `pointer-events: none`}
+
+    &:hover {
+      color: ${props =>
+        props.active
           ? props.theme.components.listItemColorActive
           : props.theme.components.listItemColorDefault};
     }
@@ -110,12 +97,18 @@ const StyledRightContent = styled.div`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
+  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
 
   > svg {
     fill: ${props =>
       props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
+    ${props => props.disabled && `fill: ${props.theme.components.listItemColorDisabled}`}
+  }
+
+  > * {
+    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
   }
 `;
 
@@ -136,31 +129,102 @@ StyledListSeparator.defaultProps = {
   theme: defaultTheme
 };
 
+const StyledListItem = styled.li`
+  display: flex;
+  align-items: center;
+  background-color: ${props =>
+    props.active ? props.theme.components.listItemColorActiveHover : props.theme.color.white};
+  color: ${props =>
+    props.active
+      ? props.theme.components.listItemColorActive
+      : props.theme.components.listItemColorDefault};
+  font-size: 14px;
+  font-family: ${props => props.theme.global.fontFamily};
+  font-weight: ${props => props.theme.global.fontWeightMedium};
+  transition: ${props => props.theme.global.transition};
+  margin: ${props => props.theme.components.listItemMargin};
+  ${props => props.onClick && 'cursor: pointer'};
+  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`};
+
+  &:hover {
+    background-color: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActiveHover
+        : props.theme.components.listItemColorDefaultHover};
+    color: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
+  }
+
+  > ${StyledComponent} {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    align-content: center;
+    color: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
+    font-weight: 500;
+    ${props => componentSizes(props.theme)[props.size]};
+  }
+`;
+
+StyledListItem.defaultProps = {
+  theme: defaultTheme
+};
+
 const ListItem = React.forwardRef((props, ref) => {
-  const { children, leftContent, rightContent, separator, active, disabled, ...other } = props;
+  const {
+    children,
+    as: Component,
+    leftContent,
+    rightContent,
+    separator,
+    size,
+    active,
+    disabled,
+    onClick,
+    ...other
+  } = props;
 
   return separator ? (
     <StyledListSeparator />
   ) : (
-    <StyledListItem {...other} active={active} disabled={disabled}>
-      {leftContent && (
-        <StyledLeftContent active={active} disabled={disabled}>
-          {leftContent}
-        </StyledLeftContent>
-      )}
-      <StyledContent active={active} disabled={disabled}>
+    <StyledListItem active={active} disabled={disabled} onClick={onClick} size={size}>
+      <StyledComponent {...other} as={Component}>
+        {leftContent && (
+          <StyledLeftContent active={active} disabled={disabled}>
+            {leftContent}
+          </StyledLeftContent>
+        )}
+
         {children}
-      </StyledContent>
-      {rightContent && (
-        <StyledRightContent active={active} disabled={disabled}>
-          {rightContent}
-        </StyledRightContent>
-      )}
+
+        {rightContent && (
+          <StyledRightContent active={active} disabled={disabled}>
+            {rightContent}
+          </StyledRightContent>
+        )}
+      </StyledComponent>
     </StyledListItem>
   );
 });
 
 ListItem.displayName = 'ListItem';
+
+ListItem.propTypes = {
+  children: PropTypes.node,
+  as: PropTypes.elementType,
+  leftContent: PropTypes.node,
+  rightContent: PropTypes.node,
+  separator: PropTypes.bool,
+  size: PropTypes.oneOf(['medium', 'large']),
+  active: PropTypes.bool,
+  disabled: PropTypes.bool,
+  onClick: PropTypes.func
+};
 
 ListItem.defaultProps = {
   separator: false,

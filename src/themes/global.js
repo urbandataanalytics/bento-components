@@ -62,6 +62,7 @@ const GlobalStyle = createGlobalStyle`
     font-style: normal;
     transition: color 300ms ease-in-out;
     white-space: nowrap;
+    color: ${({ theme }) => theme.color.primary500};
 
     &.primary {
       color: ${({ theme }) => theme.color.primary500};

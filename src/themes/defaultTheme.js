@@ -96,18 +96,6 @@ const headings = [
 ];
 
 const texts = {
-  p1: {
-    fontWeight: global.fontWeightRegular,
-    fontSize: global.fontSize,
-    color: color.charcoal800,
-    lineHeight: '1.5'
-  },
-  p1b: {
-    fontWeight: global.fontWeightMedium,
-    fontSize: global.fontSize,
-    color: color.charcoal800,
-    lineHeight: '1.5'
-  },
   p2: {
     fontWeight: global.fontWeightRegular,
     fontSize: '12px',
@@ -256,11 +244,15 @@ const components = {
   textLinkSecondaryColor: color.charcoal600,
   textLinkSecondaryHoverColor: color.primary300,
 
+  /*Dropdown Theme props*/
+  dropdownBorderColor: color.charcoal300,
+  dropdownBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
+  dropdownBorderRadius: shapes.borderRadiusMedium,
+  dropdownBackground: color.white,
+  dropdownPadding: spacings.small2,
+
   /*List Theme props*/
   listBackgroundColor: color.white,
-  listBorderColor: color.charcoal300,
-  listBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
-  listBorderRadius: shapes.borderRadiusMedium,
   listPadding: spacings.small2,
 
   /*ListItem Theme props*/
@@ -269,7 +261,13 @@ const components = {
   listItemColorActiveHover: color.primary100,
   listItemColorDefault: color.charcoal600,
   listItemColorDefaultHover: color.charcoal300,
-  listItemColorDisabled: color.charcoal400
+  listItemColorDisabled: color.charcoal400,
+  listItemMargin: '0 0 4px',
+  listItemPaddingMedium: '7px 16px',
+  listItemPaddingLarge: '11px 16px',
+  listItemFontSizeMedium: '12px',
+  listItemFontSizeLarge: '14px',
+  listItemFontWeight: global.fontWeightMedium
 };
 
 export default {
