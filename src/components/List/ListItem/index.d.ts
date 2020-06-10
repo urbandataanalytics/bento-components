@@ -3,6 +3,7 @@ export interface ListItemProps {
   className?: string;
   separator?: boolean;
   active?: boolean;
+  disabled?: boolean;
   leftContent?: React.ReactNode;
   rightContent?: React.ReactNode;
 }

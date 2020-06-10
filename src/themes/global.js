@@ -8,8 +8,7 @@ const GlobalStyle = createGlobalStyle`
 
   html {
     font-family: ${({ theme }) => theme.global.fontFamily};
-    font-weight: ${({ theme }) => theme.global.fontWeightRegular};
-    font-size: ${({ theme }) => theme.global.fontSize};
+    ${({ theme }) => theme.texts.p1}
   }
 
   body {
@@ -22,9 +21,29 @@ const GlobalStyle = createGlobalStyle`
 
   ${({ theme }) => headingsGenerator(theme.headings)}
 
+  p{
+    ${({ theme }) => theme.texts.p1};
+  }
+
+  .p1b{
+    ${({ theme }) => theme.texts.p1b};
+  }
+
+  .p2{
+    ${({ theme }) => theme.texts.p2};
+  }
+
+  .p2b{
+    ${({ theme }) => theme.texts.p2b};
+  }
+
+  .p3b{
+    ${({ theme }) => theme.texts.p3b};
+  }
+
   strong {
-    font-family: ${props => props.theme.global.fontFamily};
-    font-weight: ${props => props.theme.global.fontWeightBold};
+    font-family: ${({ theme }) => theme.global.fontFamily};
+    ${({ theme }) => theme.texts.p1b}
   }
 
   button {
@@ -37,8 +56,8 @@ const GlobalStyle = createGlobalStyle`
   }
   
   a {
-    font-family: ${props => props.theme.global.fontFamily};
-    font-weight: ${props => props.theme.global.fontWeightBold};
+    font-family: ${({ theme }) => theme.global.fontFamily};
+    font-weight: ${({ theme }) => theme.global.fontWeightBold};
     text-decoration: none;
     font-style: normal;
     transition: color 300ms ease-in-out;

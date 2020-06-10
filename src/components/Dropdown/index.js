@@ -7,6 +7,10 @@ const StyledDropdown = styled.div`
   position: relative;
 `;
 
+StyledDropdown.defaultProps = {
+  theme: defaultTheme
+};
+
 const StyledLabel = styled.label`
   cursor: pointer;
 `;

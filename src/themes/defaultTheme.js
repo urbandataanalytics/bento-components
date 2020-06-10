@@ -60,11 +60,8 @@ const global = {
   bgColor: 'white',
   fontColor: '#333',
   fontFamily: `"Roboto", ${fontCallback}`,
-  fontFamilyBold: `"Roboto Bold", ${fontCallback}`,
-  fontFamilyMedium: `"Roboto-Medium", ${fontCallback}`,
-  fontFamilyRegular: `"Roboto", ${fontCallback}`,
   fontSize: '14px',
-  transition: 'all 300ms ease-in-out',
+  transition: 'all 250ms ease-in-out',
   fontWeightRegular: 400,
   fontWeightMedium: 500,
   fontWeightBold: 700
@@ -100,9 +97,20 @@ const headings = [
 
 const texts = {
   p2: {
-    fontFamily: global.fontFamily,
     fontWeight: global.fontWeightRegular,
     fontSize: '12px',
+    color: color.charcoal800,
+    lineHeight: '1.5'
+  },
+  p2b: {
+    fontWeight: global.fontWeightMedium,
+    fontSize: '12px',
+    color: color.charcoal800,
+    lineHeight: '1.5'
+  },
+  p3b: {
+    fontWeight: global.fontWeightBold,
+    fontSize: '10px',
     color: color.charcoal800,
     lineHeight: '1.5'
   }
