@@ -1,19 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
-import defaultTheme from '../../themes/defaultTheme';
-
-const StyledLinkList = styled.ul`
-  list-style: none;
-`;
-
-StyledLinkList.defaultProps = {
-  theme: defaultTheme
-};
+import List from '../List';
 
 const LinkList = props => {
   const { children, ...other } = props;
-
-  return <StyledLinkList {...other}>{children}</StyledLinkList>;
+  return <List {...other}>{children}</List>;
 };
 
 export default LinkList;

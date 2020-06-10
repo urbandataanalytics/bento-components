@@ -18,6 +18,9 @@ const ChildrenContainer = styled.div`
   transition: ${props => props.theme.global.transition};
   position: fixed;
   min-width: 200px;
+  border: 1px solid ${props => props.theme.components.dropdownBorderColor};
+  box-shadow: ${props => props.theme.components.dropdownBoxShadow};
+  border-radius: ${props => props.theme.components.dropdownBorderRadius};
 `;
 
 ChildrenContainer.defaultProps = {

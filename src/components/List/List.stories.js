@@ -50,6 +50,9 @@ export const WithChildrens = () => {
         <ListItem leftContent={<IconFolder />} rightContent={<IconFolder />}>
           Text
         </ListItem>
+        <ListItem disabled={true} leftContent={<IconFolder />} rightContent={<IconFolder />}>
+          Text
+        </ListItem>
       </List>
     </div>
   );

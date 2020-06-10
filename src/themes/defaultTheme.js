@@ -236,11 +236,13 @@ const components = {
   textLinkSecondaryColor: color.charcoal600,
   textLinkSecondaryHoverColor: color.primary300,
 
+  /*Dropdown Theme props*/
+  dropdownBorderColor: color.charcoal300,
+  dropdownBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
+  dropdownBorderRadius: shapes.borderRadiusMedium,
+
   /*List Theme props*/
   listBackgroundColor: color.white,
-  listBorderColor: color.charcoal300,
-  listBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
-  listBorderRadius: shapes.borderRadiusMedium,
   listPadding: spacings.small2,
 
   /*ListItem Theme props*/
@@ -249,6 +251,8 @@ const components = {
   listItemColorActiveHover: color.primary100,
   listItemColorDefault: color.charcoal600,
   listItemColorDefaultHover: color.charcoal300,
+  listItemDisabledColor: color.charcoal400,
+  listItemMargin: '0 0 4px',
 
   /* LinkList Theme Props */
   linkListMargin: '0 0 5px',

@@ -379,6 +379,9 @@ exports[`Storyshots Button With Icon 1`] = `
               "checkboxLabelMargin": "16px",
               "checkboxSizeMedium": "24px",
               "checkboxSizeSmall": "16px",
+              "dropdownBorderColor": "#EFF2F7",
+              "dropdownBorderRadius": "4px",
+              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "formGroupMarginBottom": "16px",
               "iconPrimaryColor": "#1778FB",
               "iconSecondaryColor": "#747D93",
@@ -417,13 +420,12 @@ exports[`Storyshots Button With Icon 1`] = `
               "linkListMargin": "0 0 5px",
               "linkListPadding": "7px 16px",
               "listBackgroundColor": "#FFFFFF",
-              "listBorderColor": "#EFF2F7",
-              "listBorderRadius": "4px",
-              "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemDisabledColor": "#DCDFE6",
+              "listItemMargin": "0 0 4px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -768,6 +770,9 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "checkboxLabelMargin": "16px",
               "checkboxSizeMedium": "24px",
               "checkboxSizeSmall": "16px",
+              "dropdownBorderColor": "#EFF2F7",
+              "dropdownBorderRadius": "4px",
+              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "formGroupMarginBottom": "16px",
               "iconPrimaryColor": "#1778FB",
               "iconSecondaryColor": "#747D93",
@@ -806,13 +811,12 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "linkListMargin": "0 0 5px",
               "linkListPadding": "7px 16px",
               "listBackgroundColor": "#FFFFFF",
-              "listBorderColor": "#EFF2F7",
-              "listBorderRadius": "4px",
-              "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemDisabledColor": "#DCDFE6",
+              "listItemMargin": "0 0 4px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -1174,6 +1178,9 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "checkboxLabelMargin": "16px",
               "checkboxSizeMedium": "24px",
               "checkboxSizeSmall": "16px",
+              "dropdownBorderColor": "#EFF2F7",
+              "dropdownBorderRadius": "4px",
+              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "formGroupMarginBottom": "16px",
               "iconPrimaryColor": "#1778FB",
               "iconSecondaryColor": "#747D93",
@@ -1212,13 +1219,12 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "linkListMargin": "0 0 5px",
               "linkListPadding": "7px 16px",
               "listBackgroundColor": "#FFFFFF",
-              "listBorderColor": "#EFF2F7",
-              "listBorderRadius": "4px",
-              "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemDisabledColor": "#DCDFE6",
+              "listItemMargin": "0 0 4px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -1423,6 +1429,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
   cursor: pointer;
 }
 
@@ -1435,14 +1442,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
   color: #747D93;
 }
 
-.c6 > a {
-  color: #747D93;
-}
-
-.c6 > a:hover {
-  color: #747D93;
-}
-
 .c6 > svg {
   fill: #747D93;
 }
@@ -1451,13 +1450,18 @@ exports[`Storyshots Dropdown Playground 1`] = `
   fill: #747D93;
 }
 
+.c6 > * {
+  color: #747D93;
+}
+
+.c6 > *:hover {
+  color: #747D93;
+}
+
 .c4 {
   padding: 8px;
   background-color: #FFFFFF;
-  border: 1px solid #EFF2F7;
   box-sizing: border-box;
-  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
-  border-radius: 4px;
 }
 
 .c0 {
@@ -1478,6 +1482,9 @@ exports[`Storyshots Dropdown Playground 1`] = `
   transition: all 300ms ease-in-out;
   position: fixed;
   min-width: 200px;
+  border: 1px solid #EFF2F7;
+  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
+  border-radius: 4px;
 }
 
 <div
@@ -1628,6 +1635,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
   cursor: pointer;
 }
 
@@ -1653,6 +1661,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
   cursor: pointer;
 }
 
@@ -1683,14 +1692,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   color: #747D93;
 }
 
-.c8 > a {
-  color: #747D93;
-}
-
-.c8 > a:hover {
-  color: #747D93;
-}
-
 .c8 > svg {
   fill: #747D93;
 }
@@ -1699,15 +1700,15 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   fill: #747D93;
 }
 
+.c8 > * {
+  color: #747D93;
+}
+
+.c8 > *:hover {
+  color: #747D93;
+}
+
 .c12 {
-  color: #1778FB;
-}
-
-.c12 > a {
-  color: #1778FB;
-}
-
-.c12 > a:hover {
   color: #1778FB;
 }
 
@@ -1717,6 +1718,14 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 
 .c12 > svg:hover {
   fill: #1778FB;
+}
+
+.c12 > * {
+  color: #1778FB;
+}
+
+.c12 > *:hover {
+  color: #1778FB;
 }
 
 .c9 {
@@ -1740,10 +1749,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 .c4 {
   padding: 8px;
   background-color: #FFFFFF;
-  border: 1px solid #EFF2F7;
   box-sizing: border-box;
-  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
-  border-radius: 4px;
 }
 
 .c0 {
@@ -1764,6 +1770,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   transition: all 300ms ease-in-out;
   position: fixed;
   min-width: 200px;
+  border: 1px solid #EFF2F7;
+  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
+  border-radius: 4px;
 }
 
 <div
@@ -1879,6 +1888,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "checkboxLabelMargin": "16px",
                     "checkboxSizeMedium": "24px",
                     "checkboxSizeSmall": "16px",
+                    "dropdownBorderColor": "#EFF2F7",
+                    "dropdownBorderRadius": "4px",
+                    "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                     "formGroupMarginBottom": "16px",
                     "iconPrimaryColor": "#1778FB",
                     "iconSecondaryColor": "#747D93",
@@ -1917,13 +1929,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "linkListMargin": "0 0 5px",
                     "linkListPadding": "7px 16px",
                     "listBackgroundColor": "#FFFFFF",
-                    "listBorderColor": "#EFF2F7",
-                    "listBorderRadius": "4px",
-                    "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                     "listItemColorActive": "#1778FB",
                     "listItemColorActiveHover": "#EFF7FB",
                     "listItemColorDefault": "#747D93",
                     "listItemColorDefaultHover": "#EFF2F7",
+                    "listItemDisabledColor": "#DCDFE6",
+                    "listItemMargin": "0 0 4px",
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
@@ -2147,6 +2158,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "checkboxLabelMargin": "16px",
                     "checkboxSizeMedium": "24px",
                     "checkboxSizeSmall": "16px",
+                    "dropdownBorderColor": "#EFF2F7",
+                    "dropdownBorderRadius": "4px",
+                    "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                     "formGroupMarginBottom": "16px",
                     "iconPrimaryColor": "#1778FB",
                     "iconSecondaryColor": "#747D93",
@@ -2185,13 +2199,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "linkListMargin": "0 0 5px",
                     "linkListPadding": "7px 16px",
                     "listBackgroundColor": "#FFFFFF",
-                    "listBorderColor": "#EFF2F7",
-                    "listBorderRadius": "4px",
-                    "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                     "listItemColorActive": "#1778FB",
                     "listItemColorActiveHover": "#EFF7FB",
                     "listItemColorDefault": "#747D93",
                     "listItemColorDefaultHover": "#EFF2F7",
+                    "listItemDisabledColor": "#DCDFE6",
+                    "listItemMargin": "0 0 4px",
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
@@ -2405,6 +2418,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "checkboxLabelMargin": "16px",
                     "checkboxSizeMedium": "24px",
                     "checkboxSizeSmall": "16px",
+                    "dropdownBorderColor": "#EFF2F7",
+                    "dropdownBorderRadius": "4px",
+                    "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                     "formGroupMarginBottom": "16px",
                     "iconPrimaryColor": "#1778FB",
                     "iconSecondaryColor": "#747D93",
@@ -2443,13 +2459,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "linkListMargin": "0 0 5px",
                     "linkListPadding": "7px 16px",
                     "listBackgroundColor": "#FFFFFF",
-                    "listBorderColor": "#EFF2F7",
-                    "listBorderRadius": "4px",
-                    "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                     "listItemColorActive": "#1778FB",
                     "listItemColorActiveHover": "#EFF7FB",
                     "listItemColorDefault": "#747D93",
                     "listItemColorDefaultHover": "#EFF2F7",
+                    "listItemDisabledColor": "#DCDFE6",
+                    "listItemMargin": "0 0 4px",
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
@@ -2664,6 +2679,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "checkboxLabelMargin": "16px",
                     "checkboxSizeMedium": "24px",
                     "checkboxSizeSmall": "16px",
+                    "dropdownBorderColor": "#EFF2F7",
+                    "dropdownBorderRadius": "4px",
+                    "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                     "formGroupMarginBottom": "16px",
                     "iconPrimaryColor": "#1778FB",
                     "iconSecondaryColor": "#747D93",
@@ -2702,13 +2720,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     "linkListMargin": "0 0 5px",
                     "linkListPadding": "7px 16px",
                     "listBackgroundColor": "#FFFFFF",
-                    "listBorderColor": "#EFF2F7",
-                    "listBorderRadius": "4px",
-                    "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                     "listItemColorActive": "#1778FB",
                     "listItemColorActiveHover": "#EFF7FB",
                     "listItemColorDefault": "#747D93",
                     "listItemColorDefaultHover": "#EFF2F7",
+                    "listItemDisabledColor": "#DCDFE6",
+                    "listItemMargin": "0 0 4px",
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
@@ -3298,6 +3315,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -3336,13 +3356,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -3576,6 +3595,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -3614,13 +3636,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -3854,6 +3875,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -3892,13 +3916,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4132,6 +4155,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -4170,13 +4196,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4409,6 +4434,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -4447,13 +4475,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4687,6 +4714,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -4725,13 +4755,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4965,6 +4994,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -5003,13 +5035,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -5243,6 +5274,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -5281,13 +5315,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -5521,6 +5554,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -5559,13 +5595,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -5798,6 +5833,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -5836,13 +5874,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6076,6 +6113,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -6114,13 +6154,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6354,6 +6393,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -6392,13 +6434,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6631,6 +6672,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -6669,13 +6713,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6908,6 +6951,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -6946,13 +6992,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -7185,6 +7230,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -7223,13 +7271,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -7463,6 +7510,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -7501,13 +7551,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -7742,6 +7791,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -7780,13 +7832,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8028,6 +8079,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -8066,13 +8120,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8316,6 +8369,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -8354,13 +8410,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8601,6 +8656,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -8639,13 +8697,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8878,6 +8935,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -8916,13 +8976,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -9157,6 +9216,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -9195,13 +9257,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -9435,6 +9496,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -9473,13 +9537,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -9720,6 +9783,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -9758,13 +9824,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -9998,6 +10063,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -10036,13 +10104,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10276,6 +10343,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -10314,13 +10384,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10555,6 +10624,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -10593,13 +10665,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10833,6 +10904,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -10871,13 +10945,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -11111,6 +11184,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -11149,13 +11225,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -11389,6 +11464,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -11427,13 +11505,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -11671,6 +11748,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -11709,13 +11789,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -11949,6 +12028,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -11987,13 +12069,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12228,6 +12309,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -12266,13 +12350,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12505,6 +12588,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -12543,13 +12629,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12783,6 +12868,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -12821,13 +12909,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -13061,6 +13148,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -13099,13 +13189,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -13339,6 +13428,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -13377,13 +13469,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -13617,6 +13708,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -13655,13 +13749,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -13894,6 +13987,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -13932,13 +14028,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -14176,6 +14271,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -14214,13 +14312,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -14454,6 +14551,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -14492,13 +14592,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -14733,6 +14832,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -14771,13 +14873,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15011,6 +15112,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -15049,13 +15153,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15290,6 +15393,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -15328,13 +15434,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15571,6 +15676,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -15609,13 +15717,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15852,6 +15959,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -15890,13 +16000,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -16130,6 +16239,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -16168,13 +16280,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -16408,6 +16519,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -16446,13 +16560,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -16695,6 +16808,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -16733,13 +16849,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -16973,6 +17088,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "checkboxLabelMargin": "16px",
             "checkboxSizeMedium": "24px",
             "checkboxSizeSmall": "16px",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "formGroupMarginBottom": "16px",
             "iconPrimaryColor": "#1778FB",
             "iconSecondaryColor": "#747D93",
@@ -17011,13 +17129,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "linkListMargin": "0 0 5px",
             "linkListPadding": "7px 16px",
             "listBackgroundColor": "#FFFFFF",
-            "listBorderColor": "#EFF2F7",
-            "listBorderRadius": "4px",
-            "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
             "listItemColorDefaultHover": "#EFF2F7",
+            "listItemDisabledColor": "#DCDFE6",
+            "listItemMargin": "0 0 4px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -17261,6 +17378,9 @@ exports[`Storyshots Icon Normal 1`] = `
           "checkboxLabelMargin": "16px",
           "checkboxSizeMedium": "24px",
           "checkboxSizeSmall": "16px",
+          "dropdownBorderColor": "#EFF2F7",
+          "dropdownBorderRadius": "4px",
+          "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
           "formGroupMarginBottom": "16px",
           "iconPrimaryColor": "#1778FB",
           "iconSecondaryColor": "#747D93",
@@ -17299,13 +17419,12 @@ exports[`Storyshots Icon Normal 1`] = `
           "linkListMargin": "0 0 5px",
           "linkListPadding": "7px 16px",
           "listBackgroundColor": "#FFFFFF",
-          "listBorderColor": "#EFF2F7",
-          "listBorderRadius": "4px",
-          "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
           "listItemColorActive": "#1778FB",
           "listItemColorActiveHover": "#EFF7FB",
           "listItemColorDefault": "#747D93",
           "listItemColorDefaultHover": "#EFF2F7",
+          "listItemDisabledColor": "#DCDFE6",
+          "listItemMargin": "0 0 4px",
           "listItemSeparatorColor": "#EFF2F7",
           "listPadding": "8px",
           "navigationBorder": "1px solid #EFF2F7",
@@ -17916,11 +18035,160 @@ exports[`Storyshots InputField Normal 1`] = `
 `;
 
 exports[`Storyshots LinkList Normal 1`] = `
-.c0 {
-  list-style: none;
+.c1 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
+  cursor: pointer;
+}
+
+.c1:hover {
+  background-color: #EFF2F7;
+  color: #747D93;
+}
+
+.c4 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #EFF7FB;
+  color: #1778FB;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
+  cursor: pointer;
+}
+
+.c4:hover {
+  background-color: #EFF7FB;
+  color: #1778FB;
+}
+
+.c7 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
+  cursor: pointer;
+}
+
+color:#DCDFE6 .c7:hover {
+  background-color: #EFF2F7;
+  color: #747D93;
 }
 
 .c2 {
+  color: #747D93;
+}
+
+.c2 > svg {
+  fill: #747D93;
+}
+
+.c2 > svg:hover {
+  fill: #747D93;
+}
+
+.c2 > * {
+  color: #747D93;
+}
+
+.c2 > *:hover {
+  color: #747D93;
+}
+
+.c5 {
+  color: #1778FB;
+}
+
+.c5 > svg {
+  fill: #1778FB;
+}
+
+.c5 > svg:hover {
+  fill: #1778FB;
+}
+
+.c5 > * {
+  color: #1778FB;
+}
+
+.c5 > *:hover {
+  color: #1778FB;
+}
+
+.c8 {
+  color: #747D93;
+}
+
+.c8 color:#DCDFE6 > svg {
+  fill: #747D93;
+}
+
+.c8 color:#DCDFE6 > svg:hover {
+  fill: #747D93;
+}
+
+.c8 > * {
+  color: #747D93;
+}
+
+color:#DCDFE6 pointer-events:none .c8 > *:hover {
+  color: #747D93;
+}
+
+.c6 {
+  margin-left: auto;
+  color: #1778FB;
+}
+
+.c6 > svg {
+  fill: #1778FB;
+}
+
+.c0 {
+  padding: 8px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.c3 {
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto",Arial,sans-serif;
@@ -17936,128 +18204,8 @@ exports[`Storyshots LinkList Normal 1`] = `
   color: #1778FB;
 }
 
-.c2:hover {
-  color: #5FAEDA;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  margin: 0 0 5px;
-  border-radius: 2px;
-}
-
-.c1:hover {
-  background-color: #EFF2F7;
-}
-
-.c1 > a {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  padding: 7px 16px;
-  font-weight: 500;
-  font-size: 12px;
-  color: #212632;
-}
-
-.c1 > a:hover {
-  color: #747D93;
-}
-
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  margin: 0 0 5px;
-  border-radius: 2px;
-  background: #EFF7FB;
-}
-
 .c3:hover {
-  background-color: #EFF7FB;
-}
-
-.c3 > a {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  padding: 7px 16px;
-  font-weight: 500;
-  font-size: 12px;
-  color: #1778FB;
-}
-
-.c3 > a:hover {
-  color: #1778FB;
-}
-
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  margin: 0 0 5px;
-  border-radius: 2px;
-}
-
-.c5:hover {
-  background-color: #EFF2F7;
-}
-
-.c5 > a {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  padding: 7px 16px;
-  font-weight: 500;
-  font-size: 12px;
-  color: #212632;
-}
-
-color:#DCDFE6 pointer-events:none .c5 > a:hover {
-  color: #747D93;
-}
-
-.c4 {
-  color: #1778FB;
-  margin: 0 15px 0 auto;
+  color: #5FAEDA;
 }
 
 <ul
@@ -18071,44 +18219,59 @@ color:#DCDFE6 pointer-events:none .c5 > a:hover {
   <li
     className="c1"
   >
-    <a
+    <div
       className="c2"
-      disabled={false}
-      href="#"
-      size="medium"
     >
-      Link 1
-    </a>
+      <a
+        className="c3"
+        disabled={false}
+        href="#"
+        size="medium"
+      >
+        Link 1
+      </a>
+    </div>
   </li>
   <li
-    className="c3"
+    className="c4"
   >
-    <a
-      className="c2"
-      disabled={false}
-      href="#"
-      size="medium"
+    <div
+      className="c5"
     >
-      Link 2
-    </a>
-    <span
-      className="c4"
+      <a
+        className="c3"
+        disabled={false}
+        href="#"
+        size="medium"
+      >
+        Link 2
+      </a>
+    </div>
+    <div
+      className="c6"
     >
-      •
-    </span>
+      <span>
+        •
+      </span>
+    </div>
   </li>
   <li
-    className="c5"
+    className="c7"
     disabled={true}
   >
-    <a
-      className="c2"
-      disabled={false}
-      href="#"
-      size="medium"
+    <div
+      className="c8"
+      disabled={true}
     >
-      Link 3
-    </a>
+      <a
+        className="c3"
+        disabled={false}
+        href="#"
+        size="medium"
+      >
+        Link 3
+      </a>
+    </div>
   </li>
 </ul>
 `;
@@ -18131,6 +18294,7 @@ exports[`Storyshots List Playground 1`] = `
   font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
   cursor: pointer;
 }
 
@@ -18143,14 +18307,6 @@ exports[`Storyshots List Playground 1`] = `
   color: #747D93;
 }
 
-.c2 > a {
-  color: #747D93;
-}
-
-.c2 > a:hover {
-  color: #747D93;
-}
-
 .c2 > svg {
   fill: #747D93;
 }
@@ -18159,13 +18315,18 @@ exports[`Storyshots List Playground 1`] = `
   fill: #747D93;
 }
 
+.c2 > * {
+  color: #747D93;
+}
+
+.c2 > *:hover {
+  color: #747D93;
+}
+
 .c0 {
   padding: 8px;
   background-color: #FFFFFF;
-  border: 1px solid #EFF2F7;
   box-sizing: border-box;
-  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
-  border-radius: 4px;
 }
 
 <div
@@ -18246,6 +18407,7 @@ exports[`Storyshots List With Childrens 1`] = `
   font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
   cursor: pointer;
 }
 
@@ -18271,12 +18433,39 @@ exports[`Storyshots List With Childrens 1`] = `
   font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
   cursor: pointer;
 }
 
 .c5:hover {
   background-color: #EFF7FB;
   color: #1778FB;
+}
+
+.c10 {
+  padding: 11px 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
+  cursor: pointer;
+}
+
+color:#DCDFE6 .c10:hover {
+  background-color: #EFF2F7;
+  color: #747D93;
 }
 
 .c2 {
@@ -18288,15 +18477,21 @@ exports[`Storyshots List With Childrens 1`] = `
   fill: #747D93;
 }
 
+.c11 {
+  margin-right: 19px;
+  color: #747D93;
+}
+
+.c11 color:#DCDFE6 > svg {
+  fill: #747D93;
+  fill: #DCDFE6;
+}
+
+.c11 > * {
+  color: #DCDFE6;
+}
+
 .c4 {
-  color: #747D93;
-}
-
-.c4 > a {
-  color: #747D93;
-}
-
-.c4 > a:hover {
   color: #747D93;
 }
 
@@ -18308,15 +18503,15 @@ exports[`Storyshots List With Childrens 1`] = `
   fill: #747D93;
 }
 
+.c4 > * {
+  color: #747D93;
+}
+
+.c4 > *:hover {
+  color: #747D93;
+}
+
 .c6 {
-  color: #1778FB;
-}
-
-.c6 > a {
-  color: #1778FB;
-}
-
-.c6 > a:hover {
   color: #1778FB;
 }
 
@@ -18326,6 +18521,34 @@ exports[`Storyshots List With Childrens 1`] = `
 
 .c6 > svg:hover {
   fill: #1778FB;
+}
+
+.c6 > * {
+  color: #1778FB;
+}
+
+.c6 > *:hover {
+  color: #1778FB;
+}
+
+.c12 {
+  color: #747D93;
+}
+
+.c12 color:#DCDFE6 > svg {
+  fill: #747D93;
+}
+
+.c12 color:#DCDFE6 > svg:hover {
+  fill: #747D93;
+}
+
+.c12 > * {
+  color: #747D93;
+}
+
+color:#DCDFE6 pointer-events:none .c12 > *:hover {
+  color: #747D93;
 }
 
 .c9 {
@@ -18346,6 +18569,20 @@ exports[`Storyshots List With Childrens 1`] = `
   fill: #1778FB;
 }
 
+.c13 {
+  margin-left: auto;
+  color: #747D93;
+}
+
+.c13 color:#DCDFE6 > svg {
+  fill: #747D93;
+  fill: #DCDFE6;
+}
+
+.c13 > * {
+  color: #DCDFE6;
+}
+
 .c8 {
   display: block;
   height: 1px;
@@ -18358,10 +18595,7 @@ exports[`Storyshots List With Childrens 1`] = `
 .c0 {
   padding: 8px;
   background-color: #FFFFFF;
-  border: 1px solid #EFF2F7;
   box-sizing: border-box;
-  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
-  border-radius: 4px;
 }
 
 <div
@@ -18459,6 +18693,9 @@ exports[`Storyshots List With Childrens 1`] = `
                 "checkboxLabelMargin": "16px",
                 "checkboxSizeMedium": "24px",
                 "checkboxSizeSmall": "16px",
+                "dropdownBorderColor": "#EFF2F7",
+                "dropdownBorderRadius": "4px",
+                "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                 "formGroupMarginBottom": "16px",
                 "iconPrimaryColor": "#1778FB",
                 "iconSecondaryColor": "#747D93",
@@ -18497,13 +18734,12 @@ exports[`Storyshots List With Childrens 1`] = `
                 "linkListMargin": "0 0 5px",
                 "linkListPadding": "7px 16px",
                 "listBackgroundColor": "#FFFFFF",
-                "listBorderColor": "#EFF2F7",
-                "listBorderRadius": "4px",
-                "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                 "listItemColorActive": "#1778FB",
                 "listItemColorActiveHover": "#EFF7FB",
                 "listItemColorDefault": "#747D93",
                 "listItemColorDefaultHover": "#EFF2F7",
+                "listItemDisabledColor": "#DCDFE6",
+                "listItemMargin": "0 0 4px",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listPadding": "8px",
                 "navigationBorder": "1px solid #EFF2F7",
@@ -18727,6 +18963,9 @@ exports[`Storyshots List With Childrens 1`] = `
                 "checkboxLabelMargin": "16px",
                 "checkboxSizeMedium": "24px",
                 "checkboxSizeSmall": "16px",
+                "dropdownBorderColor": "#EFF2F7",
+                "dropdownBorderRadius": "4px",
+                "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                 "formGroupMarginBottom": "16px",
                 "iconPrimaryColor": "#1778FB",
                 "iconSecondaryColor": "#747D93",
@@ -18765,13 +19004,12 @@ exports[`Storyshots List With Childrens 1`] = `
                 "linkListMargin": "0 0 5px",
                 "linkListPadding": "7px 16px",
                 "listBackgroundColor": "#FFFFFF",
-                "listBorderColor": "#EFF2F7",
-                "listBorderRadius": "4px",
-                "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                 "listItemColorActive": "#1778FB",
                 "listItemColorActiveHover": "#EFF7FB",
                 "listItemColorDefault": "#747D93",
                 "listItemColorDefaultHover": "#EFF2F7",
+                "listItemDisabledColor": "#DCDFE6",
+                "listItemMargin": "0 0 4px",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listPadding": "8px",
                 "navigationBorder": "1px solid #EFF2F7",
@@ -18988,6 +19226,9 @@ exports[`Storyshots List With Childrens 1`] = `
                 "checkboxLabelMargin": "16px",
                 "checkboxSizeMedium": "24px",
                 "checkboxSizeSmall": "16px",
+                "dropdownBorderColor": "#EFF2F7",
+                "dropdownBorderRadius": "4px",
+                "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                 "formGroupMarginBottom": "16px",
                 "iconPrimaryColor": "#1778FB",
                 "iconSecondaryColor": "#747D93",
@@ -19026,13 +19267,12 @@ exports[`Storyshots List With Childrens 1`] = `
                 "linkListMargin": "0 0 5px",
                 "linkListPadding": "7px 16px",
                 "listBackgroundColor": "#FFFFFF",
-                "listBorderColor": "#EFF2F7",
-                "listBorderRadius": "4px",
-                "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                 "listItemColorActive": "#1778FB",
                 "listItemColorActiveHover": "#EFF7FB",
                 "listItemColorDefault": "#747D93",
                 "listItemColorDefaultHover": "#EFF2F7",
+                "listItemDisabledColor": "#DCDFE6",
+                "listItemMargin": "0 0 4px",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listPadding": "8px",
                 "navigationBorder": "1px solid #EFF2F7",
@@ -19247,6 +19487,9 @@ exports[`Storyshots List With Childrens 1`] = `
                 "checkboxLabelMargin": "16px",
                 "checkboxSizeMedium": "24px",
                 "checkboxSizeSmall": "16px",
+                "dropdownBorderColor": "#EFF2F7",
+                "dropdownBorderRadius": "4px",
+                "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                 "formGroupMarginBottom": "16px",
                 "iconPrimaryColor": "#1778FB",
                 "iconSecondaryColor": "#747D93",
@@ -19285,13 +19528,537 @@ exports[`Storyshots List With Childrens 1`] = `
                 "linkListMargin": "0 0 5px",
                 "linkListPadding": "7px 16px",
                 "listBackgroundColor": "#FFFFFF",
-                "listBorderColor": "#EFF2F7",
-                "listBorderRadius": "4px",
-                "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                 "listItemColorActive": "#1778FB",
                 "listItemColorActiveHover": "#EFF7FB",
                 "listItemColorDefault": "#747D93",
                 "listItemColorDefaultHover": "#EFF2F7",
+                "listItemDisabledColor": "#DCDFE6",
+                "listItemMargin": "0 0 4px",
+                "listItemSeparatorColor": "#EFF2F7",
+                "listPadding": "8px",
+                "navigationBorder": "1px solid #EFF2F7",
+                "navigationContentMargin": "0 42px 0 0",
+                "navigationHeaderPadding": "0 17px",
+                "navigationLinkMargin": "0 24px 0 0",
+                "navigationMenuBackgroundColor": "#EFF2F7",
+                "navigationMenuHoverBackgroundColor": "#DCDFE6",
+                "navigationMenuOpenBackgroundColor": "#EFF7FB",
+                "navigationMenuPadding": "20px 24px",
+                "navigationMinHeight": "73px",
+                "notificationBorderRadius": "8px",
+                "notificationCloseButtonColor": "#212632",
+                "notificationErrorBackgroundColor": "#FAEDEC",
+                "notificationErrorColor": "#CD4C41",
+                "notificationNormalBackgroundColor": "#EFF7FB",
+                "notificationNormalColor": "#212632",
+                "notificationPadding": "16px",
+                "notificationSuccessBackgroundColor": "#EEF8F6",
+                "notificationSuccessColor": "#299B9A",
+                "textLinkDisabledColor": "#DCDFE6",
+                "textLinkFontSizeLarge": "14px",
+                "textLinkFontSizeMedium": "12px",
+                "textLinkPrimaryColor": "#1778FB",
+                "textLinkPrimaryHoverColor": "#5FAEDA",
+                "textLinkSecondaryColor": "#747D93",
+                "textLinkSecondaryHoverColor": "#5FAEDA",
+              },
+              "fonts": Array [
+                Object {
+                  "name": "Roboto-Regular",
+                  "style": "normal",
+                  "weight": "normal",
+                },
+                Object {
+                  "name": "Roboto Medium",
+                  "style": "normal",
+                  "weight": 500,
+                },
+                Object {
+                  "name": "Roboto Bold",
+                  "style": "normal",
+                  "weight": 700,
+                },
+              ],
+              "global": Object {
+                "bgColor": "white",
+                "fontColor": "#333",
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
+                "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
+                "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
+                "fontSize": "14px",
+                "fontWeightBold": 700,
+                "fontWeightMedium": 500,
+                "fontWeightRegular": 400,
+                "transition": "all 300ms ease-in-out",
+              },
+              "headings": Array [
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "3.4rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "2.5rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "1.7rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "1.1rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "0.8rem",
+                },
+              ],
+              "shapes": Object {
+                "borderRadiusFull": "50%",
+                "borderRadiusLarge": "8px",
+                "borderRadiusMedium": "4px",
+                "borderRadiusSmall": "2px",
+                "borderWidthMedium": "2px",
+                "borderWidthSmall": "1px",
+              },
+              "spacings": Object {
+                "large1": "80px",
+                "large2": "96px",
+                "large3": "128px",
+                "large4": "200px",
+                "medium1": "32px",
+                "medium2": "40px",
+                "medium3": "48px",
+                "medium4": "56px",
+                "medium5": "64px",
+                "small1": "4px",
+                "small2": "8px",
+                "small3": "16px",
+                "small4": "24px",
+              },
+              "texts": Object {
+                "p2": Object {
+                  "color": "#212632",
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontSize": "12px",
+                  "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+              },
+            }
+          }
+          viewBox="0 0 32 32"
+        >
+          <path
+            clipRule="evenodd"
+            d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+          />
+        </svg>
+      </div>
+    </li>
+    <li
+      className="c10"
+      disabled={true}
+    >
+      <div
+        className="c11"
+        disabled={true}
+      >
+        <svg
+          className="c3"
+          data-name="IconFolder"
+          preserveAspectRatio="xMidYMid meet"
+          size="medium"
+          theme={
+            Object {
+              "breakpoints": Array [
+                "544px",
+                "768px",
+                "1012px",
+                "1280px",
+              ],
+              "color": Object {
+                "charcoal200": "#F8F8F8",
+                "charcoal300": "#EFF2F7",
+                "charcoal400": "#DCDFE6",
+                "charcoal500": "#B6BBC6",
+                "charcoal600": "#747D93",
+                "charcoal700": "#363C4B",
+                "charcoal800": "#212632",
+                "emerald100": "#EEF8F6",
+                "emerald500": "#55BAA9",
+                "emerald600": "#299B9A",
+                "primary100": "#EFF7FB",
+                "primary300": "#5FAEDA",
+                "primary500": "#1778FB",
+                "primary700": "#0C1B7A",
+                "redclay100": "#FAEDEC",
+                "redclay500": "#CD4C41",
+                "white": "#FFFFFF",
+              },
+              "components": Object {
+                "avatarBackgroundColor": "#1778FB",
+                "avatarBorderRadius": "50%",
+                "avatarColor": "#FFFFFF",
+                "avatarFontSizeLarge": "24px",
+                "avatarFontSizeMedium": "14px",
+                "avatarFontSizeSmall": "12px",
+                "avatarSizeLarge": "48px",
+                "avatarSizeMedium": "32px",
+                "avatarSizeSmall": "24px",
+                "buttonFontSizeLarge": "14px",
+                "buttonFontSizeMedium": "12px",
+                "buttonMinWidthLarge": "140px",
+                "buttonMinWidthMedium": "120px",
+                "buttonPaddingLarge": "19px 32px",
+                "buttonPaddingMedium": "11px 32px",
+                "buttonPrimaryBackgroundColor": "#1778FB",
+                "buttonPrimaryBorderColor": "#1778FB",
+                "buttonPrimaryBorderRadius": "4px",
+                "buttonPrimaryColor": "#FFFFFF",
+                "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+                "buttonPrimaryDisabledBorderColor": "#DCDFE6",
+                "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+                "buttonPrimaryHoverBorderColor": "#5FAEDA",
+                "buttonPrimaryHoverColor": "#FFFFFF",
+                "buttonSecondaryBackgroundColor": "#FFFFFF",
+                "buttonSecondaryBorderColor": "#212632",
+                "buttonSecondaryBorderRadius": "4px",
+                "buttonSecondaryColor": "#212632",
+                "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+                "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+                "buttonSecondaryHoverBackgroundColor": "#212632",
+                "buttonSecondaryHoverBorderColor": "#5FAEDA",
+                "buttonSecondaryHoverColor": "#FFFFFF",
+                "checkboxBackground": "#FFFFFF",
+                "checkboxBackgroundChecked": "#1778FB",
+                "checkboxBackgroundDisabled": "#DCDFE6",
+                "checkboxBorderColor": "#DCDFE6",
+                "checkboxBorderRadius": "2px",
+                "checkboxBorderWidth": "2px",
+                "checkboxIconColor": "#FFFFFF",
+                "checkboxLabelColor": "#212632",
+                "checkboxLabelDisabled": "#DCDFE6",
+                "checkboxLabelFontSize": "14px",
+                "checkboxLabelMargin": "16px",
+                "checkboxSizeMedium": "24px",
+                "checkboxSizeSmall": "16px",
+                "dropdownBorderColor": "#EFF2F7",
+                "dropdownBorderRadius": "4px",
+                "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+                "formGroupMarginBottom": "16px",
+                "iconPrimaryColor": "#1778FB",
+                "iconSecondaryColor": "#747D93",
+                "iconSizeLarge": "32px",
+                "iconSizeMedium": "24px",
+                "iconSizeSmall": "16px",
+                "inputFieldBackgroundColor": "#FFFFFF",
+                "inputFieldBorderColor": "#DCDFE6",
+                "inputFieldBorderRadius": "4px",
+                "inputFieldDisabledBackgroundColor": "#F8F8F8",
+                "inputFieldDisabledBorderColor": "#DCDFE6",
+                "inputFieldDisabledColor": "#DCDFE6",
+                "inputFieldDisabledLabelColor": "#DCDFE6",
+                "inputFieldErrorBackgroundColor": "#FAEDEC",
+                "inputFieldErrorBorderColor": "#CD4C41",
+                "inputFieldErrorHelpColor": "#CD4C41",
+                "inputFieldErrorPlaceholderColor": "#CD4C41",
+                "inputFieldFocusBackgroundColor": "#EFF7FB",
+                "inputFieldFocusBorderColor": "#5FAEDA",
+                "inputFieldFocusLabelColor": "#5FAEDA",
+                "inputFieldFontSize": "14px",
+                "inputFieldHelpColor": "#212632",
+                "inputFieldHelpFontSize": "12px",
+                "inputFieldLabelColor": "#363C4B",
+                "inputFieldLabelFontSize": "12px",
+                "inputFieldLineHeight": "48px",
+                "inputFieldPlaceholderColor": "#DCDFE6",
+                "inputFieldTextIndent": "24px",
+                "linkListActiveBackground": "#EFF7FB",
+                "linkListActiveColor": "#1778FB",
+                "linkListActiveIconColor": "#1778FB",
+                "linkListActiveIconMargin": "0 15px 0 auto;",
+                "linkListBorderRadius": "2px",
+                "linkListColor": "#212632",
+                "linkListDisabledColor": "#DCDFE6",
+                "linkListMargin": "0 0 5px",
+                "linkListPadding": "7px 16px",
+                "listBackgroundColor": "#FFFFFF",
+                "listItemColorActive": "#1778FB",
+                "listItemColorActiveHover": "#EFF7FB",
+                "listItemColorDefault": "#747D93",
+                "listItemColorDefaultHover": "#EFF2F7",
+                "listItemDisabledColor": "#DCDFE6",
+                "listItemMargin": "0 0 4px",
+                "listItemSeparatorColor": "#EFF2F7",
+                "listPadding": "8px",
+                "navigationBorder": "1px solid #EFF2F7",
+                "navigationContentMargin": "0 42px 0 0",
+                "navigationHeaderPadding": "0 17px",
+                "navigationLinkMargin": "0 24px 0 0",
+                "navigationMenuBackgroundColor": "#EFF2F7",
+                "navigationMenuHoverBackgroundColor": "#DCDFE6",
+                "navigationMenuOpenBackgroundColor": "#EFF7FB",
+                "navigationMenuPadding": "20px 24px",
+                "navigationMinHeight": "73px",
+                "notificationBorderRadius": "8px",
+                "notificationCloseButtonColor": "#212632",
+                "notificationErrorBackgroundColor": "#FAEDEC",
+                "notificationErrorColor": "#CD4C41",
+                "notificationNormalBackgroundColor": "#EFF7FB",
+                "notificationNormalColor": "#212632",
+                "notificationPadding": "16px",
+                "notificationSuccessBackgroundColor": "#EEF8F6",
+                "notificationSuccessColor": "#299B9A",
+                "textLinkDisabledColor": "#DCDFE6",
+                "textLinkFontSizeLarge": "14px",
+                "textLinkFontSizeMedium": "12px",
+                "textLinkPrimaryColor": "#1778FB",
+                "textLinkPrimaryHoverColor": "#5FAEDA",
+                "textLinkSecondaryColor": "#747D93",
+                "textLinkSecondaryHoverColor": "#5FAEDA",
+              },
+              "fonts": Array [
+                Object {
+                  "name": "Roboto-Regular",
+                  "style": "normal",
+                  "weight": "normal",
+                },
+                Object {
+                  "name": "Roboto Medium",
+                  "style": "normal",
+                  "weight": 500,
+                },
+                Object {
+                  "name": "Roboto Bold",
+                  "style": "normal",
+                  "weight": 700,
+                },
+              ],
+              "global": Object {
+                "bgColor": "white",
+                "fontColor": "#333",
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontFamilyBold": "\\"Roboto Bold\\", Arial, sans-serif",
+                "fontFamilyMedium": "\\"Roboto-Medium\\", Arial, sans-serif",
+                "fontFamilyRegular": "\\"Roboto\\", Arial, sans-serif",
+                "fontSize": "14px",
+                "fontWeightBold": 700,
+                "fontWeightMedium": 500,
+                "fontWeightRegular": 400,
+                "transition": "all 300ms ease-in-out",
+              },
+              "headings": Array [
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "3.4rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "2.5rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "1.7rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "1.1rem",
+                },
+                Object {
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontWeight": 500,
+                  "size": "0.8rem",
+                },
+              ],
+              "shapes": Object {
+                "borderRadiusFull": "50%",
+                "borderRadiusLarge": "8px",
+                "borderRadiusMedium": "4px",
+                "borderRadiusSmall": "2px",
+                "borderWidthMedium": "2px",
+                "borderWidthSmall": "1px",
+              },
+              "spacings": Object {
+                "large1": "80px",
+                "large2": "96px",
+                "large3": "128px",
+                "large4": "200px",
+                "medium1": "32px",
+                "medium2": "40px",
+                "medium3": "48px",
+                "medium4": "56px",
+                "medium5": "64px",
+                "small1": "4px",
+                "small2": "8px",
+                "small3": "16px",
+                "small4": "24px",
+              },
+              "texts": Object {
+                "p2": Object {
+                  "color": "#212632",
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontSize": "12px",
+                  "fontWeight": 400,
+                  "lineHeight": "1.5",
+                },
+              },
+            }
+          }
+          viewBox="0 0 32 32"
+        >
+          <path
+            clipRule="evenodd"
+            d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c12"
+        disabled={true}
+      >
+        Text
+      </div>
+      <div
+        className="c13"
+        disabled={true}
+      >
+        <svg
+          className="c3"
+          data-name="IconFolder"
+          preserveAspectRatio="xMidYMid meet"
+          size="medium"
+          theme={
+            Object {
+              "breakpoints": Array [
+                "544px",
+                "768px",
+                "1012px",
+                "1280px",
+              ],
+              "color": Object {
+                "charcoal200": "#F8F8F8",
+                "charcoal300": "#EFF2F7",
+                "charcoal400": "#DCDFE6",
+                "charcoal500": "#B6BBC6",
+                "charcoal600": "#747D93",
+                "charcoal700": "#363C4B",
+                "charcoal800": "#212632",
+                "emerald100": "#EEF8F6",
+                "emerald500": "#55BAA9",
+                "emerald600": "#299B9A",
+                "primary100": "#EFF7FB",
+                "primary300": "#5FAEDA",
+                "primary500": "#1778FB",
+                "primary700": "#0C1B7A",
+                "redclay100": "#FAEDEC",
+                "redclay500": "#CD4C41",
+                "white": "#FFFFFF",
+              },
+              "components": Object {
+                "avatarBackgroundColor": "#1778FB",
+                "avatarBorderRadius": "50%",
+                "avatarColor": "#FFFFFF",
+                "avatarFontSizeLarge": "24px",
+                "avatarFontSizeMedium": "14px",
+                "avatarFontSizeSmall": "12px",
+                "avatarSizeLarge": "48px",
+                "avatarSizeMedium": "32px",
+                "avatarSizeSmall": "24px",
+                "buttonFontSizeLarge": "14px",
+                "buttonFontSizeMedium": "12px",
+                "buttonMinWidthLarge": "140px",
+                "buttonMinWidthMedium": "120px",
+                "buttonPaddingLarge": "19px 32px",
+                "buttonPaddingMedium": "11px 32px",
+                "buttonPrimaryBackgroundColor": "#1778FB",
+                "buttonPrimaryBorderColor": "#1778FB",
+                "buttonPrimaryBorderRadius": "4px",
+                "buttonPrimaryColor": "#FFFFFF",
+                "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+                "buttonPrimaryDisabledBorderColor": "#DCDFE6",
+                "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+                "buttonPrimaryHoverBorderColor": "#5FAEDA",
+                "buttonPrimaryHoverColor": "#FFFFFF",
+                "buttonSecondaryBackgroundColor": "#FFFFFF",
+                "buttonSecondaryBorderColor": "#212632",
+                "buttonSecondaryBorderRadius": "4px",
+                "buttonSecondaryColor": "#212632",
+                "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+                "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+                "buttonSecondaryHoverBackgroundColor": "#212632",
+                "buttonSecondaryHoverBorderColor": "#5FAEDA",
+                "buttonSecondaryHoverColor": "#FFFFFF",
+                "checkboxBackground": "#FFFFFF",
+                "checkboxBackgroundChecked": "#1778FB",
+                "checkboxBackgroundDisabled": "#DCDFE6",
+                "checkboxBorderColor": "#DCDFE6",
+                "checkboxBorderRadius": "2px",
+                "checkboxBorderWidth": "2px",
+                "checkboxIconColor": "#FFFFFF",
+                "checkboxLabelColor": "#212632",
+                "checkboxLabelDisabled": "#DCDFE6",
+                "checkboxLabelFontSize": "14px",
+                "checkboxLabelMargin": "16px",
+                "checkboxSizeMedium": "24px",
+                "checkboxSizeSmall": "16px",
+                "dropdownBorderColor": "#EFF2F7",
+                "dropdownBorderRadius": "4px",
+                "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+                "formGroupMarginBottom": "16px",
+                "iconPrimaryColor": "#1778FB",
+                "iconSecondaryColor": "#747D93",
+                "iconSizeLarge": "32px",
+                "iconSizeMedium": "24px",
+                "iconSizeSmall": "16px",
+                "inputFieldBackgroundColor": "#FFFFFF",
+                "inputFieldBorderColor": "#DCDFE6",
+                "inputFieldBorderRadius": "4px",
+                "inputFieldDisabledBackgroundColor": "#F8F8F8",
+                "inputFieldDisabledBorderColor": "#DCDFE6",
+                "inputFieldDisabledColor": "#DCDFE6",
+                "inputFieldDisabledLabelColor": "#DCDFE6",
+                "inputFieldErrorBackgroundColor": "#FAEDEC",
+                "inputFieldErrorBorderColor": "#CD4C41",
+                "inputFieldErrorHelpColor": "#CD4C41",
+                "inputFieldErrorPlaceholderColor": "#CD4C41",
+                "inputFieldFocusBackgroundColor": "#EFF7FB",
+                "inputFieldFocusBorderColor": "#5FAEDA",
+                "inputFieldFocusLabelColor": "#5FAEDA",
+                "inputFieldFontSize": "14px",
+                "inputFieldHelpColor": "#212632",
+                "inputFieldHelpFontSize": "12px",
+                "inputFieldLabelColor": "#363C4B",
+                "inputFieldLabelFontSize": "12px",
+                "inputFieldLineHeight": "48px",
+                "inputFieldPlaceholderColor": "#DCDFE6",
+                "inputFieldTextIndent": "24px",
+                "linkListActiveBackground": "#EFF7FB",
+                "linkListActiveColor": "#1778FB",
+                "linkListActiveIconColor": "#1778FB",
+                "linkListActiveIconMargin": "0 15px 0 auto;",
+                "linkListBorderRadius": "2px",
+                "linkListColor": "#212632",
+                "linkListDisabledColor": "#DCDFE6",
+                "linkListMargin": "0 0 5px",
+                "linkListPadding": "7px 16px",
+                "listBackgroundColor": "#FFFFFF",
+                "listItemColorActive": "#1778FB",
+                "listItemColorActiveHover": "#EFF7FB",
+                "listItemColorDefault": "#747D93",
+                "listItemColorDefaultHover": "#EFF2F7",
+                "listItemDisabledColor": "#DCDFE6",
+                "listItemMargin": "0 0 4px",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listPadding": "8px",
                 "navigationBorder": "1px solid #EFF2F7",
@@ -19473,6 +20240,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   font-weight: 500;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  margin: 0 0 4px;
   cursor: pointer;
 }
 
@@ -19494,14 +20262,6 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   color: #747D93;
 }
 
-.c11 > a {
-  color: #747D93;
-}
-
-.c11 > a:hover {
-  color: #747D93;
-}
-
 .c11 > svg {
   fill: #747D93;
 }
@@ -19510,13 +20270,18 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   fill: #747D93;
 }
 
+.c11 > * {
+  color: #747D93;
+}
+
+.c11 > *:hover {
+  color: #747D93;
+}
+
 .c7 {
   padding: 8px;
   background-color: #FFFFFF;
-  border: 1px solid #EFF2F7;
   box-sizing: border-box;
-  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
-  border-radius: 4px;
 }
 
 .c2 {
@@ -19537,6 +20302,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   transition: all 300ms ease-in-out;
   position: fixed;
   min-width: 200px;
+  border: 1px solid #EFF2F7;
+  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
+  border-radius: 4px;
 }
 
 .c17 {
@@ -19778,6 +20546,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "checkboxLabelMargin": "16px",
                   "checkboxSizeMedium": "24px",
                   "checkboxSizeSmall": "16px",
+                  "dropdownBorderColor": "#EFF2F7",
+                  "dropdownBorderRadius": "4px",
+                  "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                   "formGroupMarginBottom": "16px",
                   "iconPrimaryColor": "#1778FB",
                   "iconSecondaryColor": "#747D93",
@@ -19816,13 +20587,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "linkListMargin": "0 0 5px",
                   "linkListPadding": "7px 16px",
                   "listBackgroundColor": "#FFFFFF",
-                  "listBorderColor": "#EFF2F7",
-                  "listBorderRadius": "4px",
-                  "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
                   "listItemColorDefaultHover": "#EFF2F7",
+                  "listItemDisabledColor": "#DCDFE6",
+                  "listItemMargin": "0 0 4px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -20042,6 +20812,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "checkboxLabelMargin": "16px",
                       "checkboxSizeMedium": "24px",
                       "checkboxSizeSmall": "16px",
+                      "dropdownBorderColor": "#EFF2F7",
+                      "dropdownBorderRadius": "4px",
+                      "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                       "formGroupMarginBottom": "16px",
                       "iconPrimaryColor": "#1778FB",
                       "iconSecondaryColor": "#747D93",
@@ -20080,13 +20853,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "linkListMargin": "0 0 5px",
                       "linkListPadding": "7px 16px",
                       "listBackgroundColor": "#FFFFFF",
-                      "listBorderColor": "#EFF2F7",
-                      "listBorderRadius": "4px",
-                      "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                       "listItemColorActive": "#1778FB",
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
                       "listItemColorDefaultHover": "#EFF2F7",
+                      "listItemDisabledColor": "#DCDFE6",
+                      "listItemMargin": "0 0 4px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -20305,6 +21077,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "checkboxLabelMargin": "16px",
                       "checkboxSizeMedium": "24px",
                       "checkboxSizeSmall": "16px",
+                      "dropdownBorderColor": "#EFF2F7",
+                      "dropdownBorderRadius": "4px",
+                      "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                       "formGroupMarginBottom": "16px",
                       "iconPrimaryColor": "#1778FB",
                       "iconSecondaryColor": "#747D93",
@@ -20343,13 +21118,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "linkListMargin": "0 0 5px",
                       "linkListPadding": "7px 16px",
                       "listBackgroundColor": "#FFFFFF",
-                      "listBorderColor": "#EFF2F7",
-                      "listBorderRadius": "4px",
-                      "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                       "listItemColorActive": "#1778FB",
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
                       "listItemColorDefaultHover": "#EFF2F7",
+                      "listItemDisabledColor": "#DCDFE6",
+                      "listItemMargin": "0 0 4px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -20629,6 +21403,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "checkboxLabelMargin": "16px",
                   "checkboxSizeMedium": "24px",
                   "checkboxSizeSmall": "16px",
+                  "dropdownBorderColor": "#EFF2F7",
+                  "dropdownBorderRadius": "4px",
+                  "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                   "formGroupMarginBottom": "16px",
                   "iconPrimaryColor": "#1778FB",
                   "iconSecondaryColor": "#747D93",
@@ -20667,13 +21444,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "linkListMargin": "0 0 5px",
                   "linkListPadding": "7px 16px",
                   "listBackgroundColor": "#FFFFFF",
-                  "listBorderColor": "#EFF2F7",
-                  "listBorderRadius": "4px",
-                  "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
                   "listItemColorDefaultHover": "#EFF2F7",
+                  "listItemDisabledColor": "#DCDFE6",
+                  "listItemMargin": "0 0 4px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -20897,6 +21673,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "checkboxLabelMargin": "16px",
                   "checkboxSizeMedium": "24px",
                   "checkboxSizeSmall": "16px",
+                  "dropdownBorderColor": "#EFF2F7",
+                  "dropdownBorderRadius": "4px",
+                  "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                   "formGroupMarginBottom": "16px",
                   "iconPrimaryColor": "#1778FB",
                   "iconSecondaryColor": "#747D93",
@@ -20935,13 +21714,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "linkListMargin": "0 0 5px",
                   "linkListPadding": "7px 16px",
                   "listBackgroundColor": "#FFFFFF",
-                  "listBorderColor": "#EFF2F7",
-                  "listBorderRadius": "4px",
-                  "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
                   "listItemColorDefaultHover": "#EFF2F7",
+                  "listItemDisabledColor": "#DCDFE6",
+                  "listItemMargin": "0 0 4px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -21157,6 +21935,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "checkboxLabelMargin": "16px",
                       "checkboxSizeMedium": "24px",
                       "checkboxSizeSmall": "16px",
+                      "dropdownBorderColor": "#EFF2F7",
+                      "dropdownBorderRadius": "4px",
+                      "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                       "formGroupMarginBottom": "16px",
                       "iconPrimaryColor": "#1778FB",
                       "iconSecondaryColor": "#747D93",
@@ -21195,13 +21976,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "linkListMargin": "0 0 5px",
                       "linkListPadding": "7px 16px",
                       "listBackgroundColor": "#FFFFFF",
-                      "listBorderColor": "#EFF2F7",
-                      "listBorderRadius": "4px",
-                      "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                       "listItemColorActive": "#1778FB",
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
                       "listItemColorDefaultHover": "#EFF2F7",
+                      "listItemDisabledColor": "#DCDFE6",
+                      "listItemMargin": "0 0 4px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -21420,6 +22200,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "checkboxLabelMargin": "16px",
                       "checkboxSizeMedium": "24px",
                       "checkboxSizeSmall": "16px",
+                      "dropdownBorderColor": "#EFF2F7",
+                      "dropdownBorderRadius": "4px",
+                      "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                       "formGroupMarginBottom": "16px",
                       "iconPrimaryColor": "#1778FB",
                       "iconSecondaryColor": "#747D93",
@@ -21458,13 +22241,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "linkListMargin": "0 0 5px",
                       "linkListPadding": "7px 16px",
                       "listBackgroundColor": "#FFFFFF",
-                      "listBorderColor": "#EFF2F7",
-                      "listBorderRadius": "4px",
-                      "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
                       "listItemColorActive": "#1778FB",
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
                       "listItemColorDefaultHover": "#EFF2F7",
+                      "listItemDisabledColor": "#DCDFE6",
+                      "listItemMargin": "0 0 4px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -21830,6 +22612,9 @@ exports[`Storyshots Notification Error 1`] = `
               "checkboxLabelMargin": "16px",
               "checkboxSizeMedium": "24px",
               "checkboxSizeSmall": "16px",
+              "dropdownBorderColor": "#EFF2F7",
+              "dropdownBorderRadius": "4px",
+              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "formGroupMarginBottom": "16px",
               "iconPrimaryColor": "#1778FB",
               "iconSecondaryColor": "#747D93",
@@ -21868,13 +22653,12 @@ exports[`Storyshots Notification Error 1`] = `
               "linkListMargin": "0 0 5px",
               "linkListPadding": "7px 16px",
               "listBackgroundColor": "#FFFFFF",
-              "listBorderColor": "#EFF2F7",
-              "listBorderRadius": "4px",
-              "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemDisabledColor": "#DCDFE6",
+              "listItemMargin": "0 0 4px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -22144,6 +22928,9 @@ exports[`Storyshots Notification Normal 1`] = `
               "checkboxLabelMargin": "16px",
               "checkboxSizeMedium": "24px",
               "checkboxSizeSmall": "16px",
+              "dropdownBorderColor": "#EFF2F7",
+              "dropdownBorderRadius": "4px",
+              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "formGroupMarginBottom": "16px",
               "iconPrimaryColor": "#1778FB",
               "iconSecondaryColor": "#747D93",
@@ -22182,13 +22969,12 @@ exports[`Storyshots Notification Normal 1`] = `
               "linkListMargin": "0 0 5px",
               "linkListPadding": "7px 16px",
               "listBackgroundColor": "#FFFFFF",
-              "listBorderColor": "#EFF2F7",
-              "listBorderRadius": "4px",
-              "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemDisabledColor": "#DCDFE6",
+              "listItemMargin": "0 0 4px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -22458,6 +23244,9 @@ exports[`Storyshots Notification Success 1`] = `
               "checkboxLabelMargin": "16px",
               "checkboxSizeMedium": "24px",
               "checkboxSizeSmall": "16px",
+              "dropdownBorderColor": "#EFF2F7",
+              "dropdownBorderRadius": "4px",
+              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "formGroupMarginBottom": "16px",
               "iconPrimaryColor": "#1778FB",
               "iconSecondaryColor": "#747D93",
@@ -22496,13 +23285,12 @@ exports[`Storyshots Notification Success 1`] = `
               "linkListMargin": "0 0 5px",
               "linkListPadding": "7px 16px",
               "listBackgroundColor": "#FFFFFF",
-              "listBorderColor": "#EFF2F7",
-              "listBorderRadius": "4px",
-              "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemDisabledColor": "#DCDFE6",
+              "listItemMargin": "0 0 4px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -22775,6 +23563,9 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "checkboxLabelMargin": "16px",
               "checkboxSizeMedium": "24px",
               "checkboxSizeSmall": "16px",
+              "dropdownBorderColor": "#EFF2F7",
+              "dropdownBorderRadius": "4px",
+              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "formGroupMarginBottom": "16px",
               "iconPrimaryColor": "#1778FB",
               "iconSecondaryColor": "#747D93",
@@ -22813,13 +23604,12 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "linkListMargin": "0 0 5px",
               "linkListPadding": "7px 16px",
               "listBackgroundColor": "#FFFFFF",
-              "listBorderColor": "#EFF2F7",
-              "listBorderRadius": "4px",
-              "listBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
               "listItemColorDefaultHover": "#EFF2F7",
+              "listItemDisabledColor": "#DCDFE6",
+              "listItemMargin": "0 0 4px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",

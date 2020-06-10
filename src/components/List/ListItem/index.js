@@ -16,7 +16,9 @@ const StyledListItem = styled.li`
   font-family: ${props => props.theme.global.fontFamily};
   font-weight: ${props => props.theme.global.fontWeightMedium};
   transition: ${props => props.theme.global.transition};
+  margin: ${props => props.theme.components.listItemMargin};
   cursor: pointer;
+  ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
 
   &:hover {
     background-color: ${props =>
@@ -40,12 +42,18 @@ const StyledLeftContent = styled.div`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
+  ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
 
   > svg {
     fill: ${props =>
       props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
+    ${props => props.disabled && `fill: ${props.theme.components.listItemDisabledColor}`}
+  }
+
+  > * {
+    ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
   }
 `;
 
@@ -58,20 +66,7 @@ const StyledContent = styled.div`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
-
-  > a {
-    color: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
-
-    &:hover {
-      color: ${props =>
-        props.active
-          ? props.theme.components.listItemColorActive
-          : props.theme.components.listItemColorDefault};
-    }
-  }
+  ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
 
   > svg {
     fill: ${props =>
@@ -81,6 +76,22 @@ const StyledContent = styled.div`
 
     &:hover {
       fill: ${props =>
+        props.active
+          ? props.theme.components.listItemColorActive
+          : props.theme.components.listItemColorDefault};
+    }
+  }
+
+  > * {
+    color: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
+    ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
+    ${props => props.disabled && `pointer-events: none`}
+
+    &:hover {
+      color: ${props =>
         props.active
           ? props.theme.components.listItemColorActive
           : props.theme.components.listItemColorDefault};
@@ -98,12 +109,18 @@ const StyledRightContent = styled.div`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
+  ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
 
   > svg {
     fill: ${props =>
       props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
+    ${props => props.disabled && `fill: ${props.theme.components.listItemDisabledColor}`}
+  }
+
+  > * {
+    ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
   }
 `;
 
@@ -125,15 +142,25 @@ StyledListSeparator.defaultProps = {
 };
 
 const ListItem = React.forwardRef((props, ref) => {
-  const { children, leftContent, rightContent, separator, active, ...other } = props;
+  const { children, leftContent, rightContent, separator, active, disabled, ...other } = props;
 
   return separator ? (
     <StyledListSeparator />
   ) : (
-    <StyledListItem {...other} active={active}>
-      {leftContent && <StyledLeftContent active={active}>{leftContent}</StyledLeftContent>}
-      <StyledContent active={active}>{children}</StyledContent>
-      {rightContent && <StyledRightContent active={active}>{rightContent}</StyledRightContent>}
+    <StyledListItem {...other} active={active} disabled={disabled}>
+      {leftContent && (
+        <StyledLeftContent active={active} disabled={disabled}>
+          {leftContent}
+        </StyledLeftContent>
+      )}
+      <StyledContent active={active} disabled={disabled}>
+        {children}
+      </StyledContent>
+      {rightContent && (
+        <StyledRightContent active={active} disabled={disabled}>
+          {rightContent}
+        </StyledRightContent>
+      )}
     </StyledListItem>
   );
 });
