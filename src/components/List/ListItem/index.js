@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import defaultTheme from '../../../themes/defaultTheme';
+import PropTypes from 'prop-types';
 
 const componentSizes = theme => ({
   medium: {
@@ -19,22 +20,22 @@ const StyledLeftContent = styled.div`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
-  ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
+  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
 
   > svg {
     fill: ${props =>
       props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
-    ${props => props.disabled && `fill: ${props.theme.components.listItemDisabledColor}`}
+    ${props => props.disabled && `fill: ${props.theme.components.listItemColorDisabled}`}
   }
 
   > * {
-    ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
+    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
   }
 `;
 
-const StyledComponent = styled(({ className, children, as: Component, ...props }) =>
+const StyledComponent = styled(({ className, children, as: Component, theme, ...props }) =>
   Component ? (
     <Component className={className} {...props}>
       {children}
@@ -53,7 +54,7 @@ const StyledContent = styled.div`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
-  ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
+  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
 
   > svg {
     fill: ${props =>
@@ -74,7 +75,7 @@ const StyledContent = styled.div`
       props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
-    ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
+    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
     ${props => props.disabled && `pointer-events: none`}
 
     &:hover {
@@ -96,18 +97,18 @@ const StyledRightContent = styled.div`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
-  ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
+  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
 
   > svg {
     fill: ${props =>
       props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
-    ${props => props.disabled && `fill: ${props.theme.components.listItemDisabledColor}`}
+    ${props => props.disabled && `fill: ${props.theme.components.listItemColorDisabled}`}
   }
 
   > * {
-    ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
+    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
   }
 `;
 
@@ -142,7 +143,8 @@ const StyledListItem = styled.li`
   font-weight: ${props => props.theme.global.fontWeightMedium};
   transition: ${props => props.theme.global.transition};
   margin: ${props => props.theme.components.listItemMargin};
-  ${props => props.disabled && `color: ${props.theme.components.listItemDisabledColor}`}
+  ${props => props.onClick && 'cursor: pointer'};
+  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`};
 
   &:hover {
     background-color: ${props =>
@@ -160,6 +162,11 @@ const StyledListItem = styled.li`
     flex-basis: 100%;
     align-items: center;
     align-content: center;
+    color: ${props =>
+      props.active
+        ? props.theme.components.listItemColorActive
+        : props.theme.components.listItemColorDefault};
+    font-weight: 500;
     ${props => componentSizes(props.theme)[props.size]};
   }
 `;
@@ -178,13 +185,14 @@ const ListItem = React.forwardRef((props, ref) => {
     size,
     active,
     disabled,
+    onClick,
     ...other
   } = props;
 
   return separator ? (
     <StyledListSeparator />
   ) : (
-    <StyledListItem active={active} disabled={disabled} size={size}>
+    <StyledListItem active={active} disabled={disabled} onClick={onClick} size={size}>
       <StyledComponent {...other} as={Component}>
         {leftContent && (
           <StyledLeftContent active={active} disabled={disabled}>
@@ -206,10 +214,21 @@ const ListItem = React.forwardRef((props, ref) => {
 
 ListItem.displayName = 'ListItem';
 
+ListItem.propTypes = {
+  children: PropTypes.node,
+  as: PropTypes.elementType,
+  leftContent: PropTypes.node,
+  rightContent: PropTypes.node,
+  separator: PropTypes.bool,
+  size: PropTypes.oneOf(['medium', 'large']),
+  active: PropTypes.bool,
+  disabled: PropTypes.bool,
+  onClick: PropTypes.func
+};
+
 ListItem.defaultProps = {
   separator: false,
-  active: false,
-  asComponent: 'div'
+  active: false
 };
 
 export default ListItem;

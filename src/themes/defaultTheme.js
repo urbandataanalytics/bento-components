@@ -248,6 +248,8 @@ const components = {
   dropdownBorderColor: color.charcoal300,
   dropdownBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
   dropdownBorderRadius: shapes.borderRadiusMedium,
+  dropdownBackground: color.white,
+  dropdownPadding: spacings.small2,
 
   /*List Theme props*/
   listBackgroundColor: color.white,
@@ -259,12 +261,13 @@ const components = {
   listItemColorActiveHover: color.primary100,
   listItemColorDefault: color.charcoal600,
   listItemColorDefaultHover: color.charcoal300,
-  listItemDisabledColor: color.charcoal400,
+  listItemColorDisabled: color.charcoal400,
   listItemMargin: '0 0 4px',
   listItemPaddingMedium: '7px 16px',
   listItemPaddingLarge: '11px 16px',
   listItemFontSizeMedium: '12px',
-  listItemFontSizeLarge: '14px'
+  listItemFontSizeLarge: '14px',
+  listItemFontWeight: global.fontWeightMedium
 };
 
 export default {

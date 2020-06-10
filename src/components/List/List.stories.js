@@ -48,6 +48,7 @@ export const WithChildrens = () => {
         <ListItem rightContent={<IconFolder />} active>
           Text
         </ListItem>
+        <ListItem onClick={() => {}}>Text with onclick</ListItem>
         <ListItem separator />
         <ListItem leftContent={<IconUser size={'small'} />} as={TextLink} href={'#'}>
           With Link

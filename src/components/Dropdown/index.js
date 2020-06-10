@@ -25,6 +25,8 @@ const ChildrenContainer = styled.div`
   border: 1px solid ${props => props.theme.components.dropdownBorderColor};
   box-shadow: ${props => props.theme.components.dropdownBoxShadow};
   border-radius: ${props => props.theme.components.dropdownBorderRadius};
+  background: ${props => props.theme.components.dropdownBackground};
+  padding: ${props => props.theme.components.dropdownPadding};
 `;
 
 ChildrenContainer.defaultProps = {
