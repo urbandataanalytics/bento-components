@@ -530,6 +530,12 @@ exports[`Storyshots Button With Icon 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -927,6 +933,12 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -1341,6 +1353,12 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -2078,6 +2096,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
                         "fontSize": "12px",
@@ -2351,6 +2375,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
                         "fontSize": "12px",
@@ -2622,6 +2652,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
                         "fontSize": "12px",
@@ -2885,6 +2921,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
                         "fontSize": "12px",
@@ -3528,6 +3570,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -3814,6 +3862,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -4100,6 +4154,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -4386,6 +4446,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -4671,6 +4737,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -4957,6 +5029,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -5243,6 +5321,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -5529,6 +5613,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -5815,6 +5905,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -6100,6 +6196,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -6386,6 +6488,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -6672,6 +6780,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -6957,6 +7071,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -7242,6 +7362,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -7527,6 +7653,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -7813,6 +7945,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -8100,6 +8238,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -8394,6 +8538,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -8690,6 +8840,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -8983,6 +9139,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -9268,6 +9430,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -9555,6 +9723,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -9841,6 +10015,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -10134,6 +10314,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -10420,6 +10606,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -10706,6 +10898,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -10993,6 +11191,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -11279,6 +11483,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -11565,6 +11775,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -11851,6 +12067,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -12141,6 +12363,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -12427,6 +12655,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -12714,6 +12948,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -12999,6 +13239,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -13285,6 +13531,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -13571,6 +13823,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -13857,6 +14115,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -14143,6 +14407,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -14428,6 +14698,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -14718,6 +14994,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -15004,6 +15286,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -15291,6 +15579,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -15577,6 +15871,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -15864,6 +16164,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -16153,6 +16459,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -16442,6 +16754,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -16728,6 +17046,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -17014,6 +17338,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -17309,6 +17639,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -17595,6 +17931,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -17891,6 +18233,12 @@ exports[`Storyshots Icon Normal 1`] = `
           "small4": "24px",
         },
         "texts": Object {
+          "p1b": Object {
+            "color": "#212632",
+            "fontSize": "14px",
+            "fontWeight": 500,
+            "lineHeight": "1.5",
+          },
           "p2": Object {
             "color": "#212632",
             "fontSize": "12px",
@@ -19355,6 +19703,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -19628,6 +19982,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -19916,6 +20276,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -20201,6 +20567,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -20464,6 +20836,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -20737,6 +21115,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -21001,6 +21385,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -21656,6 +22046,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -21933,6 +22329,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "small4": "24px",
                       },
                       "texts": Object {
+                        "p1b": Object {
+                          "color": "#212632",
+                          "fontSize": "14px",
+                          "fontWeight": 500,
+                          "lineHeight": "1.5",
+                        },
                         "p2": Object {
                           "color": "#212632",
                           "fontSize": "12px",
@@ -22205,6 +22607,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "small4": "24px",
                       },
                       "texts": Object {
+                        "p1b": Object {
+                          "color": "#212632",
+                          "fontSize": "14px",
+                          "fontWeight": 500,
+                          "lineHeight": "1.5",
+                        },
                         "p2": Object {
                           "color": "#212632",
                           "fontSize": "12px",
@@ -22534,6 +22942,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -22810,6 +23224,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -23081,6 +23501,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "small4": "24px",
                       },
                       "texts": Object {
+                        "p1b": Object {
+                          "color": "#212632",
+                          "fontSize": "14px",
+                          "fontWeight": 500,
+                          "lineHeight": "1.5",
+                        },
                         "p2": Object {
                           "color": "#212632",
                           "fontSize": "12px",
@@ -23352,6 +23778,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "small4": "24px",
                       },
                       "texts": Object {
+                        "p1b": Object {
+                          "color": "#212632",
+                          "fontSize": "14px",
+                          "fontWeight": 500,
+                          "lineHeight": "1.5",
+                        },
                         "p2": Object {
                           "color": "#212632",
                           "fontSize": "12px",
@@ -23767,6 +24199,12 @@ exports[`Storyshots Notification Error 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -24089,6 +24527,12 @@ exports[`Storyshots Notification Normal 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -24411,6 +24855,12 @@ exports[`Storyshots Notification Success 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -24736,6 +25186,12 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
