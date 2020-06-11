@@ -110,10 +110,13 @@ const StyledListItem = styled.li`
   }
 
   &:hover {
-    background-color: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActiveHover
-        : props.theme.components.listItemColorDefaultHover};
+    ${props =>
+      !props.disabled &&
+      `background-color: ${
+        props.active
+          ? props.theme.components.listItemColorActiveHover
+          : props.theme.components.listItemColorDefaultHover
+      }`};
     color: ${props =>
       props.active
         ? props.theme.components.listItemColorActive
@@ -131,6 +134,9 @@ const StyledListItem = styled.li`
         : props.theme.components.listItemColorDefault};
     font-weight: 500;
     ${props => componentSizes(props.theme)[props.size]};
+
+    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`};
+    ${props => props.disabled && `pointer-events: none`};
   }
 `;
 
@@ -156,7 +162,7 @@ const ListItem = React.forwardRef((props, ref) => {
     <StyledListSeparator />
   ) : (
     <StyledListItem active={active} disabled={disabled} onClick={onClick} size={size}>
-      <StyledComponent {...other} as={Component}>
+      <StyledComponent {...other} disabled={disabled} as={Component}>
         {leftContent && (
           <StyledLeftContent active={active} disabled={disabled}>
             {leftContent}
