@@ -96,6 +96,12 @@ const headings = [
 ];
 
 const texts = {
+  p1b: {
+    fontWeight: global.fontWeightMedium,
+    fontSize: global.fontSize,
+    color: color.charcoal800,
+    lineHeight: '1.5'
+  },
   p2: {
     fontWeight: global.fontWeightRegular,
     fontSize: '12px',
