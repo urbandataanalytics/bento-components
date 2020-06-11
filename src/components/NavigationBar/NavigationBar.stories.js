@@ -51,6 +51,10 @@ export const Normal = () => {
       iconMenu={<CustomIcon size={'large'} />}
       rightContent={rightContent}
     >
+      <a className={'active'} href={'#'}>
+        Normal Link
+      </a>
+      <a href={'#'}>Active Link</a>
       <TextLink href={'#'} size={'large'} variant={'primary'}>
         Product 1
       </TextLink>

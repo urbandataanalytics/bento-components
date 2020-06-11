@@ -430,6 +430,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "navigationBorder": "1px solid #EFF2F7",
               "navigationContentMargin": "0 42px 0 0",
               "navigationHeaderPadding": "0 17px",
+              "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -834,6 +835,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "navigationBorder": "1px solid #EFF2F7",
               "navigationContentMargin": "0 42px 0 0",
               "navigationHeaderPadding": "0 17px",
+              "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -1255,6 +1257,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "navigationBorder": "1px solid #EFF2F7",
               "navigationContentMargin": "0 42px 0 0",
               "navigationHeaderPadding": "0 17px",
+              "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -2002,6 +2005,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "navigationBorder": "1px solid #EFF2F7",
                       "navigationContentMargin": "0 42px 0 0",
                       "navigationHeaderPadding": "0 17px",
+                      "navigationLinkFontSize": "12px",
                       "navigationLinkMargin": "0 24px 0 0",
                       "navigationMenuBackgroundColor": "#EFF2F7",
                       "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -2282,6 +2286,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "navigationBorder": "1px solid #EFF2F7",
                       "navigationContentMargin": "0 42px 0 0",
                       "navigationHeaderPadding": "0 17px",
+                      "navigationLinkFontSize": "12px",
                       "navigationLinkMargin": "0 24px 0 0",
                       "navigationMenuBackgroundColor": "#EFF2F7",
                       "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -2560,6 +2565,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "navigationBorder": "1px solid #EFF2F7",
                       "navigationContentMargin": "0 42px 0 0",
                       "navigationHeaderPadding": "0 17px",
+                      "navigationLinkFontSize": "12px",
                       "navigationLinkMargin": "0 24px 0 0",
                       "navigationMenuBackgroundColor": "#EFF2F7",
                       "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -2830,6 +2836,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "navigationBorder": "1px solid #EFF2F7",
                       "navigationContentMargin": "0 42px 0 0",
                       "navigationHeaderPadding": "0 17px",
+                      "navigationLinkFontSize": "12px",
                       "navigationLinkMargin": "0 24px 0 0",
                       "navigationMenuBackgroundColor": "#EFF2F7",
                       "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -3480,6 +3487,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -3773,6 +3781,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -4066,6 +4075,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -4359,6 +4369,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -4651,6 +4662,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -4944,6 +4956,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -5237,6 +5250,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -5530,6 +5544,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -5823,6 +5838,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -6115,6 +6131,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -6408,6 +6425,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -6701,6 +6719,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -6993,6 +7012,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -7285,6 +7305,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -7577,6 +7598,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -7870,6 +7892,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -8164,6 +8187,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -8465,6 +8489,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -8768,6 +8793,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -9068,6 +9094,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -9360,6 +9387,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -9654,6 +9682,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -9947,6 +9976,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -10247,6 +10277,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -10540,6 +10571,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -10833,6 +10865,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -11127,6 +11160,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -11420,6 +11454,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -11713,6 +11748,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -12006,6 +12042,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -12303,6 +12340,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -12596,6 +12634,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -12890,6 +12929,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -13182,6 +13222,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -13475,6 +13516,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -13768,6 +13810,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -14061,6 +14104,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -14354,6 +14398,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -14646,6 +14691,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -14943,6 +14989,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -15236,6 +15283,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -15530,6 +15578,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -15823,6 +15872,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -16117,6 +16167,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -16413,6 +16464,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -16709,6 +16761,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -17002,6 +17055,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -17295,6 +17349,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -17597,6 +17652,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -17890,6 +17946,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationBorder": "1px solid #EFF2F7",
             "navigationContentMargin": "0 42px 0 0",
             "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -18193,6 +18250,7 @@ exports[`Storyshots Icon Normal 1`] = `
           "navigationBorder": "1px solid #EFF2F7",
           "navigationContentMargin": "0 42px 0 0",
           "navigationHeaderPadding": "0 17px",
+          "navigationLinkFontSize": "12px",
           "navigationLinkMargin": "0 24px 0 0",
           "navigationMenuBackgroundColor": "#EFF2F7",
           "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -18947,7 +19005,6 @@ exports[`Storyshots LinkList Normal 1`] = `
 }
 
 .c6:hover {
-  background-color: #EFF2F7;
   color: #747D93;
 }
 
@@ -18970,6 +19027,8 @@ exports[`Storyshots LinkList Normal 1`] = `
   font-weight: 500;
   padding: 8px 16px;
   font-size: 12px;
+  color: #DCDFE6;
+  pointer-events: none;
 }
 
 .c0 {
@@ -18995,6 +19054,32 @@ exports[`Storyshots LinkList Normal 1`] = `
 
 .c2:hover {
   color: #5FAEDA;
+}
+
+.c7 {
+  cursor: default;
+  display: inline-block;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  margin: 0;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #1778FB;
+  color: #DCDFE6;
+  pointer-events: none;
+}
+
+.c7:hover {
+  color: #5FAEDA;
+}
+
+.c7:hover {
+  color: #DCDFE6;
 }
 
 <ul
@@ -19045,8 +19130,8 @@ exports[`Storyshots LinkList Normal 1`] = `
     size="medium"
   >
     <a
-      className="c2 c3 "
-      disabled={false}
+      className="c7 c3 "
+      disabled={true}
       href="#"
       size="medium"
     >
@@ -19147,6 +19232,8 @@ exports[`Storyshots List Playground 1`] = `
   font-weight: 500;
   padding: 8px 16px;
   font-size: 12px;
+  color: #DCDFE6;
+  pointer-events: none;
 }
 
 .c0 {
@@ -19420,7 +19507,6 @@ exports[`Storyshots List With Childrens 1`] = `
 }
 
 .c12:hover {
-  background-color: #EFF2F7;
   color: #747D93;
 }
 
@@ -19443,6 +19529,8 @@ exports[`Storyshots List With Childrens 1`] = `
   font-weight: 500;
   padding: 8px 16px;
   font-size: 12px;
+  color: #DCDFE6;
+  pointer-events: none;
 }
 
 .c7 {
@@ -19672,6 +19760,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationBorder": "1px solid #EFF2F7",
                   "navigationContentMargin": "0 42px 0 0",
                   "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -19952,6 +20041,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationBorder": "1px solid #EFF2F7",
                   "navigationContentMargin": "0 42px 0 0",
                   "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -20247,6 +20337,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationBorder": "1px solid #EFF2F7",
                   "navigationContentMargin": "0 42px 0 0",
                   "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -20539,6 +20630,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationBorder": "1px solid #EFF2F7",
                   "navigationContentMargin": "0 42px 0 0",
                   "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -20809,6 +20901,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationBorder": "1px solid #EFF2F7",
                   "navigationContentMargin": "0 42px 0 0",
                   "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -21089,6 +21182,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationBorder": "1px solid #EFF2F7",
                   "navigationContentMargin": "0 42px 0 0",
                   "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -21360,6 +21454,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationBorder": "1px solid #EFF2F7",
                   "navigationContentMargin": "0 42px 0 0",
                   "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -21633,6 +21728,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   font-weight: 500;
   padding: 8px 16px;
   font-size: 12px;
+  color: #DCDFE6;
+  pointer-events: none;
 }
 
 .c23 > .c9 {
@@ -21874,6 +21971,20 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   margin: 0 24px 0 0;
 }
 
+.c16 > a {
+  font-size: 12px;
+  color: #747D93;
+  font-weight: 500;
+}
+
+.c16 > a.active {
+  color: #1778FB;
+}
+
+.c16 > a:hover {
+  color: #5FAEDA;
+}
+
 .c16:last-child {
   margin: 0;
 }
@@ -22024,6 +22135,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "navigationBorder": "1px solid #EFF2F7",
                   "navigationContentMargin": "0 42px 0 0",
                   "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -22308,6 +22420,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "navigationBorder": "1px solid #EFF2F7",
                         "navigationContentMargin": "0 42px 0 0",
                         "navigationHeaderPadding": "0 17px",
+                        "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
                         "navigationMenuBackgroundColor": "#EFF2F7",
                         "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -22587,6 +22700,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "navigationBorder": "1px solid #EFF2F7",
                         "navigationContentMargin": "0 42px 0 0",
                         "navigationHeaderPadding": "0 17px",
+                        "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
                         "navigationMenuBackgroundColor": "#EFF2F7",
                         "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -22770,6 +22884,25 @@ exports[`Storyshots NavigationBar Normal 1`] = `
           className="c16"
         >
           <a
+            className="active"
+            href="#"
+          >
+            Normal Link
+          </a>
+        </li>
+        <li
+          className="c16"
+        >
+          <a
+            href="#"
+          >
+            Active Link
+          </a>
+        </li>
+        <li
+          className="c16"
+        >
+          <a
             className="c17"
             disabled={false}
             href="#"
@@ -22923,6 +23056,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "navigationBorder": "1px solid #EFF2F7",
                   "navigationContentMargin": "0 42px 0 0",
                   "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -23206,6 +23340,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "navigationBorder": "1px solid #EFF2F7",
                   "navigationContentMargin": "0 42px 0 0",
                   "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -23484,6 +23619,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "navigationBorder": "1px solid #EFF2F7",
                         "navigationContentMargin": "0 42px 0 0",
                         "navigationHeaderPadding": "0 17px",
+                        "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
                         "navigationMenuBackgroundColor": "#EFF2F7",
                         "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -23762,6 +23898,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "navigationBorder": "1px solid #EFF2F7",
                         "navigationContentMargin": "0 42px 0 0",
                         "navigationHeaderPadding": "0 17px",
+                        "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
                         "navigationMenuBackgroundColor": "#EFF2F7",
                         "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -24184,6 +24321,7 @@ exports[`Storyshots Notification Error 1`] = `
               "navigationBorder": "1px solid #EFF2F7",
               "navigationContentMargin": "0 42px 0 0",
               "navigationHeaderPadding": "0 17px",
+              "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -24513,6 +24651,7 @@ exports[`Storyshots Notification Normal 1`] = `
               "navigationBorder": "1px solid #EFF2F7",
               "navigationContentMargin": "0 42px 0 0",
               "navigationHeaderPadding": "0 17px",
+              "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -24842,6 +24981,7 @@ exports[`Storyshots Notification Success 1`] = `
               "navigationBorder": "1px solid #EFF2F7",
               "navigationContentMargin": "0 42px 0 0",
               "navigationHeaderPadding": "0 17px",
+              "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
@@ -25174,6 +25314,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "navigationBorder": "1px solid #EFF2F7",
               "navigationContentMargin": "0 42px 0 0",
               "navigationHeaderPadding": "0 17px",
+              "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",

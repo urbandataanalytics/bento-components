@@ -226,6 +226,7 @@ const components = {
   navigationMenuOpenBackgroundColor: color.primary100,
   navigationMenuHoverBackgroundColor: color.charcoal400,
   navigationContentMargin: '0 42px 0 0',
+  navigationLinkFontSize: '12px',
   navigationLinkMargin: '0 24px 0 0',
   navigationHeaderPadding: '0 17px',
   navigationMinHeight: '73px',

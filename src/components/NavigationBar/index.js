@@ -90,6 +90,20 @@ const NavigationLinkItem = styled.li`
   justify-content: center;
   margin: ${({ theme }) => theme.components.navigationLinkMargin};
 
+  > a {
+    font-size: ${({ theme }) => theme.components.textLinkFontSizeMedium};
+    color: ${({ theme }) => theme.components.textLinkSecondaryColor};
+    font-weight: ${props => props.theme.global.fontWeightMedium};
+
+    &.active {
+      color: ${({ theme }) => theme.components.textLinkPrimaryColor};
+    }
+
+    &:hover {
+      color: ${({ theme }) => theme.components.textLinkPrimaryHoverColor};
+    }
+  }
+
   &:last-child {
     margin: 0;
   }
