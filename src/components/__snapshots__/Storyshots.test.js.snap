@@ -422,8 +422,8 @@ exports[`Storyshots Button With Icon 1`] = `
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 500,
               "listItemMargin": "0 0 4px",
-              "listItemPaddingLarge": "11px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingLarge": "8px 16px",
+              "listItemPaddingMedium": "8px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -530,6 +530,12 @@ exports[`Storyshots Button With Icon 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -819,8 +825,8 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 500,
               "listItemMargin": "0 0 4px",
-              "listItemPaddingLarge": "11px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingLarge": "8px 16px",
+              "listItemPaddingMedium": "8px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -927,6 +933,12 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -1233,8 +1245,8 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 500,
               "listItemMargin": "0 0 4px",
-              "listItemPaddingLarge": "11px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingLarge": "8px 16px",
+              "listItemPaddingMedium": "8px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -1341,6 +1353,12 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -1449,6 +1467,10 @@ exports[`Storyshots Dropdown Playground 1`] = `
   margin: 0 0 4px;
 }
 
+.c5:last-child {
+  margin-bottom: 0;
+}
+
 .c5:hover {
   background-color: #EFF2F7;
   color: #747D93;
@@ -1471,7 +1493,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -1696,6 +1718,10 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   margin: 0 0 4px;
 }
 
+.c5:last-child {
+  margin-bottom: 0;
+}
+
 .c5:hover {
   background-color: #EFF2F7;
   color: #747D93;
@@ -1718,7 +1744,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -1739,6 +1765,10 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+}
+
+.c10:last-child {
+  margin-bottom: 0;
 }
 
 .c10:hover {
@@ -1763,7 +1793,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -1958,8 +1988,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "listItemFontSizeMedium": "12px",
                       "listItemFontWeight": 500,
                       "listItemMargin": "0 0 4px",
-                      "listItemPaddingLarge": "11px 16px",
-                      "listItemPaddingMedium": "7px 16px",
+                      "listItemPaddingLarge": "8px 16px",
+                      "listItemPaddingMedium": "8px 16px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -2066,6 +2096,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
                         "fontSize": "12px",
@@ -2231,8 +2267,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "listItemFontSizeMedium": "12px",
                       "listItemFontWeight": 500,
                       "listItemMargin": "0 0 4px",
-                      "listItemPaddingLarge": "11px 16px",
-                      "listItemPaddingMedium": "7px 16px",
+                      "listItemPaddingLarge": "8px 16px",
+                      "listItemPaddingMedium": "8px 16px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -2339,6 +2375,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
                         "fontSize": "12px",
@@ -2502,8 +2544,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "listItemFontSizeMedium": "12px",
                       "listItemFontWeight": 500,
                       "listItemMargin": "0 0 4px",
-                      "listItemPaddingLarge": "11px 16px",
-                      "listItemPaddingMedium": "7px 16px",
+                      "listItemPaddingLarge": "8px 16px",
+                      "listItemPaddingMedium": "8px 16px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -2610,6 +2652,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
                         "fontSize": "12px",
@@ -2765,8 +2813,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "listItemFontSizeMedium": "12px",
                       "listItemFontWeight": 500,
                       "listItemMargin": "0 0 4px",
-                      "listItemPaddingLarge": "11px 16px",
-                      "listItemPaddingMedium": "7px 16px",
+                      "listItemPaddingLarge": "8px 16px",
+                      "listItemPaddingMedium": "8px 16px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
@@ -2873,6 +2921,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
                       "p2": Object {
                         "color": "#212632",
                         "fontSize": "12px",
@@ -3408,8 +3462,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -3516,6 +3570,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -3694,8 +3754,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -3802,6 +3862,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -3980,8 +4046,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4088,6 +4154,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -4266,8 +4338,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4374,6 +4446,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -4551,8 +4629,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4659,6 +4737,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -4837,8 +4921,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -4945,6 +5029,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -5123,8 +5213,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -5231,6 +5321,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -5409,8 +5505,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -5517,6 +5613,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -5695,8 +5797,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -5803,6 +5905,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -5980,8 +6088,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6088,6 +6196,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -6266,8 +6380,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6374,6 +6488,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -6552,8 +6672,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6660,6 +6780,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -6837,8 +6963,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -6945,6 +7071,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -7122,8 +7254,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -7230,6 +7362,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -7407,8 +7545,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -7515,6 +7653,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -7693,8 +7837,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -7801,6 +7945,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -7980,8 +8130,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8088,6 +8238,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -8274,8 +8430,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8382,6 +8538,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -8570,8 +8732,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8678,6 +8840,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -8863,8 +9031,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -8971,6 +9139,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -9148,8 +9322,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -9256,6 +9430,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -9435,8 +9615,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -9543,6 +9723,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -9721,8 +9907,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -9829,6 +10015,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -10014,8 +10206,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10122,6 +10314,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -10300,8 +10498,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10408,6 +10606,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -10586,8 +10790,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10694,6 +10898,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -10873,8 +11083,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -10981,6 +11191,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -11159,8 +11375,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -11267,6 +11483,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -11445,8 +11667,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -11553,6 +11775,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -11731,8 +11959,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -11839,6 +12067,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -12021,8 +12255,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12129,6 +12363,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -12307,8 +12547,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12415,6 +12655,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -12594,8 +12840,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12702,6 +12948,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -12879,8 +13131,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -12987,6 +13239,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -13165,8 +13423,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -13273,6 +13531,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -13451,8 +13715,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -13559,6 +13823,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -13737,8 +14007,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -13845,6 +14115,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -14023,8 +14299,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -14131,6 +14407,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -14308,8 +14590,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -14416,6 +14698,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -14598,8 +14886,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -14706,6 +14994,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -14884,8 +15178,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -14992,6 +15286,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -15171,8 +15471,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15279,6 +15579,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -15457,8 +15763,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15565,6 +15871,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -15744,8 +16056,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -15852,6 +16164,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -16033,8 +16351,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -16141,6 +16459,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -16322,8 +16646,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -16430,6 +16754,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -16608,8 +16938,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -16716,6 +17046,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -16894,8 +17230,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -17002,6 +17338,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -17189,8 +17531,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -17297,6 +17639,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -17475,8 +17823,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 500,
             "listItemMargin": "0 0 4px",
-            "listItemPaddingLarge": "11px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
@@ -17583,6 +17931,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "small4": "24px",
           },
           "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
             "p2": Object {
               "color": "#212632",
               "fontSize": "12px",
@@ -17771,8 +18125,8 @@ exports[`Storyshots Icon Normal 1`] = `
           "listItemFontSizeMedium": "12px",
           "listItemFontWeight": 500,
           "listItemMargin": "0 0 4px",
-          "listItemPaddingLarge": "11px 16px",
-          "listItemPaddingMedium": "7px 16px",
+          "listItemPaddingLarge": "8px 16px",
+          "listItemPaddingMedium": "8px 16px",
           "listItemSeparatorColor": "#EFF2F7",
           "listPadding": "8px",
           "navigationBorder": "1px solid #EFF2F7",
@@ -17879,6 +18233,12 @@ exports[`Storyshots Icon Normal 1`] = `
           "small4": "24px",
         },
         "texts": Object {
+          "p1b": Object {
+            "color": "#212632",
+            "fontSize": "14px",
+            "fontWeight": 500,
+            "lineHeight": "1.5",
+          },
           "p2": Object {
             "color": "#212632",
             "fontSize": "12px",
@@ -18419,6 +18779,10 @@ exports[`Storyshots LinkList Normal 1`] = `
   margin: 0 0 4px;
 }
 
+.c1:last-child {
+  margin-bottom: 0;
+}
+
 .c1:hover {
   background-color: #EFF2F7;
   color: #747D93;
@@ -18441,7 +18805,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -18462,6 +18826,10 @@ exports[`Storyshots LinkList Normal 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+}
+
+.c4:last-child {
+  margin-bottom: 0;
 }
 
 .c4:hover {
@@ -18486,7 +18854,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -18508,6 +18876,10 @@ exports[`Storyshots LinkList Normal 1`] = `
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
   color: #DCDFE6;
+}
+
+.c6:last-child {
+  margin-bottom: 0;
 }
 
 .c6:hover {
@@ -18532,7 +18904,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -18640,6 +19012,10 @@ exports[`Storyshots List Playground 1`] = `
   margin: 0 0 4px;
 }
 
+.c1:last-child {
+  margin-bottom: 0;
+}
+
 .c1:hover {
   background-color: #EFF2F7;
   color: #747D93;
@@ -18662,7 +19038,7 @@ exports[`Storyshots List Playground 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -18683,7 +19059,7 @@ exports[`Storyshots List Playground 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -18704,7 +19080,7 @@ exports[`Storyshots List Playground 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -18872,6 +19248,10 @@ exports[`Storyshots List With Childrens 1`] = `
   margin: 0 0 4px;
 }
 
+.c1:last-child {
+  margin-bottom: 0;
+}
+
 .c1:hover {
   background-color: #EFF2F7;
   color: #747D93;
@@ -18894,7 +19274,7 @@ exports[`Storyshots List With Childrens 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -18915,6 +19295,10 @@ exports[`Storyshots List With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+}
+
+.c5:last-child {
+  margin-bottom: 0;
 }
 
 .c5:hover {
@@ -18939,7 +19323,7 @@ exports[`Storyshots List With Childrens 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -18961,6 +19345,10 @@ exports[`Storyshots List With Childrens 1`] = `
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
   color: #DCDFE6;
+}
+
+.c12:last-child {
+  margin-bottom: 0;
 }
 
 .c12:hover {
@@ -18985,7 +19373,7 @@ exports[`Storyshots List With Childrens 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -19007,6 +19395,10 @@ exports[`Storyshots List With Childrens 1`] = `
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
   cursor: pointer;
+}
+
+.c7:last-child {
+  margin-bottom: 0;
 }
 
 .c7:hover {
@@ -19031,7 +19423,7 @@ exports[`Storyshots List With Childrens 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -19203,8 +19595,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 500,
                   "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "11px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "8px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -19311,6 +19703,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -19476,8 +19874,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 500,
                   "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "11px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "8px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -19584,6 +19982,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -19764,8 +20168,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 500,
                   "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "11px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "8px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -19872,6 +20276,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -20049,8 +20459,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 500,
                   "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "11px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "8px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -20157,6 +20567,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -20312,8 +20728,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 500,
                   "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "11px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "8px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -20420,6 +20836,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -20585,8 +21007,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 500,
                   "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "11px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "8px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -20693,6 +21115,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -20849,8 +21277,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 500,
                   "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "11px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "8px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -20957,6 +21385,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -21052,6 +21486,10 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   margin: 0 0 4px;
 }
 
+.c8:last-child {
+  margin-bottom: 0;
+}
+
 .c8:hover {
   background-color: #EFF2F7;
   color: #747D93;
@@ -21074,7 +21512,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -21095,7 +21533,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -21116,7 +21554,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -21137,7 +21575,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   align-content: center;
   color: #747D93;
   font-weight: 500;
-  padding: 7px 16px;
+  padding: 8px 16px;
   font-size: 12px;
 }
 
@@ -21158,6 +21596,10 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+}
+
+.c20:last-child {
+  margin-bottom: 0;
 }
 
 .c20:hover {
@@ -21496,8 +21938,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 500,
                   "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "11px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "8px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -21604,6 +22046,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -21773,8 +22221,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "listItemFontSizeMedium": "12px",
                         "listItemFontWeight": 500,
                         "listItemMargin": "0 0 4px",
-                        "listItemPaddingLarge": "11px 16px",
-                        "listItemPaddingMedium": "7px 16px",
+                        "listItemPaddingLarge": "8px 16px",
+                        "listItemPaddingMedium": "8px 16px",
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
@@ -21881,6 +22329,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "small4": "24px",
                       },
                       "texts": Object {
+                        "p1b": Object {
+                          "color": "#212632",
+                          "fontSize": "14px",
+                          "fontWeight": 500,
+                          "lineHeight": "1.5",
+                        },
                         "p2": Object {
                           "color": "#212632",
                           "fontSize": "12px",
@@ -22045,8 +22499,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "listItemFontSizeMedium": "12px",
                         "listItemFontWeight": 500,
                         "listItemMargin": "0 0 4px",
-                        "listItemPaddingLarge": "11px 16px",
-                        "listItemPaddingMedium": "7px 16px",
+                        "listItemPaddingLarge": "8px 16px",
+                        "listItemPaddingMedium": "8px 16px",
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
@@ -22153,6 +22607,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "small4": "24px",
                       },
                       "texts": Object {
+                        "p1b": Object {
+                          "color": "#212632",
+                          "fontSize": "14px",
+                          "fontWeight": 500,
+                          "lineHeight": "1.5",
+                        },
                         "p2": Object {
                           "color": "#212632",
                           "fontSize": "12px",
@@ -22374,8 +22834,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 500,
                   "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "11px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "8px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -22482,6 +22942,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -22650,8 +23116,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 500,
                   "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "11px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "8px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
@@ -22758,6 +23224,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
                   "p2": Object {
                     "color": "#212632",
                     "fontSize": "12px",
@@ -22921,8 +23393,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "listItemFontSizeMedium": "12px",
                         "listItemFontWeight": 500,
                         "listItemMargin": "0 0 4px",
-                        "listItemPaddingLarge": "11px 16px",
-                        "listItemPaddingMedium": "7px 16px",
+                        "listItemPaddingLarge": "8px 16px",
+                        "listItemPaddingMedium": "8px 16px",
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
@@ -23029,6 +23501,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "small4": "24px",
                       },
                       "texts": Object {
+                        "p1b": Object {
+                          "color": "#212632",
+                          "fontSize": "14px",
+                          "fontWeight": 500,
+                          "lineHeight": "1.5",
+                        },
                         "p2": Object {
                           "color": "#212632",
                           "fontSize": "12px",
@@ -23192,8 +23670,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "listItemFontSizeMedium": "12px",
                         "listItemFontWeight": 500,
                         "listItemMargin": "0 0 4px",
-                        "listItemPaddingLarge": "11px 16px",
-                        "listItemPaddingMedium": "7px 16px",
+                        "listItemPaddingLarge": "8px 16px",
+                        "listItemPaddingMedium": "8px 16px",
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
@@ -23300,6 +23778,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "small4": "24px",
                       },
                       "texts": Object {
+                        "p1b": Object {
+                          "color": "#212632",
+                          "fontSize": "14px",
+                          "fontWeight": 500,
+                          "lineHeight": "1.5",
+                        },
                         "p2": Object {
                           "color": "#212632",
                           "fontSize": "12px",
@@ -23607,8 +24091,8 @@ exports[`Storyshots Notification Error 1`] = `
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 500,
               "listItemMargin": "0 0 4px",
-              "listItemPaddingLarge": "11px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingLarge": "8px 16px",
+              "listItemPaddingMedium": "8px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -23715,6 +24199,12 @@ exports[`Storyshots Notification Error 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -23929,8 +24419,8 @@ exports[`Storyshots Notification Normal 1`] = `
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 500,
               "listItemMargin": "0 0 4px",
-              "listItemPaddingLarge": "11px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingLarge": "8px 16px",
+              "listItemPaddingMedium": "8px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -24037,6 +24527,12 @@ exports[`Storyshots Notification Normal 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -24251,8 +24747,8 @@ exports[`Storyshots Notification Success 1`] = `
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 500,
               "listItemMargin": "0 0 4px",
-              "listItemPaddingLarge": "11px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingLarge": "8px 16px",
+              "listItemPaddingMedium": "8px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -24359,6 +24855,12 @@ exports[`Storyshots Notification Success 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",
@@ -24576,8 +25078,8 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 500,
               "listItemMargin": "0 0 4px",
-              "listItemPaddingLarge": "11px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingLarge": "8px 16px",
+              "listItemPaddingMedium": "8px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
@@ -24684,6 +25186,12 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
               "p2": Object {
                 "color": "#212632",
                 "fontSize": "12px",

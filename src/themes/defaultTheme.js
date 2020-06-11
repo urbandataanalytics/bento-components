@@ -96,6 +96,12 @@ const headings = [
 ];
 
 const texts = {
+  p1b: {
+    fontWeight: global.fontWeightMedium,
+    fontSize: global.fontSize,
+    color: color.charcoal800,
+    lineHeight: '1.5'
+  },
   p2: {
     fontWeight: global.fontWeightRegular,
     fontSize: '12px',
@@ -263,8 +269,8 @@ const components = {
   listItemColorDefaultHover: color.charcoal300,
   listItemColorDisabled: color.charcoal400,
   listItemMargin: '0 0 4px',
-  listItemPaddingMedium: '7px 16px',
-  listItemPaddingLarge: '11px 16px',
+  listItemPaddingMedium: '8px 16px',
+  listItemPaddingLarge: '8px 16px',
   listItemFontSizeMedium: '12px',
   listItemFontSizeLarge: '14px',
   listItemFontWeight: global.fontWeightMedium

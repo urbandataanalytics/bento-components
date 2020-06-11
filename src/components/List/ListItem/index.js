@@ -146,6 +146,10 @@ const StyledListItem = styled.li`
   ${props => props.onClick && 'cursor: pointer'};
   ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`};
 
+  &:last-child {
+    margin-bottom: 0;
+  }
+
   &:hover {
     background-color: ${props =>
       props.active
