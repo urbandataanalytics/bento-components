@@ -49,48 +49,6 @@ StyledComponent.defaultProps = {
   theme: defaultTheme
 };
 
-const StyledContent = styled.div`
-  color: ${props =>
-    props.active
-      ? props.theme.components.listItemColorActive
-      : props.theme.components.listItemColorDefault};
-  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
-
-  > svg {
-    fill: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
-
-    &:hover {
-      fill: ${props =>
-        props.active
-          ? props.theme.components.listItemColorActive
-          : props.theme.components.listItemColorDefault};
-    }
-  }
-
-  > * {
-    color: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
-    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
-    ${props => props.disabled && `pointer-events: none`}
-
-    &:hover {
-      color: ${props =>
-        props.active
-          ? props.theme.components.listItemColorActive
-          : props.theme.components.listItemColorDefault};
-    }
-  }
-`;
-
-StyledContent.defaultProps = {
-  theme: defaultTheme
-};
-
 const StyledRightContent = styled.div`
   margin-left: auto;
   color: ${props =>
