@@ -103,6 +103,7 @@ const StyledListItem = styled.li`
   margin: ${props => props.theme.components.listItemMargin};
   ${props => props.onClick && 'cursor: pointer'};
   ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`};
+  border-radius: ${props => props.theme.components.listItemBorderRadius};
 
   &:last-child {
     margin-bottom: 0;

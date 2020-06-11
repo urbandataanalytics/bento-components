@@ -269,6 +269,7 @@ const components = {
   listItemColorDefaultHover: color.charcoal300,
   listItemColorDisabled: color.charcoal400,
   listItemMargin: '0 0 4px',
+  listItemBorderRadius: shapes.borderRadiusSmall,
   listItemPaddingMedium: '8px 16px',
   listItemPaddingLarge: '8px 16px',
   listItemFontSizeMedium: '12px',

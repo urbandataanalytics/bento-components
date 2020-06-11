@@ -413,6 +413,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "inputFieldPlaceholderColor": "#DCDFE6",
               "inputFieldTextIndent": "24px",
               "listBackgroundColor": "#FFFFFF",
+              "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
@@ -816,6 +817,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "inputFieldPlaceholderColor": "#DCDFE6",
               "inputFieldTextIndent": "24px",
               "listBackgroundColor": "#FFFFFF",
+              "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
@@ -1236,6 +1238,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "inputFieldPlaceholderColor": "#DCDFE6",
               "inputFieldTextIndent": "24px",
               "listBackgroundColor": "#FFFFFF",
+              "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
@@ -1465,6 +1468,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  border-radius: 2px;
 }
 
 .c5:last-child {
@@ -1716,6 +1720,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  border-radius: 2px;
 }
 
 .c5:last-child {
@@ -1765,6 +1770,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  border-radius: 2px;
 }
 
 .c10:last-child {
@@ -1979,6 +1985,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "inputFieldPlaceholderColor": "#DCDFE6",
                       "inputFieldTextIndent": "24px",
                       "listBackgroundColor": "#FFFFFF",
+                      "listItemBorderRadius": "2px",
                       "listItemColorActive": "#1778FB",
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
@@ -2258,6 +2265,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "inputFieldPlaceholderColor": "#DCDFE6",
                       "inputFieldTextIndent": "24px",
                       "listBackgroundColor": "#FFFFFF",
+                      "listItemBorderRadius": "2px",
                       "listItemColorActive": "#1778FB",
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
@@ -2535,6 +2543,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "inputFieldPlaceholderColor": "#DCDFE6",
                       "inputFieldTextIndent": "24px",
                       "listBackgroundColor": "#FFFFFF",
+                      "listItemBorderRadius": "2px",
                       "listItemColorActive": "#1778FB",
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
@@ -2804,6 +2813,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "inputFieldPlaceholderColor": "#DCDFE6",
                       "inputFieldTextIndent": "24px",
                       "listBackgroundColor": "#FFFFFF",
+                      "listItemBorderRadius": "2px",
                       "listItemColorActive": "#1778FB",
                       "listItemColorActiveHover": "#EFF7FB",
                       "listItemColorDefault": "#747D93",
@@ -3453,6 +3463,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -3745,6 +3756,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -4037,6 +4049,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -4329,6 +4342,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -4620,6 +4634,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -4912,6 +4927,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -5204,6 +5220,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -5496,6 +5513,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -5788,6 +5806,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -6079,6 +6098,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -6371,6 +6391,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -6663,6 +6684,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -6954,6 +6976,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -7245,6 +7268,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -7536,6 +7560,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -7828,6 +7853,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -8121,6 +8147,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -8421,6 +8448,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -8723,6 +8751,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -9022,6 +9051,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -9313,6 +9343,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -9606,6 +9637,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -9898,6 +9930,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -10197,6 +10230,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -10489,6 +10523,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -10781,6 +10816,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -11074,6 +11110,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -11366,6 +11403,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -11658,6 +11696,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -11950,6 +11989,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -12246,6 +12286,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -12538,6 +12579,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -12831,6 +12873,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -13122,6 +13165,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -13414,6 +13458,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -13706,6 +13751,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -13998,6 +14044,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -14290,6 +14337,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -14581,6 +14629,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -14877,6 +14926,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -15169,6 +15219,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -15462,6 +15513,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -15754,6 +15806,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -16047,6 +16100,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -16342,6 +16396,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -16637,6 +16692,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -16929,6 +16985,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -17221,6 +17278,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -17522,6 +17580,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -17814,6 +17873,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "inputFieldPlaceholderColor": "#DCDFE6",
             "inputFieldTextIndent": "24px",
             "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
             "listItemColorActiveHover": "#EFF7FB",
             "listItemColorDefault": "#747D93",
@@ -18116,6 +18176,7 @@ exports[`Storyshots Icon Normal 1`] = `
           "inputFieldPlaceholderColor": "#DCDFE6",
           "inputFieldTextIndent": "24px",
           "listBackgroundColor": "#FFFFFF",
+          "listItemBorderRadius": "2px",
           "listItemColorActive": "#1778FB",
           "listItemColorActiveHover": "#EFF7FB",
           "listItemColorDefault": "#747D93",
@@ -18777,6 +18838,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  border-radius: 2px;
 }
 
 .c1:last-child {
@@ -18826,6 +18888,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  border-radius: 2px;
 }
 
 .c4:last-child {
@@ -18876,6 +18939,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
   color: #DCDFE6;
+  border-radius: 2px;
 }
 
 .c6:last-child {
@@ -19010,6 +19074,7 @@ exports[`Storyshots List Playground 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  border-radius: 2px;
 }
 
 .c1:last-child {
@@ -19246,6 +19311,7 @@ exports[`Storyshots List With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  border-radius: 2px;
 }
 
 .c1:last-child {
@@ -19295,6 +19361,7 @@ exports[`Storyshots List With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  border-radius: 2px;
 }
 
 .c5:last-child {
@@ -19345,6 +19412,7 @@ exports[`Storyshots List With Childrens 1`] = `
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
   color: #DCDFE6;
+  border-radius: 2px;
 }
 
 .c12:last-child {
@@ -19395,6 +19463,7 @@ exports[`Storyshots List With Childrens 1`] = `
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 .c7:last-child {
@@ -19586,6 +19655,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
                   "listBackgroundColor": "#FFFFFF",
+                  "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
@@ -19865,6 +19935,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
                   "listBackgroundColor": "#FFFFFF",
+                  "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
@@ -20159,6 +20230,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
                   "listBackgroundColor": "#FFFFFF",
+                  "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
@@ -20450,6 +20522,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
                   "listBackgroundColor": "#FFFFFF",
+                  "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
@@ -20719,6 +20792,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
                   "listBackgroundColor": "#FFFFFF",
+                  "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
@@ -20998,6 +21072,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
                   "listBackgroundColor": "#FFFFFF",
+                  "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
@@ -21268,6 +21343,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
                   "listBackgroundColor": "#FFFFFF",
+                  "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
@@ -21484,6 +21560,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  border-radius: 2px;
 }
 
 .c8:last-child {
@@ -21596,6 +21673,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  border-radius: 2px;
 }
 
 .c20:last-child {
@@ -21929,6 +22007,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
                   "listBackgroundColor": "#FFFFFF",
+                  "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
@@ -22212,6 +22291,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "inputFieldPlaceholderColor": "#DCDFE6",
                         "inputFieldTextIndent": "24px",
                         "listBackgroundColor": "#FFFFFF",
+                        "listItemBorderRadius": "2px",
                         "listItemColorActive": "#1778FB",
                         "listItemColorActiveHover": "#EFF7FB",
                         "listItemColorDefault": "#747D93",
@@ -22490,6 +22570,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "inputFieldPlaceholderColor": "#DCDFE6",
                         "inputFieldTextIndent": "24px",
                         "listBackgroundColor": "#FFFFFF",
+                        "listItemBorderRadius": "2px",
                         "listItemColorActive": "#1778FB",
                         "listItemColorActiveHover": "#EFF7FB",
                         "listItemColorDefault": "#747D93",
@@ -22825,6 +22906,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
                   "listBackgroundColor": "#FFFFFF",
+                  "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
@@ -23107,6 +23189,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
                   "listBackgroundColor": "#FFFFFF",
+                  "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
                   "listItemColorActiveHover": "#EFF7FB",
                   "listItemColorDefault": "#747D93",
@@ -23384,6 +23467,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "inputFieldPlaceholderColor": "#DCDFE6",
                         "inputFieldTextIndent": "24px",
                         "listBackgroundColor": "#FFFFFF",
+                        "listItemBorderRadius": "2px",
                         "listItemColorActive": "#1778FB",
                         "listItemColorActiveHover": "#EFF7FB",
                         "listItemColorDefault": "#747D93",
@@ -23661,6 +23745,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "inputFieldPlaceholderColor": "#DCDFE6",
                         "inputFieldTextIndent": "24px",
                         "listBackgroundColor": "#FFFFFF",
+                        "listItemBorderRadius": "2px",
                         "listItemColorActive": "#1778FB",
                         "listItemColorActiveHover": "#EFF7FB",
                         "listItemColorDefault": "#747D93",
@@ -24082,6 +24167,7 @@ exports[`Storyshots Notification Error 1`] = `
               "inputFieldPlaceholderColor": "#DCDFE6",
               "inputFieldTextIndent": "24px",
               "listBackgroundColor": "#FFFFFF",
+              "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
@@ -24410,6 +24496,7 @@ exports[`Storyshots Notification Normal 1`] = `
               "inputFieldPlaceholderColor": "#DCDFE6",
               "inputFieldTextIndent": "24px",
               "listBackgroundColor": "#FFFFFF",
+              "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
@@ -24738,6 +24825,7 @@ exports[`Storyshots Notification Success 1`] = `
               "inputFieldPlaceholderColor": "#DCDFE6",
               "inputFieldTextIndent": "24px",
               "listBackgroundColor": "#FFFFFF",
+              "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
@@ -25069,6 +25157,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "inputFieldPlaceholderColor": "#DCDFE6",
               "inputFieldTextIndent": "24px",
               "listBackgroundColor": "#FFFFFF",
+              "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
               "listItemColorDefault": "#747D93",
