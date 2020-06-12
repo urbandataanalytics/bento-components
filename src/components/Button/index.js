@@ -3,83 +3,43 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import DefaultTheme from '../../themes/defaultTheme';
+import IconLoader from '../../icons/Loader/index';
 
 const Loader = () => {
-  const StyledLoader = styled.div`
-    position: relative;
-    display: flex;
-    flex-flow: row wrap;
-    width: 5rem;
-    height: 1.5s;
-    transition: all 300ms ease-in-out 0s;
-    z-index: 1;
-    height: 5rem;
-    > i {
-      width: 33.3333%;
-      height: 33.3333%;
-      background-color: white;
-      animation: cubes 1300ms infinite ease-in-out;
-
-      &.cube-1 {
-        animation-delay: 0.2s;
-      }
-
-      &.cube-2 {
-        animation-delay: 0.3s;
-      }
-
-      &.cube-3 {
-        animation-delay: 0.4s;
-      }
-
-      &.cube-4 {
-        animation-delay: 0.1s;
-      }
-
-      &.cube-5 {
-        animation-delay: 0.2s;
-      }
-
-      &.cube-6 {
-        animation-delay: 0.3s;
-      }
-
-      &.cube-7 {
-        animation-delay: 0s;
-      }
-
-      &.cube-8 {
-        animation.cube-delay: 0.1s;
-      }
-
-      &.cube-9 {
-        animation-delay: 0.2s;
-      }
+  const StyledLoader = styled.span`
+    &::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      transition: all 300ms ease-in-out;
+      background-color: #fabada;
+      position: absolute;
+      right: 45%;
+      bottom: 45%;
     }
 
-    @keyframes cubes {
-      0%,
-      70%,
-      100% {
-        transform: scale3d(1, 1, 1);
+    > svg {
+      animation: rotation 2s linear infinite;
+      display: inline-block;
+      transform-origin: center;
+      width: 15px;
+      height: 15px;
+      margin-right: 8px;
+    }
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
       }
-      35% {
-        transform: scale3d(0, 0, 1);
+      to {
+        transform: rotate(360deg);
       }
     }
   `;
 
   return (
     <StyledLoader>
-      <i className="cube-1"></i>
-      <i className="cube-2"></i>
-      <i className="cube-3"></i>
-      <i className="cube-4"></i>
-      <i className="cube-5"></i>
-      <i className="cube-6"></i>
-      <i className="cube-7"></i>
-      <i className="cube-8"></i>
-      <i className="cube-9"></i>
+      <IconLoader customColor="white" size="small" />
     </StyledLoader>
   );
 };
@@ -193,6 +153,7 @@ const Button = React.forwardRef((props, ref) => {
           {iconLeft}
         </IconWrapper>
       )}
+
       <Loader />
 
       {children}
