@@ -5,6 +5,10 @@ exports[`Storyshots Avatar Normal 1`] = `
   width: 32px;
   height: 32px;
   font-size: 14px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #212632;
+  line-height: 1.5;
   border-radius: 50%;
   background-color: #363C4B;
   color: #FFFFFF;
@@ -47,6 +51,10 @@ exports[`Storyshots Avatar With Initials 1`] = `
   width: 32px;
   height: 32px;
   font-size: 14px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #212632;
+  line-height: 1.5;
   border-radius: 50%;
   background-color: #1778FB;
   color: #FFFFFF;

@@ -26,7 +26,8 @@ const componentSizes = theme => ({
 });
 
 const StyledAvatar = styled.div`
-  ${props => componentSizes(props.theme)[props.size]};
+  ${({ theme, size }) => componentSizes(theme)[size]};
+  ${({ theme }) => theme.texts.p2b}
   border-radius: ${({ theme }) => theme.components.avatarBorderRadius};
   background-color: ${({ theme, customColor }) =>
     customColor || theme.components.avatarBackgroundColor};
