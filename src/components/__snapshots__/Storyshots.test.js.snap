@@ -1511,6 +1511,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
 
 .c0 {
   position: relative;
+  display: inline-block;
 }
 
 .c1 {
@@ -1525,13 +1526,14 @@ exports[`Storyshots Dropdown Playground 1`] = `
   transform: translate(0,0);
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
-  position: fixed;
+  position: absolute;
   min-width: 200px;
   border: 1px solid #EFF2F7;
   box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
+  left: 0px;
 }
 
 <div
@@ -1813,6 +1815,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 
 .c0 {
   position: relative;
+  display: inline-block;
 }
 
 .c1 {
@@ -1827,13 +1830,14 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   transform: translate(0,0);
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
-  position: fixed;
+  position: absolute;
   min-width: 200px;
   border: 1px solid #EFF2F7;
   box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
+  left: 0px;
 }
 
 <div
@@ -21808,6 +21812,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
 
 .c2 {
   position: relative;
+  display: inline-block;
 }
 
 .c3 {
@@ -21822,13 +21827,14 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   transform: translate(0,0);
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
-  position: fixed;
+  position: absolute;
   min-width: 200px;
   border: 1px solid #EFF2F7;
   box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
+  left: 0px;
 }
 
 .c17 {
