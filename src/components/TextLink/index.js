@@ -51,6 +51,10 @@ const StyledTextLink = styled.a`
   ${props => props.disabled && componentDisabled(props.theme)}
 `;
 
+StyledTextLink.defaultProps = {
+  theme: DefaultTheme
+};
+
 const TextLink = React.forwardRef((props, ref) => {
   const {
     children,
@@ -97,10 +101,6 @@ TextLink.defaultProps = {
   href: '#',
   size: 'medium',
   variant: 'primary'
-};
-
-StyledTextLink.defaultProps = {
-  theme: DefaultTheme
 };
 
 TextLink.displayName = 'TextLink';
