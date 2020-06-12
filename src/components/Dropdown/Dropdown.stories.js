@@ -48,7 +48,9 @@ export const WithChildrens = () => {
       <Dropdown label={<Button>Label example</Button>}>
         <List>
           <ListItem leftContent={<IconFolder />}>Text</ListItem>
-          <ListItem rightContent={<IconFolder />}>Text</ListItem>
+          <ListItem rightContent={<IconFolder />} disabled>
+            Text
+          </ListItem>
           <ListItem leftContent={<IconFolder />} rightContent={<IconFolder />} active>
             Text
           </ListItem>
