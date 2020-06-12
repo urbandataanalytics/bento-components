@@ -1681,30 +1681,35 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   fill: #747D93;
 }
 
-.c11 {
+.c12 {
   margin-right: 19px;
   color: #1778FB;
 }
 
-.c11 > svg {
+.c12 > svg {
   fill: #1778FB;
 }
 
-.c9 {
+.c10 {
   margin-left: auto;
   color: #747D93;
 }
 
-.c9 > svg {
+.c10 color:#DCDFE6 > svg {
   fill: #747D93;
+  fill: #DCDFE6;
 }
 
-.c12 {
+.c10 > * {
+  color: #DCDFE6;
+}
+
+.c13 {
   margin-left: auto;
   color: #1778FB;
 }
 
-.c12 > svg {
+.c13 > svg {
   fill: #1778FB;
 }
 
@@ -1758,7 +1763,59 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   font-size: 12px;
 }
 
-.c10 {
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin: 0 0 4px;
+  color: #DCDFE6;
+  border-radius: 2px;
+}
+
+.c9:last-child {
+  margin-bottom: 0;
+}
+
+.c9:hover {
+  color: #747D93;
+}
+
+.c9 > .c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #747D93;
+  font-weight: 500;
+  padding: 8px 16px;
+  font-size: 12px;
+  color: #DCDFE6;
+  pointer-events: none;
+}
+
+.c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1778,16 +1835,16 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   border-radius: 2px;
 }
 
-.c10:last-child {
+.c11:last-child {
   margin-bottom: 0;
 }
 
-.c10:hover {
+.c11:hover {
   background-color: #EFF7FB;
   color: #1778FB;
 }
 
-.c10 > .c6 {
+.c11 > .c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2150,7 +2207,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           </div>
         </li>
         <li
-          className="c5"
+          className="c9"
+          disabled={true}
           size="medium"
         >
           <div
@@ -2158,7 +2216,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           >
             Text
             <div
-              className="c9"
+              className="c10"
+              disabled={true}
             >
               <svg
                 className="c8"
@@ -2430,14 +2489,14 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           </div>
         </li>
         <li
-          className="c10"
+          className="c11"
           size="medium"
         >
           <div
             className="c6 "
           >
             <div
-              className="c11"
+              className="c12"
             >
               <svg
                 className="c8"
@@ -2708,7 +2767,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
             </div>
             Text
             <div
-              className="c12"
+              className="c13"
             >
               <svg
                 className="c8"
@@ -18933,56 +18992,6 @@ exports[`Storyshots LinkList Normal 1`] = `
   font-size: 12px;
 }
 
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #EFF7FB;
-  color: #1778FB;
-  font-size: 14px;
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 500;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  margin: 0 0 4px;
-  border-radius: 2px;
-}
-
-.c4:last-child {
-  margin-bottom: 0;
-}
-
-.c4:hover {
-  background-color: #EFF7FB;
-  color: #1778FB;
-}
-
-.c4 > .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-basis: 100%;
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  color: #1778FB;
-  font-weight: 500;
-  padding: 8px 16px;
-  font-size: 12px;
-}
-
 .c6 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -19033,6 +19042,56 @@ exports[`Storyshots LinkList Normal 1`] = `
   font-size: 12px;
   color: #DCDFE6;
   pointer-events: none;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #EFF7FB;
+  color: #1778FB;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin: 0 0 4px;
+  border-radius: 2px;
+}
+
+.c4:last-child {
+  margin-bottom: 0;
+}
+
+.c4:hover {
+  background-color: #EFF7FB;
+  color: #1778FB;
+}
+
+.c4 > .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #1778FB;
+  font-weight: 500;
+  padding: 8px 16px;
+  font-size: 12px;
 }
 
 .c0 {
@@ -19211,10 +19270,12 @@ exports[`Storyshots List Playground 1`] = `
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  color: #1778FB;
+  color: #747D93;
   font-weight: 500;
   padding: 8px 16px;
   font-size: 12px;
+  color: #DCDFE6;
+  pointer-events: none;
 }
 
 .c4 > .c2 {
@@ -19232,12 +19293,10 @@ exports[`Storyshots List Playground 1`] = `
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  color: #747D93;
+  color: #1778FB;
   font-weight: 500;
   padding: 8px 16px;
   font-size: 12px;
-  color: #DCDFE6;
-  pointer-events: none;
 }
 
 .c0 {
@@ -19344,24 +19403,6 @@ exports[`Storyshots List With Childrens 1`] = `
   color: #DCDFE6;
 }
 
-.c11 {
-  margin-left: auto;
-  color: #747D93;
-}
-
-.c11 > svg {
-  fill: #747D93;
-}
-
-.c6 {
-  margin-left: auto;
-  color: #1778FB;
-}
-
-.c6 > svg {
-  fill: #1778FB;
-}
-
 .c14 {
   margin-left: auto;
   color: #747D93;
@@ -19374,6 +19415,24 @@ exports[`Storyshots List With Childrens 1`] = `
 
 .c14 > * {
   color: #DCDFE6;
+}
+
+.c6 {
+  margin-left: auto;
+  color: #1778FB;
+}
+
+.c6 > svg {
+  fill: #1778FB;
+}
+
+.c11 {
+  margin-left: auto;
+  color: #747D93;
+}
+
+.c11 > svg {
+  fill: #747D93;
 }
 
 .c8 {
@@ -19435,56 +19494,6 @@ exports[`Storyshots List With Childrens 1`] = `
   font-size: 12px;
 }
 
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #EFF7FB;
-  color: #1778FB;
-  font-size: 14px;
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 500;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  margin: 0 0 4px;
-  border-radius: 2px;
-}
-
-.c5:last-child {
-  margin-bottom: 0;
-}
-
-.c5:hover {
-  background-color: #EFF7FB;
-  color: #1778FB;
-}
-
-.c5 > .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-basis: 100%;
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  color: #1778FB;
-  font-weight: 500;
-  padding: 8px 16px;
-  font-size: 12px;
-}
-
 .c12 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -19535,6 +19544,56 @@ exports[`Storyshots List With Childrens 1`] = `
   font-size: 12px;
   color: #DCDFE6;
   pointer-events: none;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #EFF7FB;
+  color: #1778FB;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin: 0 0 4px;
+  border-radius: 2px;
+}
+
+.c5:last-child {
+  margin-bottom: 0;
+}
+
+.c5:hover {
+  background-color: #EFF7FB;
+  color: #1778FB;
+}
+
+.c5 > .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #1778FB;
+  font-weight: 500;
+  padding: 8px 16px;
+  font-size: 12px;
 }
 
 .c7 {
@@ -21707,10 +21766,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  color: #1778FB;
+  color: #747D93;
   font-weight: 500;
   padding: 8px 16px;
   font-size: 12px;
+  color: #DCDFE6;
+  pointer-events: none;
 }
 
 .c22 > .c9 {
@@ -21728,12 +21789,10 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  color: #747D93;
+  color: #1778FB;
   font-weight: 500;
   padding: 8px 16px;
   font-size: 12px;
-  color: #DCDFE6;
-  pointer-events: none;
 }
 
 .c23 > .c9 {
