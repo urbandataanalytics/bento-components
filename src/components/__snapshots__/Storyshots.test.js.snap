@@ -25,6 +25,7 @@ exports[`Storyshots Avatar Normal 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  text-indent: 2px;
 }
 
 .c1 {
@@ -71,6 +72,7 @@ exports[`Storyshots Avatar With Initials 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  text-indent: 2px;
 }
 
 <div

@@ -36,6 +36,7 @@ const StyledAvatar = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-indent: 2px;
 `;
 
 StyledAvatar.defaultProps = {
