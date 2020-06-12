@@ -221,7 +221,7 @@ const components = {
 
   /* Navigation Theme Props */
   navigationBorder: `1px solid ${color.charcoal300}`,
-  navigationMenuPadding: `20px ${spacings.small4}`,
+  navigationMenuPadding: `20px ${spacings.small3}`,
   navigationMenuBackgroundColor: color.charcoal300,
   navigationMenuOpenBackgroundColor: color.primary100,
   navigationMenuHoverBackgroundColor: color.charcoal400,
