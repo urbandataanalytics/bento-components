@@ -6,7 +6,7 @@ exports[`Storyshots Avatar Normal 1`] = `
   height: 32px;
   font-size: 14px;
   border-radius: 50%;
-  background-color: #1778FB;
+  background-color: #363C4B;
   color: #FFFFFF;
   text-transform: uppercase;
   display: -webkit-box;
@@ -333,7 +333,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "white": "#FFFFFF",
             },
             "components": Object {
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -738,7 +738,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "white": "#FFFFFF",
             },
             "components": Object {
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -1160,7 +1160,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "white": "#FFFFFF",
             },
             "components": Object {
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -1969,7 +1969,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "white": "#FFFFFF",
                     },
                     "components": Object {
-                      "avatarBackgroundColor": "#1778FB",
+                      "avatarBackgroundColor": "#363C4B",
                       "avatarBorderRadius": "50%",
                       "avatarColor": "#FFFFFF",
                       "avatarFontSizeLarge": "24px",
@@ -2252,7 +2252,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "white": "#FFFFFF",
                     },
                     "components": Object {
-                      "avatarBackgroundColor": "#1778FB",
+                      "avatarBackgroundColor": "#363C4B",
                       "avatarBorderRadius": "50%",
                       "avatarColor": "#FFFFFF",
                       "avatarFontSizeLarge": "24px",
@@ -2531,7 +2531,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "white": "#FFFFFF",
                     },
                     "components": Object {
-                      "avatarBackgroundColor": "#1778FB",
+                      "avatarBackgroundColor": "#363C4B",
                       "avatarBorderRadius": "50%",
                       "avatarColor": "#FFFFFF",
                       "avatarFontSizeLarge": "24px",
@@ -2802,7 +2802,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "white": "#FFFFFF",
                     },
                     "components": Object {
-                      "avatarBackgroundColor": "#1778FB",
+                      "avatarBackgroundColor": "#363C4B",
                       "avatarBorderRadius": "50%",
                       "avatarColor": "#FFFFFF",
                       "avatarFontSizeLarge": "24px",
@@ -3453,7 +3453,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -3747,7 +3747,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -4041,7 +4041,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -4335,7 +4335,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -4628,7 +4628,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -4922,7 +4922,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -5216,7 +5216,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -5510,7 +5510,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -5804,7 +5804,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -6097,7 +6097,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -6391,7 +6391,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -6685,7 +6685,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -6978,7 +6978,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -7271,7 +7271,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -7564,7 +7564,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -7858,7 +7858,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -8153,7 +8153,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -8455,7 +8455,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -8759,7 +8759,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -9060,7 +9060,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -9353,7 +9353,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -9648,7 +9648,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -9942,7 +9942,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -10243,7 +10243,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -10537,7 +10537,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -10831,7 +10831,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -11126,7 +11126,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -11420,7 +11420,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -11714,7 +11714,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -12008,7 +12008,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -12306,7 +12306,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -12600,7 +12600,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -12895,7 +12895,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -13188,7 +13188,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -13482,7 +13482,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -13776,7 +13776,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -14070,7 +14070,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -14364,7 +14364,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -14657,7 +14657,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -14955,7 +14955,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -15249,7 +15249,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -15544,7 +15544,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -15838,7 +15838,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -16133,7 +16133,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -16430,7 +16430,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -16727,7 +16727,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -17021,7 +17021,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -17315,7 +17315,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -17618,7 +17618,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -17912,7 +17912,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "white": "#FFFFFF",
           },
           "components": Object {
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -18216,7 +18216,7 @@ exports[`Storyshots Icon Normal 1`] = `
           "white": "#FFFFFF",
         },
         "components": Object {
-          "avatarBackgroundColor": "#1778FB",
+          "avatarBackgroundColor": "#363C4B",
           "avatarBorderRadius": "50%",
           "avatarColor": "#FFFFFF",
           "avatarFontSizeLarge": "24px",
@@ -19726,7 +19726,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "white": "#FFFFFF",
                 },
                 "components": Object {
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -20007,7 +20007,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "white": "#FFFFFF",
                 },
                 "components": Object {
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -20303,7 +20303,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "white": "#FFFFFF",
                 },
                 "components": Object {
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -20596,7 +20596,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "white": "#FFFFFF",
                 },
                 "components": Object {
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -20867,7 +20867,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "white": "#FFFFFF",
                 },
                 "components": Object {
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -21148,7 +21148,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "white": "#FFFFFF",
                 },
                 "components": Object {
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -21420,7 +21420,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "white": "#FFFFFF",
                 },
                 "components": Object {
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -22103,7 +22103,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "white": "#FFFFFF",
                 },
                 "components": Object {
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -22388,7 +22388,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "white": "#FFFFFF",
                       },
                       "components": Object {
-                        "avatarBackgroundColor": "#1778FB",
+                        "avatarBackgroundColor": "#363C4B",
                         "avatarBorderRadius": "50%",
                         "avatarColor": "#FFFFFF",
                         "avatarFontSizeLarge": "24px",
@@ -22668,7 +22668,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "white": "#FFFFFF",
                       },
                       "components": Object {
-                        "avatarBackgroundColor": "#1778FB",
+                        "avatarBackgroundColor": "#363C4B",
                         "avatarBorderRadius": "50%",
                         "avatarColor": "#FFFFFF",
                         "avatarFontSizeLarge": "24px",
@@ -23024,7 +23024,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "white": "#FFFFFF",
                 },
                 "components": Object {
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -23308,7 +23308,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "white": "#FFFFFF",
                 },
                 "components": Object {
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -23587,7 +23587,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "white": "#FFFFFF",
                       },
                       "components": Object {
-                        "avatarBackgroundColor": "#1778FB",
+                        "avatarBackgroundColor": "#363C4B",
                         "avatarBorderRadius": "50%",
                         "avatarColor": "#FFFFFF",
                         "avatarFontSizeLarge": "24px",
@@ -23866,7 +23866,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "white": "#FFFFFF",
                       },
                       "components": Object {
-                        "avatarBackgroundColor": "#1778FB",
+                        "avatarBackgroundColor": "#363C4B",
                         "avatarBorderRadius": "50%",
                         "avatarColor": "#FFFFFF",
                         "avatarFontSizeLarge": "24px",
@@ -24289,7 +24289,7 @@ exports[`Storyshots Notification Error 1`] = `
               "white": "#FFFFFF",
             },
             "components": Object {
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -24619,7 +24619,7 @@ exports[`Storyshots Notification Normal 1`] = `
               "white": "#FFFFFF",
             },
             "components": Object {
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -24949,7 +24949,7 @@ exports[`Storyshots Notification Success 1`] = `
               "white": "#FFFFFF",
             },
             "components": Object {
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -25282,7 +25282,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "white": "#FFFFFF",
             },
             "components": Object {
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",

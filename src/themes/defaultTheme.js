@@ -210,7 +210,7 @@ const components = {
 
   /* Avatar Theme Props */
   avatarBorderRadius: shapes.borderRadiusFull,
-  avatarBackgroundColor: color.primary500,
+  avatarBackgroundColor: color.charcoal700,
   avatarColor: color.white,
   avatarSizeSmall: spacings.small4,
   avatarSizeMedium: spacings.medium1,
