@@ -19,7 +19,7 @@ const StyledLabel = styled.label`
 const ChildrenContainer = styled.div`
   opacity: ${props => (props.isOpen ? '1' : '0')};
   visibility: ${props => (props.isOpen ? 'visible' : 'hidden')};
-  transform: translate(${props => (props.isOpen ? '0, 10px' : '0, 0')});
+  transform: translateY(${props => (props.isOpen ? '10px' : '0')});
   transition: ${props => props.theme.global.transition};
   position: absolute;
   min-width: 200px;
@@ -28,7 +28,7 @@ const ChildrenContainer = styled.div`
   border-radius: ${props => props.theme.components.dropdownBorderRadius};
   background: ${props => props.theme.components.dropdownBackground};
   padding: ${props => props.theme.components.dropdownPadding};
-  ${props => `${props.position}: 0px`}
+  ${props => `${props.position}: 8px`}
 `;
 
 ChildrenContainer.defaultProps = {
