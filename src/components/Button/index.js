@@ -108,6 +108,8 @@ const IconWrapper = styled.span`
   }
 `;
 
+const StyledContent = styled.span``;
+
 const Button = React.forwardRef((props, ref) => {
   const {
     block,
@@ -141,7 +143,7 @@ const Button = React.forwardRef((props, ref) => {
           {iconLeft}
         </IconWrapper>
       )}
-      {children}
+      <StyledContent>{children}</StyledContent>
       {iconRight && (
         <IconWrapper direction="right" size={size}>
           {iconRight}
