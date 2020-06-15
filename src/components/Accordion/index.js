@@ -2,10 +2,9 @@ import * as React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import defaultTheme from '../../themes/defaultTheme';
-import { IconArrowClose, IconArrowOpen } from '../../icons';
+import { IconArrowClose } from '../../icons';
 import { useCallback } from 'react';
 import { useState } from 'react';
-import TextLink from '../TextLink';
 
 const StyledAccordionLabel = styled.div`
   width: 100%;
@@ -152,6 +151,7 @@ Accordion.defaultProps = {
 
 Accordion.propTypes = {
   children: PropTypes.node.isRequired,
+  onClick: PropTypes.func,
   expanded: PropTypes.bool,
   leftContent: PropTypes.node,
   rightContent: PropTypes.node,
