@@ -117,7 +117,7 @@ Array [
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -219,7 +219,7 @@ Array [
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -405,7 +405,7 @@ Array [
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -507,7 +507,7 @@ Array [
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -806,7 +806,7 @@ Array [
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -908,7 +908,7 @@ Array [
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -1107,7 +1107,7 @@ Array [
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -1209,7 +1209,7 @@ Array [
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -1561,7 +1561,7 @@ Array [
                     "accordionSubHeaderColor": "#DCDFE6",
                     "accordionSubHeaderFontSize": "10px",
                     "accordionSubHeaderFontWeight": 700,
-                    "avatarBackgroundColor": "#1778FB",
+                    "avatarBackgroundColor": "#363C4B",
                     "avatarBorderRadius": "50%",
                     "avatarColor": "#FFFFFF",
                     "avatarFontSizeLarge": "24px",
@@ -1663,7 +1663,7 @@ Array [
                     "navigationMenuBackgroundColor": "#EFF2F7",
                     "navigationMenuHoverBackgroundColor": "#DCDFE6",
                     "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                    "navigationMenuPadding": "20px 24px",
+                    "navigationMenuPadding": "20px 16px",
                     "navigationMinHeight": "73px",
                     "notificationBorderRadius": "8px",
                     "notificationCloseButtonColor": "#212632",
@@ -1851,7 +1851,7 @@ Array [
                     "accordionSubHeaderColor": "#DCDFE6",
                     "accordionSubHeaderFontSize": "10px",
                     "accordionSubHeaderFontWeight": 700,
-                    "avatarBackgroundColor": "#1778FB",
+                    "avatarBackgroundColor": "#363C4B",
                     "avatarBorderRadius": "50%",
                     "avatarColor": "#FFFFFF",
                     "avatarFontSizeLarge": "24px",
@@ -1953,7 +1953,7 @@ Array [
                     "navigationMenuBackgroundColor": "#EFF2F7",
                     "navigationMenuHoverBackgroundColor": "#DCDFE6",
                     "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                    "navigationMenuPadding": "20px 24px",
+                    "navigationMenuPadding": "20px 16px",
                     "navigationMinHeight": "73px",
                     "notificationBorderRadius": "8px",
                     "notificationCloseButtonColor": "#212632",
@@ -2139,7 +2139,7 @@ Array [
                     "accordionSubHeaderColor": "#DCDFE6",
                     "accordionSubHeaderFontSize": "10px",
                     "accordionSubHeaderFontWeight": 700,
-                    "avatarBackgroundColor": "#1778FB",
+                    "avatarBackgroundColor": "#363C4B",
                     "avatarBorderRadius": "50%",
                     "avatarColor": "#FFFFFF",
                     "avatarFontSizeLarge": "24px",
@@ -2241,7 +2241,7 @@ Array [
                     "navigationMenuBackgroundColor": "#EFF2F7",
                     "navigationMenuHoverBackgroundColor": "#DCDFE6",
                     "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                    "navigationMenuPadding": "20px 24px",
+                    "navigationMenuPadding": "20px 16px",
                     "navigationMinHeight": "73px",
                     "notificationBorderRadius": "8px",
                     "notificationCloseButtonColor": "#212632",
@@ -2419,7 +2419,7 @@ Array [
                     "accordionSubHeaderColor": "#DCDFE6",
                     "accordionSubHeaderFontSize": "10px",
                     "accordionSubHeaderFontWeight": 700,
-                    "avatarBackgroundColor": "#1778FB",
+                    "avatarBackgroundColor": "#363C4B",
                     "avatarBorderRadius": "50%",
                     "avatarColor": "#FFFFFF",
                     "avatarFontSizeLarge": "24px",
@@ -2521,7 +2521,7 @@ Array [
                     "navigationMenuBackgroundColor": "#EFF2F7",
                     "navigationMenuHoverBackgroundColor": "#DCDFE6",
                     "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                    "navigationMenuPadding": "20px 24px",
+                    "navigationMenuPadding": "20px 16px",
                     "navigationMinHeight": "73px",
                     "notificationBorderRadius": "8px",
                     "notificationCloseButtonColor": "#212632",
@@ -2772,7 +2772,7 @@ Array [
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -2874,7 +2874,7 @@ Array [
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -3060,7 +3060,7 @@ Array [
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -3162,7 +3162,7 @@ Array [
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -3429,7 +3429,7 @@ Array [
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -3531,7 +3531,7 @@ Array [
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -3686,8 +3686,12 @@ exports[`Storyshots Avatar Normal 1`] = `
   width: 32px;
   height: 32px;
   font-size: 14px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #212632;
+  line-height: 1.5;
   border-radius: 50%;
-  background-color: #1778FB;
+  background-color: #363C4B;
   color: #FFFFFF;
   text-transform: uppercase;
   display: -webkit-box;
@@ -3702,6 +3706,7 @@ exports[`Storyshots Avatar Normal 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  text-indent: 2px;
 }
 
 .c1 {
@@ -3728,6 +3733,10 @@ exports[`Storyshots Avatar With Initials 1`] = `
   width: 32px;
   height: 32px;
   font-size: 14px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #212632;
+  line-height: 1.5;
   border-radius: 50%;
   background-color: #1778FB;
   color: #FFFFFF;
@@ -3744,6 +3753,7 @@ exports[`Storyshots Avatar With Initials 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  text-indent: 2px;
 }
 
 <div
@@ -4023,7 +4033,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -4125,7 +4135,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -4437,7 +4447,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -4539,7 +4549,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -4868,7 +4878,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -4970,7 +4980,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -5240,6 +5250,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
 
 .c0 {
   position: relative;
+  display: inline-block;
 }
 
 .c1 {
@@ -5249,18 +5260,19 @@ exports[`Storyshots Dropdown Playground 1`] = `
 .c3 {
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: translate(0,0);
-  -ms-transform: translate(0,0);
-  transform: translate(0,0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
-  position: fixed;
+  position: absolute;
   min-width: 200px;
   border: 1px solid #EFF2F7;
   box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
+  left: 8px;
 }
 
 <div
@@ -5358,31 +5370,36 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   fill: #747D93;
 }
 
-.c11 {
-  margin-right: 19px;
-  color: #1778FB;
-}
-
-.c11 > svg {
-  fill: #1778FB;
-}
-
-.c9 {
-  margin-left: auto;
-  color: #747D93;
-}
-
-.c9 > svg {
-  fill: #747D93;
-}
-
 .c12 {
-  margin-left: auto;
+  margin-right: 19px;
   color: #1778FB;
 }
 
 .c12 > svg {
   fill: #1778FB;
+}
+
+.c13 {
+  margin-left: auto;
+  color: #1778FB;
+}
+
+.c13 > svg {
+  fill: #1778FB;
+}
+
+.c10 {
+  margin-left: auto;
+  color: #747D93;
+}
+
+.c10 color:#DCDFE6 > svg {
+  fill: #747D93;
+  fill: #DCDFE6;
+}
+
+.c10 > * {
+  color: #DCDFE6;
 }
 
 .c5 {
@@ -5435,7 +5452,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   font-size: 12px;
 }
 
-.c10 {
+.c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5455,16 +5472,16 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   border-radius: 2px;
 }
 
-.c10:last-child {
+.c11:last-child {
   margin-bottom: 0;
 }
 
-.c10:hover {
+.c11:hover {
   background-color: #EFF7FB;
   color: #1778FB;
 }
 
-.c10 > .c6 {
+.c11 > .c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5483,6 +5500,58 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   font-weight: 500;
   padding: 8px 16px;
   font-size: 12px;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #747D93;
+  font-size: 14px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin: 0 0 4px;
+  color: #DCDFE6;
+  border-radius: 2px;
+}
+
+.c9:last-child {
+  margin-bottom: 0;
+}
+
+.c9:hover {
+  color: #747D93;
+}
+
+.c9 > .c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #747D93;
+  font-weight: 500;
+  padding: 8px 16px;
+  font-size: 12px;
+  color: #DCDFE6;
+  pointer-events: none;
 }
 
 .c4 {
@@ -5542,6 +5611,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 
 .c0 {
   position: relative;
+  display: inline-block;
 }
 
 .c1 {
@@ -5551,18 +5621,19 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 .c3 {
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: translate(0,0);
-  -ms-transform: translate(0,0);
-  transform: translate(0,0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
-  position: fixed;
+  position: absolute;
   min-width: 200px;
   border: 1px solid #EFF2F7;
   box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
+  left: 8px;
 }
 
 <div
@@ -5646,7 +5717,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "accordionSubHeaderColor": "#DCDFE6",
                       "accordionSubHeaderFontSize": "10px",
                       "accordionSubHeaderFontWeight": 700,
-                      "avatarBackgroundColor": "#1778FB",
+                      "avatarBackgroundColor": "#363C4B",
                       "avatarBorderRadius": "50%",
                       "avatarColor": "#FFFFFF",
                       "avatarFontSizeLarge": "24px",
@@ -5748,7 +5819,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "navigationMenuBackgroundColor": "#EFF2F7",
                       "navigationMenuHoverBackgroundColor": "#DCDFE6",
                       "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                      "navigationMenuPadding": "20px 24px",
+                      "navigationMenuPadding": "20px 16px",
                       "navigationMinHeight": "73px",
                       "notificationBorderRadius": "8px",
                       "notificationCloseButtonColor": "#212632",
@@ -5884,7 +5955,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           </div>
         </li>
         <li
-          className="c5"
+          className="c9"
+          disabled={true}
           size="medium"
         >
           <div
@@ -5892,7 +5964,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           >
             Text
             <div
-              className="c9"
+              className="c10"
+              disabled={true}
             >
               <svg
                 className="c8"
@@ -5936,7 +6009,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "accordionSubHeaderColor": "#DCDFE6",
                       "accordionSubHeaderFontSize": "10px",
                       "accordionSubHeaderFontWeight": 700,
-                      "avatarBackgroundColor": "#1778FB",
+                      "avatarBackgroundColor": "#363C4B",
                       "avatarBorderRadius": "50%",
                       "avatarColor": "#FFFFFF",
                       "avatarFontSizeLarge": "24px",
@@ -6038,7 +6111,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "navigationMenuBackgroundColor": "#EFF2F7",
                       "navigationMenuHoverBackgroundColor": "#DCDFE6",
                       "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                      "navigationMenuPadding": "20px 24px",
+                      "navigationMenuPadding": "20px 16px",
                       "navigationMinHeight": "73px",
                       "notificationBorderRadius": "8px",
                       "notificationCloseButtonColor": "#212632",
@@ -6173,292 +6246,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           </div>
         </li>
         <li
-          className="c10"
+          className="c11"
           size="medium"
         >
           <div
             className="c6 "
           >
-            <div
-              className="c11"
-            >
-              <svg
-                className="c8"
-                data-name="IconFolder"
-                preserveAspectRatio="xMidYMid meet"
-                size="medium"
-                theme={
-                  Object {
-                    "breakpoints": Array [
-                      "544px",
-                      "768px",
-                      "1012px",
-                      "1280px",
-                    ],
-                    "color": Object {
-                      "charcoal200": "#F8F8F8",
-                      "charcoal300": "#EFF2F7",
-                      "charcoal400": "#DCDFE6",
-                      "charcoal500": "#B6BBC6",
-                      "charcoal600": "#747D93",
-                      "charcoal700": "#363C4B",
-                      "charcoal800": "#212632",
-                      "emerald100": "#EEF8F6",
-                      "emerald500": "#55BAA9",
-                      "emerald600": "#299B9A",
-                      "primary100": "#EFF7FB",
-                      "primary300": "#5FAEDA",
-                      "primary500": "#1778FB",
-                      "primary700": "#0C1B7A",
-                      "redclay100": "#FAEDEC",
-                      "redclay500": "#CD4C41",
-                      "white": "#FFFFFF",
-                    },
-                    "components": Object {
-                      "accordionBorder": "1px solid #EFF2F7",
-                      "accordionColor": "#747D93",
-                      "accordionHeaderFontSize": "12px",
-                      "accordionHeaderFontWeight": 500,
-                      "accordionMinHeight": "65px",
-                      "accordionPadding": "16px 24px",
-                      "accordionSubHeaderColor": "#DCDFE6",
-                      "accordionSubHeaderFontSize": "10px",
-                      "accordionSubHeaderFontWeight": 700,
-                      "avatarBackgroundColor": "#1778FB",
-                      "avatarBorderRadius": "50%",
-                      "avatarColor": "#FFFFFF",
-                      "avatarFontSizeLarge": "24px",
-                      "avatarFontSizeMedium": "14px",
-                      "avatarFontSizeSmall": "12px",
-                      "avatarSizeLarge": "48px",
-                      "avatarSizeMedium": "32px",
-                      "avatarSizeSmall": "24px",
-                      "buttonFontSizeLarge": "14px",
-                      "buttonFontSizeMedium": "12px",
-                      "buttonMinWidthLarge": "140px",
-                      "buttonMinWidthMedium": "120px",
-                      "buttonPaddingLarge": "19px 32px",
-                      "buttonPaddingMedium": "11px 32px",
-                      "buttonPrimaryBackgroundColor": "#1778FB",
-                      "buttonPrimaryBorderColor": "#1778FB",
-                      "buttonPrimaryBorderRadius": "4px",
-                      "buttonPrimaryColor": "#FFFFFF",
-                      "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                      "buttonPrimaryDisabledBorderColor": "#DCDFE6",
-                      "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
-                      "buttonPrimaryHoverBorderColor": "#5FAEDA",
-                      "buttonPrimaryHoverColor": "#FFFFFF",
-                      "buttonSecondaryBackgroundColor": "#FFFFFF",
-                      "buttonSecondaryBorderColor": "#212632",
-                      "buttonSecondaryBorderRadius": "4px",
-                      "buttonSecondaryColor": "#212632",
-                      "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                      "buttonSecondaryDisabledBorderColor": "#DCDFE6",
-                      "buttonSecondaryHoverBackgroundColor": "#212632",
-                      "buttonSecondaryHoverBorderColor": "#5FAEDA",
-                      "buttonSecondaryHoverColor": "#FFFFFF",
-                      "checkboxBackground": "#FFFFFF",
-                      "checkboxBackgroundChecked": "#1778FB",
-                      "checkboxBackgroundDisabled": "#DCDFE6",
-                      "checkboxBorderColor": "#DCDFE6",
-                      "checkboxBorderRadius": "2px",
-                      "checkboxBorderWidth": "2px",
-                      "checkboxIconColor": "#FFFFFF",
-                      "checkboxLabelColor": "#212632",
-                      "checkboxLabelDisabled": "#DCDFE6",
-                      "checkboxLabelFontSize": "14px",
-                      "checkboxLabelMargin": "16px",
-                      "checkboxSizeMedium": "24px",
-                      "checkboxSizeSmall": "16px",
-                      "dropdownBackground": "#FFFFFF",
-                      "dropdownBorderColor": "#EFF2F7",
-                      "dropdownBorderRadius": "4px",
-                      "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
-                      "dropdownPadding": "8px",
-                      "formGroupMarginBottom": "16px",
-                      "iconPrimaryColor": "#1778FB",
-                      "iconSecondaryColor": "#747D93",
-                      "iconSizeLarge": "32px",
-                      "iconSizeMedium": "24px",
-                      "iconSizeSmall": "16px",
-                      "inputFieldBackgroundColor": "#FFFFFF",
-                      "inputFieldBorderColor": "#DCDFE6",
-                      "inputFieldBorderRadius": "4px",
-                      "inputFieldDisabledBackgroundColor": "#F8F8F8",
-                      "inputFieldDisabledBorderColor": "#DCDFE6",
-                      "inputFieldDisabledColor": "#DCDFE6",
-                      "inputFieldDisabledLabelColor": "#DCDFE6",
-                      "inputFieldErrorBackgroundColor": "#FAEDEC",
-                      "inputFieldErrorBorderColor": "#CD4C41",
-                      "inputFieldErrorHelpColor": "#CD4C41",
-                      "inputFieldErrorPlaceholderColor": "#CD4C41",
-                      "inputFieldFocusBackgroundColor": "#EFF7FB",
-                      "inputFieldFocusBorderColor": "#5FAEDA",
-                      "inputFieldFocusLabelColor": "#5FAEDA",
-                      "inputFieldFontSize": "14px",
-                      "inputFieldHelpColor": "#212632",
-                      "inputFieldHelpFontSize": "12px",
-                      "inputFieldLabelColor": "#363C4B",
-                      "inputFieldLabelFontSize": "12px",
-                      "inputFieldLineHeight": "48px",
-                      "inputFieldPlaceholderColor": "#DCDFE6",
-                      "inputFieldTextIndent": "24px",
-                      "listBackgroundColor": "#FFFFFF",
-                      "listItemBorderRadius": "2px",
-                      "listItemColorActive": "#1778FB",
-                      "listItemColorActiveHover": "#EFF7FB",
-                      "listItemColorDefault": "#747D93",
-                      "listItemColorDefaultHover": "#EFF2F7",
-                      "listItemColorDisabled": "#DCDFE6",
-                      "listItemFontSizeLarge": "14px",
-                      "listItemFontSizeMedium": "12px",
-                      "listItemFontWeight": 500,
-                      "listItemMargin": "0 0 4px",
-                      "listItemPaddingLarge": "8px 16px",
-                      "listItemPaddingMedium": "8px 16px",
-                      "listItemSeparatorColor": "#EFF2F7",
-                      "listPadding": "8px",
-                      "navigationBorder": "1px solid #EFF2F7",
-                      "navigationContentMargin": "0 42px 0 0",
-                      "navigationHeaderPadding": "0 17px",
-                      "navigationLinkFontSize": "12px",
-                      "navigationLinkMargin": "0 24px 0 0",
-                      "navigationMenuBackgroundColor": "#EFF2F7",
-                      "navigationMenuHoverBackgroundColor": "#DCDFE6",
-                      "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                      "navigationMenuPadding": "20px 24px",
-                      "navigationMinHeight": "73px",
-                      "notificationBorderRadius": "8px",
-                      "notificationCloseButtonColor": "#212632",
-                      "notificationErrorBackgroundColor": "#FAEDEC",
-                      "notificationErrorColor": "#CD4C41",
-                      "notificationNormalBackgroundColor": "#EFF7FB",
-                      "notificationNormalColor": "#212632",
-                      "notificationPadding": "16px",
-                      "notificationSuccessBackgroundColor": "#EEF8F6",
-                      "notificationSuccessColor": "#299B9A",
-                      "textLinkDisabledColor": "#DCDFE6",
-                      "textLinkFontSizeLarge": "14px",
-                      "textLinkFontSizeMedium": "12px",
-                      "textLinkPrimaryColor": "#1778FB",
-                      "textLinkPrimaryHoverColor": "#5FAEDA",
-                      "textLinkSecondaryColor": "#747D93",
-                      "textLinkSecondaryHoverColor": "#5FAEDA",
-                    },
-                    "fonts": Array [
-                      Object {
-                        "name": "Roboto-Regular",
-                        "style": "normal",
-                        "weight": "normal",
-                      },
-                      Object {
-                        "name": "Roboto Medium",
-                        "style": "normal",
-                        "weight": 500,
-                      },
-                      Object {
-                        "name": "Roboto Bold",
-                        "style": "normal",
-                        "weight": 700,
-                      },
-                    ],
-                    "global": Object {
-                      "bgColor": "white",
-                      "fontColor": "#333",
-                      "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                      "fontSize": "14px",
-                      "fontWeightBold": 700,
-                      "fontWeightMedium": 500,
-                      "fontWeightRegular": 400,
-                      "transition": "all 250ms ease-in-out",
-                    },
-                    "headings": Array [
-                      Object {
-                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                        "fontWeight": 500,
-                        "size": "3.4rem",
-                      },
-                      Object {
-                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                        "fontWeight": 500,
-                        "size": "2.5rem",
-                      },
-                      Object {
-                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                        "fontWeight": 500,
-                        "size": "1.7rem",
-                      },
-                      Object {
-                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                        "fontWeight": 500,
-                        "size": "1.1rem",
-                      },
-                      Object {
-                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                        "fontWeight": 500,
-                        "size": "0.8rem",
-                      },
-                    ],
-                    "shapes": Object {
-                      "borderRadiusFull": "50%",
-                      "borderRadiusLarge": "8px",
-                      "borderRadiusMedium": "4px",
-                      "borderRadiusSmall": "2px",
-                      "borderWidthMedium": "2px",
-                      "borderWidthSmall": "1px",
-                    },
-                    "spacings": Object {
-                      "large1": "80px",
-                      "large2": "96px",
-                      "large3": "128px",
-                      "large4": "200px",
-                      "medium1": "32px",
-                      "medium2": "40px",
-                      "medium3": "48px",
-                      "medium4": "56px",
-                      "medium5": "64px",
-                      "small1": "4px",
-                      "small2": "8px",
-                      "small3": "16px",
-                      "small4": "24px",
-                    },
-                    "texts": Object {
-                      "p1b": Object {
-                        "color": "#212632",
-                        "fontSize": "14px",
-                        "fontWeight": 500,
-                        "lineHeight": "1.5",
-                      },
-                      "p2": Object {
-                        "color": "#212632",
-                        "fontSize": "12px",
-                        "fontWeight": 400,
-                        "lineHeight": "1.5",
-                      },
-                      "p2b": Object {
-                        "color": "#212632",
-                        "fontSize": "12px",
-                        "fontWeight": 500,
-                        "lineHeight": "1.5",
-                      },
-                      "p3b": Object {
-                        "color": "#212632",
-                        "fontSize": "10px",
-                        "fontWeight": 700,
-                        "lineHeight": "1.5",
-                      },
-                    },
-                  }
-                }
-                viewBox="0 0 32 32"
-              >
-                <path
-                  clipRule="evenodd"
-                  d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
-                />
-              </svg>
-            </div>
-            Text
             <div
               className="c12"
             >
@@ -6504,7 +6297,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "accordionSubHeaderColor": "#DCDFE6",
                       "accordionSubHeaderFontSize": "10px",
                       "accordionSubHeaderFontWeight": 700,
-                      "avatarBackgroundColor": "#1778FB",
+                      "avatarBackgroundColor": "#363C4B",
                       "avatarBorderRadius": "50%",
                       "avatarColor": "#FFFFFF",
                       "avatarFontSizeLarge": "24px",
@@ -6606,7 +6399,287 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "navigationMenuBackgroundColor": "#EFF2F7",
                       "navigationMenuHoverBackgroundColor": "#DCDFE6",
                       "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                      "navigationMenuPadding": "20px 24px",
+                      "navigationMenuPadding": "20px 16px",
+                      "navigationMinHeight": "73px",
+                      "notificationBorderRadius": "8px",
+                      "notificationCloseButtonColor": "#212632",
+                      "notificationErrorBackgroundColor": "#FAEDEC",
+                      "notificationErrorColor": "#CD4C41",
+                      "notificationNormalBackgroundColor": "#EFF7FB",
+                      "notificationNormalColor": "#212632",
+                      "notificationPadding": "16px",
+                      "notificationSuccessBackgroundColor": "#EEF8F6",
+                      "notificationSuccessColor": "#299B9A",
+                      "textLinkDisabledColor": "#DCDFE6",
+                      "textLinkFontSizeLarge": "14px",
+                      "textLinkFontSizeMedium": "12px",
+                      "textLinkPrimaryColor": "#1778FB",
+                      "textLinkPrimaryHoverColor": "#5FAEDA",
+                      "textLinkSecondaryColor": "#747D93",
+                      "textLinkSecondaryHoverColor": "#5FAEDA",
+                    },
+                    "fonts": Array [
+                      Object {
+                        "name": "Roboto-Regular",
+                        "style": "normal",
+                        "weight": "normal",
+                      },
+                      Object {
+                        "name": "Roboto Medium",
+                        "style": "normal",
+                        "weight": 500,
+                      },
+                      Object {
+                        "name": "Roboto Bold",
+                        "style": "normal",
+                        "weight": 700,
+                      },
+                    ],
+                    "global": Object {
+                      "bgColor": "white",
+                      "fontColor": "#333",
+                      "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                      "fontSize": "14px",
+                      "fontWeightBold": 700,
+                      "fontWeightMedium": 500,
+                      "fontWeightRegular": 400,
+                      "transition": "all 250ms ease-in-out",
+                    },
+                    "headings": Array [
+                      Object {
+                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                        "fontWeight": 500,
+                        "size": "3.4rem",
+                      },
+                      Object {
+                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                        "fontWeight": 500,
+                        "size": "2.5rem",
+                      },
+                      Object {
+                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                        "fontWeight": 500,
+                        "size": "1.7rem",
+                      },
+                      Object {
+                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                        "fontWeight": 500,
+                        "size": "1.1rem",
+                      },
+                      Object {
+                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                        "fontWeight": 500,
+                        "size": "0.8rem",
+                      },
+                    ],
+                    "shapes": Object {
+                      "borderRadiusFull": "50%",
+                      "borderRadiusLarge": "8px",
+                      "borderRadiusMedium": "4px",
+                      "borderRadiusSmall": "2px",
+                      "borderWidthMedium": "2px",
+                      "borderWidthSmall": "1px",
+                    },
+                    "spacings": Object {
+                      "large1": "80px",
+                      "large2": "96px",
+                      "large3": "128px",
+                      "large4": "200px",
+                      "medium1": "32px",
+                      "medium2": "40px",
+                      "medium3": "48px",
+                      "medium4": "56px",
+                      "medium5": "64px",
+                      "small1": "4px",
+                      "small2": "8px",
+                      "small3": "16px",
+                      "small4": "24px",
+                    },
+                    "texts": Object {
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
+                      "p2": Object {
+                        "color": "#212632",
+                        "fontSize": "12px",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
+                      "p2b": Object {
+                        "color": "#212632",
+                        "fontSize": "12px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
+                      "p3b": Object {
+                        "color": "#212632",
+                        "fontSize": "10px",
+                        "fontWeight": 700,
+                        "lineHeight": "1.5",
+                      },
+                    },
+                  }
+                }
+                viewBox="0 0 32 32"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+                />
+              </svg>
+            </div>
+            Text
+            <div
+              className="c13"
+            >
+              <svg
+                className="c8"
+                data-name="IconFolder"
+                preserveAspectRatio="xMidYMid meet"
+                size="medium"
+                theme={
+                  Object {
+                    "breakpoints": Array [
+                      "544px",
+                      "768px",
+                      "1012px",
+                      "1280px",
+                    ],
+                    "color": Object {
+                      "charcoal200": "#F8F8F8",
+                      "charcoal300": "#EFF2F7",
+                      "charcoal400": "#DCDFE6",
+                      "charcoal500": "#B6BBC6",
+                      "charcoal600": "#747D93",
+                      "charcoal700": "#363C4B",
+                      "charcoal800": "#212632",
+                      "emerald100": "#EEF8F6",
+                      "emerald500": "#55BAA9",
+                      "emerald600": "#299B9A",
+                      "primary100": "#EFF7FB",
+                      "primary300": "#5FAEDA",
+                      "primary500": "#1778FB",
+                      "primary700": "#0C1B7A",
+                      "redclay100": "#FAEDEC",
+                      "redclay500": "#CD4C41",
+                      "white": "#FFFFFF",
+                    },
+                    "components": Object {
+                      "accordionBorder": "1px solid #EFF2F7",
+                      "accordionColor": "#747D93",
+                      "accordionHeaderFontSize": "12px",
+                      "accordionHeaderFontWeight": 500,
+                      "accordionMinHeight": "65px",
+                      "accordionPadding": "16px 24px",
+                      "accordionSubHeaderColor": "#DCDFE6",
+                      "accordionSubHeaderFontSize": "10px",
+                      "accordionSubHeaderFontWeight": 700,
+                      "avatarBackgroundColor": "#363C4B",
+                      "avatarBorderRadius": "50%",
+                      "avatarColor": "#FFFFFF",
+                      "avatarFontSizeLarge": "24px",
+                      "avatarFontSizeMedium": "14px",
+                      "avatarFontSizeSmall": "12px",
+                      "avatarSizeLarge": "48px",
+                      "avatarSizeMedium": "32px",
+                      "avatarSizeSmall": "24px",
+                      "buttonFontSizeLarge": "14px",
+                      "buttonFontSizeMedium": "12px",
+                      "buttonMinWidthLarge": "140px",
+                      "buttonMinWidthMedium": "120px",
+                      "buttonPaddingLarge": "19px 32px",
+                      "buttonPaddingMedium": "11px 32px",
+                      "buttonPrimaryBackgroundColor": "#1778FB",
+                      "buttonPrimaryBorderColor": "#1778FB",
+                      "buttonPrimaryBorderRadius": "4px",
+                      "buttonPrimaryColor": "#FFFFFF",
+                      "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+                      "buttonPrimaryDisabledBorderColor": "#DCDFE6",
+                      "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+                      "buttonPrimaryHoverBorderColor": "#5FAEDA",
+                      "buttonPrimaryHoverColor": "#FFFFFF",
+                      "buttonSecondaryBackgroundColor": "#FFFFFF",
+                      "buttonSecondaryBorderColor": "#212632",
+                      "buttonSecondaryBorderRadius": "4px",
+                      "buttonSecondaryColor": "#212632",
+                      "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+                      "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+                      "buttonSecondaryHoverBackgroundColor": "#212632",
+                      "buttonSecondaryHoverBorderColor": "#5FAEDA",
+                      "buttonSecondaryHoverColor": "#FFFFFF",
+                      "checkboxBackground": "#FFFFFF",
+                      "checkboxBackgroundChecked": "#1778FB",
+                      "checkboxBackgroundDisabled": "#DCDFE6",
+                      "checkboxBorderColor": "#DCDFE6",
+                      "checkboxBorderRadius": "2px",
+                      "checkboxBorderWidth": "2px",
+                      "checkboxIconColor": "#FFFFFF",
+                      "checkboxLabelColor": "#212632",
+                      "checkboxLabelDisabled": "#DCDFE6",
+                      "checkboxLabelFontSize": "14px",
+                      "checkboxLabelMargin": "16px",
+                      "checkboxSizeMedium": "24px",
+                      "checkboxSizeSmall": "16px",
+                      "dropdownBackground": "#FFFFFF",
+                      "dropdownBorderColor": "#EFF2F7",
+                      "dropdownBorderRadius": "4px",
+                      "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+                      "dropdownPadding": "8px",
+                      "formGroupMarginBottom": "16px",
+                      "iconPrimaryColor": "#1778FB",
+                      "iconSecondaryColor": "#747D93",
+                      "iconSizeLarge": "32px",
+                      "iconSizeMedium": "24px",
+                      "iconSizeSmall": "16px",
+                      "inputFieldBackgroundColor": "#FFFFFF",
+                      "inputFieldBorderColor": "#DCDFE6",
+                      "inputFieldBorderRadius": "4px",
+                      "inputFieldDisabledBackgroundColor": "#F8F8F8",
+                      "inputFieldDisabledBorderColor": "#DCDFE6",
+                      "inputFieldDisabledColor": "#DCDFE6",
+                      "inputFieldDisabledLabelColor": "#DCDFE6",
+                      "inputFieldErrorBackgroundColor": "#FAEDEC",
+                      "inputFieldErrorBorderColor": "#CD4C41",
+                      "inputFieldErrorHelpColor": "#CD4C41",
+                      "inputFieldErrorPlaceholderColor": "#CD4C41",
+                      "inputFieldFocusBackgroundColor": "#EFF7FB",
+                      "inputFieldFocusBorderColor": "#5FAEDA",
+                      "inputFieldFocusLabelColor": "#5FAEDA",
+                      "inputFieldFontSize": "14px",
+                      "inputFieldHelpColor": "#212632",
+                      "inputFieldHelpFontSize": "12px",
+                      "inputFieldLabelColor": "#363C4B",
+                      "inputFieldLabelFontSize": "12px",
+                      "inputFieldLineHeight": "48px",
+                      "inputFieldPlaceholderColor": "#DCDFE6",
+                      "inputFieldTextIndent": "24px",
+                      "listBackgroundColor": "#FFFFFF",
+                      "listItemBorderRadius": "2px",
+                      "listItemColorActive": "#1778FB",
+                      "listItemColorActiveHover": "#EFF7FB",
+                      "listItemColorDefault": "#747D93",
+                      "listItemColorDefaultHover": "#EFF2F7",
+                      "listItemColorDisabled": "#DCDFE6",
+                      "listItemFontSizeLarge": "14px",
+                      "listItemFontSizeMedium": "12px",
+                      "listItemFontWeight": 500,
+                      "listItemMargin": "0 0 4px",
+                      "listItemPaddingLarge": "8px 16px",
+                      "listItemPaddingMedium": "8px 16px",
+                      "listItemSeparatorColor": "#EFF2F7",
+                      "listPadding": "8px",
+                      "navigationBorder": "1px solid #EFF2F7",
+                      "navigationContentMargin": "0 42px 0 0",
+                      "navigationHeaderPadding": "0 17px",
+                      "navigationLinkFontSize": "12px",
+                      "navigationLinkMargin": "0 24px 0 0",
+                      "navigationMenuBackgroundColor": "#EFF2F7",
+                      "navigationMenuHoverBackgroundColor": "#DCDFE6",
+                      "navigationMenuOpenBackgroundColor": "#EFF7FB",
+                      "navigationMenuPadding": "20px 16px",
                       "navigationMinHeight": "73px",
                       "notificationBorderRadius": "8px",
                       "notificationCloseButtonColor": "#212632",
@@ -7164,7 +7237,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -7266,7 +7339,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -7467,7 +7540,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -7569,7 +7642,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -7770,7 +7843,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -7872,7 +7945,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -8073,7 +8146,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -8175,7 +8248,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -8375,7 +8448,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -8477,7 +8550,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -8678,7 +8751,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -8780,7 +8853,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -8981,7 +9054,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -9083,7 +9156,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -9284,7 +9357,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -9386,7 +9459,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -9587,7 +9660,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -9689,7 +9762,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -9889,7 +9962,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -9991,7 +10064,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -10192,7 +10265,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -10294,7 +10367,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -10495,7 +10568,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -10597,7 +10670,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -10797,7 +10870,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -10899,7 +10972,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -11099,7 +11172,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -11201,7 +11274,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -11401,7 +11474,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -11503,7 +11576,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -11704,7 +11777,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -11806,7 +11879,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -12008,7 +12081,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -12110,7 +12183,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -12319,7 +12392,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -12421,7 +12494,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -12632,7 +12705,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -12734,7 +12807,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -12942,7 +13015,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -13044,7 +13117,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -13244,7 +13317,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -13346,7 +13419,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -13548,7 +13621,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -13650,7 +13723,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -13851,7 +13924,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -13953,7 +14026,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -14161,7 +14234,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -14263,7 +14336,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -14464,7 +14537,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -14566,7 +14639,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -14767,7 +14840,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -14869,7 +14942,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -15071,7 +15144,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -15173,7 +15246,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -15374,7 +15447,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -15476,7 +15549,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -15677,7 +15750,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -15779,7 +15852,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -15940,7 +16013,7 @@ exports[`Storyshots Icon All Icons 1`] = `
   >
     <svg
       className="c0"
-      data-name="IconLogout"
+      data-name="IconLoader"
       preserveAspectRatio="xMidYMid meet"
       size="large"
       theme={
@@ -15980,7 +16053,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -16082,7 +16155,311 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
+            "navigationMinHeight": "73px",
+            "notificationBorderRadius": "8px",
+            "notificationCloseButtonColor": "#212632",
+            "notificationErrorBackgroundColor": "#FAEDEC",
+            "notificationErrorColor": "#CD4C41",
+            "notificationNormalBackgroundColor": "#EFF7FB",
+            "notificationNormalColor": "#212632",
+            "notificationPadding": "16px",
+            "notificationSuccessBackgroundColor": "#EEF8F6",
+            "notificationSuccessColor": "#299B9A",
+            "textLinkDisabledColor": "#DCDFE6",
+            "textLinkFontSizeLarge": "14px",
+            "textLinkFontSizeMedium": "12px",
+            "textLinkPrimaryColor": "#1778FB",
+            "textLinkPrimaryHoverColor": "#5FAEDA",
+            "textLinkSecondaryColor": "#747D93",
+            "textLinkSecondaryHoverColor": "#5FAEDA",
+          },
+          "fonts": Array [
+            Object {
+              "name": "Roboto-Regular",
+              "style": "normal",
+              "weight": "normal",
+            },
+            Object {
+              "name": "Roboto Medium",
+              "style": "normal",
+              "weight": 500,
+            },
+            Object {
+              "name": "Roboto Bold",
+              "style": "normal",
+              "weight": 700,
+            },
+          ],
+          "global": Object {
+            "bgColor": "white",
+            "fontColor": "#333",
+            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeightBold": 700,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
+            "transition": "all 250ms ease-in-out",
+          },
+          "headings": Array [
+            Object {
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontWeight": 500,
+              "size": "3.4rem",
+            },
+            Object {
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontWeight": 500,
+              "size": "2.5rem",
+            },
+            Object {
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontWeight": 500,
+              "size": "1.7rem",
+            },
+            Object {
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontWeight": 500,
+              "size": "1.1rem",
+            },
+            Object {
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontWeight": 500,
+              "size": "0.8rem",
+            },
+          ],
+          "shapes": Object {
+            "borderRadiusFull": "50%",
+            "borderRadiusLarge": "8px",
+            "borderRadiusMedium": "4px",
+            "borderRadiusSmall": "2px",
+            "borderWidthMedium": "2px",
+            "borderWidthSmall": "1px",
+          },
+          "spacings": Object {
+            "large1": "80px",
+            "large2": "96px",
+            "large3": "128px",
+            "large4": "200px",
+            "medium1": "32px",
+            "medium2": "40px",
+            "medium3": "48px",
+            "medium4": "56px",
+            "medium5": "64px",
+            "small1": "4px",
+            "small2": "8px",
+            "small3": "16px",
+            "small4": "24px",
+          },
+          "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p2": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
+              "lineHeight": "1.5",
+            },
+          },
+        }
+      }
+      viewBox="0 0 32 32"
+    >
+      <path
+        clipRule="evenodd"
+        d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+        fillRule="evenodd"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconLoader
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
+      data-name="IconLogout"
+      preserveAspectRatio="xMidYMid meet"
+      size="large"
+      theme={
+        Object {
+          "breakpoints": Array [
+            "544px",
+            "768px",
+            "1012px",
+            "1280px",
+          ],
+          "color": Object {
+            "charcoal200": "#F8F8F8",
+            "charcoal300": "#EFF2F7",
+            "charcoal400": "#DCDFE6",
+            "charcoal500": "#B6BBC6",
+            "charcoal600": "#747D93",
+            "charcoal700": "#363C4B",
+            "charcoal800": "#212632",
+            "emerald100": "#EEF8F6",
+            "emerald500": "#55BAA9",
+            "emerald600": "#299B9A",
+            "primary100": "#EFF7FB",
+            "primary300": "#5FAEDA",
+            "primary500": "#1778FB",
+            "primary700": "#0C1B7A",
+            "redclay100": "#FAEDEC",
+            "redclay500": "#CD4C41",
+            "white": "#FFFFFF",
+          },
+          "components": Object {
+            "accordionBorder": "1px solid #EFF2F7",
+            "accordionColor": "#747D93",
+            "accordionHeaderFontSize": "12px",
+            "accordionHeaderFontWeight": 500,
+            "accordionMinHeight": "65px",
+            "accordionPadding": "16px 24px",
+            "accordionSubHeaderColor": "#DCDFE6",
+            "accordionSubHeaderFontSize": "10px",
+            "accordionSubHeaderFontWeight": 700,
+            "avatarBackgroundColor": "#363C4B",
+            "avatarBorderRadius": "50%",
+            "avatarColor": "#FFFFFF",
+            "avatarFontSizeLarge": "24px",
+            "avatarFontSizeMedium": "14px",
+            "avatarFontSizeSmall": "12px",
+            "avatarSizeLarge": "48px",
+            "avatarSizeMedium": "32px",
+            "avatarSizeSmall": "24px",
+            "buttonFontSizeLarge": "14px",
+            "buttonFontSizeMedium": "12px",
+            "buttonMinWidthLarge": "140px",
+            "buttonMinWidthMedium": "120px",
+            "buttonPaddingLarge": "19px 32px",
+            "buttonPaddingMedium": "11px 32px",
+            "buttonPrimaryBackgroundColor": "#1778FB",
+            "buttonPrimaryBorderColor": "#1778FB",
+            "buttonPrimaryBorderRadius": "4px",
+            "buttonPrimaryColor": "#FFFFFF",
+            "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
+            "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+            "buttonPrimaryHoverBorderColor": "#5FAEDA",
+            "buttonPrimaryHoverColor": "#FFFFFF",
+            "buttonSecondaryBackgroundColor": "#FFFFFF",
+            "buttonSecondaryBorderColor": "#212632",
+            "buttonSecondaryBorderRadius": "4px",
+            "buttonSecondaryColor": "#212632",
+            "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+            "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+            "buttonSecondaryHoverBackgroundColor": "#212632",
+            "buttonSecondaryHoverBorderColor": "#5FAEDA",
+            "buttonSecondaryHoverColor": "#FFFFFF",
+            "checkboxBackground": "#FFFFFF",
+            "checkboxBackgroundChecked": "#1778FB",
+            "checkboxBackgroundDisabled": "#DCDFE6",
+            "checkboxBorderColor": "#DCDFE6",
+            "checkboxBorderRadius": "2px",
+            "checkboxBorderWidth": "2px",
+            "checkboxIconColor": "#FFFFFF",
+            "checkboxLabelColor": "#212632",
+            "checkboxLabelDisabled": "#DCDFE6",
+            "checkboxLabelFontSize": "14px",
+            "checkboxLabelMargin": "16px",
+            "checkboxSizeMedium": "24px",
+            "checkboxSizeSmall": "16px",
+            "dropdownBackground": "#FFFFFF",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+            "dropdownPadding": "8px",
+            "formGroupMarginBottom": "16px",
+            "iconPrimaryColor": "#1778FB",
+            "iconSecondaryColor": "#747D93",
+            "iconSizeLarge": "32px",
+            "iconSizeMedium": "24px",
+            "iconSizeSmall": "16px",
+            "inputFieldBackgroundColor": "#FFFFFF",
+            "inputFieldBorderColor": "#DCDFE6",
+            "inputFieldBorderRadius": "4px",
+            "inputFieldDisabledBackgroundColor": "#F8F8F8",
+            "inputFieldDisabledBorderColor": "#DCDFE6",
+            "inputFieldDisabledColor": "#DCDFE6",
+            "inputFieldDisabledLabelColor": "#DCDFE6",
+            "inputFieldErrorBackgroundColor": "#FAEDEC",
+            "inputFieldErrorBorderColor": "#CD4C41",
+            "inputFieldErrorHelpColor": "#CD4C41",
+            "inputFieldErrorPlaceholderColor": "#CD4C41",
+            "inputFieldFocusBackgroundColor": "#EFF7FB",
+            "inputFieldFocusBorderColor": "#5FAEDA",
+            "inputFieldFocusLabelColor": "#5FAEDA",
+            "inputFieldFontSize": "14px",
+            "inputFieldHelpColor": "#212632",
+            "inputFieldHelpFontSize": "12px",
+            "inputFieldLabelColor": "#363C4B",
+            "inputFieldLabelFontSize": "12px",
+            "inputFieldLineHeight": "48px",
+            "inputFieldPlaceholderColor": "#DCDFE6",
+            "inputFieldTextIndent": "24px",
+            "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
+            "listItemColorActive": "#1778FB",
+            "listItemColorActiveHover": "#EFF7FB",
+            "listItemColorDefault": "#747D93",
+            "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
+            "listItemFontSizeLarge": "14px",
+            "listItemFontSizeMedium": "12px",
+            "listItemFontWeight": 500,
+            "listItemMargin": "0 0 4px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
+            "listItemSeparatorColor": "#EFF2F7",
+            "listPadding": "8px",
+            "navigationBorder": "1px solid #EFF2F7",
+            "navigationContentMargin": "0 42px 0 0",
+            "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
+            "navigationLinkMargin": "0 24px 0 0",
+            "navigationMenuBackgroundColor": "#EFF2F7",
+            "navigationMenuHoverBackgroundColor": "#DCDFE6",
+            "navigationMenuOpenBackgroundColor": "#EFF7FB",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -16287,7 +16664,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -16389,7 +16766,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -16590,7 +16967,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -16692,7 +17069,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -16894,7 +17271,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -16996,7 +17373,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -17196,7 +17573,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -17298,7 +17675,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -17499,7 +17876,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -17601,7 +17978,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -17802,7 +18179,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -17904,7 +18281,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -18105,7 +18482,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -18207,7 +18584,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -18408,7 +18785,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -18510,7 +18887,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -18710,7 +19087,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -18812,7 +19189,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -19017,7 +19394,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -19119,7 +19496,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -19320,7 +19697,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -19422,7 +19799,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -19624,7 +20001,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -19726,7 +20103,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -19927,7 +20304,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -20029,7 +20406,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -20231,7 +20608,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -20333,7 +20710,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -20537,7 +20914,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -20639,7 +21016,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -20843,7 +21220,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -20945,7 +21322,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -21146,7 +21523,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -21248,7 +21625,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -21449,7 +21826,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -21551,7 +21928,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -21761,7 +22138,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -21863,7 +22240,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -22064,7 +22441,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "accordionSubHeaderColor": "#DCDFE6",
             "accordionSubHeaderFontSize": "10px",
             "accordionSubHeaderFontWeight": 700,
-            "avatarBackgroundColor": "#1778FB",
+            "avatarBackgroundColor": "#363C4B",
             "avatarBorderRadius": "50%",
             "avatarColor": "#FFFFFF",
             "avatarFontSizeLarge": "24px",
@@ -22166,7 +22543,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
-            "navigationMenuPadding": "20px 24px",
+            "navigationMenuPadding": "20px 16px",
             "navigationMinHeight": "73px",
             "notificationBorderRadius": "8px",
             "notificationCloseButtonColor": "#212632",
@@ -22377,7 +22754,7 @@ exports[`Storyshots Icon Normal 1`] = `
           "accordionSubHeaderColor": "#DCDFE6",
           "accordionSubHeaderFontSize": "10px",
           "accordionSubHeaderFontWeight": 700,
-          "avatarBackgroundColor": "#1778FB",
+          "avatarBackgroundColor": "#363C4B",
           "avatarBorderRadius": "50%",
           "avatarColor": "#FFFFFF",
           "avatarFontSizeLarge": "24px",
@@ -22479,7 +22856,7 @@ exports[`Storyshots Icon Normal 1`] = `
           "navigationMenuBackgroundColor": "#EFF2F7",
           "navigationMenuHoverBackgroundColor": "#DCDFE6",
           "navigationMenuOpenBackgroundColor": "#EFF7FB",
-          "navigationMenuPadding": "20px 24px",
+          "navigationMenuPadding": "20px 16px",
           "navigationMinHeight": "73px",
           "notificationBorderRadius": "8px",
           "notificationCloseButtonColor": "#212632",
@@ -23896,7 +24273,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "accordionSubHeaderColor": "#DCDFE6",
                   "accordionSubHeaderFontSize": "10px",
                   "accordionSubHeaderFontWeight": 700,
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -23998,7 +24375,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
                   "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 24px",
+                  "navigationMenuPadding": "20px 16px",
                   "navigationMinHeight": "73px",
                   "notificationBorderRadius": "8px",
                   "notificationCloseButtonColor": "#212632",
@@ -24186,7 +24563,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "accordionSubHeaderColor": "#DCDFE6",
                   "accordionSubHeaderFontSize": "10px",
                   "accordionSubHeaderFontWeight": 700,
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -24288,7 +24665,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
                   "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 24px",
+                  "navigationMenuPadding": "20px 16px",
                   "navigationMinHeight": "73px",
                   "notificationBorderRadius": "8px",
                   "notificationCloseButtonColor": "#212632",
@@ -24491,7 +24868,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "accordionSubHeaderColor": "#DCDFE6",
                   "accordionSubHeaderFontSize": "10px",
                   "accordionSubHeaderFontWeight": 700,
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -24593,7 +24970,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
                   "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 24px",
+                  "navigationMenuPadding": "20px 16px",
                   "navigationMinHeight": "73px",
                   "notificationBorderRadius": "8px",
                   "notificationCloseButtonColor": "#212632",
@@ -24793,7 +25170,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "accordionSubHeaderColor": "#DCDFE6",
                   "accordionSubHeaderFontSize": "10px",
                   "accordionSubHeaderFontWeight": 700,
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -24895,7 +25272,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
                   "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 24px",
+                  "navigationMenuPadding": "20px 16px",
                   "navigationMinHeight": "73px",
                   "notificationBorderRadius": "8px",
                   "notificationCloseButtonColor": "#212632",
@@ -25073,7 +25450,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "accordionSubHeaderColor": "#DCDFE6",
                   "accordionSubHeaderFontSize": "10px",
                   "accordionSubHeaderFontWeight": 700,
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -25175,7 +25552,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
                   "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 24px",
+                  "navigationMenuPadding": "20px 16px",
                   "navigationMinHeight": "73px",
                   "notificationBorderRadius": "8px",
                   "notificationCloseButtonColor": "#212632",
@@ -25363,7 +25740,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "accordionSubHeaderColor": "#DCDFE6",
                   "accordionSubHeaderFontSize": "10px",
                   "accordionSubHeaderFontWeight": 700,
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -25465,7 +25842,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
                   "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 24px",
+                  "navigationMenuPadding": "20px 16px",
                   "navigationMinHeight": "73px",
                   "notificationBorderRadius": "8px",
                   "notificationCloseButtonColor": "#212632",
@@ -25644,7 +26021,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "accordionSubHeaderColor": "#DCDFE6",
                   "accordionSubHeaderFontSize": "10px",
                   "accordionSubHeaderFontWeight": 700,
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -25746,7 +26123,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
                   "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 24px",
+                  "navigationMenuPadding": "20px 16px",
                   "navigationMinHeight": "73px",
                   "notificationBorderRadius": "8px",
                   "notificationCloseButtonColor": "#212632",
@@ -26135,6 +26512,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
 
 .c2 {
   position: relative;
+  display: inline-block;
 }
 
 .c3 {
@@ -26144,18 +26522,19 @@ exports[`Storyshots NavigationBar Normal 1`] = `
 .c6 {
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: translate(0,0);
-  -ms-transform: translate(0,0);
-  transform: translate(0,0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
-  position: fixed;
+  position: absolute;
   min-width: 200px;
   border: 1px solid #EFF2F7;
   box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
+  left: 8px;
 }
 
 .c0 {
@@ -26209,7 +26588,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
 }
 
 .c4 {
-  padding: 20px 24px;
+  padding: 20px 16px;
   background-color: #EFF2F7;
   -webkit-transition: background-color 0.5s linear;
   transition: background-color 0.5s linear;
@@ -26334,7 +26713,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "accordionSubHeaderColor": "#DCDFE6",
                   "accordionSubHeaderFontSize": "10px",
                   "accordionSubHeaderFontWeight": 700,
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -26436,7 +26815,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
                   "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 24px",
+                  "navigationMenuPadding": "20px 16px",
                   "navigationMinHeight": "73px",
                   "notificationBorderRadius": "8px",
                   "notificationCloseButtonColor": "#212632",
@@ -26628,7 +27007,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "accordionSubHeaderColor": "#DCDFE6",
                         "accordionSubHeaderFontSize": "10px",
                         "accordionSubHeaderFontWeight": 700,
-                        "avatarBackgroundColor": "#1778FB",
+                        "avatarBackgroundColor": "#363C4B",
                         "avatarBorderRadius": "50%",
                         "avatarColor": "#FFFFFF",
                         "avatarFontSizeLarge": "24px",
@@ -26730,7 +27109,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "navigationMenuBackgroundColor": "#EFF2F7",
                         "navigationMenuHoverBackgroundColor": "#DCDFE6",
                         "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                        "navigationMenuPadding": "20px 24px",
+                        "navigationMenuPadding": "20px 16px",
                         "navigationMinHeight": "73px",
                         "notificationBorderRadius": "8px",
                         "notificationCloseButtonColor": "#212632",
@@ -26917,7 +27296,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "accordionSubHeaderColor": "#DCDFE6",
                         "accordionSubHeaderFontSize": "10px",
                         "accordionSubHeaderFontWeight": 700,
-                        "avatarBackgroundColor": "#1778FB",
+                        "avatarBackgroundColor": "#363C4B",
                         "avatarBorderRadius": "50%",
                         "avatarColor": "#FFFFFF",
                         "avatarFontSizeLarge": "24px",
@@ -27019,7 +27398,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "navigationMenuBackgroundColor": "#EFF2F7",
                         "navigationMenuHoverBackgroundColor": "#DCDFE6",
                         "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                        "navigationMenuPadding": "20px 24px",
+                        "navigationMenuPadding": "20px 16px",
                         "navigationMinHeight": "73px",
                         "notificationBorderRadius": "8px",
                         "notificationCloseButtonColor": "#212632",
@@ -27282,7 +27661,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "accordionSubHeaderColor": "#DCDFE6",
                   "accordionSubHeaderFontSize": "10px",
                   "accordionSubHeaderFontWeight": 700,
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -27384,7 +27763,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
                   "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 24px",
+                  "navigationMenuPadding": "20px 16px",
                   "navigationMinHeight": "73px",
                   "notificationBorderRadius": "8px",
                   "notificationCloseButtonColor": "#212632",
@@ -27575,7 +27954,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "accordionSubHeaderColor": "#DCDFE6",
                   "accordionSubHeaderFontSize": "10px",
                   "accordionSubHeaderFontWeight": 700,
-                  "avatarBackgroundColor": "#1778FB",
+                  "avatarBackgroundColor": "#363C4B",
                   "avatarBorderRadius": "50%",
                   "avatarColor": "#FFFFFF",
                   "avatarFontSizeLarge": "24px",
@@ -27677,7 +28056,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "navigationMenuBackgroundColor": "#EFF2F7",
                   "navigationMenuHoverBackgroundColor": "#DCDFE6",
                   "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 24px",
+                  "navigationMenuPadding": "20px 16px",
                   "navigationMinHeight": "73px",
                   "notificationBorderRadius": "8px",
                   "notificationCloseButtonColor": "#212632",
@@ -27863,7 +28242,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "accordionSubHeaderColor": "#DCDFE6",
                         "accordionSubHeaderFontSize": "10px",
                         "accordionSubHeaderFontWeight": 700,
-                        "avatarBackgroundColor": "#1778FB",
+                        "avatarBackgroundColor": "#363C4B",
                         "avatarBorderRadius": "50%",
                         "avatarColor": "#FFFFFF",
                         "avatarFontSizeLarge": "24px",
@@ -27965,7 +28344,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "navigationMenuBackgroundColor": "#EFF2F7",
                         "navigationMenuHoverBackgroundColor": "#DCDFE6",
                         "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                        "navigationMenuPadding": "20px 24px",
+                        "navigationMenuPadding": "20px 16px",
                         "navigationMinHeight": "73px",
                         "notificationBorderRadius": "8px",
                         "notificationCloseButtonColor": "#212632",
@@ -28151,7 +28530,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "accordionSubHeaderColor": "#DCDFE6",
                         "accordionSubHeaderFontSize": "10px",
                         "accordionSubHeaderFontWeight": 700,
-                        "avatarBackgroundColor": "#1778FB",
+                        "avatarBackgroundColor": "#363C4B",
                         "avatarBorderRadius": "50%",
                         "avatarColor": "#FFFFFF",
                         "avatarFontSizeLarge": "24px",
@@ -28253,7 +28632,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "navigationMenuBackgroundColor": "#EFF2F7",
                         "navigationMenuHoverBackgroundColor": "#DCDFE6",
                         "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                        "navigationMenuPadding": "20px 24px",
+                        "navigationMenuPadding": "20px 16px",
                         "navigationMinHeight": "73px",
                         "notificationBorderRadius": "8px",
                         "notificationCloseButtonColor": "#212632",
@@ -28583,7 +28962,7 @@ exports[`Storyshots Notification Error 1`] = `
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -28685,7 +29064,7 @@ exports[`Storyshots Notification Error 1`] = `
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -28922,7 +29301,7 @@ exports[`Storyshots Notification Normal 1`] = `
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -29024,7 +29403,7 @@ exports[`Storyshots Notification Normal 1`] = `
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -29261,7 +29640,7 @@ exports[`Storyshots Notification Success 1`] = `
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -29363,7 +29742,7 @@ exports[`Storyshots Notification Success 1`] = `
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",
@@ -29603,7 +29982,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "accordionSubHeaderColor": "#DCDFE6",
               "accordionSubHeaderFontSize": "10px",
               "accordionSubHeaderFontWeight": 700,
-              "avatarBackgroundColor": "#1778FB",
+              "avatarBackgroundColor": "#363C4B",
               "avatarBorderRadius": "50%",
               "avatarColor": "#FFFFFF",
               "avatarFontSizeLarge": "24px",
@@ -29705,7 +30084,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 24px",
+              "navigationMenuPadding": "20px 16px",
               "navigationMinHeight": "73px",
               "notificationBorderRadius": "8px",
               "notificationCloseButtonColor": "#212632",

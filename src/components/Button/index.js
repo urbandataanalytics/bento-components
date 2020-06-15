@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import DefaultTheme from '../../themes/defaultTheme';
-import IconLoader from '../../icons/Loader/index';
+import IconLoader from '../../icons/Loader';
 
 const Loader = () => {
   const StyledLoader = styled.span`
@@ -153,8 +153,8 @@ const Button = React.forwardRef((props, ref) => {
           {iconLeft}
         </IconWrapper>
       )}
-
-      <Loader />
+      {/*@toDo ButtonLoader*/}
+      {/*<Loader />*/}
 
       {children}
       {iconRight && (
