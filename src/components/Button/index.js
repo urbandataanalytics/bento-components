@@ -3,34 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import DefaultTheme from '../../themes/defaultTheme';
-import IconLoader from '../../icons/Loader';
-
-const Loader = () => {
-  const StyledLoader = styled.span`
-    > svg {
-      animation: rotation 2s linear infinite;
-      display: inline-block;
-      transform-origin: center;
-      width: 15px;
-      height: 15px;
-      margin-right: 8px;
-    }
-    @keyframes rotation {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-  `;
-
-  return (
-    <StyledLoader>
-      <IconLoader customColor="white" size="small" />
-    </StyledLoader>
-  );
-};
+import Loader from './Loader/';
 
 const componentSizes = theme => ({
   medium: {
@@ -49,7 +22,6 @@ const componentVariants = theme => ({
   primary: {
     color: theme.components.buttonPrimaryColor,
     backgroundColor: theme.components.buttonPrimaryBackgroundColor,
-    borderColor: theme.components.buttonPrimaryBorderColor,
     borderRadius: theme.components.buttonPrimaryBorderRadius,
     '&:hover': {
       backgroundColor: theme.components.buttonPrimaryHoverBackgroundColor,
@@ -79,7 +51,7 @@ const componentVariants = theme => ({
 });
 
 const StyledButton = styled.button`
-  border-width: 1px;
+  border-width: ${props => (props.variant === 'secondary' ? '1px' : 0)};
   border-style: solid;
   font-family: ${props => props.theme.global.fontFamily};
   font-weight: ${props => props.theme.global.fontWeightMedium};
@@ -126,7 +98,6 @@ const StyledButton = styled.button`
   }
 
   ${props => (props.block ? 'width: 100%;' : '')}
-
   ${props => componentSizes(props.theme)[props.size]}
   ${props => componentVariants(props.theme)[props.variant]}
 `;
@@ -166,14 +137,14 @@ const Button = React.forwardRef((props, ref) => {
       variant={variant}
       {...other}
     >
-      {iconLeft && !loading && (
+      <Loader loading={loading} loadingText={loadingText} />
+      {iconLeft && (
         <IconWrapper direction="left" size={size}>
           {iconLeft}
         </IconWrapper>
       )}
-      {loading && <Loader />}
-      {(loading && loadingText) || children}
-      {iconRight && !loading && (
+      {children}
+      {iconRight && (
         <IconWrapper direction="right" size={size}>
           {iconRight}
         </IconWrapper>
