@@ -232,6 +232,17 @@ const components = {
   navigationMinHeight: '73px',
 
   /* Notification Theme Props */
+  accordionMinHeight: '65px',
+  accordionPadding: '16px 24px',
+  accordionBorder: `1px solid ${color.charcoal300}`,
+  accordionColor: color.charcoal600,
+  accordionSubHeaderColor: color.charcoal400,
+  accordionHeaderFontWeight: global.fontWeightMedium,
+  accordionHeaderFontSize: '12px',
+  accordionSubHeaderFontSize: '10px',
+  accordionSubHeaderFontWeight: global.fontWeightBold,
+
+  /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
   notificationCloseButtonColor: color.charcoal800,
   notificationErrorBackgroundColor: color.redclay100,
