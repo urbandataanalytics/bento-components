@@ -1,166 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-<<<<<<< HEAD
-exports[`Storyshots Avatar Normal 1`] = `
-.c0 {
-  width: 32px;
-  height: 32px;
-  font-size: 14px;
-  font-weight: 500;
-  font-size: 12px;
-  color: #212632;
-  line-height: 1.5;
-  border-radius: 50%;
-  background-color: #363C4B;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-indent: 2px;
-}
-
-.c1 {
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
-}
-
-<div
-  className="c0"
-  size="medium"
->
-  <img
-    alt="John Doe photo"
-    className="c1"
-    size="medium"
-    src="https://atlantaseo.marketing/wp-content/uploads/avatar-2.png"
-  />
-</div>
-`;
-
-exports[`Storyshots Avatar With Initials 1`] = `
-.c0 {
-  width: 32px;
-  height: 32px;
-  font-size: 14px;
-  font-weight: 500;
-  font-size: 12px;
-  color: #212632;
-  line-height: 1.5;
-  border-radius: 50%;
-  background-color: #1778FB;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-indent: 2px;
-}
-
-<div
-  className="c0"
-  size="medium"
->
-  JD
-</div>
-`;
-
-exports[`Storyshots Button Block 1`] = `
-.c0 {
-  border-width: 1px;
-  border-style: solid;
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 500;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  cursor: pointer;
-  margin: 0;
-  white-space: nowrap;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  width: 100%;
-  padding: 11px 32px;
-  font-size: 12px;
-  min-width: 120px;
-  color: #FFFFFF;
-  background-color: #1778FB;
-  border-color: #1778FB;
-  border-radius: 4px;
-}
-
-.c0:disabled {
-  cursor: default;
-}
-
-.c0:hover {
-  background-color: #5FAEDA;
-  border-color: #5FAEDA;
-  color: #FFFFFF;
-}
-
-.c0:disabled {
-  background-color: #DCDFE6;
-  border-color: #DCDFE6;
-}
-
-<div
-  style={
-    Object {
-      "padding": "2rem",
-    }
-  }
->
-  <button
-    className="c0"
-    disabled={false}
-    onClick={[Function]}
-    size="medium"
-  >
-    Button
-  </button>
-</div>
-`;
-
-exports[`Storyshots Button Loading 1`] = `
-.c2 {
-=======
 exports[`Storyshots Accordion Accordion List 1`] = `
 Array [
   .c2 {
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -184,25 +26,9 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-<<<<<<< HEAD
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  padding: 11px 32px;
-  font-size: 12px;
-  min-width: 120px;
-  color: #FFFFFF;
-  background-color: #1778FB;
-  border-color: #1778FB;
-  border-radius: 4px;
-=======
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
 }
 
 .c3 {
@@ -218,21 +44,8 @@ Array [
   fill: #747D93;
 }
 
-<<<<<<< HEAD
-.c1::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-  position: absolute;
-  right: 45%;
-  bottom: 45%;
-=======
 .c5 {
   margin-left: auto;
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
 }
 
 .c4 {
@@ -257,10 +70,6 @@ Array [
 
 <div
     className="c0"
-<<<<<<< HEAD
-    disabled={true}
-=======
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
     onClick={[Function]}
   >
     <div
@@ -541,174 +350,6 @@ Array [
           d="M12.727 5c.47 0 .887.3 1.035.746l5.51 16.531 2.239-6.713a1.091 1.091 0 011.035-.746h4.363a1.09 1.09 0 110 2.182h-3.577l-3.024 9.072a1.091 1.091 0 01-2.07 0l-5.51-16.531-2.239 6.713A1.091 1.091 0 019.455 17H5.09a1.09 1.09 0 110-2.182h3.577l3.024-9.072A1.091 1.091 0 0112.727 5z"
         />
       </svg>
-<<<<<<< HEAD
-    </span>
-    Loading
-  </button>
-</div>
-`;
-
-exports[`Storyshots Button Normal 1`] = `
-.c0 {
-  border-width: 1px;
-  border-style: solid;
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 500;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  cursor: pointer;
-  margin: 0;
-  white-space: nowrap;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  padding: 11px 32px;
-  font-size: 12px;
-  min-width: 120px;
-  color: #FFFFFF;
-  background-color: #1778FB;
-  border-color: #1778FB;
-  border-radius: 4px;
-}
-
-.c0:disabled {
-  cursor: default;
-}
-
-.c0:hover {
-  background-color: #5FAEDA;
-  border-color: #5FAEDA;
-  color: #FFFFFF;
-}
-
-.c0:disabled {
-  background-color: #DCDFE6;
-  border-color: #DCDFE6;
-}
-
-<div
-  style={
-    Object {
-      "padding": "2rem",
-    }
-  }
->
-  <button
-    className="c0"
-    disabled={false}
-    onClick={[Function]}
-    size="medium"
-  >
-    Button
-  </button>
-</div>
-`;
-
-exports[`Storyshots Button With Icon 1`] = `
-.c2 {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  vertical-align: middle;
-  fill: currentColor;
-  width: 24px;
-  height: 24px;
-}
-
-.c0 {
-  border-width: 1px;
-  border-style: solid;
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 500;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  cursor: pointer;
-  margin: 0;
-  white-space: nowrap;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  padding: 11px 32px;
-  font-size: 12px;
-  min-width: 120px;
-  color: #FFFFFF;
-  background-color: #1778FB;
-  border-color: #1778FB;
-  border-radius: 4px;
-}
-
-.c0:disabled {
-  cursor: default;
-}
-
-.c0:hover {
-  background-color: #5FAEDA;
-  border-color: #5FAEDA;
-  color: #FFFFFF;
-}
-
-.c0:disabled {
-  background-color: #DCDFE6;
-  border-color: #DCDFE6;
-}
-
-.c1 {
-  margin: 0 8px 0 0;
-}
-
-.c1 > svg {
-  width: 15px;
-  height: 15px;
-}
-
-<div
-  style={
-    Object {
-      "padding": "2rem",
-    }
-  }
->
-  <button
-    className="c0"
-    disabled={false}
-    onClick={[Function]}
-    size="medium"
-  >
-    <span
-      className="c1"
-      direction="left"
-      size="medium"
-    >
-      <svg
-        className="c2"
-        data-name="IconWarning"
-=======
     </div>
     <div
       className="c3"
@@ -725,7 +366,6 @@ exports[`Storyshots Button With Icon 1`] = `
       <svg
         className="c2 c6"
         data-name="IconArrowClose"
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
         preserveAspectRatio="xMidYMid meet"
         size="medium"
         theme={
@@ -995,19 +635,6 @@ exports[`Storyshots Button With Icon 1`] = `
       >
         <path
           clipRule="evenodd"
-<<<<<<< HEAD
-          d="M14.457 5.404a3.145 3.145 0 014.232 1.11l.003.005L27.57 21.34l.009.015a3.144 3.144 0 01-2.69 4.717H7.11a3.145 3.145 0 01-2.689-4.717l.009-.015L13.308 6.52l.9.538-.897-.543c.28-.462.675-.844 1.146-1.11zm.648 2.195l-8.872 14.81a1.048 1.048 0 00.895 1.567h17.744a1.048 1.048 0 00.895-1.567l-8.87-14.808-.002-.002a1.05 1.05 0 00-1.79 0zM16 11.397c.579 0 1.048.47 1.048 1.048v4.193a1.048 1.048 0 01-2.096 0v-4.193c0-.579.47-1.048 1.048-1.048zm-.005 8.386c-.576 0-1.043.469-1.043 1.048 0 .579.467 1.048 1.043 1.048h.01c.576 0 1.043-.47 1.043-1.048 0-.579-.467-1.048-1.043-1.048h-.01z"
-        />
-      </svg>
-    </span>
-    Button
-  </button>
-</div>
-`;
-
-exports[`Storyshots Checkbox Normal 1`] = `
-.c4 {
-=======
           d="M9.293 12.293a1 1 0 011.414 0L16 17.586l5.293-5.293a1 1 0 011.414 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414z"
         />
       </svg>
@@ -1028,7 +655,6 @@ exports[`Storyshots Checkbox Normal 1`] = `
     Child message
   </div>,
   .c2 {
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1038,47 +664,12 @@ exports[`Storyshots Checkbox Normal 1`] = `
   height: 24px;
 }
 
-<<<<<<< HEAD
-.c3 {
-  position: relative;
-  box-sizing: border-box;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #FFFFFF;
-  border: 2px solid #DCDFE6;
-  padding: 0;
-  margin: 0;
-  border-radius: 2px;
-  width: 24px;
-  height: 24px;
-}
-
-.c3 > svg {
-  visibility: hidden;
-=======
 .c0 {
   width: 100%;
   cursor: pointer;
   min-height: 65px;
   border-bottom: 1px solid #EFF2F7;
   padding: 16px 24px;
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1087,45 +678,6 @@ exports[`Storyshots Checkbox Normal 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-<<<<<<< HEAD
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-}
-
-.c1 {
-  opacity: 0;
-  z-index: -1;
-  position: absolute;
-}
-
-.c1:focus {
-  outline: none;
-}
-
-.c1:checked + .c2 {
-  border: 0;
-  background-color: #1778FB;
-}
-
-.c1:checked + .c2 > svg {
-  visibility: visible;
-}
-
-.c1:disabled + .c2 {
-  border: 0;
-  background-color: #DCDFE6;
-}
-
-.c1:disabled ~ .c5 {
-  color: #DCDFE6;
-}
-
-.c0 {
-=======
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
@@ -1159,60 +711,14 @@ exports[`Storyshots Checkbox Normal 1`] = `
 }
 
 .c5 {
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
-  width: 100%;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-=======
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-<<<<<<< HEAD
-  cursor: pointer;
-  position: relative;
-}
-
-.c0 .c2 {
-  color: #FFFFFF;
-}
-
-<div
-  style={
-    Object {
-      "padding": "2rem",
-    }
-  }
->
-  <label
-    checked={false}
-    className="c0"
-    disabled={false}
-  >
-    <input
-      checked={false}
-      className="c1"
-      disabled={false}
-      onChange={[Function]}
-      type="checkbox"
-    />
-    <div
-      checked={false}
-      className="c2 c3"
-      disabled={false}
-      size="medium"
-    >
-      <svg
-        className="c4"
-        data-name="IconCheck"
-=======
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
@@ -1261,7 +767,6 @@ exports[`Storyshots Checkbox Normal 1`] = `
       <svg
         className="c2"
         data-name="IconActivity"
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
         preserveAspectRatio="xMidYMid meet"
         size="medium"
         theme={
@@ -1531,179 +1036,15 @@ exports[`Storyshots Checkbox Normal 1`] = `
       >
         <path
           clipRule="evenodd"
-<<<<<<< HEAD
-          d="M21.562 11.27c.512.418.586 1.168.165 1.676l-6.308 7.62a1.203 1.203 0 01-1.753.107l-3.292-3.096a1.184 1.184 0 01-.045-1.683 1.207 1.207 0 011.697-.044l2.356 2.216 5.49-6.631a1.207 1.207 0 011.69-.164z"
-        />
-      </svg>
-    </div>
-  </label>
-</div>
-`;
-
-exports[`Storyshots Checkbox With Label 1`] = `
-.c4 {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  vertical-align: middle;
-  fill: currentColor;
-  width: 24px;
-  height: 24px;
-}
-
-.c3 {
-  position: relative;
-  box-sizing: border-box;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #FFFFFF;
-  border: 2px solid #DCDFE6;
-  padding: 0;
-  margin: 0;
-  border-radius: 2px;
-  width: 24px;
-  height: 24px;
-}
-
-.c3 > svg {
-  visibility: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin: 0 0 0 16px;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #212632;
-}
-
-.c1 {
-  opacity: 0;
-  z-index: -1;
-  position: absolute;
-}
-
-.c1:focus {
-  outline: none;
-}
-
-.c1:checked + .c2 {
-  border: 0;
-  background-color: #1778FB;
-}
-
-.c1:checked + .c2 > svg {
-  visibility: visible;
-}
-
-.c1:disabled + .c2 {
-  border: 0;
-  background-color: #DCDFE6;
-}
-
-.c1:disabled ~ .c5 {
-  color: #DCDFE6;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: pointer;
-  position: relative;
-}
-
-.c0 .c2 {
-  color: #FFFFFF;
-}
-
-<div
-  style={
-    Object {
-      "padding": "2rem",
-    }
-  }
->
-  <label
-    checked={false}
-    className="c0"
-    disabled={false}
-  >
-    <input
-      checked={false}
-      className="c1"
-      disabled={false}
-      onChange={[Function]}
-      type="checkbox"
-    />
-    <div
-      checked={false}
-      className="c2 c3"
-      disabled={false}
-      size="medium"
-=======
           d="M12.727 5c.47 0 .887.3 1.035.746l5.51 16.531 2.239-6.713a1.091 1.091 0 011.035-.746h4.363a1.09 1.09 0 110 2.182h-3.577l-3.024 9.072a1.091 1.091 0 01-2.07 0l-5.51-16.531-2.239 6.713A1.091 1.091 0 019.455 17H5.09a1.09 1.09 0 110-2.182h3.577l3.024-9.072A1.091 1.091 0 0112.727 5z"
         />
       </svg>
     </div>
     <div
       className="c3"
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
     >
       <div
         className="c4"
-<<<<<<< HEAD
-        data-name="IconCheck"
-=======
       >
         Accordion title
       </div>
@@ -1727,7 +1068,6 @@ exports[`Storyshots Checkbox With Label 1`] = `
       <svg
         className="c2 c8"
         data-name="IconArrowClose"
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
         preserveAspectRatio="xMidYMid meet"
         size="medium"
         theme={
@@ -1997,38 +1337,6 @@ exports[`Storyshots Checkbox With Label 1`] = `
       >
         <path
           clipRule="evenodd"
-<<<<<<< HEAD
-          d="M21.562 11.27c.512.418.586 1.168.165 1.676l-6.308 7.62a1.203 1.203 0 01-1.753.107l-3.292-3.096a1.184 1.184 0 01-.045-1.683 1.207 1.207 0 011.697-.044l2.356 2.216 5.49-6.631a1.207 1.207 0 011.69-.164z"
-        />
-      </svg>
-    </div>
-    <div
-      className="c5 c6"
-    >
-      Checkbox
-    </div>
-  </label>
-</div>
-`;
-
-exports[`Storyshots Dropdown Playground 1`] = `
-.c2 {
-  border-width: 1px;
-  border-style: solid;
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 500;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  cursor: pointer;
-  margin: 0;
-  white-space: nowrap;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-=======
           d="M9.293 12.293a1 1 0 011.414 0L16 17.586l5.293-5.293a1 1 0 011.414 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414z"
         />
       </svg>
@@ -2126,44 +1434,10 @@ exports[`Storyshots Dropdown Playground 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-<<<<<<< HEAD
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  padding: 11px 32px;
-  font-size: 12px;
-  min-width: 120px;
-  color: #FFFFFF;
-  background-color: #1778FB;
-  border-color: #1778FB;
-  border-radius: 4px;
-}
-
-.c2:disabled {
-  cursor: default;
-}
-
-.c2:hover {
-  background-color: #5FAEDA;
-  border-color: #5FAEDA;
-  color: #FFFFFF;
-}
-
-.c2:disabled {
-  background-color: #DCDFE6;
-  border-color: #DCDFE6;
-}
-
-.c5 {
-=======
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
@@ -2174,7 +1448,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
 }
 
 .c7 {
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2183,13 +1456,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-<<<<<<< HEAD
-  background-color: #FFFFFF;
-  color: #747D93;
-=======
   background-color: #EFF7FB;
   color: #1778FB;
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   font-size: 14px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
@@ -2199,18 +1467,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
   border-radius: 2px;
 }
 
-<<<<<<< HEAD
-.c5:last-child {
-  margin-bottom: 0;
-}
-
-.c5:hover {
-  background-color: #EFF2F7;
-  color: #747D93;
-}
-
-.c5 > .c6 {
-=======
 .c7:last-child {
   margin-bottom: 0;
 }
@@ -2221,7 +1477,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
 }
 
 .c7 > .c3 {
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2236,75 +1491,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-<<<<<<< HEAD
-  color: #747D93;
-  font-weight: 500;
-  padding: 8px 16px;
-  font-size: 12px;
-}
-
-.c4 {
-  background-color: #FFFFFF;
-  box-sizing: border-box;
-}
-
-.c0 {
-  position: relative;
-  display: inline-block;
-}
-
-.c1 {
-  cursor: pointer;
-}
-
-.c3 {
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  position: absolute;
-  min-width: 200px;
-  border: 1px solid #EFF2F7;
-  box-shadow: 0px 16px 32px rgba(54,60,75,0.1);
-  border-radius: 4px;
-  background: #FFFFFF;
-  padding: 8px;
-  left: 8px;
-}
-
-<div
-  style={
-    Object {
-      "padding": "2rem",
-    }
-  }
->
-  <div
-    className="c0"
-  >
-    <label
-      className="c1"
-      onClick={[Function]}
-    >
-      <button
-        className="c2"
-        disabled={false}
-        size="medium"
-      >
-        Label example
-      </button>
-    </label>
-    <div
-      className="c3"
-    >
-      <ul
-        className="c4"
-        size="medium"
-      >
-=======
   color: #1778FB;
   font-weight: 500;
   padding: 8px 16px;
@@ -4648,6 +3834,390 @@ exports[`Storyshots Button Block 1`] = `
 </div>
 `;
 
+exports[`Storyshots Button Loading 1`] = `
+.c2 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  color: white;
+  width: 16px;
+  height: 16px;
+}
+
+.c0 {
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  padding: 11px 32px;
+  font-size: 12px;
+  min-width: 120px;
+  color: #FFFFFF;
+  background-color: #1778FB;
+  border-color: #1778FB;
+  border-radius: 4px;
+}
+
+.c0:disabled {
+  cursor: default;
+}
+
+.c0:hover {
+  background-color: #5FAEDA;
+  border-color: #5FAEDA;
+  color: #FFFFFF;
+}
+
+.c0:disabled {
+  background-color: #DCDFE6;
+  border-color: #DCDFE6;
+}
+
+.c1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  position: absolute;
+  right: 45%;
+  bottom: 45%;
+}
+
+.c1 > svg {
+  -webkit-animation: rotation 2s linear infinite;
+  animation: rotation 2s linear infinite;
+  display: inline-block;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <button
+    className="c0"
+    disabled={true}
+    onClick={[Function]}
+    size="medium"
+  >
+    <span
+      className="c1"
+    >
+      <svg
+        className="c2"
+        data-name="IconLoader"
+        preserveAspectRatio="xMidYMid meet"
+        size="small"
+        theme={
+          Object {
+            "breakpoints": Array [
+              "544px",
+              "768px",
+              "1012px",
+              "1280px",
+            ],
+            "color": Object {
+              "charcoal200": "#F8F8F8",
+              "charcoal300": "#EFF2F7",
+              "charcoal400": "#DCDFE6",
+              "charcoal500": "#B6BBC6",
+              "charcoal600": "#747D93",
+              "charcoal700": "#363C4B",
+              "charcoal800": "#212632",
+              "emerald100": "#EEF8F6",
+              "emerald500": "#55BAA9",
+              "emerald600": "#299B9A",
+              "primary100": "#EFF7FB",
+              "primary300": "#5FAEDA",
+              "primary500": "#1778FB",
+              "primary700": "#0C1B7A",
+              "redclay100": "#FAEDEC",
+              "redclay500": "#CD4C41",
+              "white": "#FFFFFF",
+            },
+            "components": Object {
+              "accordionBorder": "1px solid #EFF2F7",
+              "accordionColor": "#747D93",
+              "accordionHeaderFontSize": "12px",
+              "accordionHeaderFontWeight": 500,
+              "accordionMinHeight": "65px",
+              "accordionPadding": "16px 24px",
+              "accordionSubHeaderColor": "#DCDFE6",
+              "accordionSubHeaderFontSize": "10px",
+              "accordionSubHeaderFontWeight": 700,
+              "avatarBackgroundColor": "#363C4B",
+              "avatarBorderRadius": "50%",
+              "avatarColor": "#FFFFFF",
+              "avatarFontSizeLarge": "24px",
+              "avatarFontSizeMedium": "14px",
+              "avatarFontSizeSmall": "12px",
+              "avatarSizeLarge": "48px",
+              "avatarSizeMedium": "32px",
+              "avatarSizeSmall": "24px",
+              "buttonFontSizeLarge": "14px",
+              "buttonFontSizeMedium": "12px",
+              "buttonMinWidthLarge": "140px",
+              "buttonMinWidthMedium": "120px",
+              "buttonPaddingLarge": "19px 32px",
+              "buttonPaddingMedium": "11px 32px",
+              "buttonPrimaryBackgroundColor": "#1778FB",
+              "buttonPrimaryBorderColor": "#1778FB",
+              "buttonPrimaryBorderRadius": "4px",
+              "buttonPrimaryColor": "#FFFFFF",
+              "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
+              "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+              "buttonPrimaryHoverBorderColor": "#5FAEDA",
+              "buttonPrimaryHoverColor": "#FFFFFF",
+              "buttonSecondaryBackgroundColor": "#FFFFFF",
+              "buttonSecondaryBorderColor": "#212632",
+              "buttonSecondaryBorderRadius": "4px",
+              "buttonSecondaryColor": "#212632",
+              "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+              "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+              "buttonSecondaryHoverBackgroundColor": "#212632",
+              "buttonSecondaryHoverBorderColor": "#5FAEDA",
+              "buttonSecondaryHoverColor": "#FFFFFF",
+              "checkboxBackground": "#FFFFFF",
+              "checkboxBackgroundChecked": "#1778FB",
+              "checkboxBackgroundDisabled": "#DCDFE6",
+              "checkboxBorderColor": "#DCDFE6",
+              "checkboxBorderRadius": "2px",
+              "checkboxBorderWidth": "2px",
+              "checkboxIconColor": "#FFFFFF",
+              "checkboxLabelColor": "#212632",
+              "checkboxLabelDisabled": "#DCDFE6",
+              "checkboxLabelFontSize": "14px",
+              "checkboxLabelMargin": "16px",
+              "checkboxSizeMedium": "24px",
+              "checkboxSizeSmall": "16px",
+              "dropdownBackground": "#FFFFFF",
+              "dropdownBorderColor": "#EFF2F7",
+              "dropdownBorderRadius": "4px",
+              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+              "dropdownPadding": "8px",
+              "formGroupMarginBottom": "16px",
+              "iconPrimaryColor": "#1778FB",
+              "iconSecondaryColor": "#747D93",
+              "iconSizeLarge": "32px",
+              "iconSizeMedium": "24px",
+              "iconSizeSmall": "16px",
+              "inputFieldBackgroundColor": "#FFFFFF",
+              "inputFieldBorderColor": "#DCDFE6",
+              "inputFieldBorderRadius": "4px",
+              "inputFieldDisabledBackgroundColor": "#F8F8F8",
+              "inputFieldDisabledBorderColor": "#DCDFE6",
+              "inputFieldDisabledColor": "#DCDFE6",
+              "inputFieldDisabledLabelColor": "#DCDFE6",
+              "inputFieldErrorBackgroundColor": "#FAEDEC",
+              "inputFieldErrorBorderColor": "#CD4C41",
+              "inputFieldErrorHelpColor": "#CD4C41",
+              "inputFieldErrorPlaceholderColor": "#CD4C41",
+              "inputFieldFocusBackgroundColor": "#EFF7FB",
+              "inputFieldFocusBorderColor": "#5FAEDA",
+              "inputFieldFocusLabelColor": "#5FAEDA",
+              "inputFieldFontSize": "14px",
+              "inputFieldHelpColor": "#212632",
+              "inputFieldHelpFontSize": "12px",
+              "inputFieldLabelColor": "#363C4B",
+              "inputFieldLabelFontSize": "12px",
+              "inputFieldLineHeight": "48px",
+              "inputFieldPlaceholderColor": "#DCDFE6",
+              "inputFieldTextIndent": "24px",
+              "listBackgroundColor": "#FFFFFF",
+              "listItemBorderRadius": "2px",
+              "listItemColorActive": "#1778FB",
+              "listItemColorActiveHover": "#EFF7FB",
+              "listItemColorDefault": "#747D93",
+              "listItemColorDefaultHover": "#EFF2F7",
+              "listItemColorDisabled": "#DCDFE6",
+              "listItemFontSizeLarge": "14px",
+              "listItemFontSizeMedium": "12px",
+              "listItemFontWeight": 500,
+              "listItemMargin": "0 0 4px",
+              "listItemPaddingLarge": "8px 16px",
+              "listItemPaddingMedium": "8px 16px",
+              "listItemSeparatorColor": "#EFF2F7",
+              "listPadding": "8px",
+              "navigationBorder": "1px solid #EFF2F7",
+              "navigationContentMargin": "0 42px 0 0",
+              "navigationHeaderPadding": "0 17px",
+              "navigationLinkFontSize": "12px",
+              "navigationLinkMargin": "0 24px 0 0",
+              "navigationMenuBackgroundColor": "#EFF2F7",
+              "navigationMenuHoverBackgroundColor": "#DCDFE6",
+              "navigationMenuOpenBackgroundColor": "#EFF7FB",
+              "navigationMenuPadding": "20px 16px",
+              "navigationMinHeight": "73px",
+              "notificationBorderRadius": "8px",
+              "notificationCloseButtonColor": "#212632",
+              "notificationErrorBackgroundColor": "#FAEDEC",
+              "notificationErrorColor": "#CD4C41",
+              "notificationNormalBackgroundColor": "#EFF7FB",
+              "notificationNormalColor": "#212632",
+              "notificationPadding": "16px",
+              "notificationSuccessBackgroundColor": "#EEF8F6",
+              "notificationSuccessColor": "#299B9A",
+              "textLinkDisabledColor": "#DCDFE6",
+              "textLinkFontSizeLarge": "14px",
+              "textLinkFontSizeMedium": "12px",
+              "textLinkPrimaryColor": "#1778FB",
+              "textLinkPrimaryHoverColor": "#5FAEDA",
+              "textLinkSecondaryColor": "#747D93",
+              "textLinkSecondaryHoverColor": "#5FAEDA",
+            },
+            "fonts": Array [
+              Object {
+                "name": "Roboto-Regular",
+                "style": "normal",
+                "weight": "normal",
+              },
+              Object {
+                "name": "Roboto Medium",
+                "style": "normal",
+                "weight": 500,
+              },
+              Object {
+                "name": "Roboto Bold",
+                "style": "normal",
+                "weight": 700,
+              },
+            ],
+            "global": Object {
+              "bgColor": "white",
+              "fontColor": "#333",
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeightBold": 700,
+              "fontWeightMedium": 500,
+              "fontWeightRegular": 400,
+              "transition": "all 250ms ease-in-out",
+            },
+            "headings": Array [
+              Object {
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontWeight": 500,
+                "size": "3.4rem",
+              },
+              Object {
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontWeight": 500,
+                "size": "2.5rem",
+              },
+              Object {
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontWeight": 500,
+                "size": "1.7rem",
+              },
+              Object {
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontWeight": 500,
+                "size": "1.1rem",
+              },
+              Object {
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontWeight": 500,
+                "size": "0.8rem",
+              },
+            ],
+            "shapes": Object {
+              "borderRadiusFull": "50%",
+              "borderRadiusLarge": "8px",
+              "borderRadiusMedium": "4px",
+              "borderRadiusSmall": "2px",
+              "borderWidthMedium": "2px",
+              "borderWidthSmall": "1px",
+            },
+            "spacings": Object {
+              "large1": "80px",
+              "large2": "96px",
+              "large3": "128px",
+              "large4": "200px",
+              "medium1": "32px",
+              "medium2": "40px",
+              "medium3": "48px",
+              "medium4": "56px",
+              "medium5": "64px",
+              "small1": "4px",
+              "small2": "8px",
+              "small3": "16px",
+              "small4": "24px",
+            },
+            "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p2": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p2b": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p3b": Object {
+                "color": "#212632",
+                "fontSize": "10px",
+                "fontWeight": 700,
+                "lineHeight": "1.5",
+              },
+            },
+          }
+        }
+        viewBox="0 0 32 32"
+      >
+        <path
+          clipRule="evenodd"
+          d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </span>
+    Loading
+  </button>
+</div>
+`;
+
 exports[`Storyshots Button Normal 1`] = `
 .c0 {
   border-width: 1px;
@@ -6118,7 +5688,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
         className="c4"
         size="medium"
       >
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
         <li
           className="c5"
           size="medium"
@@ -6176,59 +5745,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   height: 24px;
 }
 
-<<<<<<< HEAD
-.c2 {
-  border-width: 1px;
-  border-style: solid;
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 500;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  cursor: pointer;
-  margin: 0;
-  white-space: nowrap;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  padding: 11px 32px;
-  font-size: 12px;
-  min-width: 120px;
-  color: #FFFFFF;
-  background-color: #1778FB;
-  border-color: #1778FB;
-  border-radius: 4px;
-}
-
-.c2:disabled {
-  cursor: default;
-}
-
-.c2:hover {
-  background-color: #5FAEDA;
-  border-color: #5FAEDA;
-  color: #FFFFFF;
-}
-
-.c2:disabled {
-  background-color: #DCDFE6;
-  border-color: #DCDFE6;
-}
-
-=======
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
 .c7 {
   margin-right: 19px;
   color: #747D93;
@@ -6247,8 +5763,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   fill: #1778FB;
 }
 
-<<<<<<< HEAD
-=======
 .c13 {
   margin-left: auto;
   color: #1778FB;
@@ -6258,7 +5772,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   fill: #1778FB;
 }
 
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
 .c10 {
   margin-left: auto;
   color: #747D93;
@@ -6273,18 +5786,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   color: #DCDFE6;
 }
 
-<<<<<<< HEAD
-.c13 {
-  margin-left: auto;
-  color: #1778FB;
-}
-
-.c13 > svg {
-  fill: #1778FB;
-}
-
-=======
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
 .c5 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6335,11 +5836,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   font-size: 12px;
 }
 
-<<<<<<< HEAD
-.c9 {
-=======
 .c11 {
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6348,34 +5845,14 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-<<<<<<< HEAD
-  background-color: #FFFFFF;
-  color: #747D93;
-=======
   background-color: #EFF7FB;
   color: #1778FB;
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   font-size: 14px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
-<<<<<<< HEAD
-  color: #DCDFE6;
-  border-radius: 2px;
-}
-
-.c9:last-child {
-  margin-bottom: 0;
-}
-
-.c9:hover {
-  color: #747D93;
-}
-
-.c9 > .c6 {
-=======
   border-radius: 2px;
 }
 
@@ -6389,7 +5866,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 }
 
 .c11 > .c6 {
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6404,17 +5880,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-<<<<<<< HEAD
-  color: #747D93;
-  font-weight: 500;
-  padding: 8px 16px;
-  font-size: 12px;
-  color: #DCDFE6;
-  pointer-events: none;
-}
-
-.c11 {
-=======
   color: #1778FB;
   font-weight: 500;
   padding: 8px 16px;
@@ -6422,7 +5887,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 }
 
 .c9 {
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6431,34 +5895,14 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-<<<<<<< HEAD
-  background-color: #EFF7FB;
-  color: #1778FB;
-=======
   background-color: #FFFFFF;
   color: #747D93;
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   font-size: 14px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 500;
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
-<<<<<<< HEAD
-  border-radius: 2px;
-}
-
-.c11:last-child {
-  margin-bottom: 0;
-}
-
-.c11:hover {
-  background-color: #EFF7FB;
-  color: #1778FB;
-}
-
-.c11 > .c6 {
-=======
   color: #DCDFE6;
   border-radius: 2px;
 }
@@ -6472,7 +5916,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 }
 
 .c9 > .c6 {
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6487,19 +5930,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-<<<<<<< HEAD
-  color: #1778FB;
-  font-weight: 500;
-  padding: 8px 16px;
-  font-size: 12px;
-=======
   color: #747D93;
   font-weight: 500;
   padding: 8px 16px;
   font-size: 12px;
   color: #DCDFE6;
   pointer-events: none;
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
 }
 
 .c4 {
@@ -6507,8 +5943,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-=======
 .c2 {
   border-width: 1px;
   border-style: solid;
@@ -6559,7 +5993,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   border-color: #DCDFE6;
 }
 
->>>>>>> eaa03472acee15be66cad5022f8faec366ae54e7
 .c0 {
   position: relative;
   display: inline-block;
