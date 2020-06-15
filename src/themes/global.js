@@ -6,11 +6,9 @@ const GlobalStyle = createGlobalStyle`
 
   ${reset}
 
-  ${({ theme }) => fontFaceGenerator(theme.fonts)}
-
-  html{
-    font-family: ${({ theme }) => theme.global.fontFamilyRegular};
-    font-size: ${({ theme }) => theme.global.fontSize};
+  html {
+    font-family: ${({ theme }) => theme.global.fontFamily};
+    ${({ theme }) => theme.texts.p1}
   }
 
   body {
@@ -23,12 +21,32 @@ const GlobalStyle = createGlobalStyle`
 
   ${({ theme }) => headingsGenerator(theme.headings)}
 
-  strong {
-    font-family: ${({ theme }) => theme.global.fontFamilyBold};
-    font-weight: 500;
+  p{
+    ${({ theme }) => theme.texts.p1};
   }
 
-  button{
+  .p1b{
+    ${({ theme }) => theme.texts.p1b};
+  }
+
+  .p2{
+    ${({ theme }) => theme.texts.p2};
+  }
+
+  .p2b{
+    ${({ theme }) => theme.texts.p2b};
+  }
+
+  .p3b{
+    ${({ theme }) => theme.texts.p3b};
+  }
+
+  strong {
+    font-family: ${({ theme }) => theme.global.fontFamily};
+    ${({ theme }) => theme.texts.p1b}
+  }
+
+  button {
     -webkit-appearance: none;
     background-color: transparent;
     border: none;
@@ -37,61 +55,51 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
   
-  a{
-    font-family: ${({ theme }) => theme.global.fontFamilyBold};
+  a {
+    font-family: ${({ theme }) => theme.global.fontFamily};
+    font-weight: ${({ theme }) => theme.global.fontWeightBold};
     text-decoration: none;
     font-style: normal;
-    font-weight: 500;
     transition: color 300ms ease-in-out;
     white-space: nowrap;
+    color: ${({ theme }) => theme.color.primary500};
 
-    &.primary{
+    &.primary {
       color: ${({ theme }) => theme.color.primary500};
-      &:visited{
+      &:visited {
         color: ${({ theme }) => theme.color.primary500};
       }
     }
 
-    &.disabled{
+    &.disabled {
       color: ${({ theme }) => theme.color.charcoal400};
-      &:visited{
+      &:visited {
         color: ${({ theme }) => theme.color.charcoal400};
       }
     }
 
-    &.secondary{
+    &.secondary {
       color: ${({ theme }) => theme.color.charcoal600};
-      &:visited{
+      &:visited {
         color: ${({ theme }) => theme.color.charcoal600};
       }
     }
 
-    &.large{
+    &.large {
       font-size: 14px;
     }
 
     &:hover,
-    .active{
+    .active {
       color: ${({ theme }) => theme.color.primary300};
     }
   }
 `;
 
-const fontFaceGenerator = config =>
-  config.map(
-    ({ name, src, weight, style }) =>
-      `@font-face {
-      font-family: '${name}';
-      src: local('${name}'), local('${name}'),
-      url(${src}) format('truetype');
-      font-weight: ${weight};
-      font-style: ${style};
-    }`
-  );
-
 const headingsGenerator = config =>
   config.map(
-    ({ size, fontFamily }, i) => `h${i + 1}{font-size: ${size}; font-family: ${fontFamily}}`
+    ({ size, fontFamily, fontWeight }, i) =>
+      `h${i + 1}{font-size: ${size}; font-family: ${fontFamily}; font-weight: ${fontWeight};}`
   );
 
 GlobalStyle.defaultProps = {

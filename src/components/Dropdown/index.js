@@ -1,11 +1,16 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
 import defaultTheme from '../../themes/defaultTheme';
 
 const StyledDropdown = styled.div`
   position: relative;
+  display: inline-block;
 `;
+
+StyledDropdown.defaultProps = {
+  theme: defaultTheme
+};
 
 const StyledLabel = styled.label`
   cursor: pointer;
@@ -14,17 +19,23 @@ const StyledLabel = styled.label`
 const ChildrenContainer = styled.div`
   opacity: ${props => (props.isOpen ? '1' : '0')};
   visibility: ${props => (props.isOpen ? 'visible' : 'hidden')};
-  transform: translate(${props => (props.isOpen ? '0, 10px' : '0, 0')});
+  transform: translateY(${props => (props.isOpen ? '10px' : '0')});
   transition: ${props => props.theme.global.transition};
-  position: fixed;
+  position: absolute;
   min-width: 200px;
+  border: 1px solid ${props => props.theme.components.dropdownBorderColor};
+  box-shadow: ${props => props.theme.components.dropdownBoxShadow};
+  border-radius: ${props => props.theme.components.dropdownBorderRadius};
+  background: ${props => props.theme.components.dropdownBackground};
+  padding: ${props => props.theme.components.dropdownPadding};
+  ${props => `${props.position}: 8px`}
 `;
 
 ChildrenContainer.defaultProps = {
   theme: defaultTheme
 };
 
-const Dropdown = ({ children, label, autoClose, ...other }) => {
+const Dropdown = ({ children, label, autoClose, position, onChange = () => {}, ...other }) => {
   const [isOpen, setOpen] = useState(false);
 
   const ref = useRef();
@@ -34,10 +45,16 @@ const Dropdown = ({ children, label, autoClose, ...other }) => {
     setOpen(false);
   });
 
+  useEffect(() => {
+    onChange(isOpen);
+  }, [onChange, isOpen]);
+
   return (
     <StyledDropdown {...other} ref={ref}>
       <StyledLabel onClick={() => setOpen(!isOpen)}>{label}</StyledLabel>
-      <ChildrenContainer isOpen={isOpen}>{children}</ChildrenContainer>
+      <ChildrenContainer isOpen={isOpen} position={position}>
+        {children}
+      </ChildrenContainer>
     </StyledDropdown>
   );
 };
@@ -45,7 +62,8 @@ const Dropdown = ({ children, label, autoClose, ...other }) => {
 Dropdown.displayName = 'Dropdown';
 
 Dropdown.defaultProps = {
-  autoClose: true
+  autoClose: true,
+  position: 'left'
 };
 
 export default Dropdown;

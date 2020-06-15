@@ -59,3 +59,16 @@ export const WithIcon = () => {
     </div>
   );
 };
+
+export const Loading = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+  return (
+    <div style={containerStyle}>
+      <Button {...getCommonProps()} onClick={action('clicked')} loading loadingText="Loading">
+        {getCommonProps().text}
+      </Button>
+    </div>
+  );
+};

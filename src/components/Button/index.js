@@ -3,6 +3,34 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import DefaultTheme from '../../themes/defaultTheme';
+import IconLoader from '../../icons/Loader';
+
+const Loader = () => {
+  const StyledLoader = styled.span`
+    > svg {
+      animation: rotation 2s linear infinite;
+      display: inline-block;
+      transform-origin: center;
+      width: 15px;
+      height: 15px;
+      margin-right: 8px;
+    }
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  `;
+
+  return (
+    <StyledLoader>
+      <IconLoader customColor="white" size="small" />
+    </StyledLoader>
+  );
+};
 
 const componentSizes = theme => ({
   medium: {
@@ -52,9 +80,9 @@ const componentVariants = theme => ({
 
 const StyledButton = styled.button`
   border-width: 1px;
-  font-weight: 500;
   border-style: solid;
-  font-family: ${({ theme }) => theme.global.fontFamilyBold};
+  font-family: ${props => props.theme.global.fontFamily};
+  font-weight: ${props => props.theme.global.fontWeightMedium};
   outline: none;
   appearance: none;
   cursor: pointer;
@@ -64,6 +92,33 @@ const StyledButton = styled.button`
   align-items: center;
   justify-content: center;
   transition: ${props => props.theme.global.transition};
+  position: relative;
+
+  &:after{
+    content: "";
+    background: rgba(255,255,255,0.3);
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 1;
+  }
+
+  &:active:after {
+    height: 1px;
+    width: 1px;
+    opacity: 1;
+    transition: 0s;
+  }
+
 
   &:disabled {
     cursor: default;
@@ -93,6 +148,8 @@ const Button = React.forwardRef((props, ref) => {
     iconRight,
     size,
     tabIndex,
+    loading,
+    loadingText,
     variant,
     ...other
   } = props;
@@ -101,20 +158,21 @@ const Button = React.forwardRef((props, ref) => {
     <StyledButton
       block={block}
       className={className}
-      disabled={disabled}
+      disabled={loading || disabled}
       ref={ref}
       size={size}
       tabIndex={tabIndex}
       variant={variant}
       {...other}
     >
-      {iconLeft && (
+      {iconLeft && !loading && (
         <IconWrapper direction="left" size={size}>
           {iconLeft}
         </IconWrapper>
       )}
-      {children}
-      {iconRight && (
+      {loading && <Loader />}
+      {(loading && loadingText) || children}
+      {iconRight && !loading && (
         <IconWrapper direction="right" size={size}>
           {iconRight}
         </IconWrapper>

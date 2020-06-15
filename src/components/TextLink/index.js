@@ -39,8 +39,8 @@ const componentDisabled = theme => ({
 const StyledTextLink = styled.a`
   cursor: ${props => (props.disabled ? 'default' : 'pointer')};
   display: inline-block;
-  font-family: ${({ theme }) => theme.global.fontFamilyBold};
-  font-weight: 500;
+  font-family: ${props => props.theme.global.fontFamily};
+  font-weight: ${props => props.theme.global.fontWeightMedium};
   margin: 0;
   outline: none;
   text-decoration: none;
@@ -50,6 +50,10 @@ const StyledTextLink = styled.a`
   ${props => componentVariants(props.theme)[props.variant]}
   ${props => props.disabled && componentDisabled(props.theme)}
 `;
+
+StyledTextLink.defaultProps = {
+  theme: DefaultTheme
+};
 
 const TextLink = React.forwardRef((props, ref) => {
   const {
@@ -97,10 +101,6 @@ TextLink.defaultProps = {
   href: '#',
   size: 'medium',
   variant: 'primary'
-};
-
-StyledTextLink.defaultProps = {
-  theme: DefaultTheme
 };
 
 TextLink.displayName = 'TextLink';
