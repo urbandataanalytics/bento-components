@@ -5,7 +5,7 @@ import DefaultTheme from '../../../themes/defaultTheme';
 import IconLoader from '../../../icons/Loader';
 
 const StyledText = styled.span`
-  margin-left: 10px;
+  margin-left: 5px;
 `;
 
 const StyledLoader = styled.span`

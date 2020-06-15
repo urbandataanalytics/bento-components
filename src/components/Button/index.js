@@ -25,12 +25,10 @@ const componentVariants = theme => ({
     borderRadius: theme.components.buttonPrimaryBorderRadius,
     '&:hover': {
       backgroundColor: theme.components.buttonPrimaryHoverBackgroundColor,
-      borderColor: theme.components.buttonPrimaryHoverBorderColor,
       color: theme.components.buttonPrimaryHoverColor
     },
     '&:disabled': {
-      backgroundColor: theme.components.buttonPrimaryDisabledBackgroundColor,
-      borderColor: theme.components.buttonPrimaryDisabledBorderColor
+      backgroundColor: theme.components.buttonPrimaryDisabledBackgroundColor
     }
   },
   secondary: {
