@@ -210,7 +210,7 @@ const components = {
 
   /* Avatar Theme Props */
   avatarBorderRadius: shapes.borderRadiusFull,
-  avatarBackgroundColor: color.primary500,
+  avatarBackgroundColor: color.charcoal700,
   avatarColor: color.white,
   avatarSizeSmall: spacings.small4,
   avatarSizeMedium: spacings.medium1,
@@ -221,7 +221,7 @@ const components = {
 
   /* Navigation Theme Props */
   navigationBorder: `1px solid ${color.charcoal300}`,
-  navigationMenuPadding: `20px ${spacings.small4}`,
+  navigationMenuPadding: `20px ${spacings.small3}`,
   navigationMenuBackgroundColor: color.charcoal300,
   navigationMenuOpenBackgroundColor: color.primary100,
   navigationMenuHoverBackgroundColor: color.charcoal400,

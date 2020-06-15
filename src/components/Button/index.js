@@ -3,6 +3,46 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import DefaultTheme from '../../themes/defaultTheme';
+import IconLoader from '../../icons/Loader/index';
+
+const Loader = () => {
+  const StyledLoader = styled.span`
+    &::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      transition: all 300ms ease-in-out;
+      background-color: #fabada;
+      position: absolute;
+      right: 45%;
+      bottom: 45%;
+    }
+
+    > svg {
+      animation: rotation 2s linear infinite;
+      display: inline-block;
+      transform-origin: center;
+      width: 15px;
+      height: 15px;
+      margin-right: 8px;
+    }
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  `;
+
+  return (
+    <StyledLoader>
+      <IconLoader customColor="white" size="small" />
+    </StyledLoader>
+  );
+};
 
 const componentSizes = theme => ({
   medium: {
@@ -113,6 +153,9 @@ const Button = React.forwardRef((props, ref) => {
           {iconLeft}
         </IconWrapper>
       )}
+
+      <Loader />
+
       {children}
       {iconRight && (
         <IconWrapper direction="right" size={size}>

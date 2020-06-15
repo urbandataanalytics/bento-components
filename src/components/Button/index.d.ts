@@ -3,6 +3,7 @@ export interface ButtonProps {
   children?: React.ReactNode;
   className?: string;
   disabled?: boolean;
+  loading?: boolean;
   iconLeft?: React.ReactNode;
   onClick?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
   size: 'medium' | 'large';
