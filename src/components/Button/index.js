@@ -13,7 +13,6 @@ const Loader = () => {
       width: 100%;
       height: 100%;
       transition: all 300ms ease-in-out;
-      background-color: #fabada;
       position: absolute;
       right: 45%;
       bottom: 45%;
@@ -133,6 +132,8 @@ const Button = React.forwardRef((props, ref) => {
     iconRight,
     size,
     tabIndex,
+    loading,
+    loadingText,
     variant,
     ...other
   } = props;
@@ -141,23 +142,23 @@ const Button = React.forwardRef((props, ref) => {
     <StyledButton
       block={block}
       className={className}
-      disabled={disabled}
+      disabled={loading || disabled}
       ref={ref}
       size={size}
       tabIndex={tabIndex}
       variant={variant}
       {...other}
     >
-      {iconLeft && (
+      {iconLeft && !loading && (
         <IconWrapper direction="left" size={size}>
           {iconLeft}
         </IconWrapper>
       )}
 
-      <Loader />
+      {loading && <Loader />}
 
-      {children}
-      {iconRight && (
+      {(loading && loadingText) || children}
+      {iconRight && !loading && (
         <IconWrapper direction="right" size={size}>
           {iconRight}
         </IconWrapper>

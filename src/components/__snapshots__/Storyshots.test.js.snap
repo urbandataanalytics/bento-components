@@ -84,17 +84,6 @@ exports[`Storyshots Avatar With Initials 1`] = `
 `;
 
 exports[`Storyshots Button Block 1`] = `
-.c2 {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  vertical-align: middle;
-  fill: currentColor;
-  color: white;
-  width: 16px;
-  height: 16px;
-}
-
 .c0 {
   border-width: 1px;
   border-style: solid;
@@ -146,31 +135,6 @@ exports[`Storyshots Button Block 1`] = `
   border-color: #DCDFE6;
 }
 
-.c1::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-  background-color: #fabada;
-  position: absolute;
-  right: 45%;
-  bottom: 45%;
-}
-
-.c1 > svg {
-  -webkit-animation: rotation 2s linear infinite;
-  animation: rotation 2s linear infinite;
-  display: inline-block;
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  width: 15px;
-  height: 15px;
-  margin-right: 8px;
-}
-
 <div
   style={
     Object {
@@ -184,283 +148,12 @@ exports[`Storyshots Button Block 1`] = `
     onClick={[Function]}
     size="medium"
   >
-    <span
-      className="c1"
-    >
-      <svg
-        className="c2"
-        data-name="IconLoader"
-        preserveAspectRatio="xMidYMid meet"
-        size="small"
-        theme={
-          Object {
-            "breakpoints": Array [
-              "544px",
-              "768px",
-              "1012px",
-              "1280px",
-            ],
-            "color": Object {
-              "charcoal200": "#F8F8F8",
-              "charcoal300": "#EFF2F7",
-              "charcoal400": "#DCDFE6",
-              "charcoal500": "#B6BBC6",
-              "charcoal600": "#747D93",
-              "charcoal700": "#363C4B",
-              "charcoal800": "#212632",
-              "emerald100": "#EEF8F6",
-              "emerald500": "#55BAA9",
-              "emerald600": "#299B9A",
-              "primary100": "#EFF7FB",
-              "primary300": "#5FAEDA",
-              "primary500": "#1778FB",
-              "primary700": "#0C1B7A",
-              "redclay100": "#FAEDEC",
-              "redclay500": "#CD4C41",
-              "white": "#FFFFFF",
-            },
-            "components": Object {
-              "avatarBackgroundColor": "#363C4B",
-              "avatarBorderRadius": "50%",
-              "avatarColor": "#FFFFFF",
-              "avatarFontSizeLarge": "24px",
-              "avatarFontSizeMedium": "14px",
-              "avatarFontSizeSmall": "12px",
-              "avatarSizeLarge": "48px",
-              "avatarSizeMedium": "32px",
-              "avatarSizeSmall": "24px",
-              "buttonFontSizeLarge": "14px",
-              "buttonFontSizeMedium": "12px",
-              "buttonMinWidthLarge": "140px",
-              "buttonMinWidthMedium": "120px",
-              "buttonPaddingLarge": "19px 32px",
-              "buttonPaddingMedium": "11px 32px",
-              "buttonPrimaryBackgroundColor": "#1778FB",
-              "buttonPrimaryBorderColor": "#1778FB",
-              "buttonPrimaryBorderRadius": "4px",
-              "buttonPrimaryColor": "#FFFFFF",
-              "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
-              "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
-              "buttonPrimaryHoverBorderColor": "#5FAEDA",
-              "buttonPrimaryHoverColor": "#FFFFFF",
-              "buttonSecondaryBackgroundColor": "#FFFFFF",
-              "buttonSecondaryBorderColor": "#212632",
-              "buttonSecondaryBorderRadius": "4px",
-              "buttonSecondaryColor": "#212632",
-              "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-              "buttonSecondaryDisabledBorderColor": "#DCDFE6",
-              "buttonSecondaryHoverBackgroundColor": "#212632",
-              "buttonSecondaryHoverBorderColor": "#5FAEDA",
-              "buttonSecondaryHoverColor": "#FFFFFF",
-              "checkboxBackground": "#FFFFFF",
-              "checkboxBackgroundChecked": "#1778FB",
-              "checkboxBackgroundDisabled": "#DCDFE6",
-              "checkboxBorderColor": "#DCDFE6",
-              "checkboxBorderRadius": "2px",
-              "checkboxBorderWidth": "2px",
-              "checkboxIconColor": "#FFFFFF",
-              "checkboxLabelColor": "#212632",
-              "checkboxLabelDisabled": "#DCDFE6",
-              "checkboxLabelFontSize": "14px",
-              "checkboxLabelMargin": "16px",
-              "checkboxSizeMedium": "24px",
-              "checkboxSizeSmall": "16px",
-              "dropdownBackground": "#FFFFFF",
-              "dropdownBorderColor": "#EFF2F7",
-              "dropdownBorderRadius": "4px",
-              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
-              "dropdownPadding": "8px",
-              "formGroupMarginBottom": "16px",
-              "iconPrimaryColor": "#1778FB",
-              "iconSecondaryColor": "#747D93",
-              "iconSizeLarge": "32px",
-              "iconSizeMedium": "24px",
-              "iconSizeSmall": "16px",
-              "inputFieldBackgroundColor": "#FFFFFF",
-              "inputFieldBorderColor": "#DCDFE6",
-              "inputFieldBorderRadius": "4px",
-              "inputFieldDisabledBackgroundColor": "#F8F8F8",
-              "inputFieldDisabledBorderColor": "#DCDFE6",
-              "inputFieldDisabledColor": "#DCDFE6",
-              "inputFieldDisabledLabelColor": "#DCDFE6",
-              "inputFieldErrorBackgroundColor": "#FAEDEC",
-              "inputFieldErrorBorderColor": "#CD4C41",
-              "inputFieldErrorHelpColor": "#CD4C41",
-              "inputFieldErrorPlaceholderColor": "#CD4C41",
-              "inputFieldFocusBackgroundColor": "#EFF7FB",
-              "inputFieldFocusBorderColor": "#5FAEDA",
-              "inputFieldFocusLabelColor": "#5FAEDA",
-              "inputFieldFontSize": "14px",
-              "inputFieldHelpColor": "#212632",
-              "inputFieldHelpFontSize": "12px",
-              "inputFieldLabelColor": "#363C4B",
-              "inputFieldLabelFontSize": "12px",
-              "inputFieldLineHeight": "48px",
-              "inputFieldPlaceholderColor": "#DCDFE6",
-              "inputFieldTextIndent": "24px",
-              "listBackgroundColor": "#FFFFFF",
-              "listItemBorderRadius": "2px",
-              "listItemColorActive": "#1778FB",
-              "listItemColorActiveHover": "#EFF7FB",
-              "listItemColorDefault": "#747D93",
-              "listItemColorDefaultHover": "#EFF2F7",
-              "listItemColorDisabled": "#DCDFE6",
-              "listItemFontSizeLarge": "14px",
-              "listItemFontSizeMedium": "12px",
-              "listItemFontWeight": 500,
-              "listItemMargin": "0 0 4px",
-              "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "8px 16px",
-              "listItemSeparatorColor": "#EFF2F7",
-              "listPadding": "8px",
-              "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
-              "navigationHeaderPadding": "0 17px",
-              "navigationLinkFontSize": "12px",
-              "navigationLinkMargin": "0 24px 0 0",
-              "navigationMenuBackgroundColor": "#EFF2F7",
-              "navigationMenuHoverBackgroundColor": "#DCDFE6",
-              "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 16px",
-              "navigationMinHeight": "73px",
-              "notificationBorderRadius": "8px",
-              "notificationCloseButtonColor": "#212632",
-              "notificationErrorBackgroundColor": "#FAEDEC",
-              "notificationErrorColor": "#CD4C41",
-              "notificationNormalBackgroundColor": "#EFF7FB",
-              "notificationNormalColor": "#212632",
-              "notificationPadding": "16px",
-              "notificationSuccessBackgroundColor": "#EEF8F6",
-              "notificationSuccessColor": "#299B9A",
-              "textLinkDisabledColor": "#DCDFE6",
-              "textLinkFontSizeLarge": "14px",
-              "textLinkFontSizeMedium": "12px",
-              "textLinkPrimaryColor": "#1778FB",
-              "textLinkPrimaryHoverColor": "#5FAEDA",
-              "textLinkSecondaryColor": "#747D93",
-              "textLinkSecondaryHoverColor": "#5FAEDA",
-            },
-            "fonts": Array [
-              Object {
-                "name": "Roboto-Regular",
-                "style": "normal",
-                "weight": "normal",
-              },
-              Object {
-                "name": "Roboto Medium",
-                "style": "normal",
-                "weight": 500,
-              },
-              Object {
-                "name": "Roboto Bold",
-                "style": "normal",
-                "weight": 700,
-              },
-            ],
-            "global": Object {
-              "bgColor": "white",
-              "fontColor": "#333",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-              "fontSize": "14px",
-              "fontWeightBold": 700,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
-            },
-            "headings": Array [
-              Object {
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontWeight": 500,
-                "size": "3.4rem",
-              },
-              Object {
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontWeight": 500,
-                "size": "2.5rem",
-              },
-              Object {
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontWeight": 500,
-                "size": "1.7rem",
-              },
-              Object {
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontWeight": 500,
-                "size": "1.1rem",
-              },
-              Object {
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontWeight": 500,
-                "size": "0.8rem",
-              },
-            ],
-            "shapes": Object {
-              "borderRadiusFull": "50%",
-              "borderRadiusLarge": "8px",
-              "borderRadiusMedium": "4px",
-              "borderRadiusSmall": "2px",
-              "borderWidthMedium": "2px",
-              "borderWidthSmall": "1px",
-            },
-            "spacings": Object {
-              "large1": "80px",
-              "large2": "96px",
-              "large3": "128px",
-              "large4": "200px",
-              "medium1": "32px",
-              "medium2": "40px",
-              "medium3": "48px",
-              "medium4": "56px",
-              "medium5": "64px",
-              "small1": "4px",
-              "small2": "8px",
-              "small3": "16px",
-              "small4": "24px",
-            },
-            "texts": Object {
-              "p1b": Object {
-                "color": "#212632",
-                "fontSize": "14px",
-                "fontWeight": 500,
-                "lineHeight": "1.5",
-              },
-              "p2": Object {
-                "color": "#212632",
-                "fontSize": "12px",
-                "fontWeight": 400,
-                "lineHeight": "1.5",
-              },
-              "p2b": Object {
-                "color": "#212632",
-                "fontSize": "12px",
-                "fontWeight": 500,
-                "lineHeight": "1.5",
-              },
-              "p3b": Object {
-                "color": "#212632",
-                "fontSize": "10px",
-                "fontWeight": 700,
-                "lineHeight": "1.5",
-              },
-            },
-          }
-        }
-        viewBox="0 0 32 32"
-      >
-        <path
-          clipRule="evenodd"
-          d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
-          fillRule="evenodd"
-        />
-      </svg>
-    </span>
     Button
   </button>
 </div>
 `;
 
-exports[`Storyshots Button Normal 1`] = `
+exports[`Storyshots Button Loading 1`] = `
 .c2 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
@@ -529,7 +222,6 @@ exports[`Storyshots Button Normal 1`] = `
   height: 100%;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
-  background-color: #fabada;
   position: absolute;
   right: 45%;
   bottom: 45%;
@@ -556,7 +248,7 @@ exports[`Storyshots Button Normal 1`] = `
 >
   <button
     className="c0"
-    disabled={false}
+    disabled={true}
     onClick={[Function]}
     size="medium"
   >
@@ -831,23 +523,81 @@ exports[`Storyshots Button Normal 1`] = `
         />
       </svg>
     </span>
+    Loading
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button Normal 1`] = `
+.c0 {
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  padding: 11px 32px;
+  font-size: 12px;
+  min-width: 120px;
+  color: #FFFFFF;
+  background-color: #1778FB;
+  border-color: #1778FB;
+  border-radius: 4px;
+}
+
+.c0:disabled {
+  cursor: default;
+}
+
+.c0:hover {
+  background-color: #5FAEDA;
+  border-color: #5FAEDA;
+  color: #FFFFFF;
+}
+
+.c0:disabled {
+  background-color: #DCDFE6;
+  border-color: #DCDFE6;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <button
+    className="c0"
+    disabled={false}
+    onClick={[Function]}
+    size="medium"
+  >
     Button
   </button>
 </div>
 `;
 
 exports[`Storyshots Button With Icon 1`] = `
-.c4 {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  vertical-align: middle;
-  fill: currentColor;
-  color: white;
-  width: 16px;
-  height: 16px;
-}
-
 .c2 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
@@ -915,31 +665,6 @@ exports[`Storyshots Button With Icon 1`] = `
 .c1 > svg {
   width: 15px;
   height: 15px;
-}
-
-.c3::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-  background-color: #fabada;
-  position: absolute;
-  right: 45%;
-  bottom: 45%;
-}
-
-.c3 > svg {
-  -webkit-animation: rotation 2s linear infinite;
-  animation: rotation 2s linear infinite;
-  display: inline-block;
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  width: 15px;
-  height: 15px;
-  margin-right: 8px;
 }
 
 <div
@@ -1224,277 +949,6 @@ exports[`Storyshots Button With Icon 1`] = `
         <path
           clipRule="evenodd"
           d="M14.457 5.404a3.145 3.145 0 014.232 1.11l.003.005L27.57 21.34l.009.015a3.144 3.144 0 01-2.69 4.717H7.11a3.145 3.145 0 01-2.689-4.717l.009-.015L13.308 6.52l.9.538-.897-.543c.28-.462.675-.844 1.146-1.11zm.648 2.195l-8.872 14.81a1.048 1.048 0 00.895 1.567h17.744a1.048 1.048 0 00.895-1.567l-8.87-14.808-.002-.002a1.05 1.05 0 00-1.79 0zM16 11.397c.579 0 1.048.47 1.048 1.048v4.193a1.048 1.048 0 01-2.096 0v-4.193c0-.579.47-1.048 1.048-1.048zm-.005 8.386c-.576 0-1.043.469-1.043 1.048 0 .579.467 1.048 1.043 1.048h.01c.576 0 1.043-.47 1.043-1.048 0-.579-.467-1.048-1.043-1.048h-.01z"
-        />
-      </svg>
-    </span>
-    <span
-      className="c3"
-    >
-      <svg
-        className="c4"
-        data-name="IconLoader"
-        preserveAspectRatio="xMidYMid meet"
-        size="small"
-        theme={
-          Object {
-            "breakpoints": Array [
-              "544px",
-              "768px",
-              "1012px",
-              "1280px",
-            ],
-            "color": Object {
-              "charcoal200": "#F8F8F8",
-              "charcoal300": "#EFF2F7",
-              "charcoal400": "#DCDFE6",
-              "charcoal500": "#B6BBC6",
-              "charcoal600": "#747D93",
-              "charcoal700": "#363C4B",
-              "charcoal800": "#212632",
-              "emerald100": "#EEF8F6",
-              "emerald500": "#55BAA9",
-              "emerald600": "#299B9A",
-              "primary100": "#EFF7FB",
-              "primary300": "#5FAEDA",
-              "primary500": "#1778FB",
-              "primary700": "#0C1B7A",
-              "redclay100": "#FAEDEC",
-              "redclay500": "#CD4C41",
-              "white": "#FFFFFF",
-            },
-            "components": Object {
-              "avatarBackgroundColor": "#363C4B",
-              "avatarBorderRadius": "50%",
-              "avatarColor": "#FFFFFF",
-              "avatarFontSizeLarge": "24px",
-              "avatarFontSizeMedium": "14px",
-              "avatarFontSizeSmall": "12px",
-              "avatarSizeLarge": "48px",
-              "avatarSizeMedium": "32px",
-              "avatarSizeSmall": "24px",
-              "buttonFontSizeLarge": "14px",
-              "buttonFontSizeMedium": "12px",
-              "buttonMinWidthLarge": "140px",
-              "buttonMinWidthMedium": "120px",
-              "buttonPaddingLarge": "19px 32px",
-              "buttonPaddingMedium": "11px 32px",
-              "buttonPrimaryBackgroundColor": "#1778FB",
-              "buttonPrimaryBorderColor": "#1778FB",
-              "buttonPrimaryBorderRadius": "4px",
-              "buttonPrimaryColor": "#FFFFFF",
-              "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
-              "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
-              "buttonPrimaryHoverBorderColor": "#5FAEDA",
-              "buttonPrimaryHoverColor": "#FFFFFF",
-              "buttonSecondaryBackgroundColor": "#FFFFFF",
-              "buttonSecondaryBorderColor": "#212632",
-              "buttonSecondaryBorderRadius": "4px",
-              "buttonSecondaryColor": "#212632",
-              "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-              "buttonSecondaryDisabledBorderColor": "#DCDFE6",
-              "buttonSecondaryHoverBackgroundColor": "#212632",
-              "buttonSecondaryHoverBorderColor": "#5FAEDA",
-              "buttonSecondaryHoverColor": "#FFFFFF",
-              "checkboxBackground": "#FFFFFF",
-              "checkboxBackgroundChecked": "#1778FB",
-              "checkboxBackgroundDisabled": "#DCDFE6",
-              "checkboxBorderColor": "#DCDFE6",
-              "checkboxBorderRadius": "2px",
-              "checkboxBorderWidth": "2px",
-              "checkboxIconColor": "#FFFFFF",
-              "checkboxLabelColor": "#212632",
-              "checkboxLabelDisabled": "#DCDFE6",
-              "checkboxLabelFontSize": "14px",
-              "checkboxLabelMargin": "16px",
-              "checkboxSizeMedium": "24px",
-              "checkboxSizeSmall": "16px",
-              "dropdownBackground": "#FFFFFF",
-              "dropdownBorderColor": "#EFF2F7",
-              "dropdownBorderRadius": "4px",
-              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
-              "dropdownPadding": "8px",
-              "formGroupMarginBottom": "16px",
-              "iconPrimaryColor": "#1778FB",
-              "iconSecondaryColor": "#747D93",
-              "iconSizeLarge": "32px",
-              "iconSizeMedium": "24px",
-              "iconSizeSmall": "16px",
-              "inputFieldBackgroundColor": "#FFFFFF",
-              "inputFieldBorderColor": "#DCDFE6",
-              "inputFieldBorderRadius": "4px",
-              "inputFieldDisabledBackgroundColor": "#F8F8F8",
-              "inputFieldDisabledBorderColor": "#DCDFE6",
-              "inputFieldDisabledColor": "#DCDFE6",
-              "inputFieldDisabledLabelColor": "#DCDFE6",
-              "inputFieldErrorBackgroundColor": "#FAEDEC",
-              "inputFieldErrorBorderColor": "#CD4C41",
-              "inputFieldErrorHelpColor": "#CD4C41",
-              "inputFieldErrorPlaceholderColor": "#CD4C41",
-              "inputFieldFocusBackgroundColor": "#EFF7FB",
-              "inputFieldFocusBorderColor": "#5FAEDA",
-              "inputFieldFocusLabelColor": "#5FAEDA",
-              "inputFieldFontSize": "14px",
-              "inputFieldHelpColor": "#212632",
-              "inputFieldHelpFontSize": "12px",
-              "inputFieldLabelColor": "#363C4B",
-              "inputFieldLabelFontSize": "12px",
-              "inputFieldLineHeight": "48px",
-              "inputFieldPlaceholderColor": "#DCDFE6",
-              "inputFieldTextIndent": "24px",
-              "listBackgroundColor": "#FFFFFF",
-              "listItemBorderRadius": "2px",
-              "listItemColorActive": "#1778FB",
-              "listItemColorActiveHover": "#EFF7FB",
-              "listItemColorDefault": "#747D93",
-              "listItemColorDefaultHover": "#EFF2F7",
-              "listItemColorDisabled": "#DCDFE6",
-              "listItemFontSizeLarge": "14px",
-              "listItemFontSizeMedium": "12px",
-              "listItemFontWeight": 500,
-              "listItemMargin": "0 0 4px",
-              "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "8px 16px",
-              "listItemSeparatorColor": "#EFF2F7",
-              "listPadding": "8px",
-              "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
-              "navigationHeaderPadding": "0 17px",
-              "navigationLinkFontSize": "12px",
-              "navigationLinkMargin": "0 24px 0 0",
-              "navigationMenuBackgroundColor": "#EFF2F7",
-              "navigationMenuHoverBackgroundColor": "#DCDFE6",
-              "navigationMenuOpenBackgroundColor": "#EFF7FB",
-              "navigationMenuPadding": "20px 16px",
-              "navigationMinHeight": "73px",
-              "notificationBorderRadius": "8px",
-              "notificationCloseButtonColor": "#212632",
-              "notificationErrorBackgroundColor": "#FAEDEC",
-              "notificationErrorColor": "#CD4C41",
-              "notificationNormalBackgroundColor": "#EFF7FB",
-              "notificationNormalColor": "#212632",
-              "notificationPadding": "16px",
-              "notificationSuccessBackgroundColor": "#EEF8F6",
-              "notificationSuccessColor": "#299B9A",
-              "textLinkDisabledColor": "#DCDFE6",
-              "textLinkFontSizeLarge": "14px",
-              "textLinkFontSizeMedium": "12px",
-              "textLinkPrimaryColor": "#1778FB",
-              "textLinkPrimaryHoverColor": "#5FAEDA",
-              "textLinkSecondaryColor": "#747D93",
-              "textLinkSecondaryHoverColor": "#5FAEDA",
-            },
-            "fonts": Array [
-              Object {
-                "name": "Roboto-Regular",
-                "style": "normal",
-                "weight": "normal",
-              },
-              Object {
-                "name": "Roboto Medium",
-                "style": "normal",
-                "weight": 500,
-              },
-              Object {
-                "name": "Roboto Bold",
-                "style": "normal",
-                "weight": 700,
-              },
-            ],
-            "global": Object {
-              "bgColor": "white",
-              "fontColor": "#333",
-              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-              "fontSize": "14px",
-              "fontWeightBold": 700,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
-            },
-            "headings": Array [
-              Object {
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontWeight": 500,
-                "size": "3.4rem",
-              },
-              Object {
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontWeight": 500,
-                "size": "2.5rem",
-              },
-              Object {
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontWeight": 500,
-                "size": "1.7rem",
-              },
-              Object {
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontWeight": 500,
-                "size": "1.1rem",
-              },
-              Object {
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontWeight": 500,
-                "size": "0.8rem",
-              },
-            ],
-            "shapes": Object {
-              "borderRadiusFull": "50%",
-              "borderRadiusLarge": "8px",
-              "borderRadiusMedium": "4px",
-              "borderRadiusSmall": "2px",
-              "borderWidthMedium": "2px",
-              "borderWidthSmall": "1px",
-            },
-            "spacings": Object {
-              "large1": "80px",
-              "large2": "96px",
-              "large3": "128px",
-              "large4": "200px",
-              "medium1": "32px",
-              "medium2": "40px",
-              "medium3": "48px",
-              "medium4": "56px",
-              "medium5": "64px",
-              "small1": "4px",
-              "small2": "8px",
-              "small3": "16px",
-              "small4": "24px",
-            },
-            "texts": Object {
-              "p1b": Object {
-                "color": "#212632",
-                "fontSize": "14px",
-                "fontWeight": 500,
-                "lineHeight": "1.5",
-              },
-              "p2": Object {
-                "color": "#212632",
-                "fontSize": "12px",
-                "fontWeight": 400,
-                "lineHeight": "1.5",
-              },
-              "p2b": Object {
-                "color": "#212632",
-                "fontSize": "12px",
-                "fontWeight": 500,
-                "lineHeight": "1.5",
-              },
-              "p3b": Object {
-                "color": "#212632",
-                "fontSize": "10px",
-                "fontWeight": 700,
-                "lineHeight": "1.5",
-              },
-            },
-          }
-        }
-        viewBox="0 0 32 32"
-      >
-        <path
-          clipRule="evenodd"
-          d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
-          fillRule="evenodd"
         />
       </svg>
     </span>
@@ -2335,17 +1789,6 @@ exports[`Storyshots Checkbox With Label 1`] = `
 `;
 
 exports[`Storyshots Dropdown Playground 1`] = `
-.c4 {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  vertical-align: middle;
-  fill: currentColor;
-  color: white;
-  width: 16px;
-  height: 16px;
-}
-
 .c2 {
   border-width: 1px;
   border-style: solid;
@@ -2396,7 +1839,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   border-color: #DCDFE6;
 }
 
-.c7 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2416,16 +1859,16 @@ exports[`Storyshots Dropdown Playground 1`] = `
   border-radius: 2px;
 }
 
-.c7:last-child {
+.c5:last-child {
   margin-bottom: 0;
 }
 
-.c7:hover {
+.c5:hover {
   background-color: #EFF2F7;
   color: #747D93;
 }
 
-.c7 > .c8 {
+.c5 > .c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2446,7 +1889,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   font-size: 12px;
 }
 
-.c6 {
+.c4 {
   background-color: #FFFFFF;
   box-sizing: border-box;
 }
@@ -2460,7 +1903,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   cursor: pointer;
 }
 
-.c5 {
+.c3 {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(0);
@@ -2476,31 +1919,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
   background: #FFFFFF;
   padding: 8px;
   left: 8px;
-}
-
-.c3::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-  background-color: #fabada;
-  position: absolute;
-  right: 45%;
-  bottom: 45%;
-}
-
-.c3 > svg {
-  -webkit-animation: rotation 2s linear infinite;
-  animation: rotation 2s linear infinite;
-  display: inline-block;
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  width: 15px;
-  height: 15px;
-  margin-right: 8px;
 }
 
 <div
@@ -2522,323 +1940,52 @@ exports[`Storyshots Dropdown Playground 1`] = `
         disabled={false}
         size="medium"
       >
-        <span
-          className="c3"
-        >
-          <svg
-            className="c4"
-            data-name="IconLoader"
-            preserveAspectRatio="xMidYMid meet"
-            size="small"
-            theme={
-              Object {
-                "breakpoints": Array [
-                  "544px",
-                  "768px",
-                  "1012px",
-                  "1280px",
-                ],
-                "color": Object {
-                  "charcoal200": "#F8F8F8",
-                  "charcoal300": "#EFF2F7",
-                  "charcoal400": "#DCDFE6",
-                  "charcoal500": "#B6BBC6",
-                  "charcoal600": "#747D93",
-                  "charcoal700": "#363C4B",
-                  "charcoal800": "#212632",
-                  "emerald100": "#EEF8F6",
-                  "emerald500": "#55BAA9",
-                  "emerald600": "#299B9A",
-                  "primary100": "#EFF7FB",
-                  "primary300": "#5FAEDA",
-                  "primary500": "#1778FB",
-                  "primary700": "#0C1B7A",
-                  "redclay100": "#FAEDEC",
-                  "redclay500": "#CD4C41",
-                  "white": "#FFFFFF",
-                },
-                "components": Object {
-                  "avatarBackgroundColor": "#363C4B",
-                  "avatarBorderRadius": "50%",
-                  "avatarColor": "#FFFFFF",
-                  "avatarFontSizeLarge": "24px",
-                  "avatarFontSizeMedium": "14px",
-                  "avatarFontSizeSmall": "12px",
-                  "avatarSizeLarge": "48px",
-                  "avatarSizeMedium": "32px",
-                  "avatarSizeSmall": "24px",
-                  "buttonFontSizeLarge": "14px",
-                  "buttonFontSizeMedium": "12px",
-                  "buttonMinWidthLarge": "140px",
-                  "buttonMinWidthMedium": "120px",
-                  "buttonPaddingLarge": "19px 32px",
-                  "buttonPaddingMedium": "11px 32px",
-                  "buttonPrimaryBackgroundColor": "#1778FB",
-                  "buttonPrimaryBorderColor": "#1778FB",
-                  "buttonPrimaryBorderRadius": "4px",
-                  "buttonPrimaryColor": "#FFFFFF",
-                  "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
-                  "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
-                  "buttonPrimaryHoverBorderColor": "#5FAEDA",
-                  "buttonPrimaryHoverColor": "#FFFFFF",
-                  "buttonSecondaryBackgroundColor": "#FFFFFF",
-                  "buttonSecondaryBorderColor": "#212632",
-                  "buttonSecondaryBorderRadius": "4px",
-                  "buttonSecondaryColor": "#212632",
-                  "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                  "buttonSecondaryDisabledBorderColor": "#DCDFE6",
-                  "buttonSecondaryHoverBackgroundColor": "#212632",
-                  "buttonSecondaryHoverBorderColor": "#5FAEDA",
-                  "buttonSecondaryHoverColor": "#FFFFFF",
-                  "checkboxBackground": "#FFFFFF",
-                  "checkboxBackgroundChecked": "#1778FB",
-                  "checkboxBackgroundDisabled": "#DCDFE6",
-                  "checkboxBorderColor": "#DCDFE6",
-                  "checkboxBorderRadius": "2px",
-                  "checkboxBorderWidth": "2px",
-                  "checkboxIconColor": "#FFFFFF",
-                  "checkboxLabelColor": "#212632",
-                  "checkboxLabelDisabled": "#DCDFE6",
-                  "checkboxLabelFontSize": "14px",
-                  "checkboxLabelMargin": "16px",
-                  "checkboxSizeMedium": "24px",
-                  "checkboxSizeSmall": "16px",
-                  "dropdownBackground": "#FFFFFF",
-                  "dropdownBorderColor": "#EFF2F7",
-                  "dropdownBorderRadius": "4px",
-                  "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
-                  "dropdownPadding": "8px",
-                  "formGroupMarginBottom": "16px",
-                  "iconPrimaryColor": "#1778FB",
-                  "iconSecondaryColor": "#747D93",
-                  "iconSizeLarge": "32px",
-                  "iconSizeMedium": "24px",
-                  "iconSizeSmall": "16px",
-                  "inputFieldBackgroundColor": "#FFFFFF",
-                  "inputFieldBorderColor": "#DCDFE6",
-                  "inputFieldBorderRadius": "4px",
-                  "inputFieldDisabledBackgroundColor": "#F8F8F8",
-                  "inputFieldDisabledBorderColor": "#DCDFE6",
-                  "inputFieldDisabledColor": "#DCDFE6",
-                  "inputFieldDisabledLabelColor": "#DCDFE6",
-                  "inputFieldErrorBackgroundColor": "#FAEDEC",
-                  "inputFieldErrorBorderColor": "#CD4C41",
-                  "inputFieldErrorHelpColor": "#CD4C41",
-                  "inputFieldErrorPlaceholderColor": "#CD4C41",
-                  "inputFieldFocusBackgroundColor": "#EFF7FB",
-                  "inputFieldFocusBorderColor": "#5FAEDA",
-                  "inputFieldFocusLabelColor": "#5FAEDA",
-                  "inputFieldFontSize": "14px",
-                  "inputFieldHelpColor": "#212632",
-                  "inputFieldHelpFontSize": "12px",
-                  "inputFieldLabelColor": "#363C4B",
-                  "inputFieldLabelFontSize": "12px",
-                  "inputFieldLineHeight": "48px",
-                  "inputFieldPlaceholderColor": "#DCDFE6",
-                  "inputFieldTextIndent": "24px",
-                  "listBackgroundColor": "#FFFFFF",
-                  "listItemBorderRadius": "2px",
-                  "listItemColorActive": "#1778FB",
-                  "listItemColorActiveHover": "#EFF7FB",
-                  "listItemColorDefault": "#747D93",
-                  "listItemColorDefaultHover": "#EFF2F7",
-                  "listItemColorDisabled": "#DCDFE6",
-                  "listItemFontSizeLarge": "14px",
-                  "listItemFontSizeMedium": "12px",
-                  "listItemFontWeight": 500,
-                  "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "8px 16px",
-                  "listItemSeparatorColor": "#EFF2F7",
-                  "listPadding": "8px",
-                  "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
-                  "navigationHeaderPadding": "0 17px",
-                  "navigationLinkFontSize": "12px",
-                  "navigationLinkMargin": "0 24px 0 0",
-                  "navigationMenuBackgroundColor": "#EFF2F7",
-                  "navigationMenuHoverBackgroundColor": "#DCDFE6",
-                  "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 16px",
-                  "navigationMinHeight": "73px",
-                  "notificationBorderRadius": "8px",
-                  "notificationCloseButtonColor": "#212632",
-                  "notificationErrorBackgroundColor": "#FAEDEC",
-                  "notificationErrorColor": "#CD4C41",
-                  "notificationNormalBackgroundColor": "#EFF7FB",
-                  "notificationNormalColor": "#212632",
-                  "notificationPadding": "16px",
-                  "notificationSuccessBackgroundColor": "#EEF8F6",
-                  "notificationSuccessColor": "#299B9A",
-                  "textLinkDisabledColor": "#DCDFE6",
-                  "textLinkFontSizeLarge": "14px",
-                  "textLinkFontSizeMedium": "12px",
-                  "textLinkPrimaryColor": "#1778FB",
-                  "textLinkPrimaryHoverColor": "#5FAEDA",
-                  "textLinkSecondaryColor": "#747D93",
-                  "textLinkSecondaryHoverColor": "#5FAEDA",
-                },
-                "fonts": Array [
-                  Object {
-                    "name": "Roboto-Regular",
-                    "style": "normal",
-                    "weight": "normal",
-                  },
-                  Object {
-                    "name": "Roboto Medium",
-                    "style": "normal",
-                    "weight": 500,
-                  },
-                  Object {
-                    "name": "Roboto Bold",
-                    "style": "normal",
-                    "weight": 700,
-                  },
-                ],
-                "global": Object {
-                  "bgColor": "white",
-                  "fontColor": "#333",
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                  "fontSize": "14px",
-                  "fontWeightBold": 700,
-                  "fontWeightMedium": 500,
-                  "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
-                },
-                "headings": Array [
-                  Object {
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontWeight": 500,
-                    "size": "3.4rem",
-                  },
-                  Object {
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontWeight": 500,
-                    "size": "2.5rem",
-                  },
-                  Object {
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontWeight": 500,
-                    "size": "1.7rem",
-                  },
-                  Object {
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontWeight": 500,
-                    "size": "1.1rem",
-                  },
-                  Object {
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontWeight": 500,
-                    "size": "0.8rem",
-                  },
-                ],
-                "shapes": Object {
-                  "borderRadiusFull": "50%",
-                  "borderRadiusLarge": "8px",
-                  "borderRadiusMedium": "4px",
-                  "borderRadiusSmall": "2px",
-                  "borderWidthMedium": "2px",
-                  "borderWidthSmall": "1px",
-                },
-                "spacings": Object {
-                  "large1": "80px",
-                  "large2": "96px",
-                  "large3": "128px",
-                  "large4": "200px",
-                  "medium1": "32px",
-                  "medium2": "40px",
-                  "medium3": "48px",
-                  "medium4": "56px",
-                  "medium5": "64px",
-                  "small1": "4px",
-                  "small2": "8px",
-                  "small3": "16px",
-                  "small4": "24px",
-                },
-                "texts": Object {
-                  "p1b": Object {
-                    "color": "#212632",
-                    "fontSize": "14px",
-                    "fontWeight": 500,
-                    "lineHeight": "1.5",
-                  },
-                  "p2": Object {
-                    "color": "#212632",
-                    "fontSize": "12px",
-                    "fontWeight": 400,
-                    "lineHeight": "1.5",
-                  },
-                  "p2b": Object {
-                    "color": "#212632",
-                    "fontSize": "12px",
-                    "fontWeight": 500,
-                    "lineHeight": "1.5",
-                  },
-                  "p3b": Object {
-                    "color": "#212632",
-                    "fontSize": "10px",
-                    "fontWeight": 700,
-                    "lineHeight": "1.5",
-                  },
-                },
-              }
-            }
-            viewBox="0 0 32 32"
-          >
-            <path
-              clipRule="evenodd"
-              d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
         Label example
       </button>
     </label>
     <div
-      className="c5"
+      className="c3"
     >
       <ul
-        className="c6"
+        className="c4"
         size="medium"
       >
         <li
-          className="c7"
+          className="c5"
           size="medium"
         >
           <div
-            className="c8 "
+            className="c6 "
           >
             1
           </div>
         </li>
         <li
-          className="c7"
+          className="c5"
           size="medium"
         >
           <div
-            className="c8 "
+            className="c6 "
           >
             2
           </div>
         </li>
         <li
-          className="c7"
+          className="c5"
           size="medium"
         >
           <div
-            className="c8 "
+            className="c6 "
           >
             3
           </div>
         </li>
         <li
-          className="c7"
+          className="c5"
           size="medium"
         >
           <div
-            className="c8 "
+            className="c6 "
           >
             4
           </div>
@@ -2850,18 +1997,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
 `;
 
 exports[`Storyshots Dropdown With Childrens 1`] = `
-.c4 {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  vertical-align: middle;
-  fill: currentColor;
-  color: white;
-  width: 16px;
-  height: 16px;
-}
-
-.c10 {
+.c8 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -2921,48 +2057,48 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   border-color: #DCDFE6;
 }
 
-.c9 {
+.c7 {
   margin-right: 19px;
   color: #747D93;
 }
 
-.c9 > svg {
+.c7 > svg {
   fill: #747D93;
 }
 
-.c14 {
+.c12 {
   margin-right: 19px;
   color: #1778FB;
 }
 
-.c14 > svg {
+.c12 > svg {
   fill: #1778FB;
 }
 
-.c12 {
+.c10 {
   margin-left: auto;
   color: #747D93;
 }
 
-.c12 color:#DCDFE6 > svg {
+.c10 color:#DCDFE6 > svg {
   fill: #747D93;
   fill: #DCDFE6;
 }
 
-.c12 > * {
+.c10 > * {
   color: #DCDFE6;
 }
 
-.c15 {
+.c13 {
   margin-left: auto;
   color: #1778FB;
 }
 
-.c15 > svg {
+.c13 > svg {
   fill: #1778FB;
 }
 
-.c7 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2982,16 +2118,16 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   border-radius: 2px;
 }
 
-.c7:last-child {
+.c5:last-child {
   margin-bottom: 0;
 }
 
-.c7:hover {
+.c5:hover {
   background-color: #EFF2F7;
   color: #747D93;
 }
 
-.c7 > .c8 {
+.c5 > .c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3012,7 +2148,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   font-size: 12px;
 }
 
-.c11 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3033,15 +2169,15 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   border-radius: 2px;
 }
 
-.c11:last-child {
+.c9:last-child {
   margin-bottom: 0;
 }
 
-.c11:hover {
+.c9:hover {
   color: #747D93;
 }
 
-.c11 > .c8 {
+.c9 > .c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3064,7 +2200,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   pointer-events: none;
 }
 
-.c13 {
+.c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3084,16 +2220,16 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   border-radius: 2px;
 }
 
-.c13:last-child {
+.c11:last-child {
   margin-bottom: 0;
 }
 
-.c13:hover {
+.c11:hover {
   background-color: #EFF7FB;
   color: #1778FB;
 }
 
-.c13 > .c8 {
+.c11 > .c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3114,7 +2250,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   font-size: 12px;
 }
 
-.c6 {
+.c4 {
   background-color: #FFFFFF;
   box-sizing: border-box;
 }
@@ -3128,7 +2264,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   cursor: pointer;
 }
 
-.c5 {
+.c3 {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(0);
@@ -3144,31 +2280,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   background: #FFFFFF;
   padding: 8px;
   left: 8px;
-}
-
-.c3::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-  background-color: #fabada;
-  position: absolute;
-  right: 45%;
-  bottom: 45%;
-}
-
-.c3 > svg {
-  -webkit-animation: rotation 2s linear infinite;
-  animation: rotation 2s linear infinite;
-  display: inline-block;
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  width: 15px;
-  height: 15px;
-  margin-right: 8px;
 }
 
 <div
@@ -3190,299 +2301,28 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
         disabled={false}
         size="medium"
       >
-        <span
-          className="c3"
-        >
-          <svg
-            className="c4"
-            data-name="IconLoader"
-            preserveAspectRatio="xMidYMid meet"
-            size="small"
-            theme={
-              Object {
-                "breakpoints": Array [
-                  "544px",
-                  "768px",
-                  "1012px",
-                  "1280px",
-                ],
-                "color": Object {
-                  "charcoal200": "#F8F8F8",
-                  "charcoal300": "#EFF2F7",
-                  "charcoal400": "#DCDFE6",
-                  "charcoal500": "#B6BBC6",
-                  "charcoal600": "#747D93",
-                  "charcoal700": "#363C4B",
-                  "charcoal800": "#212632",
-                  "emerald100": "#EEF8F6",
-                  "emerald500": "#55BAA9",
-                  "emerald600": "#299B9A",
-                  "primary100": "#EFF7FB",
-                  "primary300": "#5FAEDA",
-                  "primary500": "#1778FB",
-                  "primary700": "#0C1B7A",
-                  "redclay100": "#FAEDEC",
-                  "redclay500": "#CD4C41",
-                  "white": "#FFFFFF",
-                },
-                "components": Object {
-                  "avatarBackgroundColor": "#363C4B",
-                  "avatarBorderRadius": "50%",
-                  "avatarColor": "#FFFFFF",
-                  "avatarFontSizeLarge": "24px",
-                  "avatarFontSizeMedium": "14px",
-                  "avatarFontSizeSmall": "12px",
-                  "avatarSizeLarge": "48px",
-                  "avatarSizeMedium": "32px",
-                  "avatarSizeSmall": "24px",
-                  "buttonFontSizeLarge": "14px",
-                  "buttonFontSizeMedium": "12px",
-                  "buttonMinWidthLarge": "140px",
-                  "buttonMinWidthMedium": "120px",
-                  "buttonPaddingLarge": "19px 32px",
-                  "buttonPaddingMedium": "11px 32px",
-                  "buttonPrimaryBackgroundColor": "#1778FB",
-                  "buttonPrimaryBorderColor": "#1778FB",
-                  "buttonPrimaryBorderRadius": "4px",
-                  "buttonPrimaryColor": "#FFFFFF",
-                  "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
-                  "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
-                  "buttonPrimaryHoverBorderColor": "#5FAEDA",
-                  "buttonPrimaryHoverColor": "#FFFFFF",
-                  "buttonSecondaryBackgroundColor": "#FFFFFF",
-                  "buttonSecondaryBorderColor": "#212632",
-                  "buttonSecondaryBorderRadius": "4px",
-                  "buttonSecondaryColor": "#212632",
-                  "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                  "buttonSecondaryDisabledBorderColor": "#DCDFE6",
-                  "buttonSecondaryHoverBackgroundColor": "#212632",
-                  "buttonSecondaryHoverBorderColor": "#5FAEDA",
-                  "buttonSecondaryHoverColor": "#FFFFFF",
-                  "checkboxBackground": "#FFFFFF",
-                  "checkboxBackgroundChecked": "#1778FB",
-                  "checkboxBackgroundDisabled": "#DCDFE6",
-                  "checkboxBorderColor": "#DCDFE6",
-                  "checkboxBorderRadius": "2px",
-                  "checkboxBorderWidth": "2px",
-                  "checkboxIconColor": "#FFFFFF",
-                  "checkboxLabelColor": "#212632",
-                  "checkboxLabelDisabled": "#DCDFE6",
-                  "checkboxLabelFontSize": "14px",
-                  "checkboxLabelMargin": "16px",
-                  "checkboxSizeMedium": "24px",
-                  "checkboxSizeSmall": "16px",
-                  "dropdownBackground": "#FFFFFF",
-                  "dropdownBorderColor": "#EFF2F7",
-                  "dropdownBorderRadius": "4px",
-                  "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
-                  "dropdownPadding": "8px",
-                  "formGroupMarginBottom": "16px",
-                  "iconPrimaryColor": "#1778FB",
-                  "iconSecondaryColor": "#747D93",
-                  "iconSizeLarge": "32px",
-                  "iconSizeMedium": "24px",
-                  "iconSizeSmall": "16px",
-                  "inputFieldBackgroundColor": "#FFFFFF",
-                  "inputFieldBorderColor": "#DCDFE6",
-                  "inputFieldBorderRadius": "4px",
-                  "inputFieldDisabledBackgroundColor": "#F8F8F8",
-                  "inputFieldDisabledBorderColor": "#DCDFE6",
-                  "inputFieldDisabledColor": "#DCDFE6",
-                  "inputFieldDisabledLabelColor": "#DCDFE6",
-                  "inputFieldErrorBackgroundColor": "#FAEDEC",
-                  "inputFieldErrorBorderColor": "#CD4C41",
-                  "inputFieldErrorHelpColor": "#CD4C41",
-                  "inputFieldErrorPlaceholderColor": "#CD4C41",
-                  "inputFieldFocusBackgroundColor": "#EFF7FB",
-                  "inputFieldFocusBorderColor": "#5FAEDA",
-                  "inputFieldFocusLabelColor": "#5FAEDA",
-                  "inputFieldFontSize": "14px",
-                  "inputFieldHelpColor": "#212632",
-                  "inputFieldHelpFontSize": "12px",
-                  "inputFieldLabelColor": "#363C4B",
-                  "inputFieldLabelFontSize": "12px",
-                  "inputFieldLineHeight": "48px",
-                  "inputFieldPlaceholderColor": "#DCDFE6",
-                  "inputFieldTextIndent": "24px",
-                  "listBackgroundColor": "#FFFFFF",
-                  "listItemBorderRadius": "2px",
-                  "listItemColorActive": "#1778FB",
-                  "listItemColorActiveHover": "#EFF7FB",
-                  "listItemColorDefault": "#747D93",
-                  "listItemColorDefaultHover": "#EFF2F7",
-                  "listItemColorDisabled": "#DCDFE6",
-                  "listItemFontSizeLarge": "14px",
-                  "listItemFontSizeMedium": "12px",
-                  "listItemFontWeight": 500,
-                  "listItemMargin": "0 0 4px",
-                  "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "8px 16px",
-                  "listItemSeparatorColor": "#EFF2F7",
-                  "listPadding": "8px",
-                  "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
-                  "navigationHeaderPadding": "0 17px",
-                  "navigationLinkFontSize": "12px",
-                  "navigationLinkMargin": "0 24px 0 0",
-                  "navigationMenuBackgroundColor": "#EFF2F7",
-                  "navigationMenuHoverBackgroundColor": "#DCDFE6",
-                  "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                  "navigationMenuPadding": "20px 16px",
-                  "navigationMinHeight": "73px",
-                  "notificationBorderRadius": "8px",
-                  "notificationCloseButtonColor": "#212632",
-                  "notificationErrorBackgroundColor": "#FAEDEC",
-                  "notificationErrorColor": "#CD4C41",
-                  "notificationNormalBackgroundColor": "#EFF7FB",
-                  "notificationNormalColor": "#212632",
-                  "notificationPadding": "16px",
-                  "notificationSuccessBackgroundColor": "#EEF8F6",
-                  "notificationSuccessColor": "#299B9A",
-                  "textLinkDisabledColor": "#DCDFE6",
-                  "textLinkFontSizeLarge": "14px",
-                  "textLinkFontSizeMedium": "12px",
-                  "textLinkPrimaryColor": "#1778FB",
-                  "textLinkPrimaryHoverColor": "#5FAEDA",
-                  "textLinkSecondaryColor": "#747D93",
-                  "textLinkSecondaryHoverColor": "#5FAEDA",
-                },
-                "fonts": Array [
-                  Object {
-                    "name": "Roboto-Regular",
-                    "style": "normal",
-                    "weight": "normal",
-                  },
-                  Object {
-                    "name": "Roboto Medium",
-                    "style": "normal",
-                    "weight": 500,
-                  },
-                  Object {
-                    "name": "Roboto Bold",
-                    "style": "normal",
-                    "weight": 700,
-                  },
-                ],
-                "global": Object {
-                  "bgColor": "white",
-                  "fontColor": "#333",
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                  "fontSize": "14px",
-                  "fontWeightBold": 700,
-                  "fontWeightMedium": 500,
-                  "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
-                },
-                "headings": Array [
-                  Object {
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontWeight": 500,
-                    "size": "3.4rem",
-                  },
-                  Object {
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontWeight": 500,
-                    "size": "2.5rem",
-                  },
-                  Object {
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontWeight": 500,
-                    "size": "1.7rem",
-                  },
-                  Object {
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontWeight": 500,
-                    "size": "1.1rem",
-                  },
-                  Object {
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontWeight": 500,
-                    "size": "0.8rem",
-                  },
-                ],
-                "shapes": Object {
-                  "borderRadiusFull": "50%",
-                  "borderRadiusLarge": "8px",
-                  "borderRadiusMedium": "4px",
-                  "borderRadiusSmall": "2px",
-                  "borderWidthMedium": "2px",
-                  "borderWidthSmall": "1px",
-                },
-                "spacings": Object {
-                  "large1": "80px",
-                  "large2": "96px",
-                  "large3": "128px",
-                  "large4": "200px",
-                  "medium1": "32px",
-                  "medium2": "40px",
-                  "medium3": "48px",
-                  "medium4": "56px",
-                  "medium5": "64px",
-                  "small1": "4px",
-                  "small2": "8px",
-                  "small3": "16px",
-                  "small4": "24px",
-                },
-                "texts": Object {
-                  "p1b": Object {
-                    "color": "#212632",
-                    "fontSize": "14px",
-                    "fontWeight": 500,
-                    "lineHeight": "1.5",
-                  },
-                  "p2": Object {
-                    "color": "#212632",
-                    "fontSize": "12px",
-                    "fontWeight": 400,
-                    "lineHeight": "1.5",
-                  },
-                  "p2b": Object {
-                    "color": "#212632",
-                    "fontSize": "12px",
-                    "fontWeight": 500,
-                    "lineHeight": "1.5",
-                  },
-                  "p3b": Object {
-                    "color": "#212632",
-                    "fontSize": "10px",
-                    "fontWeight": 700,
-                    "lineHeight": "1.5",
-                  },
-                },
-              }
-            }
-            viewBox="0 0 32 32"
-          >
-            <path
-              clipRule="evenodd"
-              d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
         Label example
       </button>
     </label>
     <div
-      className="c5"
+      className="c3"
     >
       <ul
-        className="c6"
+        className="c4"
         size="medium"
       >
         <li
-          className="c7"
+          className="c5"
           size="medium"
         >
           <div
-            className="c8 "
+            className="c6 "
           >
             <div
-              className="c9"
+              className="c7"
             >
               <svg
-                className="c10"
+                className="c8"
                 data-name="IconFolder"
                 preserveAspectRatio="xMidYMid meet"
                 size="medium"
@@ -3752,20 +2592,20 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           </div>
         </li>
         <li
-          className="c11"
+          className="c9"
           disabled={true}
           size="medium"
         >
           <div
-            className="c8 "
+            className="c6 "
           >
             Text
             <div
-              className="c12"
+              className="c10"
               disabled={true}
             >
               <svg
-                className="c10"
+                className="c8"
                 data-name="IconFolder"
                 preserveAspectRatio="xMidYMid meet"
                 size="medium"
@@ -4034,17 +2874,17 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           </div>
         </li>
         <li
-          className="c13"
+          className="c11"
           size="medium"
         >
           <div
-            className="c8 "
+            className="c6 "
           >
             <div
-              className="c14"
+              className="c12"
             >
               <svg
-                className="c10"
+                className="c8"
                 data-name="IconFolder"
                 preserveAspectRatio="xMidYMid meet"
                 size="medium"
@@ -4312,10 +3152,10 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
             </div>
             Text
             <div
-              className="c15"
+              className="c13"
             >
               <svg
-                className="c10"
+                className="c8"
                 data-name="IconFolder"
                 preserveAspectRatio="xMidYMid meet"
                 size="medium"
@@ -4590,17 +3430,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 `;
 
 exports[`Storyshots FormGroup Playground 1`] = `
-.c8 {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  vertical-align: middle;
-  fill: currentColor;
-  color: white;
-  width: 16px;
-  height: 16px;
-}
-
 .c6 {
   border-width: 1px;
   border-style: solid;
@@ -4780,31 +3609,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
   flex-direction: column-reverse;
 }
 
-.c7::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-  background-color: #fabada;
-  position: absolute;
-  right: 45%;
-  bottom: 45%;
-}
-
-.c7 > svg {
-  -webkit-animation: rotation 2s linear infinite;
-  animation: rotation 2s linear infinite;
-  display: inline-block;
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  width: 15px;
-  height: 15px;
-  margin-right: 8px;
-}
-
 <div
   style={
     Object {
@@ -4874,277 +3678,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
       disabled={true}
       size="large"
     >
-      <span
-        className="c7"
-      >
-        <svg
-          className="c8"
-          data-name="IconLoader"
-          preserveAspectRatio="xMidYMid meet"
-          size="small"
-          theme={
-            Object {
-              "breakpoints": Array [
-                "544px",
-                "768px",
-                "1012px",
-                "1280px",
-              ],
-              "color": Object {
-                "charcoal200": "#F8F8F8",
-                "charcoal300": "#EFF2F7",
-                "charcoal400": "#DCDFE6",
-                "charcoal500": "#B6BBC6",
-                "charcoal600": "#747D93",
-                "charcoal700": "#363C4B",
-                "charcoal800": "#212632",
-                "emerald100": "#EEF8F6",
-                "emerald500": "#55BAA9",
-                "emerald600": "#299B9A",
-                "primary100": "#EFF7FB",
-                "primary300": "#5FAEDA",
-                "primary500": "#1778FB",
-                "primary700": "#0C1B7A",
-                "redclay100": "#FAEDEC",
-                "redclay500": "#CD4C41",
-                "white": "#FFFFFF",
-              },
-              "components": Object {
-                "avatarBackgroundColor": "#363C4B",
-                "avatarBorderRadius": "50%",
-                "avatarColor": "#FFFFFF",
-                "avatarFontSizeLarge": "24px",
-                "avatarFontSizeMedium": "14px",
-                "avatarFontSizeSmall": "12px",
-                "avatarSizeLarge": "48px",
-                "avatarSizeMedium": "32px",
-                "avatarSizeSmall": "24px",
-                "buttonFontSizeLarge": "14px",
-                "buttonFontSizeMedium": "12px",
-                "buttonMinWidthLarge": "140px",
-                "buttonMinWidthMedium": "120px",
-                "buttonPaddingLarge": "19px 32px",
-                "buttonPaddingMedium": "11px 32px",
-                "buttonPrimaryBackgroundColor": "#1778FB",
-                "buttonPrimaryBorderColor": "#1778FB",
-                "buttonPrimaryBorderRadius": "4px",
-                "buttonPrimaryColor": "#FFFFFF",
-                "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                "buttonPrimaryDisabledBorderColor": "#DCDFE6",
-                "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
-                "buttonPrimaryHoverBorderColor": "#5FAEDA",
-                "buttonPrimaryHoverColor": "#FFFFFF",
-                "buttonSecondaryBackgroundColor": "#FFFFFF",
-                "buttonSecondaryBorderColor": "#212632",
-                "buttonSecondaryBorderRadius": "4px",
-                "buttonSecondaryColor": "#212632",
-                "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                "buttonSecondaryDisabledBorderColor": "#DCDFE6",
-                "buttonSecondaryHoverBackgroundColor": "#212632",
-                "buttonSecondaryHoverBorderColor": "#5FAEDA",
-                "buttonSecondaryHoverColor": "#FFFFFF",
-                "checkboxBackground": "#FFFFFF",
-                "checkboxBackgroundChecked": "#1778FB",
-                "checkboxBackgroundDisabled": "#DCDFE6",
-                "checkboxBorderColor": "#DCDFE6",
-                "checkboxBorderRadius": "2px",
-                "checkboxBorderWidth": "2px",
-                "checkboxIconColor": "#FFFFFF",
-                "checkboxLabelColor": "#212632",
-                "checkboxLabelDisabled": "#DCDFE6",
-                "checkboxLabelFontSize": "14px",
-                "checkboxLabelMargin": "16px",
-                "checkboxSizeMedium": "24px",
-                "checkboxSizeSmall": "16px",
-                "dropdownBackground": "#FFFFFF",
-                "dropdownBorderColor": "#EFF2F7",
-                "dropdownBorderRadius": "4px",
-                "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
-                "dropdownPadding": "8px",
-                "formGroupMarginBottom": "16px",
-                "iconPrimaryColor": "#1778FB",
-                "iconSecondaryColor": "#747D93",
-                "iconSizeLarge": "32px",
-                "iconSizeMedium": "24px",
-                "iconSizeSmall": "16px",
-                "inputFieldBackgroundColor": "#FFFFFF",
-                "inputFieldBorderColor": "#DCDFE6",
-                "inputFieldBorderRadius": "4px",
-                "inputFieldDisabledBackgroundColor": "#F8F8F8",
-                "inputFieldDisabledBorderColor": "#DCDFE6",
-                "inputFieldDisabledColor": "#DCDFE6",
-                "inputFieldDisabledLabelColor": "#DCDFE6",
-                "inputFieldErrorBackgroundColor": "#FAEDEC",
-                "inputFieldErrorBorderColor": "#CD4C41",
-                "inputFieldErrorHelpColor": "#CD4C41",
-                "inputFieldErrorPlaceholderColor": "#CD4C41",
-                "inputFieldFocusBackgroundColor": "#EFF7FB",
-                "inputFieldFocusBorderColor": "#5FAEDA",
-                "inputFieldFocusLabelColor": "#5FAEDA",
-                "inputFieldFontSize": "14px",
-                "inputFieldHelpColor": "#212632",
-                "inputFieldHelpFontSize": "12px",
-                "inputFieldLabelColor": "#363C4B",
-                "inputFieldLabelFontSize": "12px",
-                "inputFieldLineHeight": "48px",
-                "inputFieldPlaceholderColor": "#DCDFE6",
-                "inputFieldTextIndent": "24px",
-                "listBackgroundColor": "#FFFFFF",
-                "listItemBorderRadius": "2px",
-                "listItemColorActive": "#1778FB",
-                "listItemColorActiveHover": "#EFF7FB",
-                "listItemColorDefault": "#747D93",
-                "listItemColorDefaultHover": "#EFF2F7",
-                "listItemColorDisabled": "#DCDFE6",
-                "listItemFontSizeLarge": "14px",
-                "listItemFontSizeMedium": "12px",
-                "listItemFontWeight": 500,
-                "listItemMargin": "0 0 4px",
-                "listItemPaddingLarge": "8px 16px",
-                "listItemPaddingMedium": "8px 16px",
-                "listItemSeparatorColor": "#EFF2F7",
-                "listPadding": "8px",
-                "navigationBorder": "1px solid #EFF2F7",
-                "navigationContentMargin": "0 42px 0 0",
-                "navigationHeaderPadding": "0 17px",
-                "navigationLinkFontSize": "12px",
-                "navigationLinkMargin": "0 24px 0 0",
-                "navigationMenuBackgroundColor": "#EFF2F7",
-                "navigationMenuHoverBackgroundColor": "#DCDFE6",
-                "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                "navigationMenuPadding": "20px 16px",
-                "navigationMinHeight": "73px",
-                "notificationBorderRadius": "8px",
-                "notificationCloseButtonColor": "#212632",
-                "notificationErrorBackgroundColor": "#FAEDEC",
-                "notificationErrorColor": "#CD4C41",
-                "notificationNormalBackgroundColor": "#EFF7FB",
-                "notificationNormalColor": "#212632",
-                "notificationPadding": "16px",
-                "notificationSuccessBackgroundColor": "#EEF8F6",
-                "notificationSuccessColor": "#299B9A",
-                "textLinkDisabledColor": "#DCDFE6",
-                "textLinkFontSizeLarge": "14px",
-                "textLinkFontSizeMedium": "12px",
-                "textLinkPrimaryColor": "#1778FB",
-                "textLinkPrimaryHoverColor": "#5FAEDA",
-                "textLinkSecondaryColor": "#747D93",
-                "textLinkSecondaryHoverColor": "#5FAEDA",
-              },
-              "fonts": Array [
-                Object {
-                  "name": "Roboto-Regular",
-                  "style": "normal",
-                  "weight": "normal",
-                },
-                Object {
-                  "name": "Roboto Medium",
-                  "style": "normal",
-                  "weight": 500,
-                },
-                Object {
-                  "name": "Roboto Bold",
-                  "style": "normal",
-                  "weight": 700,
-                },
-              ],
-              "global": Object {
-                "bgColor": "white",
-                "fontColor": "#333",
-                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                "fontSize": "14px",
-                "fontWeightBold": 700,
-                "fontWeightMedium": 500,
-                "fontWeightRegular": 400,
-                "transition": "all 250ms ease-in-out",
-              },
-              "headings": Array [
-                Object {
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                  "fontWeight": 500,
-                  "size": "3.4rem",
-                },
-                Object {
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                  "fontWeight": 500,
-                  "size": "2.5rem",
-                },
-                Object {
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                  "fontWeight": 500,
-                  "size": "1.7rem",
-                },
-                Object {
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                  "fontWeight": 500,
-                  "size": "1.1rem",
-                },
-                Object {
-                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                  "fontWeight": 500,
-                  "size": "0.8rem",
-                },
-              ],
-              "shapes": Object {
-                "borderRadiusFull": "50%",
-                "borderRadiusLarge": "8px",
-                "borderRadiusMedium": "4px",
-                "borderRadiusSmall": "2px",
-                "borderWidthMedium": "2px",
-                "borderWidthSmall": "1px",
-              },
-              "spacings": Object {
-                "large1": "80px",
-                "large2": "96px",
-                "large3": "128px",
-                "large4": "200px",
-                "medium1": "32px",
-                "medium2": "40px",
-                "medium3": "48px",
-                "medium4": "56px",
-                "medium5": "64px",
-                "small1": "4px",
-                "small2": "8px",
-                "small3": "16px",
-                "small4": "24px",
-              },
-              "texts": Object {
-                "p1b": Object {
-                  "color": "#212632",
-                  "fontSize": "14px",
-                  "fontWeight": 500,
-                  "lineHeight": "1.5",
-                },
-                "p2": Object {
-                  "color": "#212632",
-                  "fontSize": "12px",
-                  "fontWeight": 400,
-                  "lineHeight": "1.5",
-                },
-                "p2b": Object {
-                  "color": "#212632",
-                  "fontSize": "12px",
-                  "fontWeight": 500,
-                  "lineHeight": "1.5",
-                },
-                "p3b": Object {
-                  "color": "#212632",
-                  "fontSize": "10px",
-                  "fontWeight": 700,
-                  "lineHeight": "1.5",
-                },
-              },
-            }
-          }
-          viewBox="0 0 32 32"
-        >
-          <path
-            clipRule="evenodd"
-            d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
-            fillRule="evenodd"
-          />
-        </svg>
-      </span>
       Sign in
     </button>
   </div>
