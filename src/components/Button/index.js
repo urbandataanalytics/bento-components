@@ -7,17 +7,6 @@ import IconLoader from '../../icons/Loader';
 
 const Loader = () => {
   const StyledLoader = styled.span`
-    &::after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 100%;
-      transition: all 300ms ease-in-out;
-      position: absolute;
-      right: 45%;
-      bottom: 45%;
-    }
-
     > svg {
       animation: rotation 2s linear infinite;
       display: inline-block;
@@ -103,6 +92,33 @@ const StyledButton = styled.button`
   align-items: center;
   justify-content: center;
   transition: ${props => props.theme.global.transition};
+  position: relative;
+
+  &:after{
+    content: "";
+    background: rgba(255,255,255,0.3);
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 1;
+  }
+
+  &:active:after {
+    height: 1px;
+    width: 1px;
+    opacity: 1;
+    transition: 0s;
+  }
+
 
   &:disabled {
     cursor: default;
