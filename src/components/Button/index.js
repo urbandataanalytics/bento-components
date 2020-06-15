@@ -93,6 +93,7 @@ const StyledButton = styled.button`
   justify-content: center;
   transition: ${props => props.theme.global.transition};
   position: relative;
+  overflow: hidden;
 
   &:after{
     content: "";
@@ -104,8 +105,8 @@ const StyledButton = styled.button`
     right: 0;
     top: 0;
     bottom: 0;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     margin: auto;
     opacity: 0;
     transition: all 1s;

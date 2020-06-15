@@ -3792,6 +3792,7 @@ exports[`Storyshots Button Block 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   position: relative;
+  overflow: hidden;
   width: 100%;
   padding: 11px 32px;
   font-size: 12px;
@@ -3812,8 +3813,8 @@ exports[`Storyshots Button Block 1`] = `
   right: 0;
   top: 0;
   bottom: 0;
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   opacity: 0;
   -webkit-transition: all 1s;
@@ -3901,6 +3902,7 @@ exports[`Storyshots Button Loading 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   position: relative;
+  overflow: hidden;
   padding: 11px 32px;
   font-size: 12px;
   min-width: 120px;
@@ -3920,8 +3922,8 @@ exports[`Storyshots Button Loading 1`] = `
   right: 0;
   top: 0;
   bottom: 0;
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   opacity: 0;
   -webkit-transition: all 1s;
@@ -4290,6 +4292,7 @@ exports[`Storyshots Button Normal 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   position: relative;
+  overflow: hidden;
   padding: 11px 32px;
   font-size: 12px;
   min-width: 120px;
@@ -4309,8 +4312,8 @@ exports[`Storyshots Button Normal 1`] = `
   right: 0;
   top: 0;
   bottom: 0;
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   opacity: 0;
   -webkit-transition: all 1s;
@@ -4397,6 +4400,7 @@ exports[`Storyshots Button With Icon 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   position: relative;
+  overflow: hidden;
   padding: 11px 32px;
   font-size: 12px;
   min-width: 120px;
@@ -4416,8 +4420,8 @@ exports[`Storyshots Button With Icon 1`] = `
   right: 0;
   top: 0;
   bottom: 0;
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   opacity: 0;
   -webkit-transition: all 1s;
@@ -5709,6 +5713,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   position: relative;
+  overflow: hidden;
   padding: 11px 32px;
   font-size: 12px;
   min-width: 120px;
@@ -5728,8 +5733,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
   right: 0;
   top: 0;
   bottom: 0;
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   opacity: 0;
   -webkit-transition: all 1s;
@@ -6098,6 +6103,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   position: relative;
+  overflow: hidden;
   padding: 11px 32px;
   font-size: 12px;
   min-width: 120px;
@@ -6117,8 +6123,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   right: 0;
   top: 0;
   bottom: 0;
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   opacity: 0;
   -webkit-transition: all 1s;
@@ -7387,6 +7393,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   position: relative;
+  overflow: hidden;
   width: 100%;
   padding: 19px 32px;
   font-size: 14px;
@@ -7407,8 +7414,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
   right: 0;
   top: 0;
   bottom: 0;
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   opacity: 0;
   -webkit-transition: all 1s;
