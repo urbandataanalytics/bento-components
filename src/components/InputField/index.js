@@ -37,7 +37,7 @@ const Input = styled.input`
   border-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
   border-width: 1px;
   border-style: solid;
-  transition: 300ms ease-in-out;
+  transition: ${({ theme }) => theme.global.transition};
   background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
   border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
 
@@ -95,7 +95,7 @@ Label.defaultProps = {
 const InputField = React.forwardRef((props, ref) => {
   const {
     className,
-    disabled = false,
+    disabled,
     error,
     help,
     label,
@@ -103,7 +103,7 @@ const InputField = React.forwardRef((props, ref) => {
     onChange,
     placeholder,
     tabIndex,
-    type = 'text',
+    type,
     value,
     ...other
   } = props;
@@ -145,7 +145,9 @@ InputField.propTypes = {
 };
 
 InputField.defaultProps = {
-  value: ''
+  value: '',
+  disabled: false,
+  type: 'text'
 };
 
 InputField.displayName = 'InputField';

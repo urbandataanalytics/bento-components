@@ -6,8 +6,7 @@ import IconCheck from '../../icons/Check';
 describe(`Button`, () => {
   it('should render children content', () => {
     const wrapper = shallow(<Button>Text</Button>);
-
-    const message = () => wrapper.find('Button__StyledButton');
+    const message = () => wrapper.find('Button__StyledContent');
     expect(message().text()).toBe('Text');
   });
 

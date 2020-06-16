@@ -32,7 +32,7 @@ const color = {
   emerald500: '#55BAA9',
   emerald600: '#299B9A',
   primary100: '#EFF7FB',
-  primary300: '#5FAEDA',
+  primary300: '#48AAF1',
   primary500: '#1778FB',
   primary700: '#0C1B7A',
   redclay100: '#FAEDEC',
@@ -60,11 +60,8 @@ const global = {
   bgColor: 'white',
   fontColor: '#333',
   fontFamily: `"Roboto", ${fontCallback}`,
-  fontFamilyBold: `"Roboto Bold", ${fontCallback}`,
-  fontFamilyMedium: `"Roboto-Medium", ${fontCallback}`,
-  fontFamilyRegular: `"Roboto", ${fontCallback}`,
   fontSize: '14px',
-  transition: 'all 300ms ease-in-out',
+  transition: 'all 250ms ease-in-out',
   fontWeightRegular: 400,
   fontWeightMedium: 500,
   fontWeightBold: 700
@@ -99,10 +96,27 @@ const headings = [
 ];
 
 const texts = {
+  p1b: {
+    fontWeight: global.fontWeightMedium,
+    fontSize: global.fontSize,
+    color: color.charcoal800,
+    lineHeight: '1.5'
+  },
   p2: {
-    fontFamily: global.fontFamily,
     fontWeight: global.fontWeightRegular,
     fontSize: '12px',
+    color: color.charcoal800,
+    lineHeight: '1.5'
+  },
+  p2b: {
+    fontWeight: global.fontWeightMedium,
+    fontSize: '12px',
+    color: color.charcoal800,
+    lineHeight: '1.5'
+  },
+  p3b: {
+    fontWeight: global.fontWeightBold,
+    fontSize: '10px',
     color: color.charcoal800,
     lineHeight: '1.5'
   }
@@ -126,13 +140,10 @@ const components = {
   buttonPaddingLarge: '19px 32px',
   buttonPaddingMedium: '11px 32px',
   buttonPrimaryBackgroundColor: color.primary500,
-  buttonPrimaryBorderColor: color.primary500,
   buttonPrimaryBorderRadius: shapes.borderRadiusMedium,
   buttonPrimaryColor: color.white,
   buttonPrimaryDisabledBackgroundColor: color.charcoal400,
-  buttonPrimaryDisabledBorderColor: color.charcoal400,
   buttonPrimaryHoverBackgroundColor: color.primary300,
-  buttonPrimaryHoverBorderColor: color.primary300,
   buttonPrimaryHoverColor: color.white,
   buttonSecondaryBackgroundColor: color.white,
   buttonSecondaryBorderColor: color.charcoal800,
@@ -140,9 +151,21 @@ const components = {
   buttonSecondaryColor: color.charcoal800,
   buttonSecondaryDisabledBackgroundColor: color.white,
   buttonSecondaryDisabledBorderColor: color.charcoal400,
+  buttonSecondaryDisabledColor: color.charcoal400,
   buttonSecondaryHoverBackgroundColor: color.charcoal800,
   buttonSecondaryHoverBorderColor: color.primary300,
   buttonSecondaryHoverColor: color.white,
+
+  buttonLinkPaddingSmall: '3px 4px',
+  buttonLinkFontSizeSmall: '12px',
+  buttonLinkPaddingMedium: '5px',
+  buttonLinkFontSizeMedium: '14px',
+  buttonLinkPaddingLarge: '6px',
+  buttonLinkFontSizeLarge: '14px',
+  buttonLinkPrimaryColor: color.primary500,
+  buttonLinkSecondaryColor: color.charcoal600,
+  buttonLinkDisabledColor: color.charcoal400,
+  buttonLinkHoverBackgroundColor: color.charcoal300,
 
   /* Checkbox Theme props */
   checkboxBackground: color.white,
@@ -196,7 +219,7 @@ const components = {
 
   /* Avatar Theme Props */
   avatarBorderRadius: shapes.borderRadiusFull,
-  avatarBackgroundColor: color.primary500,
+  avatarBackgroundColor: color.charcoal700,
   avatarColor: color.white,
   avatarSizeSmall: spacings.small4,
   avatarSizeMedium: spacings.medium1,
@@ -207,13 +230,26 @@ const components = {
 
   /* Navigation Theme Props */
   navigationBorder: `1px solid ${color.charcoal300}`,
-  navigationMenuPadding: `20px ${spacings.small4}`,
+  navigationMenuPadding: `20px ${spacings.small3}`,
   navigationMenuBackgroundColor: color.charcoal300,
   navigationMenuOpenBackgroundColor: color.primary100,
   navigationMenuHoverBackgroundColor: color.charcoal400,
   navigationContentMargin: '0 42px 0 0',
+  navigationLinkFontSize: '12px',
   navigationLinkMargin: '0 24px 0 0',
   navigationHeaderPadding: '0 17px',
+  navigationMinHeight: '73px',
+
+  /* Notification Theme Props */
+  accordionMinHeight: '65px',
+  accordionPadding: '16px 24px',
+  accordionBorder: `1px solid ${color.charcoal300}`,
+  accordionColor: color.charcoal600,
+  accordionSubHeaderColor: color.charcoal400,
+  accordionHeaderFontWeight: global.fontWeightMedium,
+  accordionHeaderFontSize: '12px',
+  accordionSubHeaderFontSize: '10px',
+  accordionSubHeaderFontWeight: global.fontWeightBold,
 
   /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
@@ -235,11 +271,26 @@ const components = {
   textLinkSecondaryColor: color.charcoal600,
   textLinkSecondaryHoverColor: color.primary300,
 
+  /*Drawer Theme props*/
+  drawerMaxWidth: '320px',
+  drawerBackgroundColor: color.white,
+  drawerBorder: `1px solid ${color.charcoal300}`,
+  drawerHeaderBorder: `2px solid ${color.charcoal300}`,
+  drawerHeaderPadding: '17px 24px',
+  drawerCloseButtonBackground: color.white,
+  drawerCloseButtonPadding: '6px',
+  drawerCloseButtonBorderRadius: shapes.borderRadiusMedium,
+  drawerCloseButtonBorder: `1px solid ${color.charcoal400}`,
+
+  /*Dropdown Theme props*/
+  dropdownBorderColor: color.charcoal300,
+  dropdownBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
+  dropdownBorderRadius: shapes.borderRadiusMedium,
+  dropdownBackground: color.white,
+  dropdownPadding: spacings.small2,
+
   /*List Theme props*/
   listBackgroundColor: color.white,
-  listBorderColor: color.charcoal300,
-  listBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
-  listBorderRadius: shapes.borderRadiusMedium,
   listPadding: spacings.small2,
 
   /*ListItem Theme props*/
@@ -247,7 +298,36 @@ const components = {
   listItemColorActive: color.primary500,
   listItemColorActiveHover: color.primary100,
   listItemColorDefault: color.charcoal600,
-  listItemColorDefaultHover: color.charcoal300
+  listItemColorDefaultHover: color.charcoal300,
+  listItemColorDisabled: color.charcoal400,
+  listItemMargin: '0 0 4px',
+  listItemBorderRadius: shapes.borderRadiusSmall,
+  listItemPaddingMedium: '8px 16px',
+  listItemPaddingLarge: '8px 16px',
+  listItemFontSizeMedium: '12px',
+  listItemFontSizeLarge: '14px',
+  listItemFontWeight: global.fontWeightMedium,
+
+  /*Tabs Theme props*/
+  tabsBorderColor: color.charcoal300,
+  tabFontSize: texts.p2b.fontSize,
+  tabFontWeight: texts.p2b.fontWeight,
+  tabColor: color.charcoal600,
+  tabColorHover: color.primary300,
+  tabColorActive: color.primary500,
+  tabColorDisabled: color.charcoal400,
+  tabBorderColor: 'transparent',
+  tabBorderColorHover: color.primary300,
+  tabBorderColorActive: color.primary500,
+  tabBadgeFontSize: texts.p2b.fontSize,
+  tabBadgeFontWeight: texts.p2b.fontWeight,
+  tabBadgePadding: '2px 8px',
+  tabBadgeColor: color.charcoal600,
+  tabBadgeColorHover: color.white,
+  tabBadgeColorActive: color.white,
+  tabBadgeBackground: color.charcoal300,
+  tabBadgeBackgroundHover: color.primary300,
+  tabBadgeBackgroundActive: color.primary500
 };
 
 export default {

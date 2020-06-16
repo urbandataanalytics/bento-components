@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import DefaultTheme from '../../themes/defaultTheme';
+import Loader from './Loader/';
 
 const componentSizes = theme => ({
   medium: {
@@ -21,16 +22,13 @@ const componentVariants = theme => ({
   primary: {
     color: theme.components.buttonPrimaryColor,
     backgroundColor: theme.components.buttonPrimaryBackgroundColor,
-    borderColor: theme.components.buttonPrimaryBorderColor,
     borderRadius: theme.components.buttonPrimaryBorderRadius,
     '&:hover': {
       backgroundColor: theme.components.buttonPrimaryHoverBackgroundColor,
-      borderColor: theme.components.buttonPrimaryHoverBorderColor,
       color: theme.components.buttonPrimaryHoverColor
     },
     '&:disabled': {
-      backgroundColor: theme.components.buttonPrimaryDisabledBackgroundColor,
-      borderColor: theme.components.buttonPrimaryDisabledBorderColor
+      backgroundColor: theme.components.buttonPrimaryDisabledBackgroundColor
     }
   },
   secondary: {
@@ -45,13 +43,14 @@ const componentVariants = theme => ({
     },
     '&:disabled': {
       backgroundColor: theme.components.buttonSecondaryDisabledBackgroundColor,
-      borderColor: theme.components.buttonSecondaryDisabledBorderColor
+      borderColor: theme.components.buttonSecondaryDisabledBorderColor,
+      color: theme.components.buttonSecondaryDisabledColor
     }
   }
 });
 
 const StyledButton = styled.button`
-  border-width: 1px;
+  border-width: ${props => (props.variant === 'secondary' ? '1px' : 0)};
   border-style: solid;
   font-family: ${props => props.theme.global.fontFamily};
   font-weight: ${props => props.theme.global.fontWeightMedium};
@@ -64,13 +63,40 @@ const StyledButton = styled.button`
   align-items: center;
   justify-content: center;
   transition: ${props => props.theme.global.transition};
+  position: relative;
+  overflow: hidden;
+
+  &:after{
+    content: "";
+    background: rgba(255,255,255,0.3);
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 1;
+  }
+
+  &:active:after {
+    height: 1px;
+    width: 1px;
+    opacity: 1;
+    transition: 0s;
+  }
+
 
   &:disabled {
     cursor: default;
   }
 
   ${props => (props.block ? 'width: 100%;' : '')}
-
   ${props => componentSizes(props.theme)[props.size]}
   ${props => componentVariants(props.theme)[props.variant]}
 `;
@@ -80,8 +106,20 @@ const IconWrapper = styled.span`
   & > svg {
     width: ${props => (props.size === 'large' ? '18px' : '15px')};
     height: ${props => (props.size === 'large' ? '18px' : '15px')};
+    path {
+      ${props =>
+        props.disabled
+          ? `fill: ${
+              props.variant === 'primary'
+                ? props.theme.color.white
+                : props.theme.components.buttonSecondaryDisabledColor
+            } ;`
+          : null}
+    }
   }
 `;
+
+const StyledContent = styled.span``;
 
 const Button = React.forwardRef((props, ref) => {
   const {
@@ -93,6 +131,8 @@ const Button = React.forwardRef((props, ref) => {
     iconRight,
     size,
     tabIndex,
+    loading,
+    loadingText,
     variant,
     ...other
   } = props;
@@ -101,21 +141,22 @@ const Button = React.forwardRef((props, ref) => {
     <StyledButton
       block={block}
       className={className}
-      disabled={disabled}
+      disabled={loading || disabled}
       ref={ref}
       size={size}
       tabIndex={tabIndex}
       variant={variant}
       {...other}
     >
+      <Loader loading={loading} loadingText={loadingText} />
       {iconLeft && (
-        <IconWrapper direction="left" size={size}>
+        <IconWrapper variant={variant} disabled={disabled} direction="left" size={size}>
           {iconLeft}
         </IconWrapper>
       )}
-      {children}
+      <StyledContent>{children}</StyledContent>
       {iconRight && (
-        <IconWrapper direction="right" size={size}>
+        <IconWrapper variant={variant} disabled={disabled} direction="right" size={size}>
           {iconRight}
         </IconWrapper>
       )}
@@ -135,6 +176,7 @@ Button.propTypes = {
 Button.defaultProps = {
   block: false,
   disabled: false,
+  loading: false,
   size: 'medium',
   variant: 'primary'
 };
