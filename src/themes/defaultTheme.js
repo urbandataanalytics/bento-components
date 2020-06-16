@@ -112,6 +112,7 @@ const shapes = {
   borderRadiusLarge: '8px',
   borderRadiusMedium: '4px',
   borderRadiusSmall: '2px',
+  borderRadiusFull: '50%',
   borderWidthMedium: '2px',
   borderWidthSmall: '1px'
 };
@@ -192,6 +193,27 @@ const components = {
   inputFieldLineHeight: '48px',
   inputFieldPlaceholderColor: color.charcoal400,
   inputFieldTextIndent: spacings.small4,
+
+  /* Avatar Theme Props */
+  avatarBorderRadius: shapes.borderRadiusFull,
+  avatarBackgroundColor: color.primary500,
+  avatarColor: color.white,
+  avatarSizeSmall: spacings.small4,
+  avatarSizeMedium: spacings.medium1,
+  avatarSizeLarge: spacings.medium3,
+  avatarFontSizeSmall: '12px',
+  avatarFontSizeMedium: '14px',
+  avatarFontSizeLarge: '24px',
+
+  /* Navigation Theme Props */
+  navigationBorder: `1px solid ${color.charcoal300}`,
+  navigationMenuPadding: `20px ${spacings.small4}`,
+  navigationMenuBackgroundColor: color.charcoal300,
+  navigationMenuOpenBackgroundColor: color.primary100,
+  navigationMenuHoverBackgroundColor: color.charcoal400,
+  navigationContentMargin: '0 42px 0 0',
+  navigationLinkMargin: '0 24px 0 0',
+  navigationHeaderPadding: '0 17px',
 
   /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
