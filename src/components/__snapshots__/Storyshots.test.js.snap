@@ -7174,7 +7174,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
-  left: 8px;
+  left: 8px z-index:1;
 }
 
 <div
@@ -7912,7 +7912,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
-  left: 8px;
+  left: 8px z-index:1;
 }
 
 <div
@@ -30562,7 +30562,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
-  left: 8px;
+  left: 8px z-index:1;
 }
 
 .c0 {
