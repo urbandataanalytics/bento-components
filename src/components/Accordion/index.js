@@ -93,7 +93,9 @@ StyledSubHeaderContent.defaultProps = {
   theme: defaultTheme
 };
 
-const StyledArrowIcon = styled(({ className }) => <IconArrowClose className={className} />)`
+const StyledArrowIcon = styled(({ className }) => (
+  <IconArrowClose color={'secondary'} className={className} />
+))`
   margin-left: 10px;
   transition: transform 300ms ease-in-out;
   transform: rotate(${props => (props.expanded ? '180deg' : '0')});
