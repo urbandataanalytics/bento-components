@@ -151,14 +151,17 @@ const Drawer = props => {
 
 Drawer.propTypes = {
   children: PropTypes.node.isRequired,
+  header: PropTypes.node.isRequired,
+  subHeader: PropTypes.node,
+  onClose: PropTypes.func,
   position: PropTypes.oneOf(['left', 'right']).isRequired,
   open: PropTypes.bool.isRequired,
   showOverlay: PropTypes.bool,
   width: PropTypes.string,
-  offsetTop: PropTypes.number,
-  offsetLeft: PropTypes.number,
-  offsetRight: PropTypes.number,
-  offsetBottom: PropTypes.number
+  offsetTop: PropTypes.string,
+  offsetLeft: PropTypes.string,
+  offsetRight: PropTypes.string,
+  offsetBottom: PropTypes.string
 };
 
 export default Drawer;
