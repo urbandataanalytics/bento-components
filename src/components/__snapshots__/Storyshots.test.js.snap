@@ -3859,6 +3859,7 @@ exports[`Storyshots Button Block 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -3997,7 +3998,6 @@ exports[`Storyshots Button Block 1`] = `
     >
       <svg
         className="c2"
-        custoColor="white"
         data-name="IconLoader"
         preserveAspectRatio="xMidYMid meet"
         size="small"
@@ -4300,6 +4300,7 @@ exports[`Storyshots Button Loading 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -4437,7 +4438,6 @@ exports[`Storyshots Button Loading 1`] = `
     >
       <svg
         className="c2"
-        custoColor="white"
         data-name="IconLoader"
         preserveAspectRatio="xMidYMid meet"
         size="small"
@@ -4740,6 +4740,7 @@ exports[`Storyshots Button Normal 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -4877,7 +4878,6 @@ exports[`Storyshots Button Normal 1`] = `
     >
       <svg
         className="c2"
-        custoColor="white"
         data-name="IconLoader"
         preserveAspectRatio="xMidYMid meet"
         size="small"
@@ -5190,6 +5190,7 @@ exports[`Storyshots Button With Icon 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -5336,7 +5337,6 @@ exports[`Storyshots Button With Icon 1`] = `
     >
       <svg
         className="c2"
-        custoColor="white"
         data-name="IconLoader"
         preserveAspectRatio="xMidYMid meet"
         size="small"
@@ -7217,6 +7217,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -7462,7 +7463,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
         >
           <svg
             className="c4"
-            custoColor="white"
             data-name="IconLoader"
             preserveAspectRatio="xMidYMid meet"
             size="small"
@@ -7824,6 +7824,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -8191,7 +8192,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
         >
           <svg
             className="c4"
-            custoColor="white"
             data-name="IconLoader"
             preserveAspectRatio="xMidYMid meet"
             size="small"
@@ -9683,6 +9683,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -10004,7 +10005,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
       >
         <svg
           className="c8"
-          custoColor="white"
           data-name="IconLoader"
           preserveAspectRatio="xMidYMid meet"
           size="small"
