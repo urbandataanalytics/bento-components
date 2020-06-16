@@ -45,6 +45,9 @@ export * from './components/NavigationBar';
 export { default as Avatar } from './components/Avatar';
 export * from './components/Avatar';
 
+export { default as ButtonLink } from './components/ButtonLink';
+export * from './components/ButtonLink';
+
 export { default as Tabs } from './components/Tabs';
 export * from './components/Tabs';
 

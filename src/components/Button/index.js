@@ -176,6 +176,7 @@ Button.propTypes = {
 Button.defaultProps = {
   block: false,
   disabled: false,
+  loading: false,
   size: 'medium',
   variant: 'primary'
 };
