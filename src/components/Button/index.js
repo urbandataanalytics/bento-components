@@ -107,7 +107,14 @@ const IconWrapper = styled.span`
     width: ${props => (props.size === 'large' ? '18px' : '15px')};
     height: ${props => (props.size === 'large' ? '18px' : '15px')};
     path {
-      ${props => props.disabled && `fill: ${props.theme.color.white} ;`}
+      ${props =>
+        props.disabled
+          ? `fill: ${
+              props.variant === 'primary'
+                ? props.theme.color.white
+                : props.theme.components.buttonSecondaryDisabledColor
+            } ;`
+          : null}
     }
   }
 `;
@@ -143,13 +150,13 @@ const Button = React.forwardRef((props, ref) => {
     >
       <Loader loading={loading} loadingText={loadingText} />
       {iconLeft && (
-        <IconWrapper disabled={disabled} direction="left" size={size}>
+        <IconWrapper variant={variant} disabled={disabled} direction="left" size={size}>
           {iconLeft}
         </IconWrapper>
       )}
       <StyledContent>{children}</StyledContent>
       {iconRight && (
-        <IconWrapper disabled={disabled} direction="right" size={size}>
+        <IconWrapper variant={variant} disabled={disabled} direction="right" size={size}>
           {iconRight}
         </IconWrapper>
       )}
