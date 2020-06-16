@@ -151,6 +151,7 @@ const components = {
   buttonSecondaryColor: color.charcoal800,
   buttonSecondaryDisabledBackgroundColor: color.white,
   buttonSecondaryDisabledBorderColor: color.charcoal400,
+  buttonSecondaryDisabledColor: color.charcoal400,
   buttonSecondaryHoverBackgroundColor: color.charcoal800,
   buttonSecondaryHoverBorderColor: color.primary300,
   buttonSecondaryHoverColor: color.white,

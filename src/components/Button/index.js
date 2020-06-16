@@ -43,7 +43,8 @@ const componentVariants = theme => ({
     },
     '&:disabled': {
       backgroundColor: theme.components.buttonSecondaryDisabledBackgroundColor,
-      borderColor: theme.components.buttonSecondaryDisabledBorderColor
+      borderColor: theme.components.buttonSecondaryDisabledBorderColor,
+      color: theme.components.buttonSecondaryDisabledColor
     }
   }
 });
@@ -105,6 +106,9 @@ const IconWrapper = styled.span`
   & > svg {
     width: ${props => (props.size === 'large' ? '18px' : '15px')};
     height: ${props => (props.size === 'large' ? '18px' : '15px')};
+    path {
+      ${props => props.disabled && `fill: ${props.theme.color.white} ;`}
+    }
   }
 `;
 
@@ -139,13 +143,13 @@ const Button = React.forwardRef((props, ref) => {
     >
       <Loader loading={loading} loadingText={loadingText} />
       {iconLeft && (
-        <IconWrapper direction="left" size={size}>
+        <IconWrapper disabled={disabled} direction="left" size={size}>
           {iconLeft}
         </IconWrapper>
       )}
       <StyledContent>{children}</StyledContent>
       {iconRight && (
-        <IconWrapper direction="right" size={size}>
+        <IconWrapper disabled={disabled} direction="right" size={size}>
           {iconRight}
         </IconWrapper>
       )}
