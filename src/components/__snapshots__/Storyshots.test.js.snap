@@ -41496,13 +41496,15 @@ exports[`Storyshots Tabs Normal 1`] = `
   font-size: 12px;
   line-height: 22px;
   font-weight: 500;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
 }
 
 .c1 {
-  color: #747D93;
   text-transform: uppercase;
   margin: 0 20px;
-  border-bottom: 3px solid transparent;
   height: 40px;
   line-height: 40px;
   cursor: pointer;
@@ -41510,32 +41512,58 @@ exports[`Storyshots Tabs Normal 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-}
-
-.c1:hover {
-  color: #48AAF1;
-  border-bottom: 3px solid #48AAF1;
-}
-
-.c1:hover .c3 {
-  background-color: #48AAF1;
-  color: #FFFFFF;
-}
-
-.c1.active {
   color: #1778FB;
   border-bottom: 3px solid #1778FB;
 }
 
-.c1.active .c3 {
-  background-color: #1778FB;
+.c3 {
+  text-transform: uppercase;
+  margin: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #747D93;
+  border-bottom: 3px solid transparent;
+}
+
+.c3:hover {
+  color: #48AAF1;
+  border-bottom: 3px solid #48AAF1;
+}
+
+.c3:hover .c5 {
+  background-color: #48AAF1;
   color: #FFFFFF;
 }
 
-.c1.disabled {
+.c4 {
+  text-transform: uppercase;
+  margin: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: #DCDFE6;
-  cursor: default;
   border-bottom: 3px solid transparent;
+  cursor: default;
+  pointer-events: none;
+}
+
+.c4:hover {
+  color: #48AAF1;
+  border-bottom: 3px solid #48AAF1;
+}
+
+.c4:hover .c5 {
+  background-color: #48AAF1;
+  color: #FFFFFF;
 }
 
 <div
@@ -41549,7 +41577,7 @@ exports[`Storyshots Tabs Normal 1`] = `
     className="c0"
   >
     <div
-      className="c1 active null"
+      className="c1"
       onClick={[Function]}
     >
       <span
@@ -41559,7 +41587,7 @@ exports[`Storyshots Tabs Normal 1`] = `
       </span>
     </div>
     <div
-      className="c1  null"
+      className="c3"
       onClick={[Function]}
     >
       <span
@@ -41569,7 +41597,8 @@ exports[`Storyshots Tabs Normal 1`] = `
       </span>
     </div>
     <div
-      className="c1  disabled"
+      className="c4"
+      disabled={true}
       onClick={[Function]}
     >
       <span
@@ -41605,10 +41634,13 @@ exports[`Storyshots Tabs With Badge 1`] = `
   font-size: 12px;
   line-height: 22px;
   font-weight: 500;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
 }
 
 .c4 {
-  background: #EFF2F7;
   font-size: 12px;
   line-height: 18px;
   padding: 2px 8px;
@@ -41616,14 +41648,27 @@ exports[`Storyshots Tabs With Badge 1`] = `
   border-radius: 100px;
   display: inline-block;
   margin-left: 8px;
+  height: 22px;
+  background: #1778FB;
+  color: #FFFFFF;
+}
+
+.c6 {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 2px 8px;
+  font-weight: 500;
+  border-radius: 100px;
+  display: inline-block;
+  margin-left: 8px;
+  height: 22px;
+  background: #EFF2F7;
   color: #747D93;
 }
 
 .c1 {
-  color: #747D93;
   text-transform: uppercase;
   margin: 0 20px;
-  border-bottom: 3px solid transparent;
   height: 40px;
   line-height: 40px;
   cursor: pointer;
@@ -41631,32 +41676,58 @@ exports[`Storyshots Tabs With Badge 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-}
-
-.c1:hover {
-  color: #48AAF1;
-  border-bottom: 3px solid #48AAF1;
-}
-
-.c1:hover .c3 {
-  background-color: #48AAF1;
-  color: #FFFFFF;
-}
-
-.c1.active {
   color: #1778FB;
   border-bottom: 3px solid #1778FB;
 }
 
-.c1.active .c3 {
-  background-color: #1778FB;
+.c5 {
+  text-transform: uppercase;
+  margin: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #747D93;
+  border-bottom: 3px solid transparent;
+}
+
+.c5:hover {
+  color: #48AAF1;
+  border-bottom: 3px solid #48AAF1;
+}
+
+.c5:hover .c3 {
+  background-color: #48AAF1;
   color: #FFFFFF;
 }
 
-.c1.disabled {
+.c7 {
+  text-transform: uppercase;
+  margin: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: #DCDFE6;
-  cursor: default;
   border-bottom: 3px solid transparent;
+  cursor: default;
+  pointer-events: none;
+}
+
+.c7:hover {
+  color: #48AAF1;
+  border-bottom: 3px solid #48AAF1;
+}
+
+.c7:hover .c3 {
+  background-color: #48AAF1;
+  color: #FFFFFF;
 }
 
 <div
@@ -41670,37 +41741,38 @@ exports[`Storyshots Tabs With Badge 1`] = `
     className="c0"
   >
     <div
-      className="c1 active null"
+      className="c1"
       onClick={[Function]}
     >
       <span
         className="c2"
       >
         Tab 1
-        <span
-          className="c3 c4"
-        >
-          12
-        </span>
+      </span>
+      <span
+        className="c3 c4"
+      >
+        12
       </span>
     </div>
     <div
-      className="c1  null"
+      className="c5"
       onClick={[Function]}
     >
       <span
         className="c2"
       >
         Tab 2
-        <span
-          className="c3 c4"
-        >
-          9
-        </span>
+      </span>
+      <span
+        className="c3 c6"
+      >
+        9
       </span>
     </div>
     <div
-      className="c1  disabled"
+      className="c7"
+      disabled={true}
       onClick={[Function]}
     >
       <span
