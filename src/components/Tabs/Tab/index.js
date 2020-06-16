@@ -7,6 +7,7 @@ const StyledTabLabel = styled.span`
   font-size: ${props => props.theme.components.tabFontSize};
   line-height: 22px;
   font-weight: ${props => props.theme.components.tabFontWeight};
+  letter-spacing: 0.6px;
 `;
 StyledTabLabel.defaultProps = {
   theme: defaultTheme
@@ -22,6 +23,7 @@ const StyledTabBadge = styled.span`
   display: inline-block;
   margin-left: 8px;
   color: ${props => props.theme.components.tabBadgeColor};
+  height: 22px;
 `;
 StyledTabBadge.defaultProps = {
   theme: defaultTheme
@@ -74,13 +76,11 @@ const Tab = ({ label, badge, active, disabled, value, onChange }) => {
 
   return (
     <StyledTabContainer
-      className={`${active ? 'active' : ''} ${disabled ? 'disabled' : null}`}
+      className={`${active ? 'active' : ''} ${disabled ? 'disabled' : ''}`}
       onClick={handleClick}
     >
-      <StyledTabLabel>
-        {label}
-        {badge && !disabled ? <StyledTabBadge>{badge}</StyledTabBadge> : null}
-      </StyledTabLabel>
+      <StyledTabLabel>{label}</StyledTabLabel>
+      {badge && !disabled ? <StyledTabBadge>{badge}</StyledTabBadge> : null}
     </StyledTabContainer>
   );
 };

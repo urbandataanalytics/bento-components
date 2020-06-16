@@ -36310,6 +36310,10 @@ exports[`Storyshots Tabs Normal 1`] = `
   font-size: 12px;
   line-height: 22px;
   font-weight: 500;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
 }
 
 .c1 {
@@ -36363,7 +36367,7 @@ exports[`Storyshots Tabs Normal 1`] = `
     className="c0"
   >
     <div
-      className="c1 active null"
+      className="c1 active "
       onClick={[Function]}
     >
       <span
@@ -36373,7 +36377,7 @@ exports[`Storyshots Tabs Normal 1`] = `
       </span>
     </div>
     <div
-      className="c1  null"
+      className="c1  "
       onClick={[Function]}
     >
       <span
@@ -36419,6 +36423,10 @@ exports[`Storyshots Tabs With Badge 1`] = `
   font-size: 12px;
   line-height: 22px;
   font-weight: 500;
+  -webkit-letter-spacing: 0.6px;
+  -moz-letter-spacing: 0.6px;
+  -ms-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
 }
 
 .c4 {
@@ -36431,6 +36439,7 @@ exports[`Storyshots Tabs With Badge 1`] = `
   display: inline-block;
   margin-left: 8px;
   color: #747D93;
+  height: 22px;
 }
 
 .c1 {
@@ -36484,33 +36493,33 @@ exports[`Storyshots Tabs With Badge 1`] = `
     className="c0"
   >
     <div
-      className="c1 active null"
+      className="c1 active "
       onClick={[Function]}
     >
       <span
         className="c2"
       >
         Tab 1
-        <span
-          className="c3 c4"
-        >
-          12
-        </span>
+      </span>
+      <span
+        className="c3 c4"
+      >
+        12
       </span>
     </div>
     <div
-      className="c1  null"
+      className="c1  "
       onClick={[Function]}
     >
       <span
         className="c2"
       >
         Tab 2
-        <span
-          className="c3 c4"
-        >
-          9
-        </span>
+      </span>
+      <span
+        className="c3 c4"
+      >
+        9
       </span>
     </div>
     <div
