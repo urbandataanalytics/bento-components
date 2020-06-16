@@ -4203,7 +4203,7 @@ exports[`Storyshots Button Block 1`] = `
   >
     <span
       className="c1"
-      loading={false}
+      loading="false"
     >
       <svg
         className="c2"
@@ -4662,7 +4662,7 @@ exports[`Storyshots Button Loading 1`] = `
   >
     <span
       className="c1"
-      loading={true}
+      loading="true"
     >
       <svg
         className="c2"
@@ -5121,7 +5121,7 @@ exports[`Storyshots Button Normal 1`] = `
   >
     <span
       className="c1"
-      loading={false}
+      loading="false"
     >
       <svg
         className="c2"
@@ -5599,7 +5599,7 @@ exports[`Storyshots Button With Icon 1`] = `
   >
     <span
       className="c1"
-      loading={false}
+      loading="false"
     >
       <svg
         className="c2"
@@ -7821,6 +7821,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
       >
         <span
           className="c3"
+          loading="false"
         >
           <svg
             className="c4"
@@ -8125,7 +8126,9 @@ exports[`Storyshots Dropdown Playground 1`] = `
           </svg>
           <span
             className="c5"
-          />
+          >
+            
+          </span>
         </span>
         <span
           className=""
@@ -8569,6 +8572,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
       >
         <span
           className="c3"
+          loading="false"
         >
           <svg
             className="c4"
@@ -8873,7 +8877,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           </svg>
           <span
             className="c5"
-          />
+          >
+            
+          </span>
         </span>
         <span
           className=""
@@ -10477,6 +10483,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
     >
       <span
         className="c7"
+        loading="false"
       >
         <svg
           className="c8"
@@ -10781,7 +10788,9 @@ exports[`Storyshots FormGroup Playground 1`] = `
         </svg>
         <span
           className="c9"
-        />
+        >
+          
+        </span>
       </span>
       <span
         className=""
