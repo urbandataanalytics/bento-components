@@ -50,7 +50,7 @@ describe(`Checkbox`, () => {
       const wrapper = shallow(<Checkbox onChange={onChange} />);
 
       wrapper.find('Checkbox__Input').simulate('change');
-      const [event, isChecked] = onChange.mock.calls[0];
+      const [event, isChecked] = onChange.mock.calls[0]; // eslint-disable-line no-unused-vars
 
       expect(onChange).toHaveBeenCalled();
       expect(isChecked).toBe(true);

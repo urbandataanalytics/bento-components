@@ -32,7 +32,7 @@ const color = {
   emerald500: '#55BAA9',
   emerald600: '#299B9A',
   primary100: '#EFF7FB',
-  primary300: '#5FAEDA',
+  primary300: '#48AAF1',
   primary500: '#1778FB',
   primary700: '#0C1B7A',
   redclay100: '#FAEDEC',
@@ -295,7 +295,28 @@ const components = {
   listItemPaddingLarge: '8px 16px',
   listItemFontSizeMedium: '12px',
   listItemFontSizeLarge: '14px',
-  listItemFontWeight: global.fontWeightMedium
+  listItemFontWeight: global.fontWeightMedium,
+
+  /*Tabs Theme props*/
+  tabsBorderColor: color.charcoal300,
+  tabFontSize: texts.p2b.fontSize,
+  tabFontWeight: texts.p2b.fontWeight,
+  tabColor: color.charcoal600,
+  tabColorHover: color.primary300,
+  tabColorActive: color.primary500,
+  tabColorDisabled: color.charcoal400,
+  tabBorderColor: 'transparent',
+  tabBorderColorHover: color.primary300,
+  tabBorderColorActive: color.primary500,
+  tabBadgeFontSize: texts.p2b.fontSize,
+  tabBadgeFontWeight: texts.p2b.fontWeight,
+  tabBadgePadding: '2px 8px',
+  tabBadgeColor: color.charcoal600,
+  tabBadgeColorHover: color.white,
+  tabBadgeColorActive: color.white,
+  tabBadgeBackground: color.charcoal300,
+  tabBadgeBackgroundHover: color.primary300,
+  tabBadgeBackgroundActive: color.primary500
 };
 
 export default {
