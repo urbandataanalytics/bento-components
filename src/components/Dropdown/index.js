@@ -28,7 +28,7 @@ const ChildrenContainer = styled.div`
   border-radius: ${props => props.theme.components.dropdownBorderRadius};
   background: ${props => props.theme.components.dropdownBackground};
   padding: ${props => props.theme.components.dropdownPadding};
-  ${props => `${props.position}: 8px`}
+  ${props => `${props.position}: 8px`};
   z-index: 1;
 `;
 
