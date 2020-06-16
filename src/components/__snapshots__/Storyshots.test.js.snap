@@ -35841,6 +35841,122 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
 </div>
 `;
 
+exports[`Storyshots SwitchButtons Normal 1`] = `
+.c0 {
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: 'transparent';
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  padding: 5px;
+  font-size: 14px;
+  color: #1778FB;
+}
+
+.c0:disabled {
+  cursor: default;
+  color: #DCDFE6;
+}
+
+.c0:hover {
+  background-color: #EFF2F7;
+}
+
+.c1 {
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: 'transparent';
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  padding: 5px;
+  font-size: 14px;
+  color: #747D93;
+}
+
+.c1:disabled {
+  cursor: default;
+  color: #DCDFE6;
+}
+
+.c1:hover {
+  background-color: #EFF2F7;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className=""
+  >
+    <button
+      className="c0"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="first"
+    >
+      First
+    </button>
+    <button
+      className="c1"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="second"
+    >
+      Second
+    </button>
+    <button
+      className="c1"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="third"
+    >
+      Value
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Tabs Normal 1`] = `
 .c0 {
   width: 100%;
