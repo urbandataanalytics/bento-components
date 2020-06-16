@@ -41,7 +41,7 @@ const Loader = props => {
 
   return (
     <StyledLoader loading={loading}>
-      <IconLoader size="small" custoColor="white" />
+      <IconLoader size="small" customColor="white" />
       <StyledText>{loadingText}</StyledText>
     </StyledLoader>
   );
