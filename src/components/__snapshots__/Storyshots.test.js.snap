@@ -2,7 +2,18 @@
 
 exports[`Storyshots Accordion Accordion List 1`] = `
 Array [
-  .c2 {
+  .c6 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  color: #747D93;
+  width: 24px;
+  height: 24px;
+}
+
+.c2 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -58,7 +69,7 @@ Array [
   font-weight: 500;
 }
 
-.c6 {
+.c7 {
   margin-left: 10px;
   -webkit-transition: -webkit-transform 300ms ease-in-out;
   -webkit-transition: transform 300ms ease-in-out;
@@ -400,7 +411,7 @@ Array [
       className="c5"
     >
       <svg
-        className="c2 c6"
+        className="c6 c7"
         data-name="IconArrowClose"
         preserveAspectRatio="xMidYMid meet"
         size="medium"
@@ -726,7 +737,18 @@ Array [
   >
     Child message
   </div>,
-  .c2 {
+  .c8 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  color: #747D93;
+  width: 24px;
+  height: 24px;
+}
+
+.c2 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -799,7 +821,7 @@ Array [
   font-weight: 700;
 }
 
-.c8 {
+.c9 {
   margin-left: 10px;
   -webkit-transition: -webkit-transform 300ms ease-in-out;
   -webkit-transition: transform 300ms ease-in-out;
@@ -1174,7 +1196,7 @@ Array [
         link
       </a>
       <svg
-        className="c2 c8"
+        className="c8 c9"
         data-name="IconArrowClose"
         preserveAspectRatio="xMidYMid meet"
         size="medium"
@@ -2945,7 +2967,18 @@ Array [
       </li>
     </ul>
   </div>,
-  .c2 {
+  .c6 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  color: #747D93;
+  width: 24px;
+  height: 24px;
+}
+
+.c2 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -3001,7 +3034,7 @@ Array [
   font-weight: 500;
 }
 
-.c6 {
+.c7 {
   margin-left: 10px;
   -webkit-transition: -webkit-transform 300ms ease-in-out;
   -webkit-transition: transform 300ms ease-in-out;
@@ -3343,7 +3376,7 @@ Array [
       className="c5"
     >
       <svg
-        className="c2 c6"
+        className="c6 c7"
         data-name="IconArrowClose"
         preserveAspectRatio="xMidYMid meet"
         size="medium"
@@ -3680,6 +3713,7 @@ Array [
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: #747D93;
   width: 24px;
   height: 24px;
 }
@@ -8201,7 +8235,18 @@ Array [
       Open drawer
     </span>
   </button>,
-  .c7 {
+  .c11 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  color: #747D93;
+  width: 24px;
+  height: 24px;
+}
+
+.c7 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -8240,7 +8285,7 @@ Array [
   align-content: center;
 }
 
-.c12 {
+.c13 {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   overflow: hidden;
@@ -8276,7 +8321,7 @@ Array [
   font-weight: 500;
 }
 
-.c11 {
+.c12 {
   margin-left: 10px;
   -webkit-transition: -webkit-transform 300ms ease-in-out;
   -webkit-transition: transform 300ms ease-in-out;
@@ -8286,16 +8331,16 @@ Array [
   transform: rotate(0);
 }
 
-.c16 {
+.c17 {
   margin-right: 19px;
   color: #747D93;
 }
 
-.c16 > svg {
+.c17 > svg {
   fill: #747D93;
 }
 
-.c14 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8315,16 +8360,16 @@ Array [
   border-radius: 2px;
 }
 
-.c14:last-child {
+.c15:last-child {
   margin-bottom: 0;
 }
 
-.c14:hover {
+.c15:hover {
   background-color: #EFF2F7;
   color: #747D93;
 }
 
-.c14 > .c15 {
+.c15 > .c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8345,7 +8390,7 @@ Array [
   font-size: 12px;
 }
 
-.c17 > .c15 {
+.c18 > .c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8366,7 +8411,7 @@ Array [
   font-size: 12px;
 }
 
-.c13 {
+.c14 {
   background-color: #FFFFFF;
   box-sizing: border-box;
 }
@@ -9089,7 +9134,7 @@ Array [
           className="c10"
         >
           <svg
-            className="c7 c11"
+            className="c11 c12"
             data-name="IconArrowClose"
             preserveAspectRatio="xMidYMid meet"
             size="medium"
@@ -9402,21 +9447,21 @@ Array [
         </div>
       </div>
       <div
-        className="c12"
+        className="c13"
       >
         <ul
-          className="c13"
+          className="c14"
           size="medium"
         >
           <li
-            className="c14"
+            className="c15"
             size="medium"
           >
             <div
-              className="c15 "
+              className="c16 "
             >
               <div
-                className="c16"
+                className="c17"
               >
                 <svg
                   className="c7"
@@ -9734,14 +9779,14 @@ Array [
             </div>
           </li>
           <li
-            className="c14"
+            className="c15"
             size="medium"
           >
             <div
-              className="c15 "
+              className="c16 "
             >
               <div
-                className="c16"
+                className="c17"
               >
                 <svg
                   className="c7"
@@ -10059,14 +10104,14 @@ Array [
             </div>
           </li>
           <li
-            className="c14"
+            className="c15"
             size="medium"
           >
             <div
-              className="c15 "
+              className="c16 "
             >
               <div
-                className="c16"
+                className="c17"
               >
                 <svg
                   className="c7"
@@ -10717,7 +10762,7 @@ Array [
           className="c10"
         >
           <svg
-            className="c7 c11"
+            className="c11 c12"
             data-name="IconArrowClose"
             preserveAspectRatio="xMidYMid meet"
             size="medium"
@@ -11030,21 +11075,21 @@ Array [
         </div>
       </div>
       <div
-        className="c12"
+        className="c13"
       >
         <ul
-          className="c13"
+          className="c14"
           size="medium"
         >
           <li
-            className="c14"
+            className="c15"
             size="medium"
           >
             <div
-              className="c15 "
+              className="c16 "
             >
               <div
-                className="c16"
+                className="c17"
               >
                 <svg
                   className="c7"
@@ -36998,6 +37043,17 @@ exports[`Storyshots List With Childrens 1`] = `
 `;
 
 exports[`Storyshots NavigationBar Normal 1`] = `
+.c19 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  color: #747D93;
+  width: 24px;
+  height: 24px;
+}
+
 .c11 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
@@ -37016,17 +37072,6 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   fill: currentColor;
   width: 32px;
   height: 32px;
-}
-
-.c19 {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  vertical-align: middle;
-  fill: currentColor;
-  color: #747D93;
-  width: 24px;
-  height: 24px;
 }
 
 .c10 {
