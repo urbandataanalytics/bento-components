@@ -35,6 +35,19 @@ const placements = {
 };
 
 const StyledDrawerOverlay = styled.div`
+  // display: flex;
+  // visibility: ${props => (props.open ? 'visible' : 'hidden')};
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  // bottom: 0;
+  // width: 100%;
+  // height: 100%;
+  // z-index: 999;
+  // max-width: 320px;
+  
+  
   //position: fixed;
   //position: absolute;
   //top: 0;
@@ -42,8 +55,8 @@ const StyledDrawerOverlay = styled.div`
   //bottom: 0;
   //left: 0;
   //z-index: 8;
-  display: ${props => (props.open ? null : 'none')};
 `;
+// display: ${props => (props.open ? null : 'none')};
 
 StyledDrawerOverlay.defaultProps = {
   theme: defaultTheme
@@ -55,22 +68,24 @@ const StyledDrawerSide = styled.aside`
   box-sizing: border-box;
   z-index: 16;
   top: 0;
+  ${({ position }) => position === 'right' && 'right: 0'};
+  ${({ position }) => position === 'left' && 'left: 0'};
   bottom: 0;
   height: 100%;
   width: 100%;
   max-width: 320px;
- ${props =>
-   props.position === 'right'
-     ? 'border-left: 1px solid #EFF2F7;'
-     : 'border-right: 1px solid #EFF2F7;'} //charcoal300
   background-color: #ffffff;
+  transition: transform 0.3s ease-in-out;
+  ${props =>
+    props.position === 'right'
+      ? 'border-left: 1px solid #EFF2F7'
+      : 'border-right: 1px solid #EFF2F7'};
 
-  // transform: ${props => (!props.open ? transforms[props.position] : null)};
-  ${props => placements[props.position]}
-  
-   transform: ${props => (!props.open ? transforms[props.position] : null)};
-  transition: transform 0.2s ease-out;
+  transform: translate3d(0px, 0px, 0px);
 `;
+
+// transform: ${props => (!props.open ? transforms[props.position] : null)};
+// ${props => placements[props.position]}
 
 StyledDrawerSide.defaultProps = {
   theme: defaultTheme
@@ -136,7 +151,6 @@ const Drawer = props => {
             <IconClose size={'medium'} />
           </CloseButton>
         </StyledDrawerHeader>
-
         <StyledDrawerContent>{children}</StyledDrawerContent>
       </StyledDrawerSide>
     </StyledDrawerOverlay>
