@@ -33,6 +33,9 @@ export * from './components/List';
 export { default as ListItem } from './components/List/ListItem';
 export * from './components/List/ListItem';
 
+export { default as Drawer } from './components/Drawer';
+export * from './components/Drawer';
+
 export { default as LinkList } from './components/LinkList';
 export * from './components/LinkList';
 

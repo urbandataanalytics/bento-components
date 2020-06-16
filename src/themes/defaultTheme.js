@@ -271,6 +271,17 @@ const components = {
   textLinkSecondaryColor: color.charcoal600,
   textLinkSecondaryHoverColor: color.primary300,
 
+  /*Drawer Theme props*/
+  drawerMaxWidth: '320px',
+  drawerBackgroundColor: color.white,
+  drawerBorder: `1px solid ${color.charcoal300}`,
+  drawerHeaderBorder: `2px solid ${color.charcoal300}`,
+  drawerHeaderPadding: '17px 24px',
+  drawerCloseButtonBackground: color.white,
+  drawerCloseButtonPadding: '6px',
+  drawerCloseButtonBorderRadius: shapes.borderRadiusMedium,
+  drawerCloseButtonBorder: `1px solid ${color.charcoal400}`,
+
   /*Dropdown Theme props*/
   dropdownBorderColor: color.charcoal300,
   dropdownBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
