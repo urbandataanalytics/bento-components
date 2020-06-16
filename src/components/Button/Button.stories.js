@@ -14,7 +14,9 @@ const getCommonProps = () => {
     size: select('Sizes', ['medium', 'large'], 'medium'),
     variant: select('Variants', ['primary', 'secondary'], 'primary'),
     disabled: boolean('Disabled', false),
-    text: text('Button text', 'Button')
+    loading: boolean('Loading', false),
+    text: text('Button text', 'Button'),
+    loadingText: text('Loading text', 'Loading')
   };
 };
 
@@ -54,6 +56,19 @@ export const WithIcon = () => {
   return (
     <div style={containerStyle}>
       <Button onClick={action('clicked')} iconLeft={<CustomIcon />} {...getCommonProps()}>
+        {getCommonProps().text}
+      </Button>
+    </div>
+  );
+};
+
+export const Loading = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+  return (
+    <div style={containerStyle}>
+      <Button {...getCommonProps()} onClick={action('clicked')} loading>
         {getCommonProps().text}
       </Button>
     </div>
