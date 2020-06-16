@@ -24,11 +24,17 @@ export * from './components/Notification';
 export { default as TextLink } from './components/TextLink';
 export * from './components/TextLink';
 
+export { default as Dropdown } from './components/Dropdown';
+export * from './components/Dropdown';
+
 export { default as List } from './components/List';
 export * from './components/List';
 
 export { default as ListItem } from './components/List/ListItem';
 export * from './components/List/ListItem';
+
+export { default as Drawer } from './components/Drawer';
+export * from './components/Drawer';
 
 export { default as LinkList } from './components/LinkList';
 export * from './components/LinkList';
@@ -42,6 +48,9 @@ export * from './components/NavigationBar';
 export { default as Avatar } from './components/Avatar';
 export * from './components/Avatar';
 
+export { default as ButtonLink } from './components/ButtonLink';
+export * from './components/ButtonLink';
+
 export { default as Tabs } from './components/Tabs';
 export * from './components/Tabs';
 
@@ -51,5 +60,5 @@ export * from './components/Tabs/Tab';
 export { default as Accordion } from './components/Accordion';
 export * from './components/Accordion';
 
-export { default as Drawer } from './components/Drawer';
-export * from './components/Drawer';
+export { default as SwitchButtons } from './components/SwitchButtons';
+export * from './components/SwitchButtons';
