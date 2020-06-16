@@ -156,6 +156,17 @@ const components = {
   buttonSecondaryHoverBorderColor: color.primary300,
   buttonSecondaryHoverColor: color.white,
 
+  buttonLinkPaddingSmall: '3px 4px',
+  buttonLinkFontSizeSmall: '12px',
+  buttonLinkPaddingMedium: '5px',
+  buttonLinkFontSizeMedium: '14px',
+  buttonLinkPaddingLarge: '6px',
+  buttonLinkFontSizeLarge: '14px',
+  buttonLinkPrimaryColor: color.primary500,
+  buttonLinkSecondaryColor: color.charcoal600,
+  buttonLinkDisabledColor: color.charcoal400,
+  buttonLinkHoverBackgroundColor: color.charcoal300,
+
   /* Checkbox Theme props */
   checkboxBackground: color.white,
   checkboxBackgroundChecked: color.primary500,
