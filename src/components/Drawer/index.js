@@ -5,58 +5,22 @@ import defaultTheme from '../../themes/defaultTheme';
 import { IconClose } from '../../icons';
 
 const transforms = {
-  top: 'translateY(-100%)',
   right: 'translateX(100%)',
-  bottom: 'translateY(100%)',
   left: 'translateX(-100%)'
 };
 
-const placements = {
-  top: {
-    top: 0,
-    right: 0,
-    left: 0
-  },
-  right: {
-    top: 0,
-    right: 0,
-    bottom: 0
-  },
-  bottom: {
-    right: 0,
-    bottom: 0,
-    left: 0
-  },
-  left: {
-    top: 0,
-    bottom: 0,
-    left: 0
-  }
-};
-
 const StyledDrawerOverlay = styled.div`
-  // display: flex;
-  // visibility: ${props => (props.open ? 'visible' : 'hidden')};
-  // position: fixed;
-  // top: 0;
-  // left: 0;
-  // right: 0;
-  // bottom: 0;
-  // width: 100%;
-  // height: 100%;
-  // z-index: 999;
-  // max-width: 320px;
-  
-  
-  //position: fixed;
-  //position: absolute;
-  //top: 0;
-  //right: 0;
-  //bottom: 0;
-  //left: 0;
-  //z-index: 8;
+  display: flex;
+  visibility: ${props => (props.open ? 'visible' : 'hidden')};
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
 `;
-// display: ${props => (props.open ? null : 'none')};
 
 StyledDrawerOverlay.defaultProps = {
   theme: defaultTheme
@@ -64,7 +28,7 @@ StyledDrawerOverlay.defaultProps = {
 
 const StyledDrawerSide = styled.aside`
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: border-box;
   z-index: 16;
   top: 0;
@@ -73,29 +37,29 @@ const StyledDrawerSide = styled.aside`
   bottom: 0;
   height: 100%;
   width: 100%;
-  max-width: 320px;
-  background-color: #ffffff;
+  max-width: ${({ theme, width }) => width || theme.components.drawerMaxWidth};
+  background-color: ${({ theme }) => theme.components.drawerBackgroundColor};
   transition: transform 0.3s ease-in-out;
+  ${({ offsetTop }) => offsetTop && `margin-top: ${offsetTop}`};
+  ${({ offsetBottom }) => offsetBottom && `margin-bottom: ${offsetBottom}`};
+  ${({ offsetLeft }) => offsetLeft && `margin-left: ${offsetLeft}`};
+  ${({ offsetRight }) => offsetRight && `margin-right: ${offsetRight}`};
   ${props =>
     props.position === 'right'
-      ? 'border-left: 1px solid #EFF2F7'
-      : 'border-right: 1px solid #EFF2F7'};
-
-  transform: translate3d(0px, 0px, 0px);
+      ? `border-left: ${props.theme.components.drawerBorder}`
+      : `border-right: ${props.theme.components.drawerBorder}`};
+  transform: ${props => (props.open ? 'translateX(0)' : transforms[props.position])};
 `;
-
-// transform: ${props => (!props.open ? transforms[props.position] : null)};
-// ${props => placements[props.position]}
 
 StyledDrawerSide.defaultProps = {
   theme: defaultTheme
 };
 
 const StyledDrawerHeader = styled.header`
-  padding: 17px 24px;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #eff2f7; //charcoal300
+  padding: ${({ theme }) => theme.components.drawerHeaderPadding};
+  border-bottom: ${({ theme }) => theme.components.drawerHeaderBorder};
 `;
 
 StyledDrawerHeader.defaultProps = {
@@ -118,11 +82,10 @@ StyleSubHeading.defaultProps = {
 
 const CloseButton = styled.button`
   margin-left: auto;
-  padding: 10px;
-  background: #ffffff;
-  border: 1px solid #dcdfe6; //charcoal400
-  box-sizing: border-box;
-  border-radius: 4px;
+  padding: ${({ theme }) => theme.components.drawerCloseButtonPadding};
+  background: ${({ theme }) => theme.components.drawerCloseButtonBackground};
+  border-radius: ${({ theme }) => theme.components.drawerCloseButtonBorderRadius};
+  border: ${({ theme }) => theme.components.drawerCloseButtonBorder};
 `;
 
 StyledDrawerHeader.defaultProps = {
@@ -136,33 +99,66 @@ StyledDrawerContent.defaultProps = {
 };
 
 const Drawer = props => {
-  const { open, position, size, header, subHeader, onClose, children, ...other } = props;
+  const {
+    open,
+    position,
+    size,
+    header,
+    subHeader,
+    showOverlay,
+    onClose,
+    children,
+    width,
+    offsetTop,
+    offsetLeft,
+    offsetRight,
+    offsetBottom,
+    ...other
+  } = props;
 
-  return (
-    <StyledDrawerOverlay open={open}>
-      <StyledDrawerSide size={size} position={position} open={open} {...other}>
-        <StyledDrawerHeader>
-          <StyleHeading>
-            {header}
-            <StyleSubHeading>{subHeader}</StyleSubHeading>
-          </StyleHeading>
+  const DrawerContent = (
+    <StyledDrawerSide
+      size={size}
+      position={position}
+      open={open}
+      width={width}
+      offsetTop={offsetTop}
+      offsetLeft={offsetLeft}
+      offsetRight={offsetRight}
+      offsetBottom={offsetBottom}
+      {...other}
+    >
+      <StyledDrawerHeader>
+        <StyleHeading>
+          {header}
+          <StyleSubHeading>{subHeader}</StyleSubHeading>
+        </StyleHeading>
 
-          <CloseButton onClick={onClose}>
-            <IconClose size={'medium'} />
-          </CloseButton>
-        </StyledDrawerHeader>
-        <StyledDrawerContent>{children}</StyledDrawerContent>
-      </StyledDrawerSide>
-    </StyledDrawerOverlay>
+        <CloseButton onClick={onClose}>
+          <IconClose size={'small'} />
+        </CloseButton>
+      </StyledDrawerHeader>
+      <StyledDrawerContent>{children}</StyledDrawerContent>
+    </StyledDrawerSide>
+  );
+
+  return showOverlay ? (
+    <StyledDrawerOverlay open={open}>{DrawerContent}</StyledDrawerOverlay>
+  ) : (
+    DrawerContent
   );
 };
 
 Drawer.propTypes = {
   children: PropTypes.node.isRequired,
-  position: PropTypes.oneOf(['top', 'bottom', 'left', 'right']).isRequired,
+  position: PropTypes.oneOf(['left', 'right']).isRequired,
   open: PropTypes.bool.isRequired,
-  variant: PropTypes.oneOf(['primary', 'secondary'])
+  showOverlay: PropTypes.bool,
+  width: PropTypes.string,
+  offsetTop: PropTypes.number,
+  offsetLeft: PropTypes.number,
+  offsetRight: PropTypes.number,
+  offsetBottom: PropTypes.number
 };
 
-// StyledDrawer;
 export default Drawer;

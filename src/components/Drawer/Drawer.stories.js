@@ -5,7 +5,7 @@ import ListItem from '../List/ListItem';
 import IconFolder from '../../icons/Folder';
 import List from '../List';
 import { IconAsset, IconNavigation, IconUser } from '../../icons';
-import { boolean, select, text } from '@storybook/addon-knobs';
+import { select, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import Accordion from '../Accordion';
 
@@ -38,6 +38,7 @@ export const Normal = () => {
         header={<h4>{text('Title', 'Title')}</h4>}
         subHeader={<small>{text('Subtitle', 'Subtitle')}</small>}
         onClose={handleClose}
+        width={text('Width', '320px')}
       >
         <Accordion header={'Accordion title 1'} leftContent={<IconNavigation />}>
           <List>
