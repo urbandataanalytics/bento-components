@@ -56,3 +56,6 @@ export * from './components/Tabs/Tab';
 
 export { default as Accordion } from './components/Accordion';
 export * from './components/Accordion';
+
+export { default as SwitchButtons } from './components/SwitchButtons';
+export * from './components/SwitchButtons';
