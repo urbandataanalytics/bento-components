@@ -14,7 +14,9 @@ const getCommonProps = () => {
     size: select('Sizes', ['medium', 'large'], 'medium'),
     variant: select('Variants', ['primary', 'secondary'], 'primary'),
     disabled: boolean('Disabled', false),
-    text: text('Button text', 'Button')
+    loading: boolean('Loading', false),
+    text: text('Button text', 'Button'),
+    loadingText: text('Loading text', 'Loading')
   };
 };
 
@@ -66,7 +68,7 @@ export const Loading = () => {
   };
   return (
     <div style={containerStyle}>
-      <Button {...getCommonProps()} onClick={action('clicked')} loading loadingText="Loading">
+      <Button {...getCommonProps()} onClick={action('clicked')} loading>
         {getCommonProps().text}
       </Button>
     </div>

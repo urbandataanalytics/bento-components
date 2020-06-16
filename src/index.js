@@ -47,3 +47,9 @@ export * from './components/NavigationBar';
 
 export { default as Avatar } from './components/Avatar';
 export * from './components/Avatar';
+
+export { default as Tabs } from './components/Tabs';
+export * from './components/Tabs';
+
+export { default as Tab } from './components/Tabs/Tab';
+export * from './components/Tabs/Tab';

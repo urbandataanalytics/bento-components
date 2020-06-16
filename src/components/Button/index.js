@@ -3,34 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import DefaultTheme from '../../themes/defaultTheme';
-import IconLoader from '../../icons/Loader';
-
-const Loader = () => {
-  const StyledLoader = styled.span`
-    > svg {
-      animation: rotation 2s linear infinite;
-      display: inline-block;
-      transform-origin: center;
-      width: 15px;
-      height: 15px;
-      margin-right: 8px;
-    }
-    @keyframes rotation {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-  `;
-
-  return (
-    <StyledLoader>
-      <IconLoader customColor="white" size="small" />
-    </StyledLoader>
-  );
-};
+import Loader from './Loader/';
 
 const componentSizes = theme => ({
   medium: {
@@ -49,16 +22,13 @@ const componentVariants = theme => ({
   primary: {
     color: theme.components.buttonPrimaryColor,
     backgroundColor: theme.components.buttonPrimaryBackgroundColor,
-    borderColor: theme.components.buttonPrimaryBorderColor,
     borderRadius: theme.components.buttonPrimaryBorderRadius,
     '&:hover': {
       backgroundColor: theme.components.buttonPrimaryHoverBackgroundColor,
-      borderColor: theme.components.buttonPrimaryHoverBorderColor,
       color: theme.components.buttonPrimaryHoverColor
     },
     '&:disabled': {
-      backgroundColor: theme.components.buttonPrimaryDisabledBackgroundColor,
-      borderColor: theme.components.buttonPrimaryDisabledBorderColor
+      backgroundColor: theme.components.buttonPrimaryDisabledBackgroundColor
     }
   },
   secondary: {
@@ -73,13 +43,14 @@ const componentVariants = theme => ({
     },
     '&:disabled': {
       backgroundColor: theme.components.buttonSecondaryDisabledBackgroundColor,
-      borderColor: theme.components.buttonSecondaryDisabledBorderColor
+      borderColor: theme.components.buttonSecondaryDisabledBorderColor,
+      color: theme.components.buttonSecondaryDisabledColor
     }
   }
 });
 
 const StyledButton = styled.button`
-  border-width: 1px;
+  border-width: ${props => (props.variant === 'secondary' ? '1px' : 0)};
   border-style: solid;
   font-family: ${props => props.theme.global.fontFamily};
   font-weight: ${props => props.theme.global.fontWeightMedium};
@@ -93,6 +64,7 @@ const StyledButton = styled.button`
   justify-content: center;
   transition: ${props => props.theme.global.transition};
   position: relative;
+  overflow: hidden;
 
   &:after{
     content: "";
@@ -104,8 +76,8 @@ const StyledButton = styled.button`
     right: 0;
     top: 0;
     bottom: 0;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     margin: auto;
     opacity: 0;
     transition: all 1s;
@@ -125,7 +97,6 @@ const StyledButton = styled.button`
   }
 
   ${props => (props.block ? 'width: 100%;' : '')}
-
   ${props => componentSizes(props.theme)[props.size]}
   ${props => componentVariants(props.theme)[props.variant]}
 `;
@@ -135,8 +106,20 @@ const IconWrapper = styled.span`
   & > svg {
     width: ${props => (props.size === 'large' ? '18px' : '15px')};
     height: ${props => (props.size === 'large' ? '18px' : '15px')};
+    path {
+      ${props =>
+        props.disabled
+          ? `fill: ${
+              props.variant === 'primary'
+                ? props.theme.color.white
+                : props.theme.components.buttonSecondaryDisabledColor
+            } ;`
+          : null}
+    }
   }
 `;
+
+const StyledContent = styled.span``;
 
 const Button = React.forwardRef((props, ref) => {
   const {
@@ -165,15 +148,15 @@ const Button = React.forwardRef((props, ref) => {
       variant={variant}
       {...other}
     >
-      {iconLeft && !loading && (
-        <IconWrapper direction="left" size={size}>
+      <Loader loading={loading} loadingText={loadingText} />
+      {iconLeft && (
+        <IconWrapper variant={variant} disabled={disabled} direction="left" size={size}>
           {iconLeft}
         </IconWrapper>
       )}
-      {loading && <Loader />}
-      {(loading && loadingText) || children}
-      {iconRight && !loading && (
-        <IconWrapper direction="right" size={size}>
+      <StyledContent>{children}</StyledContent>
+      {iconRight && (
+        <IconWrapper variant={variant} disabled={disabled} direction="right" size={size}>
           {iconRight}
         </IconWrapper>
       )}
