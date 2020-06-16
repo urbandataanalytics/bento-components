@@ -47,3 +47,6 @@ export * from './components/Tabs';
 
 export { default as Tab } from './components/Tabs/Tab';
 export * from './components/Tabs/Tab';
+
+export { default as Accordion } from './components/Accordion';
+export * from './components/Accordion';
