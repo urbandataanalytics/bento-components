@@ -136,9 +136,7 @@ Array [
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -443,9 +441,7 @@ Array [
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -863,9 +859,7 @@ Array [
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -1183,9 +1177,7 @@ Array [
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -1656,9 +1648,7 @@ Array [
                     "buttonPrimaryBorderRadius": "4px",
                     "buttonPrimaryColor": "#FFFFFF",
                     "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                    "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                     "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                    "buttonPrimaryHoverBorderColor": "#48AAF1",
                     "buttonPrimaryHoverColor": "#FFFFFF",
                     "buttonSecondaryBackgroundColor": "#FFFFFF",
                     "buttonSecondaryBorderColor": "#212632",
@@ -1965,9 +1955,7 @@ Array [
                     "buttonPrimaryBorderRadius": "4px",
                     "buttonPrimaryColor": "#FFFFFF",
                     "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                    "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                     "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                    "buttonPrimaryHoverBorderColor": "#48AAF1",
                     "buttonPrimaryHoverColor": "#FFFFFF",
                     "buttonSecondaryBackgroundColor": "#FFFFFF",
                     "buttonSecondaryBorderColor": "#212632",
@@ -2272,9 +2260,7 @@ Array [
                     "buttonPrimaryBorderRadius": "4px",
                     "buttonPrimaryColor": "#FFFFFF",
                     "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                    "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                     "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                    "buttonPrimaryHoverBorderColor": "#48AAF1",
                     "buttonPrimaryHoverColor": "#FFFFFF",
                     "buttonSecondaryBackgroundColor": "#FFFFFF",
                     "buttonSecondaryBorderColor": "#212632",
@@ -2571,9 +2557,7 @@ Array [
                     "buttonPrimaryBorderRadius": "4px",
                     "buttonPrimaryColor": "#FFFFFF",
                     "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                    "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                     "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                    "buttonPrimaryHoverBorderColor": "#48AAF1",
                     "buttonPrimaryHoverColor": "#FFFFFF",
                     "buttonSecondaryBackgroundColor": "#FFFFFF",
                     "buttonSecondaryBorderColor": "#212632",
@@ -2943,9 +2927,7 @@ Array [
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -3250,9 +3232,7 @@ Array [
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -3638,9 +3618,7 @@ Array [
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -3984,10 +3962,8 @@ exports[`Storyshots Button Block 1`] = `
   height: 16px;
 }
 
-.c0:hover {
-  background-color: #48AAF1;
-  border-color: #48AAF1;
-  color: #FFFFFF;
+.c3 {
+  margin-left: 5px;
 }
 
 .c1 {
@@ -4013,30 +3989,6 @@ exports[`Storyshots Button Block 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  padding: 11px 32px;
-  font-size: 12px;
-  min-width: 120px;
-  color: #FFFFFF;
-  background-color: #1778FB;
-  border-color: #1778FB;
-  border-radius: 4px;
-}
-
-.c0:disabled {
-  cursor: default;
-}
-
-.c0:hover {
-  background-color: #48AAF1;
-  border-color: #48AAF1;
-  color: #FFFFFF;
-}
-
-.c0:disabled {
-  background-color: #DCDFE6;
-  border-color: #DCDFE6;
 }
 
 .c1 > svg {
@@ -4118,7 +4070,6 @@ exports[`Storyshots Button Block 1`] = `
 
 .c0:hover {
   background-color: #48AAF1;
-  border-color: #48AAF1;
   color: #FFFFFF;
 }
 
@@ -4205,9 +4156,7 @@ exports[`Storyshots Button Block 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -4434,7 +4383,9 @@ exports[`Storyshots Button Block 1`] = `
         viewBox="0 0 32 32"
       >
         <path
-          d="M16 1.667a1 1 0 011 1V8a1 1 0 11-2 0V2.667a1 1 0 011-1zM16 23a1 1 0 011 1v5.333a1 1 0 11-2 0V24a1 1 0 011-1zM5.866 5.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L5.866 7.28a1 1 0 010-1.414zM20.946 20.946a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM1.667 16a1 1 0 011-1H8a1 1 0 110 2H2.667a1 1 0 01-1-1zM23 16a1 1 0 011-1h5.333a1 1 0 110 2H24a1 1 0 01-1-1zM11.054 20.946a1 1 0 010 1.414L7.28 26.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zM26.134 5.866a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+          clipRule="evenodd"
+          d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+          fillRule="evenodd"
         />
       </svg>
       <span
@@ -4569,7 +4520,7 @@ exports[`Storyshots Button Loading 1`] = `
 }
 
 .c0:hover {
-  background-color: #5FAEDA;
+  background-color: #48AAF1;
   color: #FFFFFF;
 }
 
@@ -4656,9 +4607,7 @@ exports[`Storyshots Button Loading 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -4885,7 +4834,9 @@ exports[`Storyshots Button Loading 1`] = `
         viewBox="0 0 32 32"
       >
         <path
-          d="M16 1.667a1 1 0 011 1V8a1 1 0 11-2 0V2.667a1 1 0 011-1zM16 23a1 1 0 011 1v5.333a1 1 0 11-2 0V24a1 1 0 011-1zM5.866 5.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L5.866 7.28a1 1 0 010-1.414zM20.946 20.946a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM1.667 16a1 1 0 011-1H8a1 1 0 110 2H2.667a1 1 0 01-1-1zM23 16a1 1 0 011-1h5.333a1 1 0 110 2H24a1 1 0 01-1-1zM11.054 20.946a1 1 0 010 1.414L7.28 26.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zM26.134 5.866a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+          clipRule="evenodd"
+          d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+          fillRule="evenodd"
         />
       </svg>
       <span
@@ -5020,7 +4971,7 @@ exports[`Storyshots Button Normal 1`] = `
 }
 
 .c0:hover {
-  background-color: #5FAEDA;
+  background-color: #48AAF1;
   color: #FFFFFF;
 }
 
@@ -5107,9 +5058,7 @@ exports[`Storyshots Button Normal 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -5336,7 +5285,9 @@ exports[`Storyshots Button Normal 1`] = `
         viewBox="0 0 32 32"
       >
         <path
-          d="M16 1.667a1 1 0 011 1V8a1 1 0 11-2 0V2.667a1 1 0 011-1zM16 23a1 1 0 011 1v5.333a1 1 0 11-2 0V24a1 1 0 011-1zM5.866 5.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L5.866 7.28a1 1 0 010-1.414zM20.946 20.946a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM1.667 16a1 1 0 011-1H8a1 1 0 110 2H2.667a1 1 0 01-1-1zM23 16a1 1 0 011-1h5.333a1 1 0 110 2H24a1 1 0 01-1-1zM11.054 20.946a1 1 0 010 1.414L7.28 26.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zM26.134 5.866a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+          clipRule="evenodd"
+          d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+          fillRule="evenodd"
         />
       </svg>
       <span
@@ -5481,7 +5432,7 @@ exports[`Storyshots Button With Icon 1`] = `
 }
 
 .c0:hover {
-  background-color: #5FAEDA;
+  background-color: #48AAF1;
   color: #FFFFFF;
 }
 
@@ -5541,7 +5492,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "emerald500": "#55BAA9",
               "emerald600": "#299B9A",
               "primary100": "#EFF7FB",
-              "primary300": "#5FAEDA",
+              "primary300": "#48AAF1",
               "primary500": "#1778FB",
               "primary700": "#0C1B7A",
               "redclay100": "#FAEDEC",
@@ -5577,7 +5528,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+              "buttonPrimaryHoverBackgroundColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -5587,7 +5538,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "buttonSecondaryDisabledBorderColor": "#DCDFE6",
               "buttonSecondaryDisabledColor": "#DCDFE6",
               "buttonSecondaryHoverBackgroundColor": "#212632",
-              "buttonSecondaryHoverBorderColor": "#5FAEDA",
+              "buttonSecondaryHoverBorderColor": "#48AAF1",
               "buttonSecondaryHoverColor": "#FFFFFF",
               "checkboxBackground": "#FFFFFF",
               "checkboxBackgroundChecked": "#1778FB",
@@ -5625,8 +5576,8 @@ exports[`Storyshots Button With Icon 1`] = `
               "inputFieldErrorHelpColor": "#CD4C41",
               "inputFieldErrorPlaceholderColor": "#CD4C41",
               "inputFieldFocusBackgroundColor": "#EFF7FB",
-              "inputFieldFocusBorderColor": "#5FAEDA",
-              "inputFieldFocusLabelColor": "#5FAEDA",
+              "inputFieldFocusBorderColor": "#48AAF1",
+              "inputFieldFocusLabelColor": "#48AAF1",
               "inputFieldFontSize": "14px",
               "inputFieldHelpColor": "#212632",
               "inputFieldHelpFontSize": "12px",
@@ -5669,13 +5620,32 @@ exports[`Storyshots Button With Icon 1`] = `
               "notificationPadding": "16px",
               "notificationSuccessBackgroundColor": "#EEF8F6",
               "notificationSuccessColor": "#299B9A",
+              "tabBadgeBackground": "#EFF2F7",
+              "tabBadgeBackgroundActive": "#1778FB",
+              "tabBadgeBackgroundHover": "#48AAF1",
+              "tabBadgeColor": "#747D93",
+              "tabBadgeColorActive": "#FFFFFF",
+              "tabBadgeColorHover": "#FFFFFF",
+              "tabBadgeFontSize": "12px",
+              "tabBadgeFontWeight": 500,
+              "tabBadgePadding": "2px 8px",
+              "tabBorderColor": "transparent",
+              "tabBorderColorActive": "#1778FB",
+              "tabBorderColorHover": "#48AAF1",
+              "tabColor": "#747D93",
+              "tabColorActive": "#1778FB",
+              "tabColorDisabled": "#DCDFE6",
+              "tabColorHover": "#48AAF1",
+              "tabFontSize": "12px",
+              "tabFontWeight": 500,
+              "tabsBorderColor": "#EFF2F7",
               "textLinkDisabledColor": "#DCDFE6",
               "textLinkFontSizeLarge": "14px",
               "textLinkFontSizeMedium": "12px",
               "textLinkPrimaryColor": "#1778FB",
-              "textLinkPrimaryHoverColor": "#5FAEDA",
+              "textLinkPrimaryHoverColor": "#48AAF1",
               "textLinkSecondaryColor": "#747D93",
-              "textLinkSecondaryHoverColor": "#5FAEDA",
+              "textLinkSecondaryHoverColor": "#48AAF1",
             },
             "fonts": Array [
               Object {
@@ -5785,7 +5755,9 @@ exports[`Storyshots Button With Icon 1`] = `
         viewBox="0 0 32 32"
       >
         <path
-          d="M16 1.667a1 1 0 011 1V8a1 1 0 11-2 0V2.667a1 1 0 011-1zM16 23a1 1 0 011 1v5.333a1 1 0 11-2 0V24a1 1 0 011-1zM5.866 5.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L5.866 7.28a1 1 0 010-1.414zM20.946 20.946a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM1.667 16a1 1 0 011-1H8a1 1 0 110 2H2.667a1 1 0 01-1-1zM23 16a1 1 0 011-1h5.333a1 1 0 110 2H24a1 1 0 01-1-1zM11.054 20.946a1 1 0 010 1.414L7.28 26.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zM26.134 5.866a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+          clipRule="evenodd"
+          d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+          fillRule="evenodd"
         />
       </svg>
       <span
@@ -5825,7 +5797,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "emerald500": "#55BAA9",
               "emerald600": "#299B9A",
               "primary100": "#EFF7FB",
-              "primary300": "#5FAEDA",
+              "primary300": "#48AAF1",
               "primary500": "#1778FB",
               "primary700": "#0C1B7A",
               "redclay100": "#FAEDEC",
@@ -5861,7 +5833,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+              "buttonPrimaryHoverBackgroundColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -5871,7 +5843,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "buttonSecondaryDisabledBorderColor": "#DCDFE6",
               "buttonSecondaryDisabledColor": "#DCDFE6",
               "buttonSecondaryHoverBackgroundColor": "#212632",
-              "buttonSecondaryHoverBorderColor": "#5FAEDA",
+              "buttonSecondaryHoverBorderColor": "#48AAF1",
               "buttonSecondaryHoverColor": "#FFFFFF",
               "checkboxBackground": "#FFFFFF",
               "checkboxBackgroundChecked": "#1778FB",
@@ -5909,8 +5881,8 @@ exports[`Storyshots Button With Icon 1`] = `
               "inputFieldErrorHelpColor": "#CD4C41",
               "inputFieldErrorPlaceholderColor": "#CD4C41",
               "inputFieldFocusBackgroundColor": "#EFF7FB",
-              "inputFieldFocusBorderColor": "#5FAEDA",
-              "inputFieldFocusLabelColor": "#5FAEDA",
+              "inputFieldFocusBorderColor": "#48AAF1",
+              "inputFieldFocusLabelColor": "#48AAF1",
               "inputFieldFontSize": "14px",
               "inputFieldHelpColor": "#212632",
               "inputFieldHelpFontSize": "12px",
@@ -5953,13 +5925,32 @@ exports[`Storyshots Button With Icon 1`] = `
               "notificationPadding": "16px",
               "notificationSuccessBackgroundColor": "#EEF8F6",
               "notificationSuccessColor": "#299B9A",
+              "tabBadgeBackground": "#EFF2F7",
+              "tabBadgeBackgroundActive": "#1778FB",
+              "tabBadgeBackgroundHover": "#48AAF1",
+              "tabBadgeColor": "#747D93",
+              "tabBadgeColorActive": "#FFFFFF",
+              "tabBadgeColorHover": "#FFFFFF",
+              "tabBadgeFontSize": "12px",
+              "tabBadgeFontWeight": 500,
+              "tabBadgePadding": "2px 8px",
+              "tabBorderColor": "transparent",
+              "tabBorderColorActive": "#1778FB",
+              "tabBorderColorHover": "#48AAF1",
+              "tabColor": "#747D93",
+              "tabColorActive": "#1778FB",
+              "tabColorDisabled": "#DCDFE6",
+              "tabColorHover": "#48AAF1",
+              "tabFontSize": "12px",
+              "tabFontWeight": 500,
+              "tabsBorderColor": "#EFF2F7",
               "textLinkDisabledColor": "#DCDFE6",
               "textLinkFontSizeLarge": "14px",
               "textLinkFontSizeMedium": "12px",
               "textLinkPrimaryColor": "#1778FB",
-              "textLinkPrimaryHoverColor": "#5FAEDA",
+              "textLinkPrimaryHoverColor": "#48AAF1",
               "textLinkSecondaryColor": "#747D93",
-              "textLinkSecondaryHoverColor": "#5FAEDA",
+              "textLinkSecondaryHoverColor": "#48AAF1",
             },
             "fonts": Array [
               Object {
@@ -6241,7 +6232,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "emerald500": "#55BAA9",
               "emerald600": "#299B9A",
               "primary100": "#EFF7FB",
-              "primary300": "#5FAEDA",
+              "primary300": "#48AAF1",
               "primary500": "#1778FB",
               "primary700": "#0C1B7A",
               "redclay100": "#FAEDEC",
@@ -6277,7 +6268,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+              "buttonPrimaryHoverBackgroundColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -6287,7 +6278,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "buttonSecondaryDisabledBorderColor": "#DCDFE6",
               "buttonSecondaryDisabledColor": "#DCDFE6",
               "buttonSecondaryHoverBackgroundColor": "#212632",
-              "buttonSecondaryHoverBorderColor": "#5FAEDA",
+              "buttonSecondaryHoverBorderColor": "#48AAF1",
               "buttonSecondaryHoverColor": "#FFFFFF",
               "checkboxBackground": "#FFFFFF",
               "checkboxBackgroundChecked": "#1778FB",
@@ -6325,8 +6316,8 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "inputFieldErrorHelpColor": "#CD4C41",
               "inputFieldErrorPlaceholderColor": "#CD4C41",
               "inputFieldFocusBackgroundColor": "#EFF7FB",
-              "inputFieldFocusBorderColor": "#5FAEDA",
-              "inputFieldFocusLabelColor": "#5FAEDA",
+              "inputFieldFocusBorderColor": "#48AAF1",
+              "inputFieldFocusLabelColor": "#48AAF1",
               "inputFieldFontSize": "14px",
               "inputFieldHelpColor": "#212632",
               "inputFieldHelpFontSize": "12px",
@@ -6369,13 +6360,32 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "notificationPadding": "16px",
               "notificationSuccessBackgroundColor": "#EEF8F6",
               "notificationSuccessColor": "#299B9A",
+              "tabBadgeBackground": "#EFF2F7",
+              "tabBadgeBackgroundActive": "#1778FB",
+              "tabBadgeBackgroundHover": "#48AAF1",
+              "tabBadgeColor": "#747D93",
+              "tabBadgeColorActive": "#FFFFFF",
+              "tabBadgeColorHover": "#FFFFFF",
+              "tabBadgeFontSize": "12px",
+              "tabBadgeFontWeight": 500,
+              "tabBadgePadding": "2px 8px",
+              "tabBorderColor": "transparent",
+              "tabBorderColorActive": "#1778FB",
+              "tabBorderColorHover": "#48AAF1",
+              "tabColor": "#747D93",
+              "tabColorActive": "#1778FB",
+              "tabColorDisabled": "#DCDFE6",
+              "tabColorHover": "#48AAF1",
+              "tabFontSize": "12px",
+              "tabFontWeight": 500,
+              "tabsBorderColor": "#EFF2F7",
               "textLinkDisabledColor": "#DCDFE6",
               "textLinkFontSizeLarge": "14px",
               "textLinkFontSizeMedium": "12px",
               "textLinkPrimaryColor": "#1778FB",
-              "textLinkPrimaryHoverColor": "#5FAEDA",
+              "textLinkPrimaryHoverColor": "#48AAF1",
               "textLinkSecondaryColor": "#747D93",
-              "textLinkSecondaryHoverColor": "#5FAEDA",
+              "textLinkSecondaryHoverColor": "#48AAF1",
             },
             "fonts": Array [
               Object {
@@ -6670,7 +6680,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "emerald500": "#55BAA9",
               "emerald600": "#299B9A",
               "primary100": "#EFF7FB",
-              "primary300": "#5FAEDA",
+              "primary300": "#48AAF1",
               "primary500": "#1778FB",
               "primary700": "#0C1B7A",
               "redclay100": "#FAEDEC",
@@ -6706,7 +6716,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+              "buttonPrimaryHoverBackgroundColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -6716,7 +6726,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "buttonSecondaryDisabledBorderColor": "#DCDFE6",
               "buttonSecondaryDisabledColor": "#DCDFE6",
               "buttonSecondaryHoverBackgroundColor": "#212632",
-              "buttonSecondaryHoverBorderColor": "#5FAEDA",
+              "buttonSecondaryHoverBorderColor": "#48AAF1",
               "buttonSecondaryHoverColor": "#FFFFFF",
               "checkboxBackground": "#FFFFFF",
               "checkboxBackgroundChecked": "#1778FB",
@@ -6754,8 +6764,8 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "inputFieldErrorHelpColor": "#CD4C41",
               "inputFieldErrorPlaceholderColor": "#CD4C41",
               "inputFieldFocusBackgroundColor": "#EFF7FB",
-              "inputFieldFocusBorderColor": "#5FAEDA",
-              "inputFieldFocusLabelColor": "#5FAEDA",
+              "inputFieldFocusBorderColor": "#48AAF1",
+              "inputFieldFocusLabelColor": "#48AAF1",
               "inputFieldFontSize": "14px",
               "inputFieldHelpColor": "#212632",
               "inputFieldHelpFontSize": "12px",
@@ -6798,13 +6808,32 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "notificationPadding": "16px",
               "notificationSuccessBackgroundColor": "#EEF8F6",
               "notificationSuccessColor": "#299B9A",
+              "tabBadgeBackground": "#EFF2F7",
+              "tabBadgeBackgroundActive": "#1778FB",
+              "tabBadgeBackgroundHover": "#48AAF1",
+              "tabBadgeColor": "#747D93",
+              "tabBadgeColorActive": "#FFFFFF",
+              "tabBadgeColorHover": "#FFFFFF",
+              "tabBadgeFontSize": "12px",
+              "tabBadgeFontWeight": 500,
+              "tabBadgePadding": "2px 8px",
+              "tabBorderColor": "transparent",
+              "tabBorderColorActive": "#1778FB",
+              "tabBorderColorHover": "#48AAF1",
+              "tabColor": "#747D93",
+              "tabColorActive": "#1778FB",
+              "tabColorDisabled": "#DCDFE6",
+              "tabColorHover": "#48AAF1",
+              "tabFontSize": "12px",
+              "tabFontWeight": 500,
+              "tabsBorderColor": "#EFF2F7",
               "textLinkDisabledColor": "#DCDFE6",
               "textLinkFontSizeLarge": "14px",
               "textLinkFontSizeMedium": "12px",
               "textLinkPrimaryColor": "#1778FB",
-              "textLinkPrimaryHoverColor": "#5FAEDA",
+              "textLinkPrimaryHoverColor": "#48AAF1",
               "textLinkSecondaryColor": "#747D93",
-              "textLinkSecondaryHoverColor": "#5FAEDA",
+              "textLinkSecondaryHoverColor": "#48AAF1",
             },
             "fonts": Array [
               Object {
@@ -7122,7 +7151,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
 
 .c2:hover {
   background-color: #48AAF1;
-  border-color: #48AAF1;
   color: #FFFFFF;
 }
 
@@ -7205,7 +7233,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "emerald500": "#55BAA9",
                   "emerald600": "#299B9A",
                   "primary100": "#EFF7FB",
-                  "primary300": "#5FAEDA",
+                  "primary300": "#48AAF1",
                   "primary500": "#1778FB",
                   "primary700": "#0C1B7A",
                   "redclay100": "#FAEDEC",
@@ -7241,7 +7269,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+                  "buttonPrimaryHoverBackgroundColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -7251,7 +7279,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "buttonSecondaryDisabledBorderColor": "#DCDFE6",
                   "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#212632",
-                  "buttonSecondaryHoverBorderColor": "#5FAEDA",
+                  "buttonSecondaryHoverBorderColor": "#48AAF1",
                   "buttonSecondaryHoverColor": "#FFFFFF",
                   "checkboxBackground": "#FFFFFF",
                   "checkboxBackgroundChecked": "#1778FB",
@@ -7289,8 +7317,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "inputFieldErrorHelpColor": "#CD4C41",
                   "inputFieldErrorPlaceholderColor": "#CD4C41",
                   "inputFieldFocusBackgroundColor": "#EFF7FB",
-                  "inputFieldFocusBorderColor": "#5FAEDA",
-                  "inputFieldFocusLabelColor": "#5FAEDA",
+                  "inputFieldFocusBorderColor": "#48AAF1",
+                  "inputFieldFocusLabelColor": "#48AAF1",
                   "inputFieldFontSize": "14px",
                   "inputFieldHelpColor": "#212632",
                   "inputFieldHelpFontSize": "12px",
@@ -7333,13 +7361,32 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "notificationPadding": "16px",
                   "notificationSuccessBackgroundColor": "#EEF8F6",
                   "notificationSuccessColor": "#299B9A",
+                  "tabBadgeBackground": "#EFF2F7",
+                  "tabBadgeBackgroundActive": "#1778FB",
+                  "tabBadgeBackgroundHover": "#48AAF1",
+                  "tabBadgeColor": "#747D93",
+                  "tabBadgeColorActive": "#FFFFFF",
+                  "tabBadgeColorHover": "#FFFFFF",
+                  "tabBadgeFontSize": "12px",
+                  "tabBadgeFontWeight": 500,
+                  "tabBadgePadding": "2px 8px",
+                  "tabBorderColor": "transparent",
+                  "tabBorderColorActive": "#1778FB",
+                  "tabBorderColorHover": "#48AAF1",
+                  "tabColor": "#747D93",
+                  "tabColorActive": "#1778FB",
+                  "tabColorDisabled": "#DCDFE6",
+                  "tabColorHover": "#48AAF1",
+                  "tabFontSize": "12px",
+                  "tabFontWeight": 500,
+                  "tabsBorderColor": "#EFF2F7",
                   "textLinkDisabledColor": "#DCDFE6",
                   "textLinkFontSizeLarge": "14px",
                   "textLinkFontSizeMedium": "12px",
                   "textLinkPrimaryColor": "#1778FB",
-                  "textLinkPrimaryHoverColor": "#5FAEDA",
+                  "textLinkPrimaryHoverColor": "#48AAF1",
                   "textLinkSecondaryColor": "#747D93",
-                  "textLinkSecondaryHoverColor": "#5FAEDA",
+                  "textLinkSecondaryHoverColor": "#48AAF1",
                 },
                 "fonts": Array [
                   Object {
@@ -7449,7 +7496,9 @@ exports[`Storyshots Dropdown Playground 1`] = `
             viewBox="0 0 32 32"
           >
             <path
-              d="M16 1.667a1 1 0 011 1V8a1 1 0 11-2 0V2.667a1 1 0 011-1zM16 23a1 1 0 011 1v5.333a1 1 0 11-2 0V24a1 1 0 011-1zM5.866 5.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L5.866 7.28a1 1 0 010-1.414zM20.946 20.946a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM1.667 16a1 1 0 011-1H8a1 1 0 110 2H2.667a1 1 0 01-1-1zM23 16a1 1 0 011-1h5.333a1 1 0 110 2H24a1 1 0 01-1-1zM11.054 20.946a1 1 0 010 1.414L7.28 26.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zM26.134 5.866a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+              clipRule="evenodd"
+              d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+              fillRule="evenodd"
             />
           </svg>
           <span
@@ -7842,7 +7891,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 
 .c2:hover {
   background-color: #48AAF1;
-  border-color: #48AAF1;
   color: #FFFFFF;
 }
 
@@ -7925,7 +7973,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "emerald500": "#55BAA9",
                   "emerald600": "#299B9A",
                   "primary100": "#EFF7FB",
-                  "primary300": "#5FAEDA",
+                  "primary300": "#48AAF1",
                   "primary500": "#1778FB",
                   "primary700": "#0C1B7A",
                   "redclay100": "#FAEDEC",
@@ -7961,7 +8009,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+                  "buttonPrimaryHoverBackgroundColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -7971,7 +8019,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "buttonSecondaryDisabledBorderColor": "#DCDFE6",
                   "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#212632",
-                  "buttonSecondaryHoverBorderColor": "#5FAEDA",
+                  "buttonSecondaryHoverBorderColor": "#48AAF1",
                   "buttonSecondaryHoverColor": "#FFFFFF",
                   "checkboxBackground": "#FFFFFF",
                   "checkboxBackgroundChecked": "#1778FB",
@@ -8009,8 +8057,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "inputFieldErrorHelpColor": "#CD4C41",
                   "inputFieldErrorPlaceholderColor": "#CD4C41",
                   "inputFieldFocusBackgroundColor": "#EFF7FB",
-                  "inputFieldFocusBorderColor": "#5FAEDA",
-                  "inputFieldFocusLabelColor": "#5FAEDA",
+                  "inputFieldFocusBorderColor": "#48AAF1",
+                  "inputFieldFocusLabelColor": "#48AAF1",
                   "inputFieldFontSize": "14px",
                   "inputFieldHelpColor": "#212632",
                   "inputFieldHelpFontSize": "12px",
@@ -8053,13 +8101,32 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "notificationPadding": "16px",
                   "notificationSuccessBackgroundColor": "#EEF8F6",
                   "notificationSuccessColor": "#299B9A",
+                  "tabBadgeBackground": "#EFF2F7",
+                  "tabBadgeBackgroundActive": "#1778FB",
+                  "tabBadgeBackgroundHover": "#48AAF1",
+                  "tabBadgeColor": "#747D93",
+                  "tabBadgeColorActive": "#FFFFFF",
+                  "tabBadgeColorHover": "#FFFFFF",
+                  "tabBadgeFontSize": "12px",
+                  "tabBadgeFontWeight": 500,
+                  "tabBadgePadding": "2px 8px",
+                  "tabBorderColor": "transparent",
+                  "tabBorderColorActive": "#1778FB",
+                  "tabBorderColorHover": "#48AAF1",
+                  "tabColor": "#747D93",
+                  "tabColorActive": "#1778FB",
+                  "tabColorDisabled": "#DCDFE6",
+                  "tabColorHover": "#48AAF1",
+                  "tabFontSize": "12px",
+                  "tabFontWeight": 500,
+                  "tabsBorderColor": "#EFF2F7",
                   "textLinkDisabledColor": "#DCDFE6",
                   "textLinkFontSizeLarge": "14px",
                   "textLinkFontSizeMedium": "12px",
                   "textLinkPrimaryColor": "#1778FB",
-                  "textLinkPrimaryHoverColor": "#5FAEDA",
+                  "textLinkPrimaryHoverColor": "#48AAF1",
                   "textLinkSecondaryColor": "#747D93",
-                  "textLinkSecondaryHoverColor": "#5FAEDA",
+                  "textLinkSecondaryHoverColor": "#48AAF1",
                 },
                 "fonts": Array [
                   Object {
@@ -8169,7 +8236,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
             viewBox="0 0 32 32"
           >
             <path
-              d="M16 1.667a1 1 0 011 1V8a1 1 0 11-2 0V2.667a1 1 0 011-1zM16 23a1 1 0 011 1v5.333a1 1 0 11-2 0V24a1 1 0 011-1zM5.866 5.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L5.866 7.28a1 1 0 010-1.414zM20.946 20.946a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM1.667 16a1 1 0 011-1H8a1 1 0 110 2H2.667a1 1 0 01-1-1zM23 16a1 1 0 011-1h5.333a1 1 0 110 2H24a1 1 0 01-1-1zM11.054 20.946a1 1 0 010 1.414L7.28 26.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zM26.134 5.866a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+              clipRule="evenodd"
+              d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+              fillRule="evenodd"
             />
           </svg>
           <span
@@ -8261,9 +8330,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "buttonPrimaryBorderRadius": "4px",
                       "buttonPrimaryColor": "#FFFFFF",
                       "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                      "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                       "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                      "buttonPrimaryHoverBorderColor": "#48AAF1",
                       "buttonPrimaryHoverColor": "#FFFFFF",
                       "buttonSecondaryBackgroundColor": "#FFFFFF",
                       "buttonSecondaryBorderColor": "#212632",
@@ -8572,9 +8639,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "buttonPrimaryBorderRadius": "4px",
                       "buttonPrimaryColor": "#FFFFFF",
                       "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                      "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                       "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                      "buttonPrimaryHoverBorderColor": "#48AAF1",
                       "buttonPrimaryHoverColor": "#FFFFFF",
                       "buttonSecondaryBackgroundColor": "#FFFFFF",
                       "buttonSecondaryBorderColor": "#212632",
@@ -8879,9 +8944,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "buttonPrimaryBorderRadius": "4px",
                       "buttonPrimaryColor": "#FFFFFF",
                       "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                      "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                       "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                      "buttonPrimaryHoverBorderColor": "#48AAF1",
                       "buttonPrimaryHoverColor": "#FFFFFF",
                       "buttonSecondaryBackgroundColor": "#FFFFFF",
                       "buttonSecondaryBorderColor": "#212632",
@@ -9178,9 +9241,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "buttonPrimaryBorderRadius": "4px",
                       "buttonPrimaryColor": "#FFFFFF",
                       "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                      "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                       "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                      "buttonPrimaryHoverBorderColor": "#48AAF1",
                       "buttonPrimaryHoverColor": "#FFFFFF",
                       "buttonSecondaryBackgroundColor": "#FFFFFF",
                       "buttonSecondaryBorderColor": "#212632",
@@ -9539,7 +9600,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
 
 .c6:hover {
   background-color: #48AAF1;
-  border-color: #48AAF1;
   color: #FFFFFF;
 }
 
@@ -9773,7 +9833,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "emerald500": "#55BAA9",
                 "emerald600": "#299B9A",
                 "primary100": "#EFF7FB",
-                "primary300": "#5FAEDA",
+                "primary300": "#48AAF1",
                 "primary500": "#1778FB",
                 "primary700": "#0C1B7A",
                 "redclay100": "#FAEDEC",
@@ -9809,7 +9869,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "buttonPrimaryBorderRadius": "4px",
                 "buttonPrimaryColor": "#FFFFFF",
                 "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                "buttonPrimaryHoverBackgroundColor": "#5FAEDA",
+                "buttonPrimaryHoverBackgroundColor": "#48AAF1",
                 "buttonPrimaryHoverColor": "#FFFFFF",
                 "buttonSecondaryBackgroundColor": "#FFFFFF",
                 "buttonSecondaryBorderColor": "#212632",
@@ -9819,7 +9879,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "buttonSecondaryDisabledBorderColor": "#DCDFE6",
                 "buttonSecondaryDisabledColor": "#DCDFE6",
                 "buttonSecondaryHoverBackgroundColor": "#212632",
-                "buttonSecondaryHoverBorderColor": "#5FAEDA",
+                "buttonSecondaryHoverBorderColor": "#48AAF1",
                 "buttonSecondaryHoverColor": "#FFFFFF",
                 "checkboxBackground": "#FFFFFF",
                 "checkboxBackgroundChecked": "#1778FB",
@@ -9857,8 +9917,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "inputFieldErrorHelpColor": "#CD4C41",
                 "inputFieldErrorPlaceholderColor": "#CD4C41",
                 "inputFieldFocusBackgroundColor": "#EFF7FB",
-                "inputFieldFocusBorderColor": "#5FAEDA",
-                "inputFieldFocusLabelColor": "#5FAEDA",
+                "inputFieldFocusBorderColor": "#48AAF1",
+                "inputFieldFocusLabelColor": "#48AAF1",
                 "inputFieldFontSize": "14px",
                 "inputFieldHelpColor": "#212632",
                 "inputFieldHelpFontSize": "12px",
@@ -9901,13 +9961,32 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "notificationPadding": "16px",
                 "notificationSuccessBackgroundColor": "#EEF8F6",
                 "notificationSuccessColor": "#299B9A",
+                "tabBadgeBackground": "#EFF2F7",
+                "tabBadgeBackgroundActive": "#1778FB",
+                "tabBadgeBackgroundHover": "#48AAF1",
+                "tabBadgeColor": "#747D93",
+                "tabBadgeColorActive": "#FFFFFF",
+                "tabBadgeColorHover": "#FFFFFF",
+                "tabBadgeFontSize": "12px",
+                "tabBadgeFontWeight": 500,
+                "tabBadgePadding": "2px 8px",
+                "tabBorderColor": "transparent",
+                "tabBorderColorActive": "#1778FB",
+                "tabBorderColorHover": "#48AAF1",
+                "tabColor": "#747D93",
+                "tabColorActive": "#1778FB",
+                "tabColorDisabled": "#DCDFE6",
+                "tabColorHover": "#48AAF1",
+                "tabFontSize": "12px",
+                "tabFontWeight": 500,
+                "tabsBorderColor": "#EFF2F7",
                 "textLinkDisabledColor": "#DCDFE6",
                 "textLinkFontSizeLarge": "14px",
                 "textLinkFontSizeMedium": "12px",
                 "textLinkPrimaryColor": "#1778FB",
-                "textLinkPrimaryHoverColor": "#5FAEDA",
+                "textLinkPrimaryHoverColor": "#48AAF1",
                 "textLinkSecondaryColor": "#747D93",
-                "textLinkSecondaryHoverColor": "#5FAEDA",
+                "textLinkSecondaryHoverColor": "#48AAF1",
               },
               "fonts": Array [
                 Object {
@@ -10017,7 +10096,9 @@ exports[`Storyshots FormGroup Playground 1`] = `
           viewBox="0 0 32 32"
         >
           <path
-            d="M16 1.667a1 1 0 011 1V8a1 1 0 11-2 0V2.667a1 1 0 011-1zM16 23a1 1 0 011 1v5.333a1 1 0 11-2 0V24a1 1 0 011-1zM5.866 5.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L5.866 7.28a1 1 0 010-1.414zM20.946 20.946a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM1.667 16a1 1 0 011-1H8a1 1 0 110 2H2.667a1 1 0 01-1-1zM23 16a1 1 0 011-1h5.333a1 1 0 110 2H24a1 1 0 01-1-1zM11.054 20.946a1 1 0 010 1.414L7.28 26.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zM26.134 5.866a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+            clipRule="evenodd"
+            d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+            fillRule="evenodd"
           />
         </svg>
         <span
@@ -10216,9 +10297,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -10538,9 +10617,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -10860,9 +10937,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -11182,9 +11257,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -11503,9 +11576,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -11825,9 +11896,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -12147,9 +12216,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -12469,9 +12536,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -12791,9 +12856,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -13112,9 +13175,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -13434,9 +13495,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -13756,9 +13815,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -14077,9 +14134,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -14398,9 +14453,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -14719,9 +14772,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -15041,9 +15092,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -15364,9 +15413,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -15694,9 +15741,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -16026,9 +16071,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -16355,9 +16398,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -16676,9 +16717,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -16999,9 +17038,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -17321,9 +17358,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -17650,9 +17685,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -17972,9 +18005,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -18294,9 +18325,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -18617,9 +18646,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -18939,9 +18966,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -19261,9 +19286,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -19583,9 +19606,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -19812,7 +19833,9 @@ exports[`Storyshots Icon All Icons 1`] = `
       viewBox="0 0 32 32"
     >
       <path
-        d="M16 1.667a1 1 0 011 1V8a1 1 0 11-2 0V2.667a1 1 0 011-1zM16 23a1 1 0 011 1v5.333a1 1 0 11-2 0V24a1 1 0 011-1zM5.866 5.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L5.866 7.28a1 1 0 010-1.414zM20.946 20.946a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM1.667 16a1 1 0 011-1H8a1 1 0 110 2H2.667a1 1 0 01-1-1zM23 16a1 1 0 011-1h5.333a1 1 0 110 2H24a1 1 0 01-1-1zM11.054 20.946a1 1 0 010 1.414L7.28 26.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zM26.134 5.866a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+        clipRule="evenodd"
+        d="M15 .667a1 1 0 011 1V7a1 1 0 11-2 0V1.667a1 1 0 011-1zM15 22a1 1 0 011 1v5.333a1 1 0 11-2 0V23a1 1 0 011-1zM4.866 4.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L4.866 6.28a1 1 0 010-1.414zm15.08 15.08a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM.667 15a1 1 0 011-1H7a1 1 0 110 2H1.667a1 1 0 01-1-1zM22 15a1 1 0 011-1h5.333a1 1 0 110 2H23a1 1 0 01-1-1zm-11.946 4.946a1 1 0 010 1.414L6.28 25.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zm15.08-15.08a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+        fillRule="evenodd"
       />
     </svg>
     <pre
@@ -19904,9 +19927,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -20230,9 +20251,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -20552,9 +20571,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -20875,9 +20892,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -21196,9 +21211,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -21518,9 +21531,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -21840,9 +21851,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -22162,9 +22171,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -22484,9 +22491,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -22805,9 +22810,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -23131,9 +23134,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -23453,9 +23454,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -23776,9 +23775,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -24098,9 +24095,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -24421,9 +24416,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -24746,9 +24739,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -25071,9 +25062,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -25393,9 +25382,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -25715,9 +25702,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -26046,9 +26031,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -26368,9 +26351,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonPrimaryBorderRadius": "4px",
             "buttonPrimaryColor": "#FFFFFF",
             "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-            "buttonPrimaryDisabledBorderColor": "#DCDFE6",
             "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-            "buttonPrimaryHoverBorderColor": "#48AAF1",
             "buttonPrimaryHoverColor": "#FFFFFF",
             "buttonSecondaryBackgroundColor": "#FFFFFF",
             "buttonSecondaryBorderColor": "#212632",
@@ -26700,9 +26681,7 @@ exports[`Storyshots Icon Normal 1`] = `
           "buttonPrimaryBorderRadius": "4px",
           "buttonPrimaryColor": "#FFFFFF",
           "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-          "buttonPrimaryDisabledBorderColor": "#DCDFE6",
           "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-          "buttonPrimaryHoverBorderColor": "#48AAF1",
           "buttonPrimaryHoverColor": "#FFFFFF",
           "buttonSecondaryBackgroundColor": "#FFFFFF",
           "buttonSecondaryBorderColor": "#212632",
@@ -28238,9 +28217,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                   "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                  "buttonPrimaryHoverBorderColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -28547,9 +28524,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                   "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                  "buttonPrimaryHoverBorderColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -28871,9 +28846,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                   "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                  "buttonPrimaryHoverBorderColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -29192,9 +29165,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                   "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                  "buttonPrimaryHoverBorderColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -29491,9 +29462,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                   "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                  "buttonPrimaryHoverBorderColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -29800,9 +29769,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                   "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                  "buttonPrimaryHoverBorderColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -30100,9 +30067,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                   "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                  "buttonPrimaryHoverBorderColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -30811,9 +30776,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                   "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                  "buttonPrimaryHoverBorderColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -31124,9 +31087,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "buttonPrimaryBorderRadius": "4px",
                         "buttonPrimaryColor": "#FFFFFF",
                         "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                        "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                         "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                        "buttonPrimaryHoverBorderColor": "#48AAF1",
                         "buttonPrimaryHoverColor": "#FFFFFF",
                         "buttonSecondaryBackgroundColor": "#FFFFFF",
                         "buttonSecondaryBorderColor": "#212632",
@@ -31432,9 +31393,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "buttonPrimaryBorderRadius": "4px",
                         "buttonPrimaryColor": "#FFFFFF",
                         "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                        "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                         "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                        "buttonPrimaryHoverBorderColor": "#48AAF1",
                         "buttonPrimaryHoverColor": "#FFFFFF",
                         "buttonSecondaryBackgroundColor": "#FFFFFF",
                         "buttonSecondaryBorderColor": "#212632",
@@ -31816,9 +31775,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                   "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                  "buttonPrimaryHoverBorderColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -32128,9 +32085,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "buttonPrimaryBorderRadius": "4px",
                   "buttonPrimaryColor": "#FFFFFF",
                   "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                  "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                   "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                  "buttonPrimaryHoverBorderColor": "#48AAF1",
                   "buttonPrimaryHoverColor": "#FFFFFF",
                   "buttonSecondaryBackgroundColor": "#FFFFFF",
                   "buttonSecondaryBorderColor": "#212632",
@@ -32435,9 +32390,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "buttonPrimaryBorderRadius": "4px",
                         "buttonPrimaryColor": "#FFFFFF",
                         "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                        "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                         "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                        "buttonPrimaryHoverBorderColor": "#48AAF1",
                         "buttonPrimaryHoverColor": "#FFFFFF",
                         "buttonSecondaryBackgroundColor": "#FFFFFF",
                         "buttonSecondaryBorderColor": "#212632",
@@ -32742,9 +32695,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "buttonPrimaryBorderRadius": "4px",
                         "buttonPrimaryColor": "#FFFFFF",
                         "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                        "buttonPrimaryDisabledBorderColor": "#DCDFE6",
                         "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                        "buttonPrimaryHoverBorderColor": "#48AAF1",
                         "buttonPrimaryHoverColor": "#FFFFFF",
                         "buttonSecondaryBackgroundColor": "#FFFFFF",
                         "buttonSecondaryBorderColor": "#212632",
@@ -33193,9 +33144,7 @@ exports[`Storyshots Notification Error 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -33551,9 +33500,7 @@ exports[`Storyshots Notification Normal 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -33909,9 +33856,7 @@ exports[`Storyshots Notification Success 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
@@ -34270,9 +34215,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "buttonPrimaryBorderRadius": "4px",
               "buttonPrimaryColor": "#FFFFFF",
               "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-              "buttonPrimaryDisabledBorderColor": "#DCDFE6",
               "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-              "buttonPrimaryHoverBorderColor": "#48AAF1",
               "buttonPrimaryHoverColor": "#FFFFFF",
               "buttonSecondaryBackgroundColor": "#FFFFFF",
               "buttonSecondaryBorderColor": "#212632",
