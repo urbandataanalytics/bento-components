@@ -15272,7 +15272,6 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonLinkPaddingSmall": "3px 4px",
             "buttonLinkPrimaryColor": "#1778FB",
             "buttonLinkSecondaryColor": "#747D93",
-<<<<<<< HEAD
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -15602,8 +15601,6 @@ exports[`Storyshots Icon All Icons 1`] = `
             "buttonLinkPaddingSmall": "3px 4px",
             "buttonLinkPrimaryColor": "#1778FB",
             "buttonLinkSecondaryColor": "#747D93",
-=======
->>>>>>> develop
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
