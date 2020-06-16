@@ -128,6 +128,16 @@ Array [
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -433,6 +443,16 @@ Array [
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -851,6 +871,16 @@ Array [
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -1169,6 +1199,16 @@ Array [
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -1640,6 +1680,16 @@ Array [
                     "avatarSizeSmall": "24px",
                     "buttonFontSizeLarge": "14px",
                     "buttonFontSizeMedium": "12px",
+                    "buttonLinkDisabledColor": "#DCDFE6",
+                    "buttonLinkFontSizeLarge": "14px",
+                    "buttonLinkFontSizeMedium": "14px",
+                    "buttonLinkFontSizeSmall": "12px",
+                    "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                    "buttonLinkPaddingLarge": "6px",
+                    "buttonLinkPaddingMedium": "5px",
+                    "buttonLinkPaddingSmall": "3px 4px",
+                    "buttonLinkPrimaryColor": "#1778FB",
+                    "buttonLinkSecondaryColor": "#747D93",
                     "buttonMinWidthLarge": "140px",
                     "buttonMinWidthMedium": "120px",
                     "buttonPaddingLarge": "19px 32px",
@@ -1947,6 +1997,16 @@ Array [
                     "avatarSizeSmall": "24px",
                     "buttonFontSizeLarge": "14px",
                     "buttonFontSizeMedium": "12px",
+                    "buttonLinkDisabledColor": "#DCDFE6",
+                    "buttonLinkFontSizeLarge": "14px",
+                    "buttonLinkFontSizeMedium": "14px",
+                    "buttonLinkFontSizeSmall": "12px",
+                    "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                    "buttonLinkPaddingLarge": "6px",
+                    "buttonLinkPaddingMedium": "5px",
+                    "buttonLinkPaddingSmall": "3px 4px",
+                    "buttonLinkPrimaryColor": "#1778FB",
+                    "buttonLinkSecondaryColor": "#747D93",
                     "buttonMinWidthLarge": "140px",
                     "buttonMinWidthMedium": "120px",
                     "buttonPaddingLarge": "19px 32px",
@@ -2252,6 +2312,16 @@ Array [
                     "avatarSizeSmall": "24px",
                     "buttonFontSizeLarge": "14px",
                     "buttonFontSizeMedium": "12px",
+                    "buttonLinkDisabledColor": "#DCDFE6",
+                    "buttonLinkFontSizeLarge": "14px",
+                    "buttonLinkFontSizeMedium": "14px",
+                    "buttonLinkFontSizeSmall": "12px",
+                    "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                    "buttonLinkPaddingLarge": "6px",
+                    "buttonLinkPaddingMedium": "5px",
+                    "buttonLinkPaddingSmall": "3px 4px",
+                    "buttonLinkPrimaryColor": "#1778FB",
+                    "buttonLinkSecondaryColor": "#747D93",
                     "buttonMinWidthLarge": "140px",
                     "buttonMinWidthMedium": "120px",
                     "buttonPaddingLarge": "19px 32px",
@@ -2549,6 +2619,16 @@ Array [
                     "avatarSizeSmall": "24px",
                     "buttonFontSizeLarge": "14px",
                     "buttonFontSizeMedium": "12px",
+                    "buttonLinkDisabledColor": "#DCDFE6",
+                    "buttonLinkFontSizeLarge": "14px",
+                    "buttonLinkFontSizeMedium": "14px",
+                    "buttonLinkFontSizeSmall": "12px",
+                    "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                    "buttonLinkPaddingLarge": "6px",
+                    "buttonLinkPaddingMedium": "5px",
+                    "buttonLinkPaddingSmall": "3px 4px",
+                    "buttonLinkPrimaryColor": "#1778FB",
+                    "buttonLinkSecondaryColor": "#747D93",
                     "buttonMinWidthLarge": "140px",
                     "buttonMinWidthMedium": "120px",
                     "buttonPaddingLarge": "19px 32px",
@@ -2919,6 +2999,16 @@ Array [
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -3224,6 +3314,16 @@ Array [
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -3610,6 +3710,16 @@ Array [
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -3958,6 +4068,7 @@ exports[`Storyshots Button Block 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -3973,8 +4084,8 @@ exports[`Storyshots Button Block 1`] = `
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -4092,11 +4203,10 @@ exports[`Storyshots Button Block 1`] = `
   >
     <span
       className="c1"
-      loading={false}
+      loading="false"
     >
       <svg
         className="c2"
-        custoColor="white"
         data-name="IconLoader"
         preserveAspectRatio="xMidYMid meet"
         size="small"
@@ -4148,6 +4258,16 @@ exports[`Storyshots Button Block 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -4408,6 +4528,7 @@ exports[`Storyshots Button Loading 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -4423,8 +4544,8 @@ exports[`Storyshots Button Loading 1`] = `
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -4541,11 +4662,10 @@ exports[`Storyshots Button Loading 1`] = `
   >
     <span
       className="c1"
-      loading={true}
+      loading="true"
     >
       <svg
         className="c2"
-        custoColor="white"
         data-name="IconLoader"
         preserveAspectRatio="xMidYMid meet"
         size="small"
@@ -4597,6 +4717,16 @@ exports[`Storyshots Button Loading 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -4857,6 +4987,7 @@ exports[`Storyshots Button Normal 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -4872,8 +5003,8 @@ exports[`Storyshots Button Normal 1`] = `
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -4990,11 +5121,10 @@ exports[`Storyshots Button Normal 1`] = `
   >
     <span
       className="c1"
-      loading={false}
+      loading="false"
     >
       <svg
         className="c2"
-        custoColor="white"
         data-name="IconLoader"
         preserveAspectRatio="xMidYMid meet"
         size="small"
@@ -5046,6 +5176,16 @@ exports[`Storyshots Button Normal 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -5316,6 +5456,7 @@ exports[`Storyshots Button With Icon 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -5331,8 +5472,8 @@ exports[`Storyshots Button With Icon 1`] = `
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -5458,11 +5599,10 @@ exports[`Storyshots Button With Icon 1`] = `
   >
     <span
       className="c1"
-      loading={false}
+      loading="false"
     >
       <svg
         className="c2"
-        custoColor="white"
         data-name="IconLoader"
         preserveAspectRatio="xMidYMid meet"
         size="small"
@@ -5514,6 +5654,16 @@ exports[`Storyshots Button With Icon 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -5817,6 +5967,16 @@ exports[`Storyshots Button With Icon 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -6066,6 +6226,448 @@ exports[`Storyshots Button With Icon 1`] = `
 </div>
 `;
 
+exports[`Storyshots ButtonLink Normal 1`] = `
+.c0 {
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: 'transparent';
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  padding: 5px;
+  font-size: 14px;
+  color: #1778FB;
+}
+
+.c0:disabled {
+  cursor: default;
+  color: #DCDFE6;
+}
+
+.c0:hover {
+  background-color: #EFF2F7;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <button
+    className="c0"
+    disabled={false}
+    onClick={[Function]}
+    size="medium"
+  >
+    ButtonLink
+  </button>
+</div>
+`;
+
+exports[`Storyshots ButtonLink With Icon 1`] = `
+.c2 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.c0 {
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: 'transparent';
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  padding: 5px;
+  font-size: 14px;
+  color: #1778FB;
+}
+
+.c0:disabled {
+  cursor: default;
+  color: #DCDFE6;
+}
+
+.c0:hover {
+  background-color: #EFF2F7;
+}
+
+.c1 {
+  margin: 0 8px 0 0;
+  position: relative;
+  top: -1px;
+}
+
+.c1 > svg {
+  width: 15px;
+  height: 15px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <button
+    className="c0"
+    disabled={false}
+    onClick={[Function]}
+    size="medium"
+  >
+    <span
+      className="c1"
+      direction="left"
+      disabled={false}
+      size="medium"
+    >
+      <svg
+        className="c2"
+        data-name="IconWarning"
+        preserveAspectRatio="xMidYMid meet"
+        size="medium"
+        theme={
+          Object {
+            "breakpoints": Array [
+              "544px",
+              "768px",
+              "1012px",
+              "1280px",
+            ],
+            "color": Object {
+              "charcoal200": "#F8F8F8",
+              "charcoal300": "#EFF2F7",
+              "charcoal400": "#DCDFE6",
+              "charcoal500": "#B6BBC6",
+              "charcoal600": "#747D93",
+              "charcoal700": "#363C4B",
+              "charcoal800": "#212632",
+              "emerald100": "#EEF8F6",
+              "emerald500": "#55BAA9",
+              "emerald600": "#299B9A",
+              "primary100": "#EFF7FB",
+              "primary300": "#48AAF1",
+              "primary500": "#1778FB",
+              "primary700": "#0C1B7A",
+              "redclay100": "#FAEDEC",
+              "redclay500": "#CD4C41",
+              "white": "#FFFFFF",
+            },
+            "components": Object {
+              "accordionBorder": "1px solid #EFF2F7",
+              "accordionColor": "#747D93",
+              "accordionHeaderFontSize": "12px",
+              "accordionHeaderFontWeight": 500,
+              "accordionMinHeight": "65px",
+              "accordionPadding": "16px 24px",
+              "accordionSubHeaderColor": "#DCDFE6",
+              "accordionSubHeaderFontSize": "10px",
+              "accordionSubHeaderFontWeight": 700,
+              "avatarBackgroundColor": "#363C4B",
+              "avatarBorderRadius": "50%",
+              "avatarColor": "#FFFFFF",
+              "avatarFontSizeLarge": "24px",
+              "avatarFontSizeMedium": "14px",
+              "avatarFontSizeSmall": "12px",
+              "avatarSizeLarge": "48px",
+              "avatarSizeMedium": "32px",
+              "avatarSizeSmall": "24px",
+              "buttonFontSizeLarge": "14px",
+              "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
+              "buttonMinWidthLarge": "140px",
+              "buttonMinWidthMedium": "120px",
+              "buttonPaddingLarge": "19px 32px",
+              "buttonPaddingMedium": "11px 32px",
+              "buttonPrimaryBackgroundColor": "#1778FB",
+              "buttonPrimaryBorderRadius": "4px",
+              "buttonPrimaryColor": "#FFFFFF",
+              "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+              "buttonPrimaryHoverBackgroundColor": "#48AAF1",
+              "buttonPrimaryHoverColor": "#FFFFFF",
+              "buttonSecondaryBackgroundColor": "#FFFFFF",
+              "buttonSecondaryBorderColor": "#212632",
+              "buttonSecondaryBorderRadius": "4px",
+              "buttonSecondaryColor": "#212632",
+              "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+              "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+              "buttonSecondaryDisabledColor": "#DCDFE6",
+              "buttonSecondaryHoverBackgroundColor": "#212632",
+              "buttonSecondaryHoverBorderColor": "#48AAF1",
+              "buttonSecondaryHoverColor": "#FFFFFF",
+              "checkboxBackground": "#FFFFFF",
+              "checkboxBackgroundChecked": "#1778FB",
+              "checkboxBackgroundDisabled": "#DCDFE6",
+              "checkboxBorderColor": "#DCDFE6",
+              "checkboxBorderRadius": "2px",
+              "checkboxBorderWidth": "2px",
+              "checkboxIconColor": "#FFFFFF",
+              "checkboxLabelColor": "#212632",
+              "checkboxLabelDisabled": "#DCDFE6",
+              "checkboxLabelFontSize": "14px",
+              "checkboxLabelMargin": "16px",
+              "checkboxSizeMedium": "24px",
+              "checkboxSizeSmall": "16px",
+              "dropdownBackground": "#FFFFFF",
+              "dropdownBorderColor": "#EFF2F7",
+              "dropdownBorderRadius": "4px",
+              "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+              "dropdownPadding": "8px",
+              "formGroupMarginBottom": "16px",
+              "iconPrimaryColor": "#1778FB",
+              "iconSecondaryColor": "#747D93",
+              "iconSizeLarge": "32px",
+              "iconSizeMedium": "24px",
+              "iconSizeSmall": "16px",
+              "inputFieldBackgroundColor": "#FFFFFF",
+              "inputFieldBorderColor": "#DCDFE6",
+              "inputFieldBorderRadius": "4px",
+              "inputFieldDisabledBackgroundColor": "#F8F8F8",
+              "inputFieldDisabledBorderColor": "#DCDFE6",
+              "inputFieldDisabledColor": "#DCDFE6",
+              "inputFieldDisabledLabelColor": "#DCDFE6",
+              "inputFieldErrorBackgroundColor": "#FAEDEC",
+              "inputFieldErrorBorderColor": "#CD4C41",
+              "inputFieldErrorHelpColor": "#CD4C41",
+              "inputFieldErrorPlaceholderColor": "#CD4C41",
+              "inputFieldFocusBackgroundColor": "#EFF7FB",
+              "inputFieldFocusBorderColor": "#48AAF1",
+              "inputFieldFocusLabelColor": "#48AAF1",
+              "inputFieldFontSize": "14px",
+              "inputFieldHelpColor": "#212632",
+              "inputFieldHelpFontSize": "12px",
+              "inputFieldLabelColor": "#363C4B",
+              "inputFieldLabelFontSize": "12px",
+              "inputFieldLineHeight": "48px",
+              "inputFieldPlaceholderColor": "#DCDFE6",
+              "inputFieldTextIndent": "24px",
+              "listBackgroundColor": "#FFFFFF",
+              "listItemBorderRadius": "2px",
+              "listItemColorActive": "#1778FB",
+              "listItemColorActiveHover": "#EFF7FB",
+              "listItemColorDefault": "#747D93",
+              "listItemColorDefaultHover": "#EFF2F7",
+              "listItemColorDisabled": "#DCDFE6",
+              "listItemFontSizeLarge": "14px",
+              "listItemFontSizeMedium": "12px",
+              "listItemFontWeight": 500,
+              "listItemMargin": "0 0 4px",
+              "listItemPaddingLarge": "8px 16px",
+              "listItemPaddingMedium": "8px 16px",
+              "listItemSeparatorColor": "#EFF2F7",
+              "listPadding": "8px",
+              "navigationBorder": "1px solid #EFF2F7",
+              "navigationContentMargin": "0 42px 0 0",
+              "navigationHeaderPadding": "0 17px",
+              "navigationLinkFontSize": "12px",
+              "navigationLinkMargin": "0 24px 0 0",
+              "navigationMenuBackgroundColor": "#EFF2F7",
+              "navigationMenuHoverBackgroundColor": "#DCDFE6",
+              "navigationMenuOpenBackgroundColor": "#EFF7FB",
+              "navigationMenuPadding": "20px 16px",
+              "navigationMinHeight": "73px",
+              "notificationBorderRadius": "8px",
+              "notificationCloseButtonColor": "#212632",
+              "notificationErrorBackgroundColor": "#FAEDEC",
+              "notificationErrorColor": "#CD4C41",
+              "notificationNormalBackgroundColor": "#EFF7FB",
+              "notificationNormalColor": "#212632",
+              "notificationPadding": "16px",
+              "notificationSuccessBackgroundColor": "#EEF8F6",
+              "notificationSuccessColor": "#299B9A",
+              "tabBadgeBackground": "#EFF2F7",
+              "tabBadgeBackgroundActive": "#1778FB",
+              "tabBadgeBackgroundHover": "#48AAF1",
+              "tabBadgeColor": "#747D93",
+              "tabBadgeColorActive": "#FFFFFF",
+              "tabBadgeColorHover": "#FFFFFF",
+              "tabBadgeFontSize": "12px",
+              "tabBadgeFontWeight": 500,
+              "tabBadgePadding": "2px 8px",
+              "tabBorderColor": "transparent",
+              "tabBorderColorActive": "#1778FB",
+              "tabBorderColorHover": "#48AAF1",
+              "tabColor": "#747D93",
+              "tabColorActive": "#1778FB",
+              "tabColorDisabled": "#DCDFE6",
+              "tabColorHover": "#48AAF1",
+              "tabFontSize": "12px",
+              "tabFontWeight": 500,
+              "tabsBorderColor": "#EFF2F7",
+              "textLinkDisabledColor": "#DCDFE6",
+              "textLinkFontSizeLarge": "14px",
+              "textLinkFontSizeMedium": "12px",
+              "textLinkPrimaryColor": "#1778FB",
+              "textLinkPrimaryHoverColor": "#48AAF1",
+              "textLinkSecondaryColor": "#747D93",
+              "textLinkSecondaryHoverColor": "#48AAF1",
+            },
+            "fonts": Array [
+              Object {
+                "name": "Roboto-Regular",
+                "style": "normal",
+                "weight": "normal",
+              },
+              Object {
+                "name": "Roboto Medium",
+                "style": "normal",
+                "weight": 500,
+              },
+              Object {
+                "name": "Roboto Bold",
+                "style": "normal",
+                "weight": 700,
+              },
+            ],
+            "global": Object {
+              "bgColor": "white",
+              "fontColor": "#333",
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeightBold": 700,
+              "fontWeightMedium": 500,
+              "fontWeightRegular": 400,
+              "transition": "all 250ms ease-in-out",
+            },
+            "headings": Array [
+              Object {
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontWeight": 500,
+                "size": "3.4rem",
+              },
+              Object {
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontWeight": 500,
+                "size": "2.5rem",
+              },
+              Object {
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontWeight": 500,
+                "size": "1.7rem",
+              },
+              Object {
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontWeight": 500,
+                "size": "1.1rem",
+              },
+              Object {
+                "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontWeight": 500,
+                "size": "0.8rem",
+              },
+            ],
+            "shapes": Object {
+              "borderRadiusFull": "50%",
+              "borderRadiusLarge": "8px",
+              "borderRadiusMedium": "4px",
+              "borderRadiusSmall": "2px",
+              "borderWidthMedium": "2px",
+              "borderWidthSmall": "1px",
+            },
+            "spacings": Object {
+              "large1": "80px",
+              "large2": "96px",
+              "large3": "128px",
+              "large4": "200px",
+              "medium1": "32px",
+              "medium2": "40px",
+              "medium3": "48px",
+              "medium4": "56px",
+              "medium5": "64px",
+              "small1": "4px",
+              "small2": "8px",
+              "small3": "16px",
+              "small4": "24px",
+            },
+            "texts": Object {
+              "p1b": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p2": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
+              "p2b": Object {
+                "color": "#212632",
+                "fontSize": "12px",
+                "fontWeight": 500,
+                "lineHeight": "1.5",
+              },
+              "p3b": Object {
+                "color": "#212632",
+                "fontSize": "10px",
+                "fontWeight": 700,
+                "lineHeight": "1.5",
+              },
+            },
+          }
+        }
+        viewBox="0 0 32 32"
+      >
+        <path
+          clipRule="evenodd"
+          d="M14.457 5.404a3.145 3.145 0 014.232 1.11l.003.005L27.57 21.34l.009.015a3.144 3.144 0 01-2.69 4.717H7.11a3.145 3.145 0 01-2.689-4.717l.009-.015L13.308 6.52l.9.538-.897-.543c.28-.462.675-.844 1.146-1.11zm.648 2.195l-8.872 14.81a1.048 1.048 0 00.895 1.567h17.744a1.048 1.048 0 00.895-1.567l-8.87-14.808-.002-.002a1.05 1.05 0 00-1.79 0zM16 11.397c.579 0 1.048.47 1.048 1.048v4.193a1.048 1.048 0 01-2.096 0v-4.193c0-.579.47-1.048 1.048-1.048zm-.005 8.386c-.576 0-1.043.469-1.043 1.048 0 .579.467 1.048 1.043 1.048h.01c.576 0 1.043-.47 1.043-1.048 0-.579-.467-1.048-1.043-1.048h-.01z"
+        />
+      </svg>
+    </span>
+    ButtonLink
+  </button>
+</div>
+`;
+
 exports[`Storyshots Checkbox Normal 1`] = `
 .c4 {
   -webkit-flex-shrink: 0;
@@ -6252,6 +6854,16 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -6700,6 +7312,16 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -7260,6 +7882,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -7351,8 +7974,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -7478,7 +8101,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
-  left: 8px;
+  left: 8px z-index:1;
 }
 
 <div
@@ -7502,10 +8125,10 @@ exports[`Storyshots Dropdown Playground 1`] = `
       >
         <span
           className="c3"
+          loading="false"
         >
           <svg
             className="c4"
-            custoColor="white"
             data-name="IconLoader"
             preserveAspectRatio="xMidYMid meet"
             size="small"
@@ -7557,6 +8180,16 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -7797,7 +8430,9 @@ exports[`Storyshots Dropdown Playground 1`] = `
           </svg>
           <span
             className="c5"
-          />
+          >
+            
+          </span>
         </span>
         <span
           className=""
@@ -7876,6 +8511,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -8089,8 +8725,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -8216,7 +8852,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
-  left: 8px;
+  left: 8px z-index:1;
 }
 
 <div
@@ -8240,10 +8876,10 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
       >
         <span
           className="c3"
+          loading="false"
         >
           <svg
             className="c4"
-            custoColor="white"
             data-name="IconLoader"
             preserveAspectRatio="xMidYMid meet"
             size="small"
@@ -8295,6 +8931,16 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -8535,7 +9181,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           </svg>
           <span
             className="c5"
-          />
+          >
+            
+          </span>
         </span>
         <span
           className=""
@@ -8614,6 +9262,16 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "avatarSizeSmall": "24px",
                       "buttonFontSizeLarge": "14px",
                       "buttonFontSizeMedium": "12px",
+                      "buttonLinkDisabledColor": "#DCDFE6",
+                      "buttonLinkFontSizeLarge": "14px",
+                      "buttonLinkFontSizeMedium": "14px",
+                      "buttonLinkFontSizeSmall": "12px",
+                      "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                      "buttonLinkPaddingLarge": "6px",
+                      "buttonLinkPaddingMedium": "5px",
+                      "buttonLinkPaddingSmall": "3px 4px",
+                      "buttonLinkPrimaryColor": "#1778FB",
+                      "buttonLinkSecondaryColor": "#747D93",
                       "buttonMinWidthLarge": "140px",
                       "buttonMinWidthMedium": "120px",
                       "buttonPaddingLarge": "19px 32px",
@@ -8923,6 +9581,16 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "avatarSizeSmall": "24px",
                       "buttonFontSizeLarge": "14px",
                       "buttonFontSizeMedium": "12px",
+                      "buttonLinkDisabledColor": "#DCDFE6",
+                      "buttonLinkFontSizeLarge": "14px",
+                      "buttonLinkFontSizeMedium": "14px",
+                      "buttonLinkFontSizeSmall": "12px",
+                      "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                      "buttonLinkPaddingLarge": "6px",
+                      "buttonLinkPaddingMedium": "5px",
+                      "buttonLinkPaddingSmall": "3px 4px",
+                      "buttonLinkPrimaryColor": "#1778FB",
+                      "buttonLinkSecondaryColor": "#747D93",
                       "buttonMinWidthLarge": "140px",
                       "buttonMinWidthMedium": "120px",
                       "buttonPaddingLarge": "19px 32px",
@@ -9228,6 +9896,16 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "avatarSizeSmall": "24px",
                       "buttonFontSizeLarge": "14px",
                       "buttonFontSizeMedium": "12px",
+                      "buttonLinkDisabledColor": "#DCDFE6",
+                      "buttonLinkFontSizeLarge": "14px",
+                      "buttonLinkFontSizeMedium": "14px",
+                      "buttonLinkFontSizeSmall": "12px",
+                      "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                      "buttonLinkPaddingLarge": "6px",
+                      "buttonLinkPaddingMedium": "5px",
+                      "buttonLinkPaddingSmall": "3px 4px",
+                      "buttonLinkPrimaryColor": "#1778FB",
+                      "buttonLinkSecondaryColor": "#747D93",
                       "buttonMinWidthLarge": "140px",
                       "buttonMinWidthMedium": "120px",
                       "buttonPaddingLarge": "19px 32px",
@@ -9525,6 +10203,16 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "avatarSizeSmall": "24px",
                       "buttonFontSizeLarge": "14px",
                       "buttonFontSizeMedium": "12px",
+                      "buttonLinkDisabledColor": "#DCDFE6",
+                      "buttonLinkFontSizeLarge": "14px",
+                      "buttonLinkFontSizeMedium": "14px",
+                      "buttonLinkFontSizeSmall": "12px",
+                      "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                      "buttonLinkPaddingLarge": "6px",
+                      "buttonLinkPaddingMedium": "5px",
+                      "buttonLinkPaddingSmall": "3px 4px",
+                      "buttonLinkPrimaryColor": "#1778FB",
+                      "buttonLinkSecondaryColor": "#747D93",
                       "buttonMinWidthLarge": "140px",
                       "buttonMinWidthMedium": "120px",
                       "buttonPaddingLarge": "19px 32px",
@@ -9780,6 +10468,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
   flex-shrink: 0;
   vertical-align: middle;
   fill: currentColor;
+  color: white;
   width: 16px;
   height: 16px;
 }
@@ -9795,8 +10484,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -9931,8 +10620,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
   border-radius: 4px;
   border-width: 1px;
   border-style: solid;
-  -webkit-transition: 300ms ease-in-out;
-  transition: 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   background-color: #FFFFFF;
   border-color: #DCDFE6;
 }
@@ -10098,10 +10787,10 @@ exports[`Storyshots FormGroup Playground 1`] = `
     >
       <span
         className="c7"
+        loading="false"
       >
         <svg
           className="c8"
-          custoColor="white"
           data-name="IconLoader"
           preserveAspectRatio="xMidYMid meet"
           size="small"
@@ -10153,6 +10842,16 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "avatarSizeSmall": "24px",
                 "buttonFontSizeLarge": "14px",
                 "buttonFontSizeMedium": "12px",
+                "buttonLinkDisabledColor": "#DCDFE6",
+                "buttonLinkFontSizeLarge": "14px",
+                "buttonLinkFontSizeMedium": "14px",
+                "buttonLinkFontSizeSmall": "12px",
+                "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                "buttonLinkPaddingLarge": "6px",
+                "buttonLinkPaddingMedium": "5px",
+                "buttonLinkPaddingSmall": "3px 4px",
+                "buttonLinkPrimaryColor": "#1778FB",
+                "buttonLinkSecondaryColor": "#747D93",
                 "buttonMinWidthLarge": "140px",
                 "buttonMinWidthMedium": "120px",
                 "buttonPaddingLarge": "19px 32px",
@@ -10393,7 +11092,9 @@ exports[`Storyshots FormGroup Playground 1`] = `
         </svg>
         <span
           className="c9"
-        />
+        >
+          
+        </span>
       </span>
       <span
         className=""
@@ -10579,6 +11280,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -10899,6 +11610,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -11219,6 +11940,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -11539,6 +12270,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -11858,6 +12599,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -12178,6 +12929,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -12498,6 +13259,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -12818,6 +13589,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -13138,6 +13919,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -13457,6 +14248,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -13777,6 +14578,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -14097,6 +14908,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -14416,6 +15237,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -14735,6 +15566,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -15054,6 +15895,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -15374,6 +16225,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -15695,6 +16556,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -16023,6 +16894,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -16353,6 +17234,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -16680,6 +17571,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -16999,6 +17900,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -17320,6 +18231,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -17640,6 +18561,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -17967,6 +18898,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -18287,6 +19228,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -18607,6 +19558,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -18928,6 +19889,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -19248,6 +20219,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -19568,6 +20549,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -19837,6 +20828,336 @@ exports[`Storyshots Icon All Icons 1`] = `
   >
     <svg
       className="c0"
+      data-name="IconList"
+      preserveAspectRatio="xMidYMid meet"
+      size="large"
+      theme={
+        Object {
+          "breakpoints": Array [
+            "544px",
+            "768px",
+            "1012px",
+            "1280px",
+          ],
+          "color": Object {
+            "charcoal200": "#F8F8F8",
+            "charcoal300": "#EFF2F7",
+            "charcoal400": "#DCDFE6",
+            "charcoal500": "#B6BBC6",
+            "charcoal600": "#747D93",
+            "charcoal700": "#363C4B",
+            "charcoal800": "#212632",
+            "emerald100": "#EEF8F6",
+            "emerald500": "#55BAA9",
+            "emerald600": "#299B9A",
+            "primary100": "#EFF7FB",
+            "primary300": "#48AAF1",
+            "primary500": "#1778FB",
+            "primary700": "#0C1B7A",
+            "redclay100": "#FAEDEC",
+            "redclay500": "#CD4C41",
+            "white": "#FFFFFF",
+          },
+          "components": Object {
+            "accordionBorder": "1px solid #EFF2F7",
+            "accordionColor": "#747D93",
+            "accordionHeaderFontSize": "12px",
+            "accordionHeaderFontWeight": 500,
+            "accordionMinHeight": "65px",
+            "accordionPadding": "16px 24px",
+            "accordionSubHeaderColor": "#DCDFE6",
+            "accordionSubHeaderFontSize": "10px",
+            "accordionSubHeaderFontWeight": 700,
+            "avatarBackgroundColor": "#363C4B",
+            "avatarBorderRadius": "50%",
+            "avatarColor": "#FFFFFF",
+            "avatarFontSizeLarge": "24px",
+            "avatarFontSizeMedium": "14px",
+            "avatarFontSizeSmall": "12px",
+            "avatarSizeLarge": "48px",
+            "avatarSizeMedium": "32px",
+            "avatarSizeSmall": "24px",
+            "buttonFontSizeLarge": "14px",
+            "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
+            "buttonMinWidthLarge": "140px",
+            "buttonMinWidthMedium": "120px",
+            "buttonPaddingLarge": "19px 32px",
+            "buttonPaddingMedium": "11px 32px",
+            "buttonPrimaryBackgroundColor": "#1778FB",
+            "buttonPrimaryBorderRadius": "4px",
+            "buttonPrimaryColor": "#FFFFFF",
+            "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+            "buttonPrimaryHoverBackgroundColor": "#48AAF1",
+            "buttonPrimaryHoverColor": "#FFFFFF",
+            "buttonSecondaryBackgroundColor": "#FFFFFF",
+            "buttonSecondaryBorderColor": "#212632",
+            "buttonSecondaryBorderRadius": "4px",
+            "buttonSecondaryColor": "#212632",
+            "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+            "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+            "buttonSecondaryDisabledColor": "#DCDFE6",
+            "buttonSecondaryHoverBackgroundColor": "#212632",
+            "buttonSecondaryHoverBorderColor": "#48AAF1",
+            "buttonSecondaryHoverColor": "#FFFFFF",
+            "checkboxBackground": "#FFFFFF",
+            "checkboxBackgroundChecked": "#1778FB",
+            "checkboxBackgroundDisabled": "#DCDFE6",
+            "checkboxBorderColor": "#DCDFE6",
+            "checkboxBorderRadius": "2px",
+            "checkboxBorderWidth": "2px",
+            "checkboxIconColor": "#FFFFFF",
+            "checkboxLabelColor": "#212632",
+            "checkboxLabelDisabled": "#DCDFE6",
+            "checkboxLabelFontSize": "14px",
+            "checkboxLabelMargin": "16px",
+            "checkboxSizeMedium": "24px",
+            "checkboxSizeSmall": "16px",
+            "dropdownBackground": "#FFFFFF",
+            "dropdownBorderColor": "#EFF2F7",
+            "dropdownBorderRadius": "4px",
+            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+            "dropdownPadding": "8px",
+            "formGroupMarginBottom": "16px",
+            "iconPrimaryColor": "#1778FB",
+            "iconSecondaryColor": "#747D93",
+            "iconSizeLarge": "32px",
+            "iconSizeMedium": "24px",
+            "iconSizeSmall": "16px",
+            "inputFieldBackgroundColor": "#FFFFFF",
+            "inputFieldBorderColor": "#DCDFE6",
+            "inputFieldBorderRadius": "4px",
+            "inputFieldDisabledBackgroundColor": "#F8F8F8",
+            "inputFieldDisabledBorderColor": "#DCDFE6",
+            "inputFieldDisabledColor": "#DCDFE6",
+            "inputFieldDisabledLabelColor": "#DCDFE6",
+            "inputFieldErrorBackgroundColor": "#FAEDEC",
+            "inputFieldErrorBorderColor": "#CD4C41",
+            "inputFieldErrorHelpColor": "#CD4C41",
+            "inputFieldErrorPlaceholderColor": "#CD4C41",
+            "inputFieldFocusBackgroundColor": "#EFF7FB",
+            "inputFieldFocusBorderColor": "#48AAF1",
+            "inputFieldFocusLabelColor": "#48AAF1",
+            "inputFieldFontSize": "14px",
+            "inputFieldHelpColor": "#212632",
+            "inputFieldHelpFontSize": "12px",
+            "inputFieldLabelColor": "#363C4B",
+            "inputFieldLabelFontSize": "12px",
+            "inputFieldLineHeight": "48px",
+            "inputFieldPlaceholderColor": "#DCDFE6",
+            "inputFieldTextIndent": "24px",
+            "listBackgroundColor": "#FFFFFF",
+            "listItemBorderRadius": "2px",
+            "listItemColorActive": "#1778FB",
+            "listItemColorActiveHover": "#EFF7FB",
+            "listItemColorDefault": "#747D93",
+            "listItemColorDefaultHover": "#EFF2F7",
+            "listItemColorDisabled": "#DCDFE6",
+            "listItemFontSizeLarge": "14px",
+            "listItemFontSizeMedium": "12px",
+            "listItemFontWeight": 500,
+            "listItemMargin": "0 0 4px",
+            "listItemPaddingLarge": "8px 16px",
+            "listItemPaddingMedium": "8px 16px",
+            "listItemSeparatorColor": "#EFF2F7",
+            "listPadding": "8px",
+            "navigationBorder": "1px solid #EFF2F7",
+            "navigationContentMargin": "0 42px 0 0",
+            "navigationHeaderPadding": "0 17px",
+            "navigationLinkFontSize": "12px",
+            "navigationLinkMargin": "0 24px 0 0",
+            "navigationMenuBackgroundColor": "#EFF2F7",
+            "navigationMenuHoverBackgroundColor": "#DCDFE6",
+            "navigationMenuOpenBackgroundColor": "#EFF7FB",
+            "navigationMenuPadding": "20px 16px",
+            "navigationMinHeight": "73px",
+            "notificationBorderRadius": "8px",
+            "notificationCloseButtonColor": "#212632",
+            "notificationErrorBackgroundColor": "#FAEDEC",
+            "notificationErrorColor": "#CD4C41",
+            "notificationNormalBackgroundColor": "#EFF7FB",
+            "notificationNormalColor": "#212632",
+            "notificationPadding": "16px",
+            "notificationSuccessBackgroundColor": "#EEF8F6",
+            "notificationSuccessColor": "#299B9A",
+            "tabBadgeBackground": "#EFF2F7",
+            "tabBadgeBackgroundActive": "#1778FB",
+            "tabBadgeBackgroundHover": "#48AAF1",
+            "tabBadgeColor": "#747D93",
+            "tabBadgeColorActive": "#FFFFFF",
+            "tabBadgeColorHover": "#FFFFFF",
+            "tabBadgeFontSize": "12px",
+            "tabBadgeFontWeight": 500,
+            "tabBadgePadding": "2px 8px",
+            "tabBorderColor": "transparent",
+            "tabBorderColorActive": "#1778FB",
+            "tabBorderColorHover": "#48AAF1",
+            "tabColor": "#747D93",
+            "tabColorActive": "#1778FB",
+            "tabColorDisabled": "#DCDFE6",
+            "tabColorHover": "#48AAF1",
+            "tabFontSize": "12px",
+            "tabFontWeight": 500,
+            "tabsBorderColor": "#EFF2F7",
+            "textLinkDisabledColor": "#DCDFE6",
+            "textLinkFontSizeLarge": "14px",
+            "textLinkFontSizeMedium": "12px",
+            "textLinkPrimaryColor": "#1778FB",
+            "textLinkPrimaryHoverColor": "#48AAF1",
+            "textLinkSecondaryColor": "#747D93",
+            "textLinkSecondaryHoverColor": "#48AAF1",
+          },
+          "fonts": Array [
+            Object {
+              "name": "Roboto-Regular",
+              "style": "normal",
+              "weight": "normal",
+            },
+            Object {
+              "name": "Roboto Medium",
+              "style": "normal",
+              "weight": 500,
+            },
+            Object {
+              "name": "Roboto Bold",
+              "style": "normal",
+              "weight": 700,
+            },
+          ],
+          "global": Object {
+            "bgColor": "white",
+            "fontColor": "#333",
+            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeightBold": 700,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
+            "transition": "all 250ms ease-in-out",
+          },
+          "headings": Array [
+            Object {
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontWeight": 500,
+              "size": "3.4rem",
+            },
+            Object {
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontWeight": 500,
+              "size": "2.5rem",
+            },
+            Object {
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontWeight": 500,
+              "size": "1.7rem",
+            },
+            Object {
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontWeight": 500,
+              "size": "1.1rem",
+            },
+            Object {
+              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontWeight": 500,
+              "size": "0.8rem",
+            },
+          ],
+          "shapes": Object {
+            "borderRadiusFull": "50%",
+            "borderRadiusLarge": "8px",
+            "borderRadiusMedium": "4px",
+            "borderRadiusSmall": "2px",
+            "borderWidthMedium": "2px",
+            "borderWidthSmall": "1px",
+          },
+          "spacings": Object {
+            "large1": "80px",
+            "large2": "96px",
+            "large3": "128px",
+            "large4": "200px",
+            "medium1": "32px",
+            "medium2": "40px",
+            "medium3": "48px",
+            "medium4": "56px",
+            "medium5": "64px",
+            "small1": "4px",
+            "small2": "8px",
+            "small3": "16px",
+            "small4": "24px",
+          },
+          "texts": Object {
+            "p1b": Object {
+              "color": "#212632",
+              "fontSize": "14px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p2": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 400,
+              "lineHeight": "1.5",
+            },
+            "p2b": Object {
+              "color": "#212632",
+              "fontSize": "12px",
+              "fontWeight": 500,
+              "lineHeight": "1.5",
+            },
+            "p3b": Object {
+              "color": "#212632",
+              "fontSize": "10px",
+              "fontWeight": 700,
+              "lineHeight": "1.5",
+            },
+          },
+        }
+      }
+      viewBox="0 0 16 12"
+    >
+      <path
+        clipRule="evenodd"
+        d="M1.246.75A.748.748 0 00.5 1.5c0 .414.334.75.746.75h.008A.748.748 0 002 1.5a.748.748 0 00-.746-.75h-.008zM5 .75a.75.75 0 000 1.5h9.75a.75.75 0 000-1.5H5zm0 4.5a.75.75 0 000 1.5h9.75a.75.75 0 000-1.5H5zm-.75 5.25A.75.75 0 015 9.75h9.75a.75.75 0 010 1.5H5a.75.75 0 01-.75-.75zM.5 6c0-.414.334-.75.746-.75h.008c.412 0 .746.336.746.75s-.334.75-.746.75h-.008A.748.748 0 01.5 6zm.746 3.75a.748.748 0 00-.746.75c0 .414.334.75.746.75h.008A.748.748 0 002 10.5a.748.748 0 00-.746-.75h-.008z"
+      />
+    </svg>
+    <pre
+      style={
+        Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        }
+      }
+    >
+      &lt;
+      IconList
+      /&gt;
+    </pre>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "8px",
+        "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+        "padding": "1rem",
+        "pre": Object {
+          "fontFamily": "monospace",
+          "marginTop": ".5rem",
+        },
+        "textAlign": "center",
+      }
+    }
+  >
+    <svg
+      className="c0"
       data-name="IconLoader"
       preserveAspectRatio="xMidYMid meet"
       size="large"
@@ -19888,6 +21209,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -20207,6 +21538,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -20531,6 +21872,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -20851,6 +22202,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -21172,6 +22533,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -21491,6 +22862,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -21811,6 +23192,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -22131,6 +23522,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -22451,6 +23852,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -22771,6 +24182,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -23090,6 +24511,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -23414,6 +24845,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -23734,6 +25175,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -24055,6 +25506,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -24375,6 +25836,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -24696,6 +26167,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -25019,6 +26500,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -25342,6 +26833,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -25662,6 +27163,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -25982,6 +27493,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -26311,6 +27832,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -26631,6 +28162,16 @@ exports[`Storyshots Icon All Icons 1`] = `
             "avatarSizeSmall": "24px",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
+            "buttonLinkDisabledColor": "#DCDFE6",
+            "buttonLinkFontSizeLarge": "14px",
+            "buttonLinkFontSizeMedium": "14px",
+            "buttonLinkFontSizeSmall": "12px",
+            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+            "buttonLinkPaddingLarge": "6px",
+            "buttonLinkPaddingMedium": "5px",
+            "buttonLinkPaddingSmall": "3px 4px",
+            "buttonLinkPrimaryColor": "#1778FB",
+            "buttonLinkSecondaryColor": "#747D93",
             "buttonMinWidthLarge": "140px",
             "buttonMinWidthMedium": "120px",
             "buttonPaddingLarge": "19px 32px",
@@ -26961,6 +28502,16 @@ exports[`Storyshots Icon Normal 1`] = `
           "avatarSizeSmall": "24px",
           "buttonFontSizeLarge": "14px",
           "buttonFontSizeMedium": "12px",
+          "buttonLinkDisabledColor": "#DCDFE6",
+          "buttonLinkFontSizeLarge": "14px",
+          "buttonLinkFontSizeMedium": "14px",
+          "buttonLinkFontSizeSmall": "12px",
+          "buttonLinkHoverBackgroundColor": "#EFF2F7",
+          "buttonLinkPaddingLarge": "6px",
+          "buttonLinkPaddingMedium": "5px",
+          "buttonLinkPaddingSmall": "3px 4px",
+          "buttonLinkPrimaryColor": "#1778FB",
+          "buttonLinkSecondaryColor": "#747D93",
           "buttonMinWidthLarge": "140px",
           "buttonMinWidthMedium": "120px",
           "buttonPaddingLarge": "19px 32px",
@@ -27232,8 +28783,8 @@ exports[`Storyshots InputField Disabled 1`] = `
   border-radius: 4px;
   border-width: 1px;
   border-style: solid;
-  -webkit-transition: 300ms ease-in-out;
-  transition: 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   background-color: #FFFFFF;
   border-color: #DCDFE6;
 }
@@ -27392,8 +28943,8 @@ exports[`Storyshots InputField Error 1`] = `
   border-radius: 4px;
   border-width: 1px;
   border-style: solid;
-  -webkit-transition: 300ms ease-in-out;
-  transition: 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   background-color: #FFFFFF;
   border-color: #DCDFE6;
 }
@@ -27552,8 +29103,8 @@ exports[`Storyshots InputField Normal 1`] = `
   border-radius: 4px;
   border-width: 1px;
   border-style: solid;
-  -webkit-transition: 300ms ease-in-out;
-  transition: 300ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
   background-color: #FFFFFF;
   border-color: #DCDFE6;
 }
@@ -28497,6 +30048,16 @@ exports[`Storyshots List With Childrens 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -28804,6 +30365,16 @@ exports[`Storyshots List With Childrens 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -29126,6 +30697,16 @@ exports[`Storyshots List With Childrens 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -29445,6 +31026,16 @@ exports[`Storyshots List With Childrens 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -29742,6 +31333,16 @@ exports[`Storyshots List With Childrens 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -30049,6 +31650,16 @@ exports[`Storyshots List With Childrens 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -30347,6 +31958,16 @@ exports[`Storyshots List With Childrens 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -30866,7 +32487,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
-  left: 8px;
+  left: 8px z-index:1;
 }
 
 .c0 {
@@ -31056,6 +32677,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -31367,6 +32998,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "avatarSizeSmall": "24px",
                         "buttonFontSizeLarge": "14px",
                         "buttonFontSizeMedium": "12px",
+                        "buttonLinkDisabledColor": "#DCDFE6",
+                        "buttonLinkFontSizeLarge": "14px",
+                        "buttonLinkFontSizeMedium": "14px",
+                        "buttonLinkFontSizeSmall": "12px",
+                        "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                        "buttonLinkPaddingLarge": "6px",
+                        "buttonLinkPaddingMedium": "5px",
+                        "buttonLinkPaddingSmall": "3px 4px",
+                        "buttonLinkPrimaryColor": "#1778FB",
+                        "buttonLinkSecondaryColor": "#747D93",
                         "buttonMinWidthLarge": "140px",
                         "buttonMinWidthMedium": "120px",
                         "buttonPaddingLarge": "19px 32px",
@@ -31673,6 +33314,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "avatarSizeSmall": "24px",
                         "buttonFontSizeLarge": "14px",
                         "buttonFontSizeMedium": "12px",
+                        "buttonLinkDisabledColor": "#DCDFE6",
+                        "buttonLinkFontSizeLarge": "14px",
+                        "buttonLinkFontSizeMedium": "14px",
+                        "buttonLinkFontSizeSmall": "12px",
+                        "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                        "buttonLinkPaddingLarge": "6px",
+                        "buttonLinkPaddingMedium": "5px",
+                        "buttonLinkPaddingSmall": "3px 4px",
+                        "buttonLinkPrimaryColor": "#1778FB",
+                        "buttonLinkSecondaryColor": "#747D93",
                         "buttonMinWidthLarge": "140px",
                         "buttonMinWidthMedium": "120px",
                         "buttonPaddingLarge": "19px 32px",
@@ -32055,6 +33706,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -32365,6 +34026,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "avatarSizeSmall": "24px",
                   "buttonFontSizeLarge": "14px",
                   "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
                   "buttonMinWidthLarge": "140px",
                   "buttonMinWidthMedium": "120px",
                   "buttonPaddingLarge": "19px 32px",
@@ -32670,6 +34341,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "avatarSizeSmall": "24px",
                         "buttonFontSizeLarge": "14px",
                         "buttonFontSizeMedium": "12px",
+                        "buttonLinkDisabledColor": "#DCDFE6",
+                        "buttonLinkFontSizeLarge": "14px",
+                        "buttonLinkFontSizeMedium": "14px",
+                        "buttonLinkFontSizeSmall": "12px",
+                        "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                        "buttonLinkPaddingLarge": "6px",
+                        "buttonLinkPaddingMedium": "5px",
+                        "buttonLinkPaddingSmall": "3px 4px",
+                        "buttonLinkPrimaryColor": "#1778FB",
+                        "buttonLinkSecondaryColor": "#747D93",
                         "buttonMinWidthLarge": "140px",
                         "buttonMinWidthMedium": "120px",
                         "buttonPaddingLarge": "19px 32px",
@@ -32975,6 +34656,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "avatarSizeSmall": "24px",
                         "buttonFontSizeLarge": "14px",
                         "buttonFontSizeMedium": "12px",
+                        "buttonLinkDisabledColor": "#DCDFE6",
+                        "buttonLinkFontSizeLarge": "14px",
+                        "buttonLinkFontSizeMedium": "14px",
+                        "buttonLinkFontSizeSmall": "12px",
+                        "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                        "buttonLinkPaddingLarge": "6px",
+                        "buttonLinkPaddingMedium": "5px",
+                        "buttonLinkPaddingSmall": "3px 4px",
+                        "buttonLinkPrimaryColor": "#1778FB",
+                        "buttonLinkSecondaryColor": "#747D93",
                         "buttonMinWidthLarge": "140px",
                         "buttonMinWidthMedium": "120px",
                         "buttonPaddingLarge": "19px 32px",
@@ -33424,6 +35115,16 @@ exports[`Storyshots Notification Error 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -33780,6 +35481,16 @@ exports[`Storyshots Notification Normal 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -34136,6 +35847,16 @@ exports[`Storyshots Notification Success 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -34495,6 +36216,16 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "avatarSizeSmall": "24px",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDisabledColor": "#DCDFE6",
+              "buttonLinkFontSizeLarge": "14px",
+              "buttonLinkFontSizeMedium": "14px",
+              "buttonLinkFontSizeSmall": "12px",
+              "buttonLinkHoverBackgroundColor": "#EFF2F7",
+              "buttonLinkPaddingLarge": "6px",
+              "buttonLinkPaddingMedium": "5px",
+              "buttonLinkPaddingSmall": "3px 4px",
+              "buttonLinkPrimaryColor": "#1778FB",
+              "buttonLinkSecondaryColor": "#747D93",
               "buttonMinWidthLarge": "140px",
               "buttonMinWidthMedium": "120px",
               "buttonPaddingLarge": "19px 32px",
@@ -34741,6 +36472,122 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
       Message
     </div>
   </aside>
+</div>
+`;
+
+exports[`Storyshots SwitchButtons Normal 1`] = `
+.c0 {
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: 'transparent';
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  padding: 5px;
+  font-size: 14px;
+  color: #1778FB;
+}
+
+.c0:disabled {
+  cursor: default;
+  color: #DCDFE6;
+}
+
+.c0:hover {
+  background-color: #EFF2F7;
+}
+
+.c1 {
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: 'transparent';
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  padding: 5px;
+  font-size: 14px;
+  color: #747D93;
+}
+
+.c1:disabled {
+  cursor: default;
+  color: #DCDFE6;
+}
+
+.c1:hover {
+  background-color: #EFF2F7;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className=""
+  >
+    <button
+      className="c0"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="first"
+    >
+      First
+    </button>
+    <button
+      className="c1"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="second"
+    >
+      Second
+    </button>
+    <button
+      className="c1"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="third"
+    >
+      Value
+    </button>
+  </div>
 </div>
 `;
 
