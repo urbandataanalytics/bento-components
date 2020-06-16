@@ -8431,6 +8431,10 @@ Array [
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   -webkit-transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   border-left: 1px solid #EFF2F7;
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);

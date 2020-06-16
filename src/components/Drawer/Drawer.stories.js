@@ -39,6 +39,10 @@ export const Normal = () => {
         subHeader={<small>{text('Subtitle', 'Subtitle')}</small>}
         onClose={handleClose}
         width={text('Width', '320px')}
+        offsetTop={text('Offset Top', '0px')}
+        offsetRight={text('Offset Right', '0px')}
+        offsetLeft={text('Offset Left', '0px')}
+        offsetBottom={text('Offset Bottom', '0px')}
       >
         <Accordion header={'Accordion title 1'} leftContent={<IconNavigation />}>
           <List>
