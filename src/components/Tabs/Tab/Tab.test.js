@@ -46,7 +46,10 @@ describe(`Tab`, () => {
       const theme = container.prop('theme');
 
       expect(container).toHaveStyleRule('color', theme.components.tabColorActive);
-      expect(container).toHaveStyleRule('border-bottom',  `3px solid ${theme.components.tabBorderColorActive}`);
+      expect(container).toHaveStyleRule(
+        'border-bottom',
+        `3px solid ${theme.components.tabBorderColorActive}`
+      );
     });
 
     it('should have disabled styles', () => {
@@ -55,7 +58,10 @@ describe(`Tab`, () => {
       const theme = container.prop('theme');
 
       expect(container).toHaveStyleRule('color', theme.components.tabColorDisabled);
-      expect(container).toHaveStyleRule('border-bottom',  `3px solid ${theme.components.tabBorderColor}`);
+      expect(container).toHaveStyleRule(
+        'border-bottom',
+        `3px solid ${theme.components.tabBorderColor}`
+      );
     });
   });
 });
