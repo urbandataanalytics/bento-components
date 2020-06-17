@@ -51,8 +51,8 @@ const StyledButtonLink = styled.button`
       props.disabled ? 'transparent' : props.theme.components.buttonLinkHoverBackgroundColor};
   }
 
-  ${props => componentSizes(props.theme)[props.size]}
   ${props => componentVariants(props.theme)[props.variant]}
+  ${props => componentSizes(props.theme)[props.size]}
 `;
 
 const IconWrapper = styled.span`

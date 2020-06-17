@@ -5,7 +5,7 @@ export interface ButtonLinkProps {
   iconLeft?: React.ReactNode;
   iconRight?: React.ReactNode;
   onClick?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
-  size: 'medium' | 'large' | 'small';
+  size: 'small' | 'medium' | 'large';
   tabIndex?: string;
   variant: 'primary' | 'secondary';
 }
