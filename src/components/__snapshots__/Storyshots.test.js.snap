@@ -4295,8 +4295,8 @@ exports[`Storyshots Button Block 1`] = `
   height: 500px;
   margin: auto;
   opacity: 0;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .c0:active:after {
@@ -4762,8 +4762,8 @@ exports[`Storyshots Button Loading 1`] = `
   height: 500px;
   margin: auto;
   opacity: 0;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .c0:active:after {
@@ -5229,8 +5229,8 @@ exports[`Storyshots Button Normal 1`] = `
   height: 500px;
   margin: auto;
   opacity: 0;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .c0:active:after {
@@ -5706,8 +5706,8 @@ exports[`Storyshots Button With Icon 1`] = `
   height: 500px;
   margin: auto;
   opacity: 0;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .c0:active:after {
@@ -7954,8 +7954,8 @@ Array [
   height: 500px;
   margin: auto;
   opacity: 0;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .c0:active:after {
@@ -11669,8 +11669,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
   height: 500px;
   margin: auto;
   opacity: 0;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .c2:active:after {
@@ -12429,8 +12429,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   height: 500px;
   margin: auto;
   opacity: 0;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .c2:active:after {
@@ -14234,8 +14234,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
   height: 500px;
   margin: auto;
   opacity: 0;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .c6:active:after {
