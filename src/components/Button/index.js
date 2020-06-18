@@ -62,7 +62,7 @@ const StyledButton = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: ${props => props.theme.global.transition};
+  transition: ${props => props.theme.global.transitionM};
   position: relative;
   overflow: hidden;
 

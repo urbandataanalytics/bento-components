@@ -61,7 +61,8 @@ const global = {
   fontColor: '#333',
   fontFamily: `"Roboto", ${fontCallback}`,
   fontSize: '14px',
-  transition: 'all 250ms ease-in-out',
+  transitionM: 'all 250ms ease-in-out',
+  transitionS: 'all 120ms ease-in-out',
   fontWeightRegular: 400,
   fontWeightMedium: 500,
   fontWeightBold: 700

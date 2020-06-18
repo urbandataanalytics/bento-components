@@ -62,3 +62,12 @@ export * from './components/Accordion';
 
 export { default as SwitchButtons } from './components/SwitchButtons';
 export * from './components/SwitchButtons';
+
+export { default as Card } from './components/Card';
+export * from './components/Card';
+
+export { default as CardHeader } from './components/Card/CardHeader';
+export * from './components/Card/CardHeader';
+
+export { default as CardContent } from './components/Card/CardContent';
+export * from './components/Card/CardContent';

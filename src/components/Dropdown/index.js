@@ -20,7 +20,7 @@ const ChildrenContainer = styled.div`
   opacity: ${props => (props.isOpen ? '1' : '0')};
   visibility: ${props => (props.isOpen ? 'visible' : 'hidden')};
   transform: translateY(${props => (props.isOpen ? '10px' : '0')});
-  transition: ${props => props.theme.global.transition};
+  transition: ${props => props.theme.global.transitionM};
   position: absolute;
   min-width: 200px;
   border: 1px solid ${props => props.theme.components.dropdownBorderColor};

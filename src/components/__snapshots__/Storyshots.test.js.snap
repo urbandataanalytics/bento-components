@@ -310,7 +310,8 @@ Array [
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -634,7 +635,8 @@ Array [
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -1082,7 +1084,8 @@ Array [
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -1419,7 +1422,8 @@ Array [
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -1909,7 +1913,8 @@ Array [
                     "fontWeightBold": 700,
                     "fontWeightMedium": 500,
                     "fontWeightRegular": 400,
-                    "transition": "all 250ms ease-in-out",
+                    "transitionM": "all 250ms ease-in-out",
+                    "transitionS": "all 120ms ease-in-out",
                   },
                   "headings": Array [
                     Object {
@@ -2235,7 +2240,8 @@ Array [
                     "fontWeightBold": 700,
                     "fontWeightMedium": 500,
                     "fontWeightRegular": 400,
-                    "transition": "all 250ms ease-in-out",
+                    "transitionM": "all 250ms ease-in-out",
+                    "transitionS": "all 120ms ease-in-out",
                   },
                   "headings": Array [
                     Object {
@@ -2559,7 +2565,8 @@ Array [
                     "fontWeightBold": 700,
                     "fontWeightMedium": 500,
                     "fontWeightRegular": 400,
-                    "transition": "all 250ms ease-in-out",
+                    "transitionM": "all 250ms ease-in-out",
+                    "transitionS": "all 120ms ease-in-out",
                   },
                   "headings": Array [
                     Object {
@@ -2875,7 +2882,8 @@ Array [
                     "fontWeightBold": 700,
                     "fontWeightMedium": 500,
                     "fontWeightRegular": 400,
-                    "transition": "all 250ms ease-in-out",
+                    "transitionM": "all 250ms ease-in-out",
+                    "transitionS": "all 120ms ease-in-out",
                   },
                   "headings": Array [
                     Object {
@@ -3275,7 +3283,8 @@ Array [
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -3599,7 +3608,8 @@ Array [
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -4005,7 +4015,8 @@ Array [
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -4561,7 +4572,8 @@ exports[`Storyshots Button Block 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -5028,7 +5040,8 @@ exports[`Storyshots Button Loading 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -5495,7 +5508,8 @@ exports[`Storyshots Button Normal 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -5981,7 +5995,8 @@ exports[`Storyshots Button With Icon 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -6303,7 +6318,8 @@ exports[`Storyshots Button With Icon 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -6422,8 +6438,8 @@ exports[`Storyshots ButtonLink Normal 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   background-color: 'transparent';
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   color: #1778FB;
   padding: 5px;
   font-size: 14px;
@@ -6488,8 +6504,8 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   background-color: 'transparent';
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   color: #1778FB;
   padding: 5px;
   font-size: 14px;
@@ -6758,7 +6774,8 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -6876,11 +6893,22 @@ exports[`Storyshots Card Playground 1`] = `
   padding-bottom: 16px;
 }
 
-.c3 {
+.c4 {
   padding-top: 16px;
 }
 
-.c4 {
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c5 {
   padding: 16px 24px;
   background-color: #EFF2F7;
 }
@@ -6913,18 +6941,20 @@ exports[`Storyshots Card Playground 1`] = `
             Subtitle
           </div>
         </div>
-        <div>
+        <div
+          className="c3"
+        >
           Right
         </div>
       </div>
       <div
-        className="c3"
+        className="c4"
       >
         Extra content
       </div>
     </header>
     <div
-      className="c4"
+      className="c5"
     >
       Lorem ipsum dolor sit amet
     </div>
@@ -7289,7 +7319,8 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -7756,7 +7787,8 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -8213,7 +8245,8 @@ Array [
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -8792,7 +8825,8 @@ Array [
                 "fontWeightBold": 700,
                 "fontWeightMedium": 500,
                 "fontWeightRegular": 400,
-                "transition": "all 250ms ease-in-out",
+                "transitionM": "all 250ms ease-in-out",
+                "transitionS": "all 120ms ease-in-out",
               },
               "headings": Array [
                 Object {
@@ -9114,7 +9148,8 @@ Array [
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -9437,7 +9472,8 @@ Array [
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -9767,7 +9803,8 @@ Array [
                         "fontWeightBold": 700,
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
-                        "transition": "all 250ms ease-in-out",
+                        "transitionM": "all 250ms ease-in-out",
+                        "transitionS": "all 120ms ease-in-out",
                       },
                       "headings": Array [
                         Object {
@@ -10092,7 +10129,8 @@ Array [
                         "fontWeightBold": 700,
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
-                        "transition": "all 250ms ease-in-out",
+                        "transitionM": "all 250ms ease-in-out",
+                        "transitionS": "all 120ms ease-in-out",
                       },
                       "headings": Array [
                         Object {
@@ -10417,7 +10455,8 @@ Array [
                         "fontWeightBold": 700,
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
-                        "transition": "all 250ms ease-in-out",
+                        "transitionM": "all 250ms ease-in-out",
+                        "transitionS": "all 120ms ease-in-out",
                       },
                       "headings": Array [
                         Object {
@@ -10741,7 +10780,8 @@ Array [
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -11065,7 +11105,8 @@ Array [
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -11395,7 +11436,8 @@ Array [
                         "fontWeightBold": 700,
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
-                        "transition": "all 250ms ease-in-out",
+                        "transitionM": "all 250ms ease-in-out",
+                        "transitionS": "all 120ms ease-in-out",
                       },
                       "headings": Array [
                         Object {
@@ -11969,7 +12011,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -12729,7 +12772,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -13069,7 +13113,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "fontWeightBold": 700,
                       "fontWeightMedium": 500,
                       "fontWeightRegular": 400,
-                      "transition": "all 250ms ease-in-out",
+                      "transitionM": "all 250ms ease-in-out",
+                      "transitionS": "all 120ms ease-in-out",
                     },
                     "headings": Array [
                       Object {
@@ -13397,7 +13442,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "fontWeightBold": 700,
                       "fontWeightMedium": 500,
                       "fontWeightRegular": 400,
-                      "transition": "all 250ms ease-in-out",
+                      "transitionM": "all 250ms ease-in-out",
+                      "transitionS": "all 120ms ease-in-out",
                     },
                     "headings": Array [
                       Object {
@@ -13721,7 +13767,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "fontWeightBold": 700,
                       "fontWeightMedium": 500,
                       "fontWeightRegular": 400,
-                      "transition": "all 250ms ease-in-out",
+                      "transitionM": "all 250ms ease-in-out",
+                      "transitionS": "all 120ms ease-in-out",
                     },
                     "headings": Array [
                       Object {
@@ -14037,7 +14084,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "fontWeightBold": 700,
                       "fontWeightMedium": 500,
                       "fontWeightRegular": 400,
-                      "transition": "all 250ms ease-in-out",
+                      "transitionM": "all 250ms ease-in-out",
+                      "transitionS": "all 120ms ease-in-out",
                     },
                     "headings": Array [
                       Object {
@@ -14684,7 +14732,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "fontWeightBold": 700,
                 "fontWeightMedium": 500,
                 "fontWeightRegular": 400,
-                "transition": "all 250ms ease-in-out",
+                "transitionM": "all 250ms ease-in-out",
+                "transitionS": "all 120ms ease-in-out",
               },
               "headings": Array [
                 Object {
@@ -15131,7 +15180,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -15470,7 +15520,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -15809,7 +15860,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -16148,7 +16200,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -16486,7 +16539,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -16825,7 +16879,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -17164,7 +17219,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -17503,7 +17559,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -17842,7 +17899,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -18180,7 +18238,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -18519,7 +18578,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -18858,7 +18918,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -19196,7 +19257,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -19534,7 +19596,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -19872,7 +19935,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -20211,7 +20275,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -20551,7 +20616,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -20898,7 +20964,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -21247,7 +21314,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -21593,7 +21661,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -21931,7 +22000,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -22271,7 +22341,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -22610,7 +22681,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -22956,7 +23028,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -23295,7 +23368,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -23634,7 +23708,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -23974,7 +24049,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -24313,7 +24389,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -24652,7 +24729,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -24991,7 +25069,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -25331,7 +25410,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -25669,7 +25749,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -26012,7 +26093,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -26351,7 +26433,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -26691,7 +26774,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -27029,7 +27113,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -27368,7 +27453,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -27707,7 +27793,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -28046,7 +28133,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -28385,7 +28473,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -28723,7 +28812,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -29066,7 +29156,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -29409,7 +29500,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -29752,7 +29844,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -30091,7 +30184,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -30431,7 +30525,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -30770,7 +30865,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -31110,7 +31206,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -31452,7 +31549,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -31794,7 +31892,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -32133,7 +32232,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -32472,7 +32572,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -32820,7 +32921,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -33159,7 +33261,8 @@ exports[`Storyshots Icon All Icons 1`] = `
             "fontWeightBold": 700,
             "fontWeightMedium": 500,
             "fontWeightRegular": 400,
-            "transition": "all 250ms ease-in-out",
+            "transitionM": "all 250ms ease-in-out",
+            "transitionS": "all 120ms ease-in-out",
           },
           "headings": Array [
             Object {
@@ -33508,7 +33611,8 @@ exports[`Storyshots Icon Normal 1`] = `
           "fontWeightBold": 700,
           "fontWeightMedium": 500,
           "fontWeightRegular": 400,
-          "transition": "all 250ms ease-in-out",
+          "transitionM": "all 250ms ease-in-out",
+          "transitionS": "all 120ms ease-in-out",
         },
         "headings": Array [
           Object {
@@ -35063,7 +35167,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -35389,7 +35494,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -35730,7 +35836,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -36068,7 +36175,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -36384,7 +36492,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -36710,7 +36819,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -37027,7 +37137,8 @@ exports[`Storyshots List With Childrens 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -37756,7 +37867,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -38086,7 +38198,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "fontWeightBold": 700,
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
-                        "transition": "all 250ms ease-in-out",
+                        "transitionM": "all 250ms ease-in-out",
+                        "transitionS": "all 120ms ease-in-out",
                       },
                       "headings": Array [
                         Object {
@@ -38411,7 +38524,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "fontWeightBold": 700,
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
-                        "transition": "all 250ms ease-in-out",
+                        "transitionM": "all 250ms ease-in-out",
+                        "transitionS": "all 120ms ease-in-out",
                       },
                       "headings": Array [
                         Object {
@@ -38812,7 +38926,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -39141,7 +39256,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "fontWeightBold": 700,
                   "fontWeightMedium": 500,
                   "fontWeightRegular": 400,
-                  "transition": "all 250ms ease-in-out",
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
                 },
                 "headings": Array [
                   Object {
@@ -39465,7 +39581,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "fontWeightBold": 700,
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
-                        "transition": "all 250ms ease-in-out",
+                        "transitionM": "all 250ms ease-in-out",
+                        "transitionS": "all 120ms ease-in-out",
                       },
                       "headings": Array [
                         Object {
@@ -39789,7 +39906,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "fontWeightBold": 700,
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
-                        "transition": "all 250ms ease-in-out",
+                        "transitionM": "all 250ms ease-in-out",
+                        "transitionS": "all 120ms ease-in-out",
                       },
                       "headings": Array [
                         Object {
@@ -40257,7 +40375,8 @@ exports[`Storyshots Notification Error 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -40632,7 +40751,8 @@ exports[`Storyshots Notification Normal 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -41007,7 +41127,8 @@ exports[`Storyshots Notification Success 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -41385,7 +41506,8 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "fontWeightBold": 700,
               "fontWeightMedium": 500,
               "fontWeightRegular": 400,
-              "transition": "all 250ms ease-in-out",
+              "transitionM": "all 250ms ease-in-out",
+              "transitionS": "all 120ms ease-in-out",
             },
             "headings": Array [
               Object {
@@ -41504,8 +41626,8 @@ exports[`Storyshots SwitchButtons Normal 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   background-color: 'transparent';
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   color: #1778FB;
   padding: 5px;
   font-size: 14px;
@@ -41541,8 +41663,8 @@ exports[`Storyshots SwitchButtons Normal 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   background-color: 'transparent';
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   color: #747D93;
   padding: 5px;
   font-size: 14px;

@@ -50,7 +50,7 @@ const StyledTabBadge = styled.span`
   display: inline-block;
   margin-left: 8px;
   height: 22px;
-  transition: all 120ms ease-in-out;
+  transition: ${({ theme }) => theme.global.transitionS};
   ${props => (props.active ? badgeStyles(props.theme).active : badgeStyles(props.theme).normal)}
 `;
 StyledTabBadge.defaultProps = {
@@ -65,7 +65,7 @@ const StyledTabContainer = styled.div`
   cursor: pointer;
   display: flex;
   border-bottom: 3px solid transparent;
-  transition: all 120ms ease-in-out;
+  transition: ${({ theme }) => theme.global.transitionS};
 
   ${props => {
     if (props.active) return tabStyles(props.theme).active;

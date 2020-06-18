@@ -99,7 +99,7 @@ const StyledListItem = styled.li`
   font-size: 14px;
   font-family: ${props => props.theme.global.fontFamily};
   font-weight: ${props => props.theme.global.fontWeightMedium};
-  transition: ${props => props.theme.global.transition};
+  transition: ${props => props.theme.global.transitionM};
   margin: ${props => props.theme.components.listItemMargin};
   ${props => props.onClick && 'cursor: pointer'};
   ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`};

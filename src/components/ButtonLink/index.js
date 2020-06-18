@@ -40,7 +40,7 @@ const StyledButtonLink = styled.button`
   align-items: center;
   justify-content: center;
   background-color: 'transparent';
-  transition: ${({ theme }) => theme.global.transition};
+  transition: ${({ theme }) => theme.global.transitionS};
   &:disabled {
     cursor: default;
     color: ${({ theme }) => theme.components.buttonLinkDisabledColor};
