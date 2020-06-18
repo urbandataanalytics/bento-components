@@ -6855,6 +6855,87 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
 </div>
 `;
 
+exports[`Storyshots Card Playground 1`] = `
+.c0 {
+  border: 1px solid #DCDFE6;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.c1 {
+  padding: 16px 24px;
+  background-color: white;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: 55px 1fr 55px;
+  grid-column-gap: 11px;
+  -webkit-align-items: top;
+  -webkit-box-align: top;
+  -ms-flex-align: top;
+  align-items: top;
+  border-bottom: 1px solid #DCDFE6;
+  padding-bottom: 16px;
+}
+
+.c3 {
+  padding-top: 16px;
+}
+
+.c4 {
+  padding: 16px 24px;
+  background-color: #EFF2F7;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <article
+    className="c0"
+    content="Lorem ipsum dolor sit amet"
+  >
+    <header
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div>
+          Left
+        </div>
+        <div>
+          <div>
+            Title
+          </div>
+          <div>
+            Subtitle
+          </div>
+        </div>
+        <div>
+          Right
+        </div>
+      </div>
+      <div
+        className="c3"
+      >
+        Extra content
+      </div>
+    </header>
+    <div
+      className="c4"
+    >
+      Lorem ipsum dolor sit amet
+    </div>
+  </article>
+</div>
+`;
+
 exports[`Storyshots Checkbox Normal 1`] = `
 .c4 {
   -webkit-flex-shrink: 0;
