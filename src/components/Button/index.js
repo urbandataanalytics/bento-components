@@ -80,8 +80,7 @@ const StyledButton = styled.button`
     height: 500px;
     margin: auto;
     opacity: 0;
-    transition: all 1s;
-    z-index: 1;
+    transition: all 1s ease-in-out;
   }
 
   &:active:after {

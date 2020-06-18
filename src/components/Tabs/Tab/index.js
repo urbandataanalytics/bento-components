@@ -50,6 +50,7 @@ const StyledTabBadge = styled.span`
   display: inline-block;
   margin-left: 8px;
   height: 22px;
+  transition: all 120ms ease-in-out;
   ${props => (props.active ? badgeStyles(props.theme).active : badgeStyles(props.theme).normal)}
 `;
 StyledTabBadge.defaultProps = {
@@ -63,6 +64,8 @@ const StyledTabContainer = styled.div`
   line-height: 40px;
   cursor: pointer;
   display: flex;
+  border-bottom: 3px solid transparent;
+  transition: all 120ms ease-in-out;
 
   ${props => {
     if (props.active) return tabStyles(props.theme).active;
@@ -75,7 +78,7 @@ const StyledTabContainer = styled.div`
     css`
       &:hover {
         color: ${props => props.theme.components.tabColorHover};
-        border-bottom: 3px solid ${props => props.theme.components.tabBorderColorHover};
+        border-bottom-color: ${props => props.theme.components.tabBorderColorHover};
         ${StyledTabBadge} {
           background-color: ${props => props.theme.components.tabBadgeBackgroundHover};
           color: ${props => props.theme.components.tabBadgeColorHover};
