@@ -41637,6 +41637,9 @@ exports[`Storyshots Tabs Normal 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   color: #1778FB;
   border-bottom: 3px solid #1778FB;
 }
@@ -41651,13 +41654,16 @@ exports[`Storyshots Tabs Normal 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   color: #747D93;
   border-bottom: 3px solid transparent;
 }
 
 .c3:hover {
   color: #48AAF1;
-  border-bottom: 3px solid #48AAF1;
+  border-bottom-color: #48AAF1;
 }
 
 .c3:hover .c5 {
@@ -41675,6 +41681,9 @@ exports[`Storyshots Tabs Normal 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   color: #DCDFE6;
   border-bottom: 3px solid transparent;
   cursor: default;
@@ -41683,7 +41692,7 @@ exports[`Storyshots Tabs Normal 1`] = `
 
 .c4:hover {
   color: #48AAF1;
-  border-bottom: 3px solid #48AAF1;
+  border-bottom-color: #48AAF1;
 }
 
 .c4:hover .c5 {
@@ -41774,6 +41783,8 @@ exports[`Storyshots Tabs With Badge 1`] = `
   display: inline-block;
   margin-left: 8px;
   height: 22px;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   background: #1778FB;
   color: #FFFFFF;
 }
@@ -41787,6 +41798,8 @@ exports[`Storyshots Tabs With Badge 1`] = `
   display: inline-block;
   margin-left: 8px;
   height: 22px;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   background: #EFF2F7;
   color: #747D93;
 }
@@ -41801,6 +41814,9 @@ exports[`Storyshots Tabs With Badge 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   color: #1778FB;
   border-bottom: 3px solid #1778FB;
 }
@@ -41815,13 +41831,16 @@ exports[`Storyshots Tabs With Badge 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   color: #747D93;
   border-bottom: 3px solid transparent;
 }
 
 .c5:hover {
   color: #48AAF1;
-  border-bottom: 3px solid #48AAF1;
+  border-bottom-color: #48AAF1;
 }
 
 .c5:hover .c3 {
@@ -41839,6 +41858,9 @@ exports[`Storyshots Tabs With Badge 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   color: #DCDFE6;
   border-bottom: 3px solid transparent;
   cursor: default;
@@ -41847,7 +41869,7 @@ exports[`Storyshots Tabs With Badge 1`] = `
 
 .c7:hover {
   color: #48AAF1;
-  border-bottom: 3px solid #48AAF1;
+  border-bottom-color: #48AAF1;
 }
 
 .c7:hover .c3 {
