@@ -4297,7 +4297,6 @@ exports[`Storyshots Button Block 1`] = `
   opacity: 0;
   -webkit-transition: all 1s;
   transition: all 1s;
-  z-index: 1;
 }
 
 .c0:active:after {
@@ -4765,7 +4764,6 @@ exports[`Storyshots Button Loading 1`] = `
   opacity: 0;
   -webkit-transition: all 1s;
   transition: all 1s;
-  z-index: 1;
 }
 
 .c0:active:after {
@@ -5233,7 +5231,6 @@ exports[`Storyshots Button Normal 1`] = `
   opacity: 0;
   -webkit-transition: all 1s;
   transition: all 1s;
-  z-index: 1;
 }
 
 .c0:active:after {
@@ -5711,7 +5708,6 @@ exports[`Storyshots Button With Icon 1`] = `
   opacity: 0;
   -webkit-transition: all 1s;
   transition: all 1s;
-  z-index: 1;
 }
 
 .c0:active:after {
@@ -7960,7 +7956,6 @@ Array [
   opacity: 0;
   -webkit-transition: all 1s;
   transition: all 1s;
-  z-index: 1;
 }
 
 .c0:active:after {
@@ -11676,7 +11671,6 @@ exports[`Storyshots Dropdown Playground 1`] = `
   opacity: 0;
   -webkit-transition: all 1s;
   transition: all 1s;
-  z-index: 1;
 }
 
 .c2:active:after {
@@ -12437,7 +12431,6 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   opacity: 0;
   -webkit-transition: all 1s;
   transition: all 1s;
-  z-index: 1;
 }
 
 .c2:active:after {
@@ -14243,7 +14236,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
   opacity: 0;
   -webkit-transition: all 1s;
   transition: all 1s;
-  z-index: 1;
 }
 
 .c6:active:after {
