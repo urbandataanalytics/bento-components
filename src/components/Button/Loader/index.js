@@ -14,7 +14,7 @@ const StyledLoader = styled.span`
   position: absolute;
   z-index: 1;
   transform: translateX(${props => (props.loading === 'true' ? 0 : '-100%')});
-  transition: ${({ theme }) => theme.global.transition};
+  transition: ${({ theme }) => theme.global.transitionM};
   width: 100%;
   height: 100%;
   display: flex;
