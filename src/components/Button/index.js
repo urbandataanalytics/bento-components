@@ -81,7 +81,6 @@ const StyledButton = styled.button`
     margin: auto;
     opacity: 0;
     transition: all 1s;
-    z-index: 1;
   }
 
   &:active:after {
