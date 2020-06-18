@@ -6893,11 +6893,26 @@ exports[`Storyshots Card Playground 1`] = `
   padding-bottom: 16px;
 }
 
-.c3 {
+.c4 {
   padding-top: 16px;
 }
 
-.c4 {
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c5 {
   padding: 16px 24px;
   background-color: #EFF2F7;
 }
@@ -6930,18 +6945,20 @@ exports[`Storyshots Card Playground 1`] = `
             Subtitle
           </div>
         </div>
-        <div>
+        <div
+          className="c3"
+        >
           Right
         </div>
       </div>
       <div
-        className="c3"
+        className="c4"
       >
         Extra content
       </div>
     </header>
     <div
-      className="c4"
+      className="c5"
     >
       Lorem ipsum dolor sit amet
     </div>

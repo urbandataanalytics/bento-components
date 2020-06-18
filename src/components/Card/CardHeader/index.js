@@ -24,6 +24,12 @@ StyledCardHeader.defaultProps = {
   theme: DefaultTheme
 };
 
+const StyledRightContent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+`;
+
 const CardHeader = React.forwardRef((props, ref) => {
   const { children, leftContent, rightContent, title, subheader, className, ...other } = props;
 
@@ -35,7 +41,7 @@ const CardHeader = React.forwardRef((props, ref) => {
           <div>{title}</div>
           <div>{subheader}</div>
         </div>
-        <div>{rightContent}</div>
+        <StyledRightContent>{rightContent}</StyledRightContent>
       </StyledContainer>
       <StyledChildrenContainer>{children}</StyledChildrenContainer>
     </StyledCardHeader>
