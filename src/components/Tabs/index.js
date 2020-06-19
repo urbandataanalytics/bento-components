@@ -10,13 +10,32 @@ const StyledTabsContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 `;
 StyledTabsContainer.defaultProps = {
   theme: defaultTheme
 };
 
+const StyledLeftContent = styled.div`
+  position: absolute;
+  left: 0;
+  top: -10px;
+`;
+
+const StyledRightContent = styled.div`
+  position: absolute;
+  right: 0;
+  top: -10px;
+`;
+
+const StyledTabsContent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 const Tabs = props => {
-  const { value, onChange, children: childrenProp, ...other } = props;
+  const { value, leftContent, rightContent, onChange, children: childrenProp, ...other } = props;
   const children = React.Children.map(childrenProp, (child, childIndex) => {
     if (!React.isValidElement(child)) {
       return null;
@@ -32,7 +51,13 @@ const Tabs = props => {
     });
   });
 
-  return <StyledTabsContainer {...other}>{children}</StyledTabsContainer>;
+  return (
+    <StyledTabsContainer {...other}>
+      {leftContent && <StyledLeftContent>{leftContent}</StyledLeftContent>}
+      <StyledTabsContent>{children}</StyledTabsContent>
+      {rightContent && <StyledRightContent>{rightContent}</StyledRightContent>}
+    </StyledTabsContainer>
+  );
 };
 
 Tabs.propTypes = {
