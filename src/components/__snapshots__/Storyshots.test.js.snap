@@ -6893,7 +6893,7 @@ exports[`Storyshots Card Playground 1`] = `
 }
 
 .c4 {
-  padding-top: 16px;
+  padding-top: 8px;
 }
 
 .c3 {

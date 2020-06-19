@@ -16,7 +16,7 @@ const StyledContainer = styled.div`
 `;
 
 const StyledChildrenContainer = styled.div`
-  padding-top: ${({ theme }) => theme.spacings.small3};
+  padding-top: ${({ theme }) => theme.spacings.small2};
 `;
 
 StyledCardHeader.defaultProps = {
