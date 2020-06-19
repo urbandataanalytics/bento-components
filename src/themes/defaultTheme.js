@@ -224,7 +224,7 @@ const components = {
   avatarColor: color.white,
   avatarSizeSmall: spacings.small4,
   avatarSizeMedium: spacings.medium1,
-  avatarSizeLarge: spacings.medium3,
+  avatarSizeLarge: spacings.medium2,
   avatarFontSizeSmall: '12px',
   avatarFontSizeMedium: '14px',
   avatarFontSizeLarge: '24px',
