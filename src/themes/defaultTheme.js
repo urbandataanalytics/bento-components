@@ -309,6 +309,11 @@ const components = {
   listItemFontSizeLarge: '14px',
   listItemFontWeight: global.fontWeightMedium,
 
+  listNavItemColorDefault: color.charcoal600,
+  listNavItemColorDisabled: color.charcoal400,
+  listNavItemColorActive: color.primary500,
+  listNavItemColorHover: color.charcoal600,
+
   /*Tabs Theme props*/
   tabsBorderColor: color.charcoal300,
   tabFontSize: texts.p2b.fontSize,
