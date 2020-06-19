@@ -6884,7 +6884,6 @@ exports[`Storyshots Card Playground 1`] = `
 .c2 {
   display: grid;
   grid-template-columns: 55px 1fr 55px;
-  grid-column-gap: 11px;
   -webkit-align-items: top;
   -webkit-box-align: top;
   -ms-flex-align: top;
