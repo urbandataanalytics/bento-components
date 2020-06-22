@@ -6889,7 +6889,7 @@ exports[`Storyshots Card Playground 1`] = `
   -ms-flex-align: top;
   align-items: top;
   border-bottom: 1px solid #DCDFE6;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
 }
 
 .c4 {

@@ -60,7 +60,7 @@ const Avatar = forwardRef((props, ref) => {
     size,
     color,
     customColor,
-    initialsNum,
+    initialsNum = 2,
     imgProps,
     ...other
   } = props;
@@ -72,10 +72,11 @@ const Avatar = forwardRef((props, ref) => {
   if (hasImageAndLoaded) {
     children = <StyledImg alt={alt} src={src} size={size} {...imgProps} />;
   } else if (hasImg && alt) {
-    children = getInitials(childrenProp ? childrenProp : alt, initialsNum);
+    children =
+      initialsNum > 0 ? getInitials(childrenProp ? childrenProp : alt, initialsNum) : childrenProp;
   } else if (childrenProp != null) {
     const childrenString = Array.isArray(childrenProp) ? childrenProp.join(' ') : childrenProp;
-    children = getInitials(childrenString, initialsNum);
+    children = initialsNum > 0 ? getInitials(childrenString, initialsNum) : childrenProp;
   } else {
     children = <IconUser size={size} />;
   }
@@ -88,7 +89,8 @@ const Avatar = forwardRef((props, ref) => {
 });
 
 Avatar.defaultProps = {
-  size: 'medium'
+  size: 'medium',
+  initialsNum: 2
 };
 
 Avatar.propTypes = {
