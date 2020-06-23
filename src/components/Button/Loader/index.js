@@ -22,18 +22,9 @@ const StyledLoader = styled.span`
   justify-content: center;
 
   > svg {
-    animation: rotation 2s linear infinite;
+    animation: ${({ theme }) => theme.animations.rotate} 2s linear infinite;
     display: inline-block;
     transform-origin: center;
-  }
-
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
   }
 `;
 

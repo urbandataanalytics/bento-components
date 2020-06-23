@@ -1,3 +1,5 @@
+import { keyframes } from 'styled-components';
+
 const fontCallback = 'Arial, sans-serif';
 
 const fonts = [
@@ -37,6 +39,7 @@ const color = {
   primary700: '#0C1B7A',
   redclay100: '#FAEDEC',
   redclay500: '#CD4C41',
+  redvelvet: '#B2314A;',
   white: '#FFFFFF'
 };
 
@@ -66,6 +69,28 @@ const global = {
   fontWeightRegular: 400,
   fontWeightMedium: 500,
   fontWeightBold: 700
+};
+
+const animations = {
+  rotate: keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  `,
+  loading: keyframes`
+  0% {
+    background-color: rgba(230, 230, 230, 1);
+  }
+  50% {
+    background-color: rgba(230, 230, 230, .4);
+  }
+  100% {
+    background-color: rgba(230, 230, 230, 1);
+  }
+  `
 };
 
 const headings = [
@@ -332,6 +357,7 @@ const components = {
 };
 
 export default {
+  animations,
   breakpoints,
   color,
   components,

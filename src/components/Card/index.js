@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import DefaultTheme from '../../themes/defaultTheme';
-
+import CardSkeleton from './CardSkeleton';
 const StyledCard = styled.article`
   border: 1px solid ${({ theme }) => theme.color.charcoal400};
   box-sizing: border-box;
@@ -14,11 +14,11 @@ StyledCard.defaultProps = {
 };
 
 const Card = React.forwardRef((props, ref) => {
-  const { children, className, ...other } = props;
+  const { children, className, loading, ...other } = props;
 
   return (
     <StyledCard className={className} {...other}>
-      {children}
+      {loading ? <CardSkeleton /> : children}
     </StyledCard>
   );
 });
