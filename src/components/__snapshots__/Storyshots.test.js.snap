@@ -7322,6 +7322,10 @@ exports[`Storyshots Card Loading 1`] = `
   width: 100%;
 }
 
+.c1 > div span:last-child {
+  margin-bottom: 0;
+}
+
 .c3 {
   display: grid;
   grid-template-columns: repeat(4,1fr);

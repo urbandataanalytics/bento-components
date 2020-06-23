@@ -14,6 +14,7 @@ const StyledHeader = styled.div`
     border-radius: 50%;
     display: block;
   }
+
   > div {
     display: block;
     width: 100%;
@@ -50,6 +51,10 @@ const StyledSkeleton = styled.div`
 
     span {
       width: 100%;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 `;
