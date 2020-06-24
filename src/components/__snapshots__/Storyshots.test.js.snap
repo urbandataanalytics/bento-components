@@ -7344,6 +7344,7 @@ exports[`Storyshots Card Loading 1`] = `
 .c0 {
   border: 1px solid #DCDFE6;
   box-sizing: border-box;
+  overflow: hidden;
   border-radius: 4px;
 }
 
@@ -7417,6 +7418,7 @@ exports[`Storyshots Card Playground 1`] = `
 .c0 {
   border: 1px solid #DCDFE6;
   box-sizing: border-box;
+  overflow: hidden;
   border-radius: 4px;
 }
 

@@ -5,6 +5,7 @@ import CardSkeleton from './CardSkeleton';
 const StyledCard = styled.article`
   border: 1px solid ${({ theme }) => theme.color.charcoal400};
   box-sizing: border-box;
+  overflow: hidden;
   border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
 `;
 
