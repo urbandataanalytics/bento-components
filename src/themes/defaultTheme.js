@@ -82,13 +82,13 @@ const animations = {
   `,
   loading: keyframes`
   0% {
-    background-color: rgba(230, 230, 230, 1);
+    background-color: rgba(220,223,230,1);
   }
   50% {
-    background-color: rgba(230, 230, 230, .4);
+    background-color: rgba(220,223,230,.5);
   }
   100% {
-    background-color: rgba(230, 230, 230, 1);
+    background-color: rgba(220,223,230,1);
   }
   `
 };
@@ -260,7 +260,7 @@ const components = {
   navigationMenuBackgroundColor: color.charcoal300,
   navigationMenuOpenBackgroundColor: color.primary100,
   navigationMenuHoverBackgroundColor: color.charcoal400,
-  navigationContentMargin: '0 42px 0 0',
+  navigationContentMargin: `0 ${spacings.small4} 0 0`,
   navigationLinkFontSize: '12px',
   navigationLinkMargin: '0 24px 0 0',
   navigationHeaderPadding: '0 17px',

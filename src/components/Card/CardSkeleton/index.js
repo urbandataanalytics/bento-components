@@ -30,7 +30,7 @@ const StyledSegment = styled.div`
 
 const StyledContent = styled.div`
   background-color: ${({ theme }) => theme.color.charcoal400};
-  min-height: 200px;
+  min-height: 440px;
   animation: ${({ theme }) => theme.animations.loading} 1s infinite ease-in-out;
 `;
 

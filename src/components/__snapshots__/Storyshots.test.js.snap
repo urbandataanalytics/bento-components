@@ -95,12 +95,12 @@ Array [
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -263,7 +263,7 @@ Array [
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -443,12 +443,12 @@ Array [
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -611,7 +611,7 @@ Array [
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -915,12 +915,12 @@ Array [
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -1083,7 +1083,7 @@ Array [
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -1276,12 +1276,12 @@ Array [
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -1444,7 +1444,7 @@ Array [
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -1790,12 +1790,12 @@ Array [
                 Object {
                   "animations": Object {
                     "loading": Keyframes {
-                      "id": "sc-keyframes-jOboYA",
+                      "id": "sc-keyframes-kvsyCu",
                       "inject": [Function],
-                      "name": "jOboYA",
+                      "name": "kvsyCu",
                       "rules": Array [
-                        "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                        "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                        "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                        "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                       ],
                       "toString": [Function],
                     },
@@ -1958,7 +1958,7 @@ Array [
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
-                    "navigationContentMargin": "0 42px 0 0",
+                    "navigationContentMargin": "0 24px 0 0",
                     "navigationHeaderPadding": "0 17px",
                     "navigationLinkFontSize": "12px",
                     "navigationLinkMargin": "0 24px 0 0",
@@ -2140,12 +2140,12 @@ Array [
                 Object {
                   "animations": Object {
                     "loading": Keyframes {
-                      "id": "sc-keyframes-jOboYA",
+                      "id": "sc-keyframes-kvsyCu",
                       "inject": [Function],
-                      "name": "jOboYA",
+                      "name": "kvsyCu",
                       "rules": Array [
-                        "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                        "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                        "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                        "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                       ],
                       "toString": [Function],
                     },
@@ -2308,7 +2308,7 @@ Array [
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
-                    "navigationContentMargin": "0 42px 0 0",
+                    "navigationContentMargin": "0 24px 0 0",
                     "navigationHeaderPadding": "0 17px",
                     "navigationLinkFontSize": "12px",
                     "navigationLinkMargin": "0 24px 0 0",
@@ -2488,12 +2488,12 @@ Array [
                 Object {
                   "animations": Object {
                     "loading": Keyframes {
-                      "id": "sc-keyframes-jOboYA",
+                      "id": "sc-keyframes-kvsyCu",
                       "inject": [Function],
-                      "name": "jOboYA",
+                      "name": "kvsyCu",
                       "rules": Array [
-                        "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                        "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                        "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                        "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                       ],
                       "toString": [Function],
                     },
@@ -2656,7 +2656,7 @@ Array [
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
-                    "navigationContentMargin": "0 42px 0 0",
+                    "navigationContentMargin": "0 24px 0 0",
                     "navigationHeaderPadding": "0 17px",
                     "navigationLinkFontSize": "12px",
                     "navigationLinkMargin": "0 24px 0 0",
@@ -2828,12 +2828,12 @@ Array [
                 Object {
                   "animations": Object {
                     "loading": Keyframes {
-                      "id": "sc-keyframes-jOboYA",
+                      "id": "sc-keyframes-kvsyCu",
                       "inject": [Function],
-                      "name": "jOboYA",
+                      "name": "kvsyCu",
                       "rules": Array [
-                        "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                        "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                        "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                        "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                       ],
                       "toString": [Function],
                     },
@@ -2996,7 +2996,7 @@ Array [
                     "listItemSeparatorColor": "#EFF2F7",
                     "listPadding": "8px",
                     "navigationBorder": "1px solid #EFF2F7",
-                    "navigationContentMargin": "0 42px 0 0",
+                    "navigationContentMargin": "0 24px 0 0",
                     "navigationHeaderPadding": "0 17px",
                     "navigationLinkFontSize": "12px",
                     "navigationLinkMargin": "0 24px 0 0",
@@ -3252,12 +3252,12 @@ Array [
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -3420,7 +3420,7 @@ Array [
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -3600,12 +3600,12 @@ Array [
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -3768,7 +3768,7 @@ Array [
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -4030,12 +4030,12 @@ Array [
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -4198,7 +4198,7 @@ Array [
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -4610,12 +4610,12 @@ exports[`Storyshots Button Block 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -4778,7 +4778,7 @@ exports[`Storyshots Button Block 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -5101,12 +5101,12 @@ exports[`Storyshots Button Loading 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -5269,7 +5269,7 @@ exports[`Storyshots Button Loading 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -5592,12 +5592,12 @@ exports[`Storyshots Button Normal 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -5760,7 +5760,7 @@ exports[`Storyshots Button Normal 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -6102,12 +6102,12 @@ exports[`Storyshots Button With Icon 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -6270,7 +6270,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -6448,12 +6448,12 @@ exports[`Storyshots Button With Icon 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -6616,7 +6616,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -6927,12 +6927,12 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -7095,7 +7095,7 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -7274,8 +7274,8 @@ exports[`Storyshots Card Loading 1`] = `
   width: 40px;
   height: 40px;
   background-color: #DCDFE6;
-  -webkit-animation: jOboYA 1s infinite ease-in-out;
-  animation: jOboYA 1s infinite ease-in-out;
+  -webkit-animation: kvsyCu 1s infinite ease-in-out;
+  animation: kvsyCu 1s infinite ease-in-out;
   border-radius: 50%;
   display: block;
 }
@@ -7297,9 +7297,9 @@ exports[`Storyshots Card Loading 1`] = `
 
 .c5 {
   background-color: #DCDFE6;
-  min-height: 200px;
-  -webkit-animation: jOboYA 1s infinite ease-in-out;
-  animation: jOboYA 1s infinite ease-in-out;
+  min-height: 440px;
+  -webkit-animation: kvsyCu 1s infinite ease-in-out;
+  animation: kvsyCu 1s infinite ease-in-out;
 }
 
 .c1 > div {
@@ -7311,8 +7311,8 @@ exports[`Storyshots Card Loading 1`] = `
   width: 30%;
   height: 10px;
   background-color: #DCDFE6;
-  -webkit-animation: jOboYA 1s infinite ease-in-out;
-  animation: jOboYA 1s infinite ease-in-out;
+  -webkit-animation: kvsyCu 1s infinite ease-in-out;
+  animation: kvsyCu 1s infinite ease-in-out;
   border-radius: 2px;
   display: block;
   margin-bottom: 10px;
@@ -7649,12 +7649,12 @@ exports[`Storyshots Checkbox Normal 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -7817,7 +7817,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -8140,12 +8140,12 @@ exports[`Storyshots Checkbox With Label 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -8308,7 +8308,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -8621,12 +8621,12 @@ Array [
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -8789,7 +8789,7 @@ Array [
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -9224,12 +9224,12 @@ Array [
             Object {
               "animations": Object {
                 "loading": Keyframes {
-                  "id": "sc-keyframes-jOboYA",
+                  "id": "sc-keyframes-kvsyCu",
                   "inject": [Function],
-                  "name": "jOboYA",
+                  "name": "kvsyCu",
                   "rules": Array [
-                    "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                    "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                    "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                    "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                   ],
                   "toString": [Function],
                 },
@@ -9392,7 +9392,7 @@ Array [
                 "listItemSeparatorColor": "#EFF2F7",
                 "listPadding": "8px",
                 "navigationBorder": "1px solid #EFF2F7",
-                "navigationContentMargin": "0 42px 0 0",
+                "navigationContentMargin": "0 24px 0 0",
                 "navigationHeaderPadding": "0 17px",
                 "navigationLinkFontSize": "12px",
                 "navigationLinkMargin": "0 24px 0 0",
@@ -9570,12 +9570,12 @@ Array [
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -9738,7 +9738,7 @@ Array [
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -9917,12 +9917,12 @@ Array [
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -10085,7 +10085,7 @@ Array [
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -10271,12 +10271,12 @@ Array [
                     Object {
                       "animations": Object {
                         "loading": Keyframes {
-                          "id": "sc-keyframes-jOboYA",
+                          "id": "sc-keyframes-kvsyCu",
                           "inject": [Function],
-                          "name": "jOboYA",
+                          "name": "kvsyCu",
                           "rules": Array [
-                            "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                            "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                            "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                            "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                           ],
                           "toString": [Function],
                         },
@@ -10439,7 +10439,7 @@ Array [
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
-                        "navigationContentMargin": "0 42px 0 0",
+                        "navigationContentMargin": "0 24px 0 0",
                         "navigationHeaderPadding": "0 17px",
                         "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
@@ -10620,12 +10620,12 @@ Array [
                     Object {
                       "animations": Object {
                         "loading": Keyframes {
-                          "id": "sc-keyframes-jOboYA",
+                          "id": "sc-keyframes-kvsyCu",
                           "inject": [Function],
-                          "name": "jOboYA",
+                          "name": "kvsyCu",
                           "rules": Array [
-                            "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                            "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                            "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                            "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                           ],
                           "toString": [Function],
                         },
@@ -10788,7 +10788,7 @@ Array [
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
-                        "navigationContentMargin": "0 42px 0 0",
+                        "navigationContentMargin": "0 24px 0 0",
                         "navigationHeaderPadding": "0 17px",
                         "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
@@ -10969,12 +10969,12 @@ Array [
                     Object {
                       "animations": Object {
                         "loading": Keyframes {
-                          "id": "sc-keyframes-jOboYA",
+                          "id": "sc-keyframes-kvsyCu",
                           "inject": [Function],
-                          "name": "jOboYA",
+                          "name": "kvsyCu",
                           "rules": Array [
-                            "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                            "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                            "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                            "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                           ],
                           "toString": [Function],
                         },
@@ -11137,7 +11137,7 @@ Array [
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
-                        "navigationContentMargin": "0 42px 0 0",
+                        "navigationContentMargin": "0 24px 0 0",
                         "navigationHeaderPadding": "0 17px",
                         "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
@@ -11317,12 +11317,12 @@ Array [
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -11485,7 +11485,7 @@ Array [
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -11665,12 +11665,12 @@ Array [
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -11833,7 +11833,7 @@ Array [
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -12019,12 +12019,12 @@ Array [
                     Object {
                       "animations": Object {
                         "loading": Keyframes {
-                          "id": "sc-keyframes-jOboYA",
+                          "id": "sc-keyframes-kvsyCu",
                           "inject": [Function],
-                          "name": "jOboYA",
+                          "name": "kvsyCu",
                           "rules": Array [
-                            "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                            "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                            "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                            "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                           ],
                           "toString": [Function],
                         },
@@ -12187,7 +12187,7 @@ Array [
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
-                        "navigationContentMargin": "0 42px 0 0",
+                        "navigationContentMargin": "0 24px 0 0",
                         "navigationHeaderPadding": "0 17px",
                         "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
@@ -12617,12 +12617,12 @@ exports[`Storyshots Dropdown Playground 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -12785,7 +12785,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -13401,12 +13401,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -13569,7 +13569,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -13765,12 +13765,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   Object {
                     "animations": Object {
                       "loading": Keyframes {
-                        "id": "sc-keyframes-jOboYA",
+                        "id": "sc-keyframes-kvsyCu",
                         "inject": [Function],
-                        "name": "jOboYA",
+                        "name": "kvsyCu",
                         "rules": Array [
-                          "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                          "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                          "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                          "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                         ],
                         "toString": [Function],
                       },
@@ -13933,7 +13933,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
-                      "navigationContentMargin": "0 42px 0 0",
+                      "navigationContentMargin": "0 24px 0 0",
                       "navigationHeaderPadding": "0 17px",
                       "navigationLinkFontSize": "12px",
                       "navigationLinkMargin": "0 24px 0 0",
@@ -14117,12 +14117,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   Object {
                     "animations": Object {
                       "loading": Keyframes {
-                        "id": "sc-keyframes-jOboYA",
+                        "id": "sc-keyframes-kvsyCu",
                         "inject": [Function],
-                        "name": "jOboYA",
+                        "name": "kvsyCu",
                         "rules": Array [
-                          "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                          "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                          "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                          "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                         ],
                         "toString": [Function],
                       },
@@ -14285,7 +14285,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
-                      "navigationContentMargin": "0 42px 0 0",
+                      "navigationContentMargin": "0 24px 0 0",
                       "navigationHeaderPadding": "0 17px",
                       "navigationLinkFontSize": "12px",
                       "navigationLinkMargin": "0 24px 0 0",
@@ -14465,12 +14465,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   Object {
                     "animations": Object {
                       "loading": Keyframes {
-                        "id": "sc-keyframes-jOboYA",
+                        "id": "sc-keyframes-kvsyCu",
                         "inject": [Function],
-                        "name": "jOboYA",
+                        "name": "kvsyCu",
                         "rules": Array [
-                          "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                          "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                          "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                          "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                         ],
                         "toString": [Function],
                       },
@@ -14633,7 +14633,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
-                      "navigationContentMargin": "0 42px 0 0",
+                      "navigationContentMargin": "0 24px 0 0",
                       "navigationHeaderPadding": "0 17px",
                       "navigationLinkFontSize": "12px",
                       "navigationLinkMargin": "0 24px 0 0",
@@ -14805,12 +14805,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   Object {
                     "animations": Object {
                       "loading": Keyframes {
-                        "id": "sc-keyframes-jOboYA",
+                        "id": "sc-keyframes-kvsyCu",
                         "inject": [Function],
-                        "name": "jOboYA",
+                        "name": "kvsyCu",
                         "rules": Array [
-                          "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                          "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                          "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                          "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                         ],
                         "toString": [Function],
                       },
@@ -14973,7 +14973,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       "listItemSeparatorColor": "#EFF2F7",
                       "listPadding": "8px",
                       "navigationBorder": "1px solid #EFF2F7",
-                      "navigationContentMargin": "0 42px 0 0",
+                      "navigationContentMargin": "0 24px 0 0",
                       "navigationHeaderPadding": "0 17px",
                       "navigationLinkFontSize": "12px",
                       "navigationLinkMargin": "0 24px 0 0",
@@ -15476,12 +15476,12 @@ exports[`Storyshots FormGroup Playground 1`] = `
             Object {
               "animations": Object {
                 "loading": Keyframes {
-                  "id": "sc-keyframes-jOboYA",
+                  "id": "sc-keyframes-kvsyCu",
                   "inject": [Function],
-                  "name": "jOboYA",
+                  "name": "kvsyCu",
                   "rules": Array [
-                    "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                    "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                    "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                    "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                   ],
                   "toString": [Function],
                 },
@@ -15644,7 +15644,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "listItemSeparatorColor": "#EFF2F7",
                 "listPadding": "8px",
                 "navigationBorder": "1px solid #EFF2F7",
-                "navigationContentMargin": "0 42px 0 0",
+                "navigationContentMargin": "0 24px 0 0",
                 "navigationHeaderPadding": "0 17px",
                 "navigationLinkFontSize": "12px",
                 "navigationLinkMargin": "0 24px 0 0",
@@ -15947,12 +15947,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -16115,7 +16115,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -16310,12 +16310,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -16478,7 +16478,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -16673,12 +16673,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -16841,7 +16841,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -17036,12 +17036,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -17204,7 +17204,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -17398,12 +17398,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -17566,7 +17566,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -17761,12 +17761,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -17929,7 +17929,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -18124,12 +18124,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -18292,7 +18292,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -18487,12 +18487,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -18655,7 +18655,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -18850,12 +18850,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -19018,7 +19018,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -19212,12 +19212,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -19380,7 +19380,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -19575,12 +19575,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -19743,7 +19743,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -19938,12 +19938,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -20106,7 +20106,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -20300,12 +20300,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -20468,7 +20468,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -20662,12 +20662,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -20830,7 +20830,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -21024,12 +21024,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -21192,7 +21192,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -21387,12 +21387,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -21555,7 +21555,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -21751,12 +21751,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -21919,7 +21919,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -22122,12 +22122,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -22290,7 +22290,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -22495,12 +22495,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -22663,7 +22663,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -22865,12 +22865,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -23033,7 +23033,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -23227,12 +23227,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -23395,7 +23395,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -23591,12 +23591,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -23759,7 +23759,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -23954,12 +23954,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -24122,7 +24122,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -24324,12 +24324,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -24492,7 +24492,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -24687,12 +24687,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -24855,7 +24855,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -25050,12 +25050,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -25218,7 +25218,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -25414,12 +25414,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -25582,7 +25582,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -25777,12 +25777,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -25945,7 +25945,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -26140,12 +26140,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -26308,7 +26308,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -26503,12 +26503,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -26671,7 +26671,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -26867,12 +26867,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -27035,7 +27035,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -27229,12 +27229,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -27397,7 +27397,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -27596,12 +27596,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -27764,7 +27764,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -27959,12 +27959,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -28127,7 +28127,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -28323,12 +28323,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -28491,7 +28491,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -28685,12 +28685,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -28853,7 +28853,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -29048,12 +29048,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -29216,7 +29216,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -29411,12 +29411,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -29579,7 +29579,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -29774,12 +29774,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -29942,7 +29942,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -30137,12 +30137,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -30305,7 +30305,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -30499,12 +30499,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -30667,7 +30667,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -30866,12 +30866,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -31034,7 +31034,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -31233,12 +31233,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -31401,7 +31401,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -31600,12 +31600,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -31768,7 +31768,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -31963,12 +31963,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -32131,7 +32131,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -32327,12 +32327,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -32495,7 +32495,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -32690,12 +32690,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -32858,7 +32858,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -33054,12 +33054,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -33222,7 +33222,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -33420,12 +33420,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -33588,7 +33588,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -33786,12 +33786,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -33954,7 +33954,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -34149,12 +34149,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -34317,7 +34317,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -34512,12 +34512,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -34680,7 +34680,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -34884,12 +34884,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -35052,7 +35052,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -35247,12 +35247,12 @@ exports[`Storyshots Icon All Icons 1`] = `
         Object {
           "animations": Object {
             "loading": Keyframes {
-              "id": "sc-keyframes-jOboYA",
+              "id": "sc-keyframes-kvsyCu",
               "inject": [Function],
-              "name": "jOboYA",
+              "name": "kvsyCu",
               "rules": Array [
-                "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
               ],
               "toString": [Function],
             },
@@ -35415,7 +35415,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemSeparatorColor": "#EFF2F7",
             "listPadding": "8px",
             "navigationBorder": "1px solid #EFF2F7",
-            "navigationContentMargin": "0 42px 0 0",
+            "navigationContentMargin": "0 24px 0 0",
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
@@ -35620,12 +35620,12 @@ exports[`Storyshots Icon Normal 1`] = `
       Object {
         "animations": Object {
           "loading": Keyframes {
-            "id": "sc-keyframes-jOboYA",
+            "id": "sc-keyframes-kvsyCu",
             "inject": [Function],
-            "name": "jOboYA",
+            "name": "kvsyCu",
             "rules": Array [
-              "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-              "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+              "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+              "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
             ],
             "toString": [Function],
           },
@@ -35788,7 +35788,7 @@ exports[`Storyshots Icon Normal 1`] = `
           "listItemSeparatorColor": "#EFF2F7",
           "listPadding": "8px",
           "navigationBorder": "1px solid #EFF2F7",
-          "navigationContentMargin": "0 42px 0 0",
+          "navigationContentMargin": "0 24px 0 0",
           "navigationHeaderPadding": "0 17px",
           "navigationLinkFontSize": "12px",
           "navigationLinkMargin": "0 24px 0 0",
@@ -37199,12 +37199,12 @@ exports[`Storyshots List With Childrens 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -37367,7 +37367,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -37549,12 +37549,12 @@ exports[`Storyshots List With Childrens 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -37717,7 +37717,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -37914,12 +37914,12 @@ exports[`Storyshots List With Childrens 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -38082,7 +38082,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -38276,12 +38276,12 @@ exports[`Storyshots List With Childrens 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -38444,7 +38444,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -38616,12 +38616,12 @@ exports[`Storyshots List With Childrens 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -38784,7 +38784,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -38966,12 +38966,12 @@ exports[`Storyshots List With Childrens 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -39134,7 +39134,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -39307,12 +39307,12 @@ exports[`Storyshots List With Childrens 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -39475,7 +39475,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -39979,7 +39979,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
 }
 
 .c14 {
-  margin: 0 42px 0 0;
+  margin: 0 24px 0 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -40060,12 +40060,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -40228,7 +40228,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -40414,12 +40414,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     Object {
                       "animations": Object {
                         "loading": Keyframes {
-                          "id": "sc-keyframes-jOboYA",
+                          "id": "sc-keyframes-kvsyCu",
                           "inject": [Function],
-                          "name": "jOboYA",
+                          "name": "kvsyCu",
                           "rules": Array [
-                            "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                            "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                            "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                            "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                           ],
                           "toString": [Function],
                         },
@@ -40582,7 +40582,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
-                        "navigationContentMargin": "0 42px 0 0",
+                        "navigationContentMargin": "0 24px 0 0",
                         "navigationHeaderPadding": "0 17px",
                         "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
@@ -40763,12 +40763,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     Object {
                       "animations": Object {
                         "loading": Keyframes {
-                          "id": "sc-keyframes-jOboYA",
+                          "id": "sc-keyframes-kvsyCu",
                           "inject": [Function],
-                          "name": "jOboYA",
+                          "name": "kvsyCu",
                           "rules": Array [
-                            "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                            "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                            "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                            "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                           ],
                           "toString": [Function],
                         },
@@ -40931,7 +40931,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
-                        "navigationContentMargin": "0 42px 0 0",
+                        "navigationContentMargin": "0 24px 0 0",
                         "navigationHeaderPadding": "0 17px",
                         "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
@@ -41188,12 +41188,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -41356,7 +41356,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -41541,12 +41541,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -41709,7 +41709,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -41889,12 +41889,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     Object {
                       "animations": Object {
                         "loading": Keyframes {
-                          "id": "sc-keyframes-jOboYA",
+                          "id": "sc-keyframes-kvsyCu",
                           "inject": [Function],
-                          "name": "jOboYA",
+                          "name": "kvsyCu",
                           "rules": Array [
-                            "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                            "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                            "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                            "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                           ],
                           "toString": [Function],
                         },
@@ -42057,7 +42057,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
-                        "navigationContentMargin": "0 42px 0 0",
+                        "navigationContentMargin": "0 24px 0 0",
                         "navigationHeaderPadding": "0 17px",
                         "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
@@ -42237,12 +42237,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     Object {
                       "animations": Object {
                         "loading": Keyframes {
-                          "id": "sc-keyframes-jOboYA",
+                          "id": "sc-keyframes-kvsyCu",
                           "inject": [Function],
-                          "name": "jOboYA",
+                          "name": "kvsyCu",
                           "rules": Array [
-                            "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                            "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                            "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                            "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                           ],
                           "toString": [Function],
                         },
@@ -42405,7 +42405,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         "listItemSeparatorColor": "#EFF2F7",
                         "listPadding": "8px",
                         "navigationBorder": "1px solid #EFF2F7",
-                        "navigationContentMargin": "0 42px 0 0",
+                        "navigationContentMargin": "0 24px 0 0",
                         "navigationHeaderPadding": "0 17px",
                         "navigationLinkFontSize": "12px",
                         "navigationLinkMargin": "0 24px 0 0",
@@ -42729,12 +42729,12 @@ exports[`Storyshots Notification Error 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -42897,7 +42897,7 @@ exports[`Storyshots Notification Error 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -43128,12 +43128,12 @@ exports[`Storyshots Notification Normal 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -43296,7 +43296,7 @@ exports[`Storyshots Notification Normal 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -43527,12 +43527,12 @@ exports[`Storyshots Notification Success 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -43695,7 +43695,7 @@ exports[`Storyshots Notification Success 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -43929,12 +43929,12 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
           Object {
             "animations": Object {
               "loading": Keyframes {
-                "id": "sc-keyframes-jOboYA",
+                "id": "sc-keyframes-kvsyCu",
                 "inject": [Function],
-                "name": "jOboYA",
+                "name": "kvsyCu",
                 "rules": Array [
-                  "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                  "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                  "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                  "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                 ],
                 "toString": [Function],
               },
@@ -44097,7 +44097,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "listItemSeparatorColor": "#EFF2F7",
               "listPadding": "8px",
               "navigationBorder": "1px solid #EFF2F7",
-              "navigationContentMargin": "0 42px 0 0",
+              "navigationContentMargin": "0 24px 0 0",
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
@@ -45046,12 +45046,12 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -45214,7 +45214,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
@@ -45454,12 +45454,12 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
               Object {
                 "animations": Object {
                   "loading": Keyframes {
-                    "id": "sc-keyframes-jOboYA",
+                    "id": "sc-keyframes-kvsyCu",
                     "inject": [Function],
-                    "name": "jOboYA",
+                    "name": "kvsyCu",
                     "rules": Array [
-                      "@-webkit-keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
-                      "@keyframes jOboYA{0%{background-color:rgba(230,230,230,1);}50%{background-color:rgba(230,230,230,.4);}100%{background-color:rgba(230,230,230,1);}}",
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
                     ],
                     "toString": [Function],
                   },
@@ -45622,7 +45622,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "listItemSeparatorColor": "#EFF2F7",
                   "listPadding": "8px",
                   "navigationBorder": "1px solid #EFF2F7",
-                  "navigationContentMargin": "0 42px 0 0",
+                  "navigationContentMargin": "0 24px 0 0",
                   "navigationHeaderPadding": "0 17px",
                   "navigationLinkFontSize": "12px",
                   "navigationLinkMargin": "0 24px 0 0",
