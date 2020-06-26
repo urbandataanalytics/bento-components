@@ -10,14 +10,13 @@ const StyledCardHeader = styled.header`
 const StyledContainer = styled.div`
   display: grid;
   grid-template-columns: 55px 1fr 55px;
-  grid-column-gap: 11px;
   align-items: top;
   border-bottom: 1px solid ${({ theme }) => theme.color.charcoal400};
-  padding-bottom: ${({ theme }) => theme.spacings.small3};
+  padding-bottom: ${({ theme }) => theme.spacings.small2};
 `;
 
 const StyledChildrenContainer = styled.div`
-  padding-top: ${({ theme }) => theme.spacings.small3};
+  padding-top: ${({ theme }) => theme.spacings.small2};
 `;
 
 StyledCardHeader.defaultProps = {

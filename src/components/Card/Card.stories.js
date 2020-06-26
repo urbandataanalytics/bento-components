@@ -31,3 +31,15 @@ export const Playground = () => {
     </div>
   );
 };
+
+export const Loading = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <Card loading></Card>
+    </div>
+  );
+};

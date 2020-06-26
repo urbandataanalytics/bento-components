@@ -1,3 +1,5 @@
+import { keyframes } from 'styled-components';
+
 const fontCallback = 'Arial, sans-serif';
 
 const fonts = [
@@ -37,6 +39,7 @@ const color = {
   primary700: '#0C1B7A',
   redclay100: '#FAEDEC',
   redclay500: '#CD4C41',
+  redvelvet: '#B2314A;',
   white: '#FFFFFF'
 };
 
@@ -66,6 +69,28 @@ const global = {
   fontWeightRegular: 400,
   fontWeightMedium: 500,
   fontWeightBold: 700
+};
+
+const animations = {
+  rotate: keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  `,
+  loading: keyframes`
+  0% {
+    background-color: rgba(220,223,230,1);
+  }
+  50% {
+    background-color: rgba(220,223,230,.5);
+  }
+  100% {
+    background-color: rgba(220,223,230,1);
+  }
+  `
 };
 
 const headings = [
@@ -224,7 +249,7 @@ const components = {
   avatarColor: color.white,
   avatarSizeSmall: spacings.small4,
   avatarSizeMedium: spacings.medium1,
-  avatarSizeLarge: spacings.medium3,
+  avatarSizeLarge: spacings.medium2,
   avatarFontSizeSmall: '12px',
   avatarFontSizeMedium: '14px',
   avatarFontSizeLarge: '24px',
@@ -235,7 +260,7 @@ const components = {
   navigationMenuBackgroundColor: color.charcoal300,
   navigationMenuOpenBackgroundColor: color.primary100,
   navigationMenuHoverBackgroundColor: color.charcoal400,
-  navigationContentMargin: '0 42px 0 0',
+  navigationContentMargin: `0 ${spacings.small4} 0 0`,
   navigationLinkFontSize: '12px',
   navigationLinkMargin: '0 24px 0 0',
   navigationHeaderPadding: '0 17px',
@@ -337,6 +362,7 @@ const components = {
 };
 
 export default {
+  animations,
   breakpoints,
   color,
   components,
