@@ -100,6 +100,9 @@ export const NavbarList = () => {
         <NavListItem leftContent={<IconUser />} disabled>
           Nav 2
         </NavListItem>
+        <NavListItem as={TextLink} leftContent={<IconUser />} href={'https://google.com'}>
+          Nav 2
+        </NavListItem>
       </List>
     </div>
   );

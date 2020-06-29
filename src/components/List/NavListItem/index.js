@@ -4,7 +4,9 @@ import styled from 'styled-components';
 import defaultTheme from '../../../themes/defaultTheme';
 import { StyledComponent, StyledLeftContent } from '../ListItem';
 
-const StyledNavListItem = styled(ListItem)`
+const StyledNavListItem = styled(({ component, ...props }) => (
+  <ListItem as={component} {...props} />
+))`
   &:hover {
     ${props =>
       props.disabled &&
@@ -45,9 +47,9 @@ StyledNavListItem.defaultProps = {
 };
 
 const NavListItem = props => {
-  const { size = 'large', ...other } = props;
+  const { size = 'large', as, ...other } = props;
 
-  return <StyledNavListItem size={size} {...other} />;
+  return <StyledNavListItem size={size} component={as} {...other} />;
 };
 
 NavListItem.propTypes = ListItem.propTypes;

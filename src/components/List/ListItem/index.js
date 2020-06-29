@@ -158,6 +158,7 @@ const ListItem = React.forwardRef((props, ref) => {
     size,
     active,
     disabled,
+    className,
     onClick,
     ...other
   } = props;
@@ -165,8 +166,14 @@ const ListItem = React.forwardRef((props, ref) => {
   return separator ? (
     <StyledListSeparator />
   ) : (
-    <StyledListItem active={active} disabled={disabled} onClick={onClick} size={size} {...other}>
-      <StyledComponent disabled={disabled} as={Component}>
+    <StyledListItem
+      active={active}
+      disabled={disabled}
+      onClick={onClick}
+      size={size}
+      className={className}
+    >
+      <StyledComponent disabled={disabled} as={Component} {...other}>
         {leftContent && (
           <StyledLeftContent active={active} disabled={disabled}>
             {leftContent}
