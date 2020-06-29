@@ -5,6 +5,8 @@ import ListItem from './ListItem/';
 import IconFolder from '../../icons/Folder/index';
 import TextLink from '../TextLink';
 import { IconUser } from '../../icons';
+import { LinkListItem } from '../../index';
+import NavListItem from './NavListItem';
 
 export default {
   title: 'List',
@@ -62,6 +64,45 @@ export const WithChildrens = () => {
         <ListItem disabled={true} leftContent={<IconFolder />} rightContent={<IconFolder />}>
           Text
         </ListItem>
+      </List>
+    </div>
+  );
+};
+
+export const LinkList = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <List {...getCommonProps()}>
+        <LinkListItem href={'https://google.com'}>Link 1</LinkListItem>
+        <LinkListItem active={true}>Link 2</LinkListItem>
+        <LinkListItem href={'#test'}>Link 3</LinkListItem>
+      </List>
+    </div>
+  );
+};
+
+export const NavbarList = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <List {...getCommonProps()}>
+        <NavListItem leftContent={<IconUser />}>Nav 1</NavListItem>
+        <NavListItem leftContent={<IconUser />} active>
+          Nav 2
+        </NavListItem>
+        <NavListItem leftContent={<IconUser />} disabled>
+          Nav 2
+        </NavListItem>
+        <NavListItem as={TextLink} leftContent={<IconUser />} href={'https://google.com'}>
+          Nav 2
+        </NavListItem>
       </List>
     </div>
   );

@@ -167,9 +167,9 @@ Button.propTypes = {
   block: PropTypes.bool,
   children: PropTypes.node,
   disabled: PropTypes.bool,
-  size: PropTypes.oneOf(['medium', 'large']).isRequired,
+  size: PropTypes.oneOf(['medium', 'large']),
   tabIndex: PropTypes.string,
-  variant: PropTypes.oneOf(['normal', 'primary', 'secondary']).isRequired
+  variant: PropTypes.oneOf(['normal', 'primary', 'secondary'])
 };
 
 Button.defaultProps = {
