@@ -92,7 +92,11 @@ StyledDrawerHeader.defaultProps = {
   theme: defaultTheme
 };
 
-const StyledDrawerContent = styled.div``;
+const StyledDrawerContent = styled.div`
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+`;
 
 StyledDrawerContent.defaultProps = {
   theme: defaultTheme

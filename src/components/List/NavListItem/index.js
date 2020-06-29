@@ -2,17 +2,41 @@ import React from 'react';
 import ListItem from '../../List/ListItem';
 import styled from 'styled-components';
 import defaultTheme from '../../../themes/defaultTheme';
+import { StyledComponent, StyledLeftContent } from '../ListItem';
 
 const StyledNavListItem = styled(ListItem)`
-  color: ${props =>
-    props.active
-      ? props.theme.components.listNavItemColorActive
-      : props.theme.components.listNavItemColorDefault};
-  ${props => props.disabled && `color: ${props.theme.components.listNavItemColorDisabled}`};
-
   &:hover {
-    ${props => !props.active && `color: ${props.theme.components.listNavItemColorHover}`};
+    ${props =>
+      props.disabled &&
+      `background-color: ${props.theme.components.listNavItemBackgroundColorDisabled}`};
+  }
+
+  > ${StyledComponent} {
+    color: ${props =>
+      props.active
+        ? props.theme.components.listNavItemColorActive
+        : props.theme.components.listNavItemColorDefault};
     ${props => props.disabled && `color: ${props.theme.components.listNavItemColorDisabled}`};
+    font-weight: ${props => props.theme.components.listNavItemFontWeight};
+    font-size: ${props => props.theme.components.listNavItemFontSize};
+
+    &:hover {
+      ${props => !props.active && `color: ${props.theme.components.listNavItemColorHover}`};
+      ${props => props.disabled && `color: ${props.theme.components.listNavItemColorDisabled}`};
+      ${props =>
+        props.disabled &&
+        `background-color: ${props.theme.components.listNavItemBackgroundColorDisabled}`};
+    }
+  }
+
+  ${StyledLeftContent} {
+    > svg {
+      fill: ${props =>
+        props.active
+          ? props.theme.components.listNavItemColorActive
+          : props.theme.components.listNavItemColorDefault};
+      ${props => props.disabled && `fill: ${props.theme.components.listNavItemColorDisabled}`};
+    }
   }
 `;
 
@@ -21,13 +45,9 @@ StyledNavListItem.defaultProps = {
 };
 
 const NavListItem = props => {
-  const { children, size = 'large', ...other } = props;
+  const { size = 'large', ...other } = props;
 
-  return (
-    <StyledNavListItem size={size} {...other}>
-      {children}
-    </StyledNavListItem>
-  );
+  return <StyledNavListItem size={size} {...other} />;
 };
 
 NavListItem.propTypes = ListItem.propTypes;
