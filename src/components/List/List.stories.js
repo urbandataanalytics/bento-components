@@ -93,8 +93,10 @@ export const NavbarList = () => {
   return (
     <div style={containerStyle}>
       <List {...getCommonProps()}>
-        <NavListItem leftContent={<IconUser />}>Nav 1</NavListItem>
-        <NavListItem leftContent={<IconUser />} active>
+        <NavListItem focusContent={true} leftContent={<IconUser />}>
+          Nav 1
+        </NavListItem>
+        <NavListItem focusContent={true} leftContent={<IconUser />} active>
           Nav 2
         </NavListItem>
         <NavListItem leftContent={<IconUser />} disabled>

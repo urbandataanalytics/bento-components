@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import defaultTheme from '../../../themes/defaultTheme';
 import PropTypes from 'prop-types';
 
@@ -125,6 +125,32 @@ export const StyledListItem = styled.li`
       props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefaultHover};
+
+    ${StyledLeftContent} {
+      ${props =>
+        (props.focusContent || props.focusLeftContent) &&
+        css`
+          opacity: 1;
+          transition: opacity 150ms ease-in-out;
+        `};
+    }
+
+    ${StyledRightContent} {
+      ${props =>
+        (props.focusContent || props.focusRightContent) &&
+        css`
+          opacity: 1;
+          transition: opacity 150ms ease-in-out;
+        `};
+    }
+  }
+
+  ${StyledLeftContent} {
+    ${props => (props.focusContent || props.focusLeftContent) && !props.active && 'opacity: 0'};
+  }
+
+  ${StyledRightContent} {
+    ${props => (props.focusContent || props.focusRightContent) && !props.active && 'opacity: 0'};
   }
 
   > ${StyledComponent} {
@@ -159,6 +185,9 @@ const ListItem = React.forwardRef((props, ref) => {
     active,
     disabled,
     className,
+    focusContent,
+    focusLeftContent,
+    focusRightContent,
     onClick,
     ...other
   } = props;
@@ -172,6 +201,9 @@ const ListItem = React.forwardRef((props, ref) => {
       onClick={onClick}
       size={size}
       className={className}
+      focusContent={focusContent}
+      focusLeftContent={focusLeftContent}
+      focusRightContent={focusRightContent}
     >
       <StyledComponent disabled={disabled} as={Component} {...other}>
         {leftContent && (
@@ -199,6 +231,9 @@ ListItem.propTypes = {
   as: PropTypes.elementType,
   leftContent: PropTypes.node,
   rightContent: PropTypes.node,
+  focusContent: PropTypes.bool,
+  focusLeftContent: PropTypes.bool,
+  focusRightContent: PropTypes.bool,
   separator: PropTypes.bool,
   size: PropTypes.oneOf(['medium', 'large']),
   active: PropTypes.bool,
