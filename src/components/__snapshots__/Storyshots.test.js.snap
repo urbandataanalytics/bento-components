@@ -40290,7 +40290,7 @@ exports[`Storyshots List Navbar List 1`] = `
   color: #B6BBC6;
 }
 
-.c1 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -40310,16 +40310,16 @@ exports[`Storyshots List Navbar List 1`] = `
   border-radius: 2px;
 }
 
-.c1:last-child {
+.c13:last-child {
   margin-bottom: 0;
 }
 
-.c1:hover {
+.c13:hover {
   background-color: #EFF2F7;
   color: #EFF2F7;
 }
 
-.c1 > .c3 {
+.c13 > .c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -40340,36 +40340,7 @@ exports[`Storyshots List Navbar List 1`] = `
   font-size: 12px;
 }
 
-.c7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #EFF7FB;
-  color: #1778FB;
-  font-size: 12px;
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 500;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  margin: 0 0 4px;
-  border-radius: 2px;
-}
-
-.c7:last-child {
-  margin-bottom: 0;
-}
-
-.c7:hover {
-  background-color: #EFF7FB;
-  color: #1778FB;
-}
-
-.c7 > .c3 {
+.c15 > .c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -40443,7 +40414,7 @@ exports[`Storyshots List Navbar List 1`] = `
   pointer-events: none;
 }
 
-.c14 > .c3 {
+.c16 > .c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -40464,12 +40435,144 @@ exports[`Storyshots List Navbar List 1`] = `
   font-size: 12px;
 }
 
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #212632;
+  font-size: 12px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin: 0 0 4px;
+  border-radius: 2px;
+}
+
+.c1:last-child {
+  margin-bottom: 0;
+}
+
+.c1:hover {
+  background-color: #EFF2F7;
+  color: #EFF2F7;
+}
+
+.c1:hover .c4 {
+  opacity: 1;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+.c1:hover .c17 {
+  opacity: 1;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+.c1 .c4 {
+  opacity: 0;
+}
+
+.c1 .c17 {
+  opacity: 0;
+}
+
+.c1 > .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #212632;
+  font-weight: 400;
+  padding: 8px 16px;
+  font-size: 12px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #EFF7FB;
+  color: #1778FB;
+  font-size: 12px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin: 0 0 4px;
+  border-radius: 2px;
+}
+
+.c7:last-child {
+  margin-bottom: 0;
+}
+
+.c7:hover {
+  background-color: #EFF7FB;
+  color: #1778FB;
+}
+
+.c7:hover .c4 {
+  opacity: 1;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+.c7:hover .c17 {
+  opacity: 1;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+.c7 > .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #1778FB;
+  font-weight: 400;
+  padding: 8px 16px;
+  font-size: 12px;
+}
+
 .c0 {
   background-color: #FFFFFF;
   box-sizing: border-box;
 }
 
-.c13 {
+.c14 {
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto",Arial,sans-serif;
@@ -40485,7 +40588,7 @@ exports[`Storyshots List Navbar List 1`] = `
   color: #1778FB;
 }
 
-.c13:hover {
+.c14:hover {
   color: #48AAF1;
 }
 
@@ -41629,11 +41732,11 @@ exports[`Storyshots List Navbar List 1`] = `
       </div>
     </li>
     <li
-      className="c1 c2"
+      className="c13 c2"
       size="medium"
     >
       <a
-        className="c13 c3 "
+        className="c14 c3 "
         disabled={false}
         href="https://google.com"
         size="medium"
@@ -45168,6 +45271,64 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   font-size: 12px;
 }
 
+.c25:hover .c10 {
+  opacity: 1;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+.c25 .c10 {
+  opacity: 0;
+}
+
+.c25 > .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #212632;
+  font-weight: 400;
+  padding: 8px 16px;
+  font-size: 12px;
+}
+
+.c26:hover .c10 {
+  opacity: 1;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+.c26 > .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #1778FB;
+  font-weight: 400;
+  padding: 8px 16px;
+  font-size: 12px;
+}
+
 .c21 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -45289,44 +45450,44 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   z-index: 1;
 }
 
-.c25 > .c9 {
-  color: #747D93;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.c25 > .c9:hover {
-  color: #747D93;
-}
-
-.c25 .c10 > svg {
-  fill: #747D93;
-}
-
-.c26 > .c9 {
-  color: #1778FB;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.c26 .c10 > svg {
-  fill: #1778FB;
-}
-
 .c27 > .c9 {
   color: #747D93;
-  color: #DCDFE6;
   font-weight: 500;
   font-size: 14px;
 }
 
 .c27 > .c9:hover {
   color: #747D93;
+}
+
+.c27 .c10 > svg {
+  fill: #747D93;
+}
+
+.c28 > .c9 {
+  color: #1778FB;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.c28 .c10 > svg {
+  fill: #1778FB;
+}
+
+.c29 > .c9 {
+  color: #747D93;
+  color: #DCDFE6;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.c29 > .c9:hover {
+  color: #747D93;
   color: #DCDFE6;
   background-color: #FFFFFF;
 }
 
-.c27 .c10 > svg {
+.c29 .c10 > svg {
   fill: #747D93;
   fill: #DCDFE6;
 }
