@@ -21,6 +21,7 @@ const StyledNavListItem = styled(({ component, ...props }) => (
     ${props => props.disabled && `color: ${props.theme.components.listNavItemColorDisabled}`};
     font-weight: ${props => props.theme.components.listNavItemFontWeight};
     font-size: ${props => props.theme.components.listNavItemFontSize};
+    padding: ${props => props.theme.components.listItemPaddingLarge};
 
     &:hover {
       ${props => !props.active && `color: ${props.theme.components.listNavItemColorHover}`};

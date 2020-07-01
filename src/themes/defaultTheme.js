@@ -332,7 +332,7 @@ const components = {
   listItemMargin: '0 0 4px',
   listItemFontSize: '12px',
   listItemBorderRadius: shapes.borderRadiusSmall,
-  listItemPaddingMedium: '8px 16px',
+  listItemPaddingMedium: '7px 16px',
   listItemPaddingLarge: '8px 16px',
   listItemFontSizeMedium: '12px',
   listItemFontSizeLarge: '14px',
