@@ -68,3 +68,9 @@ export const Normal = () => {
 };
 
 export const WithoutMenu = () => <NavigationBar header={HeaderLogo}></NavigationBar>;
+
+export const Sticky = () => (
+  <div style={{ height: '5000px' }}>
+    <NavigationBar sticky header={HeaderLogo}></NavigationBar>
+  </div>
+);

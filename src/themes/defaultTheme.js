@@ -264,7 +264,8 @@ const components = {
   navigationLinkFontSize: '12px',
   navigationLinkMargin: '0 24px 0 0',
   navigationHeaderPadding: '0 17px',
-  navigationMinHeight: '73px',
+  navigationMinHeight: '40px',
+  navigationMaxHeight: '73px',
 
   /* Notification Theme Props */
   accordionMinHeight: '65px',
