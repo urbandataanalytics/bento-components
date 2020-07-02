@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import defaultTheme from '../../themes/defaultTheme';
@@ -15,7 +15,7 @@ const StyledNavigation = styled.nav`
   ${({ dropdownMenu, header, theme }) =>
     !dropdownMenu || !header ? `height: ${theme.components.navigationMaxHeight}` : ''}
   transition: ${props => props.theme.global.transitionM};
-  ${({ sticky }) => sticky && `position: sticky; top: 0; z-index: 1;`};
+  ${({ sticked }) => sticked && `position: sticky; top: 0; z-index: 1;`};
   height: ${({ theme, sticked }) =>
     `${sticked ? theme.components.navigationMinHeight : theme.components.navigationMaxHeight}`};
 `;
@@ -136,22 +136,11 @@ const NavigationBar = props => {
     dropdownMenu,
     rightContent,
     iconMenu,
-    sticky,
+    sticked,
     linkList,
     ...other
   } = props;
   const [isOpenDropdown, setOpenDropdown] = useState(false);
-  const [sticked, setSticked] = useState(false);
-
-  useEffect(() => {
-    if (sticky) {
-      const onScroll = e => {
-        setSticked(e.target.documentElement.scrollTop > 0 ? true : false);
-      };
-      window.addEventListener('scroll', onScroll);
-      return () => window.removeEventListener('scroll', onScroll);
-    }
-  }, [sticky]);
 
   const handleDropdown = isOpen => {
     setOpenDropdown(isOpen);
@@ -164,13 +153,7 @@ const NavigationBar = props => {
   );
 
   return (
-    <StyledNavigation
-      sticked={sticked}
-      sticky={sticky}
-      header={header}
-      dropdownMenu={dropdownMenu}
-      {...other}
-    >
+    <StyledNavigation sticked={sticked} header={header} dropdownMenu={dropdownMenu} {...other}>
       <NavigationLeft>
         {dropdownMenu && (
           <Dropdown onChange={handleDropdown} label={<Menu />}>

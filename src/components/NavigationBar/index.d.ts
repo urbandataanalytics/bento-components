@@ -3,7 +3,7 @@ export interface Props {
   rightContent?: React.ReactNode;
   dropdownMenu?: React.ReactNode;
   header?: React.ReactNode;
-  sticky?: boolean;
+  sticked?: boolean;
   iconMenu?: React.ReactNode;
 }
 

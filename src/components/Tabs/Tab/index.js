@@ -32,9 +32,9 @@ const badgeStyles = theme => ({
 });
 
 const StyledTabLabel = styled.span`
-  font-size: ${props => props.theme.components.tabFontSize};
+  font-size: ${({ theme }) => theme.components.tabFontSize};
   line-height: 22px;
-  font-weight: ${props => props.theme.components.tabFontWeight};
+  font-weight: ${({ theme }) => theme.components.tabFontWeight};
   letter-spacing: 0.6px;
 `;
 StyledTabLabel.defaultProps = {
@@ -42,10 +42,10 @@ StyledTabLabel.defaultProps = {
 };
 
 const StyledTabBadge = styled.span`
-  font-size: ${props => props.theme.components.tabBadgeFontSize};
+  font-size: ${({ theme }) => theme.components.tabBadgeFontSize};
   line-height: 18px;
-  padding: ${props => props.theme.components.tabBadgePadding};
-  font-weight: ${props => props.theme.components.tabBadgeFontWeight};
+  padding: ${({ theme }) => theme.components.tabBadgePadding};
+  font-weight: ${({ theme }) => theme.components.tabBadgeFontWeight};
   border-radius: 100px;
   display: inline-block;
   margin-left: 8px;
@@ -77,11 +77,11 @@ const StyledTabContainer = styled.div`
     !props.active &&
     css`
       &:hover {
-        color: ${props => props.theme.components.tabColorHover};
-        border-bottom-color: ${props => props.theme.components.tabBorderColorHover};
+        color: ${({ theme }) => theme.components.tabColorHover};
+        border-bottom-color: ${({ theme }) => theme.components.tabBorderColorHover};
         ${StyledTabBadge} {
-          background-color: ${props => props.theme.components.tabBadgeBackgroundHover};
-          color: ${props => props.theme.components.tabBadgeColorHover};
+          background-color: ${({ theme }) => theme.components.tabBadgeBackgroundHover};
+          color: ${({ theme }) => theme.components.tabBadgeColorHover};
         }
       }
     `}

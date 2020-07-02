@@ -6,6 +6,7 @@ const StyledHeader = styled.div`
   grid-template-columns: 40px 1fr;
   grid-gap: 20px;
   align-items: center;
+
   > em {
     width: 40px;
     height: 40px;

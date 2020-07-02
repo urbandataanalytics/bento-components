@@ -5,8 +5,9 @@ import defaultTheme from '../../themes/defaultTheme';
 
 const StyledTabsContainer = styled.div`
   width: 100%;
-  height: 39px;
-  border-bottom: 1px solid ${props => props.theme.components.tabsBorderColor};
+  padding-top: 16px;
+  border-bottom: 1px solid ${({ theme }) => theme.components.tabsBorderColor};
+  background-color: ${({ theme }) => theme.components.tabsBackgroundColor};
   display: flex;
   align-items: center;
   justify-content: center;

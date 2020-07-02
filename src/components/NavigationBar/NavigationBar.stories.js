@@ -51,7 +51,7 @@ export const Normal = () => {
           </List>
         }
         iconMenu={<CustomIcon size={'large'} />}
-        sticky={isSticky}
+        sticked={isSticky}
         rightContent={rightContent}
       >
         <a className={'active'} href={'#'}>
@@ -75,6 +75,6 @@ export const WithoutMenu = () => <NavigationBar header={HeaderLogo}></Navigation
 
 export const Sticky = () => (
   <div style={{ height: '5000px' }}>
-    <NavigationBar sticky header={HeaderLogo}></NavigationBar>
+    <NavigationBar sticked header={HeaderLogo}></NavigationBar>
   </div>
 );
