@@ -5,7 +5,7 @@ import ListItem from '../List/ListItem';
 import { IconSettings, IconUpdate, IconUser } from '../../icons';
 import TextLink from '../TextLink';
 import { Dropdown } from '../../index';
-import { select } from '@storybook/addon-knobs';
+import { select, boolean } from '@storybook/addon-knobs';
 import * as Icons from '../../icons';
 
 export default {
@@ -38,32 +38,36 @@ export const Normal = () => {
   );
 
   const CustomIcon = Icons[select('Icon Menu', Object.keys(Icons), 'IconMove')];
+  const isSticky = boolean('Sticky', false);
 
   return (
-    <NavigationBar
-      header={HeaderLogo}
-      dropdownMenu={
-        <List>
-          <ListItem leftContent={<IconUser />}>Text</ListItem>
-          <ListItem leftContent={<IconUpdate />}>Text</ListItem>
-        </List>
-      }
-      iconMenu={<CustomIcon size={'large'} />}
-      rightContent={rightContent}
-    >
-      <a className={'active'} href={'#'}>
-        Normal Link
-      </a>
-      <a href={'#'}>Active Link</a>
-      <TextLink href={'#'} size={'large'} variant={'primary'}>
-        Product 1
-      </TextLink>
-      <TextLink href={'#'} size={'large'} variant={'secondary'}>
-        Product 2
-      </TextLink>
+    <div style={{ height: isSticky ? '5000px' : 'auto' }}>
+      <NavigationBar
+        header={HeaderLogo}
+        dropdownMenu={
+          <List>
+            <ListItem leftContent={<IconUser />}>Text</ListItem>
+            <ListItem leftContent={<IconUpdate />}>Text</ListItem>
+          </List>
+        }
+        iconMenu={<CustomIcon size={'large'} />}
+        sticky={isSticky}
+        rightContent={rightContent}
+      >
+        <a className={'active'} href={'#'}>
+          Normal Link
+        </a>
+        <a href={'#'}>Active Link</a>
+        <TextLink href={'#'} size={'large'} variant={'primary'}>
+          Product 1
+        </TextLink>
+        <TextLink href={'#'} size={'large'} variant={'secondary'}>
+          Product 2
+        </TextLink>
 
-      <IconSettings color={'secondary'} />
-    </NavigationBar>
+        <IconSettings color={'secondary'} />
+      </NavigationBar>
+    </div>
   );
 };
 

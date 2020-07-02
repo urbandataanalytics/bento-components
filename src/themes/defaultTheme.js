@@ -255,8 +255,9 @@ const components = {
   avatarFontSizeLarge: '24px',
 
   /* Navigation Theme Props */
+  navigationBackgroundColor: 'white',
   navigationBorder: `1px solid ${color.charcoal300}`,
-  navigationMenuPadding: `20px ${spacings.small3}`,
+
   navigationMenuBackgroundColor: color.charcoal300,
   navigationMenuOpenBackgroundColor: color.primary100,
   navigationMenuHoverBackgroundColor: color.charcoal400,
