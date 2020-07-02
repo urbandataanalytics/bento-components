@@ -15,7 +15,7 @@ const StyledNavigation = styled.nav`
   ${({ dropdownMenu, header, theme }) =>
     !dropdownMenu || !header ? `height: ${theme.components.navigationMaxHeight}` : ''}
   transition: ${props => props.theme.global.transitionM};
-  ${({ sticked }) => sticked && `position: sticky; top: 0; z-index: 1;`};
+  ${({ sticked }) => sticked && `position: sticky; top: 0; z-index: 2;`};
   height: ${({ theme, sticked }) =>
     `${sticked ? theme.components.navigationMinHeight : theme.components.navigationMaxHeight}`};
 `;
