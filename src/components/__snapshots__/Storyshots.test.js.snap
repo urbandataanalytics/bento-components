@@ -14902,7 +14902,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   background: #FFFFFF;
   padding: 8px;
   left: 8px;
-  z-index: 1;
+  z-index: 3;
 }
 
 <div
@@ -15701,7 +15701,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   background: #FFFFFF;
   padding: 8px;
   left: 8px;
-  z-index: 1;
+  z-index: 3;
 }
 
 <div
@@ -46097,6 +46097,169 @@ exports[`Storyshots List With Childrens 1`] = `
 </div>
 `;
 
+exports[`Storyshots NavigationBar Loading 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid #EFF2F7;
+}
+
+.c0 em {
+  width: 24px;
+  height: 24px;
+  background-color: #DCDFE6;
+  -webkit-animation: kvsyCu 1s infinite ease-in-out;
+  animation: kvsyCu 1s infinite ease-in-out;
+  border-radius: 50%;
+  display: block;
+}
+
+.c0 span {
+  width: 62px;
+  height: 8px;
+  background-color: #DCDFE6;
+  -webkit-animation: kvsyCu 1s infinite ease-in-out;
+  animation: kvsyCu 1s infinite ease-in-out;
+  border-radius: 2px;
+  display: block;
+  margin-right: 24px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 > div:first-child {
+  height: 71px;
+  width: 64px;
+  background-color: #DCDFE6;
+  -webkit-animation: kvsyCu 1s infinite ease-in-out;
+  animation: kvsyCu 1s infinite ease-in-out;
+}
+
+.c1 > div:last-child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 14px;
+}
+
+.c1 > div:last-child > em {
+  margin-right: 8px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 > div:first-child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 14px;
+}
+
+.c2 > i {
+  color: #DCDFE6;
+  margin-right: 24px;
+}
+
+.c2 > em {
+  margin-right: 36px;
+}
+
+.c2 > div:last-child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 > div:last-child > em {
+  width: 36px;
+  height: 36px;
+  margin-right: 12px;
+}
+
+.c2 > div:last-child > span {
+  width: 109px;
+  margin-right: 64px;
+}
+
+<div
+  style={
+    Object {
+      "height": "5000px",
+    }
+  }
+>
+  <header
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div />
+      <div>
+        <em />
+        <span />
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div>
+        <span />
+        <span />
+        <span />
+      </div>
+      <i>
+        |
+      </i>
+      <em />
+      <div>
+        <em />
+        <span />
+      </div>
+    </div>
+  </header>
+</div>
+`;
+
 exports[`Storyshots NavigationBar Normal 1`] = `
 .c20 {
   -webkit-flex-shrink: 0;
@@ -46430,7 +46593,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   background: #FFFFFF;
   padding: 8px;
   left: 8px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .c27 > .c9 {
