@@ -9981,7 +9981,7 @@ Array [
   display: block;
   position: fixed;
   box-sizing: border-box;
-  z-index: 16;
+  z-index: 2;
   top: 0;
   right: 0;
   bottom: 0;
