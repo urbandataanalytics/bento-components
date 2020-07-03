@@ -73,23 +73,57 @@ const global = {
 
 const animations = {
   rotate: keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   `,
   loading: keyframes`
-  0% {
-    background-color: rgba(220,223,230,1);
-  }
-  50% {
-    background-color: rgba(220,223,230,.5);
-  }
-  100% {
-    background-color: rgba(220,223,230,1);
-  }
+    0% {
+      background-color: rgba(220,223,230,1);
+    }
+    50% {
+      background-color: rgba(220,223,230,.5);
+    }
+    100% {
+      background-color: rgba(220,223,230,1);
+    }
+  `,
+  loader: keyframes`
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(180deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  `,
+  loaderInner: keyframes`
+    0% {
+      height: 0%;
+    }
+    25% {
+      height: 0%;
+    }
+    50% {
+      height: 100%;
+    }
+    75% {
+      height: 100%;
+    }
+    100% {
+      height: 0%;
+    }
   `
 };
 
@@ -253,6 +287,11 @@ const components = {
   avatarFontSizeSmall: '12px',
   avatarFontSizeMedium: '14px',
   avatarFontSizeLarge: '24px',
+
+  /* Loader Theme Props */
+  loaderSizeSmall: spacings.medium1,
+  loaderSizeMedium: spacings.medium3,
+  loaderSizeLarge: spacings.medium5,
 
   /* Navigation Theme Props */
   navigationBackgroundColor: 'white',
