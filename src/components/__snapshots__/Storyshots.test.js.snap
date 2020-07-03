@@ -48671,9 +48671,7 @@ exports[`Storyshots Loader Normal 1`] = `
   display: inline-block;
   width: 48px;
   height: 48px;
-  position: relative;
   border: 6px solid #1778FB;
-  top: 50%;
   -webkit-animation: ivfYaJ 2s infinite ease;
   animation: ivfYaJ 2s infinite ease;
 }
