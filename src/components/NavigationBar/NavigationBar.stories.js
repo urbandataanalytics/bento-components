@@ -80,3 +80,9 @@ export const Sticky = () => (
     <NavigationBar sticked header={HeaderLogo}></NavigationBar>
   </div>
 );
+
+export const Loading = () => (
+  <div style={{ height: '5000px' }}>
+    <NavigationBar loading />
+  </div>
+);
