@@ -30,7 +30,7 @@ const StyledDrawerSide = styled.aside`
   display: block;
   position: fixed;
   box-sizing: border-box;
-  z-index: 2;
+  z-index: 4;
   top: 0;
   ${({ position }) => position === 'right' && 'right: 0'};
   ${({ position }) => position === 'left' && 'left: 0'};

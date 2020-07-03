@@ -9981,7 +9981,7 @@ Array [
   display: block;
   position: fixed;
   box-sizing: border-box;
-  z-index: 2;
+  z-index: 4;
   top: 0;
   right: 0;
   bottom: 0;
@@ -15723,7 +15723,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   background: #FFFFFF;
   padding: 8px;
   left: 8px;
-  z-index: 3;
+  z-index: 10;
 }
 
 <div
@@ -16545,7 +16545,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   background: #FFFFFF;
   padding: 8px;
   left: 8px;
-  z-index: 3;
+  z-index: 10;
 }
 
 <div
@@ -49204,7 +49204,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   background: #FFFFFF;
   padding: 8px;
   left: 8px;
-  z-index: 3;
+  z-index: 10;
 }
 
 .c27 > .c9 {
