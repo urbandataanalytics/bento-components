@@ -5,6 +5,7 @@ import defaultTheme from '../../themes/defaultTheme';
 import { IconArrowClose } from '../../icons';
 import { useCallback } from 'react';
 import { useState } from 'react';
+import useBoundingRect from '../../hooks/useBoundingRect';
 
 const StyledAccordionLabel = styled.div`
   width: 100%;
@@ -16,12 +17,6 @@ const StyledAccordionLabel = styled.div`
   display: flex;
   align-items: center;
   align-content: center;
-
-  //:last-child,
-  //:only-child {
-  //  border: 0;
-  //  margin: 0;
-  //}
 `;
 
 StyledAccordionLabel.defaultProps = {
@@ -29,14 +24,21 @@ StyledAccordionLabel.defaultProps = {
 };
 
 const StyledAccordionContent = styled.div`
-  transition: all 0.3s ease-out;
+  transition: max-height 0.3s ease-out;
   overflow: hidden;
-  max-height: ${props => (props.expanded ? '100%' : '0')};
-  opacity: ${props => (props.expanded ? '1' : '0')};
-  padding: ${props => (props.expanded ? '0 25px 25px' : '0')};
+  max-height: ${({ expanded, maxHeight }) => (expanded ? `${maxHeight}px` : '0')};
+  visibility: ${({ expanded }) => (expanded ? 'visible' : 'hidden')};
 `;
 
 StyledAccordionContent.defaultProps = {
+  theme: defaultTheme
+};
+
+const StyledAccordionChildren = styled.div`
+  padding: 0 25px 25px;
+`;
+
+StyledAccordionChildren.defaultProps = {
   theme: defaultTheme
 };
 
@@ -117,6 +119,7 @@ const Accordion = props => {
     ...other
   } = props;
   const [expandedState, setExpandedState] = useState(expanded);
+  const [{ height }, childNode] = useBoundingRect({ height: expanded ? null : 0 });
 
   const handleClick = useCallback(
     event => {
@@ -142,7 +145,9 @@ const Accordion = props => {
         </StyledRightContent>
       </StyledAccordionLabel>
 
-      <StyledAccordionContent expanded={expandedState}>{children}</StyledAccordionContent>
+      <StyledAccordionContent maxHeight={height} expanded={expandedState}>
+        <StyledAccordionChildren ref={childNode}>{children}</StyledAccordionChildren>
+      </StyledAccordionContent>
     </>
   );
 };
