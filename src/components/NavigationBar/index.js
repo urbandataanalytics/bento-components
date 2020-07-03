@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import defaultTheme from '../../themes/defaultTheme';
 import IconMove from '../../icons/Move';
 import Dropdown from '../Dropdown';
+import NavigationBarSkeleton from './NavigationBarSkeleton';
 import { Children } from 'react';
 
 const StyledNavigation = styled.nav`
@@ -136,6 +137,7 @@ const NavigationBar = props => {
     dropdownMenu,
     rightContent,
     iconMenu,
+    loading,
     sticked,
     linkList,
     ...other
@@ -152,7 +154,9 @@ const NavigationBar = props => {
     </StyledMenu>
   );
 
-  return (
+  return loading ? (
+    <NavigationBarSkeleton />
+  ) : (
     <StyledNavigation sticked={sticked} header={header} dropdownMenu={dropdownMenu} {...other}>
       <NavigationLeft>
         {dropdownMenu && (
