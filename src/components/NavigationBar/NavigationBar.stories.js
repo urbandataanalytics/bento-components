@@ -39,6 +39,7 @@ export const Normal = () => {
 
   const CustomIcon = Icons[select('Icon Menu', Object.keys(Icons), 'IconMove')];
   const isSticky = boolean('Sticky', false);
+  const isLoading = boolean('Loading', false);
 
   return (
     <div style={{ height: isSticky ? '5000px' : 'auto' }}>
@@ -52,6 +53,7 @@ export const Normal = () => {
         }
         iconMenu={<CustomIcon size={'large'} />}
         sticked={isSticky}
+        loading={isLoading}
         rightContent={rightContent}
       >
         <a className={'active'} href={'#'}>
