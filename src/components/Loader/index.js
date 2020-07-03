@@ -22,10 +22,8 @@ const componentSizes = theme => ({
 const StyledLoader = styled.span`
   display: inline-block;
   ${({ theme, size }) => componentSizes(theme)[size]};
-  position: relative;
   border: 6px solid
     ${({ theme, color }) => (color === 'primary' ? theme.color.primary500 : theme.color.primary300)};
-  top: 50%;
   animation: ${({ theme }) => theme.animations.loader} 2s infinite ease;
 `;
 
