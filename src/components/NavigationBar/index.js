@@ -1,19 +1,24 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import defaultTheme from '../../themes/defaultTheme';
 import IconMove from '../../icons/Move';
 import Dropdown from '../Dropdown';
+import NavigationBarSkeleton from './NavigationBarSkeleton';
 import { Children } from 'react';
-import { useState } from 'react';
 
 const StyledNavigation = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: ${({ theme }) => theme.components.navigationBackgroundColor};
   border-bottom: ${({ theme }) => theme.components.navigationBorder};
   ${({ dropdownMenu, header, theme }) =>
-    !dropdownMenu || !header ? `min-height: ${theme.components.navigationMinHeight}` : ''}
+    !dropdownMenu || !header ? `height: ${theme.components.navigationMaxHeight}` : ''}
+  transition: ${props => props.theme.global.transitionM};
+  ${({ sticked }) => sticked && `position: sticky; top: 0; z-index: 2;`};
+  height: ${({ theme, sticked }) =>
+    `${sticked ? theme.components.navigationMinHeight : theme.components.navigationMaxHeight}`};
 `;
 
 StyledNavigation.defaultProps = {
@@ -24,6 +29,7 @@ const NavigationLeft = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 `;
 
 NavigationLeft.defaultProps = {
@@ -42,6 +48,7 @@ NavigationRight.defaultProps = {
 
 const NavigationLeftHeader = styled.div`
   padding: ${({ theme }) => theme.components.navigationHeaderPadding};
+  line-height: 50%;
 `;
 
 NavigationLeftHeader.defaultProps = {
@@ -49,11 +56,15 @@ NavigationLeftHeader.defaultProps = {
 };
 
 const StyledMenu = styled.div`
-  padding: ${({ theme }) => theme.components.navigationMenuPadding};
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: ${({ theme }) => theme.components.navigationMenuBackgroundColor};
-  transition: background-color 0.5s linear;
+  transition: ${props => props.theme.global.transitionM};
   ${({ theme, isOpenDropdown }) =>
     isOpenDropdown && `background-color: ${theme.components.navigationMenuOpenBackgroundColor};`}
+  width: ${({ theme }) => theme.spacings.medium5};
+  height: 100%;
 
   &:hover {
     background-color: ${({ theme, isOpenDropdown }) =>
@@ -120,28 +131,46 @@ NavigationRightContent.defaultProps = {
 };
 
 const NavigationBar = props => {
-  const { children, header, dropdownMenu, rightContent, iconMenu, linkList, ...other } = props;
+  const {
+    children,
+    header,
+    dropdownMenu,
+    rightContent,
+    iconMenu,
+    loading,
+    sticked,
+    linkList,
+    ...other
+  } = props;
   const [isOpenDropdown, setOpenDropdown] = useState(false);
 
   const handleDropdown = isOpen => {
     setOpenDropdown(isOpen);
   };
 
-  const Menu = () => (
-    <StyledMenu isOpenDropdown={isOpenDropdown}>
+  const Menu = ({ sticked }) => (
+    <StyledMenu sticked={sticked} isOpenDropdown={isOpenDropdown}>
       {iconMenu ? iconMenu : <IconMove size="large" />}
     </StyledMenu>
   );
 
-  return (
-    <StyledNavigation header={header} dropdownMenu={dropdownMenu} {...other}>
+  return loading ? (
+    <NavigationBarSkeleton />
+  ) : (
+    <StyledNavigation sticked={sticked} header={header} dropdownMenu={dropdownMenu} {...other}>
       <NavigationLeft>
         {dropdownMenu && (
           <Dropdown onChange={handleDropdown} label={<Menu />}>
             {dropdownMenu}
           </Dropdown>
         )}
-        {header && <NavigationLeftHeader>{header}</NavigationLeftHeader>}
+        {header && (
+          <NavigationLeftHeader>
+            {React.cloneElement(header, {
+              sticked
+            })}
+          </NavigationLeftHeader>
+        )}
       </NavigationLeft>
 
       <NavigationRight>
@@ -149,12 +178,18 @@ const NavigationBar = props => {
           <NavigationContent>
             <NavigationLink>
               {Children.map(children, child => (
-                <NavigationLinkItem>{React.cloneElement(child)}</NavigationLinkItem>
+                <NavigationLinkItem>{React.cloneElement(child, { sticked })}</NavigationLinkItem>
               ))}
             </NavigationLink>
           </NavigationContent>
         )}
-        {rightContent && <NavigationRightContent>{rightContent}</NavigationRightContent>}
+        {rightContent && (
+          <NavigationRightContent>
+            {React.cloneElement(rightContent, {
+              sticked
+            })}
+          </NavigationRightContent>
+        )}
       </NavigationRight>
     </StyledNavigation>
   );

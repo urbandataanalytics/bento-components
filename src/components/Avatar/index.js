@@ -37,6 +37,7 @@ const StyledAvatar = styled.div`
   align-items: center;
   justify-content: center;
   text-indent: 2px;
+  transition: ${props => props.theme.global.transitionM};
 `;
 
 StyledAvatar.defaultProps = {

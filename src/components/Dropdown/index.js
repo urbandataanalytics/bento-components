@@ -6,6 +6,7 @@ import defaultTheme from '../../themes/defaultTheme';
 const StyledDropdown = styled.div`
   position: relative;
   display: inline-block;
+  height: 100%;
 `;
 
 StyledDropdown.defaultProps = {
