@@ -30,7 +30,7 @@ const ChildrenContainer = styled.div`
   background: ${props => props.theme.components.dropdownBackground};
   padding: ${props => props.theme.components.dropdownPadding};
   ${props => `${props.position}: 8px`};
-  z-index: 3;
+  z-index: 10;
 `;
 
 ChildrenContainer.defaultProps = {
