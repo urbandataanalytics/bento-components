@@ -363,6 +363,7 @@ Array [
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -747,6 +748,7 @@ Array [
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -1262,6 +1264,7 @@ Array [
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -1659,6 +1662,7 @@ Array [
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -2215,6 +2219,7 @@ Array [
                     ],
                     "global": Object {
                       "bgColor": "white",
+                      "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
@@ -2601,6 +2606,7 @@ Array [
                     ],
                     "global": Object {
                       "bgColor": "white",
+                      "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
@@ -2985,6 +2991,7 @@ Array [
                     ],
                     "global": Object {
                       "bgColor": "white",
+                      "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
@@ -3361,6 +3368,7 @@ Array [
                     ],
                     "global": Object {
                       "bgColor": "white",
+                      "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
@@ -3822,6 +3830,7 @@ Array [
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -4206,6 +4215,7 @@ Array [
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -4679,6 +4689,7 @@ Array [
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -5306,6 +5317,7 @@ exports[`Storyshots Button Block 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -5833,6 +5845,7 @@ exports[`Storyshots Button Loading 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -6360,6 +6373,7 @@ exports[`Storyshots Button Normal 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -6906,6 +6920,7 @@ exports[`Storyshots Button With Icon 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -7288,6 +7303,7 @@ exports[`Storyshots Button With Icon 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -7803,6 +7819,7 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -8561,6 +8578,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -9088,6 +9106,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -9605,6 +9624,7 @@ Array [
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -10342,6 +10362,7 @@ Array [
               ],
               "global": Object {
                 "bgColor": "white",
+                "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                 "fontColor": "#333",
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "14px",
@@ -10724,6 +10745,7 @@ Array [
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -11107,6 +11129,7 @@ Array [
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -11500,6 +11523,7 @@ Array [
                         ],
                         "global": Object {
                           "bgColor": "white",
+                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                           "fontColor": "#333",
                           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                           "fontSize": "14px",
@@ -11885,6 +11909,7 @@ Array [
                         ],
                         "global": Object {
                           "bgColor": "white",
+                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                           "fontColor": "#333",
                           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                           "fontSize": "14px",
@@ -12270,6 +12295,7 @@ Array [
                         ],
                         "global": Object {
                           "bgColor": "white",
+                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                           "fontColor": "#333",
                           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                           "fontSize": "14px",
@@ -12655,6 +12681,7 @@ Array [
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -13039,6 +13066,7 @@ Array [
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -13436,6 +13464,7 @@ Array [
                           ],
                           "global": Object {
                             "bgColor": "white",
+                            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                             "fontColor": "#333",
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontSize": "14px",
@@ -13821,6 +13850,7 @@ Array [
                           ],
                           "global": Object {
                             "bgColor": "white",
+                            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                             "fontColor": "#333",
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontSize": "14px",
@@ -14206,6 +14236,7 @@ Array [
                           ],
                           "global": Object {
                             "bgColor": "white",
+                            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                             "fontColor": "#333",
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontSize": "14px",
@@ -14603,6 +14634,7 @@ Array [
                         ],
                         "global": Object {
                           "bgColor": "white",
+                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                           "fontColor": "#333",
                           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                           "fontSize": "14px",
@@ -14997,6 +15029,7 @@ Array [
                         ],
                         "global": Object {
                           "bgColor": "white",
+                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                           "fontColor": "#333",
                           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                           "fontSize": "14px",
@@ -15391,6 +15424,7 @@ Array [
                         ],
                         "global": Object {
                           "bgColor": "white",
+                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                           "fontColor": "#333",
                           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                           "fontSize": "14px",
@@ -16026,6 +16060,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -16848,6 +16883,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -17248,6 +17284,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     ],
                     "global": Object {
                       "bgColor": "white",
+                      "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
@@ -17636,6 +17673,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     ],
                     "global": Object {
                       "bgColor": "white",
+                      "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
@@ -18020,6 +18058,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     ],
                     "global": Object {
                       "bgColor": "white",
+                      "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
@@ -18396,6 +18435,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                     ],
                     "global": Object {
                       "bgColor": "white",
+                      "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                       "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontSize": "14px",
@@ -19103,6 +19143,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
               ],
               "global": Object {
                 "bgColor": "white",
+                "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                 "fontColor": "#333",
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontSize": "14px",
@@ -19610,6 +19651,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -20009,6 +20051,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -20408,6 +20451,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -20807,6 +20851,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -21205,6 +21250,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -21604,6 +21650,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -22003,6 +22050,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -22403,6 +22451,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -22802,6 +22851,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -23201,6 +23251,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -23599,6 +23650,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -23998,6 +24050,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -24397,6 +24450,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -24795,6 +24849,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -25193,6 +25248,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -25591,6 +25647,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -25990,6 +26047,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -26390,6 +26448,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -26797,6 +26856,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -27206,6 +27266,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -27612,6 +27673,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -28015,6 +28077,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -28415,6 +28478,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -28813,6 +28877,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -29213,6 +29278,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -29612,6 +29678,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -30018,6 +30085,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -30417,6 +30485,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -30816,6 +30885,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -31216,6 +31286,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -31615,6 +31686,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -32014,6 +32086,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -32413,6 +32486,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -32813,6 +32887,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -33211,6 +33286,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -33614,6 +33690,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -34013,6 +34090,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -34413,6 +34491,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -34811,6 +34890,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -35210,6 +35290,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -35609,6 +35690,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -36008,6 +36090,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -36407,6 +36490,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -36805,6 +36889,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -37208,6 +37293,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -37611,6 +37697,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -38014,6 +38101,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -38413,6 +38501,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -38813,6 +38902,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -39212,6 +39302,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -39612,6 +39703,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -40014,6 +40106,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -40416,6 +40509,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -40815,6 +40909,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -41214,6 +41309,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -41622,6 +41718,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -42021,6 +42118,7 @@ exports[`Storyshots Icon All Icons 1`] = `
           ],
           "global": Object {
             "bgColor": "white",
+            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
             "fontColor": "#333",
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontSize": "14px",
@@ -42430,6 +42528,7 @@ exports[`Storyshots Icon Normal 1`] = `
         ],
         "global": Object {
           "bgColor": "white",
+          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
           "fontColor": "#333",
           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
           "fontSize": "14px",
@@ -44212,6 +44311,7 @@ exports[`Storyshots List Navbar List 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -44597,6 +44697,7 @@ exports[`Storyshots List Navbar List 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -44984,6 +45085,7 @@ exports[`Storyshots List Navbar List 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -45372,6 +45474,7 @@ exports[`Storyshots List Navbar List 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -46241,6 +46344,7 @@ exports[`Storyshots List With Childrens 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -46627,6 +46731,7 @@ exports[`Storyshots List With Childrens 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -47028,6 +47133,7 @@ exports[`Storyshots List With Childrens 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -47426,6 +47532,7 @@ exports[`Storyshots List With Childrens 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -47802,6 +47909,7 @@ exports[`Storyshots List With Childrens 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -48188,6 +48296,7 @@ exports[`Storyshots List With Childrens 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -48565,6 +48674,7 @@ exports[`Storyshots List With Childrens 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -49689,6 +49799,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   ],
                   "global": Object {
                     "bgColor": "white",
+                    "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                     "fontColor": "#333",
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontSize": "14px",
@@ -50079,6 +50190,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         ],
                         "global": Object {
                           "bgColor": "white",
+                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                           "fontColor": "#333",
                           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                           "fontSize": "14px",
@@ -50464,6 +50576,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         ],
                         "global": Object {
                           "bgColor": "white",
+                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                           "fontColor": "#333",
                           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                           "fontSize": "14px",
@@ -50929,6 +51042,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   ],
                   "global": Object {
                     "bgColor": "white",
+                    "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                     "fontColor": "#333",
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontSize": "14px",
@@ -51318,6 +51432,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                   ],
                   "global": Object {
                     "bgColor": "white",
+                    "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                     "fontColor": "#333",
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontSize": "14px",
@@ -51702,6 +51817,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         ],
                         "global": Object {
                           "bgColor": "white",
+                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                           "fontColor": "#333",
                           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                           "fontSize": "14px",
@@ -52086,6 +52202,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                         ],
                         "global": Object {
                           "bgColor": "white",
+                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                           "fontColor": "#333",
                           "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                           "fontSize": "14px",
@@ -52728,6 +52845,7 @@ exports[`Storyshots Notification Error 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -53163,6 +53281,7 @@ exports[`Storyshots Notification Normal 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -53598,6 +53717,7 @@ exports[`Storyshots Notification Success 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -54036,6 +54156,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
             ],
             "global": Object {
               "bgColor": "white",
+              "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
               "fontColor": "#333",
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontSize": "14px",
@@ -55192,6 +55313,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
@@ -55636,6 +55758,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                 ],
                 "global": Object {
                   "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
                   "fontColor": "#333",
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontSize": "14px",
