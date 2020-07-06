@@ -13,8 +13,9 @@ StyledDropdown.defaultProps = {
   theme: defaultTheme
 };
 
-const StyledLabel = styled.label`
+const StyledLabel = styled.div`
   cursor: pointer;
+  height: 100%;
 `;
 
 const ChildrenContainer = styled.div`
