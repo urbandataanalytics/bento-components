@@ -66,6 +66,7 @@ const global = {
   fontSize: '14px',
   transitionM: 'all 250ms ease-in-out',
   transitionS: 'all 120ms ease-in-out',
+  boxShadowM: 'box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)',
   fontWeightRegular: 400,
   fontWeightMedium: 500,
   fontWeightBold: 700
