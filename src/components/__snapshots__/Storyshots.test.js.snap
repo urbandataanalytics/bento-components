@@ -15739,6 +15739,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
 
 .c1 {
   cursor: pointer;
+  height: 100%;
 }
 
 .c6 {
@@ -15770,7 +15771,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   <div
     className="c0"
   >
-    <label
+    <div
       className="c1"
       onClick={[Function]}
     >
@@ -16166,7 +16167,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
           Label example
         </span>
       </button>
-    </label>
+    </div>
     <div
       className="c6"
     >
@@ -16562,6 +16563,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
 
 .c1 {
   cursor: pointer;
+  height: 100%;
 }
 
 .c6 {
@@ -16593,7 +16595,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   <div
     className="c0"
   >
-    <label
+    <div
       className="c1"
       onClick={[Function]}
     >
@@ -16989,7 +16991,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           Label example
         </span>
       </button>
-    </label>
+    </div>
     <div
       className="c6"
     >
@@ -49296,6 +49298,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
 
 .c3 {
   cursor: pointer;
+  height: 100%;
 }
 
 .c6 {
@@ -49515,7 +49518,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
       <div
         className="c2"
       >
-        <label
+        <div
           className="c3"
           onClick={[Function]}
         >
@@ -49895,7 +49898,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
               />
             </svg>
           </div>
-        </label>
+        </div>
         <div
           className="c6"
         >
@@ -51146,7 +51149,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
         <div
           className="c2"
         >
-          <label
+          <div
             className="c3"
             onClick={[Function]}
           >
@@ -51527,7 +51530,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                 d="M12.2 10a3.6 3.6 0 117.2 0 3.6 3.6 0 01-7.2 0zm3.6-6a6 6 0 100 12 6 6 0 000-12zM11 18.4a6 6 0 00-6 6v2.4a1.2 1.2 0 002.4 0v-2.4a3.6 3.6 0 013.6-3.6h9.6a3.6 3.6 0 013.6 3.6v2.4a1.2 1.2 0 002.4 0v-2.4a6 6 0 00-6-6H11z"
               />
             </svg>
-          </label>
+          </div>
           <div
             className="c6"
           >

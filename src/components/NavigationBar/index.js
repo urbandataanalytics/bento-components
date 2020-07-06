@@ -62,7 +62,7 @@ const StyledMenu = styled.div`
   background-color: ${({ theme }) => theme.components.navigationMenuBackgroundColor};
   transition: ${props => props.theme.global.transitionM};
   ${({ theme, isOpenDropdown }) =>
-    isOpenDropdown && `background-color: ${theme.components.navigationMenuOpenBackgroundColor};`}
+    isOpenDropdown && `background-color: ${theme.components.navigationMenuOpenBackgroundColor}`};
   width: ${({ theme }) => theme.spacings.medium5};
   height: 100%;
 
