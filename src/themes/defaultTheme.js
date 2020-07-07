@@ -408,7 +408,14 @@ const components = {
   tabBadgeColorActive: color.white,
   tabBadgeBackground: color.charcoal300,
   tabBadgeBackgroundHover: color.primary300,
-  tabBadgeBackgroundActive: color.primary500
+  tabBadgeBackgroundActive: color.primary500,
+
+  /* Pagination Theme props */
+  paginationLabelColor: color.charcoal800,
+  paginationLabelMarginBottom: spacings.small3,
+  paginationProgressBackgroundColor: color.charcoal400,
+  paginationProgressMarginBottom: spacings.small3,
+  paginationProgressActiveBackgroundColor: color.charcoal800
 };
 
 export default {
