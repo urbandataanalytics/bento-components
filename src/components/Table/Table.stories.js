@@ -38,7 +38,6 @@ const columnDefs = [
     variant: 'secondary'
   }
 ];
-
 const rowData = [
   { make: 'Toyota', model: 'Celica', price: 35000 },
   { make: 'Ford', model: 'Fiesta', price: 32000 },

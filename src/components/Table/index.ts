@@ -4,7 +4,7 @@ export interface ColumnProps {
   highlight?: boolean;
   variant?: string;
   cellRenderer?: string;
-};
+}
 
 export interface TableProps {
   height?: string | number;
