@@ -408,7 +408,11 @@ const components = {
   tabBadgeColorActive: color.white,
   tabBadgeBackground: color.charcoal300,
   tabBadgeBackgroundHover: color.primary300,
-  tabBadgeBackgroundActive: color.primary500
+  tabBadgeBackgroundActive: color.primary500,
+
+  /* Table Theme props */
+  tableHighlightedHeaderBackgroundColor: '#E5E8EE',
+  tableHighlightedCellBackgroundColor: '#F8F9FA'
 };
 
 export default {

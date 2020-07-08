@@ -11,7 +11,8 @@ const StyledHeader = styled.div`
   align-items: center;
   padding: 0 ${({ theme }) => theme.spacings.small3};
 
-  ${({ isHighlighted, theme }) => isHighlighted && `background-color:#E6E9EF`};
+  ${({ highlight, theme }) =>
+    highlight && `background-color:${theme.components.tableHighlightedHeaderBackgroundColor};`};
 
   ${({ align }) =>
     align === 'right' && 'justify-content: flex-start; flex-direction: row-reverse;'};
@@ -36,8 +37,7 @@ const StyledIcon = styled.div`
 
 const TableHeader = ({ column, enableSorting, displayName, setSort }) => {
   const [sortDirection, setSortDirection] = useState();
-  const align = column.colDef.aligned;
-  const isHighlighted = column.colDef.highlight;
+  const { align, highlight } = column.colDef;
 
   const theme = useTheme();
 
@@ -75,7 +75,7 @@ const TableHeader = ({ column, enableSorting, displayName, setSort }) => {
       onClick={event => enableSorting && toggleSort(event)}
       onTouchEnd={event => enableSorting && toggleSort(event)}
       align={align}
-      isHighlighted={isHighlighted}
+      highlight={highlight}
     >
       <StyledLabel className={sortDirection ? 'active' : null}>{displayName}</StyledLabel>
 
