@@ -11,7 +11,10 @@ const StyledHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: ${({ align }) =>
-    align === 'right' ? 'flex-end' : align === 'center' ? 'center' : 'flex-start'};
+    align === 'right' ? 'flex-start' : align === 'center' ? 'center' : 'flex-start'};
+
+  ${({ align }) => align === 'right' && 'flex-direction:row-reverse;'};
+
   ${({ highlight, theme }) =>
     highlight && `background-color:${theme.components.tableHighlightedHeaderBackgroundColor};`};
 `;
@@ -77,14 +80,13 @@ const TableHeader = ({ column, enableSorting, displayName, setSort }) => {
     >
       <StyledLabel className={sortDirection ? 'active' : null}>{displayName}</StyledLabel>
 
-      {sortDirection === 'asc' && (
+      {sortDirection && (
         <StyledIcon>
-          <IconOrderAsc size="small" customColor={theme.color.primary500} />
-        </StyledIcon>
-      )}
-      {sortDirection === 'desc' && (
-        <StyledIcon>
-          <IconOrderDesc size="small" customColor={theme.color.primary500} />
+          {sortDirection === 'asc' ? (
+            <IconOrderAsc size="small" customColor={theme.color.primary500} />
+          ) : (
+            <IconOrderDesc size="small" customColor={theme.color.primary500} />
+          )}
         </StyledIcon>
       )}
     </StyledHeader>
