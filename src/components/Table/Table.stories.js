@@ -25,6 +25,7 @@ const columnDefs = [
   },
   {
     headerName: 'Model',
+    align: 'center',
     field: 'model',
     sortable: true,
     highlight: true,

@@ -1,8 +1,9 @@
 export interface ColumnProps {
   headerName: string;
   field: string;
+  align: 'left' | 'center' | 'right';
   highlight?: boolean;
-  variant?: string;
+  variant?: 'primary' | 'secondary';
   cellRenderer?: string;
 }
 

@@ -7,15 +7,13 @@ import useTheme from '../../hooks/useTheme/index';
 const StyledHeader = styled.div`
   width: 100%;
   height: 100%;
+  padding: 0 ${({ theme }) => theme.spacings.small3};
   display: flex;
   align-items: center;
-  padding: 0 ${({ theme }) => theme.spacings.small3};
-
+  justify-content: ${({ align }) =>
+    align === 'right' ? 'flex-end' : align === 'center' ? 'center' : 'flex-start'};
   ${({ highlight, theme }) =>
     highlight && `background-color:${theme.components.tableHighlightedHeaderBackgroundColor};`};
-
-  ${({ align }) =>
-    align === 'right' && 'justify-content: flex-start; flex-direction: row-reverse;'};
 `;
 
 const StyledLabel = styled.h5`

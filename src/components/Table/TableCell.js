@@ -11,7 +11,8 @@ const StyledContent = styled.div`
     variant === 'secondary' ? theme.color.charcoal600 : theme.color.charcoal800};
   background-color: ${({ highlight, theme }) =>
     highlight ? theme.components.tableHighlightedCellBackgroundColor : 'white'};
-  ${({ align }) => align === 'right' && 'justify-content: flex-end;'};
+  justify-content: ${({ align }) =>
+    align === 'right' ? 'flex-end' : align === 'center' ? 'center' : 'flex-start'};
 `;
 
 const TableCell = ({ value, colDef }) => {
