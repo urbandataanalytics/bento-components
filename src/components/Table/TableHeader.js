@@ -20,12 +20,12 @@ const StyledHeader = styled.div`
 `;
 
 const StyledLabel = styled.h5`
+  display: flex;
+  align-items: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.charcoal600};
   transition: ${({ theme }) => theme.global.transitionM};
-  display: flex;
-  align-items: center;
 
   &.active {
     color: ${({ theme }) => theme.color.primary500};
