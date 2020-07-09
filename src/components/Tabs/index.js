@@ -20,13 +20,13 @@ StyledTabsContainer.defaultProps = {
 const StyledLeftContent = styled.div`
   position: absolute;
   left: 0;
-  top: -10px;
+  top: 0;
 `;
 
 const StyledRightContent = styled.div`
   position: absolute;
   right: 0;
-  top: -10px;
+  top: 0;
 `;
 
 const StyledTabsContent = styled.div`
