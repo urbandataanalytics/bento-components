@@ -412,7 +412,14 @@ const components = {
 
   /* Table Theme props */
   tableHighlightedHeaderBackgroundColor: '#E5E8EE',
-  tableHighlightedCellBackgroundColor: '#F8F9FA'
+  tableHighlightedCellBackgroundColor: '#F8F9FA',
+
+  /* Pagination Theme props */
+  paginationLabelColor: color.charcoal800,
+  paginationLabelMarginBottom: spacings.small3,
+  paginationProgressBackgroundColor: color.charcoal400,
+  paginationProgressMarginBottom: spacings.small3,
+  paginationProgressActiveBackgroundColor: color.charcoal800
 };
 
 export default {
