@@ -71,3 +71,6 @@ export * from './components/Card/CardHeader';
 
 export { default as CardContent } from './components/Card/CardContent';
 export * from './components/Card/CardContent';
+
+export { default as Table } from './components/Table';
+export * from './components/Table';

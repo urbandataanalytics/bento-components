@@ -74,3 +74,6 @@ export * from './components/Card/CardContent';
 
 export { default as Loader } from './components/Loader';
 export * from './components/Loader';
+
+export { default as Table } from './components/Table';
+export * from './components/Table';
