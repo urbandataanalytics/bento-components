@@ -26,7 +26,7 @@ const StyledContainer = styled.div`
   ${({ theme }) => theme.texts.p2};
 `;
 
-const Table = ({ height, columns, rows }) => {
+const Table = ({ height, columns, rows, cellRenderers = {} }) => {
   const columnDefs = columns.map(column => {
     if (column.hasOwnProperty('cellRenderer')) {
       return column;
@@ -44,7 +44,8 @@ const Table = ({ height, columns, rows }) => {
         enableCellTextSelection={true}
         frameworkComponents={{
           agColumnHeader: TableHeader,
-          defaultCellRenderer: TableCell
+          defaultCellRenderer: TableCell,
+          ...cellRenderers
         }}
       ></AgGridReact>
     </StyledContainer>
