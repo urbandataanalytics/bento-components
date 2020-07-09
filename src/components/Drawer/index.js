@@ -60,6 +60,7 @@ const StyledDrawerHeader = styled.header`
   align-items: center;
   padding: ${({ theme }) => theme.components.drawerHeaderPadding};
   border-bottom: ${({ theme }) => theme.components.drawerHeaderBorder};
+  min-height: ${({ theme }) => theme.components.drawerHeaderMinHeight};
 `;
 
 StyledDrawerHeader.defaultProps = {
