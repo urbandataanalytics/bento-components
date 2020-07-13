@@ -15962,7 +15962,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
-  left: 8px;
+  left: 0;
   z-index: 10;
 }
 
@@ -16792,7 +16792,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
-  left: 8px;
+  left: 0;
   z-index: 10;
 }
 
@@ -50455,7 +50455,7 @@ exports[`Storyshots NavigationBar Loading 1`] = `
 `;
 
 exports[`Storyshots NavigationBar Normal 1`] = `
-.c20 {
+.c21 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -50466,7 +50466,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   height: 24px;
 }
 
-.c12 {
+.c13 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -50476,7 +50476,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   height: 24px;
 }
 
-.c5 {
+.c6 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -50486,16 +50486,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   height: 32px;
 }
 
-.c11 {
+.c12 {
   margin-right: 19px;
   color: #212632;
 }
 
-.c11 > svg {
+.c12 > svg {
   fill: #212632;
 }
 
-.c8 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50515,16 +50515,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   border-radius: 2px;
 }
 
-.c8:last-child {
+.c9:last-child {
   margin-bottom: 0;
 }
 
-.c8:hover {
+.c9:hover {
   background-color: #EFF2F7;
   color: #EFF2F7;
 }
 
-.c8 > .c9 {
+.c9 > .c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50545,7 +50545,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   font-size: 12px;
 }
 
-.c22 > .c9 {
+.c23 > .c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50566,7 +50566,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   font-size: 12px;
 }
 
-.c23 > .c9 {
+.c24 > .c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50589,7 +50589,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   pointer-events: none;
 }
 
-.c24 > .c9 {
+.c25 > .c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50610,17 +50610,17 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   font-size: 12px;
 }
 
-.c25:hover .c10 {
+.c26:hover .c11 {
   opacity: 1;
   -webkit-transition: opacity 150ms ease-in-out;
   transition: opacity 150ms ease-in-out;
 }
 
-.c25 .c10 {
+.c26 .c11 {
   opacity: 0;
 }
 
-.c25 > .c9 {
+.c26 > .c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50641,13 +50641,13 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   font-size: 12px;
 }
 
-.c26:hover .c10 {
+.c27:hover .c11 {
   opacity: 1;
   -webkit-transition: opacity 150ms ease-in-out;
   transition: opacity 150ms ease-in-out;
 }
 
-.c26 > .c9 {
+.c27 > .c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50668,7 +50668,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   font-size: 12px;
 }
 
-.c21 {
+.c22 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50688,16 +50688,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   border-radius: 2px;
 }
 
-.c21:last-child {
+.c22:last-child {
   margin-bottom: 0;
 }
 
-.c21:hover {
+.c22:hover {
   background-color: #EFF2F7;
   color: #EFF2F7;
 }
 
-.c21 > .c9 {
+.c22 > .c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50716,29 +50716,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   font-weight: 400;
 }
 
-.c7 {
+.c8 {
   background-color: #FFFFFF;
   box-sizing: border-box;
-}
-
-.c18 {
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 500;
-  margin: 0;
-  outline: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-transition: color 300ms ease-in-out;
-  transition: color 300ms ease-in-out;
-  white-space: nowrap;
-  font-size: 14px;
-  color: #1778FB;
-}
-
-.c18:hover {
-  color: #48AAF1;
 }
 
 .c19 {
@@ -50754,25 +50734,45 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   transition: color 300ms ease-in-out;
   white-space: nowrap;
   font-size: 14px;
-  color: #747D93;
+  color: #1778FB;
 }
 
 .c19:hover {
   color: #48AAF1;
 }
 
-.c2 {
+.c20 {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  margin: 0;
+  outline: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #747D93;
+}
+
+.c20:hover {
+  color: #48AAF1;
+}
+
+.c3 {
   position: relative;
   display: inline-block;
   height: 100%;
 }
 
-.c3 {
+.c4 {
   cursor: pointer;
   height: 100%;
 }
 
-.c6 {
+.c7 {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(0);
@@ -50787,37 +50787,37 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   border-radius: 4px;
   background: #FFFFFF;
   padding: 8px;
-  left: 8px;
+  left: 0;
   z-index: 10;
 }
 
-.c27 > .c9 {
+.c28 > .c10 {
   color: #747D93;
   font-weight: 500;
   font-size: 14px;
   padding: 8px 16px;
 }
 
-.c27 > .c9:hover {
+.c28 > .c10:hover {
   color: #747D93;
 }
 
-.c27 .c10 > svg {
+.c28 .c11 > svg {
   fill: #747D93;
 }
 
-.c28 > .c9 {
+.c29 > .c10 {
   color: #1778FB;
   font-weight: 500;
   font-size: 14px;
   padding: 8px 16px;
 }
 
-.c28 .c10 > svg {
+.c29 .c11 > svg {
   fill: #1778FB;
 }
 
-.c29 > .c9 {
+.c30 > .c10 {
   color: #747D93;
   color: #DCDFE6;
   font-weight: 500;
@@ -50825,13 +50825,13 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   padding: 8px 16px;
 }
 
-.c29 > .c9:hover {
+.c30 > .c10:hover {
   color: #747D93;
   color: #DCDFE6;
   background-color: #FFFFFF;
 }
 
-.c29 .c10 > svg {
+.c30 .c11 > svg {
   fill: #747D93;
   fill: #DCDFE6;
 }
@@ -50872,7 +50872,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   height: 100%;
 }
 
-.c14 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50887,12 +50887,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   align-items: center;
 }
 
-.c13 {
+.c14 {
   padding: 0 17px;
   line-height: 50%;
 }
 
-.c4 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50912,23 +50912,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   height: 100%;
 }
 
-.c4:hover {
+.c5:hover {
   background-color: #DCDFE6;
 }
 
-.c15 {
-  margin: 0 24px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c16 {
+  margin: 0 24px 0 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -50948,6 +50937,17 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -50955,22 +50955,30 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   margin: 0 24px 0 0;
 }
 
-.c17 > a {
+.c18 > a {
   font-size: 12px;
   color: #747D93;
   font-weight: 500;
 }
 
-.c17 > a.active {
+.c18 > a.active {
   color: #1778FB;
 }
 
-.c17 > a:hover {
+.c18 > a:hover {
   color: #48AAF1;
 }
 
-.c17:last-child {
+.c18:last-child {
   margin: 0;
+}
+
+.c2 {
+  height: 100%;
+}
+
+.c2 div div:last-child {
+  left: 8px;
 }
 
 <div
@@ -50991,1187 +50999,1191 @@ exports[`Storyshots NavigationBar Normal 1`] = `
       >
         <div
           className="c3"
-          onClick={[Function]}
         >
           <div
             className="c4"
+            onClick={[Function]}
           >
-            <svg
+            <div
               className="c5"
-              data-name="IconMove"
-              preserveAspectRatio="xMidYMid meet"
-              size="large"
-              theme={
-                Object {
-                  "animations": Object {
-                    "loader": Keyframes {
-                      "id": "sc-keyframes-ivfYaJ",
-                      "inject": [Function],
-                      "name": "ivfYaJ",
-                      "rules": Array [
-                        "@-webkit-keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                        "@keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                      ],
-                      "toString": [Function],
+            >
+              <svg
+                className="c6"
+                data-name="IconMove"
+                preserveAspectRatio="xMidYMid meet"
+                size="large"
+                theme={
+                  Object {
+                    "animations": Object {
+                      "loader": Keyframes {
+                        "id": "sc-keyframes-ivfYaJ",
+                        "inject": [Function],
+                        "name": "ivfYaJ",
+                        "rules": Array [
+                          "@-webkit-keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                          "@keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                        ],
+                        "toString": [Function],
+                      },
+                      "loaderInner": Keyframes {
+                        "id": "sc-keyframes-dkFWMP",
+                        "inject": [Function],
+                        "name": "dkFWMP",
+                        "rules": Array [
+                          "@-webkit-keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
+                          "@keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
+                        ],
+                        "toString": [Function],
+                      },
+                      "loading": Keyframes {
+                        "id": "sc-keyframes-kvsyCu",
+                        "inject": [Function],
+                        "name": "kvsyCu",
+                        "rules": Array [
+                          "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                          "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                        ],
+                        "toString": [Function],
+                      },
+                      "rotate": Keyframes {
+                        "id": "sc-keyframes-iVXCSc",
+                        "inject": [Function],
+                        "name": "iVXCSc",
+                        "rules": Array [
+                          "@-webkit-keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                          "@keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                        ],
+                        "toString": [Function],
+                      },
                     },
-                    "loaderInner": Keyframes {
-                      "id": "sc-keyframes-dkFWMP",
-                      "inject": [Function],
-                      "name": "dkFWMP",
-                      "rules": Array [
-                        "@-webkit-keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
-                        "@keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
-                      ],
-                      "toString": [Function],
+                    "breakpoints": Array [
+                      "544px",
+                      "768px",
+                      "1012px",
+                      "1280px",
+                    ],
+                    "color": Object {
+                      "charcoal200": "#F8F8F8",
+                      "charcoal300": "#EFF2F7",
+                      "charcoal400": "#DCDFE6",
+                      "charcoal500": "#B6BBC6",
+                      "charcoal600": "#747D93",
+                      "charcoal700": "#363C4B",
+                      "charcoal800": "#212632",
+                      "emerald100": "#EEF8F6",
+                      "emerald500": "#55BAA9",
+                      "emerald600": "#299B9A",
+                      "primary100": "#EFF7FB",
+                      "primary300": "#48AAF1",
+                      "primary500": "#1778FB",
+                      "primary700": "#0C1B7A",
+                      "redclay100": "#FAEDEC",
+                      "redclay500": "#CD4C41",
+                      "redvelvet": "#B2314A;",
+                      "white": "#FFFFFF",
                     },
-                    "loading": Keyframes {
-                      "id": "sc-keyframes-kvsyCu",
-                      "inject": [Function],
-                      "name": "kvsyCu",
-                      "rules": Array [
-                        "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
-                        "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
-                      ],
-                      "toString": [Function],
+                    "components": Object {
+                      "accordionBorder": "1px solid #EFF2F7",
+                      "accordionColor": "#747D93",
+                      "accordionHeaderFontSize": "12px",
+                      "accordionHeaderFontWeight": 500,
+                      "accordionMinHeight": "65px",
+                      "accordionPadding": "16px 24px",
+                      "accordionSubHeaderColor": "#DCDFE6",
+                      "accordionSubHeaderFontSize": "10px",
+                      "accordionSubHeaderFontWeight": 700,
+                      "avatarBackgroundColor": "#363C4B",
+                      "avatarBorderRadius": "50%",
+                      "avatarColor": "#FFFFFF",
+                      "avatarFontSizeLarge": "24px",
+                      "avatarFontSizeMedium": "14px",
+                      "avatarFontSizeSmall": "12px",
+                      "avatarSizeLarge": "40px",
+                      "avatarSizeMedium": "32px",
+                      "avatarSizeSmall": "24px",
+                      "buttonFontSizeLarge": "14px",
+                      "buttonFontSizeMedium": "12px",
+                      "buttonLinkDisabledColor": "#DCDFE6",
+                      "buttonLinkFontSizeLarge": "14px",
+                      "buttonLinkFontSizeMedium": "14px",
+                      "buttonLinkFontSizeSmall": "12px",
+                      "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                      "buttonLinkPaddingLarge": "6px",
+                      "buttonLinkPaddingMedium": "5px",
+                      "buttonLinkPaddingSmall": "3px 4px",
+                      "buttonLinkPrimaryColor": "#1778FB",
+                      "buttonLinkSecondaryColor": "#747D93",
+                      "buttonMinWidthLarge": "140px",
+                      "buttonMinWidthMedium": "120px",
+                      "buttonPaddingLarge": "19px 32px",
+                      "buttonPaddingMedium": "11px 32px",
+                      "buttonPrimaryBackgroundColor": "#1778FB",
+                      "buttonPrimaryBorderRadius": "4px",
+                      "buttonPrimaryColor": "#FFFFFF",
+                      "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+                      "buttonPrimaryHoverBackgroundColor": "#48AAF1",
+                      "buttonPrimaryHoverColor": "#FFFFFF",
+                      "buttonSecondaryBackgroundColor": "#FFFFFF",
+                      "buttonSecondaryBorderColor": "#DCDFE6",
+                      "buttonSecondaryBorderRadius": "4px",
+                      "buttonSecondaryColor": "#212632",
+                      "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+                      "buttonSecondaryDisabledBorderColor": "#EFF2F7",
+                      "buttonSecondaryDisabledColor": "#DCDFE6",
+                      "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
+                      "buttonSecondaryHoverBorderColor": "#DCDFE6",
+                      "buttonSecondaryHoverColor": "#212632",
+                      "checkboxBackground": "#FFFFFF",
+                      "checkboxBackgroundChecked": "#1778FB",
+                      "checkboxBackgroundDisabled": "#DCDFE6",
+                      "checkboxBorderColor": "#DCDFE6",
+                      "checkboxBorderRadius": "2px",
+                      "checkboxBorderWidth": "2px",
+                      "checkboxIconColor": "#FFFFFF",
+                      "checkboxLabelColor": "#212632",
+                      "checkboxLabelDisabled": "#DCDFE6",
+                      "checkboxLabelFontSize": "14px",
+                      "checkboxLabelMargin": "16px",
+                      "checkboxSizeMedium": "24px",
+                      "checkboxSizeSmall": "16px",
+                      "drawerBackgroundColor": "#FFFFFF",
+                      "drawerBorder": "1px solid #EFF2F7",
+                      "drawerCloseButtonBackground": "#FFFFFF",
+                      "drawerCloseButtonBorder": "1px solid #DCDFE6",
+                      "drawerCloseButtonBorderRadius": "4px",
+                      "drawerCloseButtonPadding": "6px",
+                      "drawerHeaderBorder": "1px solid #EFF2F7",
+                      "drawerHeaderMinHeight": "73px",
+                      "drawerHeaderPadding": "20px 24px",
+                      "drawerMaxWidth": "320px",
+                      "dropdownBackground": "#FFFFFF",
+                      "dropdownBorderColor": "#EFF2F7",
+                      "dropdownBorderRadius": "4px",
+                      "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+                      "dropdownPadding": "8px",
+                      "formGroupMarginBottom": "16px",
+                      "iconPrimaryColor": "#1778FB",
+                      "iconSecondaryColor": "#747D93",
+                      "iconSizeLarge": "32px",
+                      "iconSizeMedium": "24px",
+                      "iconSizeSmall": "16px",
+                      "inputFieldBackgroundColor": "#FFFFFF",
+                      "inputFieldBorderColor": "#DCDFE6",
+                      "inputFieldBorderRadius": "4px",
+                      "inputFieldDisabledBackgroundColor": "#F8F8F8",
+                      "inputFieldDisabledBorderColor": "#DCDFE6",
+                      "inputFieldDisabledColor": "#DCDFE6",
+                      "inputFieldDisabledLabelColor": "#DCDFE6",
+                      "inputFieldErrorBackgroundColor": "#FAEDEC",
+                      "inputFieldErrorBorderColor": "#CD4C41",
+                      "inputFieldErrorHelpColor": "#CD4C41",
+                      "inputFieldErrorPlaceholderColor": "#CD4C41",
+                      "inputFieldFocusBackgroundColor": "#EFF7FB",
+                      "inputFieldFocusBorderColor": "#48AAF1",
+                      "inputFieldFocusLabelColor": "#48AAF1",
+                      "inputFieldFontSize": "14px",
+                      "inputFieldHelpColor": "#212632",
+                      "inputFieldHelpFontSize": "12px",
+                      "inputFieldLabelColor": "#363C4B",
+                      "inputFieldLabelFontSize": "12px",
+                      "inputFieldLineHeight": "48px",
+                      "inputFieldPlaceholderColor": "#DCDFE6",
+                      "inputFieldTextIndent": "24px",
+                      "listBackgroundColor": "#FFFFFF",
+                      "listItemBackgroundColorActiveHover": "#EFF7FB",
+                      "listItemBackgroundColorDefaultHover": "#EFF2F7",
+                      "listItemBackgroundColorHoverDisabled": "#F8F8F8",
+                      "listItemBorderRadius": "2px",
+                      "listItemColorActive": "#1778FB",
+                      "listItemColorActiveHover": "#EFF7FB",
+                      "listItemColorDefault": "#212632",
+                      "listItemColorDefaultHover": "#EFF2F7",
+                      "listItemColorDisabled": "#B6BBC6",
+                      "listItemFontSize": "12px",
+                      "listItemFontSizeLarge": "14px",
+                      "listItemFontSizeMedium": "12px",
+                      "listItemFontWeight": 400,
+                      "listItemMargin": "0 0 4px",
+                      "listItemPaddingLarge": "8px 16px",
+                      "listItemPaddingMedium": "7px 16px",
+                      "listItemSeparatorColor": "#EFF2F7",
+                      "listNavItemBackgroundColorDisabled": "#FFFFFF",
+                      "listNavItemColorActive": "#1778FB",
+                      "listNavItemColorDefault": "#747D93",
+                      "listNavItemColorDisabled": "#DCDFE6",
+                      "listNavItemColorHover": "#747D93",
+                      "listNavItemFontSize": "14px",
+                      "listNavItemFontWeight": 500,
+                      "listPadding": "8px",
+                      "loaderSizeLarge": "64px",
+                      "loaderSizeMedium": "48px",
+                      "loaderSizeSmall": "32px",
+                      "navigationBackgroundColor": "white",
+                      "navigationBorder": "1px solid #EFF2F7",
+                      "navigationContentMargin": "0 24px 0 0",
+                      "navigationHeaderPadding": "0 17px",
+                      "navigationLinkFontSize": "12px",
+                      "navigationLinkMargin": "0 24px 0 0",
+                      "navigationMaxHeight": "73px",
+                      "navigationMenuBackgroundColor": "#EFF2F7",
+                      "navigationMenuHoverBackgroundColor": "#DCDFE6",
+                      "navigationMenuOpenBackgroundColor": "#EFF7FB",
+                      "navigationMinHeight": "40px",
+                      "notificationBorderRadius": "8px",
+                      "notificationCloseButtonColor": "#212632",
+                      "notificationErrorBackgroundColor": "#FAEDEC",
+                      "notificationErrorColor": "#CD4C41",
+                      "notificationNormalBackgroundColor": "#EFF7FB",
+                      "notificationNormalColor": "#212632",
+                      "notificationPadding": "16px",
+                      "notificationSuccessBackgroundColor": "#EEF8F6",
+                      "notificationSuccessColor": "#299B9A",
+                      "paginationLabelColor": "#212632",
+                      "paginationLabelMarginBottom": "16px",
+                      "paginationProgressActiveBackgroundColor": "#212632",
+                      "paginationProgressBackgroundColor": "#DCDFE6",
+                      "paginationProgressMarginBottom": "16px",
+                      "tabBadgeBackground": "#EFF2F7",
+                      "tabBadgeBackgroundActive": "#1778FB",
+                      "tabBadgeBackgroundHover": "#48AAF1",
+                      "tabBadgeColor": "#747D93",
+                      "tabBadgeColorActive": "#FFFFFF",
+                      "tabBadgeColorHover": "#FFFFFF",
+                      "tabBadgeFontSize": "12px",
+                      "tabBadgeFontWeight": 500,
+                      "tabBadgePadding": "2px 8px",
+                      "tabBorderColor": "transparent",
+                      "tabBorderColorActive": "#1778FB",
+                      "tabBorderColorHover": "#48AAF1",
+                      "tabColor": "#747D93",
+                      "tabColorActive": "#1778FB",
+                      "tabColorDisabled": "#DCDFE6",
+                      "tabColorHover": "#48AAF1",
+                      "tabFontSize": "12px",
+                      "tabFontWeight": 500,
+                      "tabsBackgroundColor": "white",
+                      "tabsBorderColor": "#EFF2F7",
+                      "textLinkDisabledColor": "#DCDFE6",
+                      "textLinkFontSizeLarge": "14px",
+                      "textLinkFontSizeMedium": "12px",
+                      "textLinkPrimaryColor": "#1778FB",
+                      "textLinkPrimaryHoverColor": "#48AAF1",
+                      "textLinkSecondaryColor": "#747D93",
+                      "textLinkSecondaryHoverColor": "#48AAF1",
                     },
-                    "rotate": Keyframes {
-                      "id": "sc-keyframes-iVXCSc",
-                      "inject": [Function],
-                      "name": "iVXCSc",
-                      "rules": Array [
-                        "@-webkit-keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                        "@keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                      ],
-                      "toString": [Function],
-                    },
-                  },
-                  "breakpoints": Array [
-                    "544px",
-                    "768px",
-                    "1012px",
-                    "1280px",
-                  ],
-                  "color": Object {
-                    "charcoal200": "#F8F8F8",
-                    "charcoal300": "#EFF2F7",
-                    "charcoal400": "#DCDFE6",
-                    "charcoal500": "#B6BBC6",
-                    "charcoal600": "#747D93",
-                    "charcoal700": "#363C4B",
-                    "charcoal800": "#212632",
-                    "emerald100": "#EEF8F6",
-                    "emerald500": "#55BAA9",
-                    "emerald600": "#299B9A",
-                    "primary100": "#EFF7FB",
-                    "primary300": "#48AAF1",
-                    "primary500": "#1778FB",
-                    "primary700": "#0C1B7A",
-                    "redclay100": "#FAEDEC",
-                    "redclay500": "#CD4C41",
-                    "redvelvet": "#B2314A;",
-                    "white": "#FFFFFF",
-                  },
-                  "components": Object {
-                    "accordionBorder": "1px solid #EFF2F7",
-                    "accordionColor": "#747D93",
-                    "accordionHeaderFontSize": "12px",
-                    "accordionHeaderFontWeight": 500,
-                    "accordionMinHeight": "65px",
-                    "accordionPadding": "16px 24px",
-                    "accordionSubHeaderColor": "#DCDFE6",
-                    "accordionSubHeaderFontSize": "10px",
-                    "accordionSubHeaderFontWeight": 700,
-                    "avatarBackgroundColor": "#363C4B",
-                    "avatarBorderRadius": "50%",
-                    "avatarColor": "#FFFFFF",
-                    "avatarFontSizeLarge": "24px",
-                    "avatarFontSizeMedium": "14px",
-                    "avatarFontSizeSmall": "12px",
-                    "avatarSizeLarge": "40px",
-                    "avatarSizeMedium": "32px",
-                    "avatarSizeSmall": "24px",
-                    "buttonFontSizeLarge": "14px",
-                    "buttonFontSizeMedium": "12px",
-                    "buttonLinkDisabledColor": "#DCDFE6",
-                    "buttonLinkFontSizeLarge": "14px",
-                    "buttonLinkFontSizeMedium": "14px",
-                    "buttonLinkFontSizeSmall": "12px",
-                    "buttonLinkHoverBackgroundColor": "#EFF2F7",
-                    "buttonLinkPaddingLarge": "6px",
-                    "buttonLinkPaddingMedium": "5px",
-                    "buttonLinkPaddingSmall": "3px 4px",
-                    "buttonLinkPrimaryColor": "#1778FB",
-                    "buttonLinkSecondaryColor": "#747D93",
-                    "buttonMinWidthLarge": "140px",
-                    "buttonMinWidthMedium": "120px",
-                    "buttonPaddingLarge": "19px 32px",
-                    "buttonPaddingMedium": "11px 32px",
-                    "buttonPrimaryBackgroundColor": "#1778FB",
-                    "buttonPrimaryBorderRadius": "4px",
-                    "buttonPrimaryColor": "#FFFFFF",
-                    "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                    "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                    "buttonPrimaryHoverColor": "#FFFFFF",
-                    "buttonSecondaryBackgroundColor": "#FFFFFF",
-                    "buttonSecondaryBorderColor": "#DCDFE6",
-                    "buttonSecondaryBorderRadius": "4px",
-                    "buttonSecondaryColor": "#212632",
-                    "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                    "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                    "buttonSecondaryDisabledColor": "#DCDFE6",
-                    "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
-                    "buttonSecondaryHoverBorderColor": "#DCDFE6",
-                    "buttonSecondaryHoverColor": "#212632",
-                    "checkboxBackground": "#FFFFFF",
-                    "checkboxBackgroundChecked": "#1778FB",
-                    "checkboxBackgroundDisabled": "#DCDFE6",
-                    "checkboxBorderColor": "#DCDFE6",
-                    "checkboxBorderRadius": "2px",
-                    "checkboxBorderWidth": "2px",
-                    "checkboxIconColor": "#FFFFFF",
-                    "checkboxLabelColor": "#212632",
-                    "checkboxLabelDisabled": "#DCDFE6",
-                    "checkboxLabelFontSize": "14px",
-                    "checkboxLabelMargin": "16px",
-                    "checkboxSizeMedium": "24px",
-                    "checkboxSizeSmall": "16px",
-                    "drawerBackgroundColor": "#FFFFFF",
-                    "drawerBorder": "1px solid #EFF2F7",
-                    "drawerCloseButtonBackground": "#FFFFFF",
-                    "drawerCloseButtonBorder": "1px solid #DCDFE6",
-                    "drawerCloseButtonBorderRadius": "4px",
-                    "drawerCloseButtonPadding": "6px",
-                    "drawerHeaderBorder": "1px solid #EFF2F7",
-                    "drawerHeaderMinHeight": "73px",
-                    "drawerHeaderPadding": "20px 24px",
-                    "drawerMaxWidth": "320px",
-                    "dropdownBackground": "#FFFFFF",
-                    "dropdownBorderColor": "#EFF2F7",
-                    "dropdownBorderRadius": "4px",
-                    "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
-                    "dropdownPadding": "8px",
-                    "formGroupMarginBottom": "16px",
-                    "iconPrimaryColor": "#1778FB",
-                    "iconSecondaryColor": "#747D93",
-                    "iconSizeLarge": "32px",
-                    "iconSizeMedium": "24px",
-                    "iconSizeSmall": "16px",
-                    "inputFieldBackgroundColor": "#FFFFFF",
-                    "inputFieldBorderColor": "#DCDFE6",
-                    "inputFieldBorderRadius": "4px",
-                    "inputFieldDisabledBackgroundColor": "#F8F8F8",
-                    "inputFieldDisabledBorderColor": "#DCDFE6",
-                    "inputFieldDisabledColor": "#DCDFE6",
-                    "inputFieldDisabledLabelColor": "#DCDFE6",
-                    "inputFieldErrorBackgroundColor": "#FAEDEC",
-                    "inputFieldErrorBorderColor": "#CD4C41",
-                    "inputFieldErrorHelpColor": "#CD4C41",
-                    "inputFieldErrorPlaceholderColor": "#CD4C41",
-                    "inputFieldFocusBackgroundColor": "#EFF7FB",
-                    "inputFieldFocusBorderColor": "#48AAF1",
-                    "inputFieldFocusLabelColor": "#48AAF1",
-                    "inputFieldFontSize": "14px",
-                    "inputFieldHelpColor": "#212632",
-                    "inputFieldHelpFontSize": "12px",
-                    "inputFieldLabelColor": "#363C4B",
-                    "inputFieldLabelFontSize": "12px",
-                    "inputFieldLineHeight": "48px",
-                    "inputFieldPlaceholderColor": "#DCDFE6",
-                    "inputFieldTextIndent": "24px",
-                    "listBackgroundColor": "#FFFFFF",
-                    "listItemBackgroundColorActiveHover": "#EFF7FB",
-                    "listItemBackgroundColorDefaultHover": "#EFF2F7",
-                    "listItemBackgroundColorHoverDisabled": "#F8F8F8",
-                    "listItemBorderRadius": "2px",
-                    "listItemColorActive": "#1778FB",
-                    "listItemColorActiveHover": "#EFF7FB",
-                    "listItemColorDefault": "#212632",
-                    "listItemColorDefaultHover": "#EFF2F7",
-                    "listItemColorDisabled": "#B6BBC6",
-                    "listItemFontSize": "12px",
-                    "listItemFontSizeLarge": "14px",
-                    "listItemFontSizeMedium": "12px",
-                    "listItemFontWeight": 400,
-                    "listItemMargin": "0 0 4px",
-                    "listItemPaddingLarge": "8px 16px",
-                    "listItemPaddingMedium": "7px 16px",
-                    "listItemSeparatorColor": "#EFF2F7",
-                    "listNavItemBackgroundColorDisabled": "#FFFFFF",
-                    "listNavItemColorActive": "#1778FB",
-                    "listNavItemColorDefault": "#747D93",
-                    "listNavItemColorDisabled": "#DCDFE6",
-                    "listNavItemColorHover": "#747D93",
-                    "listNavItemFontSize": "14px",
-                    "listNavItemFontWeight": 500,
-                    "listPadding": "8px",
-                    "loaderSizeLarge": "64px",
-                    "loaderSizeMedium": "48px",
-                    "loaderSizeSmall": "32px",
-                    "navigationBackgroundColor": "white",
-                    "navigationBorder": "1px solid #EFF2F7",
-                    "navigationContentMargin": "0 24px 0 0",
-                    "navigationHeaderPadding": "0 17px",
-                    "navigationLinkFontSize": "12px",
-                    "navigationLinkMargin": "0 24px 0 0",
-                    "navigationMaxHeight": "73px",
-                    "navigationMenuBackgroundColor": "#EFF2F7",
-                    "navigationMenuHoverBackgroundColor": "#DCDFE6",
-                    "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                    "navigationMinHeight": "40px",
-                    "notificationBorderRadius": "8px",
-                    "notificationCloseButtonColor": "#212632",
-                    "notificationErrorBackgroundColor": "#FAEDEC",
-                    "notificationErrorColor": "#CD4C41",
-                    "notificationNormalBackgroundColor": "#EFF7FB",
-                    "notificationNormalColor": "#212632",
-                    "notificationPadding": "16px",
-                    "notificationSuccessBackgroundColor": "#EEF8F6",
-                    "notificationSuccessColor": "#299B9A",
-                    "paginationLabelColor": "#212632",
-                    "paginationLabelMarginBottom": "16px",
-                    "paginationProgressActiveBackgroundColor": "#212632",
-                    "paginationProgressBackgroundColor": "#DCDFE6",
-                    "paginationProgressMarginBottom": "16px",
-                    "tabBadgeBackground": "#EFF2F7",
-                    "tabBadgeBackgroundActive": "#1778FB",
-                    "tabBadgeBackgroundHover": "#48AAF1",
-                    "tabBadgeColor": "#747D93",
-                    "tabBadgeColorActive": "#FFFFFF",
-                    "tabBadgeColorHover": "#FFFFFF",
-                    "tabBadgeFontSize": "12px",
-                    "tabBadgeFontWeight": 500,
-                    "tabBadgePadding": "2px 8px",
-                    "tabBorderColor": "transparent",
-                    "tabBorderColorActive": "#1778FB",
-                    "tabBorderColorHover": "#48AAF1",
-                    "tabColor": "#747D93",
-                    "tabColorActive": "#1778FB",
-                    "tabColorDisabled": "#DCDFE6",
-                    "tabColorHover": "#48AAF1",
-                    "tabFontSize": "12px",
-                    "tabFontWeight": 500,
-                    "tabsBackgroundColor": "white",
-                    "tabsBorderColor": "#EFF2F7",
-                    "textLinkDisabledColor": "#DCDFE6",
-                    "textLinkFontSizeLarge": "14px",
-                    "textLinkFontSizeMedium": "12px",
-                    "textLinkPrimaryColor": "#1778FB",
-                    "textLinkPrimaryHoverColor": "#48AAF1",
-                    "textLinkSecondaryColor": "#747D93",
-                    "textLinkSecondaryHoverColor": "#48AAF1",
-                  },
-                  "fonts": Array [
-                    Object {
-                      "name": "Roboto-Regular",
-                      "style": "normal",
-                      "weight": "normal",
-                    },
-                    Object {
-                      "name": "Roboto Medium",
-                      "style": "normal",
-                      "weight": 500,
-                    },
-                    Object {
-                      "name": "Roboto Bold",
-                      "style": "normal",
-                      "weight": 700,
-                    },
-                  ],
-                  "global": Object {
-                    "bgColor": "white",
-                    "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
-                    "fontColor": "#333",
-                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                    "fontSize": "14px",
-                    "fontWeightBold": 700,
-                    "fontWeightMedium": 500,
-                    "fontWeightRegular": 400,
-                    "transitionM": "all 250ms ease-in-out",
-                    "transitionS": "all 120ms ease-in-out",
-                  },
-                  "headings": Array [
-                    Object {
+                    "fonts": Array [
+                      Object {
+                        "name": "Roboto-Regular",
+                        "style": "normal",
+                        "weight": "normal",
+                      },
+                      Object {
+                        "name": "Roboto Medium",
+                        "style": "normal",
+                        "weight": 500,
+                      },
+                      Object {
+                        "name": "Roboto Bold",
+                        "style": "normal",
+                        "weight": 700,
+                      },
+                    ],
+                    "global": Object {
+                      "bgColor": "white",
+                      "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
+                      "fontColor": "#333",
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                      "fontWeight": 500,
-                      "size": "3.4rem",
-                    },
-                    Object {
-                      "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                      "fontWeight": 500,
-                      "size": "2.5rem",
-                    },
-                    Object {
-                      "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                      "fontWeight": 500,
-                      "size": "1.7rem",
-                    },
-                    Object {
-                      "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                      "fontWeight": 500,
-                      "size": "1.1rem",
-                    },
-                    Object {
-                      "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                      "fontWeight": 500,
-                      "size": "0.8rem",
-                    },
-                  ],
-                  "shapes": Object {
-                    "borderRadiusFull": "50%",
-                    "borderRadiusLarge": "8px",
-                    "borderRadiusMedium": "4px",
-                    "borderRadiusSmall": "2px",
-                    "borderWidthMedium": "2px",
-                    "borderWidthSmall": "1px",
-                  },
-                  "spacings": Object {
-                    "large1": "80px",
-                    "large2": "96px",
-                    "large3": "128px",
-                    "large4": "200px",
-                    "medium1": "32px",
-                    "medium2": "40px",
-                    "medium3": "48px",
-                    "medium4": "56px",
-                    "medium5": "64px",
-                    "small1": "4px",
-                    "small2": "8px",
-                    "small3": "16px",
-                    "small4": "24px",
-                  },
-                  "texts": Object {
-                    "p1b": Object {
-                      "color": "#212632",
                       "fontSize": "14px",
-                      "fontWeight": 500,
-                      "lineHeight": "1.5",
+                      "fontWeightBold": 700,
+                      "fontWeightMedium": 500,
+                      "fontWeightRegular": 400,
+                      "transitionM": "all 250ms ease-in-out",
+                      "transitionS": "all 120ms ease-in-out",
                     },
-                    "p2": Object {
-                      "color": "#212632",
-                      "fontSize": "12px",
-                      "fontWeight": 400,
-                      "lineHeight": "1.5",
+                    "headings": Array [
+                      Object {
+                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                        "fontWeight": 500,
+                        "size": "3.4rem",
+                      },
+                      Object {
+                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                        "fontWeight": 500,
+                        "size": "2.5rem",
+                      },
+                      Object {
+                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                        "fontWeight": 500,
+                        "size": "1.7rem",
+                      },
+                      Object {
+                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                        "fontWeight": 500,
+                        "size": "1.1rem",
+                      },
+                      Object {
+                        "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                        "fontWeight": 500,
+                        "size": "0.8rem",
+                      },
+                    ],
+                    "shapes": Object {
+                      "borderRadiusFull": "50%",
+                      "borderRadiusLarge": "8px",
+                      "borderRadiusMedium": "4px",
+                      "borderRadiusSmall": "2px",
+                      "borderWidthMedium": "2px",
+                      "borderWidthSmall": "1px",
                     },
-                    "p2b": Object {
-                      "color": "#212632",
-                      "fontSize": "12px",
-                      "fontWeight": 500,
-                      "lineHeight": "1.5",
+                    "spacings": Object {
+                      "large1": "80px",
+                      "large2": "96px",
+                      "large3": "128px",
+                      "large4": "200px",
+                      "medium1": "32px",
+                      "medium2": "40px",
+                      "medium3": "48px",
+                      "medium4": "56px",
+                      "medium5": "64px",
+                      "small1": "4px",
+                      "small2": "8px",
+                      "small3": "16px",
+                      "small4": "24px",
                     },
-                    "p3b": Object {
-                      "color": "#212632",
-                      "fontSize": "10px",
-                      "fontWeight": 700,
-                      "lineHeight": "1.5",
+                    "texts": Object {
+                      "p1b": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
+                      "p2": Object {
+                        "color": "#212632",
+                        "fontSize": "12px",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
+                      "p2b": Object {
+                        "color": "#212632",
+                        "fontSize": "12px",
+                        "fontWeight": 500,
+                        "lineHeight": "1.5",
+                      },
+                      "p3b": Object {
+                        "color": "#212632",
+                        "fontSize": "10px",
+                        "fontWeight": 700,
+                        "lineHeight": "1.5",
+                      },
                     },
-                  },
+                  }
                 }
-              }
-              viewBox="0 0 32 32"
-            >
-              <path
-                clipRule="evenodd"
-                d="M8 9.6a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm0 6.216a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm1.6 4.617a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2zM14.4 9.6a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm0 6.216a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm1.6 4.617a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2zM20.8 9.6a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm0 6.216a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm1.6 4.617a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2z"
-              />
-            </svg>
+                viewBox="0 0 32 32"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M8 9.6a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm0 6.216a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm1.6 4.617a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2zM14.4 9.6a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm0 6.216a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm1.6 4.617a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2zM20.8 9.6a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm0 6.216a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm1.6 4.617a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2z"
+                />
+              </svg>
+            </div>
           </div>
-        </div>
-        <div
-          className="c6"
-        >
-          <ul
+          <div
             className="c7"
-            size="medium"
           >
-            <li
+            <ul
               className="c8"
               size="medium"
             >
-              <div
-                className="c9 "
+              <li
+                className="c9"
+                size="medium"
               >
                 <div
-                  className="c10 c11"
+                  className="c10 "
                 >
-                  <svg
-                    className="c12"
-                    data-name="IconUser"
-                    preserveAspectRatio="xMidYMid meet"
-                    size="medium"
-                    theme={
-                      Object {
-                        "animations": Object {
-                          "loader": Keyframes {
-                            "id": "sc-keyframes-ivfYaJ",
-                            "inject": [Function],
-                            "name": "ivfYaJ",
-                            "rules": Array [
-                              "@-webkit-keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                              "@keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                            ],
-                            "toString": [Function],
-                          },
-                          "loaderInner": Keyframes {
-                            "id": "sc-keyframes-dkFWMP",
-                            "inject": [Function],
-                            "name": "dkFWMP",
-                            "rules": Array [
-                              "@-webkit-keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
-                              "@keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
-                            ],
-                            "toString": [Function],
-                          },
-                          "loading": Keyframes {
-                            "id": "sc-keyframes-kvsyCu",
-                            "inject": [Function],
-                            "name": "kvsyCu",
-                            "rules": Array [
-                              "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
-                              "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
-                            ],
-                            "toString": [Function],
-                          },
-                          "rotate": Keyframes {
-                            "id": "sc-keyframes-iVXCSc",
-                            "inject": [Function],
-                            "name": "iVXCSc",
-                            "rules": Array [
-                              "@-webkit-keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                              "@keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                            ],
-                            "toString": [Function],
-                          },
-                        },
-                        "breakpoints": Array [
-                          "544px",
-                          "768px",
-                          "1012px",
-                          "1280px",
-                        ],
-                        "color": Object {
-                          "charcoal200": "#F8F8F8",
-                          "charcoal300": "#EFF2F7",
-                          "charcoal400": "#DCDFE6",
-                          "charcoal500": "#B6BBC6",
-                          "charcoal600": "#747D93",
-                          "charcoal700": "#363C4B",
-                          "charcoal800": "#212632",
-                          "emerald100": "#EEF8F6",
-                          "emerald500": "#55BAA9",
-                          "emerald600": "#299B9A",
-                          "primary100": "#EFF7FB",
-                          "primary300": "#48AAF1",
-                          "primary500": "#1778FB",
-                          "primary700": "#0C1B7A",
-                          "redclay100": "#FAEDEC",
-                          "redclay500": "#CD4C41",
-                          "redvelvet": "#B2314A;",
-                          "white": "#FFFFFF",
-                        },
-                        "components": Object {
-                          "accordionBorder": "1px solid #EFF2F7",
-                          "accordionColor": "#747D93",
-                          "accordionHeaderFontSize": "12px",
-                          "accordionHeaderFontWeight": 500,
-                          "accordionMinHeight": "65px",
-                          "accordionPadding": "16px 24px",
-                          "accordionSubHeaderColor": "#DCDFE6",
-                          "accordionSubHeaderFontSize": "10px",
-                          "accordionSubHeaderFontWeight": 700,
-                          "avatarBackgroundColor": "#363C4B",
-                          "avatarBorderRadius": "50%",
-                          "avatarColor": "#FFFFFF",
-                          "avatarFontSizeLarge": "24px",
-                          "avatarFontSizeMedium": "14px",
-                          "avatarFontSizeSmall": "12px",
-                          "avatarSizeLarge": "40px",
-                          "avatarSizeMedium": "32px",
-                          "avatarSizeSmall": "24px",
-                          "buttonFontSizeLarge": "14px",
-                          "buttonFontSizeMedium": "12px",
-                          "buttonLinkDisabledColor": "#DCDFE6",
-                          "buttonLinkFontSizeLarge": "14px",
-                          "buttonLinkFontSizeMedium": "14px",
-                          "buttonLinkFontSizeSmall": "12px",
-                          "buttonLinkHoverBackgroundColor": "#EFF2F7",
-                          "buttonLinkPaddingLarge": "6px",
-                          "buttonLinkPaddingMedium": "5px",
-                          "buttonLinkPaddingSmall": "3px 4px",
-                          "buttonLinkPrimaryColor": "#1778FB",
-                          "buttonLinkSecondaryColor": "#747D93",
-                          "buttonMinWidthLarge": "140px",
-                          "buttonMinWidthMedium": "120px",
-                          "buttonPaddingLarge": "19px 32px",
-                          "buttonPaddingMedium": "11px 32px",
-                          "buttonPrimaryBackgroundColor": "#1778FB",
-                          "buttonPrimaryBorderRadius": "4px",
-                          "buttonPrimaryColor": "#FFFFFF",
-                          "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                          "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                          "buttonPrimaryHoverColor": "#FFFFFF",
-                          "buttonSecondaryBackgroundColor": "#FFFFFF",
-                          "buttonSecondaryBorderColor": "#DCDFE6",
-                          "buttonSecondaryBorderRadius": "4px",
-                          "buttonSecondaryColor": "#212632",
-                          "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                          "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                          "buttonSecondaryDisabledColor": "#DCDFE6",
-                          "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
-                          "buttonSecondaryHoverBorderColor": "#DCDFE6",
-                          "buttonSecondaryHoverColor": "#212632",
-                          "checkboxBackground": "#FFFFFF",
-                          "checkboxBackgroundChecked": "#1778FB",
-                          "checkboxBackgroundDisabled": "#DCDFE6",
-                          "checkboxBorderColor": "#DCDFE6",
-                          "checkboxBorderRadius": "2px",
-                          "checkboxBorderWidth": "2px",
-                          "checkboxIconColor": "#FFFFFF",
-                          "checkboxLabelColor": "#212632",
-                          "checkboxLabelDisabled": "#DCDFE6",
-                          "checkboxLabelFontSize": "14px",
-                          "checkboxLabelMargin": "16px",
-                          "checkboxSizeMedium": "24px",
-                          "checkboxSizeSmall": "16px",
-                          "drawerBackgroundColor": "#FFFFFF",
-                          "drawerBorder": "1px solid #EFF2F7",
-                          "drawerCloseButtonBackground": "#FFFFFF",
-                          "drawerCloseButtonBorder": "1px solid #DCDFE6",
-                          "drawerCloseButtonBorderRadius": "4px",
-                          "drawerCloseButtonPadding": "6px",
-                          "drawerHeaderBorder": "1px solid #EFF2F7",
-                          "drawerHeaderMinHeight": "73px",
-                          "drawerHeaderPadding": "20px 24px",
-                          "drawerMaxWidth": "320px",
-                          "dropdownBackground": "#FFFFFF",
-                          "dropdownBorderColor": "#EFF2F7",
-                          "dropdownBorderRadius": "4px",
-                          "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
-                          "dropdownPadding": "8px",
-                          "formGroupMarginBottom": "16px",
-                          "iconPrimaryColor": "#1778FB",
-                          "iconSecondaryColor": "#747D93",
-                          "iconSizeLarge": "32px",
-                          "iconSizeMedium": "24px",
-                          "iconSizeSmall": "16px",
-                          "inputFieldBackgroundColor": "#FFFFFF",
-                          "inputFieldBorderColor": "#DCDFE6",
-                          "inputFieldBorderRadius": "4px",
-                          "inputFieldDisabledBackgroundColor": "#F8F8F8",
-                          "inputFieldDisabledBorderColor": "#DCDFE6",
-                          "inputFieldDisabledColor": "#DCDFE6",
-                          "inputFieldDisabledLabelColor": "#DCDFE6",
-                          "inputFieldErrorBackgroundColor": "#FAEDEC",
-                          "inputFieldErrorBorderColor": "#CD4C41",
-                          "inputFieldErrorHelpColor": "#CD4C41",
-                          "inputFieldErrorPlaceholderColor": "#CD4C41",
-                          "inputFieldFocusBackgroundColor": "#EFF7FB",
-                          "inputFieldFocusBorderColor": "#48AAF1",
-                          "inputFieldFocusLabelColor": "#48AAF1",
-                          "inputFieldFontSize": "14px",
-                          "inputFieldHelpColor": "#212632",
-                          "inputFieldHelpFontSize": "12px",
-                          "inputFieldLabelColor": "#363C4B",
-                          "inputFieldLabelFontSize": "12px",
-                          "inputFieldLineHeight": "48px",
-                          "inputFieldPlaceholderColor": "#DCDFE6",
-                          "inputFieldTextIndent": "24px",
-                          "listBackgroundColor": "#FFFFFF",
-                          "listItemBackgroundColorActiveHover": "#EFF7FB",
-                          "listItemBackgroundColorDefaultHover": "#EFF2F7",
-                          "listItemBackgroundColorHoverDisabled": "#F8F8F8",
-                          "listItemBorderRadius": "2px",
-                          "listItemColorActive": "#1778FB",
-                          "listItemColorActiveHover": "#EFF7FB",
-                          "listItemColorDefault": "#212632",
-                          "listItemColorDefaultHover": "#EFF2F7",
-                          "listItemColorDisabled": "#B6BBC6",
-                          "listItemFontSize": "12px",
-                          "listItemFontSizeLarge": "14px",
-                          "listItemFontSizeMedium": "12px",
-                          "listItemFontWeight": 400,
-                          "listItemMargin": "0 0 4px",
-                          "listItemPaddingLarge": "8px 16px",
-                          "listItemPaddingMedium": "7px 16px",
-                          "listItemSeparatorColor": "#EFF2F7",
-                          "listNavItemBackgroundColorDisabled": "#FFFFFF",
-                          "listNavItemColorActive": "#1778FB",
-                          "listNavItemColorDefault": "#747D93",
-                          "listNavItemColorDisabled": "#DCDFE6",
-                          "listNavItemColorHover": "#747D93",
-                          "listNavItemFontSize": "14px",
-                          "listNavItemFontWeight": 500,
-                          "listPadding": "8px",
-                          "loaderSizeLarge": "64px",
-                          "loaderSizeMedium": "48px",
-                          "loaderSizeSmall": "32px",
-                          "navigationBackgroundColor": "white",
-                          "navigationBorder": "1px solid #EFF2F7",
-                          "navigationContentMargin": "0 24px 0 0",
-                          "navigationHeaderPadding": "0 17px",
-                          "navigationLinkFontSize": "12px",
-                          "navigationLinkMargin": "0 24px 0 0",
-                          "navigationMaxHeight": "73px",
-                          "navigationMenuBackgroundColor": "#EFF2F7",
-                          "navigationMenuHoverBackgroundColor": "#DCDFE6",
-                          "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                          "navigationMinHeight": "40px",
-                          "notificationBorderRadius": "8px",
-                          "notificationCloseButtonColor": "#212632",
-                          "notificationErrorBackgroundColor": "#FAEDEC",
-                          "notificationErrorColor": "#CD4C41",
-                          "notificationNormalBackgroundColor": "#EFF7FB",
-                          "notificationNormalColor": "#212632",
-                          "notificationPadding": "16px",
-                          "notificationSuccessBackgroundColor": "#EEF8F6",
-                          "notificationSuccessColor": "#299B9A",
-                          "paginationLabelColor": "#212632",
-                          "paginationLabelMarginBottom": "16px",
-                          "paginationProgressActiveBackgroundColor": "#212632",
-                          "paginationProgressBackgroundColor": "#DCDFE6",
-                          "paginationProgressMarginBottom": "16px",
-                          "tabBadgeBackground": "#EFF2F7",
-                          "tabBadgeBackgroundActive": "#1778FB",
-                          "tabBadgeBackgroundHover": "#48AAF1",
-                          "tabBadgeColor": "#747D93",
-                          "tabBadgeColorActive": "#FFFFFF",
-                          "tabBadgeColorHover": "#FFFFFF",
-                          "tabBadgeFontSize": "12px",
-                          "tabBadgeFontWeight": 500,
-                          "tabBadgePadding": "2px 8px",
-                          "tabBorderColor": "transparent",
-                          "tabBorderColorActive": "#1778FB",
-                          "tabBorderColorHover": "#48AAF1",
-                          "tabColor": "#747D93",
-                          "tabColorActive": "#1778FB",
-                          "tabColorDisabled": "#DCDFE6",
-                          "tabColorHover": "#48AAF1",
-                          "tabFontSize": "12px",
-                          "tabFontWeight": 500,
-                          "tabsBackgroundColor": "white",
-                          "tabsBorderColor": "#EFF2F7",
-                          "textLinkDisabledColor": "#DCDFE6",
-                          "textLinkFontSizeLarge": "14px",
-                          "textLinkFontSizeMedium": "12px",
-                          "textLinkPrimaryColor": "#1778FB",
-                          "textLinkPrimaryHoverColor": "#48AAF1",
-                          "textLinkSecondaryColor": "#747D93",
-                          "textLinkSecondaryHoverColor": "#48AAF1",
-                        },
-                        "fonts": Array [
-                          Object {
-                            "name": "Roboto-Regular",
-                            "style": "normal",
-                            "weight": "normal",
-                          },
-                          Object {
-                            "name": "Roboto Medium",
-                            "style": "normal",
-                            "weight": 500,
-                          },
-                          Object {
-                            "name": "Roboto Bold",
-                            "style": "normal",
-                            "weight": 700,
-                          },
-                        ],
-                        "global": Object {
-                          "bgColor": "white",
-                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
-                          "fontColor": "#333",
-                          "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                          "fontSize": "14px",
-                          "fontWeightBold": 700,
-                          "fontWeightMedium": 500,
-                          "fontWeightRegular": 400,
-                          "transitionM": "all 250ms ease-in-out",
-                          "transitionS": "all 120ms ease-in-out",
-                        },
-                        "headings": Array [
-                          Object {
-                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                            "fontWeight": 500,
-                            "size": "3.4rem",
-                          },
-                          Object {
-                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                            "fontWeight": 500,
-                            "size": "2.5rem",
-                          },
-                          Object {
-                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                            "fontWeight": 500,
-                            "size": "1.7rem",
-                          },
-                          Object {
-                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                            "fontWeight": 500,
-                            "size": "1.1rem",
-                          },
-                          Object {
-                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                            "fontWeight": 500,
-                            "size": "0.8rem",
-                          },
-                        ],
-                        "shapes": Object {
-                          "borderRadiusFull": "50%",
-                          "borderRadiusLarge": "8px",
-                          "borderRadiusMedium": "4px",
-                          "borderRadiusSmall": "2px",
-                          "borderWidthMedium": "2px",
-                          "borderWidthSmall": "1px",
-                        },
-                        "spacings": Object {
-                          "large1": "80px",
-                          "large2": "96px",
-                          "large3": "128px",
-                          "large4": "200px",
-                          "medium1": "32px",
-                          "medium2": "40px",
-                          "medium3": "48px",
-                          "medium4": "56px",
-                          "medium5": "64px",
-                          "small1": "4px",
-                          "small2": "8px",
-                          "small3": "16px",
-                          "small4": "24px",
-                        },
-                        "texts": Object {
-                          "p1b": Object {
-                            "color": "#212632",
-                            "fontSize": "14px",
-                            "fontWeight": 500,
-                            "lineHeight": "1.5",
-                          },
-                          "p2": Object {
-                            "color": "#212632",
-                            "fontSize": "12px",
-                            "fontWeight": 400,
-                            "lineHeight": "1.5",
-                          },
-                          "p2b": Object {
-                            "color": "#212632",
-                            "fontSize": "12px",
-                            "fontWeight": 500,
-                            "lineHeight": "1.5",
-                          },
-                          "p3b": Object {
-                            "color": "#212632",
-                            "fontSize": "10px",
-                            "fontWeight": 700,
-                            "lineHeight": "1.5",
-                          },
-                        },
-                      }
-                    }
-                    viewBox="0 0 32 32"
+                  <div
+                    className="c11 c12"
                   >
-                    <path
-                      clipRule="evenodd"
-                      d="M12.2 10a3.6 3.6 0 117.2 0 3.6 3.6 0 01-7.2 0zm3.6-6a6 6 0 100 12 6 6 0 000-12zM11 18.4a6 6 0 00-6 6v2.4a1.2 1.2 0 002.4 0v-2.4a3.6 3.6 0 013.6-3.6h9.6a3.6 3.6 0 013.6 3.6v2.4a1.2 1.2 0 002.4 0v-2.4a6 6 0 00-6-6H11z"
-                    />
-                  </svg>
+                    <svg
+                      className="c13"
+                      data-name="IconUser"
+                      preserveAspectRatio="xMidYMid meet"
+                      size="medium"
+                      theme={
+                        Object {
+                          "animations": Object {
+                            "loader": Keyframes {
+                              "id": "sc-keyframes-ivfYaJ",
+                              "inject": [Function],
+                              "name": "ivfYaJ",
+                              "rules": Array [
+                                "@-webkit-keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                                "@keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                              ],
+                              "toString": [Function],
+                            },
+                            "loaderInner": Keyframes {
+                              "id": "sc-keyframes-dkFWMP",
+                              "inject": [Function],
+                              "name": "dkFWMP",
+                              "rules": Array [
+                                "@-webkit-keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
+                                "@keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
+                              ],
+                              "toString": [Function],
+                            },
+                            "loading": Keyframes {
+                              "id": "sc-keyframes-kvsyCu",
+                              "inject": [Function],
+                              "name": "kvsyCu",
+                              "rules": Array [
+                                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                              ],
+                              "toString": [Function],
+                            },
+                            "rotate": Keyframes {
+                              "id": "sc-keyframes-iVXCSc",
+                              "inject": [Function],
+                              "name": "iVXCSc",
+                              "rules": Array [
+                                "@-webkit-keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                                "@keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                              ],
+                              "toString": [Function],
+                            },
+                          },
+                          "breakpoints": Array [
+                            "544px",
+                            "768px",
+                            "1012px",
+                            "1280px",
+                          ],
+                          "color": Object {
+                            "charcoal200": "#F8F8F8",
+                            "charcoal300": "#EFF2F7",
+                            "charcoal400": "#DCDFE6",
+                            "charcoal500": "#B6BBC6",
+                            "charcoal600": "#747D93",
+                            "charcoal700": "#363C4B",
+                            "charcoal800": "#212632",
+                            "emerald100": "#EEF8F6",
+                            "emerald500": "#55BAA9",
+                            "emerald600": "#299B9A",
+                            "primary100": "#EFF7FB",
+                            "primary300": "#48AAF1",
+                            "primary500": "#1778FB",
+                            "primary700": "#0C1B7A",
+                            "redclay100": "#FAEDEC",
+                            "redclay500": "#CD4C41",
+                            "redvelvet": "#B2314A;",
+                            "white": "#FFFFFF",
+                          },
+                          "components": Object {
+                            "accordionBorder": "1px solid #EFF2F7",
+                            "accordionColor": "#747D93",
+                            "accordionHeaderFontSize": "12px",
+                            "accordionHeaderFontWeight": 500,
+                            "accordionMinHeight": "65px",
+                            "accordionPadding": "16px 24px",
+                            "accordionSubHeaderColor": "#DCDFE6",
+                            "accordionSubHeaderFontSize": "10px",
+                            "accordionSubHeaderFontWeight": 700,
+                            "avatarBackgroundColor": "#363C4B",
+                            "avatarBorderRadius": "50%",
+                            "avatarColor": "#FFFFFF",
+                            "avatarFontSizeLarge": "24px",
+                            "avatarFontSizeMedium": "14px",
+                            "avatarFontSizeSmall": "12px",
+                            "avatarSizeLarge": "40px",
+                            "avatarSizeMedium": "32px",
+                            "avatarSizeSmall": "24px",
+                            "buttonFontSizeLarge": "14px",
+                            "buttonFontSizeMedium": "12px",
+                            "buttonLinkDisabledColor": "#DCDFE6",
+                            "buttonLinkFontSizeLarge": "14px",
+                            "buttonLinkFontSizeMedium": "14px",
+                            "buttonLinkFontSizeSmall": "12px",
+                            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                            "buttonLinkPaddingLarge": "6px",
+                            "buttonLinkPaddingMedium": "5px",
+                            "buttonLinkPaddingSmall": "3px 4px",
+                            "buttonLinkPrimaryColor": "#1778FB",
+                            "buttonLinkSecondaryColor": "#747D93",
+                            "buttonMinWidthLarge": "140px",
+                            "buttonMinWidthMedium": "120px",
+                            "buttonPaddingLarge": "19px 32px",
+                            "buttonPaddingMedium": "11px 32px",
+                            "buttonPrimaryBackgroundColor": "#1778FB",
+                            "buttonPrimaryBorderRadius": "4px",
+                            "buttonPrimaryColor": "#FFFFFF",
+                            "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+                            "buttonPrimaryHoverBackgroundColor": "#48AAF1",
+                            "buttonPrimaryHoverColor": "#FFFFFF",
+                            "buttonSecondaryBackgroundColor": "#FFFFFF",
+                            "buttonSecondaryBorderColor": "#DCDFE6",
+                            "buttonSecondaryBorderRadius": "4px",
+                            "buttonSecondaryColor": "#212632",
+                            "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+                            "buttonSecondaryDisabledBorderColor": "#EFF2F7",
+                            "buttonSecondaryDisabledColor": "#DCDFE6",
+                            "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
+                            "buttonSecondaryHoverBorderColor": "#DCDFE6",
+                            "buttonSecondaryHoverColor": "#212632",
+                            "checkboxBackground": "#FFFFFF",
+                            "checkboxBackgroundChecked": "#1778FB",
+                            "checkboxBackgroundDisabled": "#DCDFE6",
+                            "checkboxBorderColor": "#DCDFE6",
+                            "checkboxBorderRadius": "2px",
+                            "checkboxBorderWidth": "2px",
+                            "checkboxIconColor": "#FFFFFF",
+                            "checkboxLabelColor": "#212632",
+                            "checkboxLabelDisabled": "#DCDFE6",
+                            "checkboxLabelFontSize": "14px",
+                            "checkboxLabelMargin": "16px",
+                            "checkboxSizeMedium": "24px",
+                            "checkboxSizeSmall": "16px",
+                            "drawerBackgroundColor": "#FFFFFF",
+                            "drawerBorder": "1px solid #EFF2F7",
+                            "drawerCloseButtonBackground": "#FFFFFF",
+                            "drawerCloseButtonBorder": "1px solid #DCDFE6",
+                            "drawerCloseButtonBorderRadius": "4px",
+                            "drawerCloseButtonPadding": "6px",
+                            "drawerHeaderBorder": "1px solid #EFF2F7",
+                            "drawerHeaderMinHeight": "73px",
+                            "drawerHeaderPadding": "20px 24px",
+                            "drawerMaxWidth": "320px",
+                            "dropdownBackground": "#FFFFFF",
+                            "dropdownBorderColor": "#EFF2F7",
+                            "dropdownBorderRadius": "4px",
+                            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+                            "dropdownPadding": "8px",
+                            "formGroupMarginBottom": "16px",
+                            "iconPrimaryColor": "#1778FB",
+                            "iconSecondaryColor": "#747D93",
+                            "iconSizeLarge": "32px",
+                            "iconSizeMedium": "24px",
+                            "iconSizeSmall": "16px",
+                            "inputFieldBackgroundColor": "#FFFFFF",
+                            "inputFieldBorderColor": "#DCDFE6",
+                            "inputFieldBorderRadius": "4px",
+                            "inputFieldDisabledBackgroundColor": "#F8F8F8",
+                            "inputFieldDisabledBorderColor": "#DCDFE6",
+                            "inputFieldDisabledColor": "#DCDFE6",
+                            "inputFieldDisabledLabelColor": "#DCDFE6",
+                            "inputFieldErrorBackgroundColor": "#FAEDEC",
+                            "inputFieldErrorBorderColor": "#CD4C41",
+                            "inputFieldErrorHelpColor": "#CD4C41",
+                            "inputFieldErrorPlaceholderColor": "#CD4C41",
+                            "inputFieldFocusBackgroundColor": "#EFF7FB",
+                            "inputFieldFocusBorderColor": "#48AAF1",
+                            "inputFieldFocusLabelColor": "#48AAF1",
+                            "inputFieldFontSize": "14px",
+                            "inputFieldHelpColor": "#212632",
+                            "inputFieldHelpFontSize": "12px",
+                            "inputFieldLabelColor": "#363C4B",
+                            "inputFieldLabelFontSize": "12px",
+                            "inputFieldLineHeight": "48px",
+                            "inputFieldPlaceholderColor": "#DCDFE6",
+                            "inputFieldTextIndent": "24px",
+                            "listBackgroundColor": "#FFFFFF",
+                            "listItemBackgroundColorActiveHover": "#EFF7FB",
+                            "listItemBackgroundColorDefaultHover": "#EFF2F7",
+                            "listItemBackgroundColorHoverDisabled": "#F8F8F8",
+                            "listItemBorderRadius": "2px",
+                            "listItemColorActive": "#1778FB",
+                            "listItemColorActiveHover": "#EFF7FB",
+                            "listItemColorDefault": "#212632",
+                            "listItemColorDefaultHover": "#EFF2F7",
+                            "listItemColorDisabled": "#B6BBC6",
+                            "listItemFontSize": "12px",
+                            "listItemFontSizeLarge": "14px",
+                            "listItemFontSizeMedium": "12px",
+                            "listItemFontWeight": 400,
+                            "listItemMargin": "0 0 4px",
+                            "listItemPaddingLarge": "8px 16px",
+                            "listItemPaddingMedium": "7px 16px",
+                            "listItemSeparatorColor": "#EFF2F7",
+                            "listNavItemBackgroundColorDisabled": "#FFFFFF",
+                            "listNavItemColorActive": "#1778FB",
+                            "listNavItemColorDefault": "#747D93",
+                            "listNavItemColorDisabled": "#DCDFE6",
+                            "listNavItemColorHover": "#747D93",
+                            "listNavItemFontSize": "14px",
+                            "listNavItemFontWeight": 500,
+                            "listPadding": "8px",
+                            "loaderSizeLarge": "64px",
+                            "loaderSizeMedium": "48px",
+                            "loaderSizeSmall": "32px",
+                            "navigationBackgroundColor": "white",
+                            "navigationBorder": "1px solid #EFF2F7",
+                            "navigationContentMargin": "0 24px 0 0",
+                            "navigationHeaderPadding": "0 17px",
+                            "navigationLinkFontSize": "12px",
+                            "navigationLinkMargin": "0 24px 0 0",
+                            "navigationMaxHeight": "73px",
+                            "navigationMenuBackgroundColor": "#EFF2F7",
+                            "navigationMenuHoverBackgroundColor": "#DCDFE6",
+                            "navigationMenuOpenBackgroundColor": "#EFF7FB",
+                            "navigationMinHeight": "40px",
+                            "notificationBorderRadius": "8px",
+                            "notificationCloseButtonColor": "#212632",
+                            "notificationErrorBackgroundColor": "#FAEDEC",
+                            "notificationErrorColor": "#CD4C41",
+                            "notificationNormalBackgroundColor": "#EFF7FB",
+                            "notificationNormalColor": "#212632",
+                            "notificationPadding": "16px",
+                            "notificationSuccessBackgroundColor": "#EEF8F6",
+                            "notificationSuccessColor": "#299B9A",
+                            "paginationLabelColor": "#212632",
+                            "paginationLabelMarginBottom": "16px",
+                            "paginationProgressActiveBackgroundColor": "#212632",
+                            "paginationProgressBackgroundColor": "#DCDFE6",
+                            "paginationProgressMarginBottom": "16px",
+                            "tabBadgeBackground": "#EFF2F7",
+                            "tabBadgeBackgroundActive": "#1778FB",
+                            "tabBadgeBackgroundHover": "#48AAF1",
+                            "tabBadgeColor": "#747D93",
+                            "tabBadgeColorActive": "#FFFFFF",
+                            "tabBadgeColorHover": "#FFFFFF",
+                            "tabBadgeFontSize": "12px",
+                            "tabBadgeFontWeight": 500,
+                            "tabBadgePadding": "2px 8px",
+                            "tabBorderColor": "transparent",
+                            "tabBorderColorActive": "#1778FB",
+                            "tabBorderColorHover": "#48AAF1",
+                            "tabColor": "#747D93",
+                            "tabColorActive": "#1778FB",
+                            "tabColorDisabled": "#DCDFE6",
+                            "tabColorHover": "#48AAF1",
+                            "tabFontSize": "12px",
+                            "tabFontWeight": 500,
+                            "tabsBackgroundColor": "white",
+                            "tabsBorderColor": "#EFF2F7",
+                            "textLinkDisabledColor": "#DCDFE6",
+                            "textLinkFontSizeLarge": "14px",
+                            "textLinkFontSizeMedium": "12px",
+                            "textLinkPrimaryColor": "#1778FB",
+                            "textLinkPrimaryHoverColor": "#48AAF1",
+                            "textLinkSecondaryColor": "#747D93",
+                            "textLinkSecondaryHoverColor": "#48AAF1",
+                          },
+                          "fonts": Array [
+                            Object {
+                              "name": "Roboto-Regular",
+                              "style": "normal",
+                              "weight": "normal",
+                            },
+                            Object {
+                              "name": "Roboto Medium",
+                              "style": "normal",
+                              "weight": 500,
+                            },
+                            Object {
+                              "name": "Roboto Bold",
+                              "style": "normal",
+                              "weight": 700,
+                            },
+                          ],
+                          "global": Object {
+                            "bgColor": "white",
+                            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
+                            "fontColor": "#333",
+                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                            "fontSize": "14px",
+                            "fontWeightBold": 700,
+                            "fontWeightMedium": 500,
+                            "fontWeightRegular": 400,
+                            "transitionM": "all 250ms ease-in-out",
+                            "transitionS": "all 120ms ease-in-out",
+                          },
+                          "headings": Array [
+                            Object {
+                              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                              "fontWeight": 500,
+                              "size": "3.4rem",
+                            },
+                            Object {
+                              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                              "fontWeight": 500,
+                              "size": "2.5rem",
+                            },
+                            Object {
+                              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                              "fontWeight": 500,
+                              "size": "1.7rem",
+                            },
+                            Object {
+                              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                              "fontWeight": 500,
+                              "size": "1.1rem",
+                            },
+                            Object {
+                              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                              "fontWeight": 500,
+                              "size": "0.8rem",
+                            },
+                          ],
+                          "shapes": Object {
+                            "borderRadiusFull": "50%",
+                            "borderRadiusLarge": "8px",
+                            "borderRadiusMedium": "4px",
+                            "borderRadiusSmall": "2px",
+                            "borderWidthMedium": "2px",
+                            "borderWidthSmall": "1px",
+                          },
+                          "spacings": Object {
+                            "large1": "80px",
+                            "large2": "96px",
+                            "large3": "128px",
+                            "large4": "200px",
+                            "medium1": "32px",
+                            "medium2": "40px",
+                            "medium3": "48px",
+                            "medium4": "56px",
+                            "medium5": "64px",
+                            "small1": "4px",
+                            "small2": "8px",
+                            "small3": "16px",
+                            "small4": "24px",
+                          },
+                          "texts": Object {
+                            "p1b": Object {
+                              "color": "#212632",
+                              "fontSize": "14px",
+                              "fontWeight": 500,
+                              "lineHeight": "1.5",
+                            },
+                            "p2": Object {
+                              "color": "#212632",
+                              "fontSize": "12px",
+                              "fontWeight": 400,
+                              "lineHeight": "1.5",
+                            },
+                            "p2b": Object {
+                              "color": "#212632",
+                              "fontSize": "12px",
+                              "fontWeight": 500,
+                              "lineHeight": "1.5",
+                            },
+                            "p3b": Object {
+                              "color": "#212632",
+                              "fontSize": "10px",
+                              "fontWeight": 700,
+                              "lineHeight": "1.5",
+                            },
+                          },
+                        }
+                      }
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        clipRule="evenodd"
+                        d="M12.2 10a3.6 3.6 0 117.2 0 3.6 3.6 0 01-7.2 0zm3.6-6a6 6 0 100 12 6 6 0 000-12zM11 18.4a6 6 0 00-6 6v2.4a1.2 1.2 0 002.4 0v-2.4a3.6 3.6 0 013.6-3.6h9.6a3.6 3.6 0 013.6 3.6v2.4a1.2 1.2 0 002.4 0v-2.4a6 6 0 00-6-6H11z"
+                      />
+                    </svg>
+                  </div>
+                  Text
                 </div>
-                Text
-              </div>
-            </li>
-            <li
-              className="c8"
-              size="medium"
-            >
-              <div
-                className="c9 "
+              </li>
+              <li
+                className="c9"
+                size="medium"
               >
                 <div
-                  className="c10 c11"
+                  className="c10 "
                 >
-                  <svg
-                    className="c12"
-                    data-name="IconUpdate"
-                    preserveAspectRatio="xMidYMid meet"
-                    size="medium"
-                    theme={
-                      Object {
-                        "animations": Object {
-                          "loader": Keyframes {
-                            "id": "sc-keyframes-ivfYaJ",
-                            "inject": [Function],
-                            "name": "ivfYaJ",
-                            "rules": Array [
-                              "@-webkit-keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                              "@keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                            ],
-                            "toString": [Function],
-                          },
-                          "loaderInner": Keyframes {
-                            "id": "sc-keyframes-dkFWMP",
-                            "inject": [Function],
-                            "name": "dkFWMP",
-                            "rules": Array [
-                              "@-webkit-keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
-                              "@keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
-                            ],
-                            "toString": [Function],
-                          },
-                          "loading": Keyframes {
-                            "id": "sc-keyframes-kvsyCu",
-                            "inject": [Function],
-                            "name": "kvsyCu",
-                            "rules": Array [
-                              "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
-                              "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
-                            ],
-                            "toString": [Function],
-                          },
-                          "rotate": Keyframes {
-                            "id": "sc-keyframes-iVXCSc",
-                            "inject": [Function],
-                            "name": "iVXCSc",
-                            "rules": Array [
-                              "@-webkit-keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                              "@keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
-                            ],
-                            "toString": [Function],
-                          },
-                        },
-                        "breakpoints": Array [
-                          "544px",
-                          "768px",
-                          "1012px",
-                          "1280px",
-                        ],
-                        "color": Object {
-                          "charcoal200": "#F8F8F8",
-                          "charcoal300": "#EFF2F7",
-                          "charcoal400": "#DCDFE6",
-                          "charcoal500": "#B6BBC6",
-                          "charcoal600": "#747D93",
-                          "charcoal700": "#363C4B",
-                          "charcoal800": "#212632",
-                          "emerald100": "#EEF8F6",
-                          "emerald500": "#55BAA9",
-                          "emerald600": "#299B9A",
-                          "primary100": "#EFF7FB",
-                          "primary300": "#48AAF1",
-                          "primary500": "#1778FB",
-                          "primary700": "#0C1B7A",
-                          "redclay100": "#FAEDEC",
-                          "redclay500": "#CD4C41",
-                          "redvelvet": "#B2314A;",
-                          "white": "#FFFFFF",
-                        },
-                        "components": Object {
-                          "accordionBorder": "1px solid #EFF2F7",
-                          "accordionColor": "#747D93",
-                          "accordionHeaderFontSize": "12px",
-                          "accordionHeaderFontWeight": 500,
-                          "accordionMinHeight": "65px",
-                          "accordionPadding": "16px 24px",
-                          "accordionSubHeaderColor": "#DCDFE6",
-                          "accordionSubHeaderFontSize": "10px",
-                          "accordionSubHeaderFontWeight": 700,
-                          "avatarBackgroundColor": "#363C4B",
-                          "avatarBorderRadius": "50%",
-                          "avatarColor": "#FFFFFF",
-                          "avatarFontSizeLarge": "24px",
-                          "avatarFontSizeMedium": "14px",
-                          "avatarFontSizeSmall": "12px",
-                          "avatarSizeLarge": "40px",
-                          "avatarSizeMedium": "32px",
-                          "avatarSizeSmall": "24px",
-                          "buttonFontSizeLarge": "14px",
-                          "buttonFontSizeMedium": "12px",
-                          "buttonLinkDisabledColor": "#DCDFE6",
-                          "buttonLinkFontSizeLarge": "14px",
-                          "buttonLinkFontSizeMedium": "14px",
-                          "buttonLinkFontSizeSmall": "12px",
-                          "buttonLinkHoverBackgroundColor": "#EFF2F7",
-                          "buttonLinkPaddingLarge": "6px",
-                          "buttonLinkPaddingMedium": "5px",
-                          "buttonLinkPaddingSmall": "3px 4px",
-                          "buttonLinkPrimaryColor": "#1778FB",
-                          "buttonLinkSecondaryColor": "#747D93",
-                          "buttonMinWidthLarge": "140px",
-                          "buttonMinWidthMedium": "120px",
-                          "buttonPaddingLarge": "19px 32px",
-                          "buttonPaddingMedium": "11px 32px",
-                          "buttonPrimaryBackgroundColor": "#1778FB",
-                          "buttonPrimaryBorderRadius": "4px",
-                          "buttonPrimaryColor": "#FFFFFF",
-                          "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
-                          "buttonPrimaryHoverBackgroundColor": "#48AAF1",
-                          "buttonPrimaryHoverColor": "#FFFFFF",
-                          "buttonSecondaryBackgroundColor": "#FFFFFF",
-                          "buttonSecondaryBorderColor": "#DCDFE6",
-                          "buttonSecondaryBorderRadius": "4px",
-                          "buttonSecondaryColor": "#212632",
-                          "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                          "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                          "buttonSecondaryDisabledColor": "#DCDFE6",
-                          "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
-                          "buttonSecondaryHoverBorderColor": "#DCDFE6",
-                          "buttonSecondaryHoverColor": "#212632",
-                          "checkboxBackground": "#FFFFFF",
-                          "checkboxBackgroundChecked": "#1778FB",
-                          "checkboxBackgroundDisabled": "#DCDFE6",
-                          "checkboxBorderColor": "#DCDFE6",
-                          "checkboxBorderRadius": "2px",
-                          "checkboxBorderWidth": "2px",
-                          "checkboxIconColor": "#FFFFFF",
-                          "checkboxLabelColor": "#212632",
-                          "checkboxLabelDisabled": "#DCDFE6",
-                          "checkboxLabelFontSize": "14px",
-                          "checkboxLabelMargin": "16px",
-                          "checkboxSizeMedium": "24px",
-                          "checkboxSizeSmall": "16px",
-                          "drawerBackgroundColor": "#FFFFFF",
-                          "drawerBorder": "1px solid #EFF2F7",
-                          "drawerCloseButtonBackground": "#FFFFFF",
-                          "drawerCloseButtonBorder": "1px solid #DCDFE6",
-                          "drawerCloseButtonBorderRadius": "4px",
-                          "drawerCloseButtonPadding": "6px",
-                          "drawerHeaderBorder": "1px solid #EFF2F7",
-                          "drawerHeaderMinHeight": "73px",
-                          "drawerHeaderPadding": "20px 24px",
-                          "drawerMaxWidth": "320px",
-                          "dropdownBackground": "#FFFFFF",
-                          "dropdownBorderColor": "#EFF2F7",
-                          "dropdownBorderRadius": "4px",
-                          "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
-                          "dropdownPadding": "8px",
-                          "formGroupMarginBottom": "16px",
-                          "iconPrimaryColor": "#1778FB",
-                          "iconSecondaryColor": "#747D93",
-                          "iconSizeLarge": "32px",
-                          "iconSizeMedium": "24px",
-                          "iconSizeSmall": "16px",
-                          "inputFieldBackgroundColor": "#FFFFFF",
-                          "inputFieldBorderColor": "#DCDFE6",
-                          "inputFieldBorderRadius": "4px",
-                          "inputFieldDisabledBackgroundColor": "#F8F8F8",
-                          "inputFieldDisabledBorderColor": "#DCDFE6",
-                          "inputFieldDisabledColor": "#DCDFE6",
-                          "inputFieldDisabledLabelColor": "#DCDFE6",
-                          "inputFieldErrorBackgroundColor": "#FAEDEC",
-                          "inputFieldErrorBorderColor": "#CD4C41",
-                          "inputFieldErrorHelpColor": "#CD4C41",
-                          "inputFieldErrorPlaceholderColor": "#CD4C41",
-                          "inputFieldFocusBackgroundColor": "#EFF7FB",
-                          "inputFieldFocusBorderColor": "#48AAF1",
-                          "inputFieldFocusLabelColor": "#48AAF1",
-                          "inputFieldFontSize": "14px",
-                          "inputFieldHelpColor": "#212632",
-                          "inputFieldHelpFontSize": "12px",
-                          "inputFieldLabelColor": "#363C4B",
-                          "inputFieldLabelFontSize": "12px",
-                          "inputFieldLineHeight": "48px",
-                          "inputFieldPlaceholderColor": "#DCDFE6",
-                          "inputFieldTextIndent": "24px",
-                          "listBackgroundColor": "#FFFFFF",
-                          "listItemBackgroundColorActiveHover": "#EFF7FB",
-                          "listItemBackgroundColorDefaultHover": "#EFF2F7",
-                          "listItemBackgroundColorHoverDisabled": "#F8F8F8",
-                          "listItemBorderRadius": "2px",
-                          "listItemColorActive": "#1778FB",
-                          "listItemColorActiveHover": "#EFF7FB",
-                          "listItemColorDefault": "#212632",
-                          "listItemColorDefaultHover": "#EFF2F7",
-                          "listItemColorDisabled": "#B6BBC6",
-                          "listItemFontSize": "12px",
-                          "listItemFontSizeLarge": "14px",
-                          "listItemFontSizeMedium": "12px",
-                          "listItemFontWeight": 400,
-                          "listItemMargin": "0 0 4px",
-                          "listItemPaddingLarge": "8px 16px",
-                          "listItemPaddingMedium": "7px 16px",
-                          "listItemSeparatorColor": "#EFF2F7",
-                          "listNavItemBackgroundColorDisabled": "#FFFFFF",
-                          "listNavItemColorActive": "#1778FB",
-                          "listNavItemColorDefault": "#747D93",
-                          "listNavItemColorDisabled": "#DCDFE6",
-                          "listNavItemColorHover": "#747D93",
-                          "listNavItemFontSize": "14px",
-                          "listNavItemFontWeight": 500,
-                          "listPadding": "8px",
-                          "loaderSizeLarge": "64px",
-                          "loaderSizeMedium": "48px",
-                          "loaderSizeSmall": "32px",
-                          "navigationBackgroundColor": "white",
-                          "navigationBorder": "1px solid #EFF2F7",
-                          "navigationContentMargin": "0 24px 0 0",
-                          "navigationHeaderPadding": "0 17px",
-                          "navigationLinkFontSize": "12px",
-                          "navigationLinkMargin": "0 24px 0 0",
-                          "navigationMaxHeight": "73px",
-                          "navigationMenuBackgroundColor": "#EFF2F7",
-                          "navigationMenuHoverBackgroundColor": "#DCDFE6",
-                          "navigationMenuOpenBackgroundColor": "#EFF7FB",
-                          "navigationMinHeight": "40px",
-                          "notificationBorderRadius": "8px",
-                          "notificationCloseButtonColor": "#212632",
-                          "notificationErrorBackgroundColor": "#FAEDEC",
-                          "notificationErrorColor": "#CD4C41",
-                          "notificationNormalBackgroundColor": "#EFF7FB",
-                          "notificationNormalColor": "#212632",
-                          "notificationPadding": "16px",
-                          "notificationSuccessBackgroundColor": "#EEF8F6",
-                          "notificationSuccessColor": "#299B9A",
-                          "paginationLabelColor": "#212632",
-                          "paginationLabelMarginBottom": "16px",
-                          "paginationProgressActiveBackgroundColor": "#212632",
-                          "paginationProgressBackgroundColor": "#DCDFE6",
-                          "paginationProgressMarginBottom": "16px",
-                          "tabBadgeBackground": "#EFF2F7",
-                          "tabBadgeBackgroundActive": "#1778FB",
-                          "tabBadgeBackgroundHover": "#48AAF1",
-                          "tabBadgeColor": "#747D93",
-                          "tabBadgeColorActive": "#FFFFFF",
-                          "tabBadgeColorHover": "#FFFFFF",
-                          "tabBadgeFontSize": "12px",
-                          "tabBadgeFontWeight": 500,
-                          "tabBadgePadding": "2px 8px",
-                          "tabBorderColor": "transparent",
-                          "tabBorderColorActive": "#1778FB",
-                          "tabBorderColorHover": "#48AAF1",
-                          "tabColor": "#747D93",
-                          "tabColorActive": "#1778FB",
-                          "tabColorDisabled": "#DCDFE6",
-                          "tabColorHover": "#48AAF1",
-                          "tabFontSize": "12px",
-                          "tabFontWeight": 500,
-                          "tabsBackgroundColor": "white",
-                          "tabsBorderColor": "#EFF2F7",
-                          "textLinkDisabledColor": "#DCDFE6",
-                          "textLinkFontSizeLarge": "14px",
-                          "textLinkFontSizeMedium": "12px",
-                          "textLinkPrimaryColor": "#1778FB",
-                          "textLinkPrimaryHoverColor": "#48AAF1",
-                          "textLinkSecondaryColor": "#747D93",
-                          "textLinkSecondaryHoverColor": "#48AAF1",
-                        },
-                        "fonts": Array [
-                          Object {
-                            "name": "Roboto-Regular",
-                            "style": "normal",
-                            "weight": "normal",
-                          },
-                          Object {
-                            "name": "Roboto Medium",
-                            "style": "normal",
-                            "weight": 500,
-                          },
-                          Object {
-                            "name": "Roboto Bold",
-                            "style": "normal",
-                            "weight": 700,
-                          },
-                        ],
-                        "global": Object {
-                          "bgColor": "white",
-                          "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
-                          "fontColor": "#333",
-                          "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                          "fontSize": "14px",
-                          "fontWeightBold": 700,
-                          "fontWeightMedium": 500,
-                          "fontWeightRegular": 400,
-                          "transitionM": "all 250ms ease-in-out",
-                          "transitionS": "all 120ms ease-in-out",
-                        },
-                        "headings": Array [
-                          Object {
-                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                            "fontWeight": 500,
-                            "size": "3.4rem",
-                          },
-                          Object {
-                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                            "fontWeight": 500,
-                            "size": "2.5rem",
-                          },
-                          Object {
-                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                            "fontWeight": 500,
-                            "size": "1.7rem",
-                          },
-                          Object {
-                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                            "fontWeight": 500,
-                            "size": "1.1rem",
-                          },
-                          Object {
-                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
-                            "fontWeight": 500,
-                            "size": "0.8rem",
-                          },
-                        ],
-                        "shapes": Object {
-                          "borderRadiusFull": "50%",
-                          "borderRadiusLarge": "8px",
-                          "borderRadiusMedium": "4px",
-                          "borderRadiusSmall": "2px",
-                          "borderWidthMedium": "2px",
-                          "borderWidthSmall": "1px",
-                        },
-                        "spacings": Object {
-                          "large1": "80px",
-                          "large2": "96px",
-                          "large3": "128px",
-                          "large4": "200px",
-                          "medium1": "32px",
-                          "medium2": "40px",
-                          "medium3": "48px",
-                          "medium4": "56px",
-                          "medium5": "64px",
-                          "small1": "4px",
-                          "small2": "8px",
-                          "small3": "16px",
-                          "small4": "24px",
-                        },
-                        "texts": Object {
-                          "p1b": Object {
-                            "color": "#212632",
-                            "fontSize": "14px",
-                            "fontWeight": 500,
-                            "lineHeight": "1.5",
-                          },
-                          "p2": Object {
-                            "color": "#212632",
-                            "fontSize": "12px",
-                            "fontWeight": 400,
-                            "lineHeight": "1.5",
-                          },
-                          "p2b": Object {
-                            "color": "#212632",
-                            "fontSize": "12px",
-                            "fontWeight": 500,
-                            "lineHeight": "1.5",
-                          },
-                          "p3b": Object {
-                            "color": "#212632",
-                            "fontSize": "10px",
-                            "fontWeight": 700,
-                            "lineHeight": "1.5",
-                          },
-                        },
-                      }
-                    }
-                    viewBox="0 0 32 32"
+                  <div
+                    className="c11 c12"
                   >
-                    <path
-                      clipRule="evenodd"
-                      d="M4 12.995c0 .124.022.248.068.365l.005.013a1 1 0 00.927.625h6a1 1 0 100-2H7.525l2.8-2.631a8.015 8.015 0 017.446-2.17 8 8 0 015.776 5.134 1 1 0 101.886-.667 10 10 0 00-16.5-3.733L6 10.686V6.998a1 1 0 10-2 0v5.997zm23 6.007a1 1 0 00-.068-.364l-.005-.013A1 1 0 0026 18h-6a1 1 0 100 2h3.476l-2.8 2.631a8.015 8.015 0 01-7.447 2.17 8 8 0 01-5.776-5.135 1 1 0 00-1.886.668 10 10 0 0016.5 3.733L25 21.312V25a1 1 0 102 0v-5.998z"
-                    />
-                  </svg>
+                    <svg
+                      className="c13"
+                      data-name="IconUpdate"
+                      preserveAspectRatio="xMidYMid meet"
+                      size="medium"
+                      theme={
+                        Object {
+                          "animations": Object {
+                            "loader": Keyframes {
+                              "id": "sc-keyframes-ivfYaJ",
+                              "inject": [Function],
+                              "name": "ivfYaJ",
+                              "rules": Array [
+                                "@-webkit-keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                                "@keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                              ],
+                              "toString": [Function],
+                            },
+                            "loaderInner": Keyframes {
+                              "id": "sc-keyframes-dkFWMP",
+                              "inject": [Function],
+                              "name": "dkFWMP",
+                              "rules": Array [
+                                "@-webkit-keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
+                                "@keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
+                              ],
+                              "toString": [Function],
+                            },
+                            "loading": Keyframes {
+                              "id": "sc-keyframes-kvsyCu",
+                              "inject": [Function],
+                              "name": "kvsyCu",
+                              "rules": Array [
+                                "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                                "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                              ],
+                              "toString": [Function],
+                            },
+                            "rotate": Keyframes {
+                              "id": "sc-keyframes-iVXCSc",
+                              "inject": [Function],
+                              "name": "iVXCSc",
+                              "rules": Array [
+                                "@-webkit-keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                                "@keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                              ],
+                              "toString": [Function],
+                            },
+                          },
+                          "breakpoints": Array [
+                            "544px",
+                            "768px",
+                            "1012px",
+                            "1280px",
+                          ],
+                          "color": Object {
+                            "charcoal200": "#F8F8F8",
+                            "charcoal300": "#EFF2F7",
+                            "charcoal400": "#DCDFE6",
+                            "charcoal500": "#B6BBC6",
+                            "charcoal600": "#747D93",
+                            "charcoal700": "#363C4B",
+                            "charcoal800": "#212632",
+                            "emerald100": "#EEF8F6",
+                            "emerald500": "#55BAA9",
+                            "emerald600": "#299B9A",
+                            "primary100": "#EFF7FB",
+                            "primary300": "#48AAF1",
+                            "primary500": "#1778FB",
+                            "primary700": "#0C1B7A",
+                            "redclay100": "#FAEDEC",
+                            "redclay500": "#CD4C41",
+                            "redvelvet": "#B2314A;",
+                            "white": "#FFFFFF",
+                          },
+                          "components": Object {
+                            "accordionBorder": "1px solid #EFF2F7",
+                            "accordionColor": "#747D93",
+                            "accordionHeaderFontSize": "12px",
+                            "accordionHeaderFontWeight": 500,
+                            "accordionMinHeight": "65px",
+                            "accordionPadding": "16px 24px",
+                            "accordionSubHeaderColor": "#DCDFE6",
+                            "accordionSubHeaderFontSize": "10px",
+                            "accordionSubHeaderFontWeight": 700,
+                            "avatarBackgroundColor": "#363C4B",
+                            "avatarBorderRadius": "50%",
+                            "avatarColor": "#FFFFFF",
+                            "avatarFontSizeLarge": "24px",
+                            "avatarFontSizeMedium": "14px",
+                            "avatarFontSizeSmall": "12px",
+                            "avatarSizeLarge": "40px",
+                            "avatarSizeMedium": "32px",
+                            "avatarSizeSmall": "24px",
+                            "buttonFontSizeLarge": "14px",
+                            "buttonFontSizeMedium": "12px",
+                            "buttonLinkDisabledColor": "#DCDFE6",
+                            "buttonLinkFontSizeLarge": "14px",
+                            "buttonLinkFontSizeMedium": "14px",
+                            "buttonLinkFontSizeSmall": "12px",
+                            "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                            "buttonLinkPaddingLarge": "6px",
+                            "buttonLinkPaddingMedium": "5px",
+                            "buttonLinkPaddingSmall": "3px 4px",
+                            "buttonLinkPrimaryColor": "#1778FB",
+                            "buttonLinkSecondaryColor": "#747D93",
+                            "buttonMinWidthLarge": "140px",
+                            "buttonMinWidthMedium": "120px",
+                            "buttonPaddingLarge": "19px 32px",
+                            "buttonPaddingMedium": "11px 32px",
+                            "buttonPrimaryBackgroundColor": "#1778FB",
+                            "buttonPrimaryBorderRadius": "4px",
+                            "buttonPrimaryColor": "#FFFFFF",
+                            "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+                            "buttonPrimaryHoverBackgroundColor": "#48AAF1",
+                            "buttonPrimaryHoverColor": "#FFFFFF",
+                            "buttonSecondaryBackgroundColor": "#FFFFFF",
+                            "buttonSecondaryBorderColor": "#DCDFE6",
+                            "buttonSecondaryBorderRadius": "4px",
+                            "buttonSecondaryColor": "#212632",
+                            "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+                            "buttonSecondaryDisabledBorderColor": "#EFF2F7",
+                            "buttonSecondaryDisabledColor": "#DCDFE6",
+                            "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
+                            "buttonSecondaryHoverBorderColor": "#DCDFE6",
+                            "buttonSecondaryHoverColor": "#212632",
+                            "checkboxBackground": "#FFFFFF",
+                            "checkboxBackgroundChecked": "#1778FB",
+                            "checkboxBackgroundDisabled": "#DCDFE6",
+                            "checkboxBorderColor": "#DCDFE6",
+                            "checkboxBorderRadius": "2px",
+                            "checkboxBorderWidth": "2px",
+                            "checkboxIconColor": "#FFFFFF",
+                            "checkboxLabelColor": "#212632",
+                            "checkboxLabelDisabled": "#DCDFE6",
+                            "checkboxLabelFontSize": "14px",
+                            "checkboxLabelMargin": "16px",
+                            "checkboxSizeMedium": "24px",
+                            "checkboxSizeSmall": "16px",
+                            "drawerBackgroundColor": "#FFFFFF",
+                            "drawerBorder": "1px solid #EFF2F7",
+                            "drawerCloseButtonBackground": "#FFFFFF",
+                            "drawerCloseButtonBorder": "1px solid #DCDFE6",
+                            "drawerCloseButtonBorderRadius": "4px",
+                            "drawerCloseButtonPadding": "6px",
+                            "drawerHeaderBorder": "1px solid #EFF2F7",
+                            "drawerHeaderMinHeight": "73px",
+                            "drawerHeaderPadding": "20px 24px",
+                            "drawerMaxWidth": "320px",
+                            "dropdownBackground": "#FFFFFF",
+                            "dropdownBorderColor": "#EFF2F7",
+                            "dropdownBorderRadius": "4px",
+                            "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+                            "dropdownPadding": "8px",
+                            "formGroupMarginBottom": "16px",
+                            "iconPrimaryColor": "#1778FB",
+                            "iconSecondaryColor": "#747D93",
+                            "iconSizeLarge": "32px",
+                            "iconSizeMedium": "24px",
+                            "iconSizeSmall": "16px",
+                            "inputFieldBackgroundColor": "#FFFFFF",
+                            "inputFieldBorderColor": "#DCDFE6",
+                            "inputFieldBorderRadius": "4px",
+                            "inputFieldDisabledBackgroundColor": "#F8F8F8",
+                            "inputFieldDisabledBorderColor": "#DCDFE6",
+                            "inputFieldDisabledColor": "#DCDFE6",
+                            "inputFieldDisabledLabelColor": "#DCDFE6",
+                            "inputFieldErrorBackgroundColor": "#FAEDEC",
+                            "inputFieldErrorBorderColor": "#CD4C41",
+                            "inputFieldErrorHelpColor": "#CD4C41",
+                            "inputFieldErrorPlaceholderColor": "#CD4C41",
+                            "inputFieldFocusBackgroundColor": "#EFF7FB",
+                            "inputFieldFocusBorderColor": "#48AAF1",
+                            "inputFieldFocusLabelColor": "#48AAF1",
+                            "inputFieldFontSize": "14px",
+                            "inputFieldHelpColor": "#212632",
+                            "inputFieldHelpFontSize": "12px",
+                            "inputFieldLabelColor": "#363C4B",
+                            "inputFieldLabelFontSize": "12px",
+                            "inputFieldLineHeight": "48px",
+                            "inputFieldPlaceholderColor": "#DCDFE6",
+                            "inputFieldTextIndent": "24px",
+                            "listBackgroundColor": "#FFFFFF",
+                            "listItemBackgroundColorActiveHover": "#EFF7FB",
+                            "listItemBackgroundColorDefaultHover": "#EFF2F7",
+                            "listItemBackgroundColorHoverDisabled": "#F8F8F8",
+                            "listItemBorderRadius": "2px",
+                            "listItemColorActive": "#1778FB",
+                            "listItemColorActiveHover": "#EFF7FB",
+                            "listItemColorDefault": "#212632",
+                            "listItemColorDefaultHover": "#EFF2F7",
+                            "listItemColorDisabled": "#B6BBC6",
+                            "listItemFontSize": "12px",
+                            "listItemFontSizeLarge": "14px",
+                            "listItemFontSizeMedium": "12px",
+                            "listItemFontWeight": 400,
+                            "listItemMargin": "0 0 4px",
+                            "listItemPaddingLarge": "8px 16px",
+                            "listItemPaddingMedium": "7px 16px",
+                            "listItemSeparatorColor": "#EFF2F7",
+                            "listNavItemBackgroundColorDisabled": "#FFFFFF",
+                            "listNavItemColorActive": "#1778FB",
+                            "listNavItemColorDefault": "#747D93",
+                            "listNavItemColorDisabled": "#DCDFE6",
+                            "listNavItemColorHover": "#747D93",
+                            "listNavItemFontSize": "14px",
+                            "listNavItemFontWeight": 500,
+                            "listPadding": "8px",
+                            "loaderSizeLarge": "64px",
+                            "loaderSizeMedium": "48px",
+                            "loaderSizeSmall": "32px",
+                            "navigationBackgroundColor": "white",
+                            "navigationBorder": "1px solid #EFF2F7",
+                            "navigationContentMargin": "0 24px 0 0",
+                            "navigationHeaderPadding": "0 17px",
+                            "navigationLinkFontSize": "12px",
+                            "navigationLinkMargin": "0 24px 0 0",
+                            "navigationMaxHeight": "73px",
+                            "navigationMenuBackgroundColor": "#EFF2F7",
+                            "navigationMenuHoverBackgroundColor": "#DCDFE6",
+                            "navigationMenuOpenBackgroundColor": "#EFF7FB",
+                            "navigationMinHeight": "40px",
+                            "notificationBorderRadius": "8px",
+                            "notificationCloseButtonColor": "#212632",
+                            "notificationErrorBackgroundColor": "#FAEDEC",
+                            "notificationErrorColor": "#CD4C41",
+                            "notificationNormalBackgroundColor": "#EFF7FB",
+                            "notificationNormalColor": "#212632",
+                            "notificationPadding": "16px",
+                            "notificationSuccessBackgroundColor": "#EEF8F6",
+                            "notificationSuccessColor": "#299B9A",
+                            "paginationLabelColor": "#212632",
+                            "paginationLabelMarginBottom": "16px",
+                            "paginationProgressActiveBackgroundColor": "#212632",
+                            "paginationProgressBackgroundColor": "#DCDFE6",
+                            "paginationProgressMarginBottom": "16px",
+                            "tabBadgeBackground": "#EFF2F7",
+                            "tabBadgeBackgroundActive": "#1778FB",
+                            "tabBadgeBackgroundHover": "#48AAF1",
+                            "tabBadgeColor": "#747D93",
+                            "tabBadgeColorActive": "#FFFFFF",
+                            "tabBadgeColorHover": "#FFFFFF",
+                            "tabBadgeFontSize": "12px",
+                            "tabBadgeFontWeight": 500,
+                            "tabBadgePadding": "2px 8px",
+                            "tabBorderColor": "transparent",
+                            "tabBorderColorActive": "#1778FB",
+                            "tabBorderColorHover": "#48AAF1",
+                            "tabColor": "#747D93",
+                            "tabColorActive": "#1778FB",
+                            "tabColorDisabled": "#DCDFE6",
+                            "tabColorHover": "#48AAF1",
+                            "tabFontSize": "12px",
+                            "tabFontWeight": 500,
+                            "tabsBackgroundColor": "white",
+                            "tabsBorderColor": "#EFF2F7",
+                            "textLinkDisabledColor": "#DCDFE6",
+                            "textLinkFontSizeLarge": "14px",
+                            "textLinkFontSizeMedium": "12px",
+                            "textLinkPrimaryColor": "#1778FB",
+                            "textLinkPrimaryHoverColor": "#48AAF1",
+                            "textLinkSecondaryColor": "#747D93",
+                            "textLinkSecondaryHoverColor": "#48AAF1",
+                          },
+                          "fonts": Array [
+                            Object {
+                              "name": "Roboto-Regular",
+                              "style": "normal",
+                              "weight": "normal",
+                            },
+                            Object {
+                              "name": "Roboto Medium",
+                              "style": "normal",
+                              "weight": 500,
+                            },
+                            Object {
+                              "name": "Roboto Bold",
+                              "style": "normal",
+                              "weight": 700,
+                            },
+                          ],
+                          "global": Object {
+                            "bgColor": "white",
+                            "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
+                            "fontColor": "#333",
+                            "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                            "fontSize": "14px",
+                            "fontWeightBold": 700,
+                            "fontWeightMedium": 500,
+                            "fontWeightRegular": 400,
+                            "transitionM": "all 250ms ease-in-out",
+                            "transitionS": "all 120ms ease-in-out",
+                          },
+                          "headings": Array [
+                            Object {
+                              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                              "fontWeight": 500,
+                              "size": "3.4rem",
+                            },
+                            Object {
+                              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                              "fontWeight": 500,
+                              "size": "2.5rem",
+                            },
+                            Object {
+                              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                              "fontWeight": 500,
+                              "size": "1.7rem",
+                            },
+                            Object {
+                              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                              "fontWeight": 500,
+                              "size": "1.1rem",
+                            },
+                            Object {
+                              "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                              "fontWeight": 500,
+                              "size": "0.8rem",
+                            },
+                          ],
+                          "shapes": Object {
+                            "borderRadiusFull": "50%",
+                            "borderRadiusLarge": "8px",
+                            "borderRadiusMedium": "4px",
+                            "borderRadiusSmall": "2px",
+                            "borderWidthMedium": "2px",
+                            "borderWidthSmall": "1px",
+                          },
+                          "spacings": Object {
+                            "large1": "80px",
+                            "large2": "96px",
+                            "large3": "128px",
+                            "large4": "200px",
+                            "medium1": "32px",
+                            "medium2": "40px",
+                            "medium3": "48px",
+                            "medium4": "56px",
+                            "medium5": "64px",
+                            "small1": "4px",
+                            "small2": "8px",
+                            "small3": "16px",
+                            "small4": "24px",
+                          },
+                          "texts": Object {
+                            "p1b": Object {
+                              "color": "#212632",
+                              "fontSize": "14px",
+                              "fontWeight": 500,
+                              "lineHeight": "1.5",
+                            },
+                            "p2": Object {
+                              "color": "#212632",
+                              "fontSize": "12px",
+                              "fontWeight": 400,
+                              "lineHeight": "1.5",
+                            },
+                            "p2b": Object {
+                              "color": "#212632",
+                              "fontSize": "12px",
+                              "fontWeight": 500,
+                              "lineHeight": "1.5",
+                            },
+                            "p3b": Object {
+                              "color": "#212632",
+                              "fontSize": "10px",
+                              "fontWeight": 700,
+                              "lineHeight": "1.5",
+                            },
+                          },
+                        }
+                      }
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        clipRule="evenodd"
+                        d="M4 12.995c0 .124.022.248.068.365l.005.013a1 1 0 00.927.625h6a1 1 0 100-2H7.525l2.8-2.631a8.015 8.015 0 017.446-2.17 8 8 0 015.776 5.134 1 1 0 101.886-.667 10 10 0 00-16.5-3.733L6 10.686V6.998a1 1 0 10-2 0v5.997zm23 6.007a1 1 0 00-.068-.364l-.005-.013A1 1 0 0026 18h-6a1 1 0 100 2h3.476l-2.8 2.631a8.015 8.015 0 01-7.447 2.17 8 8 0 01-5.776-5.135 1 1 0 00-1.886.668 10 10 0 0016.5 3.733L25 21.312V25a1 1 0 102 0v-5.998z"
+                      />
+                    </svg>
+                  </div>
+                  Text
                 </div>
-                Text
-              </div>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div
-        className="c13"
+        className="c14"
       >
         <svg
           fill="none"
@@ -52200,16 +52212,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
       </div>
     </div>
     <div
-      className="c14"
+      className="c15"
     >
       <div
-        className="c15"
+        className="c16"
       >
         <ul
-          className="c16"
+          className="c17"
         >
           <li
-            className="c17"
+            className="c18"
           >
             <a
               className="active"
@@ -52220,7 +52232,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
             </a>
           </li>
           <li
-            className="c17"
+            className="c18"
           >
             <a
               href="#"
@@ -52230,10 +52242,10 @@ exports[`Storyshots NavigationBar Normal 1`] = `
             </a>
           </li>
           <li
-            className="c17"
+            className="c18"
           >
             <a
-              className="c18"
+              className="c19"
               disabled={false}
               href="#"
               size="large"
@@ -52242,10 +52254,10 @@ exports[`Storyshots NavigationBar Normal 1`] = `
             </a>
           </li>
           <li
-            className="c17"
+            className="c18"
           >
             <a
-              className="c19"
+              className="c20"
               disabled={false}
               href="#"
               size="large"
@@ -52254,10 +52266,10 @@ exports[`Storyshots NavigationBar Normal 1`] = `
             </a>
           </li>
           <li
-            className="c17"
+            className="c18"
           >
             <svg
-              className="c20"
+              className="c21"
               data-name="IconSettings"
               preserveAspectRatio="xMidYMid meet"
               size="medium"
@@ -52642,14 +52654,14 @@ exports[`Storyshots NavigationBar Normal 1`] = `
         className=""
       >
         <div
-          className="c2"
+          className="c3"
         >
           <div
-            className="c3"
+            className="c4"
             onClick={[Function]}
           >
             <svg
-              className="c12"
+              className="c13"
               data-name="IconUser"
               preserveAspectRatio="xMidYMid meet"
               size="medium"
@@ -53033,19 +53045,19 @@ exports[`Storyshots NavigationBar Normal 1`] = `
             </svg>
           </div>
           <div
-            className="c6"
+            className="c7"
           >
             <li
-              className="c21"
+              className="c22"
             >
               <div
-                className="c9 "
+                className="c10 "
               >
                 <div
-                  className="c10 c11"
+                  className="c11 c12"
                 >
                   <svg
-                    className="c12"
+                    className="c13"
                     data-name="IconUser"
                     preserveAspectRatio="xMidYMid meet"
                     size="medium"
@@ -53427,16 +53439,16 @@ exports[`Storyshots NavigationBar Normal 1`] = `
               </div>
             </li>
             <li
-              className="c21"
+              className="c22"
             >
               <div
-                className="c9 "
+                className="c10 "
               >
                 <div
-                  className="c10 c11"
+                  className="c11 c12"
                 >
                   <svg
-                    className="c12"
+                    className="c13"
                     data-name="IconUpdate"
                     preserveAspectRatio="xMidYMid meet"
                     size="medium"
