@@ -8,8 +8,8 @@ const StyledCardHeader = styled.header`
 `;
 
 const StyledContainer = styled.div`
-  display: grid;
-  grid-template-columns: 55px 1fr 55px;
+  display: flex;
+  /* grid-template-columns: 55px 1fr 55px; */
   align-items: top;
   border-bottom: 1px solid ${({ theme }) => theme.color.charcoal400};
   padding-bottom: ${({ theme }) => theme.spacings.small2};
@@ -24,8 +24,17 @@ StyledCardHeader.defaultProps = {
 };
 
 const StyledRightContent = styled.div`
+  width: 55px;
   display: flex;
   justify-content: flex-end;
+`;
+
+const StyledLeftContent = styled.div`
+  width: 55px;
+`;
+
+const StyledCenterContent = styled.div`
+  flex: 1;
 `;
 
 const CardHeader = React.forwardRef((props, ref) => {
@@ -34,11 +43,11 @@ const CardHeader = React.forwardRef((props, ref) => {
   return (
     <StyledCardHeader className={className} {...other}>
       <StyledContainer>
-        <div>{leftContent}</div>
-        <div>
+        <StyledLeftContent>{leftContent}</StyledLeftContent>
+        <StyledCenterContent>
           <div>{title}</div>
           <div>{subheader}</div>
-        </div>
+        </StyledCenterContent>
         <StyledRightContent>{rightContent}</StyledRightContent>
       </StyledContainer>
       <StyledChildrenContainer>{children}</StyledChildrenContainer>
