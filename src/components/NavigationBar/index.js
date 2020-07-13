@@ -130,6 +130,17 @@ NavigationRightContent.defaultProps = {
   theme: defaultTheme
 };
 
+const StyledDropdown = styled.div`
+  height: 100%;
+  div div:last-child {
+    left: 8px;
+  }
+`;
+
+StyledDropdown.defaultProps = {
+  theme: defaultTheme
+};
+
 const NavigationBar = props => {
   const {
     children,
@@ -160,9 +171,11 @@ const NavigationBar = props => {
     <StyledNavigation sticked={sticked} header={header} dropdownMenu={dropdownMenu} {...other}>
       <NavigationLeft>
         {dropdownMenu && (
-          <Dropdown onChange={handleDropdown} label={<Menu />}>
-            {dropdownMenu}
-          </Dropdown>
+          <StyledDropdown>
+            <Dropdown onChange={handleDropdown} label={<Menu />}>
+              {dropdownMenu}
+            </Dropdown>
+          </StyledDropdown>
         )}
         {header && (
           <NavigationLeftHeader>
