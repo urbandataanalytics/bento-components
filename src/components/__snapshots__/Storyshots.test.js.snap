@@ -8191,10 +8191,8 @@ exports[`Storyshots Card Playground 1`] = `
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: 55px 1fr 55px;
   -webkit-align-items: top;
   -webkit-box-align: top;
   -ms-flex-align: top;
@@ -8203,12 +8201,11 @@ exports[`Storyshots Card Playground 1`] = `
   padding-bottom: 8px;
 }
 
-.c6 {
+.c4 {
   padding-top: 8px;
 }
 
-.c5 {
-  width: 55px;
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8219,17 +8216,7 @@ exports[`Storyshots Card Playground 1`] = `
   justify-content: flex-end;
 }
 
-.c3 {
-  width: 55px;
-}
-
-.c4 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.c7 {
+.c5 {
   padding: 16px 24px;
   background-color: #EFF2F7;
 }
@@ -8251,14 +8238,10 @@ exports[`Storyshots Card Playground 1`] = `
       <div
         className="c2"
       >
-        <div
-          className="c3"
-        >
+        <div>
           Left
         </div>
-        <div
-          className="c4"
-        >
+        <div>
           <div>
             Title
           </div>
@@ -8267,19 +8250,19 @@ exports[`Storyshots Card Playground 1`] = `
           </div>
         </div>
         <div
-          className="c5"
+          className="c3"
         >
           Right
         </div>
       </div>
       <div
-        className="c6"
+        className="c4"
       >
         Extra content
       </div>
     </header>
     <div
-      className="c7"
+      className="c5"
     >
       Lorem ipsum dolor sit amet
     </div>
