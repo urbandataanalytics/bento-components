@@ -41,6 +41,7 @@ const Table = ({ height, columns, rows, cellRenderers = {}, ...other }) => {
         rowData={rows}
         headerHeight={40}
         rowHeight={63}
+        domLayout="autoHeight"
         enableCellTextSelection={true}
         frameworkComponents={{
           agColumnHeader: TableHeader,
