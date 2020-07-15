@@ -7,8 +7,6 @@ import TableCell from './TableCell';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 
 const StyledContainer = styled.div`
-  height: ${({ height }) => height};
-
   .ag-cell-value,
   .ag-react-container {
     width: 100%;
@@ -35,13 +33,12 @@ const Table = ({ height, columns, rows, cellRenderers = {}, ...other }) => {
   });
 
   return (
-    <StyledContainer height={height}>
+    <StyledContainer>
       <AgGridReact
         columnDefs={columnDefs}
         rowData={rows}
         headerHeight={40}
         rowHeight={63}
-        domLayout="autoHeight"
         enableCellTextSelection={true}
         frameworkComponents={{
           agColumnHeader: TableHeader,
