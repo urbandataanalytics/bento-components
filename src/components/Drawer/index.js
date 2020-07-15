@@ -26,35 +26,6 @@ StyledDrawerOverlay.defaultProps = {
   theme: defaultTheme
 };
 
-const StyledDrawerSide = styled.aside`
-  display: block;
-  position: fixed;
-  box-sizing: border-box;
-  z-index: 4;
-  top: 0;
-  ${({ position }) => position === 'right' && 'right: 0'};
-  ${({ position }) => position === 'left' && 'left: 0'};
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  max-width: ${({ theme, width }) => width || theme.components.drawerMaxWidth};
-  background-color: ${({ theme }) => theme.components.drawerBackgroundColor};
-  transition: transform 0.3s ease-in-out;
-  ${({ offsetTop }) => offsetTop && `margin-top: ${offsetTop}`};
-  ${({ offsetBottom }) => offsetBottom && `margin-bottom: ${offsetBottom}`};
-  ${({ offsetLeft }) => offsetLeft && `margin-left: ${offsetLeft}`};
-  ${({ offsetRight }) => offsetRight && `margin-right: ${offsetRight}`};
-  ${props =>
-    props.position === 'right'
-      ? `border-left: ${props.theme.components.drawerBorder}`
-      : `border-right: ${props.theme.components.drawerBorder}`};
-  transform: ${props => (props.open ? 'translateX(0)' : transforms[props.position])};
-`;
-
-StyledDrawerSide.defaultProps = {
-  theme: defaultTheme
-};
-
 const StyledDrawerHeader = styled.header`
   display: flex;
   align-items: center;
@@ -94,12 +65,48 @@ StyledDrawerHeader.defaultProps = {
 };
 
 const StyledDrawerContent = styled.div`
-  overflow-y: auto;
   width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
   height: 100%;
+  flex-grow: 1;
 `;
 
 StyledDrawerContent.defaultProps = {
+  theme: defaultTheme
+};
+
+const StyledDrawerSide = styled.aside`
+  position: fixed;
+  box-sizing: border-box;
+  z-index: 4;
+  top: 0;
+  ${({ position }) => position === 'right' && 'right: 0'};
+  ${({ position }) => position === 'left' && 'left: 0'};
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  max-width: ${({ theme, width }) => width || theme.components.drawerMaxWidth};
+  background-color: ${({ theme }) => theme.components.drawerBackgroundColor};
+  transition: transform 0.3s ease-in-out;
+  ${({ offsetTop }) => offsetTop && `height: calc(100% - ${offsetTop})`};
+  ${({ offsetBottom }) => offsetBottom && `height: calc(100% + ${offsetBottom})`};
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  ${({ offsetTop }) => offsetTop && `margin-top: ${offsetTop}`};
+  ${({ offsetBottom }) => offsetBottom && `margin-bottom: ${offsetBottom}`};
+  ${({ offsetLeft }) => offsetLeft && `margin-left: ${offsetLeft}`};
+  ${({ offsetRight }) => offsetRight && `margin-right: ${offsetRight}`};
+  ${props =>
+    props.position === 'right'
+      ? `border-left: ${props.theme.components.drawerBorder}`
+      : `border-right: ${props.theme.components.drawerBorder}`};
+  transform: ${props => (props.open ? 'translateX(0)' : transforms[props.position])};
+`;
+
+StyledDrawerSide.defaultProps = {
   theme: defaultTheme
 };
 
