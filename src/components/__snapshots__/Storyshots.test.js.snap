@@ -57608,6 +57608,1038 @@ exports[`Storyshots SwitchButtons Normal 1`] = `
 </div>
 `;
 
+exports[`Storyshots Table Loading 1`] = `
+.c0 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.c0 td,
+.c0 th {
+  padding: 16px 16px;
+  vertical-align: top;
+}
+
+.c0 td i,
+.c0 th i,
+.c0 td span,
+.c0 th span {
+  width: 100%;
+  height: 10px;
+  background-color: #DCDFE6;
+  -webkit-animation: kvsyCu 1s infinite ease-in-out;
+  animation: kvsyCu 1s infinite ease-in-out;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.c0 td div,
+.c0 th div {
+  display: inline-block;
+}
+
+.c0 td i,
+.c0 th i {
+  width: 50%;
+}
+
+.c0 thead {
+  background-color: #EFF2F7;
+}
+
+.c0 thead th > span {
+  background-color: #B6BBC6;
+}
+
+.c0 thead th:nth-child(16),
+.c0 thead th:nth-child(15),
+.c0 thead th:nth-child(14),
+.c0 thead th:nth-child(13) {
+  background-color: #e5e8ef;
+}
+
+.c0 tbody tr td {
+  border-bottom: 1px solid #EFF2F7;
+  line-height: 0;
+}
+
+.c0 tbody tr td:nth-child(16),
+.c0 tbody tr td:nth-child(15),
+.c0 tbody tr td:nth-child(14),
+.c0 tbody tr td:nth-child(13) {
+  background-color: #f8f9fa;
+}
+
+.c0 tbody tr td:nth-child(5),
+.c0 tbody tr td:nth-child(6),
+.c0 tbody tr td:nth-child(7),
+.c0 tbody tr td:nth-child(9),
+.c0 tbody tr td:nth-child(10),
+.c0 tbody tr td:nth-child(13) {
+  text-align: right;
+}
+
+.c0 tbody tr i {
+  margin-top: 5px;
+}
+
+.c0 tbody tr div {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #DCDFE6;
+  -webkit-animation: kvsyCu 1s infinite ease-in-out;
+  animation: kvsyCu 1s infinite ease-in-out;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <table
+    className="c0"
+  >
+    <thead>
+      <tr>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+        <th>
+          <span />
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+          <i />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <div />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+        <td>
+          <span />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
 exports[`Storyshots Table Normal 1`] = `
 .c0 {
   font-weight: 400;
