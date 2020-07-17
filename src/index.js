@@ -78,5 +78,8 @@ export * from './components/Loader';
 export { default as Table } from './components/Table';
 export * from './components/Table';
 
+export { default as TableSkeleton } from './components/Table/TableSkeleton';
+export * from './components/Table/TableSkeleton';
+
 export { default as Pagination } from './components/Pagination';
 export * from './components/Pagination';

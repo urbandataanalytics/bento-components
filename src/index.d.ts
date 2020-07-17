@@ -75,6 +75,9 @@ export * from './components/Card/CardContent';
 export { default as Table } from './components/Table';
 export * from './components/Table';
 
+export { default as TableSkeleton } from './components/Table/TableSkeleton';
+export * from './components/Table/TableSkeleton';
+
 export { default as Loader } from './components/Loader';
 export * from './components/Loader';
 

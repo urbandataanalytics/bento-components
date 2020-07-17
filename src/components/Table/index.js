@@ -3,8 +3,8 @@ import { AgGridReact } from 'ag-grid-react';
 import styled from 'styled-components';
 import TableHeader from './TableHeader';
 import TableCell from './TableCell';
-
 import 'ag-grid-community/dist/styles/ag-grid.css';
+import TableSkeleton from './TableSkeleton';
 
 const StyledContainer = styled.div`
   .ag-cell-value,
@@ -24,7 +24,7 @@ const StyledContainer = styled.div`
   ${({ theme }) => theme.texts.p2};
 `;
 
-const Table = ({ height, columns, rows, cellRenderers = {}, ...other }) => {
+const Table = ({ loading, height, columns, rows, cellRenderers = {}, ...other }) => {
   const columnDefs = columns.map(column => {
     if (column.hasOwnProperty('cellRenderer')) {
       return column;
@@ -32,7 +32,9 @@ const Table = ({ height, columns, rows, cellRenderers = {}, ...other }) => {
     return { ...column, cellRenderer: 'defaultCellRenderer' };
   });
 
-  return (
+  return loading ? (
+    <TableSkeleton />
+  ) : (
     <StyledContainer>
       <AgGridReact
         columnDefs={columnDefs}
@@ -49,6 +51,7 @@ const Table = ({ height, columns, rows, cellRenderers = {}, ...other }) => {
       ></AgGridReact>
     </StyledContainer>
   );
+  return;
 };
 
 Table.defaultProps = {

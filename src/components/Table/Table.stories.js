@@ -51,3 +51,9 @@ export const Normal = () => (
     <Table columns={columnDefs} rows={rowData} />
   </div>
 );
+
+export const Loading = () => (
+  <div style={decoratorStyles}>
+    <Table columns={columnDefs} rows={rowData} loading />
+  </div>
+);

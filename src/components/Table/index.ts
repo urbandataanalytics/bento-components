@@ -11,6 +11,7 @@ export interface TableProps {
   height?: string | number;
   columns: ColumnProps[];
   rows: any[];
+  loading?: boolean;
 }
 
 declare const Table: React.FunctionComponent<TableProps>;
