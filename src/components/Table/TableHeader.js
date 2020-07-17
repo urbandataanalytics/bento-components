@@ -11,9 +11,7 @@ const StyledHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: ${({ align }) =>
-    align === 'right' ? 'flex-start' : align === 'center' ? 'center' : 'flex-start'};
-
-  ${({ align }) => align === 'right' && 'flex-direction:row-reverse;'};
+    align === 'right' ? 'flex-end' : align === 'center' ? 'center' : 'flex-start'};
 
   ${({ highlight, theme }) =>
     highlight && `background-color:${theme.components.tableHighlightedHeaderBackgroundColor};`};
@@ -33,12 +31,16 @@ const StyledLabel = styled.h5`
 `;
 
 const StyledIcon = styled.div`
+  color: ${({ theme }) => theme.color.charcoal600};
+`;
+
+const StyledSort = styled.div`
   margin: 0 ${({ theme }) => theme.spacings.small2};
 `;
 
 const TableHeader = ({ column, enableSorting, displayName, setSort }) => {
   const [sortDirection, setSortDirection] = useState();
-  const { align, highlight } = column.colDef;
+  const { align, highlight, icon } = column.colDef;
 
   const theme = useTheme();
 
@@ -78,16 +80,17 @@ const TableHeader = ({ column, enableSorting, displayName, setSort }) => {
       align={align}
       highlight={highlight}
     >
+      {icon && <StyledIcon>{icon}</StyledIcon>}
       <StyledLabel className={sortDirection ? 'active' : null}>{displayName}</StyledLabel>
 
       {sortDirection && (
-        <StyledIcon>
+        <StyledSort>
           {sortDirection === 'asc' ? (
             <IconOrderAsc size="small" customColor={theme.color.primary500} />
           ) : (
             <IconOrderDesc size="small" customColor={theme.color.primary500} />
           )}
-        </StyledIcon>
+        </StyledSort>
       )}
     </StyledHeader>
   );
