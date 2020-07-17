@@ -30,10 +30,6 @@ const StyledLabel = styled.h5`
   }
 `;
 
-const StyledIcon = styled.div`
-  color: ${({ theme }) => theme.color.charcoal600};
-`;
-
 const StyledSort = styled.div`
   margin: 0 ${({ theme }) => theme.spacings.small2};
 `;
@@ -80,7 +76,7 @@ const TableHeader = ({ column, enableSorting, displayName, setSort }) => {
       align={align}
       highlight={highlight}
     >
-      {icon && <StyledIcon>{icon}</StyledIcon>}
+      {icon}
       <StyledLabel className={sortDirection ? 'active' : null}>{displayName}</StyledLabel>
 
       {sortDirection && (
