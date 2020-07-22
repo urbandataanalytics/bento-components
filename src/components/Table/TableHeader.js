@@ -31,7 +31,7 @@ const StyledLabel = styled.h5`
 `;
 
 const StyledSort = styled.div`
-  margin: 0 ${({ theme }) => theme.spacings.small2};
+  margin-left: ${({ theme }) => theme.spacings.small1};
 `;
 
 const TableHeader = ({ column, enableSorting, displayName, setSort }) => {

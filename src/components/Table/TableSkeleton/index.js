@@ -4,9 +4,14 @@ import styled from 'styled-components';
 const StyledSkeleton = styled.table`
   width: 100%;
   border-collapse: collapse;
+  th {
+    padding: ${({ theme }) => theme.spacings.small2} ${({ theme }) => theme.spacings.small3};
+  }
+  td {
+    padding: ${({ theme }) => theme.spacings.small3} ${({ theme }) => theme.spacings.small3};
+  }
   td,
   th {
-    padding: ${({ theme }) => theme.spacings.small3} ${({ theme }) => theme.spacings.small3};
     vertical-align: top;
     i,
     span {
