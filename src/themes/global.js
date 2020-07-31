@@ -94,6 +94,13 @@ const GlobalStyle = createGlobalStyle`
       color: ${({ theme }) => theme.color.primary300};
     }
   }
+
+  ::selection {
+    background: ${({ theme }) => theme.color.golden300}; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: ${({ theme }) => theme.color.golden300}; /* Gecko Browsers */
+  }
 `;
 
 const headingsGenerator = config =>

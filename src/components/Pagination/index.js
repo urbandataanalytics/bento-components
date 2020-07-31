@@ -49,7 +49,12 @@ const Pagination = ({ label, moreLabel, totalCount, currentCount, onLoadMore }) 
       <StyledPaginationProgress>
         <span style={{ width: `${Math.round((currentCount / totalCount) * 100)}%` }}></span>
       </StyledPaginationProgress>
-      <Button variant="secondary" size="large" onClick={onLoadMore}>
+      <Button
+        variant="secondary"
+        size="large"
+        onClick={onLoadMore}
+        disabled={currentCount === totalCount}
+      >
         {moreLabel}
       </Button>
     </StyledPaginationContainer>
