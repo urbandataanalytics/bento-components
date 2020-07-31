@@ -75,5 +75,14 @@ export * from './components/Card/CardContent';
 export { default as Loader } from './components/Loader';
 export * from './components/Loader';
 
+export { default as Table } from './components/Table';
+export * from './components/Table';
+
+export { default as TableSkeleton } from './components/Table/TableSkeleton';
+export * from './components/Table/TableSkeleton';
+
 export { default as Pagination } from './components/Pagination';
 export * from './components/Pagination';
+
+export { default as Tooltip } from './components/Tooltip';
+export * from './components/Tooltip';

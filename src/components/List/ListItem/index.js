@@ -198,7 +198,11 @@ const ListItem = React.forwardRef((props, ref) => {
     <StyledListItem
       active={active}
       disabled={disabled}
-      onClick={onClick}
+      onClick={e => {
+        if (!disabled && onClick && typeof onClick === 'function') {
+          onClick(e);
+        }
+      }}
       size={size}
       className={className}
       focusContent={focusContent}
