@@ -42,7 +42,7 @@ StyledPaginationProgress.defaultProps = {
   theme: defaultTheme
 };
 
-const Pagination = ({ label, moreLabel, totalCount, currentCount, onLoadMore }) => {
+const Pagination = ({ label, moreLabel, totalCount, currentCount, onLoadMore, isLoading }) => {
   return (
     <StyledPaginationContainer>
       <StyledPaginationLabel>{label}</StyledPaginationLabel>
@@ -54,6 +54,7 @@ const Pagination = ({ label, moreLabel, totalCount, currentCount, onLoadMore }) 
         size="large"
         onClick={onLoadMore}
         disabled={currentCount === totalCount}
+        loading={isLoading}
       >
         {moreLabel}
       </Button>
@@ -66,7 +67,8 @@ Pagination.propTypes = {
   moreLabel: PropTypes.string,
   totalCount: PropTypes.number,
   currentCount: PropTypes.number,
-  onLoadMore: PropTypes.func
+  onLoadMore: PropTypes.func,
+  isLoading: PropTypes.bool
 };
 
 export default Pagination;
