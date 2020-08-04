@@ -27,6 +27,12 @@ const decoratorStyles = {
 
 export const Normal = () => (
   <div style={decoratorStyles}>
-    <Pagination {...getCommonProps()} />
+    <Pagination {...getCommonProps()} isLoading={false} />
+  </div>
+);
+
+export const Loading = () => (
+  <div style={decoratorStyles}>
+    <Pagination {...getCommonProps()} isLoading={true} />
   </div>
 );
