@@ -24,7 +24,7 @@ const StyledContainer = styled.div`
   ${({ theme }) => theme.texts.p2};
 `;
 
-const Table = ({ loading, height, columns, rows, cellRenderers = {}, ...other }) => {
+const Table = ({ loading, height, columns = [], rows, cellRenderers = {}, ...other }) => {
   const columnDefs = columns.map(column => {
     if (column.hasOwnProperty('cellRenderer')) {
       return column;
