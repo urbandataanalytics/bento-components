@@ -4,6 +4,7 @@ export interface PaginationProps {
   totalCount: number;
   currentCount: number;
   onLoadMore: (event: React.SyntheticEvent<HTMLInputElement>) => void;
+  isLoading: boolean;
 }
 
 declare const Pagination: React.FunctionComponent<PaginationProps>;
