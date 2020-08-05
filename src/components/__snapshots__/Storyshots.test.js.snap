@@ -57538,8 +57538,8 @@ exports[`Storyshots NavigationBar Normal 1`] = `
   align-items: center;
   background-color: white;
   border-bottom: 1px solid #EFF2F7;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   height: 73px;
 }
 
@@ -60880,7 +60880,7 @@ exports[`Storyshots NavigationBar Sticky 1`] = `
   align-items: center;
   background-color: white;
   border-bottom: 1px solid #EFF2F7;
-  height: 73px transition:all 250ms ease-in-out;
+  height: 73px transition:all 120ms ease-in-out;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -60989,7 +60989,7 @@ exports[`Storyshots NavigationBar Without Menu 1`] = `
   align-items: center;
   background-color: white;
   border-bottom: 1px solid #EFF2F7;
-  height: 73px transition:all 250ms ease-in-out;
+  height: 73px transition:all 120ms ease-in-out;
   height: 73px;
 }
 
