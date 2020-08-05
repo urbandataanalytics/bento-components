@@ -434,7 +434,7 @@ Array [
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -871,7 +871,7 @@ Array [
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -1439,7 +1439,7 @@ Array [
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -1889,7 +1889,7 @@ Array [
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -2501,7 +2501,7 @@ Array [
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.5rem",
+                        "size": "2.26rem",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -2941,7 +2941,7 @@ Array [
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.5rem",
+                        "size": "2.26rem",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -3379,7 +3379,7 @@ Array [
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.5rem",
+                        "size": "2.26rem",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -3808,7 +3808,7 @@ Array [
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.5rem",
+                        "size": "2.26rem",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -4322,7 +4322,7 @@ Array [
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -4759,7 +4759,7 @@ Array [
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -5285,7 +5285,7 @@ Array [
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -5965,7 +5965,7 @@ exports[`Storyshots Button Block 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -6545,7 +6545,7 @@ exports[`Storyshots Button Loading 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -7125,7 +7125,7 @@ exports[`Storyshots Button Normal 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -7724,7 +7724,7 @@ exports[`Storyshots Button With Icon 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -8159,7 +8159,7 @@ exports[`Storyshots Button With Icon 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -8727,7 +8727,7 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -9538,7 +9538,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -10118,7 +10118,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -10688,7 +10688,7 @@ Array [
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -11495,7 +11495,7 @@ Array [
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "2.5rem",
+                  "size": "2.26rem",
                 },
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -11930,7 +11930,7 @@ Array [
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -12366,7 +12366,7 @@ Array [
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -12813,7 +12813,7 @@ Array [
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontWeight": 500,
-                            "size": "2.5rem",
+                            "size": "2.26rem",
                           },
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -13252,7 +13252,7 @@ Array [
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontWeight": 500,
-                            "size": "2.5rem",
+                            "size": "2.26rem",
                           },
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -13691,7 +13691,7 @@ Array [
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontWeight": 500,
-                            "size": "2.5rem",
+                            "size": "2.26rem",
                           },
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -14129,7 +14129,7 @@ Array [
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -14566,7 +14566,7 @@ Array [
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -15017,7 +15017,7 @@ Array [
                             Object {
                               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                               "fontWeight": 500,
-                              "size": "2.5rem",
+                              "size": "2.26rem",
                             },
                             Object {
                               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -15456,7 +15456,7 @@ Array [
                             Object {
                               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                               "fontWeight": 500,
-                              "size": "2.5rem",
+                              "size": "2.26rem",
                             },
                             Object {
                               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -15895,7 +15895,7 @@ Array [
                             Object {
                               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                               "fontWeight": 500,
-                              "size": "2.5rem",
+                              "size": "2.26rem",
                             },
                             Object {
                               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -16345,7 +16345,7 @@ Array [
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontWeight": 500,
-                            "size": "2.5rem",
+                            "size": "2.26rem",
                           },
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -16792,7 +16792,7 @@ Array [
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontWeight": 500,
-                            "size": "2.5rem",
+                            "size": "2.26rem",
                           },
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -17239,7 +17239,7 @@ Array [
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontWeight": 500,
-                            "size": "2.5rem",
+                            "size": "2.26rem",
                           },
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -17929,7 +17929,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -18812,7 +18812,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -19266,7 +19266,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.5rem",
+                        "size": "2.26rem",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -19708,7 +19708,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.5rem",
+                        "size": "2.26rem",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -20146,7 +20146,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.5rem",
+                        "size": "2.26rem",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -20575,7 +20575,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.5rem",
+                        "size": "2.26rem",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -21335,7 +21335,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "2.5rem",
+                  "size": "2.26rem",
                 },
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -21895,7 +21895,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -22347,7 +22347,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -22799,7 +22799,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -23251,7 +23251,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -23703,7 +23703,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -24154,7 +24154,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -24606,7 +24606,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -25058,7 +25058,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -25511,7 +25511,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -25963,7 +25963,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -26415,7 +26415,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -26866,7 +26866,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -27318,7 +27318,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -27770,7 +27770,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -28221,7 +28221,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -28672,7 +28672,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -29123,7 +29123,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -29575,7 +29575,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -30028,7 +30028,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -30479,7 +30479,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -30930,7 +30930,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -31390,7 +31390,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -31852,7 +31852,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -32311,7 +32311,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -32767,7 +32767,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -33220,7 +33220,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -33671,7 +33671,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -34124,7 +34124,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -34576,7 +34576,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -35035,7 +35035,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -35487,7 +35487,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -35939,7 +35939,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -36392,7 +36392,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -36844,7 +36844,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -37296,7 +37296,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -37748,7 +37748,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -38201,7 +38201,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -38652,7 +38652,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -39108,7 +39108,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -39560,7 +39560,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -40013,7 +40013,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -40464,7 +40464,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -40916,7 +40916,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -41368,7 +41368,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -41819,7 +41819,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -42271,7 +42271,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -42723,7 +42723,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -43174,7 +43174,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -43630,7 +43630,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -44082,7 +44082,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -44534,7 +44534,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -44986,7 +44986,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -45437,7 +45437,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -45890,7 +45890,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -46342,7 +46342,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -46795,7 +46795,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -47250,7 +47250,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -47705,7 +47705,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -48157,7 +48157,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -48609,7 +48609,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -49070,7 +49070,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -49522,7 +49522,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "2.5rem",
+              "size": "2.26rem",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -49984,7 +49984,7 @@ exports[`Storyshots Icon Normal 1`] = `
           Object {
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
             "fontWeight": 500,
-            "size": "2.5rem",
+            "size": "2.26rem",
           },
           Object {
             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -51793,7 +51793,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -52232,7 +52232,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -52673,7 +52673,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -53115,7 +53115,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -53995,7 +53995,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -54435,7 +54435,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -54890,7 +54890,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -55343,7 +55343,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -55772,7 +55772,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -56212,7 +56212,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -56642,7 +56642,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -57812,7 +57812,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.5rem",
+                        "size": "2.26rem",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -58256,7 +58256,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                             Object {
                               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                               "fontWeight": 500,
-                              "size": "2.5rem",
+                              "size": "2.26rem",
                             },
                             Object {
                               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -58695,7 +58695,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                             Object {
                               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                               "fontWeight": 500,
-                              "size": "2.5rem",
+                              "size": "2.26rem",
                             },
                             Object {
                               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -59214,7 +59214,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     Object {
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontWeight": 500,
-                      "size": "2.5rem",
+                      "size": "2.26rem",
                     },
                     Object {
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -59656,7 +59656,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     Object {
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                       "fontWeight": 500,
-                      "size": "2.5rem",
+                      "size": "2.26rem",
                     },
                     Object {
                       "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -60094,7 +60094,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontWeight": 500,
-                            "size": "2.5rem",
+                            "size": "2.26rem",
                           },
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -60532,7 +60532,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                             "fontWeight": 500,
-                            "size": "2.5rem",
+                            "size": "2.26rem",
                           },
                           Object {
                             "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -61227,7 +61227,7 @@ exports[`Storyshots Notification Error 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -61715,7 +61715,7 @@ exports[`Storyshots Notification Normal 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -62203,7 +62203,7 @@ exports[`Storyshots Notification Success 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -62694,7 +62694,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.5rem",
+                "size": "2.26rem",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -63337,7 +63337,7 @@ exports[`Storyshots Pagination Loading 1`] = `
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "2.5rem",
+                  "size": "2.26rem",
                 },
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -63985,7 +63985,7 @@ exports[`Storyshots Pagination Normal 1`] = `
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "2.5rem",
+                  "size": "2.26rem",
                 },
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -66281,7 +66281,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -66778,7 +66778,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.5rem",
+                    "size": "2.26rem",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -67615,7 +67615,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "2.5rem",
+                  "size": "2.26rem",
                 },
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -68083,7 +68083,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "2.5rem",
+                  "size": "2.26rem",
                 },
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -68551,7 +68551,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "2.5rem",
+                  "size": "2.26rem",
                 },
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -69019,7 +69019,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "2.5rem",
+                  "size": "2.26rem",
                 },
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
