@@ -331,8 +331,8 @@ const components = {
   avatarSizeLarge: spacings.medium2,
   avatarSizeExtralarge: spacings.medium5,
   avatarFontSizeSmall: '12px',
-  avatarFontSizeMedium: '14px',
-  avatarFontSizeLarge: spacings.small4,
+  avatarFontSizeMedium: '12px',
+  avatarFontSizeLarge: '12px',
   avatarFontSizeExtralarge: spacings.small3,
 
   /* Loader Theme Props */
