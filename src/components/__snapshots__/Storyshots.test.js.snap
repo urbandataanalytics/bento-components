@@ -64332,6 +64332,31 @@ exports[`Storyshots Pagination Normal 1`] = `
 </div>
 `;
 
+exports[`Storyshots Skeleton Playground 1`] = `
+.c0 {
+  width: 100px;
+  height: 10px;
+  border-radius: 2px;
+  -webkit-animation: kvsyCu 1s infinite ease-in-out;
+  animation: kvsyCu 1s infinite ease-in-out;
+  display: block;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <i
+    className="c0"
+    height="10px"
+    width="100px"
+  />
+</div>
+`;
+
 exports[`Storyshots SwitchButtons Normal 1`] = `
 .c0 {
   font-family: "Roboto",Arial,sans-serif;
