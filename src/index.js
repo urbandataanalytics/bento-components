@@ -86,3 +86,6 @@ export * from './components/Pagination';
 
 export { default as Tooltip } from './components/Tooltip';
 export * from './components/Tooltip';
+
+export { default as Skeleton } from './components/Skeleton';
+export * from './components/Skeleton';

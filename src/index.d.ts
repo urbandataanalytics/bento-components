@@ -83,3 +83,7 @@ export * from './components/Loader';
 
 export { default as Pagination } from './components/Pagination';
 export * from './components/Pagination';
+
+export { default as Skeleton } from './components/Skeleton';
+export * from './components/Skeleton';
+
