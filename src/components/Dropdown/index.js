@@ -78,10 +78,15 @@ const Dropdown = ({ children, label, autoClose, position, onChange = () => {}, .
   const dropdown = useRef(null);
   const content = useRef(null);
 
-  useOnclickOutside(container, () => {
-    if (!autoClose) return;
-    setOpen(false);
-  });
+  useOnclickOutside(
+    () => {
+      if (!autoClose) return;
+      setOpen(false);
+    },
+    {
+      refs: [container, dropdown]
+    }
+  );
 
   const dimensions = useDimensions(
     { container, popper: dropdown, content },
