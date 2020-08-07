@@ -51,7 +51,6 @@ const Table = ({ loading, height, columns = [], rows, cellRenderers = {}, ...oth
       ></AgGridReact>
     </StyledContainer>
   );
-  return;
 };
 
 Table.defaultProps = {
