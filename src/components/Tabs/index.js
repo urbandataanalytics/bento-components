@@ -12,6 +12,7 @@ const StyledTabsContainer = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
+  min-height: 57px;
 `;
 StyledTabsContainer.defaultProps = {
   theme: defaultTheme
