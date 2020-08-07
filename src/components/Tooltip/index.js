@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import DefaultTheme from '../../themes/defaultTheme';
 import useDimensions from '../../hooks/useDimensions';
+import Portal from '../Portal/index';
+import hexToRgba from '../../utils/hexToRgba';
 
 const arrowPosition = theme => ({
   top: {
@@ -47,14 +49,11 @@ const StyledTooltipLabel = styled.div`
   align-items: center;
   flex-direction: row;
   padding: ${({ theme }) => theme.spacings.small1} 12px;
-  background: ${({ theme }) => theme.color.charcoal800};
-  opacity: 0.9;
+  background: ${({ theme }) => hexToRgba(theme.color.charcoal800, 0.9)};
   border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
-  ${({ theme }) => theme.texts.p2};
-  color: ${({ theme }) => theme.color.white};
   position: absolute;
-  z-index: 1;
-  transition: ${props => props.theme.global.transitionS};
+  z-index: 1000;
+  transition: opacity ${props => props.theme.global.transitionS};
   &:after {
     content: '';
     margin: auto;
@@ -63,6 +62,14 @@ const StyledTooltipLabel = styled.div`
     height: 0px;
     width: 0px;
     ${({ position, theme }) => arrowPosition(theme)[position]}
+  }
+  p {
+    ${({ theme }) => theme.texts.p2};
+    color: ${({ theme }) => theme.color.white};
+    & + p {
+      ${({ theme }) => theme.texts.p2b};
+      color: ${({ theme }) => theme.color.white};
+    }
   }
 `;
 StyledTooltipLabel.defaultProps = {
@@ -74,35 +81,30 @@ const calculatePosition = (position, dimensions) => {
     containerHeight,
     containerLeft,
     containerLeftPure,
-    containerTop,
     containerTopPure,
     containerWidth,
-    contentHeight,
-    tooltipHeight,
-    tooltipWidth,
-    windowHeight,
-    windowWidth
+    popperHeight,
+    popperWidth
   } = dimensions;
 
   let top = null;
   let left = null;
-  let bottom = null;
-  let right = null;
 
   if (position === 'top') {
-    top = 0 - tooltipHeight - 8;
-    left = containerWidth / 2 - tooltipWidth / 2;
+    top = containerTopPure - popperHeight - 8;
+    left = containerLeftPure + containerWidth / 2 - popperWidth / 2;
   } else if (position === 'bottom') {
-    bottom = 0 - tooltipHeight - 8;
-    left = containerWidth / 2 - tooltipWidth / 2;
+    top = containerTopPure + containerHeight + 8;
+    left = containerLeftPure + containerWidth / 2 - popperWidth / 2;
   } else if (position === 'left') {
-    top = containerHeight / 2 - tooltipHeight / 2;
-    left = 0 - tooltipWidth - 8;
+    top = containerTopPure + containerHeight / 2 - popperHeight / 2;
+    left = containerLeft - popperWidth - 8;
   } else if (position === 'right') {
-    top = containerHeight / 2 - tooltipHeight / 2;
-    right = 0 - tooltipWidth - 8;
+    top = containerTopPure + containerHeight / 2 - popperHeight / 2;
+    left = containerLeft + containerWidth + 8;
   }
-  return { top, left, bottom, right };
+
+  return { top, left };
 };
 
 let hystersisOpen = false;
@@ -116,6 +118,7 @@ export function testReset() {
 const Tooltip = ({
   children,
   title,
+  value,
   position,
   enterDelay = 100,
   enterNextDelay = 0,
@@ -128,8 +131,6 @@ const Tooltip = ({
   const container = useRef(null);
   const tooltip = useRef(null);
   const content = useRef(null);
-  const dimensions = useDimensions({ containerRef: container, tooltip, content }, title, children);
-  const tooltipPosition = calculatePosition(position, dimensions);
 
   const closeTimer = React.useRef();
   const enterTimer = React.useRef();
@@ -139,6 +140,13 @@ const Tooltip = ({
 
   const [openState, setOpenState] = useState(false);
   let open = openState;
+
+  const dimensions = useDimensions({ container, popper: tooltip, content }, title, children, open);
+  let tooltipPosition = calculatePosition(position, dimensions);
+
+  React.useEffect(() => {
+    tooltipPosition = calculatePosition(position, dimensions);
+  }, [open]);
 
   React.useEffect(() => {
     return () => {
@@ -205,13 +213,6 @@ const Tooltip = ({
   const handleLeave = (forward = true) => event => {
     const childrenProps = children.props;
 
-    // if (event.type === 'blur') {
-    //   if (childrenProps.onBlur && forward) {
-    //     childrenProps.onBlur(event);
-    //   }
-    //   handleBlur();
-    // }
-
     if (event.type === 'mouseleave' && childrenProps.onMouseLeave) {
       childrenProps.onMouseLeave(event);
     }
@@ -243,14 +244,21 @@ const Tooltip = ({
   return (
     <StyledTooltip ref={container}>
       {React.cloneElement(children, childrenProps)}
-      <StyledTooltipLabel
-        ref={tooltip}
-        position={position}
-        style={{ ...tooltipPosition, opacity: open ? '.9' : '0' }}
-        {...interactiveWrapperListeners}
-      >
-        <div ref={content}>{title}</div>
-      </StyledTooltipLabel>
+      {open && (
+        <Portal renderInto="tooltips">
+          <StyledTooltipLabel
+            ref={tooltip}
+            position={position}
+            style={{ ...tooltipPosition }}
+            {...interactiveWrapperListeners}
+          >
+            <div ref={content}>
+              {title && <p>{title}</p>}
+              {value && <p>{value}</p>}
+            </div>
+          </StyledTooltipLabel>
+        </Portal>
+      )}
     </StyledTooltip>
   );
 };
@@ -258,9 +266,8 @@ const Tooltip = ({
 Tooltip.propTypes = {
   children: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
-  position: PropTypes.oneOf(['top', 'right', 'bottom', 'left']),
-  arrow: PropTypes.bool,
-  size: PropTypes.oneOf(['large', 'medium'])
+  value: PropTypes.string,
+  position: PropTypes.oneOf(['top', 'right', 'bottom', 'left'])
 };
 
 Tooltip.defaultProps = {

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import boundingClientRect from '../../utils/boundingClientRect';
 
-const useDimensions = ({ containerRef, tooltip, content }, children, parent) => {
+const useDimensions = ({ container, popper, content }, children, parent, open) => {
   const [dimensions, setDimensions] = useState({
     containerTop: 0,
     containerTopPure: 0,
@@ -10,8 +10,8 @@ const useDimensions = ({ containerRef, tooltip, content }, children, parent) => 
     containerLeftPure: 0,
     containerHeight: 0,
     containerWidth: 0,
-    tooltipWidth: 0,
-    tooltipHeight: 0,
+    popperWidth: 0,
+    popperHeight: 0,
     windowWidth: 0,
     windowHeight: 0,
     contentHeight: 0
@@ -19,12 +19,12 @@ const useDimensions = ({ containerRef, tooltip, content }, children, parent) => 
 
   useEffect(() => {
     const calculateDimensions = () => {
-      const containerDimensions = boundingClientRect(containerRef);
-      const tooltipDimensions = boundingClientRect(tooltip);
+      const containerDimensions = boundingClientRect(container);
+      const popperDimensions = boundingClientRect(popper);
       const contentDimensions = boundingClientRect(content);
       if (
         containerDimensions &&
-        tooltipDimensions &&
+        popperDimensions &&
         contentDimensions &&
         typeof window !== 'undefined'
       ) {
@@ -35,9 +35,9 @@ const useDimensions = ({ containerRef, tooltip, content }, children, parent) => 
           containerLeftPure: containerDimensions.left - (window.scrollX || window.pageXOffset),
           containerHeight: containerDimensions.height,
           containerWidth: containerDimensions.width,
-          tooltipWidth: tooltipDimensions.width,
-          tooltipHeight: tooltipDimensions.height,
-          windowWidth: window.innerWidth,
+          popperWidth: popperDimensions.width,
+          popperHeight: popperDimensions.height,
+          windowWidth: document.body.clientWidth,
           windowHeight: window.innerHeight,
           contentHeight: contentDimensions.height
         });
@@ -52,7 +52,7 @@ const useDimensions = ({ containerRef, tooltip, content }, children, parent) => 
       window.removeEventListener('resize', calculateDimensions);
       window.removeEventListener('scroll', calculateDimensions);
     };
-  }, [containerRef, content, tooltip, children, parent]);
+  }, [container, content, popper, children, parent, open]);
 
   return dimensions;
 };

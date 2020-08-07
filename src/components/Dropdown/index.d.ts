@@ -2,7 +2,7 @@ export interface DropdownProps {
   children?: React.ReactNode;
   label: React.ReactNode;
   className?: string;
-  position?: 'left' | 'right' ;
+  position?: 'left' | 'right' | 'center';
   autoClose?: boolean;
 }
 
