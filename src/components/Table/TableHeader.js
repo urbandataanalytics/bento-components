@@ -67,6 +67,7 @@ const TableHeader = ({ column, enableSorting, displayName, setSort }) => {
     return () => {
       column.removeEventListener('sortChanged', onSortChanged);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
