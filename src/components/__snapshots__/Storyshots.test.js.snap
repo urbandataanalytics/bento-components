@@ -61375,7 +61375,7 @@ exports[`Storyshots Tabs Normal 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  min-height: 57px;
+  min-height: 56px;
 }
 
 .c1 {
@@ -61395,7 +61395,7 @@ exports[`Storyshots Tabs Normal 1`] = `
 
 .c3 {
   font-size: 12px;
-  line-height: 22px;
+  line-height: 21px;
   font-weight: 500;
   -webkit-letter-spacing: 0.6px;
   -moz-letter-spacing: 0.6px;
@@ -61406,8 +61406,8 @@ exports[`Storyshots Tabs Normal 1`] = `
 .c2 {
   text-transform: uppercase;
   margin: 0 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -61423,8 +61423,8 @@ exports[`Storyshots Tabs Normal 1`] = `
 .c4 {
   text-transform: uppercase;
   margin: 0 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -61450,8 +61450,8 @@ exports[`Storyshots Tabs Normal 1`] = `
 .c5 {
   text-transform: uppercase;
   margin: 0 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -61544,7 +61544,7 @@ exports[`Storyshots Tabs With Badge 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  min-height: 57px;
+  min-height: 56px;
 }
 
 .c1 {
@@ -61564,7 +61564,7 @@ exports[`Storyshots Tabs With Badge 1`] = `
 
 .c3 {
   font-size: 12px;
-  line-height: 22px;
+  line-height: 21px;
   font-weight: 500;
   -webkit-letter-spacing: 0.6px;
   -moz-letter-spacing: 0.6px;
@@ -61605,8 +61605,8 @@ exports[`Storyshots Tabs With Badge 1`] = `
 .c2 {
   text-transform: uppercase;
   margin: 0 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -61622,8 +61622,8 @@ exports[`Storyshots Tabs With Badge 1`] = `
 .c6 {
   text-transform: uppercase;
   margin: 0 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -61649,8 +61649,8 @@ exports[`Storyshots Tabs With Badge 1`] = `
 .c8 {
   text-transform: uppercase;
   margin: 0 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -61877,19 +61877,37 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  min-height: 57px;
+  min-height: 56px;
 }
 
 .c1 {
   position: absolute;
   left: 0;
-  top: 9px;
+  top: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c13 {
   position: absolute;
   right: 0;
-  top: 9px;
+  top: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c6 {
@@ -61909,7 +61927,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
 
 .c8 {
   font-size: 12px;
-  line-height: 22px;
+  line-height: 21px;
   font-weight: 500;
   -webkit-letter-spacing: 0.6px;
   -moz-letter-spacing: 0.6px;
@@ -61950,8 +61968,8 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
 .c7 {
   text-transform: uppercase;
   margin: 0 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -61967,8 +61985,8 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
 .c11 {
   text-transform: uppercase;
   margin: 0 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
