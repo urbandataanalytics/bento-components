@@ -66082,13 +66082,13 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
 .c1 {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 9px;
 }
 
 .c13 {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 9px;
 }
 
 .c6 {
