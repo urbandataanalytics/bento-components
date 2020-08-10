@@ -33,7 +33,7 @@ const badgeStyles = theme => ({
 
 const StyledTabLabel = styled.span`
   font-size: ${({ theme }) => theme.components.tabFontSize};
-  line-height: 22px;
+  line-height: 21px;
   font-weight: ${({ theme }) => theme.components.tabFontWeight};
   letter-spacing: 0.6px;
 `;
@@ -60,8 +60,8 @@ StyledTabBadge.defaultProps = {
 const StyledTabContainer = styled.div`
   text-transform: uppercase;
   margin: 0 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
   display: flex;
   border-bottom: 3px solid transparent;
