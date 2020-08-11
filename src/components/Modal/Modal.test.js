@@ -45,7 +45,7 @@ describe(`Modal`, () => {
     expect(message().text()).toBe('Footer');
   });
 
-  it('should not render content when click outised', () => {
+  it('should close the modal when clicking close button', () => {
     const wrapper = shallow(
       <Modal open={true} onClose={onClose} footer={<p>Footer</p>}>
         Message
@@ -53,6 +53,17 @@ describe(`Modal`, () => {
     );
 
     wrapper.find('Modal__StyledHeader button').simulate('click');
+    expect(onClose).toHaveBeenCalled();
+  });
+
+  it('should close the modal when clicking outside modal content', () => {
+    const wrapper = shallow(
+      <Modal open={true} onClose={onClose} footer={<p>Footer</p>}>
+        Message
+      </Modal>
+    );
+
+    wrapper.find('Modal__StyledOverlay').simulate('click');
     expect(onClose).toHaveBeenCalled();
   });
 });
