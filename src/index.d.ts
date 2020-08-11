@@ -87,3 +87,6 @@ export * from './components/Pagination';
 export { default as Skeleton } from './components/Skeleton';
 export * from './components/Skeleton';
 
+export { default as Modal } from './components/Modal';
+export * from './components/Modal';
+
