@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
@@ -84,14 +84,25 @@ const Modal = ({
   footer,
   header,
   onClose,
-  open,
+  isOpen,
   ...other
 }) => {
   const theme = useTheme();
 
   const ref = useOnclickOutside(() => enableClickOutside && onClose());
+  const prevBodyOverflowStyle = useRef(null);
 
-  return open ? (
+  useEffect(() => {
+    if (isOpen) {
+      prevBodyOverflowStyle.current = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+    }
+    return () => {
+      document.body.style.overflow = prevBodyOverflowStyle.current || '';
+    };
+  }, [isOpen]);
+
+  return isOpen ? (
     <StyledOverlay>
       <StyledContainer {...other} ref={ref}>
         {(header || closable) && (
@@ -118,7 +129,7 @@ Modal.propTypes = {
   footer: PropTypes.node,
   header: PropTypes.node,
   onClose: PropTypes.func.isRequired,
-  open: PropTypes.bool.isRequired
+  isOpen: PropTypes.bool.isRequired
 };
 
 export default Modal;

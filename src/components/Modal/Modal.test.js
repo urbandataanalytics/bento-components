@@ -7,7 +7,7 @@ describe(`Modal`, () => {
 
   it('should not render header content', () => {
     const wrapper = shallow(
-      <Modal open={true} onClose={onClose}>
+      <Modal isOpen={true} onClose={onClose}>
         Message
       </Modal>
     );
@@ -17,7 +17,7 @@ describe(`Modal`, () => {
 
   it('should not render closable button', () => {
     const wrapper = shallow(
-      <Modal open={true} onClose={onClose} closable={false}>
+      <Modal isOpen={true} onClose={onClose} closable={false}>
         Message
       </Modal>
     );
@@ -27,7 +27,7 @@ describe(`Modal`, () => {
 
   it('should render children content', () => {
     const wrapper = shallow(
-      <Modal open={true} onClose={onClose}>
+      <Modal isOpen={true} onClose={onClose}>
         Message
       </Modal>
     );
@@ -37,7 +37,7 @@ describe(`Modal`, () => {
 
   it('should render footer content', () => {
     const wrapper = shallow(
-      <Modal open={true} onClose={onClose} footer={<p>Footer</p>}>
+      <Modal isOpen={true} onClose={onClose} footer={<p>Footer</p>}>
         Message
       </Modal>
     );
@@ -47,7 +47,7 @@ describe(`Modal`, () => {
 
   it('should close the modal when clicking close button', () => {
     const wrapper = shallow(
-      <Modal open={true} onClose={onClose} footer={<p>Footer</p>}>
+      <Modal isOpen={true} onClose={onClose} footer={<p>Footer</p>}>
         Message
       </Modal>
     );
@@ -58,7 +58,7 @@ describe(`Modal`, () => {
 
   it('should close the modal when clicking outside modal content', () => {
     const wrapper = shallow(
-      <Modal open={true} onClose={onClose} footer={<p>Footer</p>}>
+      <Modal isOpen={true} onClose={onClose} footer={<p>Footer</p>}>
         Message
       </Modal>
     );

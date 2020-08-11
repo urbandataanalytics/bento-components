@@ -5,7 +5,7 @@ export interface Props {
   footer?: React.ReactNode;
   header?: React.ReactNode;
   onClose: () => void;
-  open: boolean;
+  isOpen: boolean;
 }
 
 declare const Modal: React.FunctionComponent<Props>;

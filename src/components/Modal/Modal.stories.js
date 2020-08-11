@@ -29,7 +29,7 @@ export const Normal = () => {
 
       <Modal
         {...getCommonProps()}
-        open={isOpen}
+        isOpen={isOpen}
         header={<h4>{text('Title', 'Title')}</h4>}
         footer={<Button onClick={() => setIsOpen(!isOpen)}>Close</Button>}
         onClose={handleClose}
