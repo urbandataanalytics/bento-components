@@ -51,7 +51,7 @@ const StyledTooltipLabel = styled.div`
   padding: ${({ theme }) => theme.spacings.small1} 12px;
   background: ${({ theme }) => hexToRgba(theme.color.charcoal800, 0.9)};
   border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   transition: opacity ${props => props.theme.global.transitionS};
   &:after {
