@@ -79,12 +79,12 @@ StyledOverlay.defaultProps = {
 
 const Modal = ({
   children,
-  header,
-  footer,
-  onClose,
-  enableClickOutside = true,
-  open,
   closable = true,
+  enableClickOutside = true,
+  footer,
+  header,
+  onClose,
+  open,
   ...other
 }) => {
   const theme = useTheme();
