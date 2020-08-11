@@ -1,10 +1,11 @@
 export interface Props {
   children: React.ReactNode;
-  header?: React.ReactNode;
+  closable?: boolean;
+  enableClickOutside?: boolean;
   footer?: React.ReactNode;
-  onClose?: () => void;
+  header?: React.ReactNode;
+  onClose: () => void;
   open: boolean;
-  closable: boolean;
 }
 
 declare const Modal: React.FunctionComponent<Props>;

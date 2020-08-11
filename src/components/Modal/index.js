@@ -77,10 +77,19 @@ StyledOverlay.defaultProps = {
   theme: defaultTheme
 };
 
-const Modal = ({ children, header, footer, onClose, open, closable = true, ...other }) => {
+const Modal = ({
+  children,
+  header,
+  footer,
+  onClose,
+  enableClickOutside = true,
+  open,
+  closable = true,
+  ...other
+}) => {
   const theme = useTheme();
 
-  const ref = useOnclickOutside(() => onClose());
+  const ref = useOnclickOutside(() => enableClickOutside && onClose());
 
   return open ? (
     <StyledOverlay>
@@ -104,11 +113,12 @@ const Modal = ({ children, header, footer, onClose, open, closable = true, ...ot
 
 Modal.propTypes = {
   children: PropTypes.node.isRequired,
-  header: PropTypes.node.isRequired,
+  closable: PropTypes.bool,
+  enableClickOutside: PropTypes.bool,
   footer: PropTypes.node,
-  onClose: PropTypes.func,
-  open: PropTypes.bool.isRequired,
-  closable: PropTypes.bool
+  header: PropTypes.node,
+  onClose: PropTypes.func.isRequired,
+  open: PropTypes.bool.isRequired
 };
 
 export default Modal;
