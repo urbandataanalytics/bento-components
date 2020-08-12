@@ -8,16 +8,15 @@ import { IconClose } from '../../icons';
 import hexToRgba from '../../utils/hexToRgba';
 
 const StyledContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: fit-content;
   background: white;
   border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
   position: relative;
   max-width: 75vw;
   max-height: 90vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 `;
 
 StyledContainer.defaultProps = {
@@ -49,6 +48,8 @@ StyleHeading.defaultProps = {
 const StyledContent = styled.div`
   margin: ${({ theme }) => theme.spacings.medium1} 0 ${({ theme }) => theme.spacings.medium2};
   padding: 0 ${({ theme }) => theme.spacings.medium2};
+  overflow: hidden;
+  position: relative;
 `;
 
 StyledContent.defaultProps = {
@@ -120,7 +121,7 @@ const Modal = ({
           </StyledHeader>
         )}
         <StyledContent>{children}</StyledContent>
-        {footer && <StyledFooter>{footer}</StyledFooter>}
+        {footer && footer.props.children && <StyledFooter>{footer}</StyledFooter>}
       </StyledContainer>
     </StyledOverlay>
   ) : null;
