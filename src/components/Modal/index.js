@@ -13,11 +13,10 @@ const StyledContainer = styled.div`
   align-items: center;
   flex-direction: column;
   width: fit-content;
-  padding: 0 ${({ theme }) => theme.spacings.medium2};
   background: white;
   border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
   position: relative;
-  max-width: 75vh;
+  max-width: 75vw;
   max-height: 90vh;
 `;
 
@@ -27,9 +26,12 @@ StyledContainer.defaultProps = {
 
 const StyledHeader = styled.header`
   display: flex;
-  justify-content: space-between;
+  justify-content: ${({ hasHeading }) => (hasHeading ? 'space-between' : 'flex-end')};
   width: 100%;
-  padding: ${({ theme }) => theme.spacings.small4} 0 ${({ theme }) => theme.spacings.small3};
+  padding: ${({ theme }) => theme.spacings.small4} ${({ theme }) => theme.spacings.medium2}
+    ${({ theme }) => theme.spacings.small3};
+  border-bottom: 1px solid
+    ${({ theme, hasHeading }) => (hasHeading ? theme.color.charcoal300 : 'transparent')};
 `;
 
 StyledHeader.defaultProps = {
@@ -46,6 +48,7 @@ StyleHeading.defaultProps = {
 
 const StyledContent = styled.div`
   margin: ${({ theme }) => theme.spacings.medium1} 0 ${({ theme }) => theme.spacings.medium2};
+  padding: 0 ${({ theme }) => theme.spacings.medium2};
 `;
 
 StyledContent.defaultProps = {
@@ -53,7 +56,8 @@ StyledContent.defaultProps = {
 };
 
 const StyledFooter = styled.footer`
-  padding: ${({ theme }) => theme.spacings.small4} 0 ${({ theme }) => theme.spacings.small4};
+  padding: ${({ theme }) => theme.spacings.small4} ${({ theme }) => theme.spacings.medium2}
+    ${({ theme }) => theme.spacings.small4};
 `;
 
 StyledFooter.defaultProps = {
@@ -105,9 +109,9 @@ const Modal = ({
   return isOpen ? (
     <StyledOverlay>
       <StyledContainer {...other} ref={ref}>
-        {(header || closable) && (
-          <StyledHeader>
-            {header && <StyleHeading>{header}</StyleHeading>}
+        {((header && header.props.children) || closable) && (
+          <StyledHeader hasHeading={header && header.props.children}>
+            {header && header.props.children && <StyleHeading>{header}</StyleHeading>}
             {closable && (
               <button onClick={onClose}>
                 <IconClose customColor={theme.color.charcoal600} />

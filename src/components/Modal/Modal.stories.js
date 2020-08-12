@@ -34,7 +34,7 @@ export const Normal = () => {
         footer={<Button onClick={() => setIsOpen(!isOpen)}>Close</Button>}
         onClose={handleClose}
       >
-        holi
+        <p>{text('Content', 'Lorem ipsum dolor sit amet')}</p>
       </Modal>
     </>
   );
