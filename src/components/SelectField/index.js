@@ -114,8 +114,8 @@ const SelectField = React.forwardRef((props, ref) => {
           {defaultLabel && <option defaultValue>{defaultLabel}</option>}
           {options &&
             options.map((opt, key) => (
-              <option key={key} value={opt}>
-                {opt}
+              <option key={key} value={opt.value}>
+                {opt.label}
               </option>
             ))}
         </Select>
@@ -129,11 +129,12 @@ const SelectField = React.forwardRef((props, ref) => {
 SelectField.propTypes = {
   className: PropTypes.string,
   disabled: PropTypes.bool,
-  options: PropTypes.array,
+  options: PropTypes.array.isRequired,
   error: PropTypes.bool,
   help: PropTypes.string,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
+  defaultLabel: PropTypes.string,
   onChange: PropTypes.func.isRequired,
   tabIndex: PropTypes.string,
   value: PropTypes.string.isRequired
