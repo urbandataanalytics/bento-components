@@ -16,7 +16,6 @@ const StyledContainer = styled.div`
   overflow: auto;
   display: flex;
   flex-direction: column;
-  height: fit-content;
 `;
 
 StyledContainer.defaultProps = {
@@ -27,7 +26,7 @@ const StyledHeader = styled.header`
   display: flex;
   justify-content: ${({ hasHeading }) => (hasHeading ? 'space-between' : 'flex-end')};
   width: 100%;
-  padding: ${({ theme }) => theme.spacings.small4} ${({ theme }) => theme.spacings.medium2}
+  padding: ${({ theme }) => theme.spacings.small4} ${({ theme }) => theme.spacings.medium1}
     ${({ theme }) => theme.spacings.small3};
   border-bottom: 1px solid
     ${({ theme, hasHeading }) => (hasHeading ? theme.color.charcoal300 : 'transparent')};
@@ -46,8 +45,8 @@ StyleHeading.defaultProps = {
 };
 
 const StyledContent = styled.div`
-  margin: ${({ theme }) => theme.spacings.medium1} 0 ${({ theme }) => theme.spacings.medium2};
-  padding: 0 ${({ theme }) => theme.spacings.medium2};
+  margin: ${({ theme }) => theme.spacings.medium1} 0;
+  padding: 0 ${({ theme }) => theme.spacings.small3};
   overflow: hidden;
   position: relative;
 `;
@@ -57,7 +56,7 @@ StyledContent.defaultProps = {
 };
 
 const StyledFooter = styled.footer`
-  padding: ${({ theme }) => theme.spacings.small4} ${({ theme }) => theme.spacings.medium2}
+  padding: ${({ theme }) => theme.spacings.small4} ${({ theme }) => theme.spacings.small3}
     ${({ theme }) => theme.spacings.small4};
 `;
 
