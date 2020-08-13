@@ -420,6 +420,7 @@ const components = {
   listItemColorDefaultHover: color.charcoal300,
   listItemBackgroundColorDefaultHover: color.charcoal300,
   listItemColorDisabled: color.charcoal500,
+  listItemBackgroundColorDisabled: color.charcoal200,
   listItemBackgroundColorHoverDisabled: color.charcoal200,
   listItemMargin: '0 0 4px',
   listItemFontSize: '12px',

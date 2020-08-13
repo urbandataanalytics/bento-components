@@ -102,7 +102,9 @@ export const StyledListItem = styled.li`
   transition: ${props => props.theme.global.transitionM};
   margin: ${props => props.theme.components.listItemMargin};
   ${props => props.onClick && 'cursor: pointer'};
-  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`};
+  ${props =>
+    props.disabled &&
+    `color: ${props.theme.components.listItemColorDisabled}; background-color:${props.theme.components.listItemBackgroundColorDisabled};`};
   border-radius: ${props => props.theme.components.listItemBorderRadius};
 
   &:last-child {
