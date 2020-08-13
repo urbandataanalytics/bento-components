@@ -90,3 +90,5 @@ export * from './components/Skeleton';
 export { default as Modal } from './components/Modal';
 export * from './components/Modal';
 
+export { default as SelectField } from './components/SelectField';
+export * from './components/SelectField';
