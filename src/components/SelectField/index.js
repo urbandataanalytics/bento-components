@@ -114,8 +114,8 @@ const SelectField = React.forwardRef((props, ref) => {
           {defaultLabel && <option defaultValue>{defaultLabel}</option>}
           {options &&
             options.map((opt, key) => (
-              <option key={key} value={opt}>
-                {opt}
+              <option key={key} value={opt.value}>
+                {opt.label}
               </option>
             ))}
         </Select>

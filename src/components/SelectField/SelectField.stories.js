@@ -11,8 +11,11 @@ export default {
 const getCommonProps = () => {
   return {
     defaultLabel: 'Select value',
-    options: ['first', 'second'],
-    value: select('Value', ['first', 'second'], 'first'),
+    options: [
+      { value: 'en', label: 'English' },
+      { value: 'es', label: 'Spanish' }
+    ],
+    value: select('Value', ['en', 'es'], 'en'),
     onChange: action('onChange'),
     label: text('Label', 'Label text'),
     help: text('Help', 'Help text')
