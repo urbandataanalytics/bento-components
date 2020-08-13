@@ -61233,7 +61233,11 @@ exports[`Storyshots SelectField Disabled 1`] = `
         className="c2"
         disabled={true}
         onChange={[Function]}
+<<<<<<< HEAD
         value="en"
+=======
+        value="first"
+>>>>>>> develop
       >
         <option
           defaultValue={true}
@@ -61241,6 +61245,7 @@ exports[`Storyshots SelectField Disabled 1`] = `
           Select value
         </option>
         <option
+<<<<<<< HEAD
           value="en"
         >
           English
@@ -61249,6 +61254,16 @@ exports[`Storyshots SelectField Disabled 1`] = `
           value="es"
         >
           Spanish
+=======
+          value="first"
+        >
+          first
+        </option>
+        <option
+          value="second"
+        >
+          second
+>>>>>>> develop
         </option>
       </select>
       <p
@@ -61793,7 +61808,11 @@ exports[`Storyshots SelectField Error 1`] = `
         className="c2 error"
         disabled={false}
         onChange={[Function]}
+<<<<<<< HEAD
         value="en"
+=======
+        value="first"
+>>>>>>> develop
       >
         <option
           defaultValue={true}
@@ -61801,6 +61820,7 @@ exports[`Storyshots SelectField Error 1`] = `
           Select value
         </option>
         <option
+<<<<<<< HEAD
           value="en"
         >
           English
@@ -61809,6 +61829,16 @@ exports[`Storyshots SelectField Error 1`] = `
           value="es"
         >
           Spanish
+=======
+          value="first"
+        >
+          first
+        </option>
+        <option
+          value="second"
+        >
+          second
+>>>>>>> develop
         </option>
       </select>
       <p
@@ -62353,7 +62383,11 @@ exports[`Storyshots SelectField Normal 1`] = `
         className="c2"
         disabled={false}
         onChange={[Function]}
+<<<<<<< HEAD
         value="en"
+=======
+        value="first"
+>>>>>>> develop
       >
         <option
           defaultValue={true}
