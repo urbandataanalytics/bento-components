@@ -369,11 +369,14 @@ const components = {
   notificationBorderRadius: shapes.borderRadiusLarge,
   notificationCloseButtonColor: color.charcoal800,
   notificationErrorBackgroundColor: color.redclay100,
+  notificationErrorBorderColor: color.redclay500,
   notificationErrorColor: color.redclay500,
   notificationNormalBackgroundColor: color.primary100,
+  notificationNormalBorderColor: color.ocean800,
   notificationNormalColor: color.charcoal800,
   notificationPadding: spacings.small3,
   notificationSuccessBackgroundColor: color.emerald100,
+  notificationSuccessBorderColor: color.emerald600,
   notificationSuccessColor: color.emerald600,
 
   /*TextLink Theme props*/
