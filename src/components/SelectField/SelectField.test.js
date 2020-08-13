@@ -6,6 +6,10 @@ describe(`SelectField`, () => {
   const props = {
     value: 'default Value',
     onChange: jest.fn(),
+    options: [
+      { value: 'en', label: 'English' },
+      { value: 'es', label: 'Spanish' }
+    ],
     type: 'text'
   };
 
