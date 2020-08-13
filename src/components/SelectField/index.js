@@ -129,11 +129,12 @@ const SelectField = React.forwardRef((props, ref) => {
 SelectField.propTypes = {
   className: PropTypes.string,
   disabled: PropTypes.bool,
-  options: PropTypes.array,
+  options: PropTypes.array.isRequired,
   error: PropTypes.bool,
   help: PropTypes.string,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
+  defaultLabel: PropTypes.string,
   onChange: PropTypes.func.isRequired,
   tabIndex: PropTypes.string,
   value: PropTypes.string.isRequired
