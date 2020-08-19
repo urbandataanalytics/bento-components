@@ -18,13 +18,28 @@ const StyledContainer = styled.div`
   }
 
   .ag-row {
-    border-bottom: 1px solid ${({ theme }) => theme.color.charcoal300};
+    ${({ theme, striped }) =>
+      striped ? `border-bottom: 1px solid ${theme.color.charcoal300};` : ''}
   }
 
   ${({ theme }) => theme.texts.p2};
 `;
 
-const Table = ({ loading, height, columns = [], rows, cellRenderers = {}, ...other }) => {
+const sizeVariants = {
+  small: 28,
+  medium: 63
+};
+
+const Table = ({
+  loading,
+  height,
+  columns = [],
+  rows,
+  cellRenderers = {},
+  variant,
+  striped,
+  ...other
+}) => {
   const columnDefs = columns.map(column => {
     if (column.hasOwnProperty('cellRenderer')) {
       return column;
@@ -35,12 +50,12 @@ const Table = ({ loading, height, columns = [], rows, cellRenderers = {}, ...oth
   return loading ? (
     <TableSkeleton />
   ) : (
-    <StyledContainer>
+    <StyledContainer striped={striped}>
       <AgGridReact
         columnDefs={columnDefs}
         rowData={rows}
         headerHeight={40}
-        rowHeight={63}
+        rowHeight={sizeVariants[variant]}
         enableCellTextSelection={true}
         frameworkComponents={{
           agColumnHeader: TableHeader,
@@ -54,7 +69,9 @@ const Table = ({ loading, height, columns = [], rows, cellRenderers = {}, ...oth
 };
 
 Table.defaultProps = {
-  height: '100vh'
+  height: '100vh',
+  variant: 'medium',
+  striped: true
 };
 
 export default Table;
