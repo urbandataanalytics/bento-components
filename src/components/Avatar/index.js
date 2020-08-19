@@ -40,7 +40,6 @@ const StyledAvatar = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  text-indent: 2px;
   transition: ${props => props.theme.global.transitionM};
   ${({ theme, size }) => componentSizes(theme)[size]};
 `;

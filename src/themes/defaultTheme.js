@@ -369,11 +369,14 @@ const components = {
   notificationBorderRadius: shapes.borderRadiusLarge,
   notificationCloseButtonColor: color.charcoal800,
   notificationErrorBackgroundColor: color.redclay100,
+  notificationErrorBorderColor: color.redclay500,
   notificationErrorColor: color.redclay500,
   notificationNormalBackgroundColor: color.primary100,
+  notificationNormalBorderColor: color.ocean800,
   notificationNormalColor: color.charcoal800,
   notificationPadding: spacings.small3,
   notificationSuccessBackgroundColor: color.emerald100,
+  notificationSuccessBorderColor: color.emerald600,
   notificationSuccessColor: color.emerald600,
 
   /*TextLink Theme props*/
@@ -417,6 +420,7 @@ const components = {
   listItemColorDefaultHover: color.charcoal300,
   listItemBackgroundColorDefaultHover: color.charcoal300,
   listItemColorDisabled: color.charcoal500,
+  listItemBackgroundColorDisabled: color.charcoal200,
   listItemBackgroundColorHoverDisabled: color.charcoal200,
   listItemMargin: '0 0 4px',
   listItemFontSize: '12px',
