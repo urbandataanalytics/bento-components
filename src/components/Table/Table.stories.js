@@ -48,12 +48,24 @@ const rowData = [
 
 export const Normal = () => (
   <div style={decoratorStyles}>
-    <Table columns={columnDefs} rows={rowData} />
+    <Table columns={columnDefs} rows={rowData} domLayout="autoHeight" />
   </div>
 );
 
 export const Loading = () => (
   <div style={decoratorStyles}>
     <Table columns={columnDefs} rows={rowData} loading />
+  </div>
+);
+
+export const Small = () => (
+  <div style={decoratorStyles}>
+    <Table
+      columns={columnDefs}
+      rows={rowData}
+      variant="small"
+      striped={false}
+      domLayout="autoHeight"
+    />
   </div>
 );

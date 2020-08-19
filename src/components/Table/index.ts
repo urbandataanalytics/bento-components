@@ -12,6 +12,8 @@ export interface TableProps {
   columns: ColumnProps[];
   rows: any[];
   loading?: boolean;
+  variant?: 'small' | 'medium';
+  striped?: boolean;
 }
 
 declare const Table: React.FunctionComponent<TableProps>;
