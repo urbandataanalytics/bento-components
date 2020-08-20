@@ -49,7 +49,7 @@ Skeleton.propTypes = {
 };
 
 Skeleton.defaultProps = {
-  height: '8px',
+  height: '10px',
   width: '100%',
   variant: 'text'
 };
