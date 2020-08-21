@@ -7,7 +7,6 @@ const StyledSkeleton = styled.table`
   border-collapse: collapse;
   th,
   td {
-    padding: ${({ theme }) => theme.spacings.small3} ${({ theme }) => theme.spacings.small3};
     vertical-align: top;
   }
 
@@ -21,6 +20,7 @@ const StyledSkeleton = styled.table`
       &:nth-child(13) {
         background-color: ${({ theme }) => theme.color.charcoal300};
       }
+      padding: 15px ${({ theme }) => theme.spacings.small3};
     }
   }
 
@@ -30,7 +30,7 @@ const StyledSkeleton = styled.table`
         ${({ striped, theme }) =>
           striped ? `border-bottom: 1px solid ${theme.color.charcoal300}` : null};
         line-height: 0;
-        padding: ${({ variant, theme }) => (variant === 'medium' ? theme.spacings.small3 : '6px')}
+        padding: ${({ variant, theme }) => (variant === 'medium' ? '26px' : '9px')}
           ${({ theme }) => theme.spacings.small3};
 
         &:nth-child(2),

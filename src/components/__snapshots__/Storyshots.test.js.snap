@@ -64047,12 +64047,15 @@ exports[`Storyshots Table Loading 1`] = `
 
 .c0 th,
 .c0 td {
-  padding: 16px 16px;
   vertical-align: top;
 }
 
 .c0 thead {
   background-color: #F8F8F8;
+}
+
+.c0 thead th {
+  padding: 15px 16px;
 }
 
 .c0 thead th:nth-child(2),
@@ -64066,7 +64069,7 @@ exports[`Storyshots Table Loading 1`] = `
 .c0 tbody tr td {
   border-bottom: 1px solid #EFF2F7;
   line-height: 0;
-  padding: 16px 16px;
+  padding: 26px 16px;
 }
 
 .c0 tbody tr td:nth-child(2),
