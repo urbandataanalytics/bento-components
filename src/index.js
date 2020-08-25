@@ -95,3 +95,6 @@ export * from './components/Modal';
 
 export { default as SelectField } from './components/SelectField';
 export * from './components/SelectField';
+
+export { default as MapLegend } from './components/Map/MapLegend';
+export * from './components/Map/MapLegend';

@@ -1,10 +1,10 @@
 import React from 'react';
 import { text, boolean } from '@storybook/addon-knobs';
-import MapLeyend from './index';
+import MapLegend from './index';
 
 export default {
-  title: 'MapLeyend',
-  component: MapLeyend
+  title: 'MapLegend',
+  component: MapLegend
 };
 
 const getCommonProps = () => {
@@ -26,7 +26,7 @@ export const Playground = () => {
 
   return (
     <div style={containerStyle}>
-      <MapLeyend
+      <MapLegend
         {...getCommonProps()}
         rangeColors={[
           '#03045E',

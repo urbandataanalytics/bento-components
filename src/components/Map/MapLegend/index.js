@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { forwardRef } from 'react';
-import MapLegendSkeleton from './MapLeyendSkeleton';
+import MapLegendSkeleton from './MapLegendSkeleton';
 
 const StyledContainer = styled.div`
   position: absolute;
@@ -52,7 +52,7 @@ const StyledMinMaxText = styled.div`
   }
 `;
 
-const MapLeyend = forwardRef((props, ref) => {
+const MapLegend = forwardRef((props, ref) => {
   const {
     title,
     isLoading,
@@ -94,7 +94,7 @@ const MapLeyend = forwardRef((props, ref) => {
   );
 });
 
-MapLeyend.defaultProps = {
+MapLegend.defaultProps = {
   rangeColors: [
     '#03045E',
     '#ADE8F4',
@@ -109,4 +109,4 @@ MapLeyend.defaultProps = {
   rangeTextMax: 'Max'
 };
 
-export default MapLeyend;
+export default MapLegend;

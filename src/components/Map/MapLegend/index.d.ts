@@ -8,6 +8,6 @@ export interface Props {
   offsetBottom?: string;
 }
 
-declare const MapLeyend: React.FunctionComponent<Props>;
+declare const MapLegend: React.FunctionComponent<Props>;
 
-export default MapLeyend;
+export default MapLegend;

@@ -56295,7 +56295,7 @@ exports[`Storyshots Loader Normal 1`] = `
 </div>
 `;
 
-exports[`Storyshots MapLeyend Playground 1`] = `
+exports[`Storyshots MapLegend Playground 1`] = `
 .c0 {
   position: absolute;
   left: calc(16px + 0px);
