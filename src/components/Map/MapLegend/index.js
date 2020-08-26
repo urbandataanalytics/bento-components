@@ -62,17 +62,11 @@ const MapLegend = forwardRef((props, ref) => {
     rangeTextMax,
     offsetLeft,
     offsetBottom,
-    offsetTop,
-    offsetRight
+    ...other
   } = props;
 
   return (
-    <StyledContainer
-      offsetTop={offsetTop}
-      offsetRight={offsetRight}
-      offsetBottom={offsetBottom}
-      offsetLeft={offsetLeft}
-    >
+    <StyledContainer offsetLeft={offsetLeft} offsetBottom={offsetBottom} {...other}>
       {isLoading ? (
         <MapLegendSkeleton />
       ) : (

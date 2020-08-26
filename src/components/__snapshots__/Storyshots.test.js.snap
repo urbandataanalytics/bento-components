@@ -56295,6 +56295,35 @@ exports[`Storyshots Loader Normal 1`] = `
 </div>
 `;
 
+exports[`Storyshots MapActions Playground 1`] = `
+.c0 {
+  position: absolute;
+  right: calc(16px + 0px);
+  bottom: calc(16px + 0px);
+  -webkit-transition: left 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
+  background: #FFFFFF;
+  border: 1px solid #F8F8F8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    Test content
+  </div>
+</div>
+`;
+
 exports[`Storyshots MapLegend Playground 1`] = `
 .c0 {
   position: absolute;
