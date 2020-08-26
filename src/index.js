@@ -101,3 +101,6 @@ export * from './components/Map/MapLegend';
 
 export { default as MapActions } from './components/Map/MapActions';
 export * from './components/Map/MapActions';
+
+export { default as InfinitePagination } from './components/InfinitePagination';
+export * from './components/InfinitePagination';
