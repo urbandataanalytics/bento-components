@@ -56295,6 +56295,191 @@ exports[`Storyshots Loader Normal 1`] = `
 </div>
 `;
 
+exports[`Storyshots MapLegend Playground 1`] = `
+.c0 {
+  position: absolute;
+  left: calc(16px + 0px);
+  bottom: calc(16px + 0px);
+  width: 270px;
+  -webkit-transition: left 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
+  background: #FFFFFF;
+  border: 1px solid #F8F8F8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.c1 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #212632;
+  line-height: 1.5;
+  color: #212632;
+}
+
+.c2 {
+  font-weight: 700;
+  font-size: 10px;
+  color: #212632;
+  line-height: 1.5;
+  color: #B6BBC6;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+.c4 {
+  background: #03045E;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c5 {
+  background: #ADE8F4;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c6 {
+  background: #90D8EF;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c7 {
+  background: #48B5E4;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c8 {
+  background: #008BC7;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c9 {
+  background: #0077B6;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c10 {
+  background: #023E8A;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.c11 span {
+  font-weight: 700;
+  font-size: 10px;
+  color: #212632;
+  line-height: 1.5;
+  color: #747D93;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <header
+      className="c1"
+    >
+      Leyend
+    </header>
+    <div
+      className="c2"
+    >
+      Lorem ipsum
+    </div>
+    <div
+      className="c3"
+    >
+      <i
+        className="c4"
+        color="#03045E"
+      />
+      <i
+        className="c5"
+        color="#ADE8F4"
+      />
+      <i
+        className="c6"
+        color="#90D8EF"
+      />
+      <i
+        className="c7"
+        color="#48B5E4"
+      />
+      <i
+        className="c8"
+        color="#008BC7"
+      />
+      <i
+        className="c9"
+        color="#0077B6"
+      />
+      <i
+        className="c10"
+        color="#023E8A"
+      />
+      <i
+        className="c4"
+        color="#03045E"
+      />
+    </div>
+    <div
+      className="c11"
+    >
+      <span>
+        Minium
+      </span>
+      <span>
+        Max
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Modal Normal 1`] = `
 .c2 {
   -webkit-flex-shrink: 0;

@@ -51,13 +51,13 @@ const StyledSplit = styled.div`
   grid-gap: 10px;
 `;
 
-const TableSkeleton = React.forwardRef(({ rows, columns, striped, variant }) => (
+const TableSkeleton = React.forwardRef(({ rows, columns, striped, variant }, ref) => (
   <StyledSkeleton striped={striped} variant={variant}>
     <thead>
       <tr>
         {[...Array(columns)].map((e, i) => (
-          <th>
-            <Skeleton variant="rounded" height="10px" key={i} />
+          <th key={i}>
+            <Skeleton variant="rounded" height="10px" />
           </th>
         ))}
       </tr>
@@ -66,9 +66,9 @@ const TableSkeleton = React.forwardRef(({ rows, columns, striped, variant }) => 
       {[...Array(rows)].map((e, i) => (
         <tr key={i}>
           {[...Array(columns)].map((e, k) => (
-            <td>
+            <td key={k}>
               {k === 1 || k === 3 ? (
-                <StyledSplit key={k}>
+                <StyledSplit>
                   <Skeleton variant="rounded" height="10px" />
                   <Skeleton variant="rounded" height="10px" />
                 </StyledSplit>
