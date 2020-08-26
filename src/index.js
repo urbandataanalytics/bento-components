@@ -98,3 +98,6 @@ export * from './components/SelectField';
 
 export { default as MapLegend } from './components/Map/MapLegend';
 export * from './components/Map/MapLegend';
+
+export { default as MapActions } from './components/Map/MapActions';
+export * from './components/Map/MapActions';
