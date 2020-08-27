@@ -40,12 +40,13 @@ ChildrenContainer.defaultProps = {
 
 const DROPDOWN_OFFSET = 8;
 
-const calculatePosition = (position, dimensions) => {
+const calculatePosition = (align, position, dimensions) => {
   const {
     containerHeight,
     containerLeft,
     containerTop,
     containerWidth,
+    popperHeight,
     popperWidth,
     windowWidth
   } = dimensions;
@@ -53,15 +54,16 @@ const calculatePosition = (position, dimensions) => {
   let top = 0;
   let left = 0;
 
-  top = containerTop + containerHeight + 10;
-  if (position === 'left') {
+  top =
+    position === 'bottom' ? containerTop + containerHeight + 10 : containerTop - popperHeight - 10;
+  if (align === 'left') {
     left = containerLeft;
     if (left <= DROPDOWN_OFFSET) {
       left = DROPDOWN_OFFSET;
     }
-  } else if (position === 'center') {
+  } else if (align === 'center') {
     left = containerLeft + containerWidth / 2 - popperWidth / 2;
-  } else if (position === 'right') {
+  } else if (align === 'right') {
     left = containerLeft + containerWidth - popperWidth;
     if (left + popperWidth >= windowWidth - DROPDOWN_OFFSET) {
       left = windowWidth - popperWidth - DROPDOWN_OFFSET;
@@ -71,7 +73,15 @@ const calculatePosition = (position, dimensions) => {
   return { top, left };
 };
 
-const Dropdown = ({ children, label, autoClose, position, onChange = () => {}, ...other }) => {
+const Dropdown = ({
+  children,
+  label,
+  autoClose,
+  align,
+  position,
+  onChange = () => {},
+  ...other
+}) => {
   const [isOpen, setOpen] = useState(false);
 
   const container = useRef(null);
@@ -94,10 +104,10 @@ const Dropdown = ({ children, label, autoClose, position, onChange = () => {}, .
     container,
     isOpen
   );
-  let dropdownPosition = calculatePosition(position, dimensions);
+  let dropdownPosition = calculatePosition(align, position, dimensions);
 
   React.useEffect(() => {
-    dropdownPosition = calculatePosition(position, dimensions);
+    dropdownPosition = calculatePosition(align, position, dimensions);
   }, [isOpen]);
 
   useEffect(() => {
@@ -109,12 +119,7 @@ const Dropdown = ({ children, label, autoClose, position, onChange = () => {}, .
       <StyledLabel onClick={() => setOpen(!isOpen)}>{label}</StyledLabel>
       {isOpen && (
         <Portal renderInto="dropdowns">
-          <ChildrenContainer
-            isOpen={isOpen}
-            position={position}
-            ref={dropdown}
-            style={dropdownPosition}
-          >
+          <ChildrenContainer isOpen={isOpen} ref={dropdown} style={dropdownPosition}>
             <div ref={content}>{children}</div>
           </ChildrenContainer>
         </Portal>
@@ -129,13 +134,15 @@ Dropdown.propTypes = {
   children: PropTypes.node,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
   className: PropTypes.string,
-  position: PropTypes.oneOf(['right', 'center', 'left']),
+  position: PropTypes.oneOf(['top', 'bottom']),
+  align: PropTypes.oneOf(['right', 'center', 'left']),
   autoClose: PropTypes.bool
 };
 
 Dropdown.defaultProps = {
   autoClose: true,
-  position: 'left'
+  position: 'bottom',
+  align: 'left'
 };
 
 export default Dropdown;
