@@ -6,6 +6,8 @@ export interface Props {
   rangeTextMax: string;
   offsetLeft?: string;
   offsetBottom?: string;
+  isLoading?: boolean;
+
 }
 
 declare const MapLegend: React.FunctionComponent<Props>;
