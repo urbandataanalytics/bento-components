@@ -56306,7 +56306,7 @@ exports[`Storyshots MapActions Playground 1`] = `
   border: 1px solid #F8F8F8;
   box-sizing: border-box;
   border-radius: 4px;
-  padding: 12px;
+  padding: 7px 15px;
 }
 
 <div
