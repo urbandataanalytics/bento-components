@@ -10,15 +10,18 @@ import IconClose from '../../icons/Close';
 const componentVariants = theme => ({
   normal: {
     color: theme.components.notificationNormalColor,
-    backgroundColor: theme.components.notificationNormalBackgroundColor
+    backgroundColor: theme.components.notificationNormalBackgroundColor,
+    borderColor: theme.components.notificationNormalBorderColor
   },
   success: {
     color: theme.components.notificationSuccessColor,
-    backgroundColor: theme.components.notificationSuccessBackgroundColor
+    backgroundColor: theme.components.notificationSuccessBackgroundColor,
+    borderColor: theme.components.notificationSuccessBorderColor
   },
   error: {
     color: theme.components.notificationErrorColor,
-    backgroundColor: theme.components.notificationErrorBackgroundColor
+    backgroundColor: theme.components.notificationErrorBackgroundColor,
+    borderColor: theme.components.notificationErrorBorderColor
   }
 });
 
@@ -42,7 +45,7 @@ const StyledNotification = styled.aside`
   border-radius: ${props => props.theme.components.notificationBorderRadius};
   box-sizing: border-box;
   padding: ${props => props.theme.components.notificationPadding};
-
+  border: 1px solid transparent;
   ${props => componentVariants(props.theme)[props.variant]}
 `;
 StyledNotification.defaultProps = {

@@ -141,9 +141,9 @@
     "jest-styled-components": "^6.3.4",
     "jsdom": "^16.2.2",
     "mkdirp": "^1.0.4",
+    "playroom": "^0.18.1",
     "prettier": "^2.0.5",
     "prop-types": "^15.7.2",
-    "playroom": "^0.18.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -158,6 +158,8 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "react-cool-onclickoutside": "^1.4.8"
+    "ag-grid-community": "^23.2.1",
+    "ag-grid-react": "^23.2.1",
+    "react-cool-onclickoutside": "1.5.5"
   }
 }

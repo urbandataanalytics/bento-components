@@ -1,3 +1,4 @@
+import React from 'react';
 import { addDecorator } from '@storybook/react';
 import themeDecorator from './themeDecorator';
 import { addParameters } from '@storybook/react';
@@ -10,3 +11,4 @@ addParameters({
 });
 
 addDecorator(themeDecorator);
+addDecorator(Story => <Story />);

@@ -1,3 +1,5 @@
+import { keyframes } from 'styled-components';
+
 const fontCallback = 'Arial, sans-serif';
 
 const fonts = [
@@ -28,15 +30,60 @@ const color = {
   charcoal600: '#747D93',
   charcoal700: '#363C4B',
   charcoal800: '#212632',
+  forest900: '#021512',
+  forest800: '#09332C',
+  forest700: '#0E504C',
+  forest600: '#1B817A',
+  forest500: '#24A49B',
+  forest400: '#6BB0AC',
+  forest300: '#9BCFCC',
+  forest200: '#BCDBD9',
+  forest100: '#D7ECEA',
+  ocean900: '#03045E',
+  ocean800: '#023E8A',
+  ocean700: '#0077B6',
+  ocean600: '#008BC7',
+  ocean500: '#48B5E4',
+  ocean400: '#90D8EF',
+  ocean300: '#ADE8F4',
+  ocean200: '#CAF0F8',
+  ocean100: '#E4FAFF',
+  aubergine900: '#1D0A25',
+  aubergine800: '#2C003E',
+  aubergine700: '#512B58',
+  aubergine600: '#775175',
+  aubergine500: '#A888A3',
+  aubergine400: '#C2A4B6',
+  aubergine300: '#E4C7D0',
+  aubergine200: '#EFDDE3',
+  aubergine100: '#F4EFF1',
+  carrot700: '#D99455',
+  carrot600: '#E7AA71',
+  carrot500: '#EDBE96',
+  carrot200: '#F9CDAD',
+  carrot100: '#F2DBC8',
+  carabinero700: '#CE7A70',
+  carabinero600: '#E1897F',
+  carabinero500: '#EAA798',
+  carabinero300: '#FDC0AC',
+  carabinero100: '#F7E2D7',
+  golden500: '#F2BF12',
+  golden400: '#FFDA60',
+  golden300: '#FAE5A0',
+  golden200: '#FDF0C7',
+  golden100: '#FEF9E7',
   emerald100: '#EEF8F6',
   emerald500: '#55BAA9',
   emerald600: '#299B9A',
+  sangria600: '#972139',
+  sangria500: '#B2314A',
   primary100: '#EFF7FB',
   primary300: '#48AAF1',
   primary500: '#1778FB',
   primary700: '#0C1B7A',
   redclay100: '#FAEDEC',
   redclay500: '#CD4C41',
+  redvelvet: '#B2314A;',
   white: '#FFFFFF'
 };
 
@@ -61,10 +108,68 @@ const global = {
   fontColor: '#333',
   fontFamily: `"Roboto", ${fontCallback}`,
   fontSize: '14px',
-  transition: 'all 250ms ease-in-out',
+  transitionM: 'all 250ms ease-in-out',
+  transitionS: 'all 120ms ease-in-out',
+  boxShadowM: 'box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)',
   fontWeightRegular: 400,
   fontWeightMedium: 500,
   fontWeightBold: 700
+};
+
+const animations = {
+  rotate: keyframes`
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  `,
+  loading: keyframes`
+    0% {
+      background-color: rgba(220,223,230,1);
+    }
+    50% {
+      background-color: rgba(220,223,230,.5);
+    }
+    100% {
+      background-color: rgba(220,223,230,1);
+    }
+  `,
+  loader: keyframes`
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(180deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  `,
+  loaderInner: keyframes`
+    0% {
+      height: 0%;
+    }
+    25% {
+      height: 0%;
+    }
+    50% {
+      height: 100%;
+    }
+    75% {
+      height: 100%;
+    }
+    100% {
+      height: 0%;
+    }
+  `
 };
 
 const headings = [
@@ -76,7 +181,7 @@ const headings = [
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '2.5rem'
+    size: '2.26rem'
   },
   {
     fontFamily: global.fontFamily,
@@ -146,15 +251,26 @@ const components = {
   buttonPrimaryHoverBackgroundColor: color.primary300,
   buttonPrimaryHoverColor: color.white,
   buttonSecondaryBackgroundColor: color.white,
-  buttonSecondaryBorderColor: color.charcoal800,
+  buttonSecondaryBorderColor: color.charcoal400,
   buttonSecondaryBorderRadius: shapes.borderRadiusMedium,
   buttonSecondaryColor: color.charcoal800,
   buttonSecondaryDisabledBackgroundColor: color.white,
-  buttonSecondaryDisabledBorderColor: color.charcoal400,
+  buttonSecondaryDisabledBorderColor: color.charcoal300,
   buttonSecondaryDisabledColor: color.charcoal400,
-  buttonSecondaryHoverBackgroundColor: color.charcoal800,
-  buttonSecondaryHoverBorderColor: color.primary300,
-  buttonSecondaryHoverColor: color.white,
+  buttonSecondaryHoverBackgroundColor: color.charcoal400,
+  buttonSecondaryHoverBorderColor: color.charcoal400,
+  buttonSecondaryHoverColor: color.charcoal800,
+
+  buttonLinkPaddingSmall: '3px 4px',
+  buttonLinkFontSizeSmall: '12px',
+  buttonLinkPaddingMedium: '5px',
+  buttonLinkFontSizeMedium: '14px',
+  buttonLinkPaddingLarge: '6px',
+  buttonLinkFontSizeLarge: '14px',
+  buttonLinkPrimaryColor: color.primary500,
+  buttonLinkSecondaryColor: color.charcoal600,
+  buttonLinkDisabledColor: color.charcoal400,
+  buttonLinkHoverBackgroundColor: color.charcoal300,
 
   /* Checkbox Theme props */
   checkboxBackground: color.white,
@@ -212,26 +328,35 @@ const components = {
   avatarColor: color.white,
   avatarSizeSmall: spacings.small4,
   avatarSizeMedium: spacings.medium1,
-  avatarSizeLarge: spacings.medium3,
+  avatarSizeLarge: spacings.medium2,
+  avatarSizeExtralarge: spacings.medium5,
   avatarFontSizeSmall: '12px',
-  avatarFontSizeMedium: '14px',
-  avatarFontSizeLarge: '24px',
+  avatarFontSizeMedium: '12px',
+  avatarFontSizeLarge: '12px',
+  avatarFontSizeExtralarge: spacings.small3,
+
+  /* Loader Theme Props */
+  loaderSizeSmall: spacings.medium1,
+  loaderSizeMedium: spacings.medium3,
+  loaderSizeLarge: spacings.medium5,
 
   /* Navigation Theme Props */
+  navigationBackgroundColor: 'white',
   navigationBorder: `1px solid ${color.charcoal300}`,
-  navigationMenuPadding: `20px ${spacings.small3}`,
+
   navigationMenuBackgroundColor: color.charcoal300,
   navigationMenuOpenBackgroundColor: color.primary100,
   navigationMenuHoverBackgroundColor: color.charcoal400,
-  navigationContentMargin: '0 42px 0 0',
+  navigationContentMargin: `0 ${spacings.small4} 0 0`,
   navigationLinkFontSize: '12px',
-  navigationLinkMargin: '0 24px 0 0',
+  navigationLinkMargin: `0 ${spacings.small4} 0 0`,
   navigationHeaderPadding: '0 17px',
-  navigationMinHeight: '73px',
+  navigationMinHeight: '40px',
+  navigationMaxHeight: '73px',
 
   /* Notification Theme Props */
   accordionMinHeight: '65px',
-  accordionPadding: '16px 24px',
+  accordionPadding: `${spacings.small3} ${spacings.small4}`,
   accordionBorder: `1px solid ${color.charcoal300}`,
   accordionColor: color.charcoal600,
   accordionSubHeaderColor: color.charcoal400,
@@ -244,11 +369,14 @@ const components = {
   notificationBorderRadius: shapes.borderRadiusLarge,
   notificationCloseButtonColor: color.charcoal800,
   notificationErrorBackgroundColor: color.redclay100,
+  notificationErrorBorderColor: color.redclay500,
   notificationErrorColor: color.redclay500,
   notificationNormalBackgroundColor: color.primary100,
+  notificationNormalBorderColor: color.ocean800,
   notificationNormalColor: color.charcoal800,
   notificationPadding: spacings.small3,
   notificationSuccessBackgroundColor: color.emerald100,
+  notificationSuccessBorderColor: color.emerald600,
   notificationSuccessColor: color.emerald600,
 
   /*TextLink Theme props*/
@@ -259,6 +387,18 @@ const components = {
   textLinkPrimaryHoverColor: color.primary300,
   textLinkSecondaryColor: color.charcoal600,
   textLinkSecondaryHoverColor: color.primary300,
+
+  /*Drawer Theme props*/
+  drawerMaxWidth: '320px',
+  drawerBackgroundColor: color.white,
+  drawerBorder: `1px solid ${color.charcoal300}`,
+  drawerHeaderBorder: `1px solid ${color.charcoal300}`,
+  drawerHeaderPadding: `20px ${spacings.small4}`,
+  drawerHeaderMinHeight: '73px',
+  drawerCloseButtonBackground: color.white,
+  drawerCloseButtonPadding: '6px',
+  drawerCloseButtonBorderRadius: shapes.borderRadiusMedium,
+  drawerCloseButtonBorder: `1px solid ${color.charcoal400}`,
 
   /*Dropdown Theme props*/
   dropdownBorderColor: color.charcoal300,
@@ -275,18 +415,32 @@ const components = {
   listItemSeparatorColor: color.charcoal300,
   listItemColorActive: color.primary500,
   listItemColorActiveHover: color.primary100,
-  listItemColorDefault: color.charcoal600,
+  listItemBackgroundColorActiveHover: color.primary100,
+  listItemColorDefault: color.charcoal800,
   listItemColorDefaultHover: color.charcoal300,
-  listItemColorDisabled: color.charcoal400,
+  listItemBackgroundColorDefaultHover: color.charcoal300,
+  listItemColorDisabled: color.charcoal500,
+  listItemBackgroundColorDisabled: color.charcoal200,
+  listItemBackgroundColorHoverDisabled: color.charcoal200,
   listItemMargin: '0 0 4px',
+  listItemFontSize: '12px',
   listItemBorderRadius: shapes.borderRadiusSmall,
-  listItemPaddingMedium: '8px 16px',
-  listItemPaddingLarge: '8px 16px',
+  listItemPaddingMedium: `7px ${spacings.small3}`,
+  listItemPaddingLarge: `8px ${spacings.small3}`,
   listItemFontSizeMedium: '12px',
   listItemFontSizeLarge: '14px',
-  listItemFontWeight: global.fontWeightMedium,
+  listItemFontWeight: global.fontWeightRegular,
+
+  listNavItemColorDefault: color.charcoal600,
+  listNavItemColorDisabled: color.charcoal400,
+  listNavItemBackgroundColorDisabled: color.white,
+  listNavItemColorActive: color.primary500,
+  listNavItemColorHover: color.charcoal600,
+  listNavItemFontWeight: global.fontWeightMedium,
+  listNavItemFontSize: '14px',
 
   /*Tabs Theme props*/
+  tabsBackgroundColor: 'white',
   tabsBorderColor: color.charcoal300,
   tabFontSize: texts.p2b.fontSize,
   tabFontWeight: texts.p2b.fontWeight,
@@ -305,10 +459,22 @@ const components = {
   tabBadgeColorActive: color.white,
   tabBadgeBackground: color.charcoal300,
   tabBadgeBackgroundHover: color.primary300,
-  tabBadgeBackgroundActive: color.primary500
+  tabBadgeBackgroundActive: color.primary500,
+
+  /* Table Theme props */
+  tableHighlightedHeaderBackgroundColor: '#E5E8EE',
+  tableHighlightedCellBackgroundColor: '#F8F9FA',
+
+  /* Pagination Theme props */
+  paginationLabelColor: color.charcoal800,
+  paginationLabelMarginBottom: spacings.small3,
+  paginationProgressBackgroundColor: color.charcoal400,
+  paginationProgressMarginBottom: spacings.small3,
+  paginationProgressActiveBackgroundColor: color.charcoal800
 };
 
 export default {
+  animations,
   breakpoints,
   color,
   components,
