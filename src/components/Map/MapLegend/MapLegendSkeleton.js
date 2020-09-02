@@ -58,8 +58,8 @@ const MapLegendSkeleton = ({ actions }) => {
       {actions && (
         <StyledActions>
           {[...Array(actions)].map((e, i) => (
-            <StyledAction>
-              <Skeleton height="10px" width="20px" key={i} />
+            <StyledAction key={i}>
+              <Skeleton height="10px" width="20px" />
             </StyledAction>
           ))}
         </StyledActions>
