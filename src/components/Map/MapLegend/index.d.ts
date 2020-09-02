@@ -14,7 +14,7 @@ export interface Props {
 
 interface Action {
   label: string;
-  value: string;
+  value: string | number;
 }
 
 declare const MapLegend: React.FunctionComponent<Props>;
