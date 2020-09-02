@@ -56324,6 +56324,198 @@ exports[`Storyshots MapActions Playground 1`] = `
 </div>
 `;
 
+exports[`Storyshots MapLegend Normal 1`] = `
+.c0 {
+  position: absolute;
+  left: calc(16px + 0px);
+  bottom: calc(16px + 0px);
+  width: 270px;
+  -webkit-transition: left 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
+  background: #FFFFFF;
+  border: 1px solid #F8F8F8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.c1 {
+  padding: 16px;
+}
+
+.c2 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #212632;
+  line-height: 1.5;
+  color: #212632;
+}
+
+.c3 {
+  font-weight: 700;
+  font-size: 10px;
+  color: #212632;
+  line-height: 1.5;
+  color: #B6BBC6;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+.c5 {
+  background: #03045E;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c6 {
+  background: #ADE8F4;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c7 {
+  background: #90D8EF;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c8 {
+  background: #48B5E4;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c9 {
+  background: #008BC7;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c10 {
+  background: #0077B6;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  background: #023E8A;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.c12 span {
+  font-weight: 700;
+  font-size: 10px;
+  color: #212632;
+  line-height: 1.5;
+  color: #747D93;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <header
+        className="c2"
+      >
+        Leyend
+      </header>
+      <div
+        className="c3"
+      >
+        Lorem ipsum
+      </div>
+      <div
+        className="c4"
+      >
+        <i
+          className="c5"
+          color="#03045E"
+        />
+        <i
+          className="c6"
+          color="#ADE8F4"
+        />
+        <i
+          className="c7"
+          color="#90D8EF"
+        />
+        <i
+          className="c8"
+          color="#48B5E4"
+        />
+        <i
+          className="c9"
+          color="#008BC7"
+        />
+        <i
+          className="c10"
+          color="#0077B6"
+        />
+        <i
+          className="c11"
+          color="#023E8A"
+        />
+        <i
+          className="c5"
+          color="#03045E"
+        />
+      </div>
+      <div
+        className="c12"
+      >
+        <span>
+          Minium
+        </span>
+        <span>
+          Max
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots MapLegend Playground 1`] = `
 .c0 {
   position: absolute;
@@ -56505,6 +56697,255 @@ exports[`Storyshots MapLegend Playground 1`] = `
         Max
       </span>
     </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots MapLegend With Actions 1`] = `
+.c0 {
+  position: absolute;
+  left: calc(16px + 0px);
+  bottom: calc(16px + 0px);
+  width: 270px;
+  -webkit-transition: left 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
+  background: #FFFFFF;
+  border: 1px solid #F8F8F8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.c1 {
+  padding: 16px;
+}
+
+.c2 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #212632;
+  line-height: 1.5;
+  color: #212632;
+}
+
+.c3 {
+  font-weight: 700;
+  font-size: 10px;
+  color: #212632;
+  line-height: 1.5;
+  color: #B6BBC6;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+.c5 {
+  background: #03045E;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c6 {
+  background: #ADE8F4;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c7 {
+  background: #90D8EF;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c8 {
+  background: #48B5E4;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c9 {
+  background: #008BC7;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c10 {
+  background: #0077B6;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  background: #023E8A;
+  height: 8px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.c12 span {
+  font-weight: 700;
+  font-size: 10px;
+  color: #212632;
+  line-height: 1.5;
+  color: #747D93;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c14 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 6px 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  color: #212632;
+  line-height: 1.5;
+  color: #1778FB;
+  background: #EFF7FB;
+  border: 1px solid #EFF7FB;
+}
+
+.c15 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 6px 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  color: #212632;
+  line-height: 1.5;
+  color: #B6BBC6;
+  background: #FFFFFF;
+  border: 1px solid #F8F8F8;
+}
+
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <header
+        className="c2"
+      >
+        Leyend
+      </header>
+      <div
+        className="c3"
+      >
+        Lorem ipsum
+      </div>
+      <div
+        className="c4"
+      >
+        <i
+          className="c5"
+          color="#03045E"
+        />
+        <i
+          className="c6"
+          color="#ADE8F4"
+        />
+        <i
+          className="c7"
+          color="#90D8EF"
+        />
+        <i
+          className="c8"
+          color="#48B5E4"
+        />
+        <i
+          className="c9"
+          color="#008BC7"
+        />
+        <i
+          className="c10"
+          color="#0077B6"
+        />
+        <i
+          className="c11"
+          color="#023E8A"
+        />
+        <i
+          className="c5"
+          color="#03045E"
+        />
+      </div>
+      <div
+        className="c12"
+      >
+        <span>
+          Minium
+        </span>
+        <span>
+          Max
+        </span>
+      </div>
+    </div>
+    <footer
+      className="c13"
+    >
+      <div
+        className="c14"
+        onClick={[Function]}
+      >
+        Sale
+      </div>
+      <div
+        className="c15"
+        onClick={[Function]}
+      >
+        Rent
+      </div>
+    </footer>
   </div>
 </div>
 `;
