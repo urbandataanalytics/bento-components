@@ -17,6 +17,9 @@ const StyledContainer = styled.div`
   border: 1px solid ${({ theme }) => theme.color.charcoal200};
   box-sizing: border-box;
   border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
+`;
+
+const StyledWrapper = styled.div`
   padding: ${({ theme }) => theme.spacings.small3};
 `;
 
@@ -52,6 +55,23 @@ const StyledMinMaxText = styled.div`
   }
 `;
 
+const StyledActions = styled.footer`
+  display: flex;
+`;
+
+const Action = styled.div`
+  flex: 1;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 6px 0;
+  text-align: center;
+  ${({ theme }) => theme.texts.p2b};
+  color: ${({ theme, active }) => (active ? theme.color.primary500 : theme.color.charcoal500)};
+  background: ${({ theme, active }) => (active ? theme.color.primary100 : theme.color.white)};
+  border: 1px solid
+    ${({ theme, active }) => (active ? theme.color.primary100 : theme.color.charcoal200)};
+`;
+
 const MapLegend = forwardRef((props, ref) => {
   const {
     title,
@@ -62,26 +82,42 @@ const MapLegend = forwardRef((props, ref) => {
     rangeTextMax,
     offsetLeft,
     offsetBottom,
+    actions,
+    onChangeAction,
+    activeAction,
     ...other
   } = props;
+
+  const active = activeAction ? activeAction : actions.length > 0 ? actions[0].value : null;
 
   return (
     <StyledContainer offsetLeft={offsetLeft} offsetBottom={offsetBottom} {...other}>
       {isLoading ? (
-        <MapLegendSkeleton />
+        <MapLegendSkeleton actions={actions.length} />
       ) : (
         <>
-          {title && <StyledTitle>{title}</StyledTitle>}
-          {description && <StyledDescription>{description}</StyledDescription>}
-          <StyledRangeColors>
-            {rangeColors.map((color, i) => (
-              <StyledColor color={color} key={i} />
-            ))}
-          </StyledRangeColors>
-          <StyledMinMaxText>
-            <span>{rangeTextMin}</span>
-            <span>{rangeTextMax}</span>
-          </StyledMinMaxText>
+          <StyledWrapper>
+            {title && <StyledTitle>{title}</StyledTitle>}
+            {description && <StyledDescription>{description}</StyledDescription>}
+            <StyledRangeColors>
+              {rangeColors.map((color, i) => (
+                <StyledColor color={color} key={i} />
+              ))}
+            </StyledRangeColors>
+            <StyledMinMaxText>
+              <span>{rangeTextMin}</span>
+              <span>{rangeTextMax}</span>
+            </StyledMinMaxText>
+          </StyledWrapper>
+          {actions.length > 0 && (
+            <StyledActions>
+              {actions.map(({ value, label }, i) => (
+                <Action key={i} onClick={() => onChangeAction(value)} active={value === active}>
+                  {label}
+                </Action>
+              ))}
+            </StyledActions>
+          )}
         </>
       )}
     </StyledContainer>
@@ -100,7 +136,8 @@ MapLegend.defaultProps = {
     '#03045E'
   ],
   rangeTextMin: 'Min',
-  rangeTextMax: 'Max'
+  rangeTextMax: 'Max',
+  actions: []
 };
 
 export default MapLegend;
