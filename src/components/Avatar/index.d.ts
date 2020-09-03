@@ -1,6 +1,6 @@
 export interface Props {
   color?: 'primary' | 'secondary';
-  size?: 'small' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'large' | 'extralarge';
   customTextColor?: string;
   customColor?: string;
   src?: string;

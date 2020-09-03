@@ -22,11 +22,15 @@ const componentSizes = theme => ({
     width: theme.components.avatarSizeLarge,
     height: theme.components.avatarSizeLarge,
     fontSize: theme.components.avatarFontSizeLarge
+  },
+  extralarge: {
+    width: theme.components.avatarSizeExtralarge,
+    height: theme.components.avatarSizeExtralarge,
+    fontSize: theme.components.avatarFontSizeExtralarge
   }
 });
 
 const StyledAvatar = styled.div`
-  ${({ theme, size }) => componentSizes(theme)[size]};
   ${({ theme }) => theme.texts.p2b}
   border-radius: ${({ theme }) => theme.components.avatarBorderRadius};
   background-color: ${({ theme, customColor }) =>
@@ -36,7 +40,8 @@ const StyledAvatar = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  text-indent: 2px;
+  transition: ${props => props.theme.global.transitionM};
+  ${({ theme, size }) => componentSizes(theme)[size]};
 `;
 
 StyledAvatar.defaultProps = {
@@ -98,7 +103,7 @@ Avatar.propTypes = {
   srcSet: PropTypes.string,
   alt: PropTypes.string,
   initialsNum: PropTypes.number,
-  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  size: PropTypes.oneOf(['small', 'medium', 'large', 'extralarge']),
   imgProps: PropTypes.object,
   color: PropTypes.oneOf(['primary', 'secondary']),
   children: PropTypes.node,
