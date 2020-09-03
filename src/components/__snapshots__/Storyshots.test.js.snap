@@ -14,6 +14,7 @@ Array [
 }
 
 .c2 {
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   vertical-align: middle;
@@ -2086,6 +2087,7 @@ Array [
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2137,6 +2139,7 @@ Array [
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -10964,7 +10967,7 @@ Array [
       <span
         className="c3"
       >
-
+        
       </span>
     </span>
     <span
@@ -11128,6 +11131,7 @@ Array [
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -11149,6 +11153,7 @@ Array [
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -18199,7 +18204,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
           <span
             className="c5"
           >
-
+            
           </span>
         </span>
         <span
@@ -18804,7 +18809,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
           <span
             className="c5"
           >
-
+            
           </span>
         </span>
         <span
@@ -19577,7 +19582,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
         <span
           className="c9"
         >
-
+          
         </span>
       </span>
       <span
@@ -39411,7 +39416,7 @@ exports[`Storyshots Icon All Icons 1`] = `
       viewBox="0 0 32 32"
     >
       <path
-        d="M25.924 6.617a.997.997 0 00-.215-.322l-.004-.004A.997.997 0 0025 6h-6a1 1 0 100 2h3.586l-5.293 5.293a1 1 0 001.414 1.414L24 9.414V13a1 1 0 102 0V6.997a.996.996 0 00-.076-.38zM9.414 24l5.293-5.293a1 1 0 00-1.414-1.414L8 22.586V19a1 1 0 10-2 0v6a.998.998 0 00.29.705l.005.004c.194.193.448.29.702.291H13a1 1 0 100-2H9.414z"
+        d="M25.924 6.617a.997.997 0 00-.215-.322l-.004-.004A.997.997 0 0025 6h-6a1 1 0 100 2h3.586l-5.293 5.293a1 1 0 001.414 1.414L24 9.414V13a1 1 0 102 0V7v-.003a.996.996 0 00-.076-.38z"
       />
     </svg>
     <pre
@@ -50049,6 +50054,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -50100,6 +50106,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -50153,6 +50160,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -50329,6 +50337,7 @@ exports[`Storyshots List Link List 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -50380,6 +50389,7 @@ exports[`Storyshots List Link List 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -50401,6 +50411,7 @@ exports[`Storyshots List Link List 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -50586,6 +50597,7 @@ exports[`Storyshots List Navbar List 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -50607,6 +50619,7 @@ exports[`Storyshots List Navbar List 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -50660,6 +50673,7 @@ exports[`Storyshots List Navbar List 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -50733,6 +50747,7 @@ exports[`Storyshots List Navbar List 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -50796,6 +50811,7 @@ exports[`Storyshots List Navbar List 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -52722,6 +52738,7 @@ exports[`Storyshots List Playground 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -52743,6 +52760,7 @@ exports[`Storyshots List Playground 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -52764,6 +52782,7 @@ exports[`Storyshots List Playground 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -52966,6 +52985,7 @@ exports[`Storyshots List With Childrens 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -53017,6 +53037,7 @@ exports[`Storyshots List With Childrens 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -53070,6 +53091,7 @@ exports[`Storyshots List With Childrens 1`] = `
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  width: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -57331,7 +57353,7 @@ exports[`Storyshots Modal Normal 1`] = `
     <span
       className="c3"
     >
-
+      
     </span>
   </span>
   <span
@@ -61999,7 +62021,7 @@ exports[`Storyshots Pagination Loading 1`] = `
         <span
           className="c6"
         >
-
+          
         </span>
       </span>
       <span
@@ -62653,7 +62675,7 @@ exports[`Storyshots Pagination Normal 1`] = `
         <span
           className="c6"
         >
-
+          
         </span>
       </span>
       <span
@@ -65989,7 +66011,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
           <span
             className="c5"
           >
-
+            
           </span>
         </span>
         <span
@@ -66492,7 +66514,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
           <span
             className="c5"
           >
-
+            
           </span>
         </span>
         <span
@@ -67179,7 +67201,7 @@ exports[`Storyshots Tooltip Large 1`] = `
           <span
             className="c4"
           >
-
+            
           </span>
         </span>
         <span
@@ -67643,7 +67665,7 @@ exports[`Storyshots Tooltip Large 1`] = `
           <span
             className="c4"
           >
-
+            
           </span>
         </span>
         <span
@@ -68107,7 +68129,7 @@ exports[`Storyshots Tooltip Large 1`] = `
           <span
             className="c4"
           >
-
+            
           </span>
         </span>
         <span
@@ -68571,7 +68593,7 @@ exports[`Storyshots Tooltip Large 1`] = `
           <span
             className="c4"
           >
-
+            
           </span>
         </span>
         <span
@@ -69178,7 +69200,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
           <span
             className="c4"
           >
-
+            
           </span>
         </span>
         <span
@@ -69642,7 +69664,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
           <span
             className="c4"
           >
-
+            
           </span>
         </span>
         <span
@@ -70106,7 +70128,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
           <span
             className="c4"
           >
-
+            
           </span>
         </span>
         <span
@@ -70570,7 +70592,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
           <span
             className="c4"
           >
-
+            
           </span>
         </span>
         <span
