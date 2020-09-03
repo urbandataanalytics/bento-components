@@ -12,7 +12,7 @@ const AccordionList = props => {
   useEffect(() => {
     if (toggleOnExpand)
       React.Children.forEach(children, (child, childIndex) => {
-        if (child.props.expanded) setExpandedIndex(childIndex);
+        if (child.props.isDefaultExpanded) setExpandedIndex(childIndex);
       });
   }, []);
 

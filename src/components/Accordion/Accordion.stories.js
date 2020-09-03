@@ -37,7 +37,7 @@ export const AccordionListExpandOne = () => (
         </ListItem>
       </List>
     </Accordion>
-    <Accordion leftContent={<IconActivity />} header={'Expanded by default'} expanded>
+    <Accordion leftContent={<IconActivity />} header={'Expanded by default'} isDefaultExpanded>
       Expanded
     </Accordion>
   </AccordionList>

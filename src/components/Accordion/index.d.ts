@@ -2,6 +2,7 @@ export interface Props {
   children: React.ReactNode;
   header: React.ReactNode;
   expanded?: boolean;
+  isDefaultExpanded?: boolean;
   onClick?: () => void;
   rightContent?: React.ReactNode;
   leftContent?: React.ReactNode;
