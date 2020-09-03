@@ -14,6 +14,7 @@ const AccordionList = props => {
       React.Children.forEach(children, (child, childIndex) => {
         if (child.props.isDefaultExpanded) setExpandedIndex(childIndex);
       });
+    // eslint-disable-next-line react-hooks/exhaustive-depsyar
   }, []);
 
   let childs = React.Children.map(children, (child, childIndex) => {
