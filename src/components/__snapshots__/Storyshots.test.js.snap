@@ -991,7 +991,7 @@ exports[`Storyshots Accordion Accordion List Expand All 1`] = `
 </div>
 `;
 
-exports[`Storyshots Accordion Accordion List Expand One 1`] = `
+exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
 .c6 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
