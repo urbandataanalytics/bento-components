@@ -1,65 +1,90 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import defaultTheme from '../../../themes/defaultTheme';
 
+const tabStyles = theme => ({
+  normal: {
+    color: theme.components.tabColor,
+    borderBottom: `3px solid ${theme.components.tabBorderColor}`
+  },
+  active: {
+    color: theme.components.tabColorActive,
+    borderBottom: `3px solid ${theme.components.tabBorderColorActive}`
+  },
+  disabled: {
+    color: theme.components.tabColorDisabled,
+    borderBottom: `3px solid ${theme.components.tabBorderColor}`,
+    cursor: 'default',
+    pointerEvents: 'none'
+  }
+});
+
+const badgeStyles = theme => ({
+  normal: {
+    background: theme.components.tabBadgeBackground,
+    color: theme.components.tabBadgeColor
+  },
+  active: {
+    background: theme.components.tabBadgeBackgroundActive,
+    color: theme.components.tabBadgeColorActive
+  }
+});
+
 const StyledTabLabel = styled.span`
-  font-size: ${props => props.theme.components.tabFontSize};
-  line-height: 22px;
-  font-weight: ${props => props.theme.components.tabFontWeight};
+  font-size: ${({ theme }) => theme.components.tabFontSize};
+  line-height: 21px;
+  font-weight: ${({ theme }) => theme.components.tabFontWeight};
+  letter-spacing: 0.6px;
 `;
 StyledTabLabel.defaultProps = {
   theme: defaultTheme
 };
 
 const StyledTabBadge = styled.span`
-  background: ${props => props.theme.components.tabBadgeBackground};
-  font-size: ${props => props.theme.components.tabBadgeFontSize};
+  font-size: ${({ theme }) => theme.components.tabBadgeFontSize};
   line-height: 18px;
-  padding: ${props => props.theme.components.tabBadgePadding};
-  font-weight: ${props => props.theme.components.tabBadgeFontWeight};
+  padding: ${({ theme }) => theme.components.tabBadgePadding};
+  font-weight: ${({ theme }) => theme.components.tabBadgeFontWeight};
   border-radius: 100px;
   display: inline-block;
   margin-left: 8px;
-  color: ${props => props.theme.components.tabBadgeColor};
+  height: 22px;
+  transition: ${({ theme }) => theme.global.transitionS};
+  ${props => (props.active ? badgeStyles(props.theme).active : badgeStyles(props.theme).normal)}
 `;
 StyledTabBadge.defaultProps = {
   theme: defaultTheme
 };
 
 const StyledTabContainer = styled.div`
-  color: ${props => props.theme.components.tabColor};
   text-transform: uppercase;
   margin: 0 20px;
-  border-bottom: 3px solid ${props => props.theme.components.tabBorderColor};
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
   display: flex;
+  border-bottom: 3px solid transparent;
+  transition: ${({ theme }) => theme.global.transitionS};
 
-  &:hover {
-    color: ${props => props.theme.components.tabColorHover};
-    border-bottom: 3px solid ${props => props.theme.components.tabBorderColorHover};
-    ${StyledTabBadge} {
-      background-color: ${props => props.theme.components.tabBadgeBackgroundHover};
-      color: ${props => props.theme.components.tabBadgeColorHover};
-    }
-  }
+  ${props => {
+    if (props.active) return tabStyles(props.theme).active;
+    if (props.disabled) return tabStyles(props.theme).disabled;
+    return tabStyles(props.theme).normal;
+  }}
 
-  &.active {
-    color: ${props => props.theme.components.tabColorActive};
-    border-bottom: 3px solid ${props => props.theme.components.tabBorderColorActive};
-    ${StyledTabBadge} {
-      background-color: ${props => props.theme.components.tabBadgeBackgroundActive};
-      color: ${props => props.theme.components.tabBadgeColorActive};
-    }
-  }
-
-  &.disabled {
-    color: ${props => props.theme.components.tabColorDisabled};
-    cursor: default;
-    border-bottom: 3px solid ${props => props.theme.components.tabBorderColor};
-  }
+  ${props =>
+    !props.active &&
+    css`
+      &:hover {
+        color: ${({ theme }) => theme.components.tabColorHover};
+        border-bottom-color: ${({ theme }) => theme.components.tabBorderColorHover};
+        ${StyledTabBadge} {
+          background-color: ${({ theme }) => theme.components.tabBadgeBackgroundHover};
+          color: ${({ theme }) => theme.components.tabBadgeColorHover};
+        }
+      }
+    `}
 `;
 StyledTabContainer.defaultProps = {
   theme: defaultTheme
@@ -73,14 +98,13 @@ const Tab = ({ label, badge, active, disabled, value, onChange }) => {
   };
 
   return (
-    <StyledTabContainer
-      className={`${active ? 'active' : ''} ${disabled ? 'disabled' : null}`}
-      onClick={handleClick}
-    >
-      <StyledTabLabel>
-        {label}
-        {badge && !disabled ? <StyledTabBadge>{badge}</StyledTabBadge> : null}
-      </StyledTabLabel>
+    <StyledTabContainer active={active} disabled={disabled} onClick={handleClick}>
+      <StyledTabLabel>{label}</StyledTabLabel>
+      {badge && !disabled ? (
+        <StyledTabBadge active={active} disabled={disabled}>
+          {badge}
+        </StyledTabBadge>
+      ) : null}
     </StyledTabContainer>
   );
 };

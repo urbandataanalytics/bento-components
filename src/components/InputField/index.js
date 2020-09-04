@@ -37,7 +37,7 @@ const Input = styled.input`
   border-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
   border-width: 1px;
   border-style: solid;
-  transition: ${({ theme }) => theme.global.transition};
+  transition: ${({ theme }) => theme.global.transitionM};
   background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
   border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
 
