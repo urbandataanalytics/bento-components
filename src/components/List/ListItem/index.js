@@ -158,6 +158,7 @@ export const StyledListItem = styled.li`
   > ${StyledComponent} {
     display: flex;
     flex-basis: 100%;
+    width: 100%;
     align-items: center;
     align-content: center;
     color: ${props =>
