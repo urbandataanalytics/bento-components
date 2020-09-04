@@ -1,11 +1,12 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import defaultTheme from '../../themes/defaultTheme';
-import { IconArrowClose } from '../../icons';
+import defaultTheme from '../../../themes/defaultTheme';
+import { IconArrowClose } from '../../../icons';
 import { useCallback } from 'react';
 import { useState } from 'react';
-import useBoundingRect from '../../hooks/useBoundingRect';
+import useBoundingRect from '../../../hooks/useBoundingRect';
+import { useEffect } from 'react';
 
 const StyledAccordionLabel = styled.div`
   width: 100%;
@@ -115,10 +116,11 @@ const Accordion = props => {
     rightContent,
     header,
     subHeader,
+    isDefaultExpanded,
     onClick = () => {},
     ...other
   } = props;
-  const [expandedState, setExpandedState] = useState(expanded);
+  const [expandedState, setExpandedState] = useState(isDefaultExpanded || expanded);
   const [{ height }, childNode] = useBoundingRect({ height: expanded ? null : 0 });
 
   const handleClick = useCallback(
@@ -128,6 +130,11 @@ const Accordion = props => {
     },
     [onClick, expandedState]
   );
+
+  useEffect(() => {
+    setExpandedState(expanded || isDefaultExpanded);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [expanded]);
 
   return (
     <>

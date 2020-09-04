@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Accordion from './index';
-import { IconUser } from '../../icons';
+import { IconUser } from '../../../icons';
 
 describe(`Accordion`, () => {
   it('should render children content', () => {
