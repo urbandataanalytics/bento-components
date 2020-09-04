@@ -7,7 +7,7 @@ import List from '../List';
 import { IconAsset, IconEye, IconFilter, IconNavigation, IconUser } from '../../icons';
 import { select, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
-import Accordion from '../Accordion';
+import Accordion from '../AccordionList/Accordion';
 import { ButtonLink, Grid } from '../../index';
 
 export default {

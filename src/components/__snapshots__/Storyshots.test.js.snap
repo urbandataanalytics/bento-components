@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Accordion Accordion List Expand All 1`] = `
+exports[`Storyshots AccordionList Expand All 1`] = `
 .c4 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
@@ -1052,7 +1052,7 @@ exports[`Storyshots Accordion Accordion List Expand All 1`] = `
 </div>
 `;
 
-exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
+exports[`Storyshots AccordionList Expand One By One 1`] = `
 .c6 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
@@ -2350,15 +2350,23 @@ exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
               "aubergine800": "#2C003E",
               "aubergine900": "#1D0A25",
               "carabinero100": "#F7E2D7",
+              "carabinero200": "#FFD5C8",
               "carabinero300": "#FDC0AC",
-              "carabinero500": "#EAA798",
-              "carabinero600": "#E1897F",
-              "carabinero700": "#CE7A70",
-              "carrot100": "#F2DBC8",
-              "carrot200": "#F9CDAD",
-              "carrot500": "#EDBE96",
-              "carrot600": "#E7AA71",
-              "carrot700": "#D99455",
+              "carabinero400": "#EAA798",
+              "carabinero500": "#E1897F",
+              "carabinero600": "#CE7070",
+              "carabinero700": "#B85959",
+              "carabinero800": "#943939",
+              "carabinero900": "#732929",
+              "carrot100": "#FFECDD",
+              "carrot200": "#F2DBC8",
+              "carrot300": "#F9CDAD",
+              "carrot400": "#EDBE96",
+              "carrot500": "#E7AA71",
+              "carrot600": "#D99455",
+              "carrot700": "#CC7D34",
+              "carrot800": "#B56820",
+              "carrot900": "#934B09",
               "charcoal200": "#F8F8F8",
               "charcoal300": "#EFF2F7",
               "charcoal400": "#DCDFE6",
@@ -2381,8 +2389,12 @@ exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
               "golden100": "#FEF9E7",
               "golden200": "#FDF0C7",
               "golden300": "#FAE5A0",
-              "golden400": "#FFDA60",
-              "golden500": "#F2BF12",
+              "golden400": "#FFDE72",
+              "golden500": "#FAD046",
+              "golden600": "#F2BF12",
+              "golden700": "#DDAF11",
+              "golden800": "#CCA009",
+              "golden900": "#AF8904",
               "ocean100": "#E4FAFF",
               "ocean200": "#CAF0F8",
               "ocean300": "#ADE8F4",
@@ -2806,15 +2818,23 @@ exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
               "aubergine800": "#2C003E",
               "aubergine900": "#1D0A25",
               "carabinero100": "#F7E2D7",
+              "carabinero200": "#FFD5C8",
               "carabinero300": "#FDC0AC",
-              "carabinero500": "#EAA798",
-              "carabinero600": "#E1897F",
-              "carabinero700": "#CE7A70",
-              "carrot100": "#F2DBC8",
-              "carrot200": "#F9CDAD",
-              "carrot500": "#EDBE96",
-              "carrot600": "#E7AA71",
-              "carrot700": "#D99455",
+              "carabinero400": "#EAA798",
+              "carabinero500": "#E1897F",
+              "carabinero600": "#CE7070",
+              "carabinero700": "#B85959",
+              "carabinero800": "#943939",
+              "carabinero900": "#732929",
+              "carrot100": "#FFECDD",
+              "carrot200": "#F2DBC8",
+              "carrot300": "#F9CDAD",
+              "carrot400": "#EDBE96",
+              "carrot500": "#E7AA71",
+              "carrot600": "#D99455",
+              "carrot700": "#CC7D34",
+              "carrot800": "#B56820",
+              "carrot900": "#934B09",
               "charcoal200": "#F8F8F8",
               "charcoal300": "#EFF2F7",
               "charcoal400": "#DCDFE6",
@@ -2837,8 +2857,12 @@ exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
               "golden100": "#FEF9E7",
               "golden200": "#FDF0C7",
               "golden300": "#FAE5A0",
-              "golden400": "#FFDA60",
-              "golden500": "#F2BF12",
+              "golden400": "#FFDE72",
+              "golden500": "#FAD046",
+              "golden600": "#F2BF12",
+              "golden700": "#DDAF11",
+              "golden800": "#CCA009",
+              "golden900": "#AF8904",
               "ocean100": "#E4FAFF",
               "ocean200": "#CAF0F8",
               "ocean300": "#ADE8F4",
@@ -5920,7 +5944,7 @@ exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
 </div>
 `;
 
-exports[`Storyshots Accordion Normal 1`] = `
+exports[`Storyshots AccordionList Single Accordion 1`] = `
 Array [
   .c4 {
   -webkit-flex-shrink: 0;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Accordion from '../index';
+import Accordion from './Accordion/index';
 import AccordionList from './index';
 
 describe(`Accordion List`, () => {

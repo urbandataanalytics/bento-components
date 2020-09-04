@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Accordion from './index';
-import AccordionList from './AccordionList/index';
+import Accordion from './Accordion/index';
+import AccordionList from './index';
 import { IconActivity } from '../../icons';
 import ListItem from '../List/ListItem';
 import IconFolder from '../../icons/Folder';
@@ -8,17 +8,17 @@ import List from '../List';
 import TextLink from '../TextLink';
 
 export default {
-  title: 'Accordion',
-  component: Accordion
+  title: 'AccordionList',
+  component: AccordionList
 };
 
-export const Normal = () => (
+export const SingleAccordion = () => (
   <Accordion iconLeft={<IconActivity />} header={'Accordion title'}>
     Child message
   </Accordion>
 );
 
-export const AccordionListExpandOneByOne = () => (
+export const ExpandOneByOne = () => (
   <AccordionList>
     <Accordion leftContent={<IconActivity />} header={'Accordion title'}>
       Child message
@@ -43,7 +43,7 @@ export const AccordionListExpandOneByOne = () => (
   </AccordionList>
 );
 
-export const AccordionListExpandAll = () => (
+export const ExpandAll = () => (
   <AccordionList toggleOnExpand={false}>
     <Accordion iconLeft={<IconActivity />} header={'Accordion First'}>
       First child
