@@ -18,7 +18,7 @@ export const Normal = () => (
   </Accordion>
 );
 
-export const AccordionListExpandOne = () => (
+export const AccordionListExpandOneByOne = () => (
   <AccordionList>
     <Accordion leftContent={<IconActivity />} header={'Accordion title'}>
       Child message

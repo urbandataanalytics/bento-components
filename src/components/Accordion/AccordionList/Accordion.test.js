@@ -17,18 +17,20 @@ describe(`Accordion List`, () => {
     expect(wrapper.children().length).toEqual(2);
   });
 
-  it('should render two Accordion no expanded ', () => {
+  it('should render Accordion with multiple expands ', () => {
     const wrapper = shallow(
       <AccordionList toggleOnExpand={false}>
-        <Accordion header={'Accordion title'}>First Accordion</Accordion>
-        <Accordion header={'Expanded by default'} isDefaultExpanded>
+        <Accordion header={'Accordion title'} expanded>
+          First Accordion
+        </Accordion>
+        <Accordion header={'Expanded by default'} expanded>
           Expanded
         </Accordion>
       </AccordionList>
     );
 
     wrapper.children().forEach(node => {
-      expect(node.prop('expanded')).toBe(false);
+      expect(node.prop('expanded')).toBe(true);
     });
   });
 });
