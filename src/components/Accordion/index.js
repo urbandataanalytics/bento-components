@@ -116,10 +116,11 @@ const Accordion = props => {
     rightContent,
     header,
     subHeader,
+    isDefaultExpanded,
     onClick = () => {},
     ...other
   } = props;
-  const [expandedState, setExpandedState] = useState(expanded);
+  const [expandedState, setExpandedState] = useState(isDefaultExpanded || expanded);
   const [{ height }, childNode] = useBoundingRect({ height: expanded ? null : 0 });
 
   const handleClick = useCallback(
@@ -131,7 +132,8 @@ const Accordion = props => {
   );
 
   useEffect(() => {
-    setExpandedState(expanded);
+    setExpandedState(expanded || isDefaultExpanded);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [expanded]);
 
   return (

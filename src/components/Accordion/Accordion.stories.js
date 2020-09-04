@@ -48,7 +48,7 @@ export const AccordionListExpandAll = () => (
     <Accordion iconLeft={<IconActivity />} header={'Accordion First'}>
       First child
     </Accordion>
-    <Accordion iconLeft={<IconActivity />} header={'Accordion Second'}>
+    <Accordion iconLeft={<IconActivity />} header={'Accordion Second'} isDefaultExpanded>
       Second child
     </Accordion>
   </AccordionList>

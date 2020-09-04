@@ -31,12 +31,39 @@ exports[`Storyshots Accordion Accordion List Expand All 1`] = `
   align-content: center;
 }
 
+.c8 {
+  width: 100%;
+  cursor: pointer;
+  min-height: 65px;
+  border-bottom: 1px solid transparent;
+  padding: 16px 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
 .c6 {
   -webkit-transition: max-height 0.3s ease-out;
   transition: max-height 0.3s ease-out;
   overflow: hidden;
   max-height: 0;
   visibility: hidden;
+}
+
+.c10 {
+  -webkit-transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  max-height: 0px;
+  visibility: visible;
 }
 
 .c7 {
@@ -69,6 +96,16 @@ exports[`Storyshots Accordion Accordion List Expand All 1`] = `
   -webkit-transform: rotate(0);
   -ms-transform: rotate(0);
   transform: rotate(0);
+}
+
+.c9 {
+  margin-left: 10px;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  -webkit-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 <div
@@ -532,7 +569,7 @@ exports[`Storyshots Accordion Accordion List Expand All 1`] = `
     </div>
   </div>
   <div
-    className="c0"
+    className="c8"
     onClick={[Function]}
   >
     <div
@@ -548,7 +585,7 @@ exports[`Storyshots Accordion Accordion List Expand All 1`] = `
       className="c3"
     >
       <svg
-        className="c4 c5"
+        className="c4 c9"
         data-name="IconArrowClose"
         preserveAspectRatio="xMidYMid meet"
         size="medium"
@@ -980,7 +1017,7 @@ exports[`Storyshots Accordion Accordion List Expand All 1`] = `
     </div>
   </div>
   <div
-    className="c6"
+    className="c10"
   >
     <div
       className="c7"
@@ -1032,12 +1069,39 @@ exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
   align-content: center;
 }
 
+.c20 {
+  width: 100%;
+  cursor: pointer;
+  min-height: 65px;
+  border-bottom: 1px solid transparent;
+  padding: 16px 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
 .c8 {
   -webkit-transition: max-height 0.3s ease-out;
   transition: max-height 0.3s ease-out;
   overflow: hidden;
   max-height: 0;
   visibility: hidden;
+}
+
+.c22 {
+  -webkit-transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  max-height: 0px;
+  visibility: visible;
 }
 
 .c9 {
@@ -1096,6 +1160,16 @@ exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
   -webkit-transform: rotate(0);
   -ms-transform: rotate(0);
   transform: rotate(0);
+}
+
+.c21 {
+  margin-left: 10px;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  -webkit-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .c15 {
@@ -4833,7 +4907,7 @@ exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
     </div>
   </div>
   <div
-    className="c0"
+    className="c20"
     onClick={[Function]}
   >
     <div
@@ -5283,7 +5357,7 @@ exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
       className="c5"
     >
       <svg
-        className="c6 c7"
+        className="c6 c21"
         data-name="IconArrowClose"
         preserveAspectRatio="xMidYMid meet"
         size="medium"
@@ -5715,7 +5789,7 @@ exports[`Storyshots Accordion Accordion List Expand One By One 1`] = `
     </div>
   </div>
   <div
-    className="c8"
+    className="c22"
   >
     <div
       className="c9"
