@@ -5,7 +5,7 @@ import ListItem from '../List/ListItem';
 import { IconSettings, IconUpdate, IconUser } from '../../icons';
 import TextLink from '../TextLink';
 import { Dropdown } from '../../index';
-import { select, boolean } from '@storybook/addon-knobs';
+import { select } from '@storybook/addon-knobs';
 import * as Icons from '../../icons';
 
 export default {
@@ -38,51 +38,33 @@ export const Normal = () => {
   );
 
   const CustomIcon = Icons[select('Icon Menu', Object.keys(Icons), 'IconMove')];
-  const isSticky = boolean('Sticky', false);
-  const isLoading = boolean('Loading', false);
 
   return (
-    <div style={{ height: isSticky ? '5000px' : 'auto' }}>
-      <NavigationBar
-        header={HeaderLogo}
-        dropdownMenu={
-          <List>
-            <ListItem leftContent={<IconUser />}>Text</ListItem>
-            <ListItem leftContent={<IconUpdate />}>Text</ListItem>
-          </List>
-        }
-        iconMenu={<CustomIcon size={'large'} />}
-        sticked={isSticky}
-        loading={isLoading}
-        rightContent={rightContent}
-      >
-        <a className={'active'} href={'#'}>
-          Normal Link
-        </a>
-        <a href={'#'}>Active Link</a>
-        <TextLink href={'#'} size={'large'} variant={'primary'}>
-          Product 1
-        </TextLink>
-        <TextLink href={'#'} size={'large'} variant={'secondary'}>
-          Product 2
-        </TextLink>
+    <NavigationBar
+      header={HeaderLogo}
+      dropdownMenu={
+        <List>
+          <ListItem leftContent={<IconUser />}>Text</ListItem>
+          <ListItem leftContent={<IconUpdate />}>Text</ListItem>
+        </List>
+      }
+      iconMenu={<CustomIcon size={'large'} />}
+      rightContent={rightContent}
+    >
+      <a className={'active'} href={'#'}>
+        Normal Link
+      </a>
+      <a href={'#'}>Active Link</a>
+      <TextLink href={'#'} size={'large'} variant={'primary'}>
+        Product 1
+      </TextLink>
+      <TextLink href={'#'} size={'large'} variant={'secondary'}>
+        Product 2
+      </TextLink>
 
-        <IconSettings color={'secondary'} />
-      </NavigationBar>
-    </div>
+      <IconSettings color={'secondary'} />
+    </NavigationBar>
   );
 };
 
 export const WithoutMenu = () => <NavigationBar header={HeaderLogo}></NavigationBar>;
-
-export const Sticky = () => (
-  <div style={{ height: '5000px' }}>
-    <NavigationBar sticked header={HeaderLogo}></NavigationBar>
-  </div>
-);
-
-export const Loading = () => (
-  <div style={{ height: '5000px' }}>
-    <NavigationBar loading />
-  </div>
-);

@@ -1,29 +1,26 @@
 import React, { useState, useRef, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
 import defaultTheme from '../../themes/defaultTheme';
-import useDimensions from '../../hooks/useDimensions';
-import Portal from '../Portal/index';
 
 const StyledDropdown = styled.div`
   position: relative;
   display: inline-block;
-  height: 100%;
 `;
 
 StyledDropdown.defaultProps = {
   theme: defaultTheme
 };
 
-const StyledLabel = styled.div`
+const StyledLabel = styled.label`
   cursor: pointer;
-  height: 100%;
 `;
 
 const ChildrenContainer = styled.div`
   opacity: ${props => (props.isOpen ? '1' : '0')};
   visibility: ${props => (props.isOpen ? 'visible' : 'hidden')};
+  transform: translateY(${props => (props.isOpen ? '10px' : '0')});
+  transition: ${props => props.theme.global.transition};
   position: absolute;
   min-width: 200px;
   border: 1px solid ${props => props.theme.components.dropdownBorderColor};
@@ -31,118 +28,43 @@ const ChildrenContainer = styled.div`
   border-radius: ${props => props.theme.components.dropdownBorderRadius};
   background: ${props => props.theme.components.dropdownBackground};
   padding: ${props => props.theme.components.dropdownPadding};
-  z-index: 10;
+  ${props => `${props.position}: 8px`}
+  z-index: 1;
 `;
 
 ChildrenContainer.defaultProps = {
   theme: defaultTheme
 };
 
-const DROPDOWN_OFFSET = 8;
-
-const calculatePosition = (align, position, dimensions) => {
-  const {
-    containerHeight,
-    containerLeft,
-    containerTop,
-    containerWidth,
-    popperHeight,
-    popperWidth,
-    windowWidth
-  } = dimensions;
-
-  let top = 0;
-  let left = 0;
-
-  top =
-    position === 'bottom' ? containerTop + containerHeight + 10 : containerTop - popperHeight - 10;
-  if (align === 'left') {
-    left = containerLeft;
-    if (left <= DROPDOWN_OFFSET) {
-      left = DROPDOWN_OFFSET;
-    }
-  } else if (align === 'center') {
-    left = containerLeft + containerWidth / 2 - popperWidth / 2;
-  } else if (align === 'right') {
-    left = containerLeft + containerWidth - popperWidth;
-    if (left + popperWidth >= windowWidth - DROPDOWN_OFFSET) {
-      left = windowWidth - popperWidth - DROPDOWN_OFFSET;
-    }
-  }
-
-  return { top, left };
-};
-
-const Dropdown = ({
-  children,
-  label,
-  autoClose,
-  align,
-  position,
-  onChange = () => {},
-  ...other
-}) => {
+const Dropdown = ({ children, label, autoClose, position, onChange = () => {}, ...other }) => {
   const [isOpen, setOpen] = useState(false);
 
-  const container = useRef(null);
-  const dropdown = useRef(null);
-  const content = useRef(null);
+  const ref = useRef();
 
-  useOnclickOutside(
-    () => {
-      if (!autoClose) return;
-      setOpen(false);
-    },
-    {
-      refs: [container, dropdown]
-    }
-  );
-
-  const dimensions = useDimensions(
-    { container, popper: dropdown, content },
-    children,
-    container,
-    isOpen
-  );
-  let dropdownPosition = calculatePosition(align, position, dimensions);
-
-  React.useEffect(() => {
-    dropdownPosition = calculatePosition(align, position, dimensions);
-  }, [isOpen]);
+  useOnclickOutside(ref, () => {
+    if (!autoClose) return;
+    setOpen(false);
+  });
 
   useEffect(() => {
     onChange(isOpen);
   }, [onChange, isOpen]);
 
   return (
-    <StyledDropdown {...other} ref={container}>
+    <StyledDropdown {...other} ref={ref}>
       <StyledLabel onClick={() => setOpen(!isOpen)}>{label}</StyledLabel>
-      {isOpen && (
-        <Portal renderInto="dropdowns">
-          <ChildrenContainer isOpen={isOpen} ref={dropdown} style={dropdownPosition}>
-            <div ref={content}>{children}</div>
-          </ChildrenContainer>
-        </Portal>
-      )}
+      <ChildrenContainer isOpen={isOpen} position={position}>
+        {children}
+      </ChildrenContainer>
     </StyledDropdown>
   );
 };
 
 Dropdown.displayName = 'Dropdown';
 
-Dropdown.propTypes = {
-  children: PropTypes.node,
-  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
-  className: PropTypes.string,
-  position: PropTypes.oneOf(['top', 'bottom']),
-  align: PropTypes.oneOf(['right', 'center', 'left']),
-  autoClose: PropTypes.bool
-};
-
 Dropdown.defaultProps = {
   autoClose: true,
-  position: 'bottom',
-  align: 'left'
+  position: 'left'
 };
 
 export default Dropdown;

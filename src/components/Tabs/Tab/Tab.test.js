@@ -43,25 +43,15 @@ describe(`Tab`, () => {
     it('should have active styles', () => {
       const component = mount(<Tab label="A Label" active />);
       const container = component.find('Tab__StyledTabContainer');
-      const theme = container.prop('theme');
 
-      expect(container).toHaveStyleRule('color', theme.components.tabColorActive);
-      expect(container).toHaveStyleRule(
-        'border-bottom',
-        `3px solid ${theme.components.tabBorderColorActive}`
-      );
+      expect(container.hasClass('active')).toBe(true);
     });
 
-    it('should have disabled styles', () => {
+    it('should have active styles', () => {
       const component = mount(<Tab label="A Label" disabled />);
       const container = component.find('Tab__StyledTabContainer');
-      const theme = container.prop('theme');
 
-      expect(container).toHaveStyleRule('color', theme.components.tabColorDisabled);
-      expect(container).toHaveStyleRule(
-        'border-bottom',
-        `3px solid ${theme.components.tabBorderColor}`
-      );
+      expect(container.hasClass('disabled')).toBe(true);
     });
   });
 });

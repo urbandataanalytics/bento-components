@@ -7,9 +7,9 @@ export interface ButtonProps {
   loadingText?: string;
   iconLeft?: React.ReactNode;
   onClick?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
-  size?: 'medium' | 'large';
+  size: 'medium' | 'large';
   tabIndex?: string;
-  variant?: 'normal' | 'primary' | 'secondary';
+  variant: 'normal' | 'primary' | 'secondary';
 }
 
 declare const Button: React.FunctionComponent<ButtonProps & React.ButtonHTMLAttributes<HTMLButtonElement>>;

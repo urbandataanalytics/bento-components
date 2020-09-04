@@ -40,7 +40,7 @@ const StyledButtonLink = styled.button`
   align-items: center;
   justify-content: center;
   background-color: 'transparent';
-  transition: ${({ theme }) => theme.global.transitionS};
+  transition: ${({ theme }) => theme.global.transition};
   &:disabled {
     cursor: default;
     color: ${({ theme }) => theme.components.buttonLinkDisabledColor};
@@ -51,26 +51,19 @@ const StyledButtonLink = styled.button`
       props.disabled ? 'transparent' : props.theme.components.buttonLinkHoverBackgroundColor};
   }
 
-  ${props => componentVariants(props.theme)[props.variant]}
   ${props => componentSizes(props.theme)[props.size]}
+  ${props => componentVariants(props.theme)[props.variant]}
 `;
 
 const IconWrapper = styled.span`
-  margin: ${props =>
-    props.size === 'small'
-      ? props.direction === 'left'
-        ? '0 8px 0 0'
-        : '0 0 0 8px'
-      : props.direction === 'left'
-      ? '0 16px 0 0'
-      : '0 0 0 16px'};
+  margin: ${props => (props.direction === 'left' ? '0 8px 0 0' : '0 0 0 8px')};
   position: relative;
   top: -1px;
   & > svg {
     width: ${props =>
-      props.size === 'small' ? '16px' : props.size === 'medium' ? '24px' : '32px'};
+      props.size === 'small' ? '10px' : props.size === 'medium' ? '15px' : '18px'};
     height: ${props =>
-      props.size === 'small' ? '16px' : props.size === 'medium' ? '24px' : '32px'};
+      props.size === 'small' ? '10px' : props.size === 'medium' ? '15px' : '18px'};
     path {
       ${props => props.disabled && props.theme.components.buttonLinkDisabledColor}
     }
