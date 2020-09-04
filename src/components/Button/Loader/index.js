@@ -14,7 +14,7 @@ const StyledLoader = styled.span`
   position: absolute;
   z-index: 1;
   transform: translateX(${props => (props.loading === 'true' ? 0 : '-100%')});
-  transition: ${({ theme }) => theme.global.transitionM};
+  transition: ${({ theme }) => theme.global.transition};
   width: 100%;
   height: 100%;
   display: flex;
@@ -22,9 +22,18 @@ const StyledLoader = styled.span`
   justify-content: center;
 
   > svg {
-    animation: ${({ theme }) => theme.animations.rotate} 2s linear infinite;
+    animation: rotation 2s linear infinite;
     display: inline-block;
     transform-origin: center;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 `;
 

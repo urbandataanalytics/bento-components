@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import defaultTheme from '../../../themes/defaultTheme';
 import PropTypes from 'prop-types';
 
@@ -14,7 +14,7 @@ const componentSizes = theme => ({
   }
 });
 
-export const StyledLeftContent = styled.div`
+const StyledLeftContent = styled.div`
   margin-right: 19px;
   color: ${props =>
     props.active
@@ -35,7 +35,7 @@ export const StyledLeftContent = styled.div`
   }
 `;
 
-export const StyledComponent = styled(({ className, children, as: Component, theme, ...props }) =>
+const StyledComponent = styled(({ className, children, as: Component, theme, ...props }) =>
   Component ? (
     <Component className={className} {...props}>
       {children}
@@ -49,7 +49,7 @@ StyledComponent.defaultProps = {
   theme: defaultTheme
 };
 
-export const StyledRightContent = styled.div`
+const StyledRightContent = styled.div`
   margin-left: auto;
   color: ${props =>
     props.active
@@ -87,7 +87,7 @@ StyledListSeparator.defaultProps = {
   theme: defaultTheme
 };
 
-export const StyledListItem = styled.li`
+const StyledListItem = styled.li`
   display: flex;
   align-items: center;
   background-color: ${props =>
@@ -96,15 +96,13 @@ export const StyledListItem = styled.li`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
-  font-size: ${props => props.theme.components.listItemFontSize};
+  font-size: 14px;
   font-family: ${props => props.theme.global.fontFamily};
   font-weight: ${props => props.theme.global.fontWeightMedium};
-  transition: ${props => props.theme.global.transitionM};
+  transition: ${props => props.theme.global.transition};
   margin: ${props => props.theme.components.listItemMargin};
   ${props => props.onClick && 'cursor: pointer'};
-  ${props =>
-    props.disabled &&
-    `color: ${props.theme.components.listItemColorDisabled}; background-color:${props.theme.components.listItemBackgroundColorDisabled};`};
+  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`};
   border-radius: ${props => props.theme.components.listItemBorderRadius};
 
   &:last-child {
@@ -116,43 +114,13 @@ export const StyledListItem = styled.li`
       !props.disabled &&
       `background-color: ${
         props.active
-          ? props.theme.components.listItemBackgroundColorActiveHover
-          : props.theme.components.listItemBackgroundColorDefaultHover
+          ? props.theme.components.listItemColorActiveHover
+          : props.theme.components.listItemColorDefaultHover
       }`};
-    ${props =>
-      props.disabled &&
-      `background-color: ${props.theme.components.listItemBackgroundColorHoverDisabled}`};
-
     color: ${props =>
       props.active
         ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefaultHover};
-
-    ${StyledLeftContent} {
-      ${props =>
-        (props.focusContent || props.focusLeftContent) &&
-        css`
-          opacity: 1;
-          transition: opacity 150ms ease-in-out;
-        `};
-    }
-
-    ${StyledRightContent} {
-      ${props =>
-        (props.focusContent || props.focusRightContent) &&
-        css`
-          opacity: 1;
-          transition: opacity 150ms ease-in-out;
-        `};
-    }
-  }
-
-  ${StyledLeftContent} {
-    ${props => (props.focusContent || props.focusLeftContent) && !props.active && 'opacity: 0'};
-  }
-
-  ${StyledRightContent} {
-    ${props => (props.focusContent || props.focusRightContent) && !props.active && 'opacity: 0'};
+        : props.theme.components.listItemColorDefault};
   }
 
   > ${StyledComponent} {
@@ -164,7 +132,7 @@ export const StyledListItem = styled.li`
       props.active
         ? props.theme.components.listItemColorActive
         : props.theme.components.listItemColorDefault};
-    font-weight: ${props => props.theme.components.listItemFontWeight};
+    font-weight: 500;
     ${props => componentSizes(props.theme)[props.size]};
 
     ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`};
@@ -186,10 +154,6 @@ const ListItem = React.forwardRef((props, ref) => {
     size,
     active,
     disabled,
-    className,
-    focusContent,
-    focusLeftContent,
-    focusRightContent,
     onClick,
     ...other
   } = props;
@@ -197,21 +161,8 @@ const ListItem = React.forwardRef((props, ref) => {
   return separator ? (
     <StyledListSeparator />
   ) : (
-    <StyledListItem
-      active={active}
-      disabled={disabled}
-      onClick={e => {
-        if (!disabled && onClick && typeof onClick === 'function') {
-          onClick(e);
-        }
-      }}
-      size={size}
-      className={className}
-      focusContent={focusContent}
-      focusLeftContent={focusLeftContent}
-      focusRightContent={focusRightContent}
-    >
-      <StyledComponent disabled={disabled} as={Component} {...other}>
+    <StyledListItem active={active} disabled={disabled} onClick={onClick} size={size}>
+      <StyledComponent {...other} disabled={disabled} as={Component}>
         {leftContent && (
           <StyledLeftContent active={active} disabled={disabled}>
             {leftContent}
@@ -237,9 +188,6 @@ ListItem.propTypes = {
   as: PropTypes.elementType,
   leftContent: PropTypes.node,
   rightContent: PropTypes.node,
-  focusContent: PropTypes.bool,
-  focusLeftContent: PropTypes.bool,
-  focusRightContent: PropTypes.bool,
   separator: PropTypes.bool,
   size: PropTypes.oneOf(['medium', 'large']),
   active: PropTypes.bool,

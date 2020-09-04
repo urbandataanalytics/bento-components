@@ -1,7 +1,5 @@
 export interface TabsProps {
   children?: React.ReactNode;
-  leftContent?: React.ReactNode;
-  rightContent?: React.ReactNode;
   value: string | number;
   onChange?: (ev: SyntheticInputEvent<HTMLInputElement>, value: string | number) => void | Promise<any>;
 }

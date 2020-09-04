@@ -22,15 +22,11 @@ const componentSizes = theme => ({
     width: theme.components.avatarSizeLarge,
     height: theme.components.avatarSizeLarge,
     fontSize: theme.components.avatarFontSizeLarge
-  },
-  extralarge: {
-    width: theme.components.avatarSizeExtralarge,
-    height: theme.components.avatarSizeExtralarge,
-    fontSize: theme.components.avatarFontSizeExtralarge
   }
 });
 
 const StyledAvatar = styled.div`
+  ${({ theme, size }) => componentSizes(theme)[size]};
   ${({ theme }) => theme.texts.p2b}
   border-radius: ${({ theme }) => theme.components.avatarBorderRadius};
   background-color: ${({ theme, customColor }) =>
@@ -40,8 +36,7 @@ const StyledAvatar = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: ${props => props.theme.global.transitionM};
-  ${({ theme, size }) => componentSizes(theme)[size]};
+  text-indent: 2px;
 `;
 
 StyledAvatar.defaultProps = {
@@ -65,7 +60,7 @@ const Avatar = forwardRef((props, ref) => {
     size,
     color,
     customColor,
-    initialsNum = 2,
+    initialsNum,
     imgProps,
     ...other
   } = props;
@@ -77,11 +72,10 @@ const Avatar = forwardRef((props, ref) => {
   if (hasImageAndLoaded) {
     children = <StyledImg alt={alt} src={src} size={size} {...imgProps} />;
   } else if (hasImg && alt) {
-    children =
-      initialsNum > 0 ? getInitials(childrenProp ? childrenProp : alt, initialsNum) : childrenProp;
+    children = getInitials(childrenProp ? childrenProp : alt, initialsNum);
   } else if (childrenProp != null) {
     const childrenString = Array.isArray(childrenProp) ? childrenProp.join(' ') : childrenProp;
-    children = initialsNum > 0 ? getInitials(childrenString, initialsNum) : childrenProp;
+    children = getInitials(childrenString, initialsNum);
   } else {
     children = <IconUser size={size} />;
   }
@@ -94,8 +88,7 @@ const Avatar = forwardRef((props, ref) => {
 });
 
 Avatar.defaultProps = {
-  size: 'medium',
-  initialsNum: 2
+  size: 'medium'
 };
 
 Avatar.propTypes = {
@@ -103,7 +96,7 @@ Avatar.propTypes = {
   srcSet: PropTypes.string,
   alt: PropTypes.string,
   initialsNum: PropTypes.number,
-  size: PropTypes.oneOf(['small', 'medium', 'large', 'extralarge']),
+  size: PropTypes.oneOf(['small', 'medium', 'large']),
   imgProps: PropTypes.object,
   color: PropTypes.oneOf(['primary', 'secondary']),
   children: PropTypes.node,

@@ -5,7 +5,6 @@ import defaultTheme from '../../themes/defaultTheme';
 import { IconArrowClose } from '../../icons';
 import { useCallback } from 'react';
 import { useState } from 'react';
-import useBoundingRect from '../../hooks/useBoundingRect';
 
 const StyledAccordionLabel = styled.div`
   width: 100%;
@@ -17,6 +16,12 @@ const StyledAccordionLabel = styled.div`
   display: flex;
   align-items: center;
   align-content: center;
+
+  //:last-child,
+  //:only-child {
+  //  border: 0;
+  //  margin: 0;
+  //}
 `;
 
 StyledAccordionLabel.defaultProps = {
@@ -24,21 +29,14 @@ StyledAccordionLabel.defaultProps = {
 };
 
 const StyledAccordionContent = styled.div`
-  transition: max-height 0.3s ease-out;
+  transition: all 0.3s ease-out;
   overflow: hidden;
-  max-height: ${({ expanded, maxHeight }) => (expanded ? `${maxHeight}px` : '0')};
-  visibility: ${({ expanded }) => (expanded ? 'visible' : 'hidden')};
+  max-height: ${props => (props.expanded ? '100%' : '0')};
+  opacity: ${props => (props.expanded ? '1' : '0')};
+  padding: ${props => (props.expanded ? '0 25px 25px' : '0')};
 `;
 
 StyledAccordionContent.defaultProps = {
-  theme: defaultTheme
-};
-
-const StyledAccordionChildren = styled.div`
-  padding: 0 25px 25px;
-`;
-
-StyledAccordionChildren.defaultProps = {
   theme: defaultTheme
 };
 
@@ -95,9 +93,7 @@ StyledSubHeaderContent.defaultProps = {
   theme: defaultTheme
 };
 
-const StyledArrowIcon = styled(({ className }) => (
-  <IconArrowClose color={'secondary'} className={className} />
-))`
+const StyledArrowIcon = styled(({ className }) => <IconArrowClose className={className} />)`
   margin-left: 10px;
   transition: transform 300ms ease-in-out;
   transform: rotate(${props => (props.expanded ? '180deg' : '0')});
@@ -119,7 +115,6 @@ const Accordion = props => {
     ...other
   } = props;
   const [expandedState, setExpandedState] = useState(expanded);
-  const [{ height }, childNode] = useBoundingRect({ height: expanded ? null : 0 });
 
   const handleClick = useCallback(
     event => {
@@ -145,9 +140,7 @@ const Accordion = props => {
         </StyledRightContent>
       </StyledAccordionLabel>
 
-      <StyledAccordionContent maxHeight={height} expanded={expandedState}>
-        <StyledAccordionChildren ref={childNode}>{children}</StyledAccordionChildren>
-      </StyledAccordionContent>
+      <StyledAccordionContent expanded={expandedState}>{children}</StyledAccordionContent>
     </>
   );
 };
