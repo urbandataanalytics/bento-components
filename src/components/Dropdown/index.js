@@ -107,6 +107,7 @@ const Dropdown = ({
   let dropdownPosition = calculatePosition(align, position, dimensions);
 
   React.useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     dropdownPosition = calculatePosition(align, position, dimensions);
   }, [isOpen]);
 
