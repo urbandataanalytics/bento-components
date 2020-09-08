@@ -482,7 +482,13 @@ const components = {
   paginationLabelMarginBottom: spacings.small3,
   paginationProgressBackgroundColor: color.charcoal400,
   paginationProgressMarginBottom: spacings.small3,
-  paginationProgressActiveBackgroundColor: color.charcoal800
+  paginationProgressActiveBackgroundColor: color.charcoal800,
+
+  /* Slider Theme props */
+  sliderRailColor: color.charcoal400,
+  sliderTrackColor: color.primary500,
+  sliderHandleColor: color.primary500,
+  sliderHandleDraggingColor: color.primary600
 };
 
 export default {
