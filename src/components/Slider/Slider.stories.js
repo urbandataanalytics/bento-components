@@ -14,7 +14,9 @@ const getCommonProps = () => {
     onChange: action('onChange'),
     // variant: select('Variant', ['slider', 'range'], 'slider'),
     min: number('Min', 0),
-    max: number('Max', 100)
+    max: number('Max', 100),
+    sufix: text('Sufix', ''),
+    prefix: text('Prefix', '')
     // disabled: boolean('Disabled', true)
   };
 };
@@ -35,6 +37,8 @@ const decoratorStyles = {
 //   </div>
 // );
 
+const format = value => value.toFixed(2);
+
 export const RangeSlider = () => {
   const specificProps = () => ({
     value: array('Value', [10, 60]),
@@ -43,7 +47,7 @@ export const RangeSlider = () => {
 
   return (
     <div style={decoratorStyles}>
-      <Slider {...specificProps()} {...getCommonProps()} />
+      <Slider format={format} {...specificProps()} {...getCommonProps()} />
     </div>
   );
 };

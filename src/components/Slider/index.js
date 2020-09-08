@@ -27,7 +27,20 @@ const MinMaxInput = styled.input`
 `;
 
 const Slider = React.forwardRef((props, ref) => {
-  const { name, variant, min, max, value, step, format, onChange, disabled, ...other } = props;
+  const {
+    name,
+    prefix,
+    sufix,
+    variant,
+    min,
+    max,
+    value,
+    step,
+    format,
+    onChange,
+    disabled,
+    ...other
+  } = props;
   const [values, setValues] = useState(value);
 
   useEffect(() => {
@@ -87,18 +100,26 @@ const Slider = React.forwardRef((props, ref) => {
             ]}
           ></Range>
           <InputContainer>
-            <MinMaxInput
-              type="text"
-              name="min"
-              value={values[0]}
-              onChange={onValuesChange}
-            ></MinMaxInput>
-            <MinMaxInput
-              type="text"
-              name="max"
-              value={values[1]}
-              onChange={onValuesChange}
-            ></MinMaxInput>
+            <div>
+              <span>{prefix}</span>
+              <MinMaxInput
+                type="text"
+                name="min"
+                value={format(value[0]).toString()}
+                onChange={onValuesChange}
+              />
+              <span>{sufix}</span>
+            </div>
+            <div>
+              <span>{prefix}</span>
+              <MinMaxInput
+                type="text"
+                name="max"
+                value={format(value[1]).toString()}
+                onChange={onValuesChange}
+              />
+              <span>{sufix}</span>
+            </div>
           </InputContainer>
         </>
       )}
@@ -108,6 +129,8 @@ const Slider = React.forwardRef((props, ref) => {
 
 Slider.propTypes = {
   name: PropTypes.string,
+  prefix: PropTypes.string,
+  sufix: PropTypes.string,
   variant: PropTypes.oneOf(['slider', 'range']),
   min: PropTypes.number.isRequired,
   max: PropTypes.number.isRequired,

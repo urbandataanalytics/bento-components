@@ -1,6 +1,9 @@
 export interface SliderProps {
   name?: string;
+  prefix?: string;
+  sufix?: string;
   variant?: 'slider' | 'range';
+  format: () => void;
   min?: number;
   max?: number;
   value: number | Array<number>;
