@@ -48,7 +48,7 @@ const Search = ({
   const theme = useTheme();
 
   return (
-    <StyledContainer {...other} ref={ref}>
+    <StyledContainer>
       <IconSearch customColor={theme.color.charcoal600} />
       <Input
         type="text"
@@ -58,9 +58,11 @@ const Search = ({
         onChange={onChange}
         placeholder={placeholder}
         tabIndex={tabIndex}
+        ref={ref}
+        {...other}
       />
       {closable && (
-        <button onClick={onClose}>
+        <button type="button" onClick={onClose}>
           <IconClose customColor={theme.color.charcoal600} />
         </button>
       )}
