@@ -145,6 +145,7 @@ const Tooltip = ({
   let tooltipPosition = calculatePosition(position, dimensions);
 
   React.useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     tooltipPosition = calculatePosition(position, dimensions);
   }, [open]);
 
@@ -153,6 +154,7 @@ const Tooltip = ({
       clearTimeout(closeTimer.current);
       clearTimeout(enterTimer.current);
       clearTimeout(leaveTimer.current);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       clearTimeout(touchTimer.current);
     };
   }, []);
