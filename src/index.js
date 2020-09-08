@@ -110,3 +110,6 @@ export * from './components/InfinitePagination';
 
 export { default as Slider } from './components/Slider';
 export * from './components/Slider';
+
+export { default as Search } from './components/Search';
+export * from './components/Search';
