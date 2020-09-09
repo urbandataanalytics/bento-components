@@ -486,9 +486,14 @@ const components = {
 
   /* Slider Theme props */
   sliderRailColor: color.charcoal400,
+  sliderRailSize: '2px',
   sliderTrackColor: color.primary500,
+  sliderRailSize: '2px',
   sliderHandleColor: color.primary500,
-  sliderHandleDraggingColor: color.primary600
+  sliderHandleDisabledColor: color.charcoal500,
+  sliderHandleDraggingColor: color.primary600,
+  sliderHandleSize: spacings.small3,
+  sliderHandleMarginTop: '-6px'
 };
 
 export default {
