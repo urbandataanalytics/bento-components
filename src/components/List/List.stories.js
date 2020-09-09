@@ -47,6 +47,9 @@ export const WithChildrens = () => {
     <div style={containerStyle}>
       <List size={select('Sizes', ['medium', 'large'], 'medium')}>
         <ListItem leftContent={<IconFolder />}>Text</ListItem>
+        <ListItem focused leftContent={<IconFolder />}>
+          Text
+        </ListItem>
         <ListItem rightContent={<IconFolder />} active>
           Text
         </ListItem>
@@ -79,7 +82,9 @@ export const LinkList = () => {
       <List {...getCommonProps()}>
         <LinkListItem href={'https://google.com'}>Link 1</LinkListItem>
         <LinkListItem active={true}>Link 2</LinkListItem>
-        <LinkListItem href={'#test'}>Link 3</LinkListItem>
+        <LinkListItem focused href={'#test'}>
+          Link 3
+        </LinkListItem>
       </List>
     </div>
   );
