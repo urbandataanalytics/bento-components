@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import RcSlider from 'rc-slider';
+import { Range } from 'rc-slider';
+
 import defaultTheme from '../../themes/defaultTheme';
 
 import 'rc-slider/assets/index.css';
-
-import RcSlider from 'rc-slider';
-import { Range } from 'rc-slider';
 
 const MinMaxContainer = styled.div`
   display: flex;
