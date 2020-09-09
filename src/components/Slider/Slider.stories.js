@@ -8,16 +8,23 @@ export default {
   component: Slider
 };
 
-const getCommonProps = () => {
+const getVariant = () => {
   return {
-    // value: number('Value', 1),
+    variant: select('Variant', ['slider', 'range'], 'slider')
+  };
+};
+
+const getCommonProps = variant => {
+  return {
+    value: variant === 'range' ? array('Value', [50, 200]) : number('Value', 50),
     onChange: action('onChange'),
-    // variant: select('Variant', ['slider', 'range'], 'slider'),
     min: number('Min', 0),
-    max: number('Max', 100),
-    sufix: text('Sufix', ''),
-    prefix: text('Prefix', '')
-    // disabled: boolean('Disabled', true)
+    max: number('Max', 5000),
+    step: number('Step', 1),
+    sufix: variant === 'range' && text('Sufix', '€/m2'),
+    prefix: variant === 'range' && text('Prefix', ''),
+    disabled: boolean('Disabled', false),
+    isLoading: boolean('Loading', false)
   };
 };
 
@@ -25,42 +32,10 @@ const decoratorStyles = {
   padding: '2rem'
 };
 
-// export const Normal = () => (
-//   <div style={decoratorStyles}>
-//     <Slider {...getCommonProps()} />
-//   </div>
-// );
-
-// export const Error = () => (
-//   <div style={decoratorStyles}>
-//     <Slider error {...getCommonProps()} />
-//   </div>
-// );
-
-const format = value => value.toFixed(2);
-
-export const RangeSlider = () => {
-  const specificProps = () => ({
-    value: array('Value', [10, 60]),
-    variant: select('Variant', ['range'], 'range')
-  });
-
+export const Normal = () => {
   return (
     <div style={decoratorStyles}>
-      <Slider format={format} {...specificProps()} {...getCommonProps()} />
-    </div>
-  );
-};
-
-export const DisabledSlider = () => {
-  const specificProps = () => ({
-    value: array('Value', [10, 60]),
-    variant: select('Variant', ['range'], 'range')
-  });
-
-  return (
-    <div style={decoratorStyles}>
-      <Slider disabled {...specificProps()} {...getCommonProps()} />
+      <Slider {...getVariant()} {...getCommonProps(getVariant().variant)} />
     </div>
   );
 };
