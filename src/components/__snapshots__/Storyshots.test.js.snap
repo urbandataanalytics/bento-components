@@ -372,6 +372,7 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -379,10 +380,12 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -842,6 +845,7 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -849,10 +853,12 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -1618,6 +1624,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -1625,10 +1632,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -2074,6 +2083,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -2081,10 +2091,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -2535,6 +2547,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -2542,10 +2555,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -3004,6 +3019,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -3011,10 +3027,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -3470,6 +3488,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemBackgroundColorActiveHover": "#EFF7FB",
                       "listItemBackgroundColorDefaultHover": "#EFF2F7",
                       "listItemBackgroundColorDisabled": "#F8F8F8",
+                      "listItemBackgroundColorFocused": "#1778FB",
                       "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                       "listItemBorderRadius": "2px",
                       "listItemColorActive": "#1778FB",
@@ -3477,10 +3496,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemColorDefault": "#212632",
                       "listItemColorDefaultHover": "#EFF2F7",
                       "listItemColorDisabled": "#B6BBC6",
+                      "listItemColorFocused": "#FFFFFF",
                       "listItemFontSize": "12px",
                       "listItemFontSizeLarge": "14px",
                       "listItemFontSizeMedium": "12px",
                       "listItemFontWeight": 400,
+                      "listItemFontWeightFocused": 500,
                       "listItemMargin": "0 0 4px",
                       "listItemPaddingLarge": "8px 16px",
                       "listItemPaddingMedium": "7px 16px",
@@ -3929,6 +3950,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemBackgroundColorActiveHover": "#EFF7FB",
                       "listItemBackgroundColorDefaultHover": "#EFF2F7",
                       "listItemBackgroundColorDisabled": "#F8F8F8",
+                      "listItemBackgroundColorFocused": "#1778FB",
                       "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                       "listItemBorderRadius": "2px",
                       "listItemColorActive": "#1778FB",
@@ -3936,10 +3958,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemColorDefault": "#212632",
                       "listItemColorDefaultHover": "#EFF2F7",
                       "listItemColorDisabled": "#B6BBC6",
+                      "listItemColorFocused": "#FFFFFF",
                       "listItemFontSize": "12px",
                       "listItemFontSizeLarge": "14px",
                       "listItemFontSizeMedium": "12px",
                       "listItemFontWeight": 400,
+                      "listItemFontWeightFocused": 500,
                       "listItemMargin": "0 0 4px",
                       "listItemPaddingLarge": "8px 16px",
                       "listItemPaddingMedium": "7px 16px",
@@ -4386,6 +4410,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemBackgroundColorActiveHover": "#EFF7FB",
                       "listItemBackgroundColorDefaultHover": "#EFF2F7",
                       "listItemBackgroundColorDisabled": "#F8F8F8",
+                      "listItemBackgroundColorFocused": "#1778FB",
                       "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                       "listItemBorderRadius": "2px",
                       "listItemColorActive": "#1778FB",
@@ -4393,10 +4418,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemColorDefault": "#212632",
                       "listItemColorDefaultHover": "#EFF2F7",
                       "listItemColorDisabled": "#B6BBC6",
+                      "listItemColorFocused": "#FFFFFF",
                       "listItemFontSize": "12px",
                       "listItemFontSizeLarge": "14px",
                       "listItemFontSizeMedium": "12px",
                       "listItemFontWeight": 400,
+                      "listItemFontWeightFocused": 500,
                       "listItemMargin": "0 0 4px",
                       "listItemPaddingLarge": "8px 16px",
                       "listItemPaddingMedium": "7px 16px",
@@ -4834,6 +4861,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemBackgroundColorActiveHover": "#EFF7FB",
                       "listItemBackgroundColorDefaultHover": "#EFF2F7",
                       "listItemBackgroundColorDisabled": "#F8F8F8",
+                      "listItemBackgroundColorFocused": "#1778FB",
                       "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                       "listItemBorderRadius": "2px",
                       "listItemColorActive": "#1778FB",
@@ -4841,10 +4869,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemColorDefault": "#212632",
                       "listItemColorDefaultHover": "#EFF2F7",
                       "listItemColorDisabled": "#B6BBC6",
+                      "listItemColorFocused": "#FFFFFF",
                       "listItemFontSize": "12px",
                       "listItemFontSizeLarge": "14px",
                       "listItemFontSizeMedium": "12px",
                       "listItemFontWeight": 400,
+                      "listItemFontWeightFocused": 500,
                       "listItemMargin": "0 0 4px",
                       "listItemPaddingLarge": "8px 16px",
                       "listItemPaddingMedium": "7px 16px",
@@ -5290,6 +5320,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -5297,10 +5328,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -5746,6 +5779,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -5753,10 +5787,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -6279,6 +6315,7 @@ Array [
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -6286,10 +6323,12 @@ Array [
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -6976,6 +7015,7 @@ exports[`Storyshots Button Block 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -6983,10 +7023,12 @@ exports[`Storyshots Button Block 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -7575,6 +7617,7 @@ exports[`Storyshots Button Loading 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -7582,10 +7625,12 @@ exports[`Storyshots Button Loading 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -8174,6 +8219,7 @@ exports[`Storyshots Button Normal 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -8181,10 +8227,12 @@ exports[`Storyshots Button Normal 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -8792,6 +8840,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -8799,10 +8848,12 @@ exports[`Storyshots Button With Icon 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -9246,6 +9297,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -9253,10 +9305,12 @@ exports[`Storyshots Button With Icon 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -9833,6 +9887,7 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -9840,10 +9895,12 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -10744,6 +10801,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -10751,10 +10809,12 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -11343,6 +11403,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -11350,10 +11411,12 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -11932,6 +11995,7 @@ Array [
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -11939,10 +12003,12 @@ Array [
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -12770,6 +12836,7 @@ Array [
                 "listItemBackgroundColorActiveHover": "#EFF7FB",
                 "listItemBackgroundColorDefaultHover": "#EFF2F7",
                 "listItemBackgroundColorDisabled": "#F8F8F8",
+                "listItemBackgroundColorFocused": "#1778FB",
                 "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                 "listItemBorderRadius": "2px",
                 "listItemColorActive": "#1778FB",
@@ -12777,10 +12844,12 @@ Array [
                 "listItemColorDefault": "#212632",
                 "listItemColorDefaultHover": "#EFF2F7",
                 "listItemColorDisabled": "#B6BBC6",
+                "listItemColorFocused": "#FFFFFF",
                 "listItemFontSize": "12px",
                 "listItemFontSizeLarge": "14px",
                 "listItemFontSizeMedium": "12px",
                 "listItemFontWeight": 400,
+                "listItemFontWeightFocused": 500,
                 "listItemMargin": "0 0 4px",
                 "listItemPaddingLarge": "8px 16px",
                 "listItemPaddingMedium": "7px 16px",
@@ -13224,6 +13293,7 @@ Array [
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -13231,10 +13301,12 @@ Array [
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -13679,6 +13751,7 @@ Array [
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -13686,10 +13759,12 @@ Array [
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -14145,6 +14220,7 @@ Array [
                           "listItemBackgroundColorActiveHover": "#EFF7FB",
                           "listItemBackgroundColorDefaultHover": "#EFF2F7",
                           "listItemBackgroundColorDisabled": "#F8F8F8",
+                          "listItemBackgroundColorFocused": "#1778FB",
                           "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                           "listItemBorderRadius": "2px",
                           "listItemColorActive": "#1778FB",
@@ -14152,10 +14228,12 @@ Array [
                           "listItemColorDefault": "#212632",
                           "listItemColorDefaultHover": "#EFF2F7",
                           "listItemColorDisabled": "#B6BBC6",
+                          "listItemColorFocused": "#FFFFFF",
                           "listItemFontSize": "12px",
                           "listItemFontSizeLarge": "14px",
                           "listItemFontSizeMedium": "12px",
                           "listItemFontWeight": 400,
+                          "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
                           "listItemPaddingMedium": "7px 16px",
@@ -14603,6 +14681,7 @@ Array [
                           "listItemBackgroundColorActiveHover": "#EFF7FB",
                           "listItemBackgroundColorDefaultHover": "#EFF2F7",
                           "listItemBackgroundColorDisabled": "#F8F8F8",
+                          "listItemBackgroundColorFocused": "#1778FB",
                           "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                           "listItemBorderRadius": "2px",
                           "listItemColorActive": "#1778FB",
@@ -14610,10 +14689,12 @@ Array [
                           "listItemColorDefault": "#212632",
                           "listItemColorDefaultHover": "#EFF2F7",
                           "listItemColorDisabled": "#B6BBC6",
+                          "listItemColorFocused": "#FFFFFF",
                           "listItemFontSize": "12px",
                           "listItemFontSizeLarge": "14px",
                           "listItemFontSizeMedium": "12px",
                           "listItemFontWeight": 400,
+                          "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
                           "listItemPaddingMedium": "7px 16px",
@@ -15061,6 +15142,7 @@ Array [
                           "listItemBackgroundColorActiveHover": "#EFF7FB",
                           "listItemBackgroundColorDefaultHover": "#EFF2F7",
                           "listItemBackgroundColorDisabled": "#F8F8F8",
+                          "listItemBackgroundColorFocused": "#1778FB",
                           "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                           "listItemBorderRadius": "2px",
                           "listItemColorActive": "#1778FB",
@@ -15068,10 +15150,12 @@ Array [
                           "listItemColorDefault": "#212632",
                           "listItemColorDefaultHover": "#EFF2F7",
                           "listItemColorDisabled": "#B6BBC6",
+                          "listItemColorFocused": "#FFFFFF",
                           "listItemFontSize": "12px",
                           "listItemFontSizeLarge": "14px",
                           "listItemFontSizeMedium": "12px",
                           "listItemFontWeight": 400,
+                          "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
                           "listItemPaddingMedium": "7px 16px",
@@ -15518,6 +15602,7 @@ Array [
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -15525,10 +15610,12 @@ Array [
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -15974,6 +16061,7 @@ Array [
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -15981,10 +16069,12 @@ Array [
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -16444,6 +16534,7 @@ Array [
                             "listItemBackgroundColorActiveHover": "#EFF7FB",
                             "listItemBackgroundColorDefaultHover": "#EFF2F7",
                             "listItemBackgroundColorDisabled": "#F8F8F8",
+                            "listItemBackgroundColorFocused": "#1778FB",
                             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                             "listItemBorderRadius": "2px",
                             "listItemColorActive": "#1778FB",
@@ -16451,10 +16542,12 @@ Array [
                             "listItemColorDefault": "#212632",
                             "listItemColorDefaultHover": "#EFF2F7",
                             "listItemColorDisabled": "#B6BBC6",
+                            "listItemColorFocused": "#FFFFFF",
                             "listItemFontSize": "12px",
                             "listItemFontSizeLarge": "14px",
                             "listItemFontSizeMedium": "12px",
                             "listItemFontWeight": 400,
+                            "listItemFontWeightFocused": 500,
                             "listItemMargin": "0 0 4px",
                             "listItemPaddingLarge": "8px 16px",
                             "listItemPaddingMedium": "7px 16px",
@@ -16902,6 +16995,7 @@ Array [
                             "listItemBackgroundColorActiveHover": "#EFF7FB",
                             "listItemBackgroundColorDefaultHover": "#EFF2F7",
                             "listItemBackgroundColorDisabled": "#F8F8F8",
+                            "listItemBackgroundColorFocused": "#1778FB",
                             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                             "listItemBorderRadius": "2px",
                             "listItemColorActive": "#1778FB",
@@ -16909,10 +17003,12 @@ Array [
                             "listItemColorDefault": "#212632",
                             "listItemColorDefaultHover": "#EFF2F7",
                             "listItemColorDisabled": "#B6BBC6",
+                            "listItemColorFocused": "#FFFFFF",
                             "listItemFontSize": "12px",
                             "listItemFontSizeLarge": "14px",
                             "listItemFontSizeMedium": "12px",
                             "listItemFontWeight": 400,
+                            "listItemFontWeightFocused": 500,
                             "listItemMargin": "0 0 4px",
                             "listItemPaddingLarge": "8px 16px",
                             "listItemPaddingMedium": "7px 16px",
@@ -17360,6 +17456,7 @@ Array [
                             "listItemBackgroundColorActiveHover": "#EFF7FB",
                             "listItemBackgroundColorDefaultHover": "#EFF2F7",
                             "listItemBackgroundColorDisabled": "#F8F8F8",
+                            "listItemBackgroundColorFocused": "#1778FB",
                             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                             "listItemBorderRadius": "2px",
                             "listItemColorActive": "#1778FB",
@@ -17367,10 +17464,12 @@ Array [
                             "listItemColorDefault": "#212632",
                             "listItemColorDefaultHover": "#EFF2F7",
                             "listItemColorDisabled": "#B6BBC6",
+                            "listItemColorFocused": "#FFFFFF",
                             "listItemFontSize": "12px",
                             "listItemFontSizeLarge": "14px",
                             "listItemFontSizeMedium": "12px",
                             "listItemFontWeight": 400,
+                            "listItemFontWeightFocused": 500,
                             "listItemMargin": "0 0 4px",
                             "listItemPaddingLarge": "8px 16px",
                             "listItemPaddingMedium": "7px 16px",
@@ -17829,6 +17928,7 @@ Array [
                           "listItemBackgroundColorActiveHover": "#EFF7FB",
                           "listItemBackgroundColorDefaultHover": "#EFF2F7",
                           "listItemBackgroundColorDisabled": "#F8F8F8",
+                          "listItemBackgroundColorFocused": "#1778FB",
                           "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                           "listItemBorderRadius": "2px",
                           "listItemColorActive": "#1778FB",
@@ -17836,10 +17936,12 @@ Array [
                           "listItemColorDefault": "#212632",
                           "listItemColorDefaultHover": "#EFF2F7",
                           "listItemColorDisabled": "#B6BBC6",
+                          "listItemColorFocused": "#FFFFFF",
                           "listItemFontSize": "12px",
                           "listItemFontSizeLarge": "14px",
                           "listItemFontSizeMedium": "12px",
                           "listItemFontWeight": 400,
+                          "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
                           "listItemPaddingMedium": "7px 16px",
@@ -18295,6 +18397,7 @@ Array [
                           "listItemBackgroundColorActiveHover": "#EFF7FB",
                           "listItemBackgroundColorDefaultHover": "#EFF2F7",
                           "listItemBackgroundColorDisabled": "#F8F8F8",
+                          "listItemBackgroundColorFocused": "#1778FB",
                           "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                           "listItemBorderRadius": "2px",
                           "listItemColorActive": "#1778FB",
@@ -18302,10 +18405,12 @@ Array [
                           "listItemColorDefault": "#212632",
                           "listItemColorDefaultHover": "#EFF2F7",
                           "listItemColorDisabled": "#B6BBC6",
+                          "listItemColorFocused": "#FFFFFF",
                           "listItemFontSize": "12px",
                           "listItemFontSizeLarge": "14px",
                           "listItemFontSizeMedium": "12px",
                           "listItemFontWeight": 400,
+                          "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
                           "listItemPaddingMedium": "7px 16px",
@@ -18761,6 +18866,7 @@ Array [
                           "listItemBackgroundColorActiveHover": "#EFF7FB",
                           "listItemBackgroundColorDefaultHover": "#EFF2F7",
                           "listItemBackgroundColorDisabled": "#F8F8F8",
+                          "listItemBackgroundColorFocused": "#1778FB",
                           "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                           "listItemBorderRadius": "2px",
                           "listItemColorActive": "#1778FB",
@@ -18768,10 +18874,12 @@ Array [
                           "listItemColorDefault": "#212632",
                           "listItemColorDefaultHover": "#EFF2F7",
                           "listItemColorDisabled": "#B6BBC6",
+                          "listItemColorFocused": "#FFFFFF",
                           "listItemFontSize": "12px",
                           "listItemFontSizeLarge": "14px",
                           "listItemFontSizeMedium": "12px",
                           "listItemFontWeight": 400,
+                          "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
                           "listItemPaddingMedium": "7px 16px",
@@ -19374,6 +19482,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -19381,10 +19490,12 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -19992,6 +20103,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -19999,10 +20111,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -20778,6 +20892,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "listItemBackgroundColorActiveHover": "#EFF7FB",
                 "listItemBackgroundColorDefaultHover": "#EFF2F7",
                 "listItemBackgroundColorDisabled": "#F8F8F8",
+                "listItemBackgroundColorFocused": "#1778FB",
                 "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                 "listItemBorderRadius": "2px",
                 "listItemColorActive": "#1778FB",
@@ -20785,10 +20900,12 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "listItemColorDefault": "#212632",
                 "listItemColorDefaultHover": "#EFF2F7",
                 "listItemColorDisabled": "#B6BBC6",
+                "listItemColorFocused": "#FFFFFF",
                 "listItemFontSize": "12px",
                 "listItemFontSizeLarge": "14px",
                 "listItemFontSizeMedium": "12px",
                 "listItemFontWeight": 400,
+                "listItemFontWeightFocused": 500,
                 "listItemMargin": "0 0 4px",
                 "listItemPaddingLarge": "8px 16px",
                 "listItemPaddingMedium": "7px 16px",
@@ -21357,6 +21474,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -21364,10 +21482,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -21828,6 +21948,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -21835,10 +21956,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -22299,6 +22422,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -22306,10 +22430,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -22770,6 +22896,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -22777,10 +22904,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -23241,6 +23370,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -23248,10 +23378,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -23711,6 +23843,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -23718,10 +23851,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -24182,6 +24317,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -24189,10 +24325,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -24653,6 +24791,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -24660,10 +24799,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -25125,6 +25266,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -25132,10 +25274,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -25596,6 +25740,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -25603,10 +25748,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -26067,6 +26214,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -26074,10 +26222,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -26537,6 +26687,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -26544,10 +26695,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -27008,6 +27161,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -27015,10 +27169,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -27479,6 +27635,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -27486,10 +27643,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -27950,6 +28109,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -27957,10 +28117,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -28421,6 +28583,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -28428,10 +28591,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -28891,6 +29056,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -28898,10 +29064,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -29361,6 +29529,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -29368,10 +29537,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -29831,6 +30002,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -29838,10 +30010,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -30302,6 +30476,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -30309,10 +30484,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -30774,6 +30951,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -30781,10 +30959,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -31244,6 +31424,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -31251,10 +31432,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -31714,6 +31897,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -31721,10 +31905,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -32193,6 +32379,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -32200,10 +32387,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -32674,6 +32863,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -32681,10 +32871,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -33152,6 +33344,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -33159,10 +33352,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -33627,6 +33822,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -33634,10 +33830,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -34099,6 +34297,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -34106,10 +34305,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -34569,6 +34770,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -34576,10 +34778,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -35041,6 +35245,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -35048,10 +35253,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -35512,6 +35719,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -35519,10 +35727,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -35990,6 +36200,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -35997,10 +36208,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -36461,6 +36674,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -36468,10 +36682,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -36932,6 +37148,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -36939,10 +37156,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -37404,6 +37623,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -37411,10 +37631,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -37875,6 +38097,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -37882,10 +38105,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -38346,6 +38571,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -38353,10 +38579,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -38817,6 +39045,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -38824,10 +39053,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -39289,6 +39520,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -39296,10 +39528,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -39759,6 +39993,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -39766,10 +40001,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -40234,6 +40471,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -40241,10 +40479,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -40705,6 +40945,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -40712,10 +40953,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -41177,6 +41420,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -41184,10 +41428,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -41647,6 +41893,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -41654,10 +41901,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -42118,6 +42367,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -42125,10 +42375,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -42589,6 +42841,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -42596,10 +42849,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -43059,6 +43314,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -43066,10 +43322,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -43530,6 +43788,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -43537,10 +43796,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -44001,6 +44262,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -44008,10 +44270,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -44471,6 +44735,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -44478,10 +44743,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -44946,6 +45213,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -44953,10 +45221,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -45417,6 +45687,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -45424,10 +45695,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -45888,6 +46161,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -45895,10 +46169,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -46359,6 +46635,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -46366,10 +46643,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -46829,6 +47108,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -46836,10 +47116,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -47301,6 +47583,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -47308,10 +47591,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -47772,6 +48057,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -47779,10 +48065,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -48244,6 +48532,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -48251,10 +48540,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -48718,6 +49009,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -48725,10 +49017,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -49192,6 +49486,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -49199,10 +49494,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -49663,6 +49960,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -49670,10 +49968,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -50134,6 +50434,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -50141,10 +50442,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -50614,6 +50917,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -50621,10 +50925,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -51085,6 +51391,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -51092,10 +51399,12 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -51566,6 +51875,7 @@ exports[`Storyshots Icon Normal 1`] = `
           "listItemBackgroundColorActiveHover": "#EFF7FB",
           "listItemBackgroundColorDefaultHover": "#EFF2F7",
           "listItemBackgroundColorDisabled": "#F8F8F8",
+          "listItemBackgroundColorFocused": "#1778FB",
           "listItemBackgroundColorHoverDisabled": "#F8F8F8",
           "listItemBorderRadius": "2px",
           "listItemColorActive": "#1778FB",
@@ -51573,10 +51883,12 @@ exports[`Storyshots Icon Normal 1`] = `
           "listItemColorDefault": "#212632",
           "listItemColorDefaultHover": "#EFF2F7",
           "listItemColorDisabled": "#B6BBC6",
+          "listItemColorFocused": "#FFFFFF",
           "listItemFontSize": "12px",
           "listItemFontSizeLarge": "14px",
           "listItemFontSizeMedium": "12px",
           "listItemFontWeight": 400,
+          "listItemFontWeightFocused": 500,
           "listItemMargin": "0 0 4px",
           "listItemPaddingLarge": "8px 16px",
           "listItemPaddingMedium": "7px 16px",
@@ -52644,7 +52956,7 @@ exports[`Storyshots List Link List 1`] = `
   font-size: 12px;
 }
 
-.c6 > .c3 {
+.c7 > .c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -52666,6 +52978,63 @@ exports[`Storyshots List Link List 1`] = `
   font-size: 12px;
   color: #B6BBC6;
   pointer-events: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #212632;
+  font-size: 12px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin: 0 0 4px;
+  cursor: pointer;
+  background-color: #1778FB;
+  color: #FFFFFF;
+  border-radius: 2px;
+}
+
+.c6:last-child {
+  margin-bottom: 0;
+}
+
+.c6:hover {
+  background-color: #EFF2F7;
+  background-color: #1778FB;
+  color: #EFF2F7;
+}
+
+.c6 > .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #212632;
+  font-weight: 400;
+  padding: 7px 16px;
+  font-size: 12px;
+  color: #FFFFFF;
+  font-weight: 500;
 }
 
 .c0 {
@@ -52740,7 +53109,7 @@ exports[`Storyshots List Link List 1`] = `
       </a>
     </li>
     <li
-      className="c1"
+      className="c6"
       onClick={[Function]}
       size="medium"
     >
@@ -52930,6 +53299,30 @@ exports[`Storyshots List Navbar List 1`] = `
   pointer-events: none;
 }
 
+.c16 > .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #212632;
+  font-weight: 400;
+  padding: 7px 16px;
+  font-size: 12px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
 .c1 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -52966,7 +53359,7 @@ exports[`Storyshots List Navbar List 1`] = `
   transition: opacity 150ms ease-in-out;
 }
 
-.c1:hover .c16 {
+.c1:hover .c17 {
   opacity: 1;
   -webkit-transition: opacity 150ms ease-in-out;
   transition: opacity 150ms ease-in-out;
@@ -52976,7 +53369,7 @@ exports[`Storyshots List Navbar List 1`] = `
   opacity: 0;
 }
 
-.c1 .c16 {
+.c1 .c17 {
   opacity: 0;
 }
 
@@ -53038,7 +53431,7 @@ exports[`Storyshots List Navbar List 1`] = `
   transition: opacity 150ms ease-in-out;
 }
 
-.c7:hover .c16 {
+.c7:hover .c17 {
   opacity: 1;
   -webkit-transition: opacity 150ms ease-in-out;
   transition: opacity 150ms ease-in-out;
@@ -53407,6 +53800,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -53414,10 +53808,12 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -53865,6 +54261,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -53872,10 +54269,12 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -54325,6 +54724,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -54332,10 +54732,12 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -54786,6 +55188,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -54793,10 +55196,12 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -55166,7 +55571,7 @@ exports[`Storyshots List With Childrens 1`] = `
   height: 24px;
 }
 
-.c9 {
+.c11 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -55185,53 +55590,67 @@ exports[`Storyshots List With Childrens 1`] = `
   fill: #212632;
 }
 
-.c12 {
+.c6 {
   margin-right: 19px;
   color: #212632;
 }
 
-.c12 color:#B6BBC6 > svg {
+.c6 > svg {
+  fill: #212632;
+  fill: #FFFFFF;
+}
+
+.c6 > * {
+  color: #FFFFFF;
+}
+
+.c14 {
+  margin-right: 19px;
+  color: #212632;
+}
+
+.c14 color:#B6BBC6 > svg {
   fill: #212632;
   fill: #B6BBC6;
 }
 
-.c12 > * {
+.c14 > * {
   color: #B6BBC6;
 }
 
-.c10 {
+.c12 {
   margin-left: auto;
   color: #212632;
 }
 
-.c10 > svg {
+.c12 > svg {
   fill: #212632;
 }
 
-.c6 {
+.c8 {
   margin-left: auto;
   color: #1778FB;
 }
 
-.c6 > svg {
+.c8 > svg {
   fill: #1778FB;
 }
 
-.c13 {
+.c15 {
   margin-left: auto;
   color: #212632;
 }
 
-.c13 color:#B6BBC6 > svg {
+.c15 color:#B6BBC6 > svg {
   fill: #212632;
   fill: #B6BBC6;
 }
 
-.c13 > * {
+.c15 > * {
   color: #B6BBC6;
 }
 
-.c7 {
+.c9 {
   display: block;
   height: 1px;
   border: 0;
@@ -55292,7 +55711,7 @@ exports[`Storyshots List With Childrens 1`] = `
   font-size: 12px;
 }
 
-.c5 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -55313,16 +55732,16 @@ exports[`Storyshots List With Childrens 1`] = `
   border-radius: 2px;
 }
 
-.c5:last-child {
+.c7:last-child {
   margin-bottom: 0;
 }
 
-.c5:hover {
+.c7:hover {
   background-color: #EFF7FB;
   color: #1778FB;
 }
 
-.c5 > .c2 {
+.c7 > .c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -55344,7 +55763,7 @@ exports[`Storyshots List With Childrens 1`] = `
   font-size: 12px;
 }
 
-.c11 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -55367,16 +55786,16 @@ exports[`Storyshots List With Childrens 1`] = `
   border-radius: 2px;
 }
 
-.c11:last-child {
+.c13:last-child {
   margin-bottom: 0;
 }
 
-.c11:hover {
+.c13:hover {
   background-color: #F8F8F8;
   color: #EFF2F7;
 }
 
-.c11 > .c2 {
+.c13 > .c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -55400,12 +55819,69 @@ exports[`Storyshots List With Childrens 1`] = `
   pointer-events: none;
 }
 
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #212632;
+  font-size: 12px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin: 0 0 4px;
+  cursor: pointer;
+  background-color: #1778FB;
+  color: #FFFFFF;
+  border-radius: 2px;
+}
+
+.c5:last-child {
+  margin-bottom: 0;
+}
+
+.c5:hover {
+  background-color: #EFF2F7;
+  background-color: #1778FB;
+  color: #EFF2F7;
+}
+
+.c5 > .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #212632;
+  font-weight: 400;
+  padding: 7px 16px;
+  font-size: 12px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
 .c0 {
   background-color: #FFFFFF;
   box-sizing: border-box;
 }
 
-.c8 {
+.c10 {
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto",Arial,sans-serif;
@@ -55421,7 +55897,7 @@ exports[`Storyshots List With Childrens 1`] = `
   color: #1778FB;
 }
 
-.c8:hover {
+.c10:hover {
   color: #48AAF1;
 }
 
@@ -55692,6 +56168,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -55699,10 +56176,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -55902,7 +56381,6 @@ exports[`Storyshots List With Childrens 1`] = `
       <div
         className="c2 "
       >
-        Text
         <div
           className="c6"
         >
@@ -56151,6 +56629,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -56158,10 +56637,474 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
+                  "listItemMargin": "0 0 4px",
+                  "listItemPaddingLarge": "8px 16px",
+                  "listItemPaddingMedium": "7px 16px",
+                  "listItemSeparatorColor": "#EFF2F7",
+                  "listNavItemBackgroundColorDisabled": "#FFFFFF",
+                  "listNavItemColorActive": "#1778FB",
+                  "listNavItemColorDefault": "#747D93",
+                  "listNavItemColorDisabled": "#DCDFE6",
+                  "listNavItemColorHover": "#747D93",
+                  "listNavItemFontSize": "14px",
+                  "listNavItemFontWeight": 500,
+                  "listPadding": "8px",
+                  "loaderSizeLarge": "64px",
+                  "loaderSizeMedium": "48px",
+                  "loaderSizeSmall": "32px",
+                  "navigationBackgroundColor": "white",
+                  "navigationBorder": "1px solid #EFF2F7",
+                  "navigationContentMargin": "0 24px 0 0",
+                  "navigationHeaderPadding": "0 17px",
+                  "navigationLinkFontSize": "12px",
+                  "navigationLinkMargin": "0 24px 0 0",
+                  "navigationMaxHeight": "73px",
+                  "navigationMenuBackgroundColor": "#EFF2F7",
+                  "navigationMenuHoverBackgroundColor": "#DCDFE6",
+                  "navigationMenuOpenBackgroundColor": "#EFF7FB",
+                  "navigationMinHeight": "40px",
+                  "notificationBorderRadius": "8px",
+                  "notificationCloseButtonColor": "#212632",
+                  "notificationErrorBackgroundColor": "#FAEDEC",
+                  "notificationErrorBorderColor": "#CD4C41",
+                  "notificationErrorColor": "#CD4C41",
+                  "notificationNormalBackgroundColor": "#EFF7FB",
+                  "notificationNormalBorderColor": "#023E8A",
+                  "notificationNormalColor": "#212632",
+                  "notificationPadding": "16px",
+                  "notificationSuccessBackgroundColor": "#EEF8F6",
+                  "notificationSuccessBorderColor": "#299B9A",
+                  "notificationSuccessColor": "#299B9A",
+                  "paginationLabelColor": "#212632",
+                  "paginationLabelMarginBottom": "16px",
+                  "paginationProgressActiveBackgroundColor": "#212632",
+                  "paginationProgressBackgroundColor": "#DCDFE6",
+                  "paginationProgressMarginBottom": "16px",
+                  "tabBadgeBackground": "#EFF2F7",
+                  "tabBadgeBackgroundActive": "#1778FB",
+                  "tabBadgeBackgroundHover": "#48AAF1",
+                  "tabBadgeColor": "#747D93",
+                  "tabBadgeColorActive": "#FFFFFF",
+                  "tabBadgeColorHover": "#FFFFFF",
+                  "tabBadgeFontSize": "12px",
+                  "tabBadgeFontWeight": 500,
+                  "tabBadgePadding": "2px 8px",
+                  "tabBorderColor": "transparent",
+                  "tabBorderColorActive": "#1778FB",
+                  "tabBorderColorHover": "#48AAF1",
+                  "tabColor": "#747D93",
+                  "tabColorActive": "#1778FB",
+                  "tabColorDisabled": "#DCDFE6",
+                  "tabColorHover": "#48AAF1",
+                  "tabFontSize": "12px",
+                  "tabFontWeight": 500,
+                  "tableHighlightedCellBackgroundColor": "#F8F9FA",
+                  "tableHighlightedHeaderBackgroundColor": "#E5E8EE",
+                  "tabsBackgroundColor": "white",
+                  "tabsBorderColor": "#EFF2F7",
+                  "textLinkDisabledColor": "#DCDFE6",
+                  "textLinkFontSizeLarge": "14px",
+                  "textLinkFontSizeMedium": "12px",
+                  "textLinkPrimaryColor": "#1778FB",
+                  "textLinkPrimaryHoverColor": "#48AAF1",
+                  "textLinkSecondaryColor": "#747D93",
+                  "textLinkSecondaryHoverColor": "#48AAF1",
+                },
+                "fonts": Array [
+                  Object {
+                    "name": "Roboto-Regular",
+                    "style": "normal",
+                    "weight": "normal",
+                  },
+                  Object {
+                    "name": "Roboto Medium",
+                    "style": "normal",
+                    "weight": 500,
+                  },
+                  Object {
+                    "name": "Roboto Bold",
+                    "style": "normal",
+                    "weight": 700,
+                  },
+                ],
+                "global": Object {
+                  "bgColor": "white",
+                  "boxShadowM": "box-shadow: 0px 8px 24px rgba(54, 60, 75, 0.05)",
+                  "fontColor": "#333",
+                  "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                  "fontSize": "14px",
+                  "fontWeightBold": 700,
+                  "fontWeightMedium": 500,
+                  "fontWeightRegular": 400,
+                  "transitionM": "all 250ms ease-in-out",
+                  "transitionS": "all 120ms ease-in-out",
+                },
+                "headings": Array [
+                  Object {
+                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontWeight": 500,
+                    "size": "3.4rem",
+                  },
+                  Object {
+                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontWeight": 500,
+                    "size": "2.26rem",
+                  },
+                  Object {
+                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontWeight": 500,
+                    "size": "1.7rem",
+                  },
+                  Object {
+                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontWeight": 500,
+                    "size": "1.1rem",
+                  },
+                  Object {
+                    "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontWeight": 500,
+                    "size": "0.8rem",
+                  },
+                ],
+                "shapes": Object {
+                  "borderRadiusFull": "50%",
+                  "borderRadiusLarge": "8px",
+                  "borderRadiusMedium": "4px",
+                  "borderRadiusSmall": "2px",
+                  "borderWidthMedium": "2px",
+                  "borderWidthSmall": "1px",
+                },
+                "spacings": Object {
+                  "large1": "80px",
+                  "large2": "96px",
+                  "large3": "128px",
+                  "large4": "200px",
+                  "medium1": "32px",
+                  "medium2": "40px",
+                  "medium3": "48px",
+                  "medium4": "56px",
+                  "medium5": "64px",
+                  "small1": "4px",
+                  "small2": "8px",
+                  "small3": "16px",
+                  "small4": "24px",
+                },
+                "texts": Object {
+                  "p1b": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
+                  "p2": Object {
+                    "color": "#212632",
+                    "fontSize": "12px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
+                  "p2b": Object {
+                    "color": "#212632",
+                    "fontSize": "12px",
+                    "fontWeight": 500,
+                    "lineHeight": "1.5",
+                  },
+                  "p3b": Object {
+                    "color": "#212632",
+                    "fontSize": "10px",
+                    "fontWeight": 700,
+                    "lineHeight": "1.5",
+                  },
+                },
+              }
+            }
+            viewBox="0 0 32 32"
+          >
+            <path
+              clipRule="evenodd"
+              d="M7.273 7.182a1.09 1.09 0 00-1.091 1.09v15.274a1.09 1.09 0 001.09 1.09h17.455a1.091 1.091 0 001.091-1.09v-12a1.091 1.091 0 00-1.09-1.091h-9.819a1.09 1.09 0 01-.908-.486l-1.858-2.787h-4.87zM4.959 5.959A3.273 3.273 0 017.273 5h5.454c.365 0 .706.182.908.486l1.858 2.787h9.234A3.272 3.272 0 0128 11.546v12a3.272 3.272 0 01-3.273 3.272H7.273A3.273 3.273 0 014 23.545V8.274c0-.868.345-1.7.959-2.314z"
+            />
+          </svg>
+        </div>
+        Text
+      </div>
+    </li>
+    <li
+      className="c7"
+      onClick={[Function]}
+      size="medium"
+    >
+      <div
+        className="c2 "
+      >
+        Text
+        <div
+          className="c8"
+        >
+          <svg
+            className="c4"
+            data-name="IconFolder"
+            preserveAspectRatio="xMidYMid meet"
+            size="medium"
+            theme={
+              Object {
+                "animations": Object {
+                  "loader": Keyframes {
+                    "id": "sc-keyframes-ivfYaJ",
+                    "inject": [Function],
+                    "name": "ivfYaJ",
+                    "rules": Array [
+                      "@-webkit-keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                      "@keyframes ivfYaJ{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}50%{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}75%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                    ],
+                    "toString": [Function],
+                  },
+                  "loaderInner": Keyframes {
+                    "id": "sc-keyframes-dkFWMP",
+                    "inject": [Function],
+                    "name": "dkFWMP",
+                    "rules": Array [
+                      "@-webkit-keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
+                      "@keyframes dkFWMP{0%{height:0%;}25%{height:0%;}50%{height:100%;}75%{height:100%;}100%{height:0%;}}",
+                    ],
+                    "toString": [Function],
+                  },
+                  "loading": Keyframes {
+                    "id": "sc-keyframes-kvsyCu",
+                    "inject": [Function],
+                    "name": "kvsyCu",
+                    "rules": Array [
+                      "@-webkit-keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                      "@keyframes kvsyCu{0%{background-color:rgba(220,223,230,1);}50%{background-color:rgba(220,223,230,.5);}100%{background-color:rgba(220,223,230,1);}}",
+                    ],
+                    "toString": [Function],
+                  },
+                  "rotate": Keyframes {
+                    "id": "sc-keyframes-iVXCSc",
+                    "inject": [Function],
+                    "name": "iVXCSc",
+                    "rules": Array [
+                      "@-webkit-keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                      "@keyframes iVXCSc{from{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}",
+                    ],
+                    "toString": [Function],
+                  },
+                },
+                "breakpoints": Array [
+                  "544px",
+                  "768px",
+                  "1012px",
+                  "1280px",
+                ],
+                "color": Object {
+                  "aubergine100": "#F4EFF1",
+                  "aubergine200": "#EFDDE3",
+                  "aubergine300": "#E4C7D0",
+                  "aubergine400": "#C2A4B6",
+                  "aubergine500": "#A888A3",
+                  "aubergine600": "#775175",
+                  "aubergine700": "#512B58",
+                  "aubergine800": "#2C003E",
+                  "aubergine900": "#1D0A25",
+                  "carabinero100": "#F7E2D7",
+                  "carabinero200": "#FFD5C8",
+                  "carabinero300": "#FDC0AC",
+                  "carabinero400": "#EAA798",
+                  "carabinero500": "#E1897F",
+                  "carabinero600": "#CE7070",
+                  "carabinero700": "#B85959",
+                  "carabinero800": "#943939",
+                  "carabinero900": "#732929",
+                  "carrot100": "#FFECDD",
+                  "carrot200": "#F2DBC8",
+                  "carrot300": "#F9CDAD",
+                  "carrot400": "#EDBE96",
+                  "carrot500": "#E7AA71",
+                  "carrot600": "#D99455",
+                  "carrot700": "#CC7D34",
+                  "carrot800": "#B56820",
+                  "carrot900": "#934B09",
+                  "charcoal200": "#F8F8F8",
+                  "charcoal300": "#EFF2F7",
+                  "charcoal400": "#DCDFE6",
+                  "charcoal500": "#B6BBC6",
+                  "charcoal600": "#747D93",
+                  "charcoal700": "#363C4B",
+                  "charcoal800": "#212632",
+                  "emerald100": "#EEF8F6",
+                  "emerald500": "#55BAA9",
+                  "emerald600": "#299B9A",
+                  "forest100": "#D7ECEA",
+                  "forest200": "#BCDBD9",
+                  "forest300": "#9BCFCC",
+                  "forest400": "#6BB0AC",
+                  "forest500": "#24A49B",
+                  "forest600": "#1B817A",
+                  "forest700": "#0E504C",
+                  "forest800": "#09332C",
+                  "forest900": "#021512",
+                  "golden100": "#FEF9E7",
+                  "golden200": "#FDF0C7",
+                  "golden300": "#FAE5A0",
+                  "golden400": "#FFDE72",
+                  "golden500": "#FAD046",
+                  "golden600": "#F2BF12",
+                  "golden700": "#DDAF11",
+                  "golden800": "#CCA009",
+                  "golden900": "#AF8904",
+                  "ocean100": "#E4FAFF",
+                  "ocean200": "#CAF0F8",
+                  "ocean300": "#ADE8F4",
+                  "ocean400": "#90D8EF",
+                  "ocean500": "#48B5E4",
+                  "ocean600": "#008BC7",
+                  "ocean700": "#0077B6",
+                  "ocean800": "#023E8A",
+                  "ocean900": "#03045E",
+                  "primary100": "#EFF7FB",
+                  "primary300": "#48AAF1",
+                  "primary500": "#1778FB",
+                  "primary700": "#0C1B7A",
+                  "redclay100": "#FAEDEC",
+                  "redclay500": "#CD4C41",
+                  "redvelvet": "#B2314A;",
+                  "sangria500": "#B2314A",
+                  "sangria600": "#972139",
+                  "white": "#FFFFFF",
+                },
+                "components": Object {
+                  "accordionBorder": "1px solid #EFF2F7",
+                  "accordionColor": "#747D93",
+                  "accordionHeaderFontSize": "12px",
+                  "accordionHeaderFontWeight": 500,
+                  "accordionMinHeight": "65px",
+                  "accordionPadding": "16px 24px",
+                  "accordionSubHeaderColor": "#DCDFE6",
+                  "accordionSubHeaderFontSize": "10px",
+                  "accordionSubHeaderFontWeight": 700,
+                  "avatarBackgroundColor": "#363C4B",
+                  "avatarBorderRadius": "50%",
+                  "avatarColor": "#FFFFFF",
+                  "avatarFontSizeExtralarge": "16px",
+                  "avatarFontSizeLarge": "12px",
+                  "avatarFontSizeMedium": "12px",
+                  "avatarFontSizeSmall": "12px",
+                  "avatarSizeExtralarge": "64px",
+                  "avatarSizeLarge": "40px",
+                  "avatarSizeMedium": "32px",
+                  "avatarSizeSmall": "24px",
+                  "buttonFontSizeLarge": "14px",
+                  "buttonFontSizeMedium": "12px",
+                  "buttonLinkDisabledColor": "#DCDFE6",
+                  "buttonLinkFontSizeLarge": "14px",
+                  "buttonLinkFontSizeMedium": "14px",
+                  "buttonLinkFontSizeSmall": "12px",
+                  "buttonLinkHoverBackgroundColor": "#EFF2F7",
+                  "buttonLinkPaddingLarge": "6px",
+                  "buttonLinkPaddingMedium": "5px",
+                  "buttonLinkPaddingSmall": "3px 4px",
+                  "buttonLinkPrimaryColor": "#1778FB",
+                  "buttonLinkSecondaryColor": "#747D93",
+                  "buttonMinWidthLarge": "140px",
+                  "buttonMinWidthMedium": "120px",
+                  "buttonPaddingLarge": "19px 32px",
+                  "buttonPaddingMedium": "11px 32px",
+                  "buttonPrimaryBackgroundColor": "#1778FB",
+                  "buttonPrimaryBorderRadius": "4px",
+                  "buttonPrimaryColor": "#FFFFFF",
+                  "buttonPrimaryDisabledBackgroundColor": "#DCDFE6",
+                  "buttonPrimaryHoverBackgroundColor": "#48AAF1",
+                  "buttonPrimaryHoverColor": "#FFFFFF",
+                  "buttonSecondaryBackgroundColor": "#FFFFFF",
+                  "buttonSecondaryBorderColor": "#DCDFE6",
+                  "buttonSecondaryBorderRadius": "4px",
+                  "buttonSecondaryColor": "#212632",
+                  "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
+                  "buttonSecondaryDisabledBorderColor": "#EFF2F7",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
+                  "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
+                  "buttonSecondaryHoverBorderColor": "#DCDFE6",
+                  "buttonSecondaryHoverColor": "#212632",
+                  "checkboxBackground": "#FFFFFF",
+                  "checkboxBackgroundChecked": "#1778FB",
+                  "checkboxBackgroundDisabled": "#DCDFE6",
+                  "checkboxBorderColor": "#DCDFE6",
+                  "checkboxBorderRadius": "2px",
+                  "checkboxBorderWidth": "2px",
+                  "checkboxIconColor": "#FFFFFF",
+                  "checkboxLabelColor": "#212632",
+                  "checkboxLabelDisabled": "#DCDFE6",
+                  "checkboxLabelFontSize": "14px",
+                  "checkboxLabelMargin": "16px",
+                  "checkboxSizeMedium": "24px",
+                  "checkboxSizeSmall": "16px",
+                  "drawerBackgroundColor": "#FFFFFF",
+                  "drawerBorder": "1px solid #EFF2F7",
+                  "drawerCloseButtonBackground": "#FFFFFF",
+                  "drawerCloseButtonBorder": "1px solid #DCDFE6",
+                  "drawerCloseButtonBorderRadius": "4px",
+                  "drawerCloseButtonPadding": "6px",
+                  "drawerHeaderBorder": "1px solid #EFF2F7",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
+                  "drawerMaxWidth": "320px",
+                  "dropdownBackground": "#FFFFFF",
+                  "dropdownBorderColor": "#EFF2F7",
+                  "dropdownBorderRadius": "4px",
+                  "dropdownBoxShadow": "0px 16px 32px rgba(54, 60, 75, 0.1)",
+                  "dropdownPadding": "8px",
+                  "formGroupMarginBottom": "16px",
+                  "iconPrimaryColor": "#1778FB",
+                  "iconSecondaryColor": "#747D93",
+                  "iconSizeLarge": "32px",
+                  "iconSizeMedium": "24px",
+                  "iconSizeSmall": "16px",
+                  "inputFieldBackgroundColor": "#FFFFFF",
+                  "inputFieldBorderColor": "#DCDFE6",
+                  "inputFieldBorderRadius": "4px",
+                  "inputFieldDisabledBackgroundColor": "#F8F8F8",
+                  "inputFieldDisabledBorderColor": "#DCDFE6",
+                  "inputFieldDisabledColor": "#DCDFE6",
+                  "inputFieldDisabledLabelColor": "#DCDFE6",
+                  "inputFieldErrorBackgroundColor": "#FAEDEC",
+                  "inputFieldErrorBorderColor": "#CD4C41",
+                  "inputFieldErrorHelpColor": "#CD4C41",
+                  "inputFieldErrorPlaceholderColor": "#CD4C41",
+                  "inputFieldFocusBackgroundColor": "#EFF7FB",
+                  "inputFieldFocusBorderColor": "#48AAF1",
+                  "inputFieldFocusLabelColor": "#48AAF1",
+                  "inputFieldFontSize": "14px",
+                  "inputFieldHelpColor": "#212632",
+                  "inputFieldHelpFontSize": "12px",
+                  "inputFieldLabelColor": "#363C4B",
+                  "inputFieldLabelFontSize": "12px",
+                  "inputFieldLineHeight": "48px",
+                  "inputFieldPlaceholderColor": "#DCDFE6",
+                  "inputFieldTextIndent": "24px",
+                  "listBackgroundColor": "#FFFFFF",
+                  "listItemBackgroundColorActiveHover": "#EFF7FB",
+                  "listItemBackgroundColorDefaultHover": "#EFF2F7",
+                  "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
+                  "listItemBackgroundColorHoverDisabled": "#F8F8F8",
+                  "listItemBorderRadius": "2px",
+                  "listItemColorActive": "#1778FB",
+                  "listItemColorActiveHover": "#EFF7FB",
+                  "listItemColorDefault": "#212632",
+                  "listItemColorDefaultHover": "#EFF2F7",
+                  "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
+                  "listItemFontSize": "12px",
+                  "listItemFontSizeLarge": "14px",
+                  "listItemFontSizeMedium": "12px",
+                  "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -56364,7 +57307,7 @@ exports[`Storyshots List With Childrens 1`] = `
       </div>
     </li>
     <hr
-      className="c7"
+      className="c9"
     />
     <li
       className="c1"
@@ -56372,7 +57315,7 @@ exports[`Storyshots List With Childrens 1`] = `
       size="medium"
     >
       <a
-        className="c8 c2 "
+        className="c10 c2 "
         disabled={false}
         href="#"
         size="medium"
@@ -56381,7 +57324,7 @@ exports[`Storyshots List With Childrens 1`] = `
           className="c3"
         >
           <svg
-            className="c9"
+            className="c11"
             data-name="IconUser"
             preserveAspectRatio="xMidYMid meet"
             size="small"
@@ -56625,6 +57568,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -56632,10 +57576,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -56833,7 +57779,7 @@ exports[`Storyshots List With Childrens 1`] = `
       size="medium"
     >
       <a
-        className="c8 c2 "
+        className="c10 c2 "
         disabled={false}
         href="#"
         size="medium"
@@ -57097,6 +58043,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -57104,10 +58051,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -57298,7 +58247,7 @@ exports[`Storyshots List With Childrens 1`] = `
         </div>
         Text
         <div
-          className="c10"
+          className="c12"
         >
           <svg
             className="c4"
@@ -57545,6 +58494,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -57552,10 +58502,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -57747,7 +58699,7 @@ exports[`Storyshots List With Childrens 1`] = `
       </div>
     </li>
     <li
-      className="c11"
+      className="c13"
       disabled={true}
       onClick={[Function]}
       size="medium"
@@ -57756,7 +58708,7 @@ exports[`Storyshots List With Childrens 1`] = `
         className="c2 "
       >
         <div
-          className="c12"
+          className="c14"
           disabled={true}
         >
           <svg
@@ -58004,6 +58956,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -58011,10 +58964,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -58205,7 +59160,7 @@ exports[`Storyshots List With Childrens 1`] = `
         </div>
         Text
         <div
-          className="c13"
+          className="c15"
           disabled={true}
         >
           <svg
@@ -58453,6 +59408,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -58460,10 +59416,12 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -59550,6 +60508,7 @@ exports[`Storyshots Modal Normal 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -59557,10 +60516,12 @@ exports[`Storyshots Modal Normal 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -60423,6 +61384,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "listItemBackgroundColorActiveHover": "#EFF7FB",
                       "listItemBackgroundColorDefaultHover": "#EFF2F7",
                       "listItemBackgroundColorDisabled": "#F8F8F8",
+                      "listItemBackgroundColorFocused": "#1778FB",
                       "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                       "listItemBorderRadius": "2px",
                       "listItemColorActive": "#1778FB",
@@ -60430,10 +61392,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "listItemColorDefault": "#212632",
                       "listItemColorDefaultHover": "#EFF2F7",
                       "listItemColorDisabled": "#B6BBC6",
+                      "listItemColorFocused": "#FFFFFF",
                       "listItemFontSize": "12px",
                       "listItemFontSizeLarge": "14px",
                       "listItemFontSizeMedium": "12px",
                       "listItemFontWeight": 400,
+                      "listItemFontWeightFocused": 500,
                       "listItemMargin": "0 0 4px",
                       "listItemPaddingLarge": "8px 16px",
                       "listItemPaddingMedium": "7px 16px",
@@ -60957,6 +61921,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     "listItemBackgroundColorActiveHover": "#EFF7FB",
                     "listItemBackgroundColorDefaultHover": "#EFF2F7",
                     "listItemBackgroundColorDisabled": "#F8F8F8",
+                    "listItemBackgroundColorFocused": "#1778FB",
                     "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                     "listItemBorderRadius": "2px",
                     "listItemColorActive": "#1778FB",
@@ -60964,10 +61929,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     "listItemColorDefault": "#212632",
                     "listItemColorDefaultHover": "#EFF2F7",
                     "listItemColorDisabled": "#B6BBC6",
+                    "listItemColorFocused": "#FFFFFF",
                     "listItemFontSize": "12px",
                     "listItemFontSizeLarge": "14px",
                     "listItemFontSizeMedium": "12px",
                     "listItemFontWeight": 400,
+                    "listItemFontWeightFocused": 500,
                     "listItemMargin": "0 0 4px",
                     "listItemPaddingLarge": "8px 16px",
                     "listItemPaddingMedium": "7px 16px",
@@ -61418,6 +62385,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     "listItemBackgroundColorActiveHover": "#EFF7FB",
                     "listItemBackgroundColorDefaultHover": "#EFF2F7",
                     "listItemBackgroundColorDisabled": "#F8F8F8",
+                    "listItemBackgroundColorFocused": "#1778FB",
                     "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                     "listItemBorderRadius": "2px",
                     "listItemColorActive": "#1778FB",
@@ -61425,10 +62393,12 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     "listItemColorDefault": "#212632",
                     "listItemColorDefaultHover": "#EFF2F7",
                     "listItemColorDisabled": "#B6BBC6",
+                    "listItemColorFocused": "#FFFFFF",
                     "listItemFontSize": "12px",
                     "listItemFontSizeLarge": "14px",
                     "listItemFontSizeMedium": "12px",
                     "listItemFontWeight": 400,
+                    "listItemFontWeightFocused": 500,
                     "listItemMargin": "0 0 4px",
                     "listItemPaddingLarge": "8px 16px",
                     "listItemPaddingMedium": "7px 16px",
@@ -62130,6 +63100,7 @@ exports[`Storyshots Notification Error 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -62137,10 +63108,12 @@ exports[`Storyshots Notification Error 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -62639,6 +63612,7 @@ exports[`Storyshots Notification Normal 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -62646,10 +63620,12 @@ exports[`Storyshots Notification Normal 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -63148,6 +64124,7 @@ exports[`Storyshots Notification Success 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -63155,10 +64132,12 @@ exports[`Storyshots Notification Success 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -63660,6 +64639,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -63667,10 +64647,12 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -64322,6 +65304,7 @@ exports[`Storyshots Pagination Loading 1`] = `
                 "listItemBackgroundColorActiveHover": "#EFF7FB",
                 "listItemBackgroundColorDefaultHover": "#EFF2F7",
                 "listItemBackgroundColorDisabled": "#F8F8F8",
+                "listItemBackgroundColorFocused": "#1778FB",
                 "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                 "listItemBorderRadius": "2px",
                 "listItemColorActive": "#1778FB",
@@ -64329,10 +65312,12 @@ exports[`Storyshots Pagination Loading 1`] = `
                 "listItemColorDefault": "#212632",
                 "listItemColorDefaultHover": "#EFF2F7",
                 "listItemColorDisabled": "#B6BBC6",
+                "listItemColorFocused": "#FFFFFF",
                 "listItemFontSize": "12px",
                 "listItemFontSizeLarge": "14px",
                 "listItemFontSizeMedium": "12px",
                 "listItemFontWeight": 400,
+                "listItemFontWeightFocused": 500,
                 "listItemMargin": "0 0 4px",
                 "listItemPaddingLarge": "8px 16px",
                 "listItemPaddingMedium": "7px 16px",
@@ -64989,6 +65974,7 @@ exports[`Storyshots Pagination Normal 1`] = `
                 "listItemBackgroundColorActiveHover": "#EFF7FB",
                 "listItemBackgroundColorDefaultHover": "#EFF2F7",
                 "listItemBackgroundColorDisabled": "#F8F8F8",
+                "listItemBackgroundColorFocused": "#1778FB",
                 "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                 "listItemBorderRadius": "2px",
                 "listItemColorActive": "#1778FB",
@@ -64996,10 +65982,12 @@ exports[`Storyshots Pagination Normal 1`] = `
                 "listItemColorDefault": "#212632",
                 "listItemColorDefaultHover": "#EFF2F7",
                 "listItemColorDisabled": "#B6BBC6",
+                "listItemColorFocused": "#FFFFFF",
                 "listItemFontSize": "12px",
                 "listItemFontSizeLarge": "14px",
                 "listItemFontSizeMedium": "12px",
                 "listItemFontWeight": 400,
+                "listItemFontWeightFocused": 500,
                 "listItemMargin": "0 0 4px",
                 "listItemPaddingLarge": "8px 16px",
                 "listItemPaddingMedium": "7px 16px",
@@ -65520,6 +66508,7 @@ exports[`Storyshots Search Normal 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -65527,10 +66516,12 @@ exports[`Storyshots Search Normal 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -65976,6 +66967,7 @@ exports[`Storyshots Search Normal 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -65983,10 +66975,12 @@ exports[`Storyshots Search Normal 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -66519,6 +67513,7 @@ exports[`Storyshots SelectField Disabled 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -66526,10 +67521,12 @@ exports[`Storyshots SelectField Disabled 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -67096,6 +68093,7 @@ exports[`Storyshots SelectField Error 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -67103,10 +68101,12 @@ exports[`Storyshots SelectField Error 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -67673,6 +68673,7 @@ exports[`Storyshots SelectField Normal 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -67680,10 +68681,12 @@ exports[`Storyshots SelectField Normal 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -69353,6 +70356,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -69360,10 +70364,12 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -69869,6 +70875,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -69876,10 +70883,12 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -70569,6 +71578,7 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -70576,10 +71586,12 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -71046,6 +72058,7 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -71053,10 +72066,12 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -71523,6 +72538,7 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -71530,10 +72546,12 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -72000,6 +73018,7 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -72007,10 +73026,12 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -72620,6 +73641,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -72627,10 +73649,12 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -73097,6 +74121,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -73104,10 +74129,12 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -73574,6 +74601,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -73581,10 +74609,12 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
@@ -74051,6 +75081,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemBackgroundColorActiveHover": "#EFF7FB",
                   "listItemBackgroundColorDefaultHover": "#EFF2F7",
                   "listItemBackgroundColorDisabled": "#F8F8F8",
+                  "listItemBackgroundColorFocused": "#1778FB",
                   "listItemBackgroundColorHoverDisabled": "#F8F8F8",
                   "listItemBorderRadius": "2px",
                   "listItemColorActive": "#1778FB",
@@ -74058,10 +75089,12 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemColorDefault": "#212632",
                   "listItemColorDefaultHover": "#EFF2F7",
                   "listItemColorDisabled": "#B6BBC6",
+                  "listItemColorFocused": "#FFFFFF",
                   "listItemFontSize": "12px",
                   "listItemFontSizeLarge": "14px",
                   "listItemFontSizeMedium": "12px",
                   "listItemFontWeight": 400,
+                  "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
                   "listItemPaddingMedium": "7px 16px",
