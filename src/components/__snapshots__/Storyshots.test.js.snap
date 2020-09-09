@@ -331,8 +331,9 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -800,8 +801,9 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -1575,8 +1577,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -2030,8 +2033,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -2490,8 +2494,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -2958,8 +2963,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -3423,8 +3429,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "drawerCloseButtonBorderRadius": "4px",
                       "drawerCloseButtonPadding": "6px",
                       "drawerHeaderBorder": "1px solid #EFF2F7",
-                      "drawerHeaderMinHeight": "73px",
-                      "drawerHeaderPadding": "20px 24px",
+                      "drawerHeaderColor": "#363C4B",
+                      "drawerHeaderMinHeight": "56px",
+                      "drawerHeaderPadding": "12px 24px",
                       "drawerMaxWidth": "320px",
                       "dropdownBackground": "#FFFFFF",
                       "dropdownBorderColor": "#EFF2F7",
@@ -3881,8 +3888,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "drawerCloseButtonBorderRadius": "4px",
                       "drawerCloseButtonPadding": "6px",
                       "drawerHeaderBorder": "1px solid #EFF2F7",
-                      "drawerHeaderMinHeight": "73px",
-                      "drawerHeaderPadding": "20px 24px",
+                      "drawerHeaderColor": "#363C4B",
+                      "drawerHeaderMinHeight": "56px",
+                      "drawerHeaderPadding": "12px 24px",
                       "drawerMaxWidth": "320px",
                       "dropdownBackground": "#FFFFFF",
                       "dropdownBorderColor": "#EFF2F7",
@@ -4337,8 +4345,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "drawerCloseButtonBorderRadius": "4px",
                       "drawerCloseButtonPadding": "6px",
                       "drawerHeaderBorder": "1px solid #EFF2F7",
-                      "drawerHeaderMinHeight": "73px",
-                      "drawerHeaderPadding": "20px 24px",
+                      "drawerHeaderColor": "#363C4B",
+                      "drawerHeaderMinHeight": "56px",
+                      "drawerHeaderPadding": "12px 24px",
                       "drawerMaxWidth": "320px",
                       "dropdownBackground": "#FFFFFF",
                       "dropdownBorderColor": "#EFF2F7",
@@ -4784,8 +4793,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "drawerCloseButtonBorderRadius": "4px",
                       "drawerCloseButtonPadding": "6px",
                       "drawerHeaderBorder": "1px solid #EFF2F7",
-                      "drawerHeaderMinHeight": "73px",
-                      "drawerHeaderPadding": "20px 24px",
+                      "drawerHeaderColor": "#363C4B",
+                      "drawerHeaderMinHeight": "56px",
+                      "drawerHeaderPadding": "12px 24px",
                       "drawerMaxWidth": "320px",
                       "dropdownBackground": "#FFFFFF",
                       "dropdownBorderColor": "#EFF2F7",
@@ -5239,8 +5249,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -5694,8 +5705,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -6226,8 +6238,9 @@ Array [
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -6922,8 +6935,9 @@ exports[`Storyshots Button Block 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -7520,8 +7534,9 @@ exports[`Storyshots Button Loading 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -8118,8 +8133,9 @@ exports[`Storyshots Button Normal 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -8735,8 +8751,9 @@ exports[`Storyshots Button With Icon 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -9188,8 +9205,9 @@ exports[`Storyshots Button With Icon 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -9774,8 +9792,9 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -10684,8 +10703,9 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -11282,8 +11302,9 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -11870,8 +11891,9 @@ Array [
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -12119,7 +12141,7 @@ Array [
       Open drawer
     </span>
   </button>,
-  .c12 {
+  .c13 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -12130,7 +12152,7 @@ Array [
   height: 24px;
 }
 
-.c8 {
+.c9 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -12140,7 +12162,7 @@ Array [
   height: 24px;
 }
 
-.c4 {
+.c5 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -12150,7 +12172,7 @@ Array [
   height: 16px;
 }
 
-.c6 {
+.c7 {
   width: 100%;
   cursor: pointer;
   min-height: 65px;
@@ -12169,7 +12191,7 @@ Array [
   align-content: center;
 }
 
-.c14 {
+.c15 {
   -webkit-transition: max-height 0.3s ease-out;
   transition: max-height 0.3s ease-out;
   overflow: hidden;
@@ -12177,28 +12199,28 @@ Array [
   visibility: hidden;
 }
 
-.c15 {
+.c16 {
   padding: 0 25px 25px;
 }
 
-.c9 {
+.c10 {
   color: #747D93;
 }
 
-.c7 {
+.c8 {
   margin-right: 15px;
   color: #747D93;
 }
 
-.c7 > svg {
+.c8 > svg {
   fill: #747D93;
 }
 
-.c11 {
+.c12 {
   margin-left: auto;
 }
 
-.c10 {
+.c11 {
   -webkit-letter-spacing: 0.05em;
   -moz-letter-spacing: 0.05em;
   -ms-letter-spacing: 0.05em;
@@ -12208,7 +12230,7 @@ Array [
   font-weight: 500;
 }
 
-.c13 {
+.c14 {
   margin-left: 10px;
   -webkit-transition: -webkit-transform 300ms ease-in-out;
   -webkit-transition: transform 300ms ease-in-out;
@@ -12218,25 +12240,25 @@ Array [
   transform: rotate(0);
 }
 
-.c19 {
+.c20 {
   margin-right: 19px;
   color: #212632;
 }
 
-.c19 > svg {
+.c20 > svg {
   fill: #212632;
 }
 
-.c21 {
+.c22 {
   margin-left: auto;
   color: #212632;
 }
 
-.c21 > svg {
+.c22 > svg {
   fill: #212632;
 }
 
-.c17 {
+.c18 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -12257,16 +12279,16 @@ Array [
   border-radius: 2px;
 }
 
-.c17:last-child {
+.c18:last-child {
   margin-bottom: 0;
 }
 
-.c17:hover {
+.c18:hover {
   background-color: #EFF2F7;
   color: #EFF2F7;
 }
 
-.c17 > .c18 {
+.c18 > .c19 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -12288,7 +12310,7 @@ Array [
   font-size: 12px;
 }
 
-.c24 > .c18 {
+.c25 > .c19 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -12310,46 +12332,9 @@ Array [
   font-size: 12px;
 }
 
-.c16 {
+.c17 {
   background-color: #FFFFFF;
   box-sizing: border-box;
-}
-
-.c22 {
-  font-family: "Roboto",Arial,sans-serif;
-  font-weight: 500;
-  border-radius: 4px;
-  outline: none;
-  cursor: pointer;
-  margin: 0;
-  white-space: nowrap;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: 'transparent';
-  -webkit-transition: all 120ms ease-in-out;
-  transition: all 120ms ease-in-out;
-  color: #1778FB;
-  padding: 3px 4px;
-  font-size: 12px;
-}
-
-.c22:disabled {
-  cursor: default;
-  color: #DCDFE6;
-}
-
-.c22:hover {
-  background-color: #EFF2F7;
 }
 
 .c23 {
@@ -12375,7 +12360,7 @@ Array [
   background-color: 'transparent';
   -webkit-transition: all 120ms ease-in-out;
   transition: all 120ms ease-in-out;
-  color: #747D93;
+  color: #1778FB;
   padding: 3px 4px;
   font-size: 12px;
 }
@@ -12389,6 +12374,43 @@ Array [
   background-color: #EFF2F7;
 }
 
+.c24 {
+  font-family: "Roboto",Arial,sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: 'transparent';
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
+  color: #747D93;
+  padding: 3px 4px;
+  font-size: 12px;
+}
+
+.c24:disabled {
+  cursor: default;
+  color: #DCDFE6;
+}
+
+.c24:hover {
+  background-color: #EFF2F7;
+}
+
 .c1 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12398,16 +12420,24 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 20px 24px;
+  padding: 12px 24px;
   border-bottom: 1px solid #EFF2F7;
-  min-height: 73px;
+  min-height: 56px;
 }
 
 .c2 {
-  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  color: #212632;
+  line-height: 1.5;
+  color: #363C4B;
 }
 
 .c3 {
+  display: block;
+}
+
+.c4 {
   margin-left: auto;
   padding: 6px;
   background: #FFFFFF;
@@ -12415,7 +12445,7 @@ Array [
   border: 1px solid #DCDFE6;
 }
 
-.c5 {
+.c6 {
   width: 100%;
   position: relative;
   overflow-x: hidden;
@@ -12461,7 +12491,7 @@ Array [
   transform: translateX(100%);
 }
 
-.c20 {
+.c21 {
   display: grid;
   grid-template-columns: 90% 10%;
   grid-gap: 5px;
@@ -12475,14 +12505,16 @@ Array [
     <header
       className="c1"
     >
-      <div
-        className=""
-      >
-        <h4>
-          Title
-        </h4>
+      <div>
         <div
           className="c2"
+        >
+          <h4>
+            Title
+          </h4>
+        </div>
+        <div
+          className="c3"
         >
           <small>
             Subtitle
@@ -12490,11 +12522,11 @@ Array [
         </div>
       </div>
       <button
-        className="c3"
+        className="c4"
         onClick={[Function]}
       >
         <svg
-          className="c4"
+          className="c5"
           data-name="IconClose"
           preserveAspectRatio="xMidYMid meet"
           size="small"
@@ -12697,8 +12729,9 @@ Array [
                 "drawerCloseButtonBorderRadius": "4px",
                 "drawerCloseButtonPadding": "6px",
                 "drawerHeaderBorder": "1px solid #EFF2F7",
-                "drawerHeaderMinHeight": "73px",
-                "drawerHeaderPadding": "20px 24px",
+                "drawerHeaderColor": "#363C4B",
+                "drawerHeaderMinHeight": "56px",
+                "drawerHeaderPadding": "12px 24px",
                 "drawerMaxWidth": "320px",
                 "dropdownBackground": "#FFFFFF",
                 "dropdownBorderColor": "#EFF2F7",
@@ -12937,17 +12970,17 @@ Array [
       </button>
     </header>
     <div
-      className="c5"
+      className="c6"
     >
       <div
-        className="c6"
+        className="c7"
         onClick={[Function]}
       >
         <div
-          className="c7"
+          className="c8"
         >
           <svg
-            className="c8"
+            className="c9"
             data-name="IconNavigation"
             preserveAspectRatio="xMidYMid meet"
             size="medium"
@@ -13150,8 +13183,9 @@ Array [
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -13389,19 +13423,19 @@ Array [
           </svg>
         </div>
         <div
-          className="c9"
+          className="c10"
         >
           <div
-            className="c10"
+            className="c11"
           >
             Accordion title 1
           </div>
         </div>
         <div
-          className="c11"
+          className="c12"
         >
           <svg
-            className="c12 c13"
+            className="c13 c14"
             data-name="IconArrowClose"
             preserveAspectRatio="xMidYMid meet"
             size="medium"
@@ -13604,8 +13638,9 @@ Array [
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -13845,28 +13880,28 @@ Array [
         </div>
       </div>
       <div
-        className="c14"
+        className="c15"
       >
         <div
-          className="c15"
+          className="c16"
         >
           <ul
-            className="c16"
+            className="c17"
             size="medium"
           >
             <li
-              className="c17"
+              className="c18"
               onClick={[Function]}
               size="medium"
             >
               <div
-                className="c18 "
+                className="c19 "
               >
                 <div
-                  className="c19"
+                  className="c20"
                 >
                   <svg
-                    className="c8"
+                    className="c9"
                     data-name="IconUser"
                     preserveAspectRatio="xMidYMid meet"
                     size="medium"
@@ -14069,8 +14104,9 @@ Array [
                           "drawerCloseButtonBorderRadius": "4px",
                           "drawerCloseButtonPadding": "6px",
                           "drawerHeaderBorder": "1px solid #EFF2F7",
-                          "drawerHeaderMinHeight": "73px",
-                          "drawerHeaderPadding": "20px 24px",
+                          "drawerHeaderColor": "#363C4B",
+                          "drawerHeaderMinHeight": "56px",
+                          "drawerHeaderPadding": "12px 24px",
                           "drawerMaxWidth": "320px",
                           "dropdownBackground": "#FFFFFF",
                           "dropdownBorderColor": "#EFF2F7",
@@ -14312,18 +14348,18 @@ Array [
               </div>
             </li>
             <li
-              className="c17"
+              className="c18"
               onClick={[Function]}
               size="medium"
             >
               <div
-                className="c18 "
+                className="c19 "
               >
                 <div
-                  className="c19"
+                  className="c20"
                 >
                   <svg
-                    className="c8"
+                    className="c9"
                     data-name="IconAsset"
                     preserveAspectRatio="xMidYMid meet"
                     size="medium"
@@ -14526,8 +14562,9 @@ Array [
                           "drawerCloseButtonBorderRadius": "4px",
                           "drawerCloseButtonPadding": "6px",
                           "drawerHeaderBorder": "1px solid #EFF2F7",
-                          "drawerHeaderMinHeight": "73px",
-                          "drawerHeaderPadding": "20px 24px",
+                          "drawerHeaderColor": "#363C4B",
+                          "drawerHeaderMinHeight": "56px",
+                          "drawerHeaderPadding": "12px 24px",
                           "drawerMaxWidth": "320px",
                           "dropdownBackground": "#FFFFFF",
                           "dropdownBorderColor": "#EFF2F7",
@@ -14769,18 +14806,18 @@ Array [
               </div>
             </li>
             <li
-              className="c17"
+              className="c18"
               onClick={[Function]}
               size="medium"
             >
               <div
-                className="c18 "
+                className="c19 "
               >
                 <div
-                  className="c19"
+                  className="c20"
                 >
                   <svg
-                    className="c8"
+                    className="c9"
                     data-name="IconFolder"
                     preserveAspectRatio="xMidYMid meet"
                     size="medium"
@@ -14983,8 +15020,9 @@ Array [
                           "drawerCloseButtonBorderRadius": "4px",
                           "drawerCloseButtonPadding": "6px",
                           "drawerHeaderBorder": "1px solid #EFF2F7",
-                          "drawerHeaderMinHeight": "73px",
-                          "drawerHeaderPadding": "20px 24px",
+                          "drawerHeaderColor": "#363C4B",
+                          "drawerHeaderMinHeight": "56px",
+                          "drawerHeaderPadding": "12px 24px",
                           "drawerMaxWidth": "320px",
                           "dropdownBackground": "#FFFFFF",
                           "dropdownBorderColor": "#EFF2F7",
@@ -15229,14 +15267,14 @@ Array [
         </div>
       </div>
       <div
-        className="c6"
+        className="c7"
         onClick={[Function]}
       >
         <div
-          className="c7"
+          className="c8"
         >
           <svg
-            className="c8"
+            className="c9"
             data-name="IconUser"
             preserveAspectRatio="xMidYMid meet"
             size="medium"
@@ -15439,8 +15477,9 @@ Array [
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -15679,19 +15718,19 @@ Array [
           </svg>
         </div>
         <div
-          className="c9"
+          className="c10"
         >
           <div
-            className="c10"
+            className="c11"
           >
             Accordion title 2
           </div>
         </div>
         <div
-          className="c11"
+          className="c12"
         >
           <svg
-            className="c12 c13"
+            className="c13 c14"
             data-name="IconArrowClose"
             preserveAspectRatio="xMidYMid meet"
             size="medium"
@@ -15894,8 +15933,9 @@ Array [
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -16135,32 +16175,32 @@ Array [
         </div>
       </div>
       <div
-        className="c14"
+        className="c15"
       >
         <div
-          className="c15"
+          className="c16"
         >
           <div
-            className="c20"
+            className="c21"
           >
             <ul
-              className="c16"
+              className="c17"
               size="medium"
             >
               <li
-                className="c17"
+                className="c18"
                 onClick={[Function]}
                 size="medium"
               >
                 <div
-                  className="c18 "
+                  className="c19 "
                 >
                   Text 1
                   <div
-                    className="c21"
+                    className="c22"
                   >
                     <svg
-                      className="c4"
+                      className="c5"
                       data-name="IconFilter"
                       preserveAspectRatio="xMidYMid meet"
                       size="small"
@@ -16363,8 +16403,9 @@ Array [
                             "drawerCloseButtonBorderRadius": "4px",
                             "drawerCloseButtonPadding": "6px",
                             "drawerHeaderBorder": "1px solid #EFF2F7",
-                            "drawerHeaderMinHeight": "73px",
-                            "drawerHeaderPadding": "20px 24px",
+                            "drawerHeaderColor": "#363C4B",
+                            "drawerHeaderMinHeight": "56px",
+                            "drawerHeaderPadding": "12px 24px",
                             "drawerMaxWidth": "320px",
                             "dropdownBackground": "#FFFFFF",
                             "dropdownBorderColor": "#EFF2F7",
@@ -16605,19 +16646,19 @@ Array [
                 </div>
               </li>
               <li
-                className="c17"
+                className="c18"
                 onClick={[Function]}
                 size="medium"
               >
                 <div
-                  className="c18 "
+                  className="c19 "
                 >
                   Text 2
                   <div
-                    className="c21"
+                    className="c22"
                   >
                     <svg
-                      className="c4"
+                      className="c5"
                       data-name="IconFilter"
                       preserveAspectRatio="xMidYMid meet"
                       size="small"
@@ -16820,8 +16861,9 @@ Array [
                             "drawerCloseButtonBorderRadius": "4px",
                             "drawerCloseButtonPadding": "6px",
                             "drawerHeaderBorder": "1px solid #EFF2F7",
-                            "drawerHeaderMinHeight": "73px",
-                            "drawerHeaderPadding": "20px 24px",
+                            "drawerHeaderColor": "#363C4B",
+                            "drawerHeaderMinHeight": "56px",
+                            "drawerHeaderPadding": "12px 24px",
                             "drawerMaxWidth": "320px",
                             "dropdownBackground": "#FFFFFF",
                             "dropdownBorderColor": "#EFF2F7",
@@ -17062,19 +17104,19 @@ Array [
                 </div>
               </li>
               <li
-                className="c17"
+                className="c18"
                 onClick={[Function]}
                 size="medium"
               >
                 <div
-                  className="c18 "
+                  className="c19 "
                 >
                   Text 3
                   <div
-                    className="c21"
+                    className="c22"
                   >
                     <svg
-                      className="c4"
+                      className="c5"
                       data-name="IconFilter"
                       preserveAspectRatio="xMidYMid meet"
                       size="small"
@@ -17277,8 +17319,9 @@ Array [
                             "drawerCloseButtonBorderRadius": "4px",
                             "drawerCloseButtonPadding": "6px",
                             "drawerHeaderBorder": "1px solid #EFF2F7",
-                            "drawerHeaderMinHeight": "73px",
-                            "drawerHeaderPadding": "20px 24px",
+                            "drawerHeaderColor": "#363C4B",
+                            "drawerHeaderMinHeight": "56px",
+                            "drawerHeaderPadding": "12px 24px",
                             "drawerMaxWidth": "320px",
                             "dropdownBackground": "#FFFFFF",
                             "dropdownBorderColor": "#EFF2F7",
@@ -17532,7 +17575,7 @@ Array [
                 }
               >
                 <button
-                  className="c22"
+                  className="c23"
                   disabled={false}
                   size="small"
                   style={
@@ -17542,7 +17585,7 @@ Array [
                   }
                 >
                   <svg
-                    className="c8"
+                    className="c9"
                     data-name="IconEye"
                     preserveAspectRatio="xMidYMid meet"
                     size="medium"
@@ -17745,8 +17788,9 @@ Array [
                           "drawerCloseButtonBorderRadius": "4px",
                           "drawerCloseButtonPadding": "6px",
                           "drawerHeaderBorder": "1px solid #EFF2F7",
-                          "drawerHeaderMinHeight": "73px",
-                          "drawerHeaderPadding": "20px 24px",
+                          "drawerHeaderColor": "#363C4B",
+                          "drawerHeaderMinHeight": "56px",
+                          "drawerHeaderPadding": "12px 24px",
                           "drawerMaxWidth": "320px",
                           "dropdownBackground": "#FFFFFF",
                           "dropdownBorderColor": "#EFF2F7",
@@ -17997,7 +18041,7 @@ Array [
                 }
               >
                 <button
-                  className="c23"
+                  className="c24"
                   disabled={false}
                   size="small"
                   style={
@@ -18007,7 +18051,7 @@ Array [
                   }
                 >
                   <svg
-                    className="c8"
+                    className="c9"
                     data-name="IconEye"
                     preserveAspectRatio="xMidYMid meet"
                     size="medium"
@@ -18210,8 +18254,9 @@ Array [
                           "drawerCloseButtonBorderRadius": "4px",
                           "drawerCloseButtonPadding": "6px",
                           "drawerHeaderBorder": "1px solid #EFF2F7",
-                          "drawerHeaderMinHeight": "73px",
-                          "drawerHeaderPadding": "20px 24px",
+                          "drawerHeaderColor": "#363C4B",
+                          "drawerHeaderMinHeight": "56px",
+                          "drawerHeaderPadding": "12px 24px",
                           "drawerMaxWidth": "320px",
                           "dropdownBackground": "#FFFFFF",
                           "dropdownBorderColor": "#EFF2F7",
@@ -18462,7 +18507,7 @@ Array [
                 }
               >
                 <button
-                  className="c23"
+                  className="c24"
                   disabled={false}
                   size="small"
                   style={
@@ -18472,7 +18517,7 @@ Array [
                   }
                 >
                   <svg
-                    className="c8"
+                    className="c9"
                     data-name="IconEye"
                     preserveAspectRatio="xMidYMid meet"
                     size="medium"
@@ -18675,8 +18720,9 @@ Array [
                           "drawerCloseButtonBorderRadius": "4px",
                           "drawerCloseButtonPadding": "6px",
                           "drawerHeaderBorder": "1px solid #EFF2F7",
-                          "drawerHeaderMinHeight": "73px",
-                          "drawerHeaderPadding": "20px 24px",
+                          "drawerHeaderColor": "#363C4B",
+                          "drawerHeaderMinHeight": "56px",
+                          "drawerHeaderPadding": "12px 24px",
                           "drawerMaxWidth": "320px",
                           "dropdownBackground": "#FFFFFF",
                           "dropdownBorderColor": "#EFF2F7",
@@ -19287,8 +19333,9 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -19904,8 +19951,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -20689,8 +20737,9 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "drawerCloseButtonBorderRadius": "4px",
                 "drawerCloseButtonPadding": "6px",
                 "drawerHeaderBorder": "1px solid #EFF2F7",
-                "drawerHeaderMinHeight": "73px",
-                "drawerHeaderPadding": "20px 24px",
+                "drawerHeaderColor": "#363C4B",
+                "drawerHeaderMinHeight": "56px",
+                "drawerHeaderPadding": "12px 24px",
                 "drawerMaxWidth": "320px",
                 "dropdownBackground": "#FFFFFF",
                 "dropdownBorderColor": "#EFF2F7",
@@ -21267,8 +21316,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -21737,8 +21787,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -22207,8 +22258,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -22677,8 +22729,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -23147,8 +23200,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -23616,8 +23670,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -24086,8 +24141,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -24556,8 +24612,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -25027,8 +25084,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -25497,8 +25555,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -25967,8 +26026,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -26436,8 +26496,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -26906,8 +26967,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -27376,8 +27438,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -27846,8 +27909,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -28316,8 +28380,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -28785,8 +28850,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -29254,8 +29320,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -29723,8 +29790,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -30193,8 +30261,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -30664,8 +30733,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -31133,8 +31203,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -31602,8 +31673,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -32080,8 +32152,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -32560,8 +32633,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -33037,8 +33111,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -33511,8 +33586,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -33982,8 +34058,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -34451,8 +34528,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -34922,8 +35000,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -35392,8 +35471,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -35869,8 +35949,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -36339,8 +36420,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -36809,8 +36891,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -37280,8 +37363,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -37750,8 +37834,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -38220,8 +38305,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -38690,8 +38776,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -39161,8 +39248,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -39630,8 +39718,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -40104,8 +40193,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -40574,8 +40664,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -41045,8 +41136,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -41514,8 +41606,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -41984,8 +42077,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -42454,8 +42548,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -42923,8 +43018,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -43393,8 +43489,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -43863,8 +43960,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -44332,8 +44430,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -44806,8 +44905,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -45276,8 +45376,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -45746,8 +45847,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -46216,8 +46318,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -46685,8 +46788,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -47156,8 +47260,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -47626,8 +47731,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -48097,8 +48203,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -48570,8 +48677,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -49043,8 +49151,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -49513,8 +49622,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -49983,8 +50093,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -50462,8 +50573,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -50932,8 +51044,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -51412,8 +51525,9 @@ exports[`Storyshots Icon Normal 1`] = `
           "drawerCloseButtonBorderRadius": "4px",
           "drawerCloseButtonPadding": "6px",
           "drawerHeaderBorder": "1px solid #EFF2F7",
-          "drawerHeaderMinHeight": "73px",
-          "drawerHeaderPadding": "20px 24px",
+          "drawerHeaderColor": "#363C4B",
+          "drawerHeaderMinHeight": "56px",
+          "drawerHeaderPadding": "12px 24px",
           "drawerMaxWidth": "320px",
           "dropdownBackground": "#FFFFFF",
           "dropdownBorderColor": "#EFF2F7",
@@ -53252,8 +53366,9 @@ exports[`Storyshots List Navbar List 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -53709,8 +53824,9 @@ exports[`Storyshots List Navbar List 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -54168,8 +54284,9 @@ exports[`Storyshots List Navbar List 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -54628,8 +54745,9 @@ exports[`Storyshots List Navbar List 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -55533,8 +55651,9 @@ exports[`Storyshots List With Childrens 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -55991,8 +56110,9 @@ exports[`Storyshots List With Childrens 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -56464,8 +56584,9 @@ exports[`Storyshots List With Childrens 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -56935,8 +57056,9 @@ exports[`Storyshots List With Childrens 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -57382,8 +57504,9 @@ exports[`Storyshots List With Childrens 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -57840,8 +57963,9 @@ exports[`Storyshots List With Childrens 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -58288,8 +58412,9 @@ exports[`Storyshots List With Childrens 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -59384,8 +59509,9 @@ exports[`Storyshots Modal Normal 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -60256,8 +60382,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "drawerCloseButtonBorderRadius": "4px",
                       "drawerCloseButtonPadding": "6px",
                       "drawerHeaderBorder": "1px solid #EFF2F7",
-                      "drawerHeaderMinHeight": "73px",
-                      "drawerHeaderPadding": "20px 24px",
+                      "drawerHeaderColor": "#363C4B",
+                      "drawerHeaderMinHeight": "56px",
+                      "drawerHeaderPadding": "12px 24px",
                       "drawerMaxWidth": "320px",
                       "dropdownBackground": "#FFFFFF",
                       "dropdownBorderColor": "#EFF2F7",
@@ -60789,8 +60916,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     "drawerCloseButtonBorderRadius": "4px",
                     "drawerCloseButtonPadding": "6px",
                     "drawerHeaderBorder": "1px solid #EFF2F7",
-                    "drawerHeaderMinHeight": "73px",
-                    "drawerHeaderPadding": "20px 24px",
+                    "drawerHeaderColor": "#363C4B",
+                    "drawerHeaderMinHeight": "56px",
+                    "drawerHeaderPadding": "12px 24px",
                     "drawerMaxWidth": "320px",
                     "dropdownBackground": "#FFFFFF",
                     "dropdownBorderColor": "#EFF2F7",
@@ -61249,8 +61377,9 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     "drawerCloseButtonBorderRadius": "4px",
                     "drawerCloseButtonPadding": "6px",
                     "drawerHeaderBorder": "1px solid #EFF2F7",
-                    "drawerHeaderMinHeight": "73px",
-                    "drawerHeaderPadding": "20px 24px",
+                    "drawerHeaderColor": "#363C4B",
+                    "drawerHeaderMinHeight": "56px",
+                    "drawerHeaderPadding": "12px 24px",
                     "drawerMaxWidth": "320px",
                     "dropdownBackground": "#FFFFFF",
                     "dropdownBorderColor": "#EFF2F7",
@@ -61960,8 +62089,9 @@ exports[`Storyshots Notification Error 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -62468,8 +62598,9 @@ exports[`Storyshots Notification Normal 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -62976,8 +63107,9 @@ exports[`Storyshots Notification Success 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -63487,8 +63619,9 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -64148,8 +64281,9 @@ exports[`Storyshots Pagination Loading 1`] = `
                 "drawerCloseButtonBorderRadius": "4px",
                 "drawerCloseButtonPadding": "6px",
                 "drawerHeaderBorder": "1px solid #EFF2F7",
-                "drawerHeaderMinHeight": "73px",
-                "drawerHeaderPadding": "20px 24px",
+                "drawerHeaderColor": "#363C4B",
+                "drawerHeaderMinHeight": "56px",
+                "drawerHeaderPadding": "12px 24px",
                 "drawerMaxWidth": "320px",
                 "dropdownBackground": "#FFFFFF",
                 "dropdownBorderColor": "#EFF2F7",
@@ -64814,8 +64948,9 @@ exports[`Storyshots Pagination Normal 1`] = `
                 "drawerCloseButtonBorderRadius": "4px",
                 "drawerCloseButtonPadding": "6px",
                 "drawerHeaderBorder": "1px solid #EFF2F7",
-                "drawerHeaderMinHeight": "73px",
-                "drawerHeaderPadding": "20px 24px",
+                "drawerHeaderColor": "#363C4B",
+                "drawerHeaderMinHeight": "56px",
+                "drawerHeaderPadding": "12px 24px",
                 "drawerMaxWidth": "320px",
                 "dropdownBackground": "#FFFFFF",
                 "dropdownBorderColor": "#EFF2F7",
@@ -65344,8 +65479,9 @@ exports[`Storyshots Search Normal 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -65799,8 +65935,9 @@ exports[`Storyshots Search Normal 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -66341,8 +66478,9 @@ exports[`Storyshots SelectField Disabled 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -66917,8 +67055,9 @@ exports[`Storyshots SelectField Error 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -67493,8 +67632,9 @@ exports[`Storyshots SelectField Normal 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -69172,8 +69312,9 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -69687,8 +69828,9 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -70386,8 +70528,9 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -70862,8 +71005,9 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -71338,8 +71482,9 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -71814,8 +71959,9 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -72433,8 +72579,9 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -72909,8 +73056,9 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -73385,8 +73533,9 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
@@ -73861,8 +74010,9 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "drawerCloseButtonBorderRadius": "4px",
                   "drawerCloseButtonPadding": "6px",
                   "drawerHeaderBorder": "1px solid #EFF2F7",
-                  "drawerHeaderMinHeight": "73px",
-                  "drawerHeaderPadding": "20px 24px",
+                  "drawerHeaderColor": "#363C4B",
+                  "drawerHeaderMinHeight": "56px",
+                  "drawerHeaderPadding": "12px 24px",
                   "drawerMaxWidth": "320px",
                   "dropdownBackground": "#FFFFFF",
                   "dropdownBorderColor": "#EFF2F7",
