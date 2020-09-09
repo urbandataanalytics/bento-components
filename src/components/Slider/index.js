@@ -17,7 +17,7 @@ const InputContainer = styled.label`
   display: flex;
 `;
 
-const PrefixSufix = styled.span`
+const PrefixSuffix = styled.span`
   ${({ theme }) => theme.texts.p2b};
   background-color: transparent;
   border-bottom: 1px solid ${({ theme }) => theme.color.charcoal400};
@@ -77,7 +77,7 @@ const Slider = React.forwardRef((props, ref) => {
     onChange,
     prefix,
     step,
-    sufix,
+    suffix,
     value,
     variant,
     ...other
@@ -174,8 +174,8 @@ const Slider = React.forwardRef((props, ref) => {
                 value={Number(values[0])}
                 valueLength={getValueLength(values[0])}
               />
-              {prefix && <PrefixSufix className="prefix">{prefix}</PrefixSufix>}
-              {sufix && <PrefixSufix>{sufix}</PrefixSufix>}
+              {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
+              {suffix && <PrefixSuffix>{suffix}</PrefixSuffix>}
             </InputContainer>
             <InputContainer>
               <MinMaxInput
@@ -185,8 +185,8 @@ const Slider = React.forwardRef((props, ref) => {
                 value={Number(values[1])}
                 valueLength={getValueLength(values[1])}
               />
-              {prefix && <PrefixSufix className="prefix">{prefix}</PrefixSufix>}
-              {sufix && <PrefixSufix>{sufix}</PrefixSufix>}
+              {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
+              {suffix && <PrefixSuffix>{suffix}</PrefixSuffix>}
             </InputContainer>
           </MinMaxContainer>
         </>
@@ -204,7 +204,7 @@ Slider.propTypes = {
   onChange: PropTypes.func.isRequired,
   prefix: PropTypes.string,
   step: PropTypes.number.isRequired,
-  sufix: PropTypes.string,
+  suffix: PropTypes.string,
   value: PropTypes.oneOfType([PropTypes.array, PropTypes.number]).isRequired,
   variant: PropTypes.oneOf(['slider', 'range']).isRequired
 };

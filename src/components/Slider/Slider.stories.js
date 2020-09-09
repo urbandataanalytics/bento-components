@@ -1,5 +1,5 @@
 import React from 'react';
-import { text, select, number, array, boolean } from '@storybook/addon-knobs';
+import { boolean, number, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import Slider from './index';
 
@@ -8,21 +8,12 @@ export default {
   component: Slider
 };
 
-const getVariant = () => {
+const getCommonProps = () => {
   return {
-    variant: select('Variant', ['slider', 'range'], 'slider')
-  };
-};
-
-const getCommonProps = variant => {
-  return {
-    value: variant === 'range' ? array('Value', [50, 200]) : number('Value', 50),
     onChange: action('onChange'),
     min: number('Min', 0),
-    max: number('Max', 5000),
+    max: number('Max', 500),
     step: number('Step', 1),
-    sufix: variant === 'range' && text('Sufix', '€/m2'),
-    prefix: variant === 'range' && text('Prefix', ''),
     disabled: boolean('Disabled', false),
     isLoading: boolean('Loading', false)
   };
@@ -35,7 +26,21 @@ const decoratorStyles = {
 export const Normal = () => {
   return (
     <div style={decoratorStyles}>
-      <Slider {...getVariant()} {...getCommonProps(getVariant().variant)} />
+      <Slider variant={'slider'} value={50} {...getCommonProps()} />
+    </div>
+  );
+};
+
+export const Multiple = () => {
+  return (
+    <div style={decoratorStyles}>
+      <Slider
+        variant={'range'}
+        value={[50, 200]}
+        suffix={text('Sufix', '€/m2')}
+        prefix={text('Prefix', '')}
+        {...getCommonProps()}
+      />
     </div>
   );
 };
