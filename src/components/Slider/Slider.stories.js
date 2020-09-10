@@ -8,7 +8,7 @@ export default {
   component: Slider
 };
 
-const getCommonProps = () => {
+const getCommonProps = variant => {
   return {
     onChange: action('onChange'),
     min: number('Min', 0),
