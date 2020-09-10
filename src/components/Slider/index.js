@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import RcSlider from 'rc-slider';
 import { Range } from 'rc-slider';
-
+import SliderSkeleton from './SliderSkeleton';
 import defaultTheme from '../../themes/defaultTheme';
 
 import 'rc-slider/assets/index.css';
@@ -143,7 +143,9 @@ const Slider = React.forwardRef((props, ref) => {
 
   return (
     <StyledContent {...other}>
-      {variant === 'slider' ? (
+      {isLoading ? (
+        <SliderSkeleton variant={variant} />
+      ) : variant === 'slider' ? (
         <RcSlider
           disabled={disabled}
           max={max}

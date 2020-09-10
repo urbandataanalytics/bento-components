@@ -21,8 +21,8 @@ const getCommonProps = variant => {
     min: number('Min', 0),
     max: number('Max', 5000),
     step: number('Step', 1),
-    sufix: variant === 'range' && text('Sufix', '€/m2'),
-    prefix: variant === 'range' && text('Prefix', ''),
+    sufix: variant === 'range' ? text('Sufix', '€/m2') : '',
+    prefix: variant === 'range' ? text('Prefix', '') : '',
     disabled: boolean('Disabled', false),
     isLoading: boolean('Loading', false)
   };
