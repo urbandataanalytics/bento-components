@@ -96,7 +96,12 @@ const Slider = React.forwardRef((props, ref) => {
   const getValueLength = value => value.toString().length;
 
   useEffect(() => {
-    // setValues(value);
+    setValues(value);
+    if (value && Array.isArray(value)) {
+      const [minValue, maxValue] = value;
+      setInputValue('min', Number(minValue));
+      setInputValue('max', Number(maxValue));
+    }
   }, [value]);
 
   const handleSliderChange = value => {
@@ -139,10 +144,10 @@ const Slider = React.forwardRef((props, ref) => {
   };
 
   const setInputValue = (type, value) => {
-    if (type === 'min') {
+    if (type === 'min' && inputMin && inputMin.current) {
       inputMin.current.value = Number(value);
     }
-    if (type === 'max') {
+    if (type === 'max' && inputMax && inputMax.current) {
       inputMax.current.value = Number(value);
     }
   };

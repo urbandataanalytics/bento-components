@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { boolean, number, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import Slider from './index';
+import Button from '../Button';
 
 export default {
   title: 'Slider',
@@ -34,11 +35,23 @@ export const Normal = () => {
 };
 
 export const Multiple = () => {
+  const [values, setValues] = useState([50, 200]);
+
+  const resetSlider = () => {
+    setValues([50, 200]);
+  };
+
   return (
     <div style={decoratorStyles}>
+      <div>
+        <Button size="medium" onClick={resetSlider}>
+          Reset
+        </Button>
+      </div>
+      <br />
       <Slider
         variant={'range'}
-        value={[50, 200]}
+        value={values}
         suffix={text('Sufix', '€/m2')}
         prefix={text('Prefix', '')}
         {...getCommonProps()}
