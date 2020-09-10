@@ -70077,6 +70077,11 @@ exports[`Storyshots Slider Multiple 1`] = `
   background-color: #EFF7FB;
 }
 
+.c0 .rc-slider {
+  width: calc(100% - 5px);
+  margin: 0 auto;
+}
+
 .c0 .rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging,
 .c0 .rc-slider-handle:active {
   box-shadow: unset !important;
@@ -70194,10 +70199,12 @@ exports[`Storyshots Slider Multiple 1`] = `
       >
         <input
           className="c3"
+          defaultValue={50}
           name="min"
-          onChange={[Function]}
+          onBlur={[Function]}
+          onKeyDown={[Function]}
+          pattern="d+(.d*)?"
           type="text"
-          value={50}
         />
         
         <span
@@ -70211,10 +70218,12 @@ exports[`Storyshots Slider Multiple 1`] = `
       >
         <input
           className="c5"
+          defaultValue={200}
           name="max"
-          onChange={[Function]}
+          onBlur={[Function]}
+          onKeyDown={[Function]}
+          pattern="d+(.d*)?"
           type="text"
-          value={200}
         />
         
         <span
@@ -70229,6 +70238,11 @@ exports[`Storyshots Slider Multiple 1`] = `
 `;
 
 exports[`Storyshots Slider Normal 1`] = `
+.c0 .rc-slider {
+  width: calc(100% - 5px);
+  margin: 0 auto;
+}
+
 .c0 .rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging,
 .c0 .rc-slider-handle:active {
   box-shadow: unset !important;

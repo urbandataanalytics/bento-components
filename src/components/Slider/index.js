@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import RcSlider from 'rc-slider';
@@ -52,6 +52,11 @@ const MinMaxInput = styled.input`
 `;
 
 const StyledContent = styled.div`
+  .rc-slider {
+    width: calc(100% - 5px);
+    margin: 0 auto;
+  }
+
   .rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging,
   .rc-slider-handle:active {
     box-shadow: unset !important;
@@ -67,6 +72,8 @@ const StyledContent = styled.div`
   }
 `;
 
+const REGEX_PATTERN_NUMBER = 'd+(.d*)?';
+
 const Slider = React.forwardRef((props, ref) => {
   const {
     disabled,
@@ -74,7 +81,7 @@ const Slider = React.forwardRef((props, ref) => {
     max,
     min,
     name,
-    onChange,
+    onChange = () => {},
     prefix,
     step,
     suffix,
@@ -83,19 +90,36 @@ const Slider = React.forwardRef((props, ref) => {
     ...other
   } = props;
   const [values, setValues] = useState(value);
+  const inputMin = useRef(null);
+  const inputMax = useRef(null);
 
   const getValueLength = value => value.toString().length;
 
   useEffect(() => {
-    setValues(value);
+    // setValues(value);
   }, [value]);
 
   const handleSliderChange = value => {
+    const [minValue, maxValue] = value;
+
+    setInputValue('min', Number(minValue));
+    setInputValue('max', Number(maxValue));
+
     setValues(value);
     onChange(value);
   };
 
-  const onValuesChange = event => {
+  const handleKeyDown = event => {
+    if (event.keyCode === 13) {
+      handleValueChange(event);
+    }
+  };
+
+  const handleBlur = event => {
+    handleValueChange(event);
+  };
+
+  const handleValueChange = event => {
     const type = event.target.name;
     let value = Number(event.target.value);
     let current = [...values];
@@ -103,13 +127,24 @@ const Slider = React.forwardRef((props, ref) => {
     if (type === 'min') {
       value = value <= current[1] && value >= min ? value : current[1];
       current[0] = value;
+      setInputValue(type, current[0]);
     } else {
       value = value >= current[0] && value <= max ? value : current[0];
-      current[1] = value;
+      current[1] = value > max ? max : value;
+      setInputValue(type, current[1]);
     }
 
     setValues(current);
     onChange(current);
+  };
+
+  const setInputValue = (type, value) => {
+    if (type === 'min') {
+      inputMin.current.value = Number(value);
+    }
+    if (type === 'max') {
+      inputMax.current.value = Number(value);
+    }
   };
 
   const propStyles = {
@@ -167,24 +202,32 @@ const Slider = React.forwardRef((props, ref) => {
             value={values}
             {...propStyles}
           />
+
           <MinMaxContainer>
             <InputContainer>
               <MinMaxInput
+                ref={inputMin}
                 name="min"
-                onChange={onValuesChange}
+                onBlur={handleBlur}
+                onKeyDown={handleKeyDown}
+                pattern={REGEX_PATTERN_NUMBER}
                 type="text"
-                value={Number(values[0])}
+                defaultValue={Number(values[0])}
                 valueLength={getValueLength(values[0])}
               />
               {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
               {suffix && <PrefixSuffix>{suffix}</PrefixSuffix>}
             </InputContainer>
+
             <InputContainer>
               <MinMaxInput
+                ref={inputMax}
                 name="max"
-                onChange={onValuesChange}
+                pattern={REGEX_PATTERN_NUMBER}
+                onBlur={handleBlur}
+                onKeyDown={handleKeyDown}
                 type="text"
-                value={Number(values[1])}
+                defaultValue={Number(values[1])}
                 valueLength={getValueLength(values[1])}
               />
               {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
