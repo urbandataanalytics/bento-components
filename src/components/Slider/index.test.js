@@ -19,7 +19,7 @@ describe(`Slider`, () => {
     const wrapper = shallow(
       <Slider prefix="prefix" value={[10, 90]} variant="range" {...commonProps} />
     );
-    const prefix = wrapper.find('Slider__PrefixSufix').first();
+    const prefix = wrapper.find('Slider__PrefixSuffix').first();
     expect(prefix.hasClass('prefix')).toBe(true);
   });
 });
