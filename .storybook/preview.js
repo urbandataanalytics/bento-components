@@ -1,10 +1,10 @@
 import React from 'react';
 import { addDecorator } from '@storybook/react';
 import themeDecorator from './themeDecorator';
-import { addParameters } from '@storybook/react';
 import bentoTheme from './bentoTheme';
+import addons from '@storybook/addons';
 
-addParameters({
+addons.setConfig({
   options: {
     theme: bentoTheme
   }
