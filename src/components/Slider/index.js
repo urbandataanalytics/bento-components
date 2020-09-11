@@ -11,6 +11,7 @@ import 'rc-slider/assets/index.css';
 const MinMaxContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 `;
 
 const InputContainer = styled.label`
@@ -131,7 +132,7 @@ const Slider = React.forwardRef((props, ref) => {
 
     if (type === 'min') {
       value = value <= current[1] && value >= min ? value : current[1];
-      current[0] = value;
+      current[0] = value < min ? min : value;
       setInputValue(type, current[0]);
     } else {
       value = value >= current[0] && value <= max ? value : current[0];
