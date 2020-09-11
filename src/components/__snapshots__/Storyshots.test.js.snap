@@ -70119,6 +70119,7 @@ exports[`Storyshots Slider Multiple 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .c6 {
