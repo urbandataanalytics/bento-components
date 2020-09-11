@@ -2,6 +2,7 @@ import React from 'react';
 import { number, select } from '@storybook/addon-knobs';
 import List from './index';
 import ListItem from './ListItem/';
+import CheckListItem from './CheckListItem/';
 import IconFolder from '../../icons/Folder/index';
 import TextLink from '../TextLink';
 import { IconUser } from '../../icons';
@@ -67,6 +68,25 @@ export const WithChildrens = () => {
         <ListItem disabled={true} leftContent={<IconFolder />} rightContent={<IconFolder />}>
           Text
         </ListItem>
+      </List>
+    </div>
+  );
+};
+
+export const WithCheckList = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <List size={select('Sizes', ['medium', 'large'], 'medium')}>
+        <CheckListItem active>Active</CheckListItem>
+        <CheckListItem>Not active</CheckListItem>
+        <CheckListItem active>Active</CheckListItem>
+        <CheckListItem active>Active</CheckListItem>
+        <CheckListItem active>Active</CheckListItem>
+        <CheckListItem disabled>Disabled</CheckListItem>
       </List>
     </div>
   );
