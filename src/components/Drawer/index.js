@@ -38,7 +38,10 @@ StyledDrawerHeader.defaultProps = {
   theme: defaultTheme
 };
 
-const StyleHeading = styled.div``;
+const StyleHeading = styled.div`
+  ${({ theme }) => theme.texts.p1b};
+  color: ${({ theme }) => theme.components.drawerHeaderColor};
+`;
 
 StyleHeading.defaultProps = {
   theme: defaultTheme
@@ -141,10 +144,10 @@ const Drawer = props => {
       {...other}
     >
       <StyledDrawerHeader>
-        <StyleHeading>
-          {header}
+        <div>
+          <StyleHeading>{header}</StyleHeading>
           <StyleSubHeading>{subHeader}</StyleSubHeading>
-        </StyleHeading>
+        </div>
 
         <CloseButton onClick={onClose}>
           <IconClose size={'small'} />

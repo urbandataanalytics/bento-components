@@ -55,7 +55,7 @@ const MapLegendSkeleton = ({ actions }) => {
           <Skeleton height="8px" width="50px" />
         </StyledMinMax>
       </StyledContainer>
-      {actions && (
+      {actions ? (
         <StyledActions>
           {[...Array(actions)].map((e, i) => (
             <StyledAction key={i}>
@@ -63,7 +63,7 @@ const MapLegendSkeleton = ({ actions }) => {
             </StyledAction>
           ))}
         </StyledActions>
-      )}
+      ) : null}
     </Style>
   );
 };

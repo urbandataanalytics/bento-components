@@ -404,9 +404,10 @@ const components = {
   drawerMaxWidth: '320px',
   drawerBackgroundColor: color.white,
   drawerBorder: `1px solid ${color.charcoal300}`,
+  drawerHeaderColor: color.charcoal700,
   drawerHeaderBorder: `1px solid ${color.charcoal300}`,
-  drawerHeaderPadding: `20px ${spacings.small4}`,
-  drawerHeaderMinHeight: '73px',
+  drawerHeaderPadding: `12px ${spacings.small4}`,
+  drawerHeaderMinHeight: '56px',
   drawerCloseButtonBackground: color.white,
   drawerCloseButtonPadding: '6px',
   drawerCloseButtonBorderRadius: shapes.borderRadiusMedium,
@@ -432,6 +433,9 @@ const components = {
   listItemColorDefaultHover: color.charcoal300,
   listItemBackgroundColorDefaultHover: color.charcoal300,
   listItemColorDisabled: color.charcoal500,
+  listItemColorFocused: color.white,
+  listItemFontWeightFocused: global.fontWeightMedium,
+  listItemBackgroundColorFocused: color.primary500,
   listItemBackgroundColorDisabled: color.charcoal200,
   listItemBackgroundColorHoverDisabled: color.charcoal200,
   listItemMargin: '0 0 4px',
@@ -482,7 +486,17 @@ const components = {
   paginationLabelMarginBottom: spacings.small3,
   paginationProgressBackgroundColor: color.charcoal400,
   paginationProgressMarginBottom: spacings.small3,
-  paginationProgressActiveBackgroundColor: color.charcoal800
+  paginationProgressActiveBackgroundColor: color.charcoal800,
+
+  /* Slider Theme props */
+  sliderRailColor: color.charcoal400,
+  sliderRailSize: '2px',
+  sliderTrackColor: color.primary500,
+  sliderHandleColor: color.primary500,
+  sliderHandleDisabledColor: color.charcoal500,
+  sliderHandleDraggingColor: color.primary600,
+  sliderHandleSize: spacings.small3,
+  sliderHandleMarginTop: '-6px'
 };
 
 export default {
