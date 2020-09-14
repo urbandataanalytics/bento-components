@@ -69346,6 +69346,18 @@ exports[`Storyshots Search Normal 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.c3 {
   outline: 0;
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
@@ -69356,29 +69368,29 @@ exports[`Storyshots Search Normal 1`] = `
   line-height: 1.5;
   color: #747D93;
   white-space: nowrap;
-  text-indent: 20px;
+  text-indent: 4px;
   width: 100%;
 }
 
-.c2::-webkit-input-placeholder {
+.c3::-webkit-input-placeholder {
   color: #DCDFE6;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
 
-.c2::-moz-placeholder {
+.c3::-moz-placeholder {
   color: #DCDFE6;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
 
-.c2:-ms-input-placeholder {
+.c3:-ms-input-placeholder {
   color: #DCDFE6;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
 
-.c2::placeholder {
+.c3::placeholder {
   color: #DCDFE6;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
@@ -69849,14 +69861,20 @@ exports[`Storyshots Search Normal 1`] = `
         fillRule="evenodd"
       />
     </svg>
-    <input
+    <div
       className="c2"
-      disabled={false}
-      onChange={[Function]}
-      placeholder="Search any portfolio by name, seller or buyer"
-      type="text"
-      value="Cerberus"
-    />
+    >
+      
+      
+      <input
+        className="c3"
+        disabled={false}
+        onChange={[Function]}
+        placeholder="Search any portfolio by name, seller or buyer"
+        type="text"
+        value="Cerberus"
+      />
+    </div>
     <button
       onClick={true}
       type="button"

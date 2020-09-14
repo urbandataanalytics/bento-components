@@ -15,6 +15,23 @@ const StyledContainer = styled.div`
   box-shadow: 0px 8px 16px rgba(54, 60, 75, 0.1);
 `;
 
+const StyledWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: ${({ theme }) => theme.spacings.small3};
+`;
+
+const StyledSeparator = styled.i`
+  margin: 0 ${({ theme }) => theme.spacings.small3};
+  height: 16px;
+  width: 1px;
+  background-color: ${({ theme }) => theme.color.charcoal400};
+`;
+
+const StyledHeading = styled.h5`
+  color: ${({ theme }) => theme.color.charcoal600};
+`;
+
 const Input = styled.input`
   outline: 0;
   transition: ${({ theme }) => theme.global.transitionM};
@@ -22,7 +39,7 @@ const Input = styled.input`
   ${({ theme }) => theme.texts.p1b};
   color: ${({ theme }) => theme.color.charcoal600};
   white-space: nowrap;
-  text-indent: 20px;
+  text-indent: 4px;
   width: 100%;
 
   &::placeholder {
@@ -37,6 +54,7 @@ const Search = ({
   disabled,
   name,
   onChange,
+  leftContent,
   placeholder,
   tabIndex,
   value,
@@ -50,17 +68,21 @@ const Search = ({
   return (
     <StyledContainer>
       <IconSearch customColor={theme.color.charcoal600} />
-      <Input
-        type="text"
-        disabled={disabled}
-        value={value}
-        name={name}
-        onChange={onChange}
-        placeholder={placeholder}
-        tabIndex={tabIndex}
-        ref={ref}
-        {...other}
-      />
+      <StyledWrapper>
+        {leftContent && <StyledHeading>{leftContent}</StyledHeading>}
+        {leftContent && <StyledSeparator />}
+        <Input
+          type="text"
+          disabled={disabled}
+          value={value}
+          name={name}
+          onChange={onChange}
+          placeholder={placeholder}
+          tabIndex={tabIndex}
+          ref={ref}
+          {...other}
+        />
+      </StyledWrapper>
       {closable && (
         <button type="button" onClick={onClose}>
           <IconClose customColor={theme.color.charcoal600} />

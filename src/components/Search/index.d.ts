@@ -7,6 +7,7 @@ export interface Props {
   name?: string;
   onChange?: (ev: SyntheticInputEvent<HTMLInputElement>) => void | Promise<any>,
   onClose: () => void;
+  leftContent?: string;
   placeholder?: string;
   tabIndex?: string;
   value?: string;
