@@ -69346,6 +69346,18 @@ exports[`Storyshots Search Normal 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.c3 {
   outline: 0;
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
@@ -69356,29 +69368,29 @@ exports[`Storyshots Search Normal 1`] = `
   line-height: 1.5;
   color: #747D93;
   white-space: nowrap;
-  text-indent: 20px;
+  text-indent: 4px;
   width: 100%;
 }
 
-.c2::-webkit-input-placeholder {
+.c3::-webkit-input-placeholder {
   color: #DCDFE6;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
 
-.c2::-moz-placeholder {
+.c3::-moz-placeholder {
   color: #DCDFE6;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
 
-.c2:-ms-input-placeholder {
+.c3:-ms-input-placeholder {
   color: #DCDFE6;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
 
-.c2::placeholder {
+.c3::placeholder {
   color: #DCDFE6;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
@@ -69598,8 +69610,9 @@ exports[`Storyshots Search Normal 1`] = `
             "drawerCloseButtonBorderRadius": "4px",
             "drawerCloseButtonPadding": "6px",
             "drawerHeaderBorder": "1px solid #EFF2F7",
-            "drawerHeaderMinHeight": "73px",
-            "drawerHeaderPadding": "20px 24px",
+            "drawerHeaderColor": "#363C4B",
+            "drawerHeaderMinHeight": "56px",
+            "drawerHeaderPadding": "12px 24px",
             "drawerMaxWidth": "320px",
             "dropdownBackground": "#FFFFFF",
             "dropdownBorderColor": "#EFF2F7",
@@ -69638,6 +69651,7 @@ exports[`Storyshots Search Normal 1`] = `
             "listItemBackgroundColorActiveHover": "#EFF7FB",
             "listItemBackgroundColorDefaultHover": "#EFF2F7",
             "listItemBackgroundColorDisabled": "#F8F8F8",
+            "listItemBackgroundColorFocused": "#1778FB",
             "listItemBackgroundColorHoverDisabled": "#F8F8F8",
             "listItemBorderRadius": "2px",
             "listItemColorActive": "#1778FB",
@@ -69645,10 +69659,12 @@ exports[`Storyshots Search Normal 1`] = `
             "listItemColorDefault": "#212632",
             "listItemColorDefaultHover": "#EFF2F7",
             "listItemColorDisabled": "#B6BBC6",
+            "listItemColorFocused": "#FFFFFF",
             "listItemFontSize": "12px",
             "listItemFontSizeLarge": "14px",
             "listItemFontSizeMedium": "12px",
             "listItemFontWeight": 400,
+            "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
             "listItemPaddingMedium": "7px 16px",
@@ -69692,6 +69708,14 @@ exports[`Storyshots Search Normal 1`] = `
             "paginationProgressActiveBackgroundColor": "#212632",
             "paginationProgressBackgroundColor": "#DCDFE6",
             "paginationProgressMarginBottom": "16px",
+            "sliderHandleColor": "#1778FB",
+            "sliderHandleDisabledColor": "#B6BBC6",
+            "sliderHandleDraggingColor": undefined,
+            "sliderHandleMarginTop": "-6px",
+            "sliderHandleSize": "16px",
+            "sliderRailColor": "#DCDFE6",
+            "sliderRailSize": "2px",
+            "sliderTrackColor": "#1778FB",
             "tabBadgeBackground": "#EFF2F7",
             "tabBadgeBackgroundActive": "#1778FB",
             "tabBadgeBackgroundHover": "#48AAF1",
@@ -69837,14 +69861,20 @@ exports[`Storyshots Search Normal 1`] = `
         fillRule="evenodd"
       />
     </svg>
-    <input
+    <div
       className="c2"
-      disabled={false}
-      onChange={[Function]}
-      placeholder="Search any portfolio by name, seller or buyer"
-      type="text"
-      value="Cerberus"
-    />
+    >
+      
+      
+      <input
+        className="c3"
+        disabled={false}
+        onChange={[Function]}
+        placeholder="Search any portfolio by name, seller or buyer"
+        type="text"
+        value="Cerberus"
+      />
+    </div>
     <button
       onClick={true}
       type="button"
@@ -70053,8 +70083,9 @@ exports[`Storyshots Search Normal 1`] = `
               "drawerCloseButtonBorderRadius": "4px",
               "drawerCloseButtonPadding": "6px",
               "drawerHeaderBorder": "1px solid #EFF2F7",
-              "drawerHeaderMinHeight": "73px",
-              "drawerHeaderPadding": "20px 24px",
+              "drawerHeaderColor": "#363C4B",
+              "drawerHeaderMinHeight": "56px",
+              "drawerHeaderPadding": "12px 24px",
               "drawerMaxWidth": "320px",
               "dropdownBackground": "#FFFFFF",
               "dropdownBorderColor": "#EFF2F7",
@@ -70093,6 +70124,7 @@ exports[`Storyshots Search Normal 1`] = `
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
               "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorFocused": "#1778FB",
               "listItemBackgroundColorHoverDisabled": "#F8F8F8",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
@@ -70100,10 +70132,12 @@ exports[`Storyshots Search Normal 1`] = `
               "listItemColorDefault": "#212632",
               "listItemColorDefaultHover": "#EFF2F7",
               "listItemColorDisabled": "#B6BBC6",
+              "listItemColorFocused": "#FFFFFF",
               "listItemFontSize": "12px",
               "listItemFontSizeLarge": "14px",
               "listItemFontSizeMedium": "12px",
               "listItemFontWeight": 400,
+              "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
               "listItemPaddingMedium": "7px 16px",
@@ -70147,6 +70181,14 @@ exports[`Storyshots Search Normal 1`] = `
               "paginationProgressActiveBackgroundColor": "#212632",
               "paginationProgressBackgroundColor": "#DCDFE6",
               "paginationProgressMarginBottom": "16px",
+              "sliderHandleColor": "#1778FB",
+              "sliderHandleDisabledColor": "#B6BBC6",
+              "sliderHandleDraggingColor": undefined,
+              "sliderHandleMarginTop": "-6px",
+              "sliderHandleSize": "16px",
+              "sliderRailColor": "#DCDFE6",
+              "sliderRailSize": "2px",
+              "sliderTrackColor": "#1778FB",
               "tabBadgeBackground": "#EFF2F7",
               "tabBadgeBackgroundActive": "#1778FB",
               "tabBadgeBackgroundHover": "#48AAF1",

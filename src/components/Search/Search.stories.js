@@ -12,6 +12,7 @@ const getCommonProps = () => {
   return {
     placeholder: text('Placeholder', 'Search any portfolio by name, seller or buyer'),
     value: text('Value', 'Cerberus'),
+    leftContent: text('Left Content', ''),
     onChange: action('onChange'),
     onClose: boolean('Closable', true)
   };
