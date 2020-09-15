@@ -65,6 +65,8 @@ const Search = ({
   const ref = useOnclickOutside(() => enableClickOutside && onClose());
   const theme = useTheme();
 
+  const handleKeyDown = event => event.keyCode === 27 && onClose();
+
   return (
     <StyledContainer>
       <IconSearch customColor={theme.color.charcoal600} />
@@ -77,6 +79,7 @@ const Search = ({
           value={value}
           name={name}
           onChange={onChange}
+          onKeyDown={handleKeyDown}
           placeholder={placeholder}
           tabIndex={tabIndex}
           ref={ref}

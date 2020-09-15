@@ -69870,6 +69870,7 @@ exports[`Storyshots Search Normal 1`] = `
         className="c3"
         disabled={false}
         onChange={[Function]}
+        onKeyDown={[Function]}
         placeholder="Search any portfolio by name, seller or buyer"
         type="text"
         value="Cerberus"
