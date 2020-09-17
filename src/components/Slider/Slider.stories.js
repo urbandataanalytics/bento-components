@@ -51,9 +51,9 @@ export const Range = () => {
       <br />
       <Slider
         variant={'range'}
-        value={[]}
         suffix={text('Sufix', '€/m2')}
         prefix={text('Prefix', '')}
+        value={null}
         {...getCommonProps()}
       />
     </div>

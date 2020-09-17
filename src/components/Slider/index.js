@@ -86,10 +86,15 @@ const Slider = React.forwardRef((props, ref) => {
     prefix,
     step,
     suffix,
-    value,
     variant,
     ...other
   } = props;
+
+  let { value } = props;
+  if (!value || (Array.isArray(value) && !value.length)) {
+    value = variant === 'range' ? [min, max] : max;
+  }
+
   const [values, setValues] = useState(value);
   const inputMin = useRef(null);
   const inputMax = useRef(null);
@@ -111,6 +116,7 @@ const Slider = React.forwardRef((props, ref) => {
     } else {
       setValues(value);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [value]);
 
   const handleSliderChange = value => {
@@ -264,7 +270,7 @@ Slider.propTypes = {
   prefix: PropTypes.string,
   step: PropTypes.number.isRequired,
   suffix: PropTypes.string,
-  value: PropTypes.oneOfType([PropTypes.array, PropTypes.number]).isRequired,
+  value: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
   variant: PropTypes.oneOf(['slider', 'range']).isRequired
 };
 
@@ -273,7 +279,6 @@ Slider.defaultProps = {
   min: 0,
   step: 1,
   theme: defaultTheme,
-  value: 1,
   variant: 'slider'
 };
 
