@@ -72391,7 +72391,7 @@ exports[`Storyshots Slider Range 1`] = `
   color: #212632;
   background-color: transparent;
   text-align: center;
-  width: undefinedch;
+  width: 1ch;
   box-sizing: initial;
   padding: 4px 8px;
 }
@@ -72408,6 +72408,37 @@ exports[`Storyshots Slider Range 1`] = `
 }
 
 .c7:focus ~ span {
+  border-color: #1778FB;
+  background-color: #EFF7FB;
+}
+
+.c9 {
+  font-weight: 500;
+  font-size: 12px;
+  color: #212632;
+  line-height: 1.5;
+  border: none;
+  border-bottom: 1px solid #DCDFE6;
+  color: #212632;
+  background-color: transparent;
+  text-align: center;
+  width: 3ch;
+  box-sizing: initial;
+  padding: 4px 8px;
+}
+
+.c9 .prefix {
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.c9:focus {
+  border-color: #1778FB;
+  background-color: #EFF7FB;
+}
+
+.c9:focus ~ span {
   border-color: #1778FB;
   background-color: #EFF7FB;
 }
@@ -72938,7 +72969,67 @@ exports[`Storyshots Slider Range 1`] = `
         }
       />
       <div
+        className="rc-slider-track rc-slider-track-1"
+        style={
+          Object {
+            "backgroundColor": "#1778FB",
+            "height": undefined,
+            "left": "0%",
+            "right": "auto",
+            "width": "100%",
+          }
+        }
+      />
+      <div
         className="rc-slider-step"
+      />
+      <div
+        aria-disabled={false}
+        aria-valuemax={500}
+        aria-valuemin={1}
+        aria-valuenow={1}
+        className="rc-slider-handle rc-slider-handle-1"
+        onBlur={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        role="slider"
+        style={
+          Object {
+            "backgroundColor": "#1778FB",
+            "borderColor": "#1778FB",
+            "height": "16px",
+            "left": "0%",
+            "marginTop": "-6px",
+            "right": "auto",
+            "transform": "translateX(-50%)",
+            "width": "16px",
+          }
+        }
+        tabIndex={0}
+      />
+      <div
+        aria-disabled={false}
+        aria-valuemax={500}
+        aria-valuemin={1}
+        aria-valuenow={500}
+        className="rc-slider-handle rc-slider-handle-2"
+        onBlur={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        role="slider"
+        style={
+          Object {
+            "backgroundColor": "#1778FB",
+            "borderColor": "#1778FB",
+            "height": "16px",
+            "left": "100%",
+            "marginTop": "-6px",
+            "right": "auto",
+            "transform": "translateX(-50%)",
+            "width": "16px",
+          }
+        }
+        tabIndex={0}
       />
       <div
         className="rc-slider-mark"
@@ -72952,7 +73043,7 @@ exports[`Storyshots Slider Range 1`] = `
       >
         <input
           className="c7"
-          defaultValue={NaN}
+          defaultValue={1}
           name="min"
           onBlur={[Function]}
           onKeyDown={[Function]}
@@ -72970,8 +73061,8 @@ exports[`Storyshots Slider Range 1`] = `
         className="c6"
       >
         <input
-          className="c7"
-          defaultValue={NaN}
+          className="c9"
+          defaultValue={500}
           name="max"
           onBlur={[Function]}
           onKeyDown={[Function]}
