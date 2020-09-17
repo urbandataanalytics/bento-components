@@ -114,7 +114,9 @@ const Slider = React.forwardRef((props, ref) => {
   const inputMin = useRef(null);
   const inputMax = useRef(null);
 
-  const getValueLength = value => value && value.toString().length;
+  const getValueLength = value => {
+    return value || !isNaN(value) ? value.toString().length : 0;
+  };
 
   useEffect(() => {
     if (variant === 'range') {
@@ -216,8 +218,6 @@ const Slider = React.forwardRef((props, ref) => {
 
   return (
     <StyledContent {...other}>
-      {/*{values && (*/}
-      {/*  <>*/}
       {isLoading ? (
         <SliderSkeleton variant={variant} />
       ) : variant === 'slider' ? (
@@ -275,8 +275,6 @@ const Slider = React.forwardRef((props, ref) => {
             </InputContainer>
           </MinMaxContainer>
         </>
-        //   )}
-        // </>
       )}
     </StyledContent>
   );

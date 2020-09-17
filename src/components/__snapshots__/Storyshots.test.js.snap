@@ -73043,7 +73043,7 @@ exports[`Storyshots Slider Range 1`] = `
       >
         <input
           className="c7"
-          defaultValue={1}
+          defaultValue={0}
           name="min"
           onBlur={[Function]}
           onKeyDown={[Function]}
