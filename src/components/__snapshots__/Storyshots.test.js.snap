@@ -62,7 +62,7 @@ exports[`Storyshots AccordionList Expand All 1`] = `
   -webkit-transition: max-height 0.3s ease-out;
   transition: max-height 0.3s ease-out;
   overflow: hidden;
-  max-height: 0px;
+  max-height: undefinedpx;
   visibility: visible;
 }
 
@@ -1148,7 +1148,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
   -webkit-transition: max-height 0.3s ease-out;
   transition: max-height 0.3s ease-out;
   overflow: hidden;
-  max-height: 0px;
+  max-height: undefinedpx;
   visibility: visible;
 }
 
@@ -65693,7 +65693,9 @@ exports[`Storyshots NavigationBar Sticky 1`] = `
   align-items: center;
   background-color: white;
   border-bottom: 1px solid #EFF2F7;
-  height: 73px transition:all 120ms ease-in-out;
+  height: 73px;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -65802,7 +65804,9 @@ exports[`Storyshots NavigationBar Without Menu 1`] = `
   align-items: center;
   background-color: white;
   border-bottom: 1px solid #EFF2F7;
-  height: 73px transition:all 120ms ease-in-out;
+  height: 73px;
+  -webkit-transition: all 120ms ease-in-out;
+  transition: all 120ms ease-in-out;
   height: 73px;
 }
 

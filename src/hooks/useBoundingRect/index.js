@@ -1,37 +1,48 @@
-import React from 'react';
+import { useCallback, useLayoutEffect, useState } from 'react';
 
-const useBoundingRect = initialValue => {
-  const [state, setState] = React.useState(() => ({
-    x: 0,
-    y: 0,
-    width: 0,
-    height: 0,
-    top: 0,
-    right: 0,
-    bottom: 0,
-    left: 0,
-    ...initialValue
-  }));
+const getDimensionObject = node => {
+  const rect = node.getBoundingClientRect();
 
-  const ref = React.useRef(null);
+  return {
+    width: rect.width,
+    height: rect.height,
+    top: rect ? rect.x : rect.top,
+    left: rect ? rect.y : rect.left,
+    x: rect ? rect.x : rect.left,
+    y: rect ? rect.y : rect.top,
+    right: rect.right,
+    bottom: rect.bottom
+  };
+};
 
-  React.useEffect(() => {
-    const calculate = () => {
-      if (ref && ref.current) {
-        const dimensions = ref.current.getBoundingClientRect();
-        setState(dimensions);
-      }
-    };
+const useBoundingRect = (liveMeasure = true) => {
+  const [dimensions, setDimensions] = useState({});
+  const [node, setNode] = useState(null);
 
-    calculate();
-
-    window.addEventListener('resize', calculate);
-
-    return () => {
-      window.removeEventListener('resize', calculate);
-    };
+  const ref = useCallback(node => {
+    setNode(node);
   }, []);
-  return [state, ref];
+
+  useLayoutEffect(() => {
+    if (node) {
+      const measure = () =>
+        window.requestAnimationFrame(() => setDimensions(getDimensionObject(node)));
+      measure();
+
+      if (liveMeasure) {
+        window.addEventListener('resize', measure);
+        window.addEventListener('scroll', measure);
+
+        return () => {
+          window.removeEventListener('resize', measure);
+          window.removeEventListener('scroll', measure);
+        };
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [node]);
+
+  return [dimensions, ref, node];
 };
 
 export default useBoundingRect;
