@@ -35,7 +35,7 @@ export const Normal = () => {
 };
 
 export const Range = () => {
-  const [values, setValues] = useState(null);
+  const [values, setValues] = useState([0, 500]);
 
   const resetSlider = () => {
     setValues([50, 200]);

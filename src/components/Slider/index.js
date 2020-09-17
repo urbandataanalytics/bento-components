@@ -114,7 +114,9 @@ const Slider = React.forwardRef((props, ref) => {
   const inputMin = useRef(null);
   const inputMax = useRef(null);
 
-  const getValueLength = value => value && value.toString().length;
+  const getValueLength = value => {
+    return value || !isNaN(value) ? value.toString().length : 0;
+  };
 
   useEffect(() => {
     if (variant === 'range') {
