@@ -35,7 +35,7 @@ export const Normal = () => {
 };
 
 export const Range = () => {
-  const [values, setValues] = useState([50, 200]);
+  const [values, setValues] = useState(null);
 
   const resetSlider = () => {
     setValues([50, 200]);
@@ -53,7 +53,7 @@ export const Range = () => {
         variant={'range'}
         suffix={text('Sufix', '€/m2')}
         prefix={text('Prefix', '')}
-        value={null}
+        value={values}
         {...getCommonProps()}
       />
     </div>

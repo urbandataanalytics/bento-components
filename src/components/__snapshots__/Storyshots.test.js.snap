@@ -72160,7 +72160,6 @@ exports[`Storyshots Slider Normal 1`] = `
 >
   <div
     className="c0"
-    value={50}
   >
     <div
       className="rc-slider"
@@ -72950,7 +72949,6 @@ exports[`Storyshots Slider Range 1`] = `
   <br />
   <div
     className="c4"
-    value={null}
   >
     <div
       className="rc-slider"

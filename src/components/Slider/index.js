@@ -75,6 +75,26 @@ const StyledContent = styled.div`
 
 const REGEX_PATTERN_NUMBER = 'd+(.d*)?';
 
+const getDefaultValue = ({ value, min, max, variant }) => {
+  let result = null;
+
+  if (variant === 'range') {
+    if (Array.isArray(value) && value.length) {
+      result = value;
+    } else {
+      result = [min, max];
+    }
+  } else {
+    if (value) {
+      result = value;
+    } else {
+      result = max;
+    }
+  }
+
+  return result;
+};
+
 const Slider = React.forwardRef((props, ref) => {
   const {
     disabled,
@@ -87,37 +107,35 @@ const Slider = React.forwardRef((props, ref) => {
     step,
     suffix,
     variant,
+    value,
     ...other
   } = props;
-
-  let { value } = props;
-  if (!value || (Array.isArray(value) && !value.length)) {
-    value = variant === 'range' ? [min, max] : max;
-  }
-
-  const [values, setValues] = useState(value);
+  const [values, setValues] = useState(getDefaultValue({ value, min, max, variant }));
   const inputMin = useRef(null);
   const inputMax = useRef(null);
 
   const getValueLength = value => value && value.toString().length;
 
   useEffect(() => {
-    if (value && Array.isArray(value)) {
-      if (value.length > 0) {
+    if (variant === 'range') {
+      if (Array.isArray(value) && value.length) {
         const [minValue, maxValue] = value;
         setInputValue('min', Number(minValue));
         setInputValue('max', Number(maxValue));
-        setValues(value);
       } else {
-        setValues([min, max]);
         setInputValue('min', Number(min));
         setInputValue('max', Number(max));
       }
-    } else {
-      setValues(value);
     }
+
+    setValues(getDefaultValue({ min, max, variant, value }));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [value]);
+
+  const handleSliderSimpleChange = value => {
+    setValues(value);
+    onChange(value);
+  };
 
   const handleSliderChange = value => {
     const [minValue, maxValue] = value;
@@ -198,6 +216,8 @@ const Slider = React.forwardRef((props, ref) => {
 
   return (
     <StyledContent {...other}>
+      {/*{values && (*/}
+      {/*  <>*/}
       {isLoading ? (
         <SliderSkeleton variant={variant} />
       ) : variant === 'slider' ? (
@@ -205,7 +225,7 @@ const Slider = React.forwardRef((props, ref) => {
           disabled={disabled}
           max={max}
           min={min}
-          onChange={handleSliderChange}
+          onChange={handleSliderSimpleChange}
           step={step}
           value={values}
           {...propStyles}
@@ -255,6 +275,8 @@ const Slider = React.forwardRef((props, ref) => {
             </InputContainer>
           </MinMaxContainer>
         </>
+        //   )}
+        // </>
       )}
     </StyledContent>
   );
