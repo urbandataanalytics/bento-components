@@ -218,6 +218,8 @@ const Slider = React.forwardRef((props, ref) => {
 
   return (
     <StyledContent {...other}>
+      {/*{values && (*/}
+      {/*  <>*/}
       {isLoading ? (
         <SliderSkeleton variant={variant} />
       ) : variant === 'slider' ? (
@@ -275,6 +277,8 @@ const Slider = React.forwardRef((props, ref) => {
             </InputContainer>
           </MinMaxContainer>
         </>
+        //   )}
+        // </>
       )}
     </StyledContent>
   );
