@@ -14,7 +14,7 @@ const StyledNavigation = styled.nav`
   background-color: ${({ theme }) => theme.components.navigationBackgroundColor};
   border-bottom: ${({ theme }) => theme.components.navigationBorder};
   ${({ dropdownMenu, header, theme }) =>
-    !dropdownMenu || !header ? `height: ${theme.components.navigationMaxHeight}` : ''}
+    !dropdownMenu || !header ? `height: ${theme.components.navigationMaxHeight}` : ''};
   transition: ${props => props.theme.global.transitionS};
   ${({ sticked }) => sticked && `position: sticky; top: 0; z-index: 2;`};
   height: ${({ theme, sticked }) =>

@@ -121,7 +121,7 @@ const Accordion = props => {
     ...other
   } = props;
   const [expandedState, setExpandedState] = useState(isDefaultExpanded || expanded);
-  const [{ height }, childNode] = useBoundingRect({ height: expanded ? null : 0 });
+  const [{ height }, childNode] = useBoundingRect();
 
   const handleClick = useCallback(
     event => {
