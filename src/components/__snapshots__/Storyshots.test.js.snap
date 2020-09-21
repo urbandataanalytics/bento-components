@@ -1273,6 +1273,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -1325,6 +1326,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -12517,6 +12519,7 @@ Array [
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -53418,6 +53421,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -53470,6 +53474,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -53522,6 +53527,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   color: #B6BBC6;
   background-color: #F8F8F8;
@@ -53701,6 +53707,7 @@ exports[`Storyshots List Link List 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -53753,6 +53760,7 @@ exports[`Storyshots List Link List 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -53829,6 +53837,7 @@ exports[`Storyshots List Link List 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   background-color: #1778FB;
   color: #FFFFFF;
@@ -54018,6 +54027,7 @@ exports[`Storyshots List Navbar List 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -54092,6 +54102,7 @@ exports[`Storyshots List Navbar List 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   color: #B6BBC6;
   background-color: #F8F8F8;
@@ -54172,6 +54183,7 @@ exports[`Storyshots List Navbar List 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -54244,6 +54256,7 @@ exports[`Storyshots List Navbar List 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -56279,6 +56292,7 @@ exports[`Storyshots List Playground 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -56461,6 +56475,7 @@ exports[`Storyshots List With Check List 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -56513,6 +56528,7 @@ exports[`Storyshots List With Check List 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -56565,6 +56581,7 @@ exports[`Storyshots List With Check List 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   color: #B6BBC6;
   background-color: #F8F8F8;
@@ -58663,6 +58680,7 @@ exports[`Storyshots List With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -58715,6 +58733,7 @@ exports[`Storyshots List With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -58767,6 +58786,7 @@ exports[`Storyshots List With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   color: #B6BBC6;
   background-color: #F8F8F8;
@@ -58823,6 +58843,7 @@ exports[`Storyshots List With Childrens 1`] = `
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
   margin: 0 0 4px;
+  line-height: 26px;
   cursor: pointer;
   background-color: #1778FB;
   color: #FFFFFF;

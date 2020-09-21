@@ -105,6 +105,7 @@ export const StyledListItem = styled.li`
   font-weight: ${props => props.theme.global.fontWeightMedium};
   transition: ${props => props.theme.global.transitionM};
   margin: ${props => props.theme.components.listItemMargin};
+  line-height: 26px;
   ${props => props.onClick && 'cursor: pointer'};
   ${props =>
     props.disabled &&
