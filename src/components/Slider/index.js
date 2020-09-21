@@ -103,6 +103,7 @@ const Slider = React.forwardRef((props, ref) => {
     min,
     name,
     onChange = () => {},
+    onAfterChange = () => {},
     prefix,
     step,
     suffix,
@@ -228,6 +229,7 @@ const Slider = React.forwardRef((props, ref) => {
           max={max}
           min={min}
           onChange={handleSliderSimpleChange}
+          onAfterChange={() => onAfterChange(values)}
           step={step}
           value={values}
           {...propStyles}
@@ -239,6 +241,7 @@ const Slider = React.forwardRef((props, ref) => {
             max={max}
             min={min}
             onChange={handleSliderChange}
+            onAfterChange={() => onAfterChange(values)}
             ref={ref}
             step={step}
             value={values}
