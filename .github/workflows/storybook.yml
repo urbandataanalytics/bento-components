@@ -23,6 +23,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: Install dependencies
+        run: yarn
+
       - name: build storybook
         run: yarn build:storybook -o next/next
 
