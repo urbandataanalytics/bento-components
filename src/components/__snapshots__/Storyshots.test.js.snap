@@ -388,7 +388,7 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -869,7 +869,7 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -1305,7 +1305,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -1358,7 +1358,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -1658,7 +1658,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -2125,7 +2125,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -2597,7 +2597,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -3077,7 +3077,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -3554,7 +3554,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemFontWeightFocused": 500,
                       "listItemMargin": "0 0 4px",
                       "listItemPaddingLarge": "8px 16px",
-                      "listItemPaddingMedium": "7px 16px",
+                      "listItemPaddingMedium": "3px 16px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listNavItemBackgroundColorDisabled": "#FFFFFF",
                       "listNavItemColorActive": "#1778FB",
@@ -4024,7 +4024,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemFontWeightFocused": 500,
                       "listItemMargin": "0 0 4px",
                       "listItemPaddingLarge": "8px 16px",
-                      "listItemPaddingMedium": "7px 16px",
+                      "listItemPaddingMedium": "3px 16px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listNavItemBackgroundColorDisabled": "#FFFFFF",
                       "listNavItemColorActive": "#1778FB",
@@ -4492,7 +4492,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemFontWeightFocused": 500,
                       "listItemMargin": "0 0 4px",
                       "listItemPaddingLarge": "8px 16px",
-                      "listItemPaddingMedium": "7px 16px",
+                      "listItemPaddingMedium": "3px 16px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listNavItemBackgroundColorDisabled": "#FFFFFF",
                       "listNavItemColorActive": "#1778FB",
@@ -4951,7 +4951,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "listItemFontWeightFocused": 500,
                       "listItemMargin": "0 0 4px",
                       "listItemPaddingLarge": "8px 16px",
-                      "listItemPaddingMedium": "7px 16px",
+                      "listItemPaddingMedium": "3px 16px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listNavItemBackgroundColorDisabled": "#FFFFFF",
                       "listNavItemColorActive": "#1778FB",
@@ -5418,7 +5418,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -5885,7 +5885,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -6429,7 +6429,7 @@ Array [
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -7137,7 +7137,7 @@ exports[`Storyshots Button Block 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -7747,7 +7747,7 @@ exports[`Storyshots Button Loading 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -8357,7 +8357,7 @@ exports[`Storyshots Button Normal 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -8986,7 +8986,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -9451,7 +9451,7 @@ exports[`Storyshots Button With Icon 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -9759,9 +9759,7 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
 }
 
 .c1 {
-  margin: 0 16px 0 0;
-  position: relative;
-  top: -1px;
+  margin: 0 8px 0 0;
 }
 
 .c1 > svg {
@@ -10049,7 +10047,7 @@ exports[`Storyshots ButtonLink With Icon 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -10971,7 +10969,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -11581,7 +11579,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -12181,7 +12179,7 @@ Array [
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -12551,7 +12549,7 @@ Array [
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -12573,7 +12571,7 @@ Array [
   align-content: center;
   color: #1778FB;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -13031,7 +13029,7 @@ Array [
                 "listItemFontWeightFocused": 500,
                 "listItemMargin": "0 0 4px",
                 "listItemPaddingLarge": "8px 16px",
-                "listItemPaddingMedium": "7px 16px",
+                "listItemPaddingMedium": "3px 16px",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listNavItemBackgroundColorDisabled": "#FFFFFF",
                 "listNavItemColorActive": "#1778FB",
@@ -13496,7 +13494,7 @@ Array [
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -13962,7 +13960,7 @@ Array [
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -14439,7 +14437,7 @@ Array [
                           "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
-                          "listItemPaddingMedium": "7px 16px",
+                          "listItemPaddingMedium": "3px 16px",
                           "listItemSeparatorColor": "#EFF2F7",
                           "listNavItemBackgroundColorDisabled": "#FFFFFF",
                           "listNavItemColorActive": "#1778FB",
@@ -14908,7 +14906,7 @@ Array [
                           "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
-                          "listItemPaddingMedium": "7px 16px",
+                          "listItemPaddingMedium": "3px 16px",
                           "listItemSeparatorColor": "#EFF2F7",
                           "listNavItemBackgroundColorDisabled": "#FFFFFF",
                           "listNavItemColorActive": "#1778FB",
@@ -15377,7 +15375,7 @@ Array [
                           "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
-                          "listItemPaddingMedium": "7px 16px",
+                          "listItemPaddingMedium": "3px 16px",
                           "listItemSeparatorColor": "#EFF2F7",
                           "listNavItemBackgroundColorDisabled": "#FFFFFF",
                           "listNavItemColorActive": "#1778FB",
@@ -15845,7 +15843,7 @@ Array [
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -16312,7 +16310,7 @@ Array [
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -16793,7 +16791,7 @@ Array [
                             "listItemFontWeightFocused": 500,
                             "listItemMargin": "0 0 4px",
                             "listItemPaddingLarge": "8px 16px",
-                            "listItemPaddingMedium": "7px 16px",
+                            "listItemPaddingMedium": "3px 16px",
                             "listItemSeparatorColor": "#EFF2F7",
                             "listNavItemBackgroundColorDisabled": "#FFFFFF",
                             "listNavItemColorActive": "#1778FB",
@@ -17262,7 +17260,7 @@ Array [
                             "listItemFontWeightFocused": 500,
                             "listItemMargin": "0 0 4px",
                             "listItemPaddingLarge": "8px 16px",
-                            "listItemPaddingMedium": "7px 16px",
+                            "listItemPaddingMedium": "3px 16px",
                             "listItemSeparatorColor": "#EFF2F7",
                             "listNavItemBackgroundColorDisabled": "#FFFFFF",
                             "listNavItemColorActive": "#1778FB",
@@ -17731,7 +17729,7 @@ Array [
                             "listItemFontWeightFocused": 500,
                             "listItemMargin": "0 0 4px",
                             "listItemPaddingLarge": "8px 16px",
-                            "listItemPaddingMedium": "7px 16px",
+                            "listItemPaddingMedium": "3px 16px",
                             "listItemSeparatorColor": "#EFF2F7",
                             "listNavItemBackgroundColorDisabled": "#FFFFFF",
                             "listNavItemColorActive": "#1778FB",
@@ -18211,7 +18209,7 @@ Array [
                           "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
-                          "listItemPaddingMedium": "7px 16px",
+                          "listItemPaddingMedium": "3px 16px",
                           "listItemSeparatorColor": "#EFF2F7",
                           "listNavItemBackgroundColorDisabled": "#FFFFFF",
                           "listNavItemColorActive": "#1778FB",
@@ -18688,7 +18686,7 @@ Array [
                           "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
-                          "listItemPaddingMedium": "7px 16px",
+                          "listItemPaddingMedium": "3px 16px",
                           "listItemSeparatorColor": "#EFF2F7",
                           "listNavItemBackgroundColorDisabled": "#FFFFFF",
                           "listNavItemColorActive": "#1778FB",
@@ -19165,7 +19163,7 @@ Array [
                           "listItemFontWeightFocused": 500,
                           "listItemMargin": "0 0 4px",
                           "listItemPaddingLarge": "8px 16px",
-                          "listItemPaddingMedium": "7px 16px",
+                          "listItemPaddingMedium": "3px 16px",
                           "listItemSeparatorColor": "#EFF2F7",
                           "listNavItemBackgroundColorDisabled": "#FFFFFF",
                           "listNavItemColorActive": "#1778FB",
@@ -19789,7 +19787,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -20418,7 +20416,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -21215,7 +21213,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "listItemFontWeightFocused": 500,
                 "listItemMargin": "0 0 4px",
                 "listItemPaddingLarge": "8px 16px",
-                "listItemPaddingMedium": "7px 16px",
+                "listItemPaddingMedium": "3px 16px",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listNavItemBackgroundColorDisabled": "#FFFFFF",
                 "listNavItemColorActive": "#1778FB",
@@ -21805,7 +21803,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -22287,7 +22285,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -22769,7 +22767,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -23251,7 +23249,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -23733,7 +23731,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -24214,7 +24212,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -24696,7 +24694,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -25178,7 +25176,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -25661,7 +25659,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -26143,7 +26141,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -26625,7 +26623,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -27106,7 +27104,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -27588,7 +27586,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -28070,7 +28068,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -28552,7 +28550,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -29034,7 +29032,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -29515,7 +29513,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -29996,7 +29994,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -30477,7 +30475,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -30959,7 +30957,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -31442,7 +31440,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -31923,7 +31921,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -32404,7 +32402,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -32894,7 +32892,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -33386,7 +33384,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -33875,7 +33873,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -34361,7 +34359,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -34844,7 +34842,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -35325,7 +35323,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -35808,7 +35806,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -36290,7 +36288,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -36779,7 +36777,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -37261,7 +37259,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -37743,7 +37741,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -38226,7 +38224,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -38708,7 +38706,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -39190,7 +39188,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -39672,7 +39670,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -40155,7 +40153,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -40636,7 +40634,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -41122,7 +41120,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -41604,7 +41602,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -42087,7 +42085,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -42568,7 +42566,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -43050,7 +43048,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -43532,7 +43530,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -44013,7 +44011,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -44495,7 +44493,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -44977,7 +44975,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -45458,7 +45456,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -45944,7 +45942,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -46426,7 +46424,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -46908,7 +46906,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -47390,7 +47388,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -47871,7 +47869,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -48354,7 +48352,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -48836,7 +48834,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -49319,7 +49317,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -49804,7 +49802,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -50289,7 +50287,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -50771,7 +50769,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -51253,7 +51251,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -51744,7 +51742,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -52226,7 +52224,7 @@ exports[`Storyshots Icon All Icons 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -52718,7 +52716,7 @@ exports[`Storyshots Icon Normal 1`] = `
           "listItemFontWeightFocused": 500,
           "listItemMargin": "0 0 4px",
           "listItemPaddingLarge": "8px 16px",
-          "listItemPaddingMedium": "7px 16px",
+          "listItemPaddingMedium": "3px 16px",
           "listItemSeparatorColor": "#EFF2F7",
           "listNavItemBackgroundColorDisabled": "#FFFFFF",
           "listNavItemColorActive": "#1778FB",
@@ -53453,7 +53451,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -53506,7 +53504,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -53561,7 +53559,7 @@ exports[`Storyshots LinkList Normal 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
   color: #B6BBC6;
   pointer-events: none;
@@ -53739,7 +53737,7 @@ exports[`Storyshots List Link List 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -53792,7 +53790,7 @@ exports[`Storyshots List Link List 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -53814,7 +53812,7 @@ exports[`Storyshots List Link List 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
   color: #B6BBC6;
   pointer-events: none;
@@ -53872,7 +53870,7 @@ exports[`Storyshots List Link List 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
   color: #FFFFFF;
   font-weight: 500;
@@ -54059,7 +54057,7 @@ exports[`Storyshots List Navbar List 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -54081,7 +54079,7 @@ exports[`Storyshots List Navbar List 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -54136,7 +54134,7 @@ exports[`Storyshots List Navbar List 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
   color: #B6BBC6;
   pointer-events: none;
@@ -54160,7 +54158,7 @@ exports[`Storyshots List Navbar List 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
   color: #FFFFFF;
   font-weight: 500;
@@ -54235,7 +54233,7 @@ exports[`Storyshots List Navbar List 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -54300,7 +54298,7 @@ exports[`Storyshots List Navbar List 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -54661,7 +54659,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -55130,7 +55128,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -55601,7 +55599,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -56073,7 +56071,7 @@ exports[`Storyshots List Navbar List 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -56324,7 +56322,7 @@ exports[`Storyshots List Playground 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -56346,7 +56344,7 @@ exports[`Storyshots List Playground 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -56368,7 +56366,7 @@ exports[`Storyshots List Playground 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
   color: #B6BBC6;
   pointer-events: none;
@@ -56507,7 +56505,7 @@ exports[`Storyshots List With Check List 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -56560,7 +56558,7 @@ exports[`Storyshots List With Check List 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -56615,7 +56613,7 @@ exports[`Storyshots List With Check List 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
   color: #B6BBC6;
   pointer-events: none;
@@ -56639,7 +56637,7 @@ exports[`Storyshots List With Check List 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
   color: #FFFFFF;
   font-weight: 500;
@@ -56934,7 +56932,7 @@ exports[`Storyshots List With Check List 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -57414,7 +57412,7 @@ exports[`Storyshots List With Check List 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -57883,7 +57881,7 @@ exports[`Storyshots List With Check List 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -58352,7 +58350,7 @@ exports[`Storyshots List With Check List 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -58712,7 +58710,7 @@ exports[`Storyshots List With Childrens 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -58765,7 +58763,7 @@ exports[`Storyshots List With Childrens 1`] = `
   align-content: center;
   color: #1778FB;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
 }
 
@@ -58820,7 +58818,7 @@ exports[`Storyshots List With Childrens 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
   color: #B6BBC6;
   pointer-events: none;
@@ -58878,7 +58876,7 @@ exports[`Storyshots List With Childrens 1`] = `
   align-content: center;
   color: #212632;
   font-weight: 400;
-  padding: 7px 16px;
+  padding: 3px 16px;
   font-size: 12px;
   color: #FFFFFF;
   font-weight: 500;
@@ -59192,7 +59190,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -59661,7 +59659,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -60131,7 +60129,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -60616,7 +60614,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -61099,7 +61097,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -61558,7 +61556,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -62028,7 +62026,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -62488,7 +62486,7 @@ exports[`Storyshots List With Childrens 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -63596,7 +63594,7 @@ exports[`Storyshots Modal Normal 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -64480,7 +64478,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                       "listItemFontWeightFocused": 500,
                       "listItemMargin": "0 0 4px",
                       "listItemPaddingLarge": "8px 16px",
-                      "listItemPaddingMedium": "7px 16px",
+                      "listItemPaddingMedium": "3px 16px",
                       "listItemSeparatorColor": "#EFF2F7",
                       "listNavItemBackgroundColorDisabled": "#FFFFFF",
                       "listNavItemColorActive": "#1778FB",
@@ -65025,7 +65023,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     "listItemFontWeightFocused": 500,
                     "listItemMargin": "0 0 4px",
                     "listItemPaddingLarge": "8px 16px",
-                    "listItemPaddingMedium": "7px 16px",
+                    "listItemPaddingMedium": "3px 16px",
                     "listItemSeparatorColor": "#EFF2F7",
                     "listNavItemBackgroundColorDisabled": "#FFFFFF",
                     "listNavItemColorActive": "#1778FB",
@@ -65497,7 +65495,7 @@ exports[`Storyshots NavigationBar Normal 1`] = `
                     "listItemFontWeightFocused": 500,
                     "listItemMargin": "0 0 4px",
                     "listItemPaddingLarge": "8px 16px",
-                    "listItemPaddingMedium": "7px 16px",
+                    "listItemPaddingMedium": "3px 16px",
                     "listItemSeparatorColor": "#EFF2F7",
                     "listNavItemBackgroundColorDisabled": "#FFFFFF",
                     "listNavItemColorActive": "#1778FB",
@@ -66224,7 +66222,7 @@ exports[`Storyshots Notification Error 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -66744,7 +66742,7 @@ exports[`Storyshots Notification Normal 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -67264,7 +67262,7 @@ exports[`Storyshots Notification Success 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -67787,7 +67785,7 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -68460,7 +68458,7 @@ exports[`Storyshots Pagination Loading 1`] = `
                 "listItemFontWeightFocused": 500,
                 "listItemMargin": "0 0 4px",
                 "listItemPaddingLarge": "8px 16px",
-                "listItemPaddingMedium": "7px 16px",
+                "listItemPaddingMedium": "3px 16px",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listNavItemBackgroundColorDisabled": "#FFFFFF",
                 "listNavItemColorActive": "#1778FB",
@@ -69138,7 +69136,7 @@ exports[`Storyshots Pagination Normal 1`] = `
                 "listItemFontWeightFocused": 500,
                 "listItemMargin": "0 0 4px",
                 "listItemPaddingLarge": "8px 16px",
-                "listItemPaddingMedium": "7px 16px",
+                "listItemPaddingMedium": "3px 16px",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listNavItemBackgroundColorDisabled": "#FFFFFF",
                 "listNavItemColorActive": "#1778FB",
@@ -69692,7 +69690,7 @@ exports[`Storyshots Search Normal 1`] = `
             "listItemFontWeightFocused": 500,
             "listItemMargin": "0 0 4px",
             "listItemPaddingLarge": "8px 16px",
-            "listItemPaddingMedium": "7px 16px",
+            "listItemPaddingMedium": "3px 16px",
             "listItemSeparatorColor": "#EFF2F7",
             "listNavItemBackgroundColorDisabled": "#FFFFFF",
             "listNavItemColorActive": "#1778FB",
@@ -70166,7 +70164,7 @@ exports[`Storyshots Search Normal 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -70720,7 +70718,7 @@ exports[`Storyshots SelectField Disabled 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -71308,7 +71306,7 @@ exports[`Storyshots SelectField Error 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -71896,7 +71894,7 @@ exports[`Storyshots SelectField Normal 1`] = `
               "listItemFontWeightFocused": 500,
               "listItemMargin": "0 0 4px",
               "listItemPaddingLarge": "8px 16px",
-              "listItemPaddingMedium": "7px 16px",
+              "listItemPaddingMedium": "3px 16px",
               "listItemSeparatorColor": "#EFF2F7",
               "listNavItemBackgroundColorDisabled": "#FFFFFF",
               "listNavItemColorActive": "#1778FB",
@@ -72762,7 +72760,7 @@ exports[`Storyshots Slider Range 1`] = `
                 "listItemFontWeightFocused": 500,
                 "listItemMargin": "0 0 4px",
                 "listItemPaddingLarge": "8px 16px",
-                "listItemPaddingMedium": "7px 16px",
+                "listItemPaddingMedium": "3px 16px",
                 "listItemSeparatorColor": "#EFF2F7",
                 "listNavItemBackgroundColorDisabled": "#FFFFFF",
                 "listNavItemColorActive": "#1778FB",
@@ -74537,7 +74535,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -75064,7 +75062,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -75775,7 +75773,7 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -76263,7 +76261,7 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -76751,7 +76749,7 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -77239,7 +77237,7 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -77870,7 +77868,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -78358,7 +78356,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -78846,7 +78844,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
@@ -79334,7 +79332,7 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "listItemFontWeightFocused": 500,
                   "listItemMargin": "0 0 4px",
                   "listItemPaddingLarge": "8px 16px",
-                  "listItemPaddingMedium": "7px 16px",
+                  "listItemPaddingMedium": "3px 16px",
                   "listItemSeparatorColor": "#EFF2F7",
                   "listNavItemBackgroundColorDisabled": "#FFFFFF",
                   "listNavItemColorActive": "#1778FB",
