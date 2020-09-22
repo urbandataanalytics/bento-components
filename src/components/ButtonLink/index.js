@@ -56,16 +56,7 @@ const StyledButtonLink = styled.button`
 `;
 
 const IconWrapper = styled.span`
-  margin: ${props =>
-    props.size === 'small'
-      ? props.direction === 'left'
-        ? '0 8px 0 0'
-        : '0 0 0 8px'
-      : props.direction === 'left'
-      ? '0 16px 0 0'
-      : '0 0 0 16px'};
-  position: relative;
-  top: -1px;
+  margin: ${props => (props.direction === 'left' ? '0 8px 0 0' : '0 0 0 8px')};
   & > svg {
     width: ${props =>
       props.size === 'small' ? '16px' : props.size === 'medium' ? '24px' : '32px'};

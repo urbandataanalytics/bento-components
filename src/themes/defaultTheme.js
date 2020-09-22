@@ -441,7 +441,7 @@ const components = {
   listItemMargin: '0 0 4px',
   listItemFontSize: '12px',
   listItemBorderRadius: shapes.borderRadiusSmall,
-  listItemPaddingMedium: `7px ${spacings.small3}`,
+  listItemPaddingMedium: `3px ${spacings.small3}`,
   listItemPaddingLarge: `8px ${spacings.small3}`,
   listItemFontSizeMedium: '12px',
   listItemFontSizeLarge: '14px',
