@@ -2,7 +2,7 @@ name: Publish Storybook in develop
 on:
   push:
     branches:
-      - feature/next-storybook
+      - develop
 
 jobs:
   publish:
