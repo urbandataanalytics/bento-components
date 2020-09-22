@@ -27,7 +27,7 @@ jobs:
         run: yarn
 
       - name: build storybook
-        run: yarn build:storybook -o next
+        run: yarn build:storybook -o next/next
 
       - name: Deploy storybook to gh-pages /next
         uses: peaceiris/actions-gh-pages@v3
