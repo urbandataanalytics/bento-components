@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots SwitchButtons Normal 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="SwitchButtons__StyledSwitchButtonsContainer-cs8esz-0 eFSafg"
+  >
+    <button
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="first"
+    >
+      First
+    </button>
+    <button
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 dKgKYk"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="second"
+    >
+      Second
+    </button>
+    <button
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 dKgKYk"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="third"
+    >
+      Value
+    </button>
+  </div>
+</div>
+`;

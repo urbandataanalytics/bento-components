@@ -9,5 +9,9 @@ module.exports = {
   },
   setupFiles: ['raf/polyfill', './config/enzymeConfig', './config/registerContext'],
   setupFilesAfterEnv: ['./config/jestSetupFramework'],
-  snapshotSerializers: ['enzyme-to-json/serializer']
+  snapshotSerializers: ['enzyme-to-json/serializer'],
+  transform: {
+    '^.+\\.stories\\.jsx?$': '@storybook/addon-storyshots/injectFileName',
+    '^.+\\.jsx?$': 'babel-jest'
+  }
 };

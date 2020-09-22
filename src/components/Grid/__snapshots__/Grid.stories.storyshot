@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Grid Playground 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="Grid__StyledGrid-sc-1v5uqg8-0 cBiLcn"
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": "8px",
+          "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "padding": "3rem 0",
+          "textAlign": "center",
+        }
+      }
+    >
+      1
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": "8px",
+          "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "padding": "3rem 0",
+          "textAlign": "center",
+        }
+      }
+    >
+      2
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": "8px",
+          "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "padding": "3rem 0",
+          "textAlign": "center",
+        }
+      }
+    >
+      3
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": "8px",
+          "boxShadow": "0px 8px 16px rgba(54, 60, 75, 0.1)",
+          "fontSize": "3rem",
+          "fontWeight": "bold",
+          "padding": "3rem 0",
+          "textAlign": "center",
+        }
+      }
+    >
+      4
+    </div>
+  </div>
+</div>
+`;

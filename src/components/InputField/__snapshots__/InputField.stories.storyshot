@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots InputField Disabled 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div>
+    <label
+      className="InputField__Label-sc-1kf04eo-3 cqcTdW"
+    >
+      <input
+        className="InputField__Input-sc-1kf04eo-2 ixiXFC"
+        disabled={true}
+        onChange={[Function]}
+        placeholder="Placeholder text"
+        type="text"
+        value="Value text"
+      />
+      <p
+        className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+        disabled={true}
+      >
+        Label text
+      </p>
+    </label>
+    <small
+      className="InputField__HelpText-sc-1kf04eo-1 gwNDae"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InputField Error 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div>
+    <label
+      className="InputField__Label-sc-1kf04eo-3 cqcTdW"
+    >
+      <input
+        className="InputField__Input-sc-1kf04eo-2 ixiXFC error"
+        disabled={false}
+        onChange={[Function]}
+        placeholder="Placeholder text"
+        type="text"
+        value="Value text"
+      />
+      <p
+        className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+        disabled={false}
+      >
+        Label text
+      </p>
+    </label>
+    <small
+      className="InputField__HelpText-sc-1kf04eo-1 gwNDae error"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InputField Normal 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div>
+    <label
+      className="InputField__Label-sc-1kf04eo-3 cqcTdW"
+    >
+      <input
+        className="InputField__Input-sc-1kf04eo-2 ixiXFC"
+        disabled={false}
+        onChange={[Function]}
+        placeholder="Placeholder text"
+        type="text"
+        value="Value text"
+      />
+      <p
+        className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+        disabled={false}
+      >
+        Label text
+      </p>
+    </label>
+    <small
+      className="InputField__HelpText-sc-1kf04eo-1 gwNDae"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
