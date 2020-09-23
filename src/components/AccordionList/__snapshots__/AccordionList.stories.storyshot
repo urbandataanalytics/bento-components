@@ -5,7 +5,7 @@ exports[`Storyshots AccordionList Expand All 1`] = `
   className="AccordionList__StyledAccordionList-sc-1xrig2d-0 iktzqh"
 >
   <div
-    className="Accordion__StyledAccordionLabel-jp5rw6-0 gAhHxh"
+    className="Accordion__StyledAccordionLabel-jp5rw6-0 ePhDwd"
     onClick={[Function]}
   >
     <div
@@ -486,7 +486,7 @@ exports[`Storyshots AccordionList Expand All 1`] = `
     </div>
   </div>
   <div
-    className="Accordion__StyledAccordionLabel-jp5rw6-0 lmDaCJ"
+    className="Accordion__StyledAccordionLabel-jp5rw6-0 kMtqdw"
     onClick={[Function]}
   >
     <div
@@ -974,7 +974,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
   className="AccordionList__StyledAccordionList-sc-1xrig2d-0 iktzqh"
 >
   <div
-    className="Accordion__StyledAccordionLabel-jp5rw6-0 gAhHxh"
+    className="Accordion__StyledAccordionLabel-jp5rw6-0 ePhDwd"
     onClick={[Function]}
   >
     <div
@@ -1913,7 +1913,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
     </div>
   </div>
   <div
-    className="Accordion__StyledAccordionLabel-jp5rw6-0 gAhHxh"
+    className="Accordion__StyledAccordionLabel-jp5rw6-0 ePhDwd"
     onClick={[Function]}
   >
     <div
@@ -4734,7 +4734,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
     </div>
   </div>
   <div
-    className="Accordion__StyledAccordionLabel-jp5rw6-0 lmDaCJ"
+    className="Accordion__StyledAccordionLabel-jp5rw6-0 kMtqdw"
     onClick={[Function]}
   >
     <div
@@ -5678,7 +5678,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
 exports[`Storyshots AccordionList Single Accordion 1`] = `
 Array [
   <div
-    className="Accordion__StyledAccordionLabel-jp5rw6-0 gAhHxh"
+    className="Accordion__StyledAccordionLabel-jp5rw6-0 ePhDwd"
     onClick={[Function]}
   >
     <div

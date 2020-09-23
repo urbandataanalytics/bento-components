@@ -964,7 +964,7 @@ Array [
       className="Drawer__StyledDrawerContent-z7ijst-5 ieGbPm"
     >
       <div
-        className="Accordion__StyledAccordionLabel-jp5rw6-0 gAhHxh"
+        className="Accordion__StyledAccordionLabel-jp5rw6-0 ePhDwd"
         onClick={[Function]}
       >
         <div
@@ -3313,7 +3313,7 @@ Array [
         </div>
       </div>
       <div
-        className="Accordion__StyledAccordionLabel-jp5rw6-0 gAhHxh"
+        className="Accordion__StyledAccordionLabel-jp5rw6-0 ePhDwd"
         onClick={[Function]}
       >
         <div
