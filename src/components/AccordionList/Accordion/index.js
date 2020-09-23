@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 const StyledAccordionLabel = styled.div`
   width: 100%;
   cursor: pointer;
-  min-height: ${({ theme }) => theme.components.accordionMinHeight};
+  height: ${({ theme }) => theme.components.accordionMinHeight};
   border-bottom: ${({ theme, expanded }) =>
     expanded ? '1px solid transparent' : theme.components.accordionBorder};
   padding: ${({ theme }) => theme.components.accordionPadding};
