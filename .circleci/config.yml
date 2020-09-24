@@ -29,7 +29,7 @@ jobs:
 
       - run:
           name: Build icons
-          command: yarn build:icons &&
+          command: yarn build:icons
 
       - run:
           name: Setup Code Climate test-reporter
