@@ -26,11 +26,6 @@ jobs:
       - run:
           name: Eslint
           command: yarn lint
-
-      - run:
-          name: Build icons
-          command: yarn build:icons
-
       - run:
           name: Setup Code Climate test-reporter
           command: |
@@ -40,8 +35,8 @@ jobs:
           when: always
 
       - run:
-          name: Generate code coverage
-          command: './node_modules/.bin/nyc --reporter=lcov  yarn test:ci --maxWorkers=2'
+          name: Tests and coverage
+          command: yarn test:ci --maxWorkers=2
 
       - run:
           name: Send coverage report to Code Climate
@@ -52,10 +47,6 @@ jobs:
       - store_artifacts:
           path: ./coverage/lcov.info
           prefix: tests
-
-      - run:
-          name: Tests
-          command: yarn test:ci --maxWorkers=2
 
 workflows:
   version: 2
