@@ -28,6 +28,24 @@ jobs:
           command: yarn lint
 
       - run:
+          name: Setup Code Climate test-reporter
+          command: |
+            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+            chmod +x ./cc-test-reporter
+            ./cc-test-reporter before-build
+          when: always
+
+      - run:
+          name: Tests
+          command: nyc --reporter=lcov  yarn test:ci --maxWorkers=2
+
+      - run:
+          name: Send coverage report to Code Climate
+          command:
+            ./cc-test-reporter after-build -t lcov
+          when: always
+
+      - run:
           name: Tests
           command: yarn test:ci --maxWorkers=2
 
