@@ -12,8 +12,8 @@ export default {
 const getCommonProps = variant => {
   return {
     onChange: action('onChange'),
-    min: number('Min', 3360710),
-    max: number('Max', 21695812574.88),
+    min: number('Min', 1),
+    max: number('Max', 500),
     step: number('Step', 1),
     sufix: variant === 'range' ? text('Sufix', '€/m2') : '',
     prefix: variant === 'range' ? text('Prefix', '') : '',
@@ -35,7 +35,7 @@ export const Normal = () => {
 };
 
 export const Range = () => {
-  const [values, setValues] = useState([3360710, 21695812574.8]);
+  const [values, setValues] = useState([0, 500]);
 
   const resetSlider = () => {
     setValues([50, 200]);

@@ -37,7 +37,7 @@ exports[`Storyshots Slider Normal 1`] = `
             "height": undefined,
             "left": "0%",
             "right": "auto",
-            "width": "0%",
+            "width": "9.819639278557114%",
           }
         }
       />
@@ -46,9 +46,9 @@ exports[`Storyshots Slider Normal 1`] = `
       />
       <div
         aria-disabled={false}
-        aria-valuemax={21695812574.88}
-        aria-valuemin={3360710}
-        aria-valuenow={3360710}
+        aria-valuemax={500}
+        aria-valuemin={1}
+        aria-valuenow={50}
         className="rc-slider-handle"
         onBlur={[Function]}
         onKeyDown={[Function]}
@@ -59,7 +59,7 @@ exports[`Storyshots Slider Normal 1`] = `
             "backgroundColor": "#1778FB",
             "borderColor": "#1778FB",
             "height": "16px",
-            "left": "0%",
+            "left": "9.819639278557114%",
             "marginTop": "-6px",
             "right": "auto",
             "transform": "translateX(-50%)",
@@ -591,7 +591,7 @@ exports[`Storyshots Slider Range 1`] = `
             "height": undefined,
             "left": "0%",
             "right": "auto",
-            "width": "99.99999999594328%",
+            "width": "100%",
           }
         }
       />
@@ -600,9 +600,9 @@ exports[`Storyshots Slider Range 1`] = `
       />
       <div
         aria-disabled={false}
-        aria-valuemax={21695812574.88}
-        aria-valuemin={3360710}
-        aria-valuenow={3360710}
+        aria-valuemax={500}
+        aria-valuemin={1}
+        aria-valuenow={1}
         className="rc-slider-handle rc-slider-handle-1"
         onBlur={[Function]}
         onKeyDown={[Function]}
@@ -624,9 +624,9 @@ exports[`Storyshots Slider Range 1`] = `
       />
       <div
         aria-disabled={false}
-        aria-valuemax={21695812574.88}
-        aria-valuemin={3360710}
-        aria-valuenow={21695812574}
+        aria-valuemax={500}
+        aria-valuemin={1}
+        aria-valuenow={500}
         className="rc-slider-handle rc-slider-handle-2"
         onBlur={[Function]}
         onKeyDown={[Function]}
@@ -637,7 +637,7 @@ exports[`Storyshots Slider Range 1`] = `
             "backgroundColor": "#1778FB",
             "borderColor": "#1778FB",
             "height": "16px",
-            "left": "99.99999999594328%",
+            "left": "100%",
             "marginTop": "-6px",
             "right": "auto",
             "transform": "translateX(-50%)",
@@ -657,8 +657,8 @@ exports[`Storyshots Slider Range 1`] = `
         className="Slider__InputContainer-sc-14leke7-1 bqScOy"
       >
         <input
-          className="Slider__MinMaxInput-sc-14leke7-3 clHSum"
-          defaultValue="3,360,710"
+          className="Slider__MinMaxInput-sc-14leke7-3 cxeFJZ"
+          defaultValue={0}
           name="min"
           onBlur={[Function]}
           onKeyDown={[Function]}
@@ -676,8 +676,8 @@ exports[`Storyshots Slider Range 1`] = `
         className="Slider__InputContainer-sc-14leke7-1 bqScOy"
       >
         <input
-          className="Slider__MinMaxInput-sc-14leke7-3 iZwgUB"
-          defaultValue="21,695,812,574.8"
+          className="Slider__MinMaxInput-sc-14leke7-3 elFqHh"
+          defaultValue={500}
           name="max"
           onBlur={[Function]}
           onKeyDown={[Function]}
