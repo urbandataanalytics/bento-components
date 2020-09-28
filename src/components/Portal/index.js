@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 
 export default ({ children, renderInto }) => {
@@ -18,6 +18,7 @@ export default ({ children, renderInto }) => {
         node.removeChild(el);
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (typeof window !== 'undefined' && el) {

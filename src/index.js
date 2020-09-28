@@ -33,6 +33,9 @@ export * from './components/List';
 export { default as ListItem } from './components/List/ListItem';
 export * from './components/List/ListItem';
 
+export { default as CheckListItem } from './components/List/CheckListItem';
+export * from './components/List/CheckListItem';
+
 export { default as LinkListItem } from './components/List/LinkListItem';
 export * from './components/List/LinkListItem';
 
@@ -57,8 +60,11 @@ export * from './components/Tabs';
 export { default as Tab } from './components/Tabs/Tab';
 export * from './components/Tabs/Tab';
 
-export { default as Accordion } from './components/Accordion';
-export * from './components/Accordion';
+export { default as AccordionList } from './components/AccordionList';
+export * from './components/AccordionList';
+
+export { default as Accordion } from './components/AccordionList/Accordion';
+export * from './components/AccordionList/Accordion';
 
 export { default as SwitchButtons } from './components/SwitchButtons';
 export * from './components/SwitchButtons';
@@ -101,3 +107,12 @@ export * from './components/Map/MapLegend';
 
 export { default as MapActions } from './components/Map/MapActions';
 export * from './components/Map/MapActions';
+
+export { default as InfinitePagination } from './components/InfinitePagination';
+export * from './components/InfinitePagination';
+
+export { default as Slider } from './components/Slider';
+export * from './components/Slider';
+
+export { default as Search } from './components/Search';
+export * from './components/Search';

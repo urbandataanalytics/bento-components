@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Avatar Normal 1`] = `
+<div
+  className="Avatar__StyledAvatar-sc-1ivfczv-0 liEgeh"
+  size="medium"
+>
+  <img
+    alt="John Doe photo"
+    className="Avatar__StyledImg-sc-1ivfczv-1 gmMTzE"
+    size="medium"
+    src="https://atlantaseo.marketing/wp-content/uploads/avatar-2.png"
+  />
+</div>
+`;
+
+exports[`Storyshots Avatar With Initials 1`] = `
+<div
+  className="Avatar__StyledAvatar-sc-1ivfczv-0 foRswF"
+  size="medium"
+>
+  JD
+</div>
+`;

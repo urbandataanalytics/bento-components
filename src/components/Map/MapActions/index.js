@@ -16,7 +16,7 @@ const StyledContainer = styled.div`
   border: 1px solid ${({ theme }) => theme.color.charcoal200};
   box-sizing: border-box;
   border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
-  padding: 12px;
+  padding: 7px 15px;
 `;
 
 const MapActions = forwardRef((props, ref) => {

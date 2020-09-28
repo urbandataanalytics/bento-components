@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Card Loading 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <article
+    className="Card__StyledCard-sc-1saz4sv-0 dYtRjf"
+  >
+    <div
+      className="CardSkeleton__StyledSkeleton-br1eh9-0 iwhqyc"
+    >
+      <div
+        className="CardSkeleton__StyledHeader-br1eh9-1 bhAKOw"
+      >
+        <i
+          className="Skeleton__StyledSkeleton-imrnkm-0 hsMXIY"
+          height="10px"
+          width="40px"
+        />
+        <div>
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        className="CardSkeleton__StyledSummary-br1eh9-4 liREaD"
+      >
+        <div>
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 gYzKLk"
+            height="10px"
+            width="60%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+        </div>
+        <div>
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 gYzKLk"
+            height="10px"
+            width="60%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+        </div>
+        <div>
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 gYzKLk"
+            height="10px"
+            width="60%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+        </div>
+        <div>
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 gYzKLk"
+            height="10px"
+            width="60%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        className="CardSkeleton__StyledSegment-br1eh9-2 iTxAYU"
+      >
+        <div>
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 gYzKLk"
+            height="10px"
+            width="60%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+        </div>
+        <div>
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 gYzKLk"
+            height="10px"
+            width="60%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 cYVeeq"
+            height="10px"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        className="CardSkeleton__StyledContent-br1eh9-3 ljOLoD"
+      />
+    </div>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Card Playground 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <article
+    className="Card__StyledCard-sc-1saz4sv-0 dYtRjf"
+    content="Lorem ipsum dolor sit amet"
+  >
+    <header
+      className="CardHeader__StyledCardHeader-dpp5o1-0 hrzGbb"
+    >
+      <div
+        className="CardHeader__StyledContainer-dpp5o1-1 hDziRf"
+      >
+        <div>
+          Left
+        </div>
+        <div>
+          <div>
+            Title
+          </div>
+          <div>
+            Subtitle
+          </div>
+        </div>
+        <div
+          className="CardHeader__StyledRightContent-dpp5o1-3 iyVebu"
+        >
+          Right
+        </div>
+      </div>
+      <div
+        className="CardHeader__StyledChildrenContainer-dpp5o1-2 esYIOD"
+      >
+        Extra content
+      </div>
+    </header>
+    <div
+      className="CardContent__StyledCardContent-dh88vi-0 cQuoHH"
+    >
+      Lorem ipsum dolor sit amet
+    </div>
+  </article>
+</div>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots LinkList Normal 1`] = `
+<ul
+  className="List__StyledList-sc-1lqmygi-0 hnvVOG"
+  size="medium"
+  style={
+    Object {
+      "margin": "20px",
+    }
+  }
+>
+  <li
+    className="ListItem__StyledListItem-sc-4kscw7-4 laOoIU"
+    onClick={[Function]}
+    size="medium"
+  >
+    <a
+      className="TextLink__StyledTextLink-qefl1h-0 kxSbQp ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+      disabled={false}
+      href="#"
+      size="medium"
+    >
+      Link default
+    </a>
+  </li>
+  <li
+    className="ListItem__StyledListItem-sc-4kscw7-4 bTeMQX"
+    onClick={[Function]}
+    size="medium"
+  >
+    <a
+      className="TextLink__StyledTextLink-qefl1h-0 kxSbQp ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+      disabled={false}
+      href="#"
+      size="medium"
+    >
+      Link active
+      <div
+        className="ListItem__StyledRightContent-sc-4kscw7-2 iQPkmh"
+      >
+        <span>
+          •
+        </span>
+      </div>
+    </a>
+  </li>
+  <li
+    className="ListItem__StyledListItem-sc-4kscw7-4 fPFxId"
+    disabled={true}
+    onClick={[Function]}
+    size="medium"
+  >
+    <a
+      className="TextLink__StyledTextLink-qefl1h-0 KsuGR ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+      disabled={true}
+      href="#"
+      size="medium"
+    >
+      Link disabled
+    </a>
+  </li>
+</ul>
+`;

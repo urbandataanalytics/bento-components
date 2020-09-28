@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Skeleton Playground 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <i
+    className="Skeleton__StyledSkeleton-imrnkm-0 ewHUWZ"
+    height="10px"
+    width="100px"
+  />
+</div>
+`;

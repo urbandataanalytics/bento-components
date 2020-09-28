@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Loader Normal 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "center",
+      "display": "flex",
+      "height": "400px",
+      "justifyContent": "center",
+    }
+  }
+>
+  <span
+    className="Loader__StyledLoader-sc-14abcxu-0 hbxdxt"
+    color="primary"
+    size="medium"
+  >
+    <span
+      className="Loader__StyledLoaderInner-sc-14abcxu-1 eDDMmp"
+      color="primary"
+    />
+  </span>
+</div>
+`;

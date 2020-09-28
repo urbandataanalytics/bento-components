@@ -2,6 +2,7 @@ import React from 'react';
 import { number, select } from '@storybook/addon-knobs';
 import List from './index';
 import ListItem from './ListItem/';
+import CheckListItem from './CheckListItem/';
 import IconFolder from '../../icons/Folder/index';
 import TextLink from '../TextLink';
 import { IconUser } from '../../icons';
@@ -47,6 +48,9 @@ export const WithChildrens = () => {
     <div style={containerStyle}>
       <List size={select('Sizes', ['medium', 'large'], 'medium')}>
         <ListItem leftContent={<IconFolder />}>Text</ListItem>
+        <ListItem focused leftContent={<IconFolder />}>
+          Text
+        </ListItem>
         <ListItem rightContent={<IconFolder />} active>
           Text
         </ListItem>
@@ -69,6 +73,25 @@ export const WithChildrens = () => {
   );
 };
 
+export const WithCheckList = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <List size={select('Sizes', ['medium', 'large'], 'medium')}>
+        <CheckListItem active>Active</CheckListItem>
+        <CheckListItem>Not active</CheckListItem>
+        <CheckListItem active>Active</CheckListItem>
+        <CheckListItem active>Active</CheckListItem>
+        <CheckListItem active>Active</CheckListItem>
+        <CheckListItem disabled>Disabled</CheckListItem>
+      </List>
+    </div>
+  );
+};
+
 export const LinkList = () => {
   const containerStyle = {
     padding: '2rem'
@@ -79,7 +102,9 @@ export const LinkList = () => {
       <List {...getCommonProps()}>
         <LinkListItem href={'https://google.com'}>Link 1</LinkListItem>
         <LinkListItem active={true}>Link 2</LinkListItem>
-        <LinkListItem href={'#test'}>Link 3</LinkListItem>
+        <LinkListItem focused href={'#test'}>
+          Link 3
+        </LinkListItem>
       </List>
     </div>
   );
