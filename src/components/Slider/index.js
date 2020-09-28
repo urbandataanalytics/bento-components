@@ -116,7 +116,7 @@ const Slider = React.forwardRef((props, ref) => {
   const inputMax = useRef(null);
 
   const getValueLength = value => {
-    return value || !isNaN(value) ? value.toString().length : 0;
+    return (value || !isNaN(value) ? value.toString().length : 0) + 2;
   };
 
   useEffect(() => {
@@ -168,11 +168,11 @@ const Slider = React.forwardRef((props, ref) => {
     if (type === 'min') {
       value = value <= current[1] && value >= min ? value : current[1];
       current[0] = value < min ? min : value;
-      setInputValue(type, current[0]);
+      setInputValue(type, new Intl.NumberFormat('en').format(current[0]));
     } else {
       value = value >= current[0] && value <= max ? value : current[0];
       current[1] = value > max ? max : value;
-      setInputValue(type, current[1]);
+      setInputValue(type, new Intl.NumberFormat('en').format(current[1]));
     }
 
     setValues(current);
@@ -181,10 +181,10 @@ const Slider = React.forwardRef((props, ref) => {
 
   const setInputValue = (type, value) => {
     if (type === 'min' && inputMin && inputMin.current) {
-      inputMin.current.value = Number(value);
+      inputMin.current.value = new Intl.NumberFormat('en').format(value);
     }
     if (type === 'max' && inputMax && inputMax.current) {
-      inputMax.current.value = Number(value);
+      inputMax.current.value = new Intl.NumberFormat('en').format(value);
     }
   };
 
@@ -257,7 +257,7 @@ const Slider = React.forwardRef((props, ref) => {
                 onKeyDown={handleKeyDown}
                 pattern={REGEX_PATTERN_NUMBER}
                 type="text"
-                defaultValue={Number(values[0])}
+                defaultValue={new Intl.NumberFormat('en').format(values[0])}
                 valueLength={getValueLength(values[0])}
               />
               {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
@@ -272,7 +272,7 @@ const Slider = React.forwardRef((props, ref) => {
                 onBlur={handleBlur}
                 onKeyDown={handleKeyDown}
                 type="text"
-                defaultValue={Number(values[1])}
+                defaultValue={new Intl.NumberFormat('en').format(values[1])}
                 valueLength={getValueLength(values[1])}
               />
               {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
