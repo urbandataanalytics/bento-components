@@ -93,7 +93,7 @@ const MapLegend = forwardRef((props, ref) => {
   return (
     <StyledContainer offsetLeft={offsetLeft} offsetBottom={offsetBottom} {...other}>
       {isLoading ? (
-        <MapLegendSkeleton actions={actions.length} />
+        <MapLegendSkeleton actions={actions.length} hasDescription={!!description} />
       ) : (
         <>
           <StyledWrapper>

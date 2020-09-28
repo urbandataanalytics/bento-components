@@ -43,12 +43,12 @@ const StyledAction = styled.span`
     display: inline-block;
   }
 `;
-const MapLegendSkeleton = ({ actions }) => {
+const MapLegendSkeleton = ({ actions, hasDescription }) => {
   return (
     <Style>
       <StyledContainer>
         <Skeleton height="15px" width="50%" />
-        <Skeleton height="8px" width="30%" />
+        {hasDescription && <Skeleton height="8px" width="30%" />}
         <Skeleton height="10px" width="100%" />
         <StyledMinMax>
           <Skeleton height="8px" width="50px" />
