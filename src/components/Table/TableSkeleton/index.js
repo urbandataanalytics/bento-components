@@ -13,13 +13,6 @@ const StyledSkeleton = styled.table`
   thead {
     background-color: ${({ theme }) => theme.color.charcoal200};
     th {
-      &:nth-child(2),
-      &:nth-child(16),
-      &:nth-child(15),
-      &:nth-child(14),
-      &:nth-child(13) {
-        background-color: ${({ theme }) => theme.color.charcoal300};
-      }
       padding: 15px ${({ theme }) => theme.spacings.small3};
     }
   }
@@ -32,14 +25,6 @@ const StyledSkeleton = styled.table`
         line-height: 0;
         padding: ${({ variant, theme }) => (variant === 'medium' ? '26px' : '9px')}
           ${({ theme }) => theme.spacings.small3};
-
-        &:nth-child(2),
-        &:nth-child(16),
-        &:nth-child(15),
-        &:nth-child(14),
-        &:nth-child(13) {
-          background-color: ${({ theme }) => theme.color.charcoal200};
-        }
       }
     }
   }

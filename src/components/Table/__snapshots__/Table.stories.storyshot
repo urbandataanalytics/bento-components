@@ -9,7 +9,7 @@ exports[`Storyshots Table Loading 1`] = `
   }
 >
   <table
-    className="TableSkeleton__StyledSkeleton-yfxmne-0 fzGijK"
+    className="TableSkeleton__StyledSkeleton-yfxmne-0 jFvhKE"
   >
     <thead>
       <tr>
