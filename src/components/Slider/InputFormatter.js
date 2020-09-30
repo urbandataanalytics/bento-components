@@ -64,7 +64,7 @@ const InputFormatter = ({
         pattern={REGEX_PATTERN_NUMBER}
         type="text"
         value={Number(inputValue)}
-        valueLength={getValueLength(value) + 1}
+        valueLength={getValueLength(value)}
       />
     </>
   ) : (
@@ -72,7 +72,7 @@ const InputFormatter = ({
       <MinMaxInput
         type="text"
         value={format(value)}
-        valueLength={getValueLength(value) + 1}
+        valueLength={getValueLength(format(value))}
         onClick={() => toggleEditing(true)}
         readOnly
       />
