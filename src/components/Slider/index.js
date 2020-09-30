@@ -1,10 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import RcSlider from 'rc-slider';
 import { Range } from 'rc-slider';
 import SliderSkeleton from './SliderSkeleton';
 import defaultTheme from '../../themes/defaultTheme';
+import InputFormatter from './InputFormatter';
 
 import 'rc-slider/assets/index.css';
 
@@ -24,32 +25,6 @@ const PrefixSuffix = styled.span`
   border-bottom: 1px solid ${({ theme }) => theme.color.charcoal400};
   color: ${({ theme }) => theme.color.charcoal800};
   padding: ${({ theme }) => theme.spacings.small1} ${({ theme }) => theme.spacings.small2};
-`;
-
-const MinMaxInput = styled.input`
-  ${({ theme }) => theme.texts.p2b};
-  border: none;
-  border-bottom: 1px solid ${({ theme }) => theme.color.charcoal400};
-  color: ${({ theme }) => theme.color.charcoal800};
-  background-color: transparent;
-  text-align: center;
-  width: ${({ valueLength }) => `${valueLength}ch`};
-  box-sizing: initial;
-  padding: ${({ theme }) => theme.spacings.small1} ${({ theme }) => theme.spacings.small2};
-
-  .prefix {
-    order: -1;
-  }
-
-  &:focus {
-    border-color: ${({ theme }) => theme.color.primary500};
-    background-color: ${({ theme }) => theme.color.primary100};
-
-    ~ span {
-      border-color: ${({ theme }) => theme.color.primary500};
-      background-color: ${({ theme }) => theme.color.primary100};
-    }
-  }
 `;
 
 const StyledContent = styled.div`
@@ -72,8 +47,6 @@ const StyledContent = styled.div`
     border-color: ${({ theme }) => theme.components.sliderHandleDisabledColor} !important;
   }
 `;
-
-const REGEX_PATTERN_NUMBER = 'd+(.d*)?';
 
 const getDefaultValue = ({ value, min, max, variant }) => {
   let result = null;
@@ -103,7 +76,8 @@ const Slider = React.forwardRef((props, ref) => {
     min,
     name,
     onChange = () => {},
-    onAfterChange = () => {},
+    format = value => Number(value),
+    parse = value => Number(value),
     prefix,
     step,
     suffix,
@@ -112,42 +86,23 @@ const Slider = React.forwardRef((props, ref) => {
     ...other
   } = props;
   const [values, setValues] = useState(getDefaultValue({ value, min, max, variant }));
-  const inputMin = useRef(null);
-  const inputMax = useRef(null);
-
-  const getValueLength = value => {
-    return value || !isNaN(value) ? value.toString().length : 0;
-  };
+  const [isEditing, toggleEdditing] = useState({ min: false, max: false });
 
   useEffect(() => {
-    if (variant === 'range') {
-      if (Array.isArray(value) && value.length) {
-        const [minValue, maxValue] = value;
-        setInputValue('min', Number(minValue));
-        setInputValue('max', Number(maxValue));
-      } else {
-        setInputValue('min', Number(min));
-        setInputValue('max', Number(max));
-      }
-    }
-
     setValues(getDefaultValue({ min, max, variant, value }));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [value]);
 
   const handleSliderSimpleChange = value => {
     setValues(value);
-    onChange(value);
   };
 
   const handleSliderChange = value => {
-    const [minValue, maxValue] = value;
-
-    setInputValue('min', Number(minValue));
-    setInputValue('max', Number(maxValue));
-
     setValues(value);
-    onChange(value);
+  };
+
+  const handleAfterChange = () => {
+    onChange(values);
   };
 
   const handleKeyDown = event => {
@@ -168,24 +123,14 @@ const Slider = React.forwardRef((props, ref) => {
     if (type === 'min') {
       value = value <= current[1] && value >= min ? value : current[1];
       current[0] = value < min ? min : value;
-      setInputValue(type, current[0]);
     } else {
       value = value >= current[0] && value <= max ? value : current[0];
       current[1] = value > max ? max : value;
-      setInputValue(type, current[1]);
     }
 
     setValues(current);
     onChange(current);
-  };
-
-  const setInputValue = (type, value) => {
-    if (type === 'min' && inputMin && inputMin.current) {
-      inputMin.current.value = Number(value);
-    }
-    if (type === 'max' && inputMax && inputMax.current) {
-      inputMax.current.value = Number(value);
-    }
+    toggleEdditing({ ...isEditing, [type]: false });
   };
 
   const propStyles = {
@@ -219,8 +164,6 @@ const Slider = React.forwardRef((props, ref) => {
 
   return (
     <StyledContent {...other}>
-      {/*{values && (*/}
-      {/*  <>*/}
       {isLoading ? (
         <SliderSkeleton variant={variant} />
       ) : variant === 'slider' ? (
@@ -229,7 +172,7 @@ const Slider = React.forwardRef((props, ref) => {
           max={max}
           min={min}
           onChange={handleSliderSimpleChange}
-          onAfterChange={() => onAfterChange(values)}
+          onAfterChange={handleAfterChange}
           step={step}
           value={values}
           {...propStyles}
@@ -241,7 +184,7 @@ const Slider = React.forwardRef((props, ref) => {
             max={max}
             min={min}
             onChange={handleSliderChange}
-            onAfterChange={() => onAfterChange(values)}
+            onAfterChange={handleAfterChange}
             ref={ref}
             step={step}
             value={values}
@@ -250,38 +193,34 @@ const Slider = React.forwardRef((props, ref) => {
 
           <MinMaxContainer>
             <InputContainer>
-              <MinMaxInput
-                ref={inputMin}
+              <InputFormatter
+                isEditing={isEditing.min}
+                toggleEditing={value => toggleEdditing({ ...isEditing, min: value })}
                 name="min"
-                onBlur={handleBlur}
-                onKeyDown={handleKeyDown}
-                pattern={REGEX_PATTERN_NUMBER}
-                type="text"
-                defaultValue={Number(values[0])}
-                valueLength={getValueLength(values[0])}
+                value={values[0]}
+                format={format}
+                handleBlur={handleBlur}
+                handleKeyDown={handleKeyDown}
               />
               {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
               {suffix && <PrefixSuffix>{suffix}</PrefixSuffix>}
             </InputContainer>
 
             <InputContainer>
-              <MinMaxInput
-                ref={inputMax}
+              <InputFormatter
+                isEditing={isEditing.max}
+                toggleEditing={value => toggleEdditing({ ...isEditing, max: value })}
                 name="max"
-                pattern={REGEX_PATTERN_NUMBER}
-                onBlur={handleBlur}
-                onKeyDown={handleKeyDown}
-                type="text"
-                defaultValue={Number(values[1])}
-                valueLength={getValueLength(values[1])}
+                value={values[1]}
+                format={format}
+                handleBlur={handleBlur}
+                handleKeyDown={handleKeyDown}
               />
               {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
               {suffix && <PrefixSuffix>{suffix}</PrefixSuffix>}
             </InputContainer>
           </MinMaxContainer>
         </>
-        //   )}
-        // </>
       )}
     </StyledContent>
   );
