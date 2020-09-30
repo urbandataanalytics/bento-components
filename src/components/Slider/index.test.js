@@ -36,19 +36,5 @@ describe(`Slider Component`, () => {
       expect(suffix.hasClass('prefix')).toBe(false);
       expect(suffix.text()).toBe('suffix');
     });
-
-    it('should call onChange when modifying PrefixSuffix input', () => {
-      const event = {
-        preventDefault() {},
-        target: { name: 'min', value: '20' }
-      };
-      const wrapper = shallow(
-        <Slider suffix="suffix" value={[10, 90]} variant="range" {...commonProps} />
-      );
-
-      const minInput = wrapper.find('Slider__MinMaxInput').first();
-      minInput.simulate('blur', event);
-      expect(commonProps.onChange).toBeCalledWith([20, 90]);
-    });
   });
 });
