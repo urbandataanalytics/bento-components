@@ -95,6 +95,41 @@ const getDefaultValue = ({ value, min, max, variant }) => {
   return result;
 };
 
+const DoubleInput = React.forwardRef(
+  ({ isEditing, toggleEditing, name, value, format, handleBlur, handleKeyDown }, ref) => {
+    const getValueLength = value => {
+      return value || !isNaN(value) ? value.toString().length : 0;
+    };
+
+    console.log(value);
+    return isEditing ? (
+      <>
+        <MinMaxInput
+          ref={ref}
+          name={name}
+          onBlur={handleBlur}
+          onKeyDown={handleKeyDown}
+          pattern={REGEX_PATTERN_NUMBER}
+          type="text"
+          defaultValue={Number(value)}
+          valueLength={getValueLength(value) + 1}
+        />
+      </>
+    ) : (
+      <>
+        <MinMaxInput
+          name={`${name}_readOnly`}
+          type="text"
+          value={format(value)}
+          valueLength={getValueLength(value) + 1}
+          onFocus={() => toggleEditing(true)}
+          readOnly
+        />
+      </>
+    );
+  }
+);
+
 const Slider = React.forwardRef((props, ref) => {
   const {
     disabled,
@@ -103,7 +138,8 @@ const Slider = React.forwardRef((props, ref) => {
     min,
     name,
     onChange = () => {},
-    onAfterChange = () => {},
+    format = value => Number(value),
+    parse = value => Number(value),
     prefix,
     step,
     suffix,
@@ -112,6 +148,7 @@ const Slider = React.forwardRef((props, ref) => {
     ...other
   } = props;
   const [values, setValues] = useState(getDefaultValue({ value, min, max, variant }));
+  const [isEditing, toggleEdditing] = useState({ min: false, max: false });
   const inputMin = useRef(null);
   const inputMax = useRef(null);
 
@@ -137,7 +174,6 @@ const Slider = React.forwardRef((props, ref) => {
 
   const handleSliderSimpleChange = value => {
     setValues(value);
-    onChange(value);
   };
 
   const handleSliderChange = value => {
@@ -147,7 +183,10 @@ const Slider = React.forwardRef((props, ref) => {
     setInputValue('max', Number(maxValue));
 
     setValues(value);
-    onChange(value);
+  };
+
+  const handleAfterChange = () => {
+    onChange(values);
   };
 
   const handleKeyDown = event => {
@@ -177,6 +216,7 @@ const Slider = React.forwardRef((props, ref) => {
 
     setValues(current);
     onChange(current);
+    toggleEdditing({ ...isEditing, [type]: false });
   };
 
   const setInputValue = (type, value) => {
@@ -219,8 +259,6 @@ const Slider = React.forwardRef((props, ref) => {
 
   return (
     <StyledContent {...other}>
-      {/*{values && (*/}
-      {/*  <>*/}
       {isLoading ? (
         <SliderSkeleton variant={variant} />
       ) : variant === 'slider' ? (
@@ -229,7 +267,7 @@ const Slider = React.forwardRef((props, ref) => {
           max={max}
           min={min}
           onChange={handleSliderSimpleChange}
-          onAfterChange={() => onAfterChange(values)}
+          onAfterChange={handleAfterChange}
           step={step}
           value={values}
           {...propStyles}
@@ -241,7 +279,7 @@ const Slider = React.forwardRef((props, ref) => {
             max={max}
             min={min}
             onChange={handleSliderChange}
-            onAfterChange={() => onAfterChange(values)}
+            onAfterChange={handleAfterChange}
             ref={ref}
             step={step}
             value={values}
@@ -250,7 +288,7 @@ const Slider = React.forwardRef((props, ref) => {
 
           <MinMaxContainer>
             <InputContainer>
-              <MinMaxInput
+              {/* <MinMaxInput
                 ref={inputMin}
                 name="min"
                 onBlur={handleBlur}
@@ -259,6 +297,16 @@ const Slider = React.forwardRef((props, ref) => {
                 type="text"
                 defaultValue={Number(values[0])}
                 valueLength={getValueLength(values[0])}
+              /> */}
+              <DoubleInput
+                isEditing={isEditing.min}
+                toggleEditing={value => toggleEdditing({ ...isEditing, min: value })}
+                name="min"
+                ref={inputMin}
+                value={values[0]}
+                format={format}
+                handleBlur={handleBlur}
+                handleKeyDown={handleKeyDown}
               />
               {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
               {suffix && <PrefixSuffix>{suffix}</PrefixSuffix>}
@@ -272,7 +320,7 @@ const Slider = React.forwardRef((props, ref) => {
                 onBlur={handleBlur}
                 onKeyDown={handleKeyDown}
                 type="text"
-                defaultValue={Number(values[1])}
+                defaultValue={format(values[1])}
                 valueLength={getValueLength(values[1])}
               />
               {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
@@ -280,8 +328,6 @@ const Slider = React.forwardRef((props, ref) => {
             </InputContainer>
           </MinMaxContainer>
         </>
-        //   )}
-        // </>
       )}
     </StyledContent>
   );
