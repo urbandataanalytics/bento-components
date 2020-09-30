@@ -7,7 +7,7 @@ describe(`MapActions`, () => {
   describe('Normal', () => {
     it('should render children', () => {
       const wrapper = shallow(<MapActions>Test</MapActions>);
-      const message = () => wrapper.find('MapActions__StyledContainer');
+      const message = () => wrapper.find('MapActions__StyledContent');
       expect(message().text()).toBe('Test');
     });
 

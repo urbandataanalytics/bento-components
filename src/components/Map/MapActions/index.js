@@ -50,7 +50,6 @@ const MapActions = forwardRef((props, ref) => {
   const { isLoading, offsetBottom, offsetRight, children, ...other } = props;
   const theme = useTheme();
 
-  console.log('showActions', showActions);
   return (
     <StyledContainer offsetRight={offsetRight} offsetBottom={offsetBottom} {...other}>
       {isLoading ? (
