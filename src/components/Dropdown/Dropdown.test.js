@@ -10,6 +10,28 @@ describe(`Dropdown`, () => {
     expect(message().exists()).toBe(false);
   });
 
+  it('should render children content when is open', () => {
+    const wrapper = shallow(
+      <Dropdown isOpen={true} label={'Label'}>
+        Message
+      </Dropdown>
+    );
+
+    const message = () => wrapper.find('Dropdown__ChildrenContainer');
+    expect(message().exists()).toBe(true);
+  });
+
+  it('should render children content when is open is false', () => {
+    const wrapper = shallow(
+      <Dropdown isOpen={false} label={'Label'}>
+        Message
+      </Dropdown>
+    );
+
+    const message = () => wrapper.find('Dropdown__ChildrenContainer');
+    expect(message().exists()).toBe(false);
+  });
+
   it('should render children content on label click', () => {
     const wrapper = shallow(<Dropdown label={'Label'}>Message</Dropdown>);
 

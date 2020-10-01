@@ -5,6 +5,7 @@ export interface DropdownProps {
   position?: 'top' | 'bottom';
   align?: 'left' | 'right' | 'center';
   autoClose?: boolean;
+  isOpen?: boolean;
   onChange?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
 }
 

@@ -80,9 +80,10 @@ const Dropdown = ({
   align,
   position,
   onChange = () => {},
+  isOpen = false,
   ...other
 }) => {
-  const [isOpen, setOpen] = useState(false);
+  const [isDropdownOpen, setOpen] = useState(isOpen);
 
   const container = useRef(null);
   const dropdown = useRef(null);
@@ -102,25 +103,25 @@ const Dropdown = ({
     { container, popper: dropdown, content },
     children,
     container,
-    isOpen
+    isDropdownOpen
   );
   let dropdownPosition = calculatePosition(align, position, dimensions);
 
   React.useEffect(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     dropdownPosition = calculatePosition(align, position, dimensions);
-  }, [isOpen]);
+  }, [isDropdownOpen]);
 
   useEffect(() => {
-    onChange(isOpen);
-  }, [onChange, isOpen]);
+    onChange(isDropdownOpen);
+  }, [onChange, isDropdownOpen]);
 
   return (
     <StyledDropdown {...other} ref={container}>
-      <StyledLabel onClick={() => setOpen(!isOpen)}>{label}</StyledLabel>
-      {isOpen && (
+      <StyledLabel onClick={() => setOpen(!isDropdownOpen)}>{label}</StyledLabel>
+      {isDropdownOpen && (
         <Portal renderInto="dropdowns">
-          <ChildrenContainer isOpen={isOpen} ref={dropdown} style={dropdownPosition}>
+          <ChildrenContainer isOpen={isDropdownOpen} ref={dropdown} style={dropdownPosition}>
             <div ref={content}>{children}</div>
           </ChildrenContainer>
         </Portal>
@@ -137,11 +138,13 @@ Dropdown.propTypes = {
   className: PropTypes.string,
   position: PropTypes.oneOf(['top', 'bottom']),
   align: PropTypes.oneOf(['right', 'center', 'left']),
-  autoClose: PropTypes.bool
+  autoClose: PropTypes.bool,
+  isOpen: PropTypes.bool
 };
 
 Dropdown.defaultProps = {
   autoClose: true,
+  isOpen: false,
   position: 'bottom',
   align: 'left'
 };
