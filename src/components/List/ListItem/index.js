@@ -142,6 +142,7 @@ export const StyledListItem = styled.li`
     ${StyledLeftContent} {
       ${props =>
         (props.focusContent || props.focusLeftContent) &&
+        !props.disabled &&
         css`
           opacity: 1;
           transition: opacity 150ms ease-in-out;
@@ -151,6 +152,7 @@ export const StyledListItem = styled.li`
     ${StyledRightContent} {
       ${props =>
         (props.focusContent || props.focusRightContent) &&
+        !props.disabled &&
         css`
           opacity: 1;
           transition: opacity 150ms ease-in-out;
