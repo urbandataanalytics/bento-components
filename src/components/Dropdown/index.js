@@ -85,6 +85,10 @@ const Dropdown = ({
 }) => {
   const [isDropdownOpen, setOpen] = useState(isOpen);
 
+  useEffect(() => {
+    setOpen(isOpen);
+  }, [isOpen]);
+
   const container = useRef(null);
   const dropdown = useRef(null);
   const content = useRef(null);
