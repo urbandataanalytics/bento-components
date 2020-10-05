@@ -76,7 +76,8 @@ const calculatePosition = (align, position, dimensions) => {
 const Dropdown = ({
   children,
   label,
-  autoClose,
+  closeOnClickOutside,
+  closeOnClickInside,
   align,
   position,
   onChange = () => {},
@@ -95,7 +96,7 @@ const Dropdown = ({
 
   useOnclickOutside(
     () => {
-      if (!autoClose) return;
+      if (!closeOnClickOutside) return;
       setOpen(false);
     },
     {
@@ -125,7 +126,12 @@ const Dropdown = ({
       <StyledLabel onClick={() => setOpen(!isDropdownOpen)}>{label}</StyledLabel>
       {isDropdownOpen && (
         <Portal renderInto="dropdowns">
-          <ChildrenContainer isOpen={isDropdownOpen} ref={dropdown} style={dropdownPosition}>
+          <ChildrenContainer
+            isOpen={isDropdownOpen}
+            ref={dropdown}
+            style={dropdownPosition}
+            onClick={() => (closeOnClickInside ? setOpen(false) : null)}
+          >
             <div ref={content}>{children}</div>
           </ChildrenContainer>
         </Portal>
@@ -142,13 +148,14 @@ Dropdown.propTypes = {
   className: PropTypes.string,
   position: PropTypes.oneOf(['top', 'bottom']),
   align: PropTypes.oneOf(['right', 'center', 'left']),
-  autoClose: PropTypes.bool,
+  closeOnClickOutside: PropTypes.bool,
   isOpen: PropTypes.bool
 };
 
 Dropdown.defaultProps = {
-  autoClose: true,
+  closeOnClickOutside: true,
   isOpen: false,
+  closeOnClickInside: false,
   position: 'bottom',
   align: 'left'
 };

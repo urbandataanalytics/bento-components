@@ -65,3 +65,25 @@ export const WithChildrens = () => {
     </div>
   );
 };
+
+export const CloseOnClickInside = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <Dropdown label={<Button>Label example</Button>} closeOnClickInside={true}>
+        <List>
+          <ListItem leftContent={<IconFolder />}>Text</ListItem>
+          <ListItem rightContent={<IconFolder />} disabled>
+            Text
+          </ListItem>
+          <ListItem leftContent={<IconFolder />} rightContent={<IconFolder />} active>
+            Text
+          </ListItem>
+        </List>
+      </Dropdown>
+    </div>
+  );
+};

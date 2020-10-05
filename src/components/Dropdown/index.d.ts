@@ -4,8 +4,9 @@ export interface DropdownProps {
   className?: string;
   position?: 'top' | 'bottom';
   align?: 'left' | 'right' | 'center';
-  autoClose?: boolean;
+  closeOnClickOutside?: boolean;
   isOpen?: boolean;
+  closeOnClickInside?: boolean;
   onChange?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
 }
 
