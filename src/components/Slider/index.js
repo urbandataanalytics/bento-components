@@ -77,7 +77,6 @@ const Slider = React.forwardRef((props, ref) => {
     name,
     onChange = () => {},
     format = value => Number(value),
-    parse = value => Number(value),
     prefix,
     step,
     suffix,
