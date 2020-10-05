@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import Accordion from './Accordion/index';
 import AccordionList from './index';
 
@@ -18,7 +18,7 @@ describe(`Accordion List`, () => {
   });
 
   it('should render Accordion with multiple expands ', () => {
-    const wrapper = shallow(
+    const wrapper = mount(
       <AccordionList toggleOnExpand={false}>
         <Accordion header={'Accordion title'} expanded>
           First Accordion
@@ -29,7 +29,7 @@ describe(`Accordion List`, () => {
       </AccordionList>
     );
 
-    wrapper.children().forEach(node => {
+    wrapper.find('Accordion').forEach(node => {
       expect(node.prop('expanded')).toBe(true);
     });
   });

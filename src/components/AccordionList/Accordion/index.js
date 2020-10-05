@@ -3,10 +3,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import defaultTheme from '../../../themes/defaultTheme';
 import { IconArrowClose } from '../../../icons';
-import { useCallback } from 'react';
-import { useState } from 'react';
 import useBoundingRect from '../../../hooks/useBoundingRect';
-import { useEffect } from 'react';
 
 const StyledAccordionLabel = styled.div`
   width: 100%;
@@ -120,25 +117,11 @@ const Accordion = props => {
     onClick = () => {},
     ...other
   } = props;
-  const [expandedState, setExpandedState] = useState(isDefaultExpanded || expanded);
   const [{ height }, childNode] = useBoundingRect();
-
-  const handleClick = useCallback(
-    event => {
-      onClick(event, !expandedState);
-      setExpandedState(!expandedState);
-    },
-    [onClick, expandedState]
-  );
-
-  useEffect(() => {
-    setExpandedState(expanded || isDefaultExpanded);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [expanded]);
 
   return (
     <>
-      <StyledAccordionLabel expanded={expandedState} onClick={handleClick} {...other}>
+      <StyledAccordionLabel expanded={expanded} onClick={onClick} {...other}>
         {leftContent && <StyledLeftContent>{leftContent}</StyledLeftContent>}
 
         <StyledAccordionHeader>
@@ -148,11 +131,11 @@ const Accordion = props => {
 
         <StyledRightContent>
           {rightContent}
-          <StyledArrowIcon expanded={expandedState} />
+          <StyledArrowIcon expanded={expanded} />
         </StyledRightContent>
       </StyledAccordionLabel>
 
-      <StyledAccordionContent maxHeight={height} expanded={expandedState}>
+      <StyledAccordionContent maxHeight={height} expanded={expanded}>
         <StyledAccordionChildren ref={childNode}>{children}</StyledAccordionChildren>
       </StyledAccordionContent>
     </>

@@ -12,12 +12,6 @@ export default {
   component: AccordionList
 };
 
-export const SingleAccordion = () => (
-  <Accordion iconLeft={<IconActivity />} header={'Accordion title'}>
-    Child message
-  </Accordion>
-);
-
 export const ExpandOneByOne = () => (
   <AccordionList>
     <Accordion leftContent={<IconActivity />} header={'Accordion title'}>
