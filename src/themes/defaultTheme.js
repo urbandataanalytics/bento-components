@@ -23,7 +23,7 @@ const fonts = [
 const breakpoints = ['544px', '768px', '1012px', '1280px'];
 
 const color = {
-  charcoal200: '#F8F8F8',
+  charcoal200: '#FAFBFC',
   charcoal300: '#EFF2F7',
   charcoal400: '#DCDFE6',
   charcoal500: '#B6BBC6',
