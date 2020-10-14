@@ -16,7 +16,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
         className="InputField__Label-sc-1kf04eo-3 cqcTdW"
       >
         <input
-          className="InputField__Input-sc-1kf04eo-2 ixiXFC"
+          className="InputField__Input-sc-1kf04eo-2 cxnUBS"
           disabled={false}
           onChange={[Function]}
           placeholder="Type your email address"
@@ -43,7 +43,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
         className="InputField__Label-sc-1kf04eo-3 cqcTdW"
       >
         <input
-          className="InputField__Input-sc-1kf04eo-2 ixiXFC"
+          className="InputField__Input-sc-1kf04eo-2 cxnUBS"
           disabled={false}
           onChange={[Function]}
           placeholder="Type your password"
@@ -157,7 +157,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "carrot700": "#CC7D34",
                 "carrot800": "#B56820",
                 "carrot900": "#934B09",
-                "charcoal200": "#F8F8F8",
+                "charcoal200": "#FAFBFC",
                 "charcoal300": "#EFF2F7",
                 "charcoal400": "#DCDFE6",
                 "charcoal500": "#B6BBC6",
@@ -296,7 +296,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "inputFieldBackgroundColor": "#FFFFFF",
                 "inputFieldBorderColor": "#DCDFE6",
                 "inputFieldBorderRadius": "4px",
-                "inputFieldDisabledBackgroundColor": "#F8F8F8",
+                "inputFieldDisabledBackgroundColor": "#FAFBFC",
                 "inputFieldDisabledBorderColor": "#DCDFE6",
                 "inputFieldDisabledColor": "#DCDFE6",
                 "inputFieldDisabledLabelColor": "#DCDFE6",
@@ -318,9 +318,9 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "listBackgroundColor": "#FFFFFF",
                 "listItemBackgroundColorActiveHover": "#EFF7FB",
                 "listItemBackgroundColorDefaultHover": "#EFF2F7",
-                "listItemBackgroundColorDisabled": "#F8F8F8",
+                "listItemBackgroundColorDisabled": "#FAFBFC",
                 "listItemBackgroundColorFocused": "#1778FB",
-                "listItemBackgroundColorHoverDisabled": "#F8F8F8",
+                "listItemBackgroundColorHoverDisabled": "#FAFBFC",
                 "listItemBorderRadius": "2px",
                 "listItemColorActive": "#1778FB",
                 "listItemColorActiveHover": "#EFF7FB",

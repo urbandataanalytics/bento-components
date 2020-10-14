@@ -95,7 +95,7 @@ exports[`Storyshots SelectField Disabled 1`] = `
               "carrot700": "#CC7D34",
               "carrot800": "#B56820",
               "carrot900": "#934B09",
-              "charcoal200": "#F8F8F8",
+              "charcoal200": "#FAFBFC",
               "charcoal300": "#EFF2F7",
               "charcoal400": "#DCDFE6",
               "charcoal500": "#B6BBC6",
@@ -234,7 +234,7 @@ exports[`Storyshots SelectField Disabled 1`] = `
               "inputFieldBackgroundColor": "#FFFFFF",
               "inputFieldBorderColor": "#DCDFE6",
               "inputFieldBorderRadius": "4px",
-              "inputFieldDisabledBackgroundColor": "#F8F8F8",
+              "inputFieldDisabledBackgroundColor": "#FAFBFC",
               "inputFieldDisabledBorderColor": "#DCDFE6",
               "inputFieldDisabledColor": "#DCDFE6",
               "inputFieldDisabledLabelColor": "#DCDFE6",
@@ -256,9 +256,9 @@ exports[`Storyshots SelectField Disabled 1`] = `
               "listBackgroundColor": "#FFFFFF",
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
-              "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorDisabled": "#FAFBFC",
               "listItemBackgroundColorFocused": "#1778FB",
-              "listItemBackgroundColorHoverDisabled": "#F8F8F8",
+              "listItemBackgroundColorHoverDisabled": "#FAFBFC",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
@@ -467,7 +467,7 @@ exports[`Storyshots SelectField Disabled 1`] = `
         />
       </svg>
       <select
-        className="SelectField__Select-sc-1svgo9p-2 citrRT"
+        className="SelectField__Select-sc-1svgo9p-2 kRMpmK"
         disabled={true}
         onChange={[Function]}
         value="en"
@@ -599,7 +599,7 @@ exports[`Storyshots SelectField Error 1`] = `
               "carrot700": "#CC7D34",
               "carrot800": "#B56820",
               "carrot900": "#934B09",
-              "charcoal200": "#F8F8F8",
+              "charcoal200": "#FAFBFC",
               "charcoal300": "#EFF2F7",
               "charcoal400": "#DCDFE6",
               "charcoal500": "#B6BBC6",
@@ -738,7 +738,7 @@ exports[`Storyshots SelectField Error 1`] = `
               "inputFieldBackgroundColor": "#FFFFFF",
               "inputFieldBorderColor": "#DCDFE6",
               "inputFieldBorderRadius": "4px",
-              "inputFieldDisabledBackgroundColor": "#F8F8F8",
+              "inputFieldDisabledBackgroundColor": "#FAFBFC",
               "inputFieldDisabledBorderColor": "#DCDFE6",
               "inputFieldDisabledColor": "#DCDFE6",
               "inputFieldDisabledLabelColor": "#DCDFE6",
@@ -760,9 +760,9 @@ exports[`Storyshots SelectField Error 1`] = `
               "listBackgroundColor": "#FFFFFF",
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
-              "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorDisabled": "#FAFBFC",
               "listItemBackgroundColorFocused": "#1778FB",
-              "listItemBackgroundColorHoverDisabled": "#F8F8F8",
+              "listItemBackgroundColorHoverDisabled": "#FAFBFC",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
@@ -971,7 +971,7 @@ exports[`Storyshots SelectField Error 1`] = `
         />
       </svg>
       <select
-        className="SelectField__Select-sc-1svgo9p-2 citrRT error"
+        className="SelectField__Select-sc-1svgo9p-2 kRMpmK error"
         disabled={false}
         onChange={[Function]}
         value="en"
@@ -1103,7 +1103,7 @@ exports[`Storyshots SelectField Normal 1`] = `
               "carrot700": "#CC7D34",
               "carrot800": "#B56820",
               "carrot900": "#934B09",
-              "charcoal200": "#F8F8F8",
+              "charcoal200": "#FAFBFC",
               "charcoal300": "#EFF2F7",
               "charcoal400": "#DCDFE6",
               "charcoal500": "#B6BBC6",
@@ -1242,7 +1242,7 @@ exports[`Storyshots SelectField Normal 1`] = `
               "inputFieldBackgroundColor": "#FFFFFF",
               "inputFieldBorderColor": "#DCDFE6",
               "inputFieldBorderRadius": "4px",
-              "inputFieldDisabledBackgroundColor": "#F8F8F8",
+              "inputFieldDisabledBackgroundColor": "#FAFBFC",
               "inputFieldDisabledBorderColor": "#DCDFE6",
               "inputFieldDisabledColor": "#DCDFE6",
               "inputFieldDisabledLabelColor": "#DCDFE6",
@@ -1264,9 +1264,9 @@ exports[`Storyshots SelectField Normal 1`] = `
               "listBackgroundColor": "#FFFFFF",
               "listItemBackgroundColorActiveHover": "#EFF7FB",
               "listItemBackgroundColorDefaultHover": "#EFF2F7",
-              "listItemBackgroundColorDisabled": "#F8F8F8",
+              "listItemBackgroundColorDisabled": "#FAFBFC",
               "listItemBackgroundColorFocused": "#1778FB",
-              "listItemBackgroundColorHoverDisabled": "#F8F8F8",
+              "listItemBackgroundColorHoverDisabled": "#FAFBFC",
               "listItemBorderRadius": "2px",
               "listItemColorActive": "#1778FB",
               "listItemColorActiveHover": "#EFF7FB",
@@ -1475,7 +1475,7 @@ exports[`Storyshots SelectField Normal 1`] = `
         />
       </svg>
       <select
-        className="SelectField__Select-sc-1svgo9p-2 citrRT"
+        className="SelectField__Select-sc-1svgo9p-2 kRMpmK"
         disabled={false}
         onChange={[Function]}
         value="en"

@@ -13,7 +13,7 @@ exports[`Storyshots InputField Disabled 1`] = `
       className="InputField__Label-sc-1kf04eo-3 cqcTdW"
     >
       <input
-        className="InputField__Input-sc-1kf04eo-2 ixiXFC"
+        className="InputField__Input-sc-1kf04eo-2 cxnUBS"
         disabled={true}
         onChange={[Function]}
         placeholder="Placeholder text"
@@ -49,7 +49,7 @@ exports[`Storyshots InputField Error 1`] = `
       className="InputField__Label-sc-1kf04eo-3 cqcTdW"
     >
       <input
-        className="InputField__Input-sc-1kf04eo-2 ixiXFC error"
+        className="InputField__Input-sc-1kf04eo-2 cxnUBS error"
         disabled={false}
         onChange={[Function]}
         placeholder="Placeholder text"
@@ -85,7 +85,7 @@ exports[`Storyshots InputField Normal 1`] = `
       className="InputField__Label-sc-1kf04eo-3 cqcTdW"
     >
       <input
-        className="InputField__Input-sc-1kf04eo-2 ixiXFC"
+        className="InputField__Input-sc-1kf04eo-2 cxnUBS"
         disabled={false}
         onChange={[Function]}
         placeholder="Placeholder text"

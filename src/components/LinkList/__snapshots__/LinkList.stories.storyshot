@@ -46,7 +46,7 @@ exports[`Storyshots LinkList Normal 1`] = `
     </a>
   </li>
   <li
-    className="ListItem__StyledListItem-sc-4kscw7-4 fPFxId"
+    className="ListItem__StyledListItem-sc-4kscw7-4 fHLaEa"
     disabled={true}
     onClick={[Function]}
     size="medium"

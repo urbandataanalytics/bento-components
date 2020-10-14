@@ -9,7 +9,7 @@ exports[`Storyshots MapLegend Normal 1`] = `
   }
 >
   <div
-    className="MapLegend__StyledContainer-sc-1s1tm5k-0 cjgcVD"
+    className="MapLegend__StyledContainer-sc-1s1tm5k-0 gRzBmY"
   >
     <div
       className="MapLegend__StyledWrapper-sc-1s1tm5k-1 iHoiQN"
@@ -84,7 +84,7 @@ exports[`Storyshots MapLegend With Actions 1`] = `
   }
 >
   <div
-    className="MapLegend__StyledContainer-sc-1s1tm5k-0 cjgcVD"
+    className="MapLegend__StyledContainer-sc-1s1tm5k-0 gRzBmY"
   >
     <div
       className="MapLegend__StyledWrapper-sc-1s1tm5k-1 iHoiQN"
@@ -156,7 +156,7 @@ exports[`Storyshots MapLegend With Actions 1`] = `
         Sale
       </div>
       <div
-        className="MapLegend__Action-sc-1s1tm5k-8 jyvRJf"
+        className="MapLegend__Action-sc-1s1tm5k-8 esMTZo"
         onClick={[Function]}
       >
         Rent
