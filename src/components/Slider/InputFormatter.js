@@ -51,8 +51,12 @@ const InputFormatter = ({
   const onChange = event => setInputValue(event.target.value);
 
   useEffect(() => {
-    setInputValue(value);
-  }, [value]);
+    if (isEditing) {
+      setInputValue(value);
+    } else {
+      setInputValue('');
+    }
+  }, [isEditing]);
 
   return isEditing ? (
     <>
