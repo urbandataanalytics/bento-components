@@ -120,11 +120,13 @@ const Slider = React.forwardRef((props, ref) => {
     let current = [...values];
 
     if (type === 'min') {
-      value = value <= current[1] && value >= min ? value : current[1];
-      current[0] = value < min ? min : value;
+      if (value > current[1] && value > min) current[0] = current[1];
+      else if (value < min) current[0] = min;
+      else current[0] = value;
     } else {
-      value = value >= current[0] && value <= max ? value : current[0];
-      current[1] = value > max ? max : value;
+      if (value < current[0] && value < max) current[1] = current[0];
+      else if (value > max) current[1] = max;
+      else current[1] = value;
     }
 
     setValues(current);
