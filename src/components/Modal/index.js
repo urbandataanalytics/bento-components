@@ -16,6 +16,7 @@ const StyledContainer = styled.div`
   overflow: auto;
   display: flex;
   flex-direction: column;
+  height: 100%;
 `;
 
 StyledContainer.defaultProps = {
@@ -49,6 +50,7 @@ const StyledContent = styled.div`
   padding: 0 ${({ theme }) => theme.spacings.small3};
   overflow: hidden;
   position: relative;
+  height: 100%;
 `;
 
 StyledContent.defaultProps = {
