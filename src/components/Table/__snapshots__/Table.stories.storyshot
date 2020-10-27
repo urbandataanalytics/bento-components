@@ -250,7 +250,7 @@ exports[`Storyshots Table Normal 1`] = `
   }
 >
   <div
-    className="Table__StyledContainer-sc-188duoa-0 TOtxt"
+    className="Table__StyledContainer-sc-188duoa-0 bQEyZK"
   >
     <div
       style={
@@ -272,7 +272,7 @@ exports[`Storyshots Table Small 1`] = `
   }
 >
   <div
-    className="Table__StyledContainer-sc-188duoa-0 ifntAC"
+    className="Table__StyledContainer-sc-188duoa-0 hAXhGD"
   >
     <div
       style={
