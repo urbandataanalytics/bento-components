@@ -1,12 +1,17 @@
 import React from 'react';
-import { AgGridReact } from 'ag-grid-react';
+import { AgGridReact } from '@ag-grid-community/react';
 import styled from 'styled-components';
 import TableHeader from './TableHeader';
 import TableCell from './TableCell';
-import 'ag-grid-community/dist/styles/ag-grid.css';
+import TableStyle from './TableStyle';
+import { ClientSideRowModelModule } from '@ag-grid-community/client-side-row-model';
 import TableSkeleton from './TableSkeleton';
 
+const DEFAULT_MODULES = [ClientSideRowModelModule];
+
 const StyledContainer = styled.div`
+  ${TableStyle}
+
   .ag-cell-value,
   .ag-react-container {
     width: 100%;
@@ -38,6 +43,7 @@ const Table = ({
   cellRenderers = {},
   variant,
   striped,
+  modules = [],
   ...other
 }) => {
   const columnDefs = columns.map(column => {
@@ -57,13 +63,14 @@ const Table = ({
         headerHeight={40}
         rowHeight={sizeVariants[variant]}
         enableCellTextSelection={true}
+        modules={[...modules, ...DEFAULT_MODULES]}
         frameworkComponents={{
           agColumnHeader: TableHeader,
           defaultCellRenderer: TableCell,
           ...cellRenderers
         }}
         {...other}
-      ></AgGridReact>
+      />
     </StyledContainer>
   );
 };

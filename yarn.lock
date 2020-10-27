@@ -16,6 +16,25 @@
     "@babel/preset-react" "^7.8.0"
     "@babel/runtime" "^7.8.0"
 
+"@ag-grid-community/client-side-row-model@^24.1.0":
+  version "24.1.0"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/client-side-row-model/-/client-side-row-model-24.1.0.tgz#f04baa638f87186cd168253010304a81f1c42f8f"
+  integrity sha512-gzRxabieWLRQia3kqFbyesWU122oQeavzUuNAlhKyZFWgUpS8Ua7QwlSlfhafULocFL6tdEETrgWBtyGq/aR2w==
+  dependencies:
+    "@ag-grid-community/core" "~24.1.0"
+
+"@ag-grid-community/core@^24.1.0", "@ag-grid-community/core@~24.1.0":
+  version "24.1.0"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/core/-/core-24.1.0.tgz#d768a5085a8cf7ee5b1f7a37a42cb704d5488338"
+  integrity sha512-dmC7rgEoe6NIsGrBK4vENWorJ/yZxNU4TyaWp1Rwn0iCJENNOSbtjA8QejyTzKtLyWcYPlfkXxG1q2irAfRD7A==
+
+"@ag-grid-community/react@^24.1.1":
+  version "24.1.1"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/react/-/react-24.1.1.tgz#5d801beec1aff608370ea10412cc97694dd7df48"
+  integrity sha512-cdbPZoSbzyGX+aKuxrdZMo8bujAY7LClwZu46w8sW699UiMa0ykKTmfWOHYecpYJemLWG91mgSuqT2opmdg4Vw==
+  dependencies:
+    prop-types "^15.6.2"
+
 "@babel/cli@^7.8.3", "@babel/cli@^7.8.4":
   version "7.8.4"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.8.4.tgz#505fb053721a98777b2b175323ea4f090b7d3c1c"
@@ -4698,11 +4717,6 @@ adjust-sourcemap-loader@2.0.0:
     loader-utils "1.2.3"
     object-path "0.11.4"
     regex-parser "2.2.10"
-
-ag-grid-community@^23.2.1:
-  version "23.2.1"
-  resolved "https://registry.yarnpkg.com/ag-grid-community/-/ag-grid-community-23.2.1.tgz#0cf2beb7ba2fcf66a4865e45faabdbea173d59b6"
-  integrity sha512-WHfDV7mFsd6eQJ5yOu26nnpnW7Gd02zcp9LHHfKQky8lfgTEo382qcja7MibHzB2f5vOCBdQnOPsWrbBNKRzhQ==
 
 ag-grid-react@^23.2.1:
   version "23.2.1"
