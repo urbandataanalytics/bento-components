@@ -181,6 +181,16 @@ const animations = {
     100% {
       height: 0%;
     }
+  `,
+  dropDownDisplay: keyframes`
+    0% {
+      opacity: 0;
+      transform: scale(0.98) translateY(-0.6em);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
   `
 };
 

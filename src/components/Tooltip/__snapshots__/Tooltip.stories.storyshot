@@ -41,6 +41,16 @@ exports[`Storyshots Tooltip Large 1`] = `
             theme={
               Object {
                 "animations": Object {
+                  "dropDownDisplay": Keyframes {
+                    "id": "sc-keyframes-kPjJpX",
+                    "inject": [Function],
+                    "name": "kPjJpX",
+                    "rules": Array [
+                      "@-webkit-keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                      "@keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                    ],
+                    "toString": [Function],
+                  },
                   "loader": Keyframes {
                     "id": "sc-keyframes-ivfYaJ",
                     "inject": [Function],
@@ -529,6 +539,16 @@ exports[`Storyshots Tooltip Large 1`] = `
             theme={
               Object {
                 "animations": Object {
+                  "dropDownDisplay": Keyframes {
+                    "id": "sc-keyframes-kPjJpX",
+                    "inject": [Function],
+                    "name": "kPjJpX",
+                    "rules": Array [
+                      "@-webkit-keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                      "@keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                    ],
+                    "toString": [Function],
+                  },
                   "loader": Keyframes {
                     "id": "sc-keyframes-ivfYaJ",
                     "inject": [Function],
@@ -1017,6 +1037,16 @@ exports[`Storyshots Tooltip Large 1`] = `
             theme={
               Object {
                 "animations": Object {
+                  "dropDownDisplay": Keyframes {
+                    "id": "sc-keyframes-kPjJpX",
+                    "inject": [Function],
+                    "name": "kPjJpX",
+                    "rules": Array [
+                      "@-webkit-keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                      "@keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                    ],
+                    "toString": [Function],
+                  },
                   "loader": Keyframes {
                     "id": "sc-keyframes-ivfYaJ",
                     "inject": [Function],
@@ -1505,6 +1535,16 @@ exports[`Storyshots Tooltip Large 1`] = `
             theme={
               Object {
                 "animations": Object {
+                  "dropDownDisplay": Keyframes {
+                    "id": "sc-keyframes-kPjJpX",
+                    "inject": [Function],
+                    "name": "kPjJpX",
+                    "rules": Array [
+                      "@-webkit-keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                      "@keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                    ],
+                    "toString": [Function],
+                  },
                   "loader": Keyframes {
                     "id": "sc-keyframes-ivfYaJ",
                     "inject": [Function],
@@ -2008,6 +2048,16 @@ exports[`Storyshots Tooltip Medium 1`] = `
             theme={
               Object {
                 "animations": Object {
+                  "dropDownDisplay": Keyframes {
+                    "id": "sc-keyframes-kPjJpX",
+                    "inject": [Function],
+                    "name": "kPjJpX",
+                    "rules": Array [
+                      "@-webkit-keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                      "@keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                    ],
+                    "toString": [Function],
+                  },
                   "loader": Keyframes {
                     "id": "sc-keyframes-ivfYaJ",
                     "inject": [Function],
@@ -2496,6 +2546,16 @@ exports[`Storyshots Tooltip Medium 1`] = `
             theme={
               Object {
                 "animations": Object {
+                  "dropDownDisplay": Keyframes {
+                    "id": "sc-keyframes-kPjJpX",
+                    "inject": [Function],
+                    "name": "kPjJpX",
+                    "rules": Array [
+                      "@-webkit-keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                      "@keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                    ],
+                    "toString": [Function],
+                  },
                   "loader": Keyframes {
                     "id": "sc-keyframes-ivfYaJ",
                     "inject": [Function],
@@ -2984,6 +3044,16 @@ exports[`Storyshots Tooltip Medium 1`] = `
             theme={
               Object {
                 "animations": Object {
+                  "dropDownDisplay": Keyframes {
+                    "id": "sc-keyframes-kPjJpX",
+                    "inject": [Function],
+                    "name": "kPjJpX",
+                    "rules": Array [
+                      "@-webkit-keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                      "@keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                    ],
+                    "toString": [Function],
+                  },
                   "loader": Keyframes {
                     "id": "sc-keyframes-ivfYaJ",
                     "inject": [Function],
@@ -3472,6 +3542,16 @@ exports[`Storyshots Tooltip Medium 1`] = `
             theme={
               Object {
                 "animations": Object {
+                  "dropDownDisplay": Keyframes {
+                    "id": "sc-keyframes-kPjJpX",
+                    "inject": [Function],
+                    "name": "kPjJpX",
+                    "rules": Array [
+                      "@-webkit-keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                      "@keyframes kPjJpX{0%{opacity:0;-webkit-transform:scale(0.98) translateY(-0.6em);-ms-transform:scale(0.98) translateY(-0.6em);transform:scale(0.98) translateY(-0.6em);}to{opacity:1;-webkit-transform:scale(1) translateY(0);-ms-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}}",
+                    ],
+                    "toString": [Function],
+                  },
                   "loader": Keyframes {
                     "id": "sc-keyframes-ivfYaJ",
                     "inject": [Function],
