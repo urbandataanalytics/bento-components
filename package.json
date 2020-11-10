@@ -159,9 +159,10 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^24.1.0",
     "@ag-grid-community/core": "^24.1.0",
     "@ag-grid-community/react": "^24.1.1",
-    "@ag-grid-community/client-side-row-model": "^24.1.0",
+    "embla-carousel": "^4.0.6",
     "rc-slider": "^9.3.1",
     "react-cool-onclickoutside": "1.5.5"
   }

@@ -113,3 +113,6 @@ export * from './components/Slider';
 
 export { default as Search } from './components/Search';
 export * from './components/Search';
+
+export { default as Carousel } from './components/Carousel';
+export * from './components/Carousel';
