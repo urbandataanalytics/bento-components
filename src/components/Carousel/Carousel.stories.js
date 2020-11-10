@@ -18,7 +18,8 @@ const getCommonProps = () => {
 
 export const Normal = () => {
   const containerStyle = {
-    padding: '2rem'
+    padding: '2rem',
+    width: '50%'
   };
   return (
     <div style={containerStyle}>

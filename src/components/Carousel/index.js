@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import CarouselSlide from './Slide';
 import { IconChevronRight, IconChevronLeft } from '../../icons';
 import useTheme from '../../hooks/useTheme/index';
+import defaultTheme from '../../themes/defaultTheme';
 
 const ControlButton = styled.button`
   width: 32px;

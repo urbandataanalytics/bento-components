@@ -1,5 +1,7 @@
 import React, { useCallback, useState } from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import Skeleton from '../../Skeleton/index';
 
 const StyledSlideContainer = styled.div`
   min-width: 100%;
@@ -40,15 +42,20 @@ const CarouselSlide = React.forwardRef((props, ref) => {
   return (
     <StyledSlideContainer>
       <StyledCarouselSlide>
-        {visible ? <StyledSlideImage loaded={hasLoaded} src={src} onLoad={setLoaded} /> : <></>}
+        {visible ? (
+          <StyledSlideImage loaded={hasLoaded} src={src} onLoad={setLoaded} />
+        ) : (
+          <Skeleton variant="text" height="100%" width="100%" />
+        )}
       </StyledCarouselSlide>
     </StyledSlideContainer>
   );
 });
 
-CarouselSlide.propTypes = {};
-
-CarouselSlide.defaultProps = {};
+CarouselSlide.propTypes = {
+  src: PropTypes.string.isRequired,
+  visible: PropTypes.bool
+};
 
 CarouselSlide.displayName = 'CarouselSlide';
 
