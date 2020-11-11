@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Carousel Normal 1`] = `
+<div
+  style={
+    Object {
+      "height": "250px",
+      "padding": "2rem",
+      "width": "50%",
+    }
+  }
+>
+  <div
+    className="Carousel__CarouselComponent-sc-19rb187-1 jeIhFb"
+  >
+    <div
+      className="Carousel__CarouselContainer-sc-19rb187-2 enZxve"
+    >
+      <div
+        className="Carousel__CarouselSlidesContainer-sc-19rb187-3 kOGYYh"
+      >
+        <div
+          className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+        >
+          <div
+            className="Slide__StyledCarouselSlide-sc-1lch2cn-1 cBnDah"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+        </div>
+        <div
+          className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+        >
+          <div
+            className="Slide__StyledCarouselSlide-sc-1lch2cn-1 cBnDah"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+        </div>
+        <div
+          className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+        >
+          <div
+            className="Slide__StyledCarouselSlide-sc-1lch2cn-1 cBnDah"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
