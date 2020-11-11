@@ -506,7 +506,14 @@ const components = {
   sliderHandleDisabledColor: color.charcoal500,
   sliderHandleDraggingColor: color.primary600,
   sliderHandleSize: spacings.small3,
-  sliderHandleMarginTop: '-6px'
+  sliderHandleMarginTop: '-6px',
+
+  /* Carousel Theme props */
+  carouselButtonSize: '32px',
+  carouselButtonTransition: global.transitionS,
+  carouselButtonBackground: 'rgba(255, 255, 255, .6)',
+  carouselButtonHoverBackground: 'rgba(255, 255, 255, .8)',
+  carouselSlideTransition: global.transitionS
 };
 
 export default {

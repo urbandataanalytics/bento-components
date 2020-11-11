@@ -8,25 +8,29 @@ import useTheme from '../../hooks/useTheme/index';
 import defaultTheme from '../../themes/defaultTheme';
 
 const ControlButton = styled.button`
-  width: 32px;
-  height: 32px;
+  width: ${props => props.theme.components.carouselButtonSize};
+  height: ${props => props.theme.components.carouselButtonSize};
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.6);
+  background: ${props => props.theme.components.carouselButtonBackground};
   position: absolute;
   top: calc(50% - 16px);
-  left: ${prop => prop.left};
-  right: ${prop => prop.right};
+  left: ${props => props.left};
+  right: ${props => props.right};
   opacity: 0;
-  transition: opacity 0.1s ease-in-out;
+  transition: ${props => props.theme.components.carouselButtonTransition};
 
   &:hover {
-    background: rgba(255, 255, 255, 0.8);
+    background: ${props => props.theme.components.carouselButtonHoverBackground};
   }
 `;
+ControlButton.defaultProps = {
+  theme: defaultTheme
+};
 
 const CarouselComponent = styled.div`
   position: relative;
   width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
 
@@ -36,20 +40,40 @@ const CarouselComponent = styled.div`
     }
   }
 `;
+CarouselComponent.defaultProps = {
+  theme: defaultTheme
+};
 
 const CarouselContainer = styled.div`
   overflow: hidden;
   width: 100%;
+  height: 100%;
 `;
+CarouselContainer.defaultProps = {
+  theme: defaultTheme
+};
 
 const CarouselSlidesContainer = styled.div`
   display: flex;
   user-select: none;
+  height: 100%;
 `;
+CarouselSlidesContainer.defaultProps = {
+  theme: defaultTheme
+};
 
 const Carousel = React.forwardRef((props, ref) => {
   const theme = useTheme();
-  const { slides, loop, draggable, prevButton, nextButton, onChange, ...other } = props;
+  const {
+    slides,
+    loop,
+    draggable,
+    prevButton,
+    nextButton,
+    onChange,
+    controlOffset,
+    ...other
+  } = props;
   const [emblaRef, embla] = useEmblaCarousel({ loop, draggable });
   const [slidesInView, setSlidesInView] = useState([]);
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
@@ -98,38 +122,47 @@ const Carousel = React.forwardRef((props, ref) => {
         </CarouselSlidesContainer>
       </CarouselContainer>
       {prevButton ? (
-        React.cloneElement(prevButton, { onClick: scrollPrev, enabled: prevBtnEnabled })
-      ) : (
-        <ControlButton onClick={scrollPrev} enabled={prevBtnEnabled} left="10px">
+        prevBtnEnabled ? (
+          React.cloneElement(prevButton, {
+            onClick: scrollPrev
+          })
+        ) : null
+      ) : prevBtnEnabled ? (
+        <ControlButton onClick={scrollPrev} left={controlOffset}>
           <IconChevronLeft customColor={theme.color.charcoal800} />
         </ControlButton>
-      )}
+      ) : null}
       {nextButton ? (
-        React.cloneElement(nextButton, { onClick: scrollNext, enabled: nextBtnEnabled })
-      ) : (
-        <ControlButton onClick={scrollNext} enabled={nextBtnEnabled} right="10px">
+        nextBtnEnabled ? (
+          React.cloneElement(nextButton, {
+            onClick: scrollNext
+          })
+        ) : null
+      ) : nextBtnEnabled ? (
+        <ControlButton onClick={scrollNext} right={controlOffset}>
           <IconChevronRight customColor={theme.color.charcoal800} />
         </ControlButton>
-      )}
+      ) : null}
     </CarouselComponent>
   );
 });
 
 Carousel.propTypes = {
-  isLoading: PropTypes.bool,
   loop: PropTypes.bool,
   draggable: PropTypes.bool,
   slides: PropTypes.array.isRequired,
   onChange: PropTypes.func,
   prevButton: PropTypes.node,
-  nextButton: PropTypes.node
+  nextButton: PropTypes.node,
+  controlOffset: PropTypes.string
 };
 
 Carousel.defaultProps = {
   loop: true,
   draggable: false,
   slides: [],
-  onChange: () => {}
+  onChange: () => {},
+  controlOffset: '10px'
 };
 
 Carousel.displayName = 'Carousel';
