@@ -82,6 +82,8 @@ const Slider = React.forwardRef((props, ref) => {
     maxPrefix,
     step,
     suffix,
+    minSuffix,
+    maxSuffix,
     variant,
     value,
     ...other
@@ -209,7 +211,7 @@ const Slider = React.forwardRef((props, ref) => {
                 handleKeyDown={handleKeyDown}
               />
 
-              {suffix && <PrefixSuffix>{suffix}</PrefixSuffix>}
+              {(suffix || minSuffix) && <PrefixSuffix>{suffix || minSuffix}</PrefixSuffix>}
             </InputContainer>
 
             <InputContainer>
@@ -226,7 +228,7 @@ const Slider = React.forwardRef((props, ref) => {
                 handleKeyDown={handleKeyDown}
               />
 
-              {suffix && <PrefixSuffix>{suffix}</PrefixSuffix>}
+              {suffix && maxSuffix && <PrefixSuffix>{suffix || maxSuffix}</PrefixSuffix>}
             </InputContainer>
           </MinMaxContainer>
         </>
@@ -247,6 +249,8 @@ Slider.propTypes = {
   maxPrefix: PropTypes.string,
   step: PropTypes.number.isRequired,
   suffix: PropTypes.string,
+  minSuffix: PropTypes.string,
+  maxSuffix: PropTypes.string,
   value: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
   variant: PropTypes.oneOf(['slider', 'range']).isRequired
 };

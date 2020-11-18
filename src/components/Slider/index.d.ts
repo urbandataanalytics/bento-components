@@ -3,7 +3,9 @@ export interface SliderProps {
   prefix?: string;
   minPrefix?: string;
   maxPrefix?: string;
-  sufix?: string;
+  suffix?: string;
+  minSuffix?: string;
+  maxSuffix?: string;
   variant?: 'slider' | 'range';
   min?: number;
   max?: number;
