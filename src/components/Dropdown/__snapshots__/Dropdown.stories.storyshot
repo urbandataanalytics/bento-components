@@ -417,12 +417,12 @@ exports[`Storyshots Dropdown Close On Click Inside 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.26rem",
+                    "size": "32px",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "1.7rem",
+                    "size": "24px",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -926,12 +926,12 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.26rem",
+                    "size": "32px",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "1.7rem",
+                    "size": "24px",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -1435,12 +1435,12 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "2.26rem",
+                    "size": "32px",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                     "fontWeight": 500,
-                    "size": "1.7rem",
+                    "size": "24px",
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
