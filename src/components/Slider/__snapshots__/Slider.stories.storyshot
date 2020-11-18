@@ -678,9 +678,8 @@ exports[`Storyshots Slider Range 1`] = `
           type="text"
           value="1,000"
         />
-        
         <span
-          className="Slider__PrefixSuffix-sc-14leke7-2 cVEONJ"
+          className="Slider__PrefixSuffix-sc-14leke7-2 gwieVm"
         >
           €/m2
         </span>
@@ -695,9 +694,8 @@ exports[`Storyshots Slider Range 1`] = `
           type="text"
           value="10,000"
         />
-        
         <span
-          className="Slider__PrefixSuffix-sc-14leke7-2 cVEONJ"
+          className="Slider__PrefixSuffix-sc-14leke7-2 gwieVm"
         >
           €/m2
         </span>
