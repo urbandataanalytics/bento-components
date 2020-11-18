@@ -24,7 +24,7 @@ const PrefixSuffix = styled.span`
   background-color: transparent;
   border-bottom: 1px solid ${({ theme }) => theme.color.charcoal400};
   color: ${({ theme }) => theme.color.charcoal800};
-  padding: ${({ theme }) => theme.spacings.small1} ${({ theme }) => theme.spacings.small2};
+  padding: ${({ theme }) => theme.spacings.small1} 0;
 `;
 
 const StyledContent = styled.div`
@@ -78,8 +78,12 @@ const Slider = React.forwardRef((props, ref) => {
     onChange = () => {},
     format = value => Number(value),
     prefix,
+    minPrefix,
+    maxPrefix,
     step,
     suffix,
+    minSuffix,
+    maxSuffix,
     variant,
     value,
     ...other
@@ -194,6 +198,9 @@ const Slider = React.forwardRef((props, ref) => {
 
           <MinMaxContainer>
             <InputContainer>
+              {(prefix || minPrefix) && (
+                <PrefixSuffix className="prefix">{prefix || minPrefix}</PrefixSuffix>
+              )}
               <InputFormatter
                 isEditing={isEditing.min}
                 toggleEditing={value => toggleEdditing({ ...isEditing, min: value })}
@@ -203,11 +210,14 @@ const Slider = React.forwardRef((props, ref) => {
                 handleBlur={handleBlur}
                 handleKeyDown={handleKeyDown}
               />
-              {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
-              {suffix && <PrefixSuffix>{suffix}</PrefixSuffix>}
+
+              {(suffix || minSuffix) && <PrefixSuffix>{suffix || minSuffix}</PrefixSuffix>}
             </InputContainer>
 
             <InputContainer>
+              {(prefix || maxPrefix) && (
+                <PrefixSuffix className="prefix">{prefix || maxPrefix}</PrefixSuffix>
+              )}
               <InputFormatter
                 isEditing={isEditing.max}
                 toggleEditing={value => toggleEdditing({ ...isEditing, max: value })}
@@ -217,8 +227,8 @@ const Slider = React.forwardRef((props, ref) => {
                 handleBlur={handleBlur}
                 handleKeyDown={handleKeyDown}
               />
-              {prefix && <PrefixSuffix className="prefix">{prefix}</PrefixSuffix>}
-              {suffix && <PrefixSuffix>{suffix}</PrefixSuffix>}
+
+              {suffix && maxSuffix && <PrefixSuffix>{suffix || maxSuffix}</PrefixSuffix>}
             </InputContainer>
           </MinMaxContainer>
         </>
@@ -235,8 +245,12 @@ Slider.propTypes = {
   name: PropTypes.string,
   onChange: PropTypes.func.isRequired,
   prefix: PropTypes.string,
+  minPrefix: PropTypes.string,
+  maxPrefix: PropTypes.string,
   step: PropTypes.number.isRequired,
   suffix: PropTypes.string,
+  minSuffix: PropTypes.string,
+  maxSuffix: PropTypes.string,
   value: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
   variant: PropTypes.oneOf(['slider', 'range']).isRequired
 };
