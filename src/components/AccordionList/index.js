@@ -1,15 +1,23 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { useState } from 'react';
 
-const StyledAccordionList = styled.div``;
+const StyledAccordionList = styled.div`
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow: auto;
+`;
 
 const AccordionList = props => {
   const { children, toggleOnExpand, ...other } = props;
   const [expandedIndex, setExpandedIndex] = useState([]);
+  const [containerId, setContainerId] = useState();
+
+  const getId = () =>
+    Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
 
   useEffect(() => {
+    setContainerId(getId());
     let defaultExpanded = [];
     if (toggleOnExpand) {
       React.Children.forEach(children, (child, childIndex) => {
@@ -27,7 +35,14 @@ const AccordionList = props => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const onClick = childIndex => {
+  const onClick = (childIndex, childId) => {
+    const element = document.getElementById(childId);
+    const container = document.getElementById(containerId);
+
+    container.scrollTop = element.offsetTop;
+
+    element.scrollIntoView({ behavior: 'smooth' });
+
     let result = [];
     const expandedChild = ~expandedIndex.indexOf(childIndex);
 
@@ -49,13 +64,20 @@ const AccordionList = props => {
       return null;
     }
 
+    const id = getId();
+
     return React.cloneElement(child, {
       expanded: expandedIndex.includes(childIndex),
-      onClick: () => onClick(childIndex)
+      onClick: () => onClick(childIndex, id),
+      id
     });
   });
 
-  return <StyledAccordionList {...other}>{childs}</StyledAccordionList>;
+  return (
+    <StyledAccordionList id={containerId} {...other}>
+      {childs}
+    </StyledAccordionList>
+  );
 };
 
 AccordionList.defaultProps = {
