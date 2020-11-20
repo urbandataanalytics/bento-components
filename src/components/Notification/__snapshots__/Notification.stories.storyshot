@@ -407,12 +407,12 @@ exports[`Storyshots Notification Error 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -900,12 +900,12 @@ exports[`Storyshots Notification Normal 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -1393,12 +1393,12 @@ exports[`Storyshots Notification Success 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -1889,12 +1889,12 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
