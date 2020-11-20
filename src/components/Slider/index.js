@@ -228,7 +228,7 @@ const Slider = React.forwardRef((props, ref) => {
                 handleKeyDown={handleKeyDown}
               />
 
-              {suffix && maxSuffix && <PrefixSuffix>{suffix || maxSuffix}</PrefixSuffix>}
+              {(suffix || maxSuffix) && <PrefixSuffix>{suffix || maxSuffix}</PrefixSuffix>}
             </InputContainer>
           </MinMaxContainer>
         </>
