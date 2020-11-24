@@ -6,6 +6,7 @@ import CarouselSlide from './Slide';
 import { IconChevronRight, IconChevronLeft } from '../../icons';
 import useTheme from '../../hooks/useTheme/index';
 import defaultTheme from '../../themes/defaultTheme';
+import { Thumb } from './Thumbnails';
 
 const ControlButton = styled.button`
   width: ${props => props.theme.components.carouselButtonSize};
@@ -58,6 +59,23 @@ const CarouselSlidesContainer = styled.div`
   user-select: none;
   height: 100%;
 `;
+
+const CarouselWrapper = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 75% 1fr;
+  grid-gap: 10px;
+`;
+
+const ThumbsContainer = styled.div`
+  height: 100%;
+  overflow: hidden;
+`;
+
 CarouselSlidesContainer.defaultProps = {
   theme: defaultTheme
 };
@@ -78,18 +96,43 @@ const Carousel = React.forwardRef((props, ref) => {
   const [slidesInView, setSlidesInView] = useState([]);
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
+  const [thumbViewportRef, emblaThumbs] = useEmblaCarousel({
+    containScroll: 'keepSnaps',
+    axis: 'y',
+    loop: true,
+    startIndex: 1
+  });
 
-  const scrollPrev = useCallback(() => embla && embla.scrollPrev(), [embla]);
-  const scrollNext = useCallback(() => embla && embla.scrollNext(), [embla]);
+  const scrollPrev = useCallback(() => {
+    if (!embla || !emblaThumbs) return;
+    emblaThumbs.scrollPrev();
+    embla.scrollPrev();
+  }, [embla]);
+
+  const scrollNext = useCallback(() => {
+    if (!embla || !emblaThumbs) return;
+    emblaThumbs.scrollNext();
+    embla.scrollNext();
+  }, [embla]);
+
+  // const onSelect = useCallback(() => {
+  //   if (!embla) return;
+  //   onChange(embla.selectedScrollSnap());
+  //   setPrevBtnEnabled(embla.canScrollPrev());
+  //   setNextBtnEnabled(embla.canScrollNext());
+
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [embla]);
 
   const onSelect = useCallback(() => {
-    if (!embla) return;
+    if (!embla || !emblaThumbs) return;
+    console.log({ embla });
+    console.log({ emblaThumbs });
+    // emblaThumbs.scrollTo(embla.selectedScrollSnap());
     onChange(embla.selectedScrollSnap());
     setPrevBtnEnabled(embla.canScrollPrev());
     setNextBtnEnabled(embla.canScrollNext());
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [embla]);
+  }, [embla, emblaThumbs]);
 
   const findSlidesInView = useCallback(() => {
     if (!embla) return;
@@ -98,7 +141,11 @@ const Carousel = React.forwardRef((props, ref) => {
       if (slidesInView.length === embla.slideNodes().length) {
         embla.off('select', findSlidesInView);
       }
-      const inView = embla.slidesInView(true).filter(index => slidesInView.indexOf(index) === -1);
+      const inView = embla
+
+        .slidesInView(true)
+
+        .filter(index => slidesInView.indexOf(index) === -1);
       return slidesInView.concat(inView);
     });
   }, [embla, setSlidesInView]);
@@ -113,37 +160,46 @@ const Carousel = React.forwardRef((props, ref) => {
   }, [embla, onSelect, findSlidesInView]);
 
   return (
-    <CarouselComponent>
-      <CarouselContainer ref={emblaRef}>
-        <CarouselSlidesContainer>
-          {slides.map((slide, index) => (
-            <CarouselSlide key={index} src={slide} visible={slidesInView.indexOf(index) > -1} />
-          ))}
-        </CarouselSlidesContainer>
-      </CarouselContainer>
-      {prevButton ? (
-        prevBtnEnabled ? (
-          React.cloneElement(prevButton, {
-            onClick: scrollPrev
-          })
-        ) : null
-      ) : prevBtnEnabled ? (
-        <ControlButton onClick={scrollPrev} left={controlOffset}>
-          <IconChevronLeft customColor={theme.color.charcoal800} />
-        </ControlButton>
-      ) : null}
-      {nextButton ? (
-        nextBtnEnabled ? (
-          React.cloneElement(nextButton, {
-            onClick: scrollNext
-          })
-        ) : null
-      ) : nextBtnEnabled ? (
-        <ControlButton onClick={scrollNext} right={controlOffset}>
-          <IconChevronRight customColor={theme.color.charcoal800} />
-        </ControlButton>
-      ) : null}
-    </CarouselComponent>
+    <CarouselWrapper>
+      <CarouselComponent>
+        <CarouselContainer ref={emblaRef}>
+          <CarouselSlidesContainer>
+            {slides.map((slide, index) => (
+              <CarouselSlide key={index} src={slide} visible={slidesInView.indexOf(index) > -1} />
+            ))}
+          </CarouselSlidesContainer>
+        </CarouselContainer>
+        {prevButton ? (
+          prevBtnEnabled ? (
+            React.cloneElement(prevButton, { onClick: scrollPrev })
+          ) : null
+        ) : prevBtnEnabled ? (
+          <ControlButton onClick={scrollPrev} left={controlOffset}>
+            <IconChevronLeft customColor={theme.color.charcoal800} />
+          </ControlButton>
+        ) : null}
+        {nextButton ? (
+          nextBtnEnabled ? (
+            React.cloneElement(nextButton, {
+              onClick: scrollNext
+            })
+          ) : null
+        ) : nextBtnEnabled ? (
+          <ControlButton onClick={scrollNext} right={controlOffset}>
+            <IconChevronRight customColor={theme.color.charcoal800} />
+          </ControlButton>
+        ) : null}
+      </CarouselComponent>
+      <div>
+        <ThumbsContainer ref={thumbViewportRef}>
+          <div style={{ height: '100%' }}>
+            {slides.map((slide, index) => (
+              <Thumb key={index} imgSrc={slide} />
+            ))}
+          </div>
+        </ThumbsContainer>
+      </div>
+    </CarouselWrapper>
   );
 });
 

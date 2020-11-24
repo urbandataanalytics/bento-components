@@ -52,7 +52,7 @@ const CarouselSlide = React.forwardRef((props, ref) => {
 
   return (
     <StyledSlideContainer>
-      <StyledCarouselSlide>
+      <StyledCarouselSlide src={src}>
         {visible ? (
           <StyledSlideImage loaded={hasLoaded} src={src} onLoad={setLoaded} />
         ) : (
