@@ -223,6 +223,12 @@ const headings = [
 ];
 
 const texts = {
+  p1: {
+    fontWeight: global.fontWeightRegular,
+    fontSize: global.fontSize,
+    color: color.charcoal800,
+    lineHeight: '1.5'
+  },
   p1b: {
     fontWeight: global.fontWeightMedium,
     fontSize: global.fontSize,

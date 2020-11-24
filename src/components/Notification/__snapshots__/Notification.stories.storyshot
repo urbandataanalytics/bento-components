@@ -449,6 +449,12 @@ exports[`Storyshots Notification Error 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
@@ -942,6 +948,12 @@ exports[`Storyshots Notification Normal 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
@@ -1435,6 +1447,12 @@ exports[`Storyshots Notification Success 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
@@ -1931,6 +1949,12 @@ exports[`Storyshots Notification With Custom Icon 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
