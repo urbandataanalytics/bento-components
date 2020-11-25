@@ -20,7 +20,7 @@ const StyledCarouselSlide = styled.div`
   justify-content: center;
   overflow: hidden;
   height: 100%;
-  background-image: url(${props => props.src});
+  background-image: url(${props => props.imageSrc});
   background-size: cover;
   background-position: 100%;
   opacity: ${({ loaded }) => (loaded ? 1 : 0)};
@@ -70,7 +70,7 @@ const CarouselSlide = React.forwardRef((props, ref) => {
     <StyledSlideContainer>
       {visible ? (
         <StyledCarouselSlide
-          src={backgroundImage ? backgroundImage.src : ''}
+          imageSrc={backgroundImage ? backgroundImage.src : ''}
           loaded={hasLoaded}
           onClick={() => onClick(index)}
         />

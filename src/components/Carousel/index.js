@@ -71,7 +71,7 @@ const CarouselWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: 75% 1fr;
+  grid-template-columns: ${({ thumbnailsEnabled }) => (thumbnailsEnabled ? '75% 1fr' : '100% 1fr')};
   grid-gap: ${({ theme }) => theme.spacings.small2};
 `;
 CarouselWrapper.defaultProps = {
@@ -172,7 +172,7 @@ const Carousel = React.forwardRef((props, ref) => {
   }, [embla, onSelect, findSlidesInView]);
 
   return (
-    <CarouselWrapper>
+    <CarouselWrapper thumbnailsEnabled={thumbnailsEnabled}>
       <CarouselComponent>
         <CarouselContainer ref={emblaRef} rounded={rounded}>
           <CarouselSlidesContainer>
