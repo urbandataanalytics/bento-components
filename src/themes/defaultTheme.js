@@ -203,12 +203,12 @@ const headings = [
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '2.26rem'
+    size: '32px'
   },
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '1.7rem'
+    size: '24px'
   },
   {
     fontFamily: global.fontFamily,
@@ -223,6 +223,12 @@ const headings = [
 ];
 
 const texts = {
+  p1: {
+    fontWeight: global.fontWeightRegular,
+    fontSize: global.fontSize,
+    color: color.charcoal800,
+    lineHeight: '1.5'
+  },
   p1b: {
     fontWeight: global.fontWeightMedium,
     fontSize: global.fontSize,

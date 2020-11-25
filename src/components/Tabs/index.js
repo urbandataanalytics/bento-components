@@ -10,7 +10,7 @@ const StyledTabsContainer = styled.div`
   background-color: ${({ theme }) => theme.components.tabsBackgroundColor};
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: ${({ align }) => align};
   position: relative;
   min-height: 56px;
 `;
@@ -43,7 +43,15 @@ const StyledTabsContent = styled.div`
 `;
 
 const Tabs = props => {
-  const { value, leftContent, rightContent, onChange, children: childrenProp, ...other } = props;
+  const {
+    align = 'center',
+    value,
+    leftContent,
+    rightContent,
+    onChange,
+    children: childrenProp,
+    ...other
+  } = props;
   const children = React.Children.map(childrenProp, (child, childIndex) => {
     if (!React.isValidElement(child)) {
       return null;
@@ -60,7 +68,7 @@ const Tabs = props => {
   });
 
   return (
-    <StyledTabsContainer {...other}>
+    <StyledTabsContainer align={align} {...other}>
       {leftContent && <StyledLeftContent>{leftContent}</StyledLeftContent>}
       <StyledTabsContent>{children}</StyledTabsContent>
       {rightContent && <StyledRightContent>{rightContent}</StyledRightContent>}

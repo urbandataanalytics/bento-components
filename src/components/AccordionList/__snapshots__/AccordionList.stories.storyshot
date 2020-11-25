@@ -413,12 +413,12 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -455,6 +455,12 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
@@ -909,12 +915,12 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -951,6 +957,12 @@ exports[`Storyshots AccordionList Expand All 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
@@ -1403,12 +1415,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -1445,6 +1457,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
@@ -1885,12 +1903,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -1927,6 +1945,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
@@ -2372,12 +2396,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -2414,6 +2438,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
@@ -2867,12 +2897,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -2909,6 +2939,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
@@ -3359,12 +3395,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.26rem",
+                        "size": "32px",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "1.7rem",
+                        "size": "24px",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -3401,6 +3437,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
                       "p1b": Object {
                         "color": "#212632",
                         "fontSize": "14px",
@@ -3844,12 +3886,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.26rem",
+                        "size": "32px",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "1.7rem",
+                        "size": "24px",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -3886,6 +3928,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
                       "p1b": Object {
                         "color": "#212632",
                         "fontSize": "14px",
@@ -4327,12 +4375,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.26rem",
+                        "size": "32px",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "1.7rem",
+                        "size": "24px",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -4369,6 +4417,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
                       "p1b": Object {
                         "color": "#212632",
                         "fontSize": "14px",
@@ -4801,12 +4855,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "2.26rem",
+                        "size": "32px",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                         "fontWeight": 500,
-                        "size": "1.7rem",
+                        "size": "24px",
                       },
                       Object {
                         "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -4843,6 +4897,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
                       "small4": "24px",
                     },
                     "texts": Object {
+                      "p1": Object {
+                        "color": "#212632",
+                        "fontSize": "14px",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5",
+                      },
                       "p1b": Object {
                         "color": "#212632",
                         "fontSize": "14px",
@@ -5283,12 +5343,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -5325,6 +5385,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
@@ -5765,12 +5831,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "2.26rem",
+                "size": "32px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.7rem",
+                "size": "24px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -5807,6 +5873,12 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
               "small4": "24px",
             },
             "texts": Object {
+              "p1": Object {
+                "color": "#212632",
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "1.5",
+              },
               "p1b": Object {
                 "color": "#212632",
                 "fontSize": "14px",
