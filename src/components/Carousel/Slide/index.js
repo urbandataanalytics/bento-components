@@ -24,6 +24,9 @@ const StyledCarouselSlide = styled.div`
   background-size: cover;
   background-position: 100%;
   opacity: ${({ loaded }) => (loaded ? 1 : 0)};
+  &:hover {
+    cursor: pointer;
+  }
 `;
 StyledCarouselSlide.defaultProps = {
   theme: defaultTheme
@@ -48,14 +51,7 @@ StyledSlideImage.defaultProps = {
 const CarouselSlide = React.forwardRef((props, ref) => {
   const { src, visible, onClick, index, ...other } = props;
   const [hasLoaded, setHasLoaded] = useState(false);
-
-  let backgroundImage = null;
-
-  // backgroundImage.src = src;
-
-  // backgroundImage.onload = () => {
-  //   setHasLoaded(true);
-  // };
+  const [backgroundImage, setBackgroundImage] = useState(false);
 
   const setLoaded = useCallback(() => {
     if (visible) setHasLoaded(true);
@@ -63,26 +59,24 @@ const CarouselSlide = React.forwardRef((props, ref) => {
 
   useEffect(() => {
     if (visible && !backgroundImage) {
-      backgroundImage = new Image();
-      backgroundImage.src = src;
-      backgroundImage.onload = setLoaded;
+      const image = new Image();
+      image.src = src;
+      image.onload = setLoaded;
+      setBackgroundImage(image);
     }
   }, [visible]);
 
-  console.log(backgroundImage);
   return (
     <StyledSlideContainer>
-      <StyledCarouselSlide
-        src={backgroundImage ? backgroundImage.src : ''}
-        loaded={hasLoaded}
-        onClick={() => onClick(index)}
-      >
-        {/* {visible ? (
-          <StyledSlideImage loaded={hasLoaded} src={src} onLoad={setLoaded} />
-        ) : (
-          <Skeleton variant="text" height="100%" width="100%" />
-        )} */}
-      </StyledCarouselSlide>
+      {visible ? (
+        <StyledCarouselSlide
+          src={backgroundImage ? backgroundImage.src : ''}
+          loaded={hasLoaded}
+          onClick={() => onClick(index)}
+        />
+      ) : (
+        <Skeleton variant="text" height="100%" width="100%" />
+      )}
     </StyledSlideContainer>
   );
 });

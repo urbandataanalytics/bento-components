@@ -105,6 +105,7 @@ const Carousel = React.forwardRef((props, ref) => {
   } = props;
   const [emblaRef, embla] = useEmblaCarousel({ loop, draggable });
   const [slidesInView, setSlidesInView] = useState([]);
+  const [thumbSlidesInView, setThumbSlidesInView] = useState([]);
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
   const [thumbViewportRef, emblaThumbs] = useEmblaCarousel({
@@ -142,13 +143,17 @@ const Carousel = React.forwardRef((props, ref) => {
       if (slidesInView.length === embla.slideNodes().length) {
         embla.off('select', findSlidesInView);
       }
-      const inView = embla
-
-        .slidesInView(true)
-
-        .filter(index => slidesInView.indexOf(index) === -1);
+      const inView = embla.slidesInView(true).filter(index => slidesInView.indexOf(index) === -1);
       return slidesInView.concat(inView);
     });
+    if (thumbnailsEnabled) {
+      setThumbSlidesInView(thumbSlidesInView => {
+        const inView = emblaThumbs
+          .slidesInView(true)
+          .filter(index => thumbSlidesInView.indexOf(index) === -1);
+        return thumbSlidesInView.concat(inView);
+      });
+    }
   }, [embla, setSlidesInView]);
 
   useEffect(() => {
@@ -168,6 +173,7 @@ const Carousel = React.forwardRef((props, ref) => {
             {slides.map((slide, index) => (
               <CarouselSlide
                 key={index}
+                index={index}
                 src={slide}
                 visible={slidesInView.indexOf(index) > -1}
                 rounded={rounded}
@@ -209,6 +215,7 @@ const Carousel = React.forwardRef((props, ref) => {
                   onClick={onThumbClick}
                   rounded={rounded}
                   thumbCount={thumbCount}
+                  visible={thumbSlidesInView.indexOf(index) > -1}
                 />
               ))}
             </Thumbs>
