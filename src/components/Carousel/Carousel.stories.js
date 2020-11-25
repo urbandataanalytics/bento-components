@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from './index';
+import { action } from '@storybook/addon-actions';
 
 export default {
   title: 'Carousel',
@@ -27,6 +28,25 @@ export const Normal = () => {
   return (
     <div style={containerStyle}>
       <Carousel {...getCommonProps()}></Carousel>
+    </div>
+  );
+};
+
+export const Thumbnails = () => {
+  const containerStyle = {
+    padding: '2rem',
+    width: '50%',
+    height: '250px'
+  };
+  return (
+    <div style={containerStyle}>
+      <Carousel
+        {...getCommonProps()}
+        thumbnailsEnabled={true}
+        rounded={true}
+        onThumbClick={action('clicked thumbnail')}
+        onClick={action('clicked slide')}
+      ></Carousel>
     </div>
   );
 };
