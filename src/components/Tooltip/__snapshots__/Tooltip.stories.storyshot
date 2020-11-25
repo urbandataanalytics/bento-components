@@ -468,6 +468,12 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
                   "p1b": Object {
                     "color": "#212632",
                     "fontSize": "14px",
@@ -971,6 +977,12 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
                   "p1b": Object {
                     "color": "#212632",
                     "fontSize": "14px",
@@ -1474,6 +1486,12 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
                   "p1b": Object {
                     "color": "#212632",
                     "fontSize": "14px",
@@ -1977,6 +1995,12 @@ exports[`Storyshots Tooltip Large 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
                   "p1b": Object {
                     "color": "#212632",
                     "fontSize": "14px",
@@ -2495,6 +2519,12 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
                   "p1b": Object {
                     "color": "#212632",
                     "fontSize": "14px",
@@ -2998,6 +3028,12 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
                   "p1b": Object {
                     "color": "#212632",
                     "fontSize": "14px",
@@ -3501,6 +3537,12 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
                   "p1b": Object {
                     "color": "#212632",
                     "fontSize": "14px",
@@ -4004,6 +4046,12 @@ exports[`Storyshots Tooltip Medium 1`] = `
                   "small4": "24px",
                 },
                 "texts": Object {
+                  "p1": Object {
+                    "color": "#212632",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "1.5",
+                  },
                   "p1b": Object {
                     "color": "#212632",
                     "fontSize": "14px",
