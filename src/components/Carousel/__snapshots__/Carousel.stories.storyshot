@@ -145,13 +145,13 @@ exports[`Storyshots Carousel Thumbnails 1`] = `
       </div>
     </div>
     <div
-      className="Carousel__ThumbsContainer-sc-19rb187-5 fVNkMw"
+      className="Carousel__ThumbsContainer-sc-19rb187-5 daSXTR"
     >
       <div
         className="Carousel__Thumbs-sc-19rb187-6 beQNNl"
       >
         <div
-          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 jQUQKD"
+          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 cNMObR"
         >
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
@@ -160,7 +160,7 @@ exports[`Storyshots Carousel Thumbnails 1`] = `
           />
         </div>
         <div
-          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 jQUQKD"
+          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 cNMObR"
         >
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
@@ -169,7 +169,7 @@ exports[`Storyshots Carousel Thumbnails 1`] = `
           />
         </div>
         <div
-          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 jQUQKD"
+          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 cNMObR"
         >
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
@@ -178,7 +178,7 @@ exports[`Storyshots Carousel Thumbnails 1`] = `
           />
         </div>
         <div
-          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 jQUQKD"
+          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 cNMObR"
         >
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
@@ -187,7 +187,7 @@ exports[`Storyshots Carousel Thumbnails 1`] = `
           />
         </div>
         <div
-          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 jQUQKD"
+          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 cNMObR"
         >
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"

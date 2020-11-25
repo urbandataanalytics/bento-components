@@ -81,6 +81,7 @@ CarouselWrapper.defaultProps = {
 const ThumbsContainer = styled.div`
   height: 100%;
   overflow: hidden;
+  position: relative;
 `;
 
 const Thumbs = styled.div`

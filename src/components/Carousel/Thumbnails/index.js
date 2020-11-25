@@ -6,6 +6,7 @@ import Skeleton from '../../Skeleton/index';
 const StyledThumbContainer = styled.div`
   padding-bottom: ${({ theme }) => theme.spacings.small2};
   height: ${({ thumbCount }) => `calc((100% / ${thumbCount}) + 2.5px)`};
+  position: relative;
 `;
 StyledThumbContainer.defaultProps = {
   theme: defaultTheme
