@@ -60,6 +60,9 @@ const CarouselSlidesContainer = styled.div`
   user-select: none;
   height: 100%;
 `;
+CarouselSlidesContainer.defaultProps = {
+  theme: defaultTheme
+};
 
 const CarouselWrapper = styled.div`
   position: relative;
@@ -71,6 +74,9 @@ const CarouselWrapper = styled.div`
   grid-template-columns: 75% 1fr;
   grid-gap: ${({ theme }) => theme.spacings.small2};
 `;
+CarouselWrapper.defaultProps = {
+  theme: defaultTheme
+};
 
 const ThumbsContainer = styled.div`
   height: 100%;
@@ -81,8 +87,7 @@ const Thumbs = styled.div`
   height: 100%;
   margin-bottom: -${({ theme }) => theme.spacings.small2};
 `;
-
-CarouselSlidesContainer.defaultProps = {
+Thumbs.defaultProps = {
   theme: defaultTheme
 };
 

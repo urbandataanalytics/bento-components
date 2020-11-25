@@ -11,19 +11,55 @@ exports[`Storyshots Carousel Normal 1`] = `
   }
 >
   <div
-    className="Carousel__CarouselComponent-sc-19rb187-1 jeIhFb"
+    className="Carousel__CarouselWrapper-sc-19rb187-4 cxVMnr"
   >
     <div
-      className="Carousel__CarouselContainer-sc-19rb187-2 enZxve"
+      className="Carousel__CarouselComponent-sc-19rb187-1 jeIhFb"
     >
       <div
-        className="Carousel__CarouselSlidesContainer-sc-19rb187-3 kOGYYh"
+        className="Carousel__CarouselContainer-sc-19rb187-2 gyIlwN"
       >
         <div
-          className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          className="Carousel__CarouselSlidesContainer-sc-19rb187-3 kOGYYh"
         >
           <div
-            className="Slide__StyledCarouselSlide-sc-1lch2cn-1 cBnDah"
+            className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+          <div
+            className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+          <div
+            className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+          <div
+            className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+          <div
+            className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
@@ -32,11 +68,72 @@ exports[`Storyshots Carousel Normal 1`] = `
             />
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Carousel Thumbnails 1`] = `
+<div
+  style={
+    Object {
+      "height": "250px",
+      "padding": "2rem",
+      "width": "50%",
+    }
+  }
+>
+  <div
+    className="Carousel__CarouselWrapper-sc-19rb187-4 cxVMnr"
+  >
+    <div
+      className="Carousel__CarouselComponent-sc-19rb187-1 jeIhFb"
+    >
+      <div
+        className="Carousel__CarouselContainer-sc-19rb187-2 dwWHum"
+      >
         <div
-          className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          className="Carousel__CarouselSlidesContainer-sc-19rb187-3 kOGYYh"
         >
           <div
-            className="Slide__StyledCarouselSlide-sc-1lch2cn-1 cBnDah"
+            className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+          <div
+            className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+          <div
+            className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+          <div
+            className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              height="100%"
+              width="100%"
+            />
+          </div>
+          <div
+            className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
@@ -45,18 +142,58 @@ exports[`Storyshots Carousel Normal 1`] = `
             />
           </div>
         </div>
+      </div>
+    </div>
+    <div
+      className="Carousel__ThumbsContainer-sc-19rb187-5 fVNkMw"
+    >
+      <div
+        className="Carousel__Thumbs-sc-19rb187-6 beQNNl"
+      >
         <div
-          className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
+          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 jQUQKD"
         >
-          <div
-            className="Slide__StyledCarouselSlide-sc-1lch2cn-1 cBnDah"
-          >
-            <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
-              height="100%"
-              width="100%"
-            />
-          </div>
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+            height="100%"
+            width="100%"
+          />
+        </div>
+        <div
+          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 jQUQKD"
+        >
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+            height="100%"
+            width="100%"
+          />
+        </div>
+        <div
+          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 jQUQKD"
+        >
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+            height="100%"
+            width="100%"
+          />
+        </div>
+        <div
+          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 jQUQKD"
+        >
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+            height="100%"
+            width="100%"
+          />
+        </div>
+        <div
+          className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 jQUQKD"
+        >
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+            height="100%"
+            width="100%"
+          />
         </div>
       </div>
     </div>
