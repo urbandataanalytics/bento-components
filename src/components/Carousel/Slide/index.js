@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Skeleton from '../../Skeleton/index';
@@ -20,6 +20,13 @@ const StyledCarouselSlide = styled.div`
   justify-content: center;
   overflow: hidden;
   height: 100%;
+  background-image: url(${props => props.src});
+  background-size: cover;
+  background-position: 100%;
+  opacity: ${({ loaded }) => (loaded ? 1 : 0)};
+  &:hover {
+    cursor: pointer;
+  }
 `;
 StyledCarouselSlide.defaultProps = {
   theme: defaultTheme
@@ -35,30 +42,41 @@ const StyledSlideImage = styled.img`
   min-width: 100%;
   max-width: none;
   transform: translate(-50%, -50%);
-  transition: ${props => props.theme.components.carouselSlideTransition};
-  opacity: ${props => (props.loaded ? 1 : 0)};
+  transition: ${({ theme }) => theme.components.carouselSlideTransition};
 `;
 StyledSlideImage.defaultProps = {
   theme: defaultTheme
 };
 
 const CarouselSlide = React.forwardRef((props, ref) => {
-  const { src, visible, ...other } = props;
+  const { src, visible, onClick, index, ...other } = props;
   const [hasLoaded, setHasLoaded] = useState(false);
+  const [backgroundImage, setBackgroundImage] = useState(false);
 
   const setLoaded = useCallback(() => {
     if (visible) setHasLoaded(true);
   }, [visible, setHasLoaded]);
 
+  useEffect(() => {
+    if (visible && !backgroundImage) {
+      const image = new Image();
+      image.src = src;
+      image.onload = setLoaded;
+      setBackgroundImage(image);
+    }
+  }, [visible]);
+
   return (
     <StyledSlideContainer>
-      <StyledCarouselSlide>
-        {visible ? (
-          <StyledSlideImage loaded={hasLoaded} src={src} onLoad={setLoaded} />
-        ) : (
-          <Skeleton variant="text" height="100%" width="100%" />
-        )}
-      </StyledCarouselSlide>
+      {visible ? (
+        <StyledCarouselSlide
+          src={backgroundImage ? backgroundImage.src : ''}
+          loaded={hasLoaded}
+          onClick={() => onClick(index)}
+        />
+      ) : (
+        <Skeleton variant="text" height="100%" width="100%" />
+      )}
     </StyledSlideContainer>
   );
 });
