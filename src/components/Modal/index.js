@@ -24,7 +24,7 @@ StyledContainer.defaultProps = {
 };
 
 const StyledHeader = styled.header`
-  display: flex;
+  display: ${({ closable }) => (closable ? 'flex' : 'block')};
   justify-content: ${({ hasHeading }) => (hasHeading ? 'space-between' : 'flex-end')};
   width: 100%;
   padding: ${({ theme }) => theme.spacings.small4} ${({ theme }) => theme.spacings.medium1}
@@ -112,7 +112,7 @@ const Modal = ({
     <StyledOverlay>
       <StyledContainer {...other} ref={ref}>
         {((header && header.props.children) || closable) && (
-          <StyledHeader hasHeading={header && header.props.children}>
+          <StyledHeader hasHeading={header && header.props.children} closable={closable}>
             {header && header.props.children && <StyleHeading>{header}</StyleHeading>}
             {closable && (
               <button onClick={onClose}>
