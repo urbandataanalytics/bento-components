@@ -46,8 +46,8 @@ StyleHeading.defaultProps = {
 };
 
 const StyledContent = styled.div`
-  margin: ${({ theme }) => theme.spacings.medium1} 0;
-  padding: 0 ${({ theme }) => theme.spacings.small3};
+  margin: ${({ theme, full }) => (full ? '0' : theme.spacings.medium1)} 0;
+  padding: 0 ${({ theme, full }) => (full ? '0' : theme.spacings.small3)};
   overflow: hidden;
   position: relative;
   height: 100%;
@@ -91,6 +91,7 @@ const Modal = ({
   header,
   onClose,
   isOpen,
+  full = false,
   ...other
 }) => {
   const theme = useTheme();
@@ -121,7 +122,7 @@ const Modal = ({
             )}
           </StyledHeader>
         )}
-        <StyledContent>{children}</StyledContent>
+        <StyledContent full={full}>{children}</StyledContent>
         {footer && footer.props.children && <StyledFooter>{footer}</StyledFooter>}
       </StyledContainer>
     </StyledOverlay>
