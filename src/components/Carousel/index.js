@@ -72,7 +72,7 @@ const CarouselWrapper = styled.div`
   margin-right: auto;
   display: grid;
   grid-template-columns: ${({ thumbnailsEnabled }) => (thumbnailsEnabled ? '75% 1fr' : '100% 1fr')};
-  grid-gap: ${({ theme }) => theme.spacings.small2};
+  grid-gap: ${({ theme }) => theme.spacings.small3};
 `;
 CarouselWrapper.defaultProps = {
   theme: defaultTheme
@@ -86,7 +86,7 @@ const ThumbsContainer = styled.div`
 
 const Thumbs = styled.div`
   height: 100%;
-  margin-bottom: -${({ theme }) => theme.spacings.small2};
+  margin-bottom: -${({ theme }) => theme.spacings.small3};
 `;
 Thumbs.defaultProps = {
   theme: defaultTheme
