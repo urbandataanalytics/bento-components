@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from './index';
 import { action } from '@storybook/addon-actions';
+import { number } from '@storybook/addon-knobs';
 
 export default {
   title: 'Carousel',
@@ -15,7 +16,8 @@ const getCommonProps = () => {
       'https://images.adsttc.com/media/images/59a7/33f3/b22e/38a3/0300/04a3/slideshow/20.jpg?1504130022',
       'https://images.adsttc.com/media/images/59a7/3495/b22e/3828/7b00/0283/slideshow/30.jpg?1504130176',
       'https://images.adsttc.com/media/images/59a7/3466/b22e/3828/7b00/0282/slideshow/28.jpg?1504130127'
-    ]
+    ],
+    startIndex: number('Start index', 0)
   };
 };
 
@@ -46,6 +48,7 @@ export const Thumbnails = () => {
         rounded={true}
         onThumbClick={action('clicked thumbnail')}
         onClick={action('clicked slide')}
+        thumbnailStartIndex={number('Start thumb index', 1)}
       ></Carousel>
     </div>
   );

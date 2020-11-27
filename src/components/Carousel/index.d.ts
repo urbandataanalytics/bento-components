@@ -11,6 +11,8 @@ export interface CarouselProps {
   thumbCount: number;
   onThumbClick: (index: number) => void;
   onClick: (index: number) => void;
+  startIndex?: number;
+  thumbnailStartIndex?: number;
 }
 
 declare const Carousel: React.FunctionComponent<CarouselProps>;
