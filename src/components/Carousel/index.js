@@ -107,9 +107,11 @@ const Carousel = React.forwardRef((props, ref) => {
     onThumbClick,
     thumbCount,
     onClick,
+    startIndex,
+    thumbnailStartIndex,
     ...other
   } = props;
-  const [emblaRef, embla] = useEmblaCarousel({ loop, draggable });
+  const [emblaRef, embla] = useEmblaCarousel({ loop, draggable, startIndex });
   const [slidesInView, setSlidesInView] = useState([]);
   const [thumbSlidesInView, setThumbSlidesInView] = useState([]);
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
@@ -118,7 +120,7 @@ const Carousel = React.forwardRef((props, ref) => {
     containScroll: 'keepSnaps',
     axis: 'y',
     loop: true,
-    startIndex: 1,
+    startIndex: thumbnailStartIndex,
     align: 'start'
   });
 
@@ -246,7 +248,9 @@ Carousel.propTypes = {
   thumbnailsEnabled: PropTypes.bool,
   thumbCount: PropTypes.number,
   onThumbClick: PropTypes.func,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  startIndex: PropTypes.number,
+  thumbnailStartIndex: PropTypes.number
 };
 
 Carousel.defaultProps = {
@@ -259,7 +263,9 @@ Carousel.defaultProps = {
   rounded: false,
   thumbCount: 3,
   onThumbClick: () => {},
-  onClick: () => {}
+  onClick: () => {},
+  startIndex: 0,
+  thumbnailStartIndex: 1
 };
 
 Carousel.displayName = 'Carousel';
