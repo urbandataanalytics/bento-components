@@ -90,6 +90,7 @@ const Slider = React.forwardRef((props, ref) => {
   } = props;
   const [values, setValues] = useState(getDefaultValue({ value, min, max, variant }));
   const [isEditing, toggleEdditing] = useState({ min: false, max: false });
+  const [calculatedStep, setCalculatedStep] = useState(step);
 
   useEffect(() => {
     setValues(getDefaultValue({ min, max, variant, value }));
@@ -102,6 +103,7 @@ const Slider = React.forwardRef((props, ref) => {
 
   const handleSliderChange = value => {
     setValues(value);
+    if (value[1] > max - step) setCalculatedStep(max - step);
   };
 
   const handleAfterChange = () => {
@@ -191,7 +193,7 @@ const Slider = React.forwardRef((props, ref) => {
             onChange={handleSliderChange}
             onAfterChange={handleAfterChange}
             ref={ref}
-            step={step}
+            step={calculatedStep}
             value={values}
             {...propStyles}
           />
