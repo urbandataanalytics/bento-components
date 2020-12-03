@@ -37,10 +37,6 @@ const GlobalStyle = createGlobalStyle`
 
   ${({ theme }) => headingsGenerator(theme.headings)}
 
-  p{
-    ${({ theme }) => theme.texts.p1};
-  }
-
   .p1b{
     ${({ theme }) => theme.texts.p1b};
   }
