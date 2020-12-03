@@ -1,26 +1,29 @@
 import React, { useState, useRef, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
 import defaultTheme from '../../themes/defaultTheme';
+import useDimensions from '../../hooks/useDimensions';
+import Portal from '../Portal/index';
 
 const StyledDropdown = styled.div`
   position: relative;
   display: inline-block;
+  height: 100%;
 `;
 
 StyledDropdown.defaultProps = {
   theme: defaultTheme
 };
 
-const StyledLabel = styled.label`
+const StyledLabel = styled.div`
   cursor: pointer;
+  height: 100%;
 `;
 
 const ChildrenContainer = styled.div`
   opacity: ${props => (props.isOpen ? '1' : '0')};
   visibility: ${props => (props.isOpen ? 'visible' : 'hidden')};
-  transform: translateY(${props => (props.isOpen ? '10px' : '0')});
-  transition: ${props => props.theme.global.transition};
   position: absolute;
   min-width: 200px;
   border: 1px solid ${props => props.theme.components.dropdownBorderColor};
@@ -28,43 +31,135 @@ const ChildrenContainer = styled.div`
   border-radius: ${props => props.theme.components.dropdownBorderRadius};
   background: ${props => props.theme.components.dropdownBackground};
   padding: ${props => props.theme.components.dropdownPadding};
-  ${props => `${props.position}: 8px`}
-  z-index: 1;
+  z-index: 10;
+  animation: ${({ theme }) => theme.animations.dropDownDisplay} 0.4s
+    cubic-bezier(0.73, 0.005, 0.22, 1);
 `;
 
 ChildrenContainer.defaultProps = {
   theme: defaultTheme
 };
 
-const Dropdown = ({ children, label, autoClose, position, onChange = () => {}, ...other }) => {
-  const [isOpen, setOpen] = useState(false);
+const DROPDOWN_OFFSET = 8;
 
-  const ref = useRef();
+const calculatePosition = (align, position, dimensions) => {
+  const {
+    containerHeight,
+    containerLeft,
+    containerTop,
+    containerWidth,
+    popperHeight,
+    popperWidth,
+    windowWidth
+  } = dimensions;
 
-  useOnclickOutside(ref, () => {
-    if (!autoClose) return;
-    setOpen(false);
-  });
+  let top = 0;
+  let left = 0;
+
+  top =
+    position === 'bottom' ? containerTop + containerHeight + 10 : containerTop - popperHeight - 10;
+  if (align === 'left') {
+    left = containerLeft;
+    if (left <= DROPDOWN_OFFSET) {
+      left = DROPDOWN_OFFSET;
+    }
+  } else if (align === 'center') {
+    left = containerLeft + containerWidth / 2 - popperWidth / 2;
+  } else if (align === 'right') {
+    left = containerLeft + containerWidth - popperWidth;
+    if (left + popperWidth >= windowWidth - DROPDOWN_OFFSET) {
+      left = windowWidth - popperWidth - DROPDOWN_OFFSET;
+    }
+  }
+
+  return { top, left };
+};
+
+const Dropdown = ({
+  children,
+  label,
+  closeOnClickOutside,
+  closeOnClickInside,
+  align,
+  position,
+  onChange = () => {},
+  isOpen = false,
+  ...other
+}) => {
+  const [isDropdownOpen, setOpen] = useState(isOpen);
 
   useEffect(() => {
-    onChange(isOpen);
-  }, [onChange, isOpen]);
+    setOpen(isOpen);
+  }, [isOpen]);
+
+  const container = useRef(null);
+  const dropdown = useRef(null);
+  const content = useRef(null);
+
+  useOnclickOutside(
+    () => {
+      if (!closeOnClickOutside) return;
+      setOpen(false);
+    },
+    {
+      refs: [container, dropdown]
+    }
+  );
+
+  const dimensions = useDimensions(
+    { container, popper: dropdown, content },
+    children,
+    container,
+    isDropdownOpen
+  );
+  let dropdownPosition = calculatePosition(align, position, dimensions);
+
+  React.useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    dropdownPosition = calculatePosition(align, position, dimensions);
+  }, [isDropdownOpen]);
+
+  useEffect(() => {
+    onChange(isDropdownOpen);
+  }, [onChange, isDropdownOpen]);
 
   return (
-    <StyledDropdown {...other} ref={ref}>
-      <StyledLabel onClick={() => setOpen(!isOpen)}>{label}</StyledLabel>
-      <ChildrenContainer isOpen={isOpen} position={position}>
-        {children}
-      </ChildrenContainer>
+    <StyledDropdown {...other} ref={container}>
+      <StyledLabel onClick={() => setOpen(!isDropdownOpen)}>{label}</StyledLabel>
+      {isDropdownOpen && (
+        <Portal renderInto="dropdowns">
+          <ChildrenContainer
+            isOpen={isDropdownOpen}
+            ref={dropdown}
+            style={dropdownPosition}
+            onClick={() => (closeOnClickInside ? setOpen(false) : null)}
+          >
+            <div ref={content}>{children}</div>
+          </ChildrenContainer>
+        </Portal>
+      )}
     </StyledDropdown>
   );
 };
 
 Dropdown.displayName = 'Dropdown';
 
+Dropdown.propTypes = {
+  children: PropTypes.node,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
+  className: PropTypes.string,
+  position: PropTypes.oneOf(['top', 'bottom']),
+  align: PropTypes.oneOf(['right', 'center', 'left']),
+  closeOnClickOutside: PropTypes.bool,
+  isOpen: PropTypes.bool
+};
+
 Dropdown.defaultProps = {
-  autoClose: true,
-  position: 'left'
+  closeOnClickOutside: true,
+  isOpen: false,
+  closeOnClickInside: false,
+  position: 'bottom',
+  align: 'left'
 };
 
 export default Dropdown;

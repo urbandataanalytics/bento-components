@@ -18,6 +18,7 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@uda/bento-components)
 ![npm](https://img.shields.io/npm/v/@uda/bento-components)
 [![CircleCI](https://img.shields.io/circleci/project/github/urbandataanalytics/bento-components/master.svg)](https://circleci.com/gh/urbandataanalytics/bento-components/tree/master)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/af808985751f9bb17ec6/test_coverage)](https://codeclimate.com/github/urbandataanalytics/bento-components/test_coverage)
 ![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=urbandataanalytics/bento-components)](https://dependabot.com)
 

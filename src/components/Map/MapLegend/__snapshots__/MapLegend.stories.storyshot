@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots MapLegend Normal 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="MapLegend__StyledContainer-sc-1s1tm5k-0 gRzBmY"
+  >
+    <div
+      className="MapLegend__StyledWrapper-sc-1s1tm5k-1 iHoiQN"
+    >
+      <header
+        className="MapLegend__StyledTitle-sc-1s1tm5k-2 jpSsIc"
+      >
+        Leyend
+      </header>
+      <div
+        className="MapLegend__StyledDescription-sc-1s1tm5k-3 iZSflf"
+      >
+        Lorem ipsum
+      </div>
+      <div
+        className="MapLegend__StyledRangeColors-sc-1s1tm5k-4 jDVGxW"
+      >
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 vvoKX"
+          color="#03045E"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 gagTFH"
+          color="#ADE8F4"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 cdyMtM"
+          color="#90D8EF"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 kNIjQG"
+          color="#48B5E4"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 erbCcd"
+          color="#008BC7"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 dgRvEY"
+          color="#0077B6"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 kdZujd"
+          color="#023E8A"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 vvoKX"
+          color="#03045E"
+        />
+      </div>
+      <div
+        className="MapLegend__StyledMinMaxText-sc-1s1tm5k-6 qshaV"
+      >
+        <span>
+          Minium
+        </span>
+        <span>
+          Max
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots MapLegend With Actions 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="MapLegend__StyledContainer-sc-1s1tm5k-0 gRzBmY"
+  >
+    <div
+      className="MapLegend__StyledWrapper-sc-1s1tm5k-1 iHoiQN"
+    >
+      <header
+        className="MapLegend__StyledTitle-sc-1s1tm5k-2 jpSsIc"
+      >
+        Leyend
+      </header>
+      <div
+        className="MapLegend__StyledDescription-sc-1s1tm5k-3 iZSflf"
+      >
+        Lorem ipsum
+      </div>
+      <div
+        className="MapLegend__StyledRangeColors-sc-1s1tm5k-4 jDVGxW"
+      >
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 vvoKX"
+          color="#03045E"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 gagTFH"
+          color="#ADE8F4"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 cdyMtM"
+          color="#90D8EF"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 kNIjQG"
+          color="#48B5E4"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 erbCcd"
+          color="#008BC7"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 dgRvEY"
+          color="#0077B6"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 kdZujd"
+          color="#023E8A"
+        />
+        <i
+          className="MapLegend__StyledColor-sc-1s1tm5k-5 vvoKX"
+          color="#03045E"
+        />
+      </div>
+      <div
+        className="MapLegend__StyledMinMaxText-sc-1s1tm5k-6 qshaV"
+      >
+        <span>
+          Minium
+        </span>
+        <span>
+          Max
+        </span>
+      </div>
+    </div>
+    <footer
+      className="MapLegend__StyledActions-sc-1s1tm5k-7 hzkOog"
+    >
+      <div
+        className="MapLegend__Action-sc-1s1tm5k-8 kHzuLm"
+        onClick={[Function]}
+      >
+        Sale
+      </div>
+      <div
+        className="MapLegend__Action-sc-1s1tm5k-8 esMTZo"
+        onClick={[Function]}
+      >
+        Rent
+      </div>
+    </footer>
+  </div>
+</div>
+`;

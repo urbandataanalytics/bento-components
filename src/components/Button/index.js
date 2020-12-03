@@ -62,7 +62,7 @@ const StyledButton = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: ${props => props.theme.global.transition};
+  transition: ${props => props.theme.global.transitionM};
   position: relative;
   overflow: hidden;
 
@@ -80,8 +80,7 @@ const StyledButton = styled.button`
     height: 500px;
     margin: auto;
     opacity: 0;
-    transition: all 1s;
-    z-index: 1;
+    transition: all 1s ease-in-out;
   }
 
   &:active:after {
@@ -168,9 +167,9 @@ Button.propTypes = {
   block: PropTypes.bool,
   children: PropTypes.node,
   disabled: PropTypes.bool,
-  size: PropTypes.oneOf(['medium', 'large']).isRequired,
+  size: PropTypes.oneOf(['medium', 'large']),
   tabIndex: PropTypes.string,
-  variant: PropTypes.oneOf(['normal', 'primary', 'secondary']).isRequired
+  variant: PropTypes.oneOf(['normal', 'primary', 'secondary'])
 };
 
 Button.defaultProps = {

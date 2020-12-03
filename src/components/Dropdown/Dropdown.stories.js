@@ -1,5 +1,5 @@
 import React from 'react';
-import { number } from '@storybook/addon-knobs';
+import { number, boolean } from '@storybook/addon-knobs';
 import ListItem from '../List/ListItem/';
 import List from '../List/';
 import Button from '../Button/';
@@ -17,6 +17,12 @@ const getCommonProps = () => {
   };
 };
 
+const getDropdownProps = () => {
+  return {
+    isOpen: boolean('Is Open', false)
+  };
+};
+
 export const Playground = () => {
   const containerStyle = {
     padding: '2rem'
@@ -27,7 +33,7 @@ export const Playground = () => {
 
   return (
     <div style={containerStyle}>
-      <Dropdown label={<Button>Label example</Button>}>
+      <Dropdown {...getDropdownProps()} label={<Button>Label example</Button>}>
         <List {...getCommonProps()}>
           {elements.map((e, i) => (
             <ListItem key={i}>{i + 1}</ListItem>
@@ -46,6 +52,28 @@ export const WithChildrens = () => {
   return (
     <div style={containerStyle}>
       <Dropdown label={<Button>Label example</Button>}>
+        <List>
+          <ListItem leftContent={<IconFolder />}>Text</ListItem>
+          <ListItem rightContent={<IconFolder />} disabled>
+            Text
+          </ListItem>
+          <ListItem leftContent={<IconFolder />} rightContent={<IconFolder />} active>
+            Text
+          </ListItem>
+        </List>
+      </Dropdown>
+    </div>
+  );
+};
+
+export const CloseOnClickInside = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <Dropdown label={<Button>Label example</Button>} closeOnClickInside={true}>
         <List>
           <ListItem leftContent={<IconFolder />}>Text</ListItem>
           <ListItem rightContent={<IconFolder />} disabled>

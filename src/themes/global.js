@@ -6,6 +6,22 @@ const GlobalStyle = createGlobalStyle`
 
   ${reset}
 
+  *::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+  }
+  *::-webkit-scrollbar-track {
+      background-color: #fff;
+  }
+  *::-webkit-scrollbar-thumb {
+      background-color: #babac0;
+      border-radius: 16px;
+      border: 4px solid #fff;
+  }
+  *::-webkit-scrollbar-button {
+      display:none;
+  }
+
   html {
     font-family: ${({ theme }) => theme.global.fontFamily};
     ${({ theme }) => theme.texts.p1}
@@ -20,10 +36,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ${({ theme }) => headingsGenerator(theme.headings)}
-
-  p{
-    ${({ theme }) => theme.texts.p1};
-  }
 
   .p1b{
     ${({ theme }) => theme.texts.p1b};
@@ -93,6 +105,13 @@ const GlobalStyle = createGlobalStyle`
     .active {
       color: ${({ theme }) => theme.color.primary300};
     }
+  }
+
+  ::selection {
+    background: ${({ theme }) => theme.color.golden300}; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: ${({ theme }) => theme.color.golden300}; /* Gecko Browsers */
   }
 `;
 
