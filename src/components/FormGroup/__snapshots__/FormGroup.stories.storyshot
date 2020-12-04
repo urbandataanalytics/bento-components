@@ -30,9 +30,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
           Email
         </p>
       </label>
-      <small
-        className="InputField__HelpText-sc-1kf04eo-1 gwNDae"
-      />
     </div>
   </div>
   <div
@@ -57,9 +54,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
           Password
         </p>
       </label>
-      <small
-        className="InputField__HelpText-sc-1kf04eo-1 gwNDae"
-      />
     </div>
   </div>
   <div
