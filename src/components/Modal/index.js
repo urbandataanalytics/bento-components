@@ -100,12 +100,17 @@ const Modal = ({
   const prevBodyOverflowStyle = useRef(null);
 
   useEffect(() => {
+    const overflow = document.body.scrollHeight > window.innerHeight;
     if (isOpen) {
-      prevBodyOverflowStyle.current = document.body.style.overflow;
-      document.body.style.overflow = 'hidden';
+      prevBodyOverflowStyle.current = document.body.style.overflowY;
+      document.body.style.overflowY = overflow ? 'scroll' : '';
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
     }
     return () => {
-      document.body.style.overflow = prevBodyOverflowStyle.current || '';
+      document.body.style.overflowY = prevBodyOverflowStyle.current || '';
+      document.body.style.position = '';
+      document.body.style.width = '';
     };
   }, [isOpen]);
 
