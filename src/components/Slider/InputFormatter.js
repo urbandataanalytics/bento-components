@@ -56,6 +56,7 @@ const InputFormatter = ({
     } else {
       setInputValue('');
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isEditing]);
 
   return isEditing ? (

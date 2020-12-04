@@ -32,7 +32,7 @@ const ChildrenContainer = styled.div`
   background: ${props => props.theme.components.dropdownBackground};
   padding: ${props => props.theme.components.dropdownPadding};
   z-index: 10;
-  animation: ${({ theme }) => theme.animations.dropDownDisplay} 0.4s
+  animation: ${({ theme }) => theme.animations.dropDownDisplay} 125ms
     cubic-bezier(0.73, 0.005, 0.22, 1);
 `;
 

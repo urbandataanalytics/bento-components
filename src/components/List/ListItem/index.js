@@ -106,10 +106,10 @@ export const StyledListItem = styled.li`
   transition: ${props => props.theme.global.transitionM};
   margin: ${props => props.theme.components.listItemMargin};
   line-height: 26px;
-  ${props => props.onClick && 'cursor: pointer'};
+  cursor: ${props => (props.disabled ? 'default' : props.onClick ? 'pointer' : 'default')};
   ${props =>
     props.disabled &&
-    `color: ${props.theme.components.listItemColorDisabled}; background-color:${props.theme.components.listItemBackgroundColorDisabled};`};
+    ` color: ${props.theme.components.listItemColorDisabled}; background-color:${props.theme.components.listItemBackgroundColorDisabled};`};
   ${props =>
     props.focused && `background-color: ${props.theme.components.listItemBackgroundColorFocused}`};
   ${props => props.focused && `color: ${props.theme.components.listItemColorFocused}`};

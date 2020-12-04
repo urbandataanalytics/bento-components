@@ -399,7 +399,7 @@ exports[`Storyshots Search Normal 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "3.4rem",
+              "size": "36px",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -414,12 +414,12 @@ exports[`Storyshots Search Normal 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "1.1rem",
+              "size": "16px",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "0.8rem",
+              "size": "12px",
             },
           ],
           "shapes": Object {
@@ -894,7 +894,7 @@ exports[`Storyshots Search Normal 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "3.4rem",
+                "size": "36px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -909,12 +909,12 @@ exports[`Storyshots Search Normal 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.1rem",
+                "size": "16px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "0.8rem",
+                "size": "12px",
               },
             ],
             "shapes": Object {
