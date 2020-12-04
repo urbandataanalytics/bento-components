@@ -1,5 +1,5 @@
 import React from 'react';
-import { number, boolean } from '@storybook/addon-knobs';
+import { number, boolean, select } from '@storybook/addon-knobs';
 import ListItem from '../List/ListItem/';
 import List from '../List/';
 import Button from '../Button/';
@@ -19,7 +19,11 @@ const getCommonProps = () => {
 
 const getDropdownProps = () => {
   return {
-    isOpen: boolean('Is Open', false)
+    align: select('Align', ['left', 'right', 'center'], 'left'),
+    closeOnClickInside: boolean('Close on click inside', false),
+    closeOnClickOutside: boolean('Close on click outside', true),
+    isOpen: boolean('Is Open', false),
+    position: select('Position', ['top', 'bottom'], 'bottom')
   };
 };
 

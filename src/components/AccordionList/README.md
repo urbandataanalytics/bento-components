@@ -20,7 +20,7 @@ Table below contains all types of the props available in the AccordionList compo
 
 | Name           | Type                                                   | Default | Description                                                                |
 | :------------- | :----------------------------------------------------- | :------ | :------------------------------------------------------------------------- |
-| children       | `React.ChildrenArray<React.Element<typeof Accordion>>` |         | The content of the AccordionList. You can use only [Accordion](#Accordion) |
+| **children**   | `React.ChildrenArray<React.Element<typeof Accordion>>` |         | The content of the AccordionList. You can use only [Accordion](#Accordion) |
 | toggleOnExpand | `boolean`                                              | true    | If `true` it will toggle others element when the section is expanded       |
 
 ### Accordion

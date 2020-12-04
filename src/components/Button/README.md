@@ -27,9 +27,9 @@ Table below contains all types of the props available in Button component.
 | loading     | `boolean`       | `false`     | If `true`, a loader [icon](../Icon/README.md) will be displayed       |
 | loadingText | `string`        |             | Text to display when the button has loading prop = `true`             |
 | onClick     | `event => void` |             | Function for handling onClick event.                                  |
-| **size**    | [`enum`](#enum) | `"medium"`  | The size of the Button.                                               |
+| size        | [`enum`](#enum) | `"medium"`  | The size of the Button.                                               |
 | tabIndex    | `string`        |             | Specifies the tab order of an element.                                |
-| **variant** | [`enum`](#enum) | `"primary"` | The variant of Button.                                                |
+| variant     | [`enum`](#enum) | `"primary"` | The variant of Button.                                                |
 
 ### enum
 
