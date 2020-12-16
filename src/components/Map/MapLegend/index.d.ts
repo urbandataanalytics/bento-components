@@ -10,11 +10,18 @@ export interface Props {
   activeAction? : string;
   actions?: Array<Action>;
   onChangeAction?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
+  variant?: 'range' | 'points';
+  points?: Array<Point>;
 }
 
 interface Action {
   label: string;
   value: string | number;
+}
+
+interface Point {
+  label: string;
+  color: string;
 }
 
 declare const MapLegend: React.FunctionComponent<Props>;

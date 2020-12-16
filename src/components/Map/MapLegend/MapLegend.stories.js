@@ -10,7 +10,7 @@ export default {
 
 const getCommonProps = () => {
   return {
-    title: text('Title', 'Leyend'),
+    title: text('Title', 'Legend'),
     description: text('Description', 'Lorem ipsum'),
     rangeTextMin: text('Min Text', 'Minium'),
     rangeTextMax: text('Max Text', 'Max'),
@@ -26,7 +26,7 @@ const withActionsProps = () => {
   };
 };
 
-export const Normal = () => {
+export const RangeLegend = () => {
   const containerStyle = {
     padding: '2rem'
   };
@@ -35,6 +35,7 @@ export const Normal = () => {
     <div style={containerStyle}>
       <MapLegend
         {...getCommonProps()}
+        variant="range"
         rangeColors={[
           '#03045E',
           '#ADE8F4',
@@ -44,6 +45,28 @@ export const Normal = () => {
           '#0077B6',
           '#023E8A',
           '#03045E'
+        ]}
+        points={[
+          { color: '#1B817A', label: 'Exact address' },
+          { color: '#EDBE96', label: 'No exact address' }
+        ]}
+      />
+    </div>
+  );
+};
+
+export const PointsLegend = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <MapLegend
+        variant="points"
+        points={[
+          { color: '#1B817A', label: 'Exact address' },
+          { color: '#EDBE96', label: 'No exact address' }
         ]}
       />
     </div>
@@ -60,6 +83,7 @@ export const WithActions = () => {
       <MapLegend
         {...getCommonProps()}
         {...withActionsProps()}
+        variant="range"
         rangeColors={[
           '#03045E',
           '#ADE8F4',
