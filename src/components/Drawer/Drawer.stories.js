@@ -5,7 +5,7 @@ import ListItem from '../List/ListItem';
 import IconFolder from '../../icons/Folder';
 import List from '../List';
 import { IconAsset, IconEye, IconFilter, IconNavigation, IconUser } from '../../icons';
-import { select, text } from '@storybook/addon-knobs';
+import { boolean, select, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import Accordion from '../AccordionList/Accordion';
 import { ButtonLink, Grid } from '../../index';
@@ -21,7 +21,7 @@ const getCommonProps = () => {
   };
 };
 
-export const Normal = () => {
+export const Playground = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClose = () => {
@@ -35,7 +35,7 @@ export const Normal = () => {
 
       <Drawer
         {...getCommonProps()}
-        open={isOpen}
+        open={boolean('Open', isOpen)}
         header={<h4>{text('Title', 'Title')}</h4>}
         subHeader={<small>{text('Subtitle', 'Subtitle')}</small>}
         onClose={handleClose}
