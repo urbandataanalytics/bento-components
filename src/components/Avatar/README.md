@@ -20,7 +20,6 @@ Table below contains all types of the props available in the Avatar component.
 | :-------------- | :------------------------------------------ | :--------- | :----------------------------------------------------------------------- |
 | alt             | `string`                                    |            | Optional property for passing own alt attribute to the DOM image element |
 | children        | `React.Node`                                |            | The content of the Avatar                                                |
-| color           | [`enum`](#enum)                             |            | The color of the Avatar                                                  |
 | customColor     | `string`                                    |            | Custom color of the Avatar                                               |
 | customTextColor | `string`                                    |            | Custom text color of the Avatar                                          |
 | imgProps        | `React.ImgHTMLAttributes<HTMLImageElement>` |            | Props to apply to the image                                              |
@@ -30,9 +29,9 @@ Table below contains all types of the props available in the Avatar component.
 
 ### enum
 
-| size           | color         |
-| :------------- | :------------ |
-| `"small"`      | `"primary"`   |
-| `"medium"`     | `"secondary"` |
+| size           |
+| :------------- |
+| `"small"`      |
+| `"medium"`     |
 | `"large"`      |
 | `"extralarge"` |

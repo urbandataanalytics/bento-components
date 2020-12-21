@@ -63,7 +63,6 @@ const Avatar = forwardRef((props, ref) => {
     srcSet,
     alt,
     size,
-    color,
     customColor,
     initialsNum = 2,
     imgProps,
@@ -105,7 +104,6 @@ Avatar.propTypes = {
   initialsNum: PropTypes.number,
   size: PropTypes.oneOf(['small', 'medium', 'large', 'extralarge']),
   imgProps: PropTypes.object,
-  color: PropTypes.oneOf(['primary', 'secondary']),
   children: PropTypes.node,
   customColor: PropTypes.string,
   customTextColor: PropTypes.string
