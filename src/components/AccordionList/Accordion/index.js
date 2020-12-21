@@ -114,7 +114,7 @@ const Accordion = props => {
     header,
     subHeader,
     isDefaultExpanded,
-    onClick = () => {},
+    onClick = () => { },
     ...other
   } = props;
   const [{ height }, childNode] = useBoundingRect();
@@ -153,7 +153,8 @@ Accordion.propTypes = {
   leftContent: PropTypes.node,
   rightContent: PropTypes.node,
   header: PropTypes.node.isRequired,
-  subHeader: PropTypes.node
+  subHeader: PropTypes.node,
+  isDefaultExpanded: PropTypes.bool
 };
 
 export default Accordion;
