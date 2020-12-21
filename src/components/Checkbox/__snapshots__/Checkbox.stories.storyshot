@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Checkbox Normal 1`] = `
+exports[`Storyshots Checkbox Playground 1`] = `
 <div
   style={
     Object {
@@ -17,6 +17,7 @@ exports[`Storyshots Checkbox Normal 1`] = `
       checked={false}
       className="Checkbox__Input-sc-1nxqa2l-2 jiknSG"
       disabled={false}
+      name="Name"
       onChange={[Function]}
       type="checkbox"
     />
@@ -502,6 +503,11 @@ exports[`Storyshots Checkbox Normal 1`] = `
         />
       </svg>
     </div>
+    <div
+      className="Checkbox__LabelText-sc-1nxqa2l-1 fgNcqn"
+    >
+      Label
+    </div>
   </label>
 </div>
 `;
@@ -523,6 +529,7 @@ exports[`Storyshots Checkbox With Label 1`] = `
       checked={false}
       className="Checkbox__Input-sc-1nxqa2l-2 jiknSG"
       disabled={false}
+      name="Name"
       onChange={[Function]}
       type="checkbox"
     />

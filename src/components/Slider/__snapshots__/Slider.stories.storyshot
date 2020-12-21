@@ -37,7 +37,7 @@ exports[`Storyshots Slider Normal 1`] = `
             "height": undefined,
             "left": "0%",
             "right": "auto",
-            "width": "0.49004900490049%",
+            "width": "100%",
           }
         }
       />
@@ -46,9 +46,9 @@ exports[`Storyshots Slider Normal 1`] = `
       />
       <div
         aria-disabled={false}
-        aria-valuemax={10000}
+        aria-valuemax={10}
         aria-valuemin={1}
-        aria-valuenow={50}
+        aria-valuenow={10}
         className="rc-slider-handle"
         onBlur={[Function]}
         onKeyDown={[Function]}
@@ -59,7 +59,7 @@ exports[`Storyshots Slider Normal 1`] = `
             "backgroundColor": "#1778FB",
             "borderColor": "#1778FB",
             "height": "16px",
-            "left": "0.49004900490049%",
+            "left": "100%",
             "marginTop": "-6px",
             "right": "auto",
             "transform": "translateX(-50%)",
@@ -610,9 +610,9 @@ exports[`Storyshots Slider Range 1`] = `
           Object {
             "backgroundColor": "#1778FB",
             "height": undefined,
-            "left": "9.99099909990999%",
+            "left": "0%",
             "right": "auto",
-            "width": "90.00900090009002%",
+            "width": "55.55555555555556%",
           }
         }
       />
@@ -621,9 +621,9 @@ exports[`Storyshots Slider Range 1`] = `
       />
       <div
         aria-disabled={false}
-        aria-valuemax={10000}
+        aria-valuemax={10}
         aria-valuemin={1}
-        aria-valuenow={1000}
+        aria-valuenow={1}
         className="rc-slider-handle rc-slider-handle-1"
         onBlur={[Function]}
         onKeyDown={[Function]}
@@ -634,7 +634,7 @@ exports[`Storyshots Slider Range 1`] = `
             "backgroundColor": "#1778FB",
             "borderColor": "#1778FB",
             "height": "16px",
-            "left": "9.99099909990999%",
+            "left": "0%",
             "marginTop": "-6px",
             "right": "auto",
             "transform": "translateX(-50%)",
@@ -645,9 +645,9 @@ exports[`Storyshots Slider Range 1`] = `
       />
       <div
         aria-disabled={false}
-        aria-valuemax={10000}
+        aria-valuemax={10}
         aria-valuemin={1}
-        aria-valuenow={10000}
+        aria-valuenow={6}
         className="rc-slider-handle rc-slider-handle-2"
         onBlur={[Function]}
         onKeyDown={[Function]}
@@ -658,7 +658,7 @@ exports[`Storyshots Slider Range 1`] = `
             "backgroundColor": "#1778FB",
             "borderColor": "#1778FB",
             "height": "16px",
-            "left": "100%",
+            "left": "55.55555555555556%",
             "marginTop": "-6px",
             "right": "auto",
             "transform": "translateX(-50%)",
@@ -678,11 +678,11 @@ exports[`Storyshots Slider Range 1`] = `
         className="Slider__InputContainer-sc-14leke7-1 bqScOy"
       >
         <input
-          className="InputFormatter__MinMaxInput-ptc9ju-0 egTGOI"
+          className="InputFormatter__MinMaxInput-ptc9ju-0 jffsVq"
           onClick={[Function]}
           readOnly={true}
           type="text"
-          value="1,000"
+          value="1"
         />
         <span
           className="Slider__PrefixSuffix-sc-14leke7-2 gwieVm"
@@ -694,11 +694,11 @@ exports[`Storyshots Slider Range 1`] = `
         className="Slider__InputContainer-sc-14leke7-1 bqScOy"
       >
         <input
-          className="InputFormatter__MinMaxInput-ptc9ju-0 PMgYH"
+          className="InputFormatter__MinMaxInput-ptc9ju-0 jffsVq"
           onClick={[Function]}
           readOnly={true}
           type="text"
-          value="10,000"
+          value="5"
         />
         <span
           className="Slider__PrefixSuffix-sc-14leke7-2 gwieVm"
