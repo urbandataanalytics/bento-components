@@ -70,11 +70,7 @@ import Card, { CardHeader, CardContent } from '@uda/bento-components';
 
 #### Props
 
-| Name         | Type         | Default | Description                                            |
-| :----------- | :----------- | :------ | :----------------------------------------------------- |
-| children     | `React.Node` |         | The content of the CardHeader.                         |
-| className    | `string`     |         | Specific class name to pass down to the Card component |
-| leftContent  | `React.Node` |         | Displayed item on the left                             |
-| rightContent | `React.Node` |         | Displayed item on the right                            |
-| subheader    | `React.Node` |         | The subheader of the CardHeader                        |
-| title        | `React.Node` |         | The title of the CardHeader                            |
+| Name      | Type         | Default | Description                                                    |
+| :-------- | :----------- | :------ | :------------------------------------------------------------- |
+| children  | `React.Node` |         | The content of the CardContent.                                |
+| className | `string`     |         | Specific class name to pass down to the Card content component |
