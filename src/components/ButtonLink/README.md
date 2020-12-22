@@ -32,6 +32,6 @@ Table below contains all types of the props available in ButtonLink component.
 
 | variant       | size       |
 | :------------ | :--------- |
-| `"normal"`    | `"medium"` |
-| `"primary"`   | `"large"`  |
-| `"secondary"` |            |
+| `"normal"`    | `"small"`  |
+| `"primary"`   | `"medium"` |
+| `"secondary"` | `"large"`  |

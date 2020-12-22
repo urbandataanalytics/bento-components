@@ -108,7 +108,11 @@ const ButtonLink = React.forwardRef((props, ref) => {
 
 ButtonLink.propTypes = {
   children: PropTypes.node,
+  className: PropTypes.string,
   disabled: PropTypes.bool,
+  iconLeft: PropTypes.node,
+  iconRight: PropTypes.node,
+  onClick: PropTypes.func,
   size: PropTypes.oneOf(['small', 'medium', 'large']).isRequired,
   tabIndex: PropTypes.string,
   variant: PropTypes.oneOf(['primary', 'secondary']).isRequired
