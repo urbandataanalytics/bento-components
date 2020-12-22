@@ -33,7 +33,7 @@ export const Playground = () => {
     </div>
   );
 };
-// Borramos block? - Incluido en los knobs de Playground
+
 export const Block = () => {
   const containerStyle = {
     padding: '2rem'

@@ -17,7 +17,6 @@ exports[`Storyshots Checkbox Playground 1`] = `
       checked={false}
       className="Checkbox__Input-sc-1nxqa2l-2 jiknSG"
       disabled={false}
-      name="Name"
       onChange={[Function]}
       type="checkbox"
     />
@@ -529,7 +528,6 @@ exports[`Storyshots Checkbox With Label 1`] = `
       checked={false}
       className="Checkbox__Input-sc-1nxqa2l-2 jiknSG"
       disabled={false}
-      name="Name"
       onChange={[Function]}
       type="checkbox"
     />

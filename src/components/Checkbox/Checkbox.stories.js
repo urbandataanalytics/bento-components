@@ -13,9 +13,8 @@ const getCommonProps = () => {
     checked: boolean('Checked', false),
     disabled: boolean('Disabled', false),
     label: text('Label', 'Label'),
-    name: text('Name', 'Name'),
     onChange: action('checked'),
-    size: select('Size', ['medium', 'large'], 'medium')
+    size: select('Size', ['small', 'medium'], 'medium')
   };
 };
 
