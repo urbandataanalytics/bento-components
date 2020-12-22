@@ -11,6 +11,7 @@ export default {
 
 const getCommonProps = () => {
   return {
+    block: boolean('Block Style', false),
     size: select('Sizes', ['medium', 'large'], 'medium'),
     variant: select('Variants', ['primary', 'secondary'], 'primary'),
     disabled: boolean('Disabled', false),
@@ -20,7 +21,7 @@ const getCommonProps = () => {
   };
 };
 
-export const Normal = () => {
+export const Playground = () => {
   const containerStyle = {
     padding: '2rem'
   };
@@ -32,7 +33,7 @@ export const Normal = () => {
     </div>
   );
 };
-
+// Borramos block? - Incluido en los knobs de Playground
 export const Block = () => {
   const containerStyle = {
     padding: '2rem'
@@ -47,7 +48,7 @@ export const Block = () => {
   );
 };
 
-export const WithIcon = () => {
+export const WithIconLeft = () => {
   const selectedIcon = select('Icons', Object.keys(Icons), 'IconWarning');
   const CustomIcon = Icons[selectedIcon];
   const containerStyle = {
@@ -62,14 +63,29 @@ export const WithIcon = () => {
   );
 };
 
+export const WithIconRight = () => {
+  const selectedIcon = select('Icons', Object.keys(Icons), 'IconWarning');
+  const CustomIcon = Icons[selectedIcon];
+  const containerStyle = {
+    padding: '2rem'
+  };
+  return (
+    <div style={containerStyle}>
+      <Button onClick={action('clicked')} iconRight={<CustomIcon />} {...getCommonProps()}>
+        {getCommonProps().text}
+      </Button>
+    </div>
+  );
+};
+
 export const Loading = () => {
   const containerStyle = {
     padding: '2rem'
   };
   return (
     <div style={containerStyle}>
-      <Button {...getCommonProps()} onClick={action('clicked')} loading>
-        {getCommonProps().text}
+      <Button loadingText={text('Loading text', 'Loading')} onClick={action('clicked')} loading>
+        "Button"
       </Button>
     </div>
   );

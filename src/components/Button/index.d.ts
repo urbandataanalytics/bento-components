@@ -6,6 +6,7 @@ export interface ButtonProps {
   loading?: boolean;
   loadingText?: string;
   iconLeft?: React.ReactNode;
+  iconRight?: React.ReactNode;
   onClick?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
   size?: 'medium' | 'large';
   tabIndex?: string;
