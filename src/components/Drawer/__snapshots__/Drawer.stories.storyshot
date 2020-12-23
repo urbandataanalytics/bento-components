@@ -495,7 +495,8 @@ Array [
     <span
       className="Button__StyledContent-sc-1tzlszx-2 cPiKOG"
     >
-      Open drawer
+      Open
+       drawer
     </span>
   </button>,
   <aside

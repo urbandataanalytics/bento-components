@@ -31,6 +31,6 @@ Table below contains all types of the props available in the Dropdown component.
 
 | align      | position   |
 | :--------- | :--------- |
-| `"left"`   | `"bottom"` |
-| `"right"`  | `"top"`    |
-| `"center"` |
+| `"left"`   | `"top"`    |
+| `"center"` | `"bottom"` |
+| `"right"`  |
