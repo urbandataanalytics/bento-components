@@ -31,9 +31,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
           Email
         </p>
       </label>
-      <small
-        className="InputField__HelpText-sc-1kf04eo-1 gwNDae"
-      />
     </div>
   </div>
   <div
@@ -58,9 +55,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
           Password
         </p>
       </label>
-      <small
-        className="InputField__HelpText-sc-1kf04eo-1 gwNDae"
-      />
     </div>
   </div>
   <div
@@ -463,7 +457,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "3.4rem",
+                  "size": "36px",
                 },
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -478,12 +472,12 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "1.1rem",
+                  "size": "16px",
                 },
                 Object {
                   "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                   "fontWeight": 500,
-                  "size": "0.8rem",
+                  "size": "12px",
                 },
               ],
               "shapes": Object {

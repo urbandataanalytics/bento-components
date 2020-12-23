@@ -56,14 +56,14 @@ export const Normal = () => {
         loading={isLoading}
         rightContent={rightContent}
       >
-        <a className={'active'} href={'#'}>
+        <a className={'active'} href="https://pulse.urbandataanalytics.com/">
           Normal Link
         </a>
-        <a href={'#'}>Active Link</a>
-        <TextLink href={'#'} size={'large'} variant={'primary'}>
+        <a href="https://pulse.urbandataanalytics.com/">Active Link</a>
+        <TextLink href="https://pulse.urbandataanalytics.com/" size={'large'} variant={'primary'}>
           Product 1
         </TextLink>
-        <TextLink href={'#'} size={'large'} variant={'secondary'}>
+        <TextLink href="https://pulse.urbandataanalytics.com/" size={'large'} variant={'secondary'}>
           Product 2
         </TextLink>
 

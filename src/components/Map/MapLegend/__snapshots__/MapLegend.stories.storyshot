@@ -1,6 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots MapLegend Normal 1`] = `
+exports[`Storyshots MapLegend Points Legend 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="MapLegend__StyledContainer-sc-1s1tm5k-0 liZwHi"
+  >
+    <div
+      className="MapLegend__StyledWrapper-sc-1s1tm5k-1 iHoiQN"
+    >
+      <div
+        className="MapLegend__StylePoints-sc-1s1tm5k-5 hjpmot"
+      >
+        <div
+          className="MapLegend__StyledPointElement-sc-1s1tm5k-6 cILSmo"
+          color="#1B817A"
+        >
+          <span />
+          <span>
+            Exact address
+          </span>
+        </div>
+        <div
+          className="MapLegend__StyledPointElement-sc-1s1tm5k-6 fXUbQx"
+          color="#EDBE96"
+        >
+          <span />
+          <span>
+            No exact address
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots MapLegend Range Legend 1`] = `
 <div
   style={
     Object {
@@ -17,7 +58,7 @@ exports[`Storyshots MapLegend Normal 1`] = `
       <header
         className="MapLegend__StyledTitle-sc-1s1tm5k-2 jpSsIc"
       >
-        Leyend
+        Legend
       </header>
       <div
         className="MapLegend__StyledDescription-sc-1s1tm5k-3 iZSflf"
@@ -28,40 +69,40 @@ exports[`Storyshots MapLegend Normal 1`] = `
         className="MapLegend__StyledRangeColors-sc-1s1tm5k-4 jDVGxW"
       >
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 vvoKX"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 cQXRCv"
           color="#03045E"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 gagTFH"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 brMHIz"
           color="#ADE8F4"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 cdyMtM"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 enCAYq"
           color="#90D8EF"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 kNIjQG"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 kFELMQ"
           color="#48B5E4"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 erbCcd"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 kxSwKA"
           color="#008BC7"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 dgRvEY"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 kEjvGk"
           color="#0077B6"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 kdZujd"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 dqoQhO"
           color="#023E8A"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 vvoKX"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 cQXRCv"
           color="#03045E"
         />
       </div>
       <div
-        className="MapLegend__StyledMinMaxText-sc-1s1tm5k-6 qshaV"
+        className="MapLegend__StyledMinMaxText-sc-1s1tm5k-8 kfScoS"
       >
         <span>
           Minium
@@ -92,7 +133,7 @@ exports[`Storyshots MapLegend With Actions 1`] = `
       <header
         className="MapLegend__StyledTitle-sc-1s1tm5k-2 jpSsIc"
       >
-        Leyend
+        Legend
       </header>
       <div
         className="MapLegend__StyledDescription-sc-1s1tm5k-3 iZSflf"
@@ -103,40 +144,40 @@ exports[`Storyshots MapLegend With Actions 1`] = `
         className="MapLegend__StyledRangeColors-sc-1s1tm5k-4 jDVGxW"
       >
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 vvoKX"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 cQXRCv"
           color="#03045E"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 gagTFH"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 brMHIz"
           color="#ADE8F4"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 cdyMtM"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 enCAYq"
           color="#90D8EF"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 kNIjQG"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 kFELMQ"
           color="#48B5E4"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 erbCcd"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 kxSwKA"
           color="#008BC7"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 dgRvEY"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 kEjvGk"
           color="#0077B6"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 kdZujd"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 dqoQhO"
           color="#023E8A"
         />
         <i
-          className="MapLegend__StyledColor-sc-1s1tm5k-5 vvoKX"
+          className="MapLegend__StyledColor-sc-1s1tm5k-7 cQXRCv"
           color="#03045E"
         />
       </div>
       <div
-        className="MapLegend__StyledMinMaxText-sc-1s1tm5k-6 qshaV"
+        className="MapLegend__StyledMinMaxText-sc-1s1tm5k-8 kfScoS"
       >
         <span>
           Minium
@@ -147,16 +188,16 @@ exports[`Storyshots MapLegend With Actions 1`] = `
       </div>
     </div>
     <footer
-      className="MapLegend__StyledActions-sc-1s1tm5k-7 hzkOog"
+      className="MapLegend__StyledActions-sc-1s1tm5k-9 chxcJB"
     >
       <div
-        className="MapLegend__Action-sc-1s1tm5k-8 kHzuLm"
+        className="MapLegend__Action-sc-1s1tm5k-10 fTrIRR"
         onClick={[Function]}
       >
         Sale
       </div>
       <div
-        className="MapLegend__Action-sc-1s1tm5k-8 esMTZo"
+        className="MapLegend__Action-sc-1s1tm5k-10 kBVARO"
         onClick={[Function]}
       >
         Rent

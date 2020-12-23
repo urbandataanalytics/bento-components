@@ -198,7 +198,7 @@ const headings = [
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '3.4rem'
+    size: '36px'
   },
   {
     fontFamily: global.fontFamily,
@@ -213,12 +213,12 @@ const headings = [
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '1.1rem'
+    size: '16px'
   },
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '0.8rem'
+    size: '12px'
   }
 ];
 

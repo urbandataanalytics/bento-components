@@ -32,7 +32,7 @@ const StyledContainer = styled.div`
 
 const sizeVariants = {
   small: 28,
-  medium: 63
+  medium: 57
 };
 
 const Table = ({

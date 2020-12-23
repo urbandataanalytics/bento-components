@@ -128,12 +128,14 @@ const Carousel = React.forwardRef((props, ref) => {
     if (!embla || (thumbnailsEnabled && !emblaThumbs)) return;
     if (thumbnailsEnabled) emblaThumbs.scrollPrev();
     embla.scrollPrev();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [embla]);
 
   const scrollNext = useCallback(() => {
     if (!embla || (thumbnailsEnabled && !emblaThumbs)) return;
     if (thumbnailsEnabled) emblaThumbs.scrollNext();
     embla.scrollNext();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [embla]);
 
   const onSelect = useCallback(() => {
@@ -162,6 +164,7 @@ const Carousel = React.forwardRef((props, ref) => {
         return thumbSlidesInView.concat(inView);
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [embla, setSlidesInView]);
 
   useEffect(() => {
@@ -171,6 +174,7 @@ const Carousel = React.forwardRef((props, ref) => {
     embla.on('select', onSelect);
 
     embla.on('select', findSlidesInView);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [embla, onSelect, findSlidesInView]);
 
   return (
@@ -186,6 +190,7 @@ const Carousel = React.forwardRef((props, ref) => {
                 visible={slidesInView.indexOf(index) > -1}
                 rounded={rounded}
                 onClick={onClick}
+                {...other}
               />
             ))}
           </CarouselSlidesContainer>

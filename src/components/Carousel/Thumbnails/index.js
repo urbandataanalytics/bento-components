@@ -46,6 +46,7 @@ export const Thumb = ({ onClick, imgSrc, index, thumbCount, rounded, visible }) 
       image.onload = setLoaded;
       setBackgroundImage(image);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [visible]);
 
   return (

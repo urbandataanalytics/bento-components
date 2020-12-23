@@ -48,7 +48,10 @@ const InputFormatter = ({
   };
 
   const [inputValue, setInputValue] = useState(value);
-  const onChange = event => setInputValue(event.target.value);
+  const onChange = event => {
+    if (isNaN(event.target.value)) return;
+    setInputValue(Number(event.target.value));
+  };
 
   useEffect(() => {
     if (isEditing) {
@@ -56,6 +59,7 @@ const InputFormatter = ({
     } else {
       setInputValue('');
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isEditing]);
 
   return isEditing ? (
