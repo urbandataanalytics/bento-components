@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 export interface AccordionListProps {
   children: React.ReactNode;
   toggleOnExpand?: boolean;
