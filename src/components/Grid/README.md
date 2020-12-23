@@ -18,7 +18,7 @@ After adding import into your project you can use it simply like:
 
 ## Props
 
-Table below contains all types of the props available in the FormGroup component.
+Table below contains all types of the props available in the Grid component.
 
 | Name        | Type         | Default            | Description                                                                |
 | :---------- | :----------- | :----------------- | :------------------------------------------------------------------------- |
