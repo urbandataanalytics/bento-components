@@ -1,20 +1,20 @@
 import React from 'react';
-import { select, color } from '@storybook/addon-knobs';
+import { select, color, text } from '@storybook/addon-knobs';
 import * as Icons from '../../icons';
 
 export default {
   title: 'Icon'
 };
 
-const getCommonProps = () => {
-  return {
-    size: select('Size', ['small', 'medium', 'large'], 'large'),
-    color: select('Color', [null, 'primary', 'secondary'], null),
-    customColor: color('Custom Color', '#000000')
-  };
-};
-
 export const Normal = () => {
+  const getCommonProps = () => {
+    return {
+      size: select('Size', ['small', 'medium', 'large'], 'medium'),
+      color: select('Color', [null, 'primary', 'secondary']),
+      customColor: color('Custom Color')
+    };
+  };
+
   const source = select('Icon', Object.keys(Icons), 'IconWarning');
   const CustomIcon = Icons[source];
 
@@ -33,6 +33,14 @@ export const Normal = () => {
 };
 
 export const AllIcons = () => {
+  const getCommonProps = () => {
+    return {
+      size: select('Size', ['small', 'medium', 'large'], 'large'),
+      color: select('Color', [null, 'primary', 'secondary']),
+      customColor: color('Custom Color')
+    };
+  };
+
   const iconListStyle = {
     ul: {
       padding: '2rem',
@@ -66,5 +74,32 @@ export const AllIcons = () => {
         </li>
       ))}
     </ul>
+  );
+};
+
+export const ChangeViewBox = () => {
+  const getCommonProps = () => {
+    return {
+      size: select('Size', ['small', 'medium', 'large'], 'large'),
+      color: select('Color', [null, 'primary', 'secondary']),
+      customColor: color('Custom Color'),
+      viewBox: text('ViewBox Attribute', '3 3 25 25')
+    };
+  };
+
+  const source = select('Icon', Object.keys(Icons), 'IconWarning');
+  const CustomIcon = Icons[source];
+
+  const containerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <CustomIcon {...getCommonProps()} />
+    </div>
   );
 };
