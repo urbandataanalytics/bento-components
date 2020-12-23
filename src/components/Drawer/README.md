@@ -27,7 +27,7 @@ Table below contains all types of the props available in the Drawer component.
 | onClose      | `() => void`    |         | Function for handling onClose event.                                 |
 | **open**     | `boolean`       |         | If `true` the Drawer will be open.                                   |
 | **position** | [`enum`](#enum) |         | The position on which side the Drawer should appear.                 |
-| showOverlay  | `boolean`       |         | If `true`, the Drawer will have cloudy background.                   |
+| showOverlay  | `string`        |         | If `true`, the Drawer will have cloudy background.                   |
 | subHeader    | `React.Node`    |         | Subtitle of the Drawer that will be rendered in the Drawer's header. |
 | width        | `string`        |         | The width of the Drawer.                                             |
 
