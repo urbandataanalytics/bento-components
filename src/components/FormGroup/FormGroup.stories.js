@@ -19,7 +19,8 @@ export const Playground = () => {
   };
 
   const containerStyle = {
-    padding: '2rem'
+    padding: '2rem',
+    width: '400px'
   };
 
   return (
