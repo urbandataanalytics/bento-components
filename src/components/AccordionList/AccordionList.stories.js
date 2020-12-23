@@ -13,18 +13,14 @@ export default {
   component: AccordionList
 };
 
-const getCommonProps = () => {
-  return {
-    toggleOnExpand: boolean('Toggle on Expand', false)
-  };
+export const Playground = () => {
+  return (
+    <AccordionList toggleOnExpand={boolean('Toggle on Expand', false)}>
+      <Accordion header={'Accordion First'}>First child</Accordion>
+      <Accordion header={'Accordion Second'}>Second child</Accordion>
+    </AccordionList>
+  );
 };
-
-export const Playground = () => (
-  <AccordionList {...getCommonProps()}>
-    <Accordion header={'Accordion First'}>First child</Accordion>
-    <Accordion header={'Accordion Second'}>Second child</Accordion>
-  </AccordionList>
-);
 
 export const ExpandOneByOne = () => (
   <AccordionList>
