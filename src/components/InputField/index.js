@@ -137,11 +137,11 @@ InputField.propTypes = {
   help: PropTypes.string,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
-  onChange: PropTypes.func.isRequired,
+  onChange: PropTypes.func,
   placeholder: PropTypes.string,
   tabIndex: PropTypes.string,
-  type: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired
+  type: PropTypes.oneOf(['text', 'password', 'email']).isRequired,
+  value: PropTypes.string
 };
 
 InputField.defaultProps = {
