@@ -55,8 +55,8 @@ const Avatar = forwardRef((props, ref) => {
 });
 
 Avatar.defaultProps = {
-  size: 'medium',
-  color: 'primary'
+  color: 'primary',
+  size: 'medium'
 };
 
 Avatar.propTypes = {
