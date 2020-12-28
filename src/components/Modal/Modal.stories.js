@@ -9,13 +9,7 @@ export default {
   component: Modal
 };
 
-const getCommonProps = () => {
-  return {
-    closable: boolean('Closable', true)
-  };
-};
-
-export const Normal = () => {
+export const Playground = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClose = () => {
@@ -28,9 +22,11 @@ export const Normal = () => {
       <Button onClick={() => setIsOpen(!isOpen)}>Open Modal</Button>
 
       <Modal
-        {...getCommonProps()}
+        closable={boolean('Closable', true)}
+        full={boolean('Full', false)}
         isOpen={isOpen}
         header={<h4>{text('Title', 'Title')}</h4>}
+        enableClickOutside={boolean('Enable Click Outside')}
         footer={<Button onClick={() => setIsOpen(!isOpen)}>Close</Button>}
         onClose={handleClose}
       >

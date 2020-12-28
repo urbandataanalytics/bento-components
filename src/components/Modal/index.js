@@ -88,10 +88,10 @@ const Modal = ({
   closable = true,
   enableClickOutside = true,
   footer,
-  header,
-  onClose,
-  isOpen,
   full = false,
+  header,
+  isOpen,
+  onClose,
   ...other
 }) => {
   const theme = useTheme();
@@ -141,7 +141,8 @@ Modal.propTypes = {
   footer: PropTypes.node,
   header: PropTypes.node,
   onClose: PropTypes.func.isRequired,
-  isOpen: PropTypes.bool.isRequired
+  isOpen: PropTypes.bool.isRequired,
+  full: PropTypes.bool.isRequired
 };
 
 export default Modal;
