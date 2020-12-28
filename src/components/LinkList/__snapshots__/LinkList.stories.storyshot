@@ -4,11 +4,6 @@ exports[`Storyshots LinkList Normal 1`] = `
 <ul
   className="List__StyledList-sc-1lqmygi-0 hnvVOG"
   size="medium"
-  style={
-    Object {
-      "margin": "20px",
-    }
-  }
 >
   <li
     className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"

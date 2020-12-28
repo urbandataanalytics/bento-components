@@ -1,5 +1,5 @@
 export interface ListProps {
-  children?: React.ReactNode;
+  children: React.ReactNode;
   className?: string;
   size?: 'medium' | 'large';
 }

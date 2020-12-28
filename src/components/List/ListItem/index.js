@@ -194,20 +194,20 @@ StyledListItem.defaultProps = {
 
 const ListItem = React.forwardRef((props, ref) => {
   const {
-    children,
-    as: Component,
-    leftContent,
-    rightContent,
-    separator,
-    size,
     active,
-    disabled,
-    focused,
+    as: Component,
+    children,
     className,
+    disabled,
     focusContent,
     focusLeftContent,
     focusRightContent,
+    focused,
+    leftContent,
     onClick,
+    rightContent,
+    separator,
+    size,
     ...other
   } = props;
 
@@ -251,19 +251,20 @@ const ListItem = React.forwardRef((props, ref) => {
 ListItem.displayName = 'ListItem';
 
 ListItem.propTypes = {
-  children: PropTypes.node,
+  active: PropTypes.bool,
   as: PropTypes.elementType,
-  leftContent: PropTypes.node,
-  rightContent: PropTypes.node,
+  children: PropTypes.node,
+  className: PropTypes.string,
+  disabled: PropTypes.bool,
   focusContent: PropTypes.bool,
   focusLeftContent: PropTypes.bool,
   focusRightContent: PropTypes.bool,
-  separator: PropTypes.bool,
-  size: PropTypes.oneOf(['medium', 'large']),
-  active: PropTypes.bool,
-  disabled: PropTypes.bool,
   focused: PropTypes.bool,
-  onClick: PropTypes.func
+  leftContent: PropTypes.node,
+  onClick: PropTypes.func,
+  rightContent: PropTypes.node,
+  separator: PropTypes.bool,
+  size: PropTypes.oneOf(['medium', 'large'])
 };
 
 ListItem.defaultProps = {
