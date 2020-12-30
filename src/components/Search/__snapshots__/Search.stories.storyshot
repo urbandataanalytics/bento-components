@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Search Normal 1`] = `
+exports[`Storyshots Search Playground 1`] = `
 <div
   style={
     Object {
@@ -503,7 +503,7 @@ exports[`Storyshots Search Normal 1`] = `
       />
     </div>
     <button
-      onClick={true}
+      onClick={[Function]}
       type="button"
     >
       <svg

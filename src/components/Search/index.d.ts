@@ -3,11 +3,10 @@ export interface Props {
   closable?: boolean;
   disabled?: boolean;
   enableClickOutside?: boolean;
-  error?: boolean;
-  name?: string;
-  onChange?: (ev: SyntheticInputEvent<HTMLInputElement>) => void | Promise<any>,
-  onClose: () => void;
   leftContent?: string;
+  name?: string;
+  onChange?: (ev: SyntheticInputEvent<HTMLInputElement>) => void | Promise<any>;
+  onClose: () => void;
   placeholder?: string;
   tabIndex?: string;
   value?: string;

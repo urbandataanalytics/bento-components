@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import PropTypes, { string } from 'prop-types';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
 import IconSearch from '../../icons/Search/index';
@@ -52,14 +52,14 @@ const Search = ({
   className,
   closable,
   disabled,
+  enableClickOutside = true,
+  leftContent,
   name,
   onChange,
-  leftContent,
+  onClose,
   placeholder,
   tabIndex,
   value,
-  enableClickOutside = true,
-  onClose,
   ...other
 }) => {
   const ref = useOnclickOutside(() => enableClickOutside && onClose());
@@ -97,14 +97,16 @@ const Search = ({
 
 Search.propTypes = {
   className: PropTypes.string,
-  disabled: PropTypes.bool,
   closable: PropTypes.bool,
-  error: PropTypes.bool,
+  disabled: PropTypes.bool,
+  enableClickOutside: PropTypes.bool,
+  leftContent: PropTypes.string,
   name: PropTypes.string,
-  onChange: PropTypes.func.isRequired,
+  onChange: PropTypes.func,
+  onClose: PropTypes.func.isRequired,
   placeholder: PropTypes.string,
   tabIndex: PropTypes.string,
-  value: PropTypes.string.isRequired
+  value: PropTypes.string
 };
 
 Search.defaultProps = {
