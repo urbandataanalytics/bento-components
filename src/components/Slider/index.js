@@ -71,21 +71,21 @@ const getDefaultValue = ({ value, min, max, variant }) => {
 const Slider = React.forwardRef((props, ref) => {
   const {
     disabled,
+    format = value => Number(value),
     isLoading,
     max,
+    maxPrefix,
+    maxSuffix,
     min,
+    minPrefix,
+    minSuffix,
     name,
     onChange = () => {},
-    format = value => Number(value),
     prefix,
-    minPrefix,
-    maxPrefix,
     step,
     suffix,
-    minSuffix,
-    maxSuffix,
-    variant,
     value,
+    variant,
     ...other
   } = props;
   const [values, setValues] = useState(getDefaultValue({ value, min, max, variant }));
@@ -243,16 +243,16 @@ Slider.propTypes = {
   disabled: PropTypes.bool,
   isLoading: PropTypes.bool,
   max: PropTypes.number.isRequired,
+  maxPrefix: PropTypes.string,
+  maxSuffix: PropTypes.string,
   min: PropTypes.number.isRequired,
+  minPrefix: PropTypes.string,
+  minSuffix: PropTypes.string,
   name: PropTypes.string,
   onChange: PropTypes.func.isRequired,
   prefix: PropTypes.string,
-  minPrefix: PropTypes.string,
-  maxPrefix: PropTypes.string,
   step: PropTypes.number.isRequired,
   suffix: PropTypes.string,
-  minSuffix: PropTypes.string,
-  maxSuffix: PropTypes.string,
   value: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
   variant: PropTypes.oneOf(['slider', 'range']).isRequired
 };
