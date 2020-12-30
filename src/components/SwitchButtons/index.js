@@ -28,9 +28,9 @@ const SwitchButtons = props => {
 };
 
 SwitchButtons.propTypes = {
-  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  children: PropTypes.node,
   onChange: PropTypes.func,
-  children: PropTypes.node
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
 SwitchButtons.displayName = 'SwitchButtons';
