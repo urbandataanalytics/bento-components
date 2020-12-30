@@ -18,7 +18,7 @@ Table below contains all types of the props available in the NavigationBar compo
 
 | Name         | Type         | Default | Description                                                                                  |
 | :----------- | :----------- | :------ | :------------------------------------------------------------------------------------------- |
-| **children** | `React.node` |         | Content of the NavigationBar. Elements aligned right corner before rightContent if informed  |  |
+| children     | `React.node` |         | Content of the NavigationBar. Elements aligned right corner before rightContent if informed  |  |
 | header       | `React.node` |         | Content for the header of the NavigationBar. It will align left.                             |
 | dropdownMenu | `React.node` |         | Elements to be included in the main menu on the left. Usually used with `<List>`             |
 | iconMenu     | `React.node` |         | Icon to be used for the main menu of the left                                                |
