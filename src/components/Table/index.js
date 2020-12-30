@@ -6,6 +6,7 @@ import TableCell from './TableCell';
 import TableStyle from './TableStyle';
 import { ClientSideRowModelModule } from '@ag-grid-community/client-side-row-model';
 import TableSkeleton from './TableSkeleton';
+import PropTypes from 'prop-types';
 
 const DEFAULT_MODULES = [ClientSideRowModelModule];
 
@@ -79,6 +80,24 @@ Table.defaultProps = {
   height: '100vh',
   variant: 'medium',
   striped: true
+};
+
+Table.propTypes = {
+  height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  rows: PropTypes.array.isRequired,
+  columns: PropTypes.arrayOf(
+    PropTypes.shape({
+      headerName: PropTypes.string.isRequired,
+      field: PropTypes.string.isRequired,
+      align: PropTypes.oneOf(['left', 'center', 'right']).isRequired,
+      highlight: PropTypes.bool,
+      variant: PropTypes.oneOf(['primary', 'secondary']),
+      cellRenderer: PropTypes.string
+    })
+  ),
+  loading: PropTypes.bool,
+  variant: PropTypes.oneOf(['small', 'medium']),
+  striped: PropTypes.bool
 };
 
 export default Table;
