@@ -144,13 +144,13 @@ StyledDropdown.defaultProps = {
 const NavigationBar = props => {
   const {
     children,
-    header,
     dropdownMenu,
-    rightContent,
+    header,
     iconMenu,
-    loading,
-    sticked,
     linkList,
+    loading,
+    rightContent,
+    sticked,
     ...other
   } = props;
   const [isOpenDropdown, setOpenDropdown] = useState(false);
@@ -209,11 +209,14 @@ const NavigationBar = props => {
 };
 
 NavigationBar.propTypes = {
-  header: PropTypes.node,
-  dropdownMenu: PropTypes.node,
-  rightContent: PropTypes.node,
   children: PropTypes.node,
-  iconMenu: PropTypes.node
+  dropdownMenu: PropTypes.node,
+  header: PropTypes.node,
+  iconMenu: PropTypes.node,
+  linkList: PropTypes.node,
+  loading: PropTypes.bool,
+  rightContent: PropTypes.node,
+  sticked: PropTypes.bool
 };
 
 export default NavigationBar;

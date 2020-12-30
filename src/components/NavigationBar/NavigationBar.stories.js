@@ -29,7 +29,7 @@ const HeaderLogo = (
   </svg>
 );
 
-export const Normal = () => {
+export const Playground = () => {
   const rightContent = (
     <Dropdown label={<IconUser style={{ marginRight: '30px' }} />}>
       <ListItem leftContent={<IconUser />}>Text</ListItem>
@@ -74,15 +74,3 @@ export const Normal = () => {
 };
 
 export const WithoutMenu = () => <NavigationBar header={HeaderLogo}></NavigationBar>;
-
-export const Sticky = () => (
-  <div style={{ height: '5000px' }}>
-    <NavigationBar sticked header={HeaderLogo}></NavigationBar>
-  </div>
-);
-
-export const Loading = () => (
-  <div style={{ height: '5000px' }}>
-    <NavigationBar loading />
-  </div>
-);
