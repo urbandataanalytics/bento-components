@@ -43,9 +43,9 @@ const Skeleton = React.forwardRef((props, ref) => {
 });
 
 Skeleton.propTypes = {
-  width: PropTypes.string.isRequired,
   height: PropTypes.string,
-  variant: PropTypes.string.isRequired
+  variant: PropTypes.oneOf(['square', 'circular', 'rounded', 'text']).isRequired,
+  width: PropTypes.string.isRequired
 };
 
 Skeleton.defaultProps = {

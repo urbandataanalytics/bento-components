@@ -7,14 +7,6 @@ export default {
   component: Skeleton
 };
 
-const getCommonProps = () => {
-  return {
-    width: text('Width', '100px'),
-    height: text('Height', '10px'),
-    variant: select('Variant', ['text', 'circular', 'rounded', 'square'], 'text')
-  };
-};
-
 export const Playground = () => {
   const containerStyle = {
     padding: '2rem'
@@ -22,7 +14,11 @@ export const Playground = () => {
 
   return (
     <div style={containerStyle}>
-      <Skeleton {...getCommonProps()} />
+      <Skeleton
+        width={text('Width', '100px')}
+        height={text('Height', '10px')}
+        variant={select('Variant', ['text', 'circular', 'rounded', 'square'], 'text')}
+      />
     </div>
   );
 };
