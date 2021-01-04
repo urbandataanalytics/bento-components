@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import DefaultTheme from '../../../themes/defaultTheme';
 
 const StyledCardContent = styled.div`
@@ -21,6 +22,10 @@ const CardContent = React.forwardRef((props, ref) => {
   );
 });
 
+CardContent.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string
+};
 CardContent.displayName = 'CardContent';
 
 export default CardContent;

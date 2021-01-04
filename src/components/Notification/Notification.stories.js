@@ -9,48 +9,24 @@ export default {
   component: Notification
 };
 
-const getCommonProps = () => {
-  return {
-    children: text('Notification Text', 'Message'),
-    showIcon: boolean('Show Icon', true),
-    closable: boolean('Closable', false),
-    onClose: action('onClose')
-  };
-};
-
 const decoratorStyles = {
   padding: '2rem'
 };
 
-export const Normal = () => (
-  <div style={decoratorStyles}>
-    <Notification {...getCommonProps()} />
-  </div>
-);
-
-export const Success = () => (
-  <div style={decoratorStyles}>
-    <Notification variant="success" {...getCommonProps()} />
-  </div>
-);
-
-export const Error = () => (
-  <div style={decoratorStyles}>
-    <Notification variant="error" {...getCommonProps()} />
-  </div>
-);
-
-export const WithCustomIcon = () => {
+export const Playground = () => {
   const selectedIcon = select('Custom Icon', Object.keys(Icons), 'IconPin');
   const CustomIcon = Icons[selectedIcon];
-
   return (
     <div style={decoratorStyles}>
       <Notification
         variant={select('Variant', ['normal', 'success', 'error'], 'success')}
-        {...getCommonProps()}
+        showIcon={boolean('Show Icon', true)}
+        closable={boolean('Closable', false)}
         icon={<CustomIcon size="medium" />}
-      />
+        onClose={action('onClose')}
+      >
+        {text('Notification Text', 'Message')}
+      </Notification>
     </div>
   );
 };

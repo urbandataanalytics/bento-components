@@ -1,19 +1,19 @@
 export interface SliderProps {
-  name?: string;
-  prefix?: string;
-  minPrefix?: string;
-  maxPrefix?: string;
-  suffix?: string;
-  minSuffix?: string;
-  maxSuffix?: string;
-  variant?: 'slider' | 'range';
-  min?: number;
-  max?: number;
-  value: number | Array<number>;
-  step?: number;
-  onChange?: (ev: SyntheticInputEvent<HTMLInputElement>, value: number) => void | Promise<any>;
   disabled?: boolean;
   isLoading?: boolean;
+  max: number;
+  maxPrefix?: string;
+  maxSuffix?: string;
+  min: number;
+  minPrefix?: string;
+  minSuffix?: string;
+  name?: string;
+  onChange: (ev: SyntheticInputEvent<HTMLInputElement>, value: number) => void | Promise<any>;
+  prefix?: string;
+  step: number;
+  suffix?: string;
+  value: number | Array<number>;
+  variant: 'slider' | 'range';
 }
 
 declare const Slider: React.FunctionComponent<

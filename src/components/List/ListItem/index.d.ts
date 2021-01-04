@@ -1,17 +1,17 @@
-import PropTypes from 'prop-types';
-
 export interface ListItemProps {
-  children?: React.ReactNode;
-  separator?: boolean;
   active?: boolean;
+  as?: React.ReactElement;
+  children?: React.ReactNode;
+  className?: string;
   disabled?: boolean;
-  focusContent?: boolean,
-  focusLeftContent?: boolean,
-  focusRightContent?: boolean,
+  focusContent?: boolean;
+  focusLeftContent?: boolean;
+  focusRightContent?: boolean;
+  focused: boolean;
   leftContent?: React.ReactNode;
-  rightContent?: React.ReactNode;
-  as?: React.ReactElement,
   onClick?: () => void;
+  rightContent?: React.ReactNode;
+  separator?: boolean;
   size?: 'medium' | 'large';
 }
 

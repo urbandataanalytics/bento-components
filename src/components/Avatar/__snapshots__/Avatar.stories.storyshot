@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Avatar Normal 1`] = `
+exports[`Storyshots Avatar Playground 1`] = `
 <div
-  className="Avatar__StyledAvatar-sc-1ivfczv-0 liEgeh"
+  className="Avatar__StyledAvatar-sc-1ivfczv-0 foRswF"
   size="medium"
 >
   <img
-    alt="John Doe photo"
+    alt="John Doe Photo"
     className="Avatar__StyledImg-sc-1ivfczv-1 gmMTzE"
     size="medium"
     src="https://atlantaseo.marketing/wp-content/uploads/avatar-2.png"

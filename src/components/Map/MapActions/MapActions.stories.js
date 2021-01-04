@@ -7,20 +7,6 @@ export default {
   component: MapActions
 };
 
-const getCommonProps = () => {
-  return {
-    isLoading: boolean('Loading', false),
-    offsetRight: text('Offset Right', '0px'),
-    offsetBottom: text('Offset Bottom', '0px')
-  };
-};
-
-const getContent = () => {
-  return {
-    content: text('Content', 'Test content')
-  };
-};
-
 export const Playground = () => {
   const containerStyle = {
     padding: '2rem'
@@ -28,7 +14,13 @@ export const Playground = () => {
 
   return (
     <div style={containerStyle}>
-      <MapActions {...getCommonProps()}>{getContent().content}</MapActions>
+      <MapActions
+        isLoading={boolean('Loading', false)}
+        offsetRight={text('Offset Right', '0px')}
+        offsetBottom={text('Offset Bottom', '0px')}
+      >
+        {text('Content', 'Test content')}
+      </MapActions>
     </div>
   );
 };

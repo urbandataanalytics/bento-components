@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import MapActions from './';
+import MapActions from '.';
 import MapActionsSkeleton from './MapActionsSkeleton';
 
 describe(`MapActions`, () => {

@@ -1,13 +1,12 @@
 export interface DropdownProps {
+  align?: 'left' | 'center' | 'right';
   children?: React.ReactNode;
-  label: React.ReactNode;
-  className?: string;
-  position?: 'top' | 'bottom';
-  align?: 'left' | 'right' | 'center';
+  closeOnClickInside?: boolean;
   closeOnClickOutside?: boolean;
   isOpen?: boolean;
-  closeOnClickInside?: boolean;
+  label: React.ReactNode;
   onChange?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
+  position?: 'top' | 'bottom';
 }
 
 declare const Dropdown: React.FunctionComponent<DropdownProps>;

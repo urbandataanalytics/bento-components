@@ -7,7 +7,7 @@ export default {
   component: SwitchButtons
 };
 
-const NormalComponent = () => {
+export const Playground = () => {
   const [value, setValue] = useState('first');
   const containerStyle = {
     padding: '2rem'
@@ -23,4 +23,3 @@ const NormalComponent = () => {
     </div>
   );
 };
-export const Normal = () => <NormalComponent />;

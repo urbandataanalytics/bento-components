@@ -14,9 +14,9 @@ StyledCheckListItem.defaultProps = {
 };
 
 const CheckListItem = props => {
-  const { size = 'large', as, ...other } = props;
+  const { as, ...other } = props;
 
-  return <StyledCheckListItem size={size} component={as} {...other} />;
+  return <StyledCheckListItem component={as} {...other} />;
 };
 
 CheckListItem.propTypes = ListItem.propTypes;

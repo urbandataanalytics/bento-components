@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Modal Normal 1`] = `
+exports[`Storyshots Modal Playground 1`] = `
 <button
   className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
   disabled={false}

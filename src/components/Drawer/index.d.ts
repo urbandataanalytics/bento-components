@@ -1,16 +1,16 @@
 export interface Props {
   children: React.ReactNode;
-  position: 'left' | 'right';
-  open: boolean;
   header: React.ReactNode;
-  subHeader?: React.ReactNode;
-  onClose?: () => void;
-  showOverlay?: boolean;
-  width?: string;
-  offsetTop?: string;
+  offsetBottom?: string;
   offsetLeft?: string;
   offsetRight?: string;
-  offsetBottom?: string;
+  offsetTop?: string;
+  onClose?: () => void;
+  open: boolean;
+  position: 'left' | 'right';
+  showOverlay?: boolean;
+  subHeader?: React.ReactNode;
+  width?: string;
 }
 
 declare const Drawer: React.FunctionComponent<Props>;

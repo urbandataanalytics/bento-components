@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Drawer Normal 1`] = `
+exports[`Storyshots Drawer Playground 1`] = `
 Array [
   <button
     className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
@@ -495,7 +495,8 @@ Array [
     <span
       className="Button__StyledContent-sc-1tzlszx-2 cPiKOG"
     >
-      Open drawer
+      Open
+       drawer
     </span>
   </button>,
   <aside

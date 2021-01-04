@@ -17,13 +17,17 @@ export default {
 
 const getCommonProps = () => {
   return {
-    position: select('Position', ['right', 'left'], 'right')
+    position: select('Position', ['right', 'left'], 'right'),
+    width: text('Width', '320px'),
+    offsetTop: text('Offset Top', '0px'),
+    offsetRight: text('Offset Right', '0px'),
+    offsetLeft: text('Offset Left', '0px'),
+    offsetBottom: text('Offset Bottom', '0px')
   };
 };
 
-export const Normal = () => {
+export const Playground = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const handleClose = () => {
     setIsOpen(false);
     action('onClose')();
@@ -31,19 +35,14 @@ export const Normal = () => {
 
   return (
     <>
-      <Button onClick={() => setIsOpen(!isOpen)}>Open drawer</Button>
+      <Button onClick={() => setIsOpen(!isOpen)}>{isOpen ? 'Close' : 'Open'} drawer</Button>
 
       <Drawer
         {...getCommonProps()}
-        open={isOpen}
         header={<h4>{text('Title', 'Title')}</h4>}
         subHeader={<small>{text('Subtitle', 'Subtitle')}</small>}
+        open={isOpen}
         onClose={handleClose}
-        width={text('Width', '320px')}
-        offsetTop={text('Offset Top', '0px')}
-        offsetRight={text('Offset Right', '0px')}
-        offsetLeft={text('Offset Left', '0px')}
-        offsetBottom={text('Offset Bottom', '0px')}
       >
         <Accordion header={'Accordion title 1'} leftContent={<IconNavigation />}>
           <List>

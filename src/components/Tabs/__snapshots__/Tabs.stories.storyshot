@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Tabs Normal 1`] = `
+exports[`Storyshots Tabs Playground 1`] = `
 <div
   style={
     Object {
@@ -95,14 +95,18 @@ exports[`Storyshots Tabs With Badge 1`] = `
         </span>
       </div>
       <div
-        className="Tab__StyledTabContainer-uhya80-2 cwGgvg"
-        disabled={true}
+        className="Tab__StyledTabContainer-uhya80-2 bgozYf"
         onClick={[Function]}
       >
         <span
           className="Tab__StyledTabLabel-uhya80-0 QGhYK"
         >
           Tab 3
+        </span>
+        <span
+          className="Tab__StyledTabBadge-uhya80-1 Snlpy"
+        >
+          9
         </span>
       </div>
     </div>

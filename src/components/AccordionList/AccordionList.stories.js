@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { boolean } from '@storybook/addon-knobs';
 import Accordion from './Accordion/index';
 import AccordionList from './index';
 import { IconActivity } from '../../icons';
@@ -10,6 +11,15 @@ import TextLink from '../TextLink';
 export default {
   title: 'AccordionList',
   component: AccordionList
+};
+
+export const Playground = () => {
+  return (
+    <AccordionList toggleOnExpand={boolean('Toggle on Expand', false)}>
+      <Accordion header={'Accordion First'}>First child</Accordion>
+      <Accordion header={'Accordion Second'}>Second child</Accordion>
+    </AccordionList>
+  );
 };
 
 export const ExpandOneByOne = () => (
@@ -39,10 +49,10 @@ export const ExpandOneByOne = () => (
 
 export const ExpandAll = () => (
   <AccordionList toggleOnExpand={false}>
-    <Accordion iconLeft={<IconActivity />} header={'Accordion First'}>
+    <Accordion leftContent={<IconActivity />} header={'Accordion First'}>
       First child
     </Accordion>
-    <Accordion iconLeft={<IconActivity />} header={'Accordion Second'} isDefaultExpanded>
+    <Accordion leftContent={<IconActivity />} header={'Accordion Second'} isDefaultExpanded>
       Second child
     </Accordion>
   </AccordionList>

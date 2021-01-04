@@ -4,6 +4,7 @@ import { forwardRef } from 'react';
 import MapActionsSkeleton from './MapActionsSkeleton';
 import IconArrowDoubleRight from '../../../icons/ArrowDoubleRight/index';
 import IconArrowDoubleLeft from '../../../icons/ArrowDoubleLeft/index';
+import PropTypes from 'prop-types';
 import useTheme from '../../../hooks/useTheme/index';
 
 const StyledContainer = styled.div`
@@ -70,6 +71,12 @@ const MapActions = forwardRef((props, ref) => {
   );
 });
 
+MapActions.propTypes = {
+  children: PropTypes.node,
+  offsetRight: PropTypes.string,
+  offsetBottom: PropTypes.string,
+  isLoading: PropTypes.bool
+};
 MapActions.defaultProps = {};
 
 export default MapActions;

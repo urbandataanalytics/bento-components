@@ -76,14 +76,14 @@ const calculatePosition = (align, position, dimensions) => {
 };
 
 const Dropdown = ({
-  children,
-  label,
-  closeOnClickOutside,
-  closeOnClickInside,
   align,
-  position,
-  onChange = () => {},
+  children,
+  closeOnClickInside,
+  closeOnClickOutside,
   isOpen = false,
+  label,
+  onChange = () => {},
+  position,
   ...other
 }) => {
   const [isDropdownOpen, setOpen] = useState(isOpen);
@@ -145,13 +145,14 @@ const Dropdown = ({
 Dropdown.displayName = 'Dropdown';
 
 Dropdown.propTypes = {
+  align: PropTypes.oneOf(['left', 'center', 'right']),
   children: PropTypes.node,
-  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
-  className: PropTypes.string,
-  position: PropTypes.oneOf(['top', 'bottom']),
-  align: PropTypes.oneOf(['right', 'center', 'left']),
+  closeOnClickInside: PropTypes.bool,
   closeOnClickOutside: PropTypes.bool,
-  isOpen: PropTypes.bool
+  isOpen: PropTypes.bool,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
+  onChange: PropTypes.func,
+  position: PropTypes.oneOf(['top', 'bottom'])
 };
 
 Dropdown.defaultProps = {

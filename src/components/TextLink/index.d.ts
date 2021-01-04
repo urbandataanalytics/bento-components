@@ -9,6 +9,8 @@ export interface TextLinkProps {
   variant: 'primary' | 'secondary';
 }
 
-declare const TextLink: React.FunctionComponent<TextLinkProps & React.AnchorHTMLAttributes<HTMLAnchorElement>>;
+declare const TextLink: React.FunctionComponent<
+  TextLinkProps & React.AnchorHTMLAttributes<HTMLAnchorElement>
+>;
 
 export default TextLink;

@@ -5,6 +5,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
   style={
     Object {
       "padding": "2rem",
+      "width": "400px",
     }
   }
 >

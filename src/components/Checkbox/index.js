@@ -139,11 +139,11 @@ const Checkbox = React.forwardRef((props, ref) => {
 });
 
 Checkbox.propTypes = {
-  checked: PropTypes.bool.isRequired,
-  disabled: PropTypes.bool.isRequired,
+  checked: PropTypes.bool,
+  disabled: PropTypes.bool,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
-  size: PropTypes.oneOf(['small', 'medium']).isRequired,
+  size: PropTypes.oneOf(['small', 'medium']),
   tabIndex: PropTypes.string,
   onChange: PropTypes.func
 };

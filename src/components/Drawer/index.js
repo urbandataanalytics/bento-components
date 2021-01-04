@@ -115,25 +115,24 @@ StyledDrawerSide.defaultProps = {
 
 const Drawer = props => {
   const {
-    open,
-    position,
-    size,
-    header,
-    subHeader,
-    showOverlay,
-    onClose,
     children,
-    width,
-    offsetTop,
+    header,
+    offsetBottom,
     offsetLeft,
     offsetRight,
-    offsetBottom,
+    offsetTop,
+    onClose,
+    open,
+    position,
+    showOverlay,
+    size,
+    subHeader,
+    width,
     ...other
   } = props;
 
   const DrawerContent = (
     <StyledDrawerSide
-      size={size}
       position={position}
       open={open}
       width={width}
@@ -167,16 +166,16 @@ const Drawer = props => {
 Drawer.propTypes = {
   children: PropTypes.node.isRequired,
   header: PropTypes.node.isRequired,
-  subHeader: PropTypes.node,
-  onClose: PropTypes.func,
-  position: PropTypes.oneOf(['left', 'right']).isRequired,
-  open: PropTypes.bool.isRequired,
-  showOverlay: PropTypes.bool,
-  width: PropTypes.string,
-  offsetTop: PropTypes.string,
+  offsetBottom: PropTypes.string,
   offsetLeft: PropTypes.string,
   offsetRight: PropTypes.string,
-  offsetBottom: PropTypes.string
+  offsetTop: PropTypes.string,
+  onClose: PropTypes.func,
+  open: PropTypes.bool.isRequired,
+  position: PropTypes.oneOf(['left', 'right']).isRequired,
+  showOverlay: PropTypes.bool,
+  subHeader: PropTypes.node,
+  width: PropTypes.string
 };
 
 export default Drawer;

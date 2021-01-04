@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots SwitchButtons Normal 1`] = `
+exports[`Storyshots SwitchButtons Playground 1`] = `
 <div
   style={
     Object {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import { text, boolean } from '@storybook/addon-knobs';
+import { text, select, boolean } from '@storybook/addon-knobs';
 import Checkbox from './index';
 
 export default {
@@ -12,11 +12,13 @@ const getCommonProps = () => {
   return {
     checked: boolean('Checked', false),
     disabled: boolean('Disabled', false),
-    onChange: action('checked')
+    label: text('Label', 'Label'),
+    onChange: action('checked'),
+    size: select('Size', ['small', 'medium'], 'medium')
   };
 };
 
-export const Normal = () => {
+export const Playground = () => {
   const containerStyle = {
     padding: '2rem'
   };

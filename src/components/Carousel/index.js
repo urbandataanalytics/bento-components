@@ -95,20 +95,20 @@ Thumbs.defaultProps = {
 const Carousel = React.forwardRef((props, ref) => {
   const theme = useTheme();
   const {
-    slides,
-    loop,
+    controlOffset,
     draggable,
-    rounded,
-    prevButton,
+    loop,
     nextButton,
     onChange,
-    controlOffset,
-    thumbnailsEnabled,
-    onThumbClick,
-    thumbCount,
     onClick,
+    onThumbClick,
+    prevButton,
+    rounded,
+    slides,
     startIndex,
+    thumbCount,
     thumbnailStartIndex,
+    thumbnailsEnabled,
     ...other
   } = props;
   const [emblaRef, embla] = useEmblaCarousel({ loop, draggable, startIndex });
@@ -242,35 +242,35 @@ const Carousel = React.forwardRef((props, ref) => {
 });
 
 Carousel.propTypes = {
-  loop: PropTypes.bool,
-  draggable: PropTypes.bool,
-  slides: PropTypes.array.isRequired,
-  rounded: PropTypes.bool,
-  onChange: PropTypes.func,
-  prevButton: PropTypes.node,
-  nextButton: PropTypes.node,
   controlOffset: PropTypes.string,
-  thumbnailsEnabled: PropTypes.bool,
-  thumbCount: PropTypes.number,
-  onThumbClick: PropTypes.func,
+  draggable: PropTypes.bool,
+  loop: PropTypes.bool,
+  nextButton: PropTypes.node,
+  onChange: PropTypes.func,
   onClick: PropTypes.func,
+  onThumbClick: PropTypes.func,
+  prevButton: PropTypes.node,
+  rounded: PropTypes.bool,
+  slides: PropTypes.array.isRequired,
   startIndex: PropTypes.number,
-  thumbnailStartIndex: PropTypes.number
+  thumbCount: PropTypes.number,
+  thumbnailStartIndex: PropTypes.number,
+  thumbnailsEnabled: PropTypes.bool
 };
 
 Carousel.defaultProps = {
-  loop: true,
-  draggable: false,
-  slides: [],
-  onChange: () => {},
   controlOffset: '10px',
-  thumbnailsEnabled: false,
-  rounded: false,
-  thumbCount: 3,
-  onThumbClick: () => {},
+  draggable: false,
+  loop: true,
+  onChange: () => {},
   onClick: () => {},
+  onThumbClick: () => {},
+  rounded: false,
+  slides: [],
   startIndex: 0,
-  thumbnailStartIndex: 1
+  thumbCount: 3,
+  thumbnailStartIndex: 1,
+  thumbnailsEnabled: false
 };
 
 Carousel.displayName = 'Carousel';

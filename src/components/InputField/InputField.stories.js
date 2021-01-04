@@ -23,11 +23,22 @@ const decoratorStyles = {
   padding: '2rem'
 };
 
-export const Normal = () => (
-  <div style={decoratorStyles}>
-    <InputField {...getCommonProps()} />
-  </div>
-);
+export const Normal = () => {
+  const commonProps = {
+    placeholder: text('Placeholder', 'Placeholder text'),
+    value: text('Value', 'Value text'),
+    onChange: action('onChange'),
+    type: select('Type', ['text', 'email', 'password'], 'text'),
+    label: text('Label', 'Label text'),
+    help: text('Help', 'Help text')
+  };
+
+  return (
+    <div style={decoratorStyles}>
+      <InputField {...commonProps} />
+    </div>
+  );
+};
 
 export const Error = () => (
   <div style={decoratorStyles}>

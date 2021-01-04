@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-
 import DefaultTheme from '../../themes/defaultTheme';
 import Loader from './Loader/';
 
@@ -166,10 +165,25 @@ const Button = React.forwardRef((props, ref) => {
 Button.propTypes = {
   block: PropTypes.bool,
   children: PropTypes.node,
+  className: PropTypes.string,
   disabled: PropTypes.bool,
+  loading: PropTypes.bool,
+  loadingText: PropTypes.string,
+  iconLeft: PropTypes.node,
+  iconRight: PropTypes.node,
+  onClick: PropTypes.func,
   size: PropTypes.oneOf(['medium', 'large']),
   tabIndex: PropTypes.string,
-  variant: PropTypes.oneOf(['normal', 'primary', 'secondary'])
+  variant: PropTypes.oneOf(['primary', 'secondary'])
+};
+// Quitar opción "normal" de aquí? - No aplica ningun efecto
+
+StyledButton.defaultProps = {
+  theme: DefaultTheme
+};
+
+IconWrapper.defaultProps = {
+  theme: DefaultTheme
 };
 
 Button.defaultProps = {
@@ -178,14 +192,6 @@ Button.defaultProps = {
   loading: false,
   size: 'medium',
   variant: 'primary'
-};
-
-StyledButton.defaultProps = {
-  theme: DefaultTheme
-};
-
-IconWrapper.defaultProps = {
-  theme: DefaultTheme
 };
 
 Button.displayName = 'Button';

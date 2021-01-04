@@ -7,15 +7,15 @@ export default {
   component: Grid
 };
 
-const getCommonProps = () => {
-  return {
-    columns: text('Columns', 'repeat(3, 1fr)'),
-    gap: text('Gap', '20px'),
-    numberOfChildren: number('Number Of Children', 4)
-  };
-};
-
 export const Playground = () => {
+  const getCommonProps = () => {
+    return {
+      columns: text('Columns', 'repeat(3, 1fr)'),
+      gap: text('Gap', '20px'),
+      numberOfChildren: number('Number Of Children', 4)
+    };
+  };
+
   const containerStyle = {
     padding: '2rem'
   };

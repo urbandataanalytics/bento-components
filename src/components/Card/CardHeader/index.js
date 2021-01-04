@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import DefaultTheme from '../../../themes/defaultTheme';
+import PropTypes from 'prop-types';
 
 const StyledCardHeader = styled.header`
   padding: ${({ theme }) => theme.spacings.small3} ${({ theme }) => theme.spacings.small4};
@@ -47,5 +48,14 @@ const CardHeader = React.forwardRef((props, ref) => {
 });
 
 CardHeader.displayName = 'CardHeader';
+
+CardHeader.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
+  leftContent: PropTypes.node,
+  rightContent: PropTypes.node,
+  title: PropTypes.string,
+  subheader: PropTypes.string
+};
 
 export default CardHeader;

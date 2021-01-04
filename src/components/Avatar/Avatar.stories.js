@@ -9,23 +9,19 @@ export default {
 
 const getCommonProps = () => {
   return {
-    size: select('Size', ['small', 'medium', 'large'], 'medium')
+    size: select('Size', ['small', 'medium', 'large'], 'medium'),
+    alt: text('Alt', 'John Doe Photo'),
+    customColor: color('Custom Color', '#1778FB'),
+    customTextColor: color('Custom Text Color', '#FFFFFF'),
+    src: text('Image link', 'https://atlantaseo.marketing/wp-content/uploads/avatar-2.png')
   };
 };
 
-export const Normal = () => (
-  <Avatar
-    {...getCommonProps()}
-    alt={'John Doe photo'}
-    src={text('Notification Text', 'https://atlantaseo.marketing/wp-content/uploads/avatar-2.png')}
-  />
-);
+export const Playground = () => <Avatar {...getCommonProps()} />;
 
 export const WithInitials = () => (
   <Avatar
-    {...getCommonProps()}
     initialsNum={number('Initials number', 2)}
-    color={select('Color', [null, 'primary', 'secondary'], null)}
     customColor={color('Custom Color', '#1778FB')}
     customTextColor={color('Custom Text Color', '#FFFFFF')}
   >

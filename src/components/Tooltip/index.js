@@ -117,16 +117,14 @@ export function testReset() {
 
 const Tooltip = ({
   children,
-  title,
-  value,
-  position,
   enterDelay = 100,
   enterNextDelay = 0,
-  enterTouchDelay = 700,
   leaveDelay = 0,
-  leaveTouchDelay = 1500,
+  onClose,
   onOpen,
-  onClose
+  position,
+  title,
+  value
 }) => {
   const container = useRef(null);
   const tooltip = useRef(null);
@@ -267,9 +265,12 @@ const Tooltip = ({
 
 Tooltip.propTypes = {
   children: PropTypes.node.isRequired,
+  enterDelay: PropTypes.number,
+  enterNextDelay: PropTypes.number,
+  leaveDelay: PropTypes.number,
+  position: PropTypes.oneOf(['top', 'right', 'bottom', 'left']),
   title: PropTypes.string.isRequired,
-  value: PropTypes.string,
-  position: PropTypes.oneOf(['top', 'right', 'bottom', 'left'])
+  value: PropTypes.string
 };
 
 Tooltip.defaultProps = {
