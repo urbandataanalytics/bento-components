@@ -18,11 +18,11 @@ After adding import into your project you can use it simply like:
 
 Table below contains all types of the props available in the List component.
 
-| Name             | Type            | Default    | Description                                                                                                                             |
-| :--------------- | :-------------- | :--------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **`"children"`** | `React.node`    |            | Any of the children options (LinkListItem, CheckListItem, ListItem, NavListItem), also admits any other children such as `<p>` or `<a>` |
-| `"className"`    | `string`        |            | Adds the class name to the element                                                                                                      |
-| `"size"`         | [`enum`](#enum) | `"medium"` | Size for children, options                                                                                                              |
+| Name         | Type            | Default    | Description                                                                                                                             |
+| :----------- | :-------------- | :--------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **children** | `React.node`    |            | Any of the children options (LinkListItem, CheckListItem, ListItem, NavListItem), also admits any other children such as `<p>` or `<a>` |
+| `className`  | `string`        |            | Adds the class name to the element                                                                                                      |
+| `size`       | [`enum`](#enum) | `"medium"` | Size for children, options                                                                                                              |
 
 ### enum
 

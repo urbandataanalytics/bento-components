@@ -36,7 +36,7 @@ Table below contains all types of the props available in the Slider component.
 
 ## enum
 
-| variant  |
-| :------- |
-| `slider` |
-| `range`  |
+| variant    |
+| :--------- |
+| `"slider"` |
+| `"range"`  |

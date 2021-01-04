@@ -16,17 +16,17 @@ After adding import into your project you can use it simply like:
 
 Table below contains all types of the props available in the Skeleton component.
 
-| Name      | Type          | Default | Description                               |
-| :-------- | :------------ | :------ | :---------------------------------------- |
-| height    | `string`      | `10px`  | Set height for the component in CSS units |
-| **width** | `string`      | `100%`  | Set width for the component in CSS units  |
-| variant   | [enum](#enum) | `text`  | Applies different shapes                  |
+| Name      | Type          | Default  | Description                               |
+| :-------- | :------------ | :------- | :---------------------------------------- |
+| height    | `string`      | `10px`   | Set height for the component in CSS units |
+| **width** | `string`      | `100%`   | Set width for the component in CSS units  |
+| variant   | [enum](#enum) | `"text"` | Applies different shapes                  |
 
 ## enum
 
-| variant    |
-| :--------- |
-| `square`   |
-| `rounded`  |
-| `circular` |
-| `text`     |
+| variant      |
+| :----------- |
+| `"square"`   |
+| `"rounded"`  |
+| `"circular"` |
+| `"text"`     |

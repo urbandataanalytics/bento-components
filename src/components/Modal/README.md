@@ -9,7 +9,7 @@ import { Modal } from '@uda/bento-components';
 After adding import into your project you can use it simply like:
 
 ```jsx
-<Modal />
+<Modal onClose={() => {}}>Content</Modal>
 ```
 
 ## Props

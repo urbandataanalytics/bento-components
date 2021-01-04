@@ -9,7 +9,9 @@ import Drawer from '@uda/bento-components';
 After adding import into your project you can use it simply like:
 
 ```jsx
-<Drawer shown>Content to show</Drawer>
+<Drawer header={<h4>{text('Title', 'Title')}</h4>} position="left" open={false}>
+  Content to show
+</Drawer>
 ```
 
 ## Props

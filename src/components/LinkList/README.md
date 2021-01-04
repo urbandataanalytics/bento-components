@@ -13,5 +13,3 @@ After adding import into your project you can use it simply like:
 ```jsx
 <LinkList />
 ```
-
-## Props

@@ -14,10 +14,6 @@ After adding import into your project you can use it simply like:
 </Card>
 ```
 
-children?: React.ReactNode;
-className?: string;
-loading?: boolean;
-
 ## Props
 
 Table below contains all types of the props available in the Card component.

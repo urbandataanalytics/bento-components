@@ -9,8 +9,10 @@ import { Dropdown } from '@uda/bento-components';
 After adding import into your project you can use it simply like:
 
 ```jsx
-<Dropdown label="Dropdown" />
+<Dropdown label={<Button>Label example</Button>}>List of Elements Here</Dropdown>
 ```
+
+This component can be used with `<List>` and `<ListItem>` components.
 
 ## Props
 

@@ -16,19 +16,19 @@ After adding import into your project you can use it simply like:
 
 Table below contains all types of the props available in the Notification component.
 
-| Name        | Type                   | Default  | Description                                                                        |
-| :---------- | :--------------------- | :------- | :--------------------------------------------------------------------------------- |
-| children    | `String || React.node` |          | Content of the Notification.                                                       |
-| closable    | `boolean`              | `false`  | Adds 'X' icon to allow the content to be closed manually                           |
-| icon        | `React.node`           |          | Allows to specify an icon for the Warning. ShowIcon must be `true`in order to show |
-| onClose     | `(event) => void`      |          | Handles the behaviour onClose event                                                |
-| showIcon    | `boolean`              | `false`  | If `true` shows the specified icon on the left of the message                      |
-| **variant** | [enum](#enum)          | `normal` | The format of the notification                                                     |
+| Name        | Type                   | Default    | Description                                                                        |
+| :---------- | :--------------------- | :--------- | :--------------------------------------------------------------------------------- |
+| children    | `String || React.node` |            | Content of the Notification.                                                       |
+| closable    | `boolean`              | `false`    | Adds 'X' icon to allow the content to be closed manually                           |
+| icon        | `React.node`           |            | Allows to specify an icon for the Warning. ShowIcon must be `true`in order to show |
+| onClose     | `(event) => void`      |            | Handles the behaviour onClose event                                                |
+| showIcon    | `boolean`              | `false`    | If `true` shows the specified icon on the left of the message                      |
+| **variant** | [enum](#enum)          | `"normal"` | The format of the notification                                                     |
 
 #enum
 
-| variant   |
-| :-------- |
-| `normal`  |
-| `success` |
-| `error`   |
+| variant     |
+| :---------- |
+| `"normal"`  |
+| `"success"` |
+| `"error"`   |

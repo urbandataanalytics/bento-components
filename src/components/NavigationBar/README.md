@@ -25,5 +25,3 @@ Table below contains all types of the props available in the NavigationBar compo
 | sticked      | `boolean`    |         | Applies 'sticky' property to the navbar and stays on top of screen when scrolling            |
 | loading      | `boolean`    |         | Shows a loading skeleton                                                                     |
 | rightContent | `React.node` |         | Places node on the right corner of the Navbar. For example, it can be used with `<Dropdown>` |
-
-i

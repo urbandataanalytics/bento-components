@@ -32,4 +32,3 @@ Table below contains all types of the props available in Checkbox component.
 | :--------- |
 | `"small"`  |
 | `"medium"` |
-|            |

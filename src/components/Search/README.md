@@ -28,4 +28,4 @@ Table below contains all types of the props available in the Search component.
 | **onClose**        | `(event) => void` |         | Handles behaviour when the onClose event is triggered                   |
 | placeholder        | `string`          |         | Temporary text in the input field to assist the user                    |
 | tabIndex           | `string`          |         | Specifies the tab order of the element (when the 'tab' key is pressed)  |
-| 'value'            | `string`          | ''      | Initial value set for the input field                                   |
+| value              | `string`          | `" "`   | Initial value set for the input field                                   |

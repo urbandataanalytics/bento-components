@@ -40,7 +40,7 @@ Table below contains all types of the props available in the MapLegend component
 | :------------- | :--------------------- | :------ | :---------------------------------------------------------------------------------- |
 | actions        | `Array<Action>`        |         | Expects an Array of `Action`. It has its own [props](#action-props)                 |
 | activeAction   | `string`               |         | Name of the action to be set as active by default                                   |
-| description    | `string || React.node` |         | Brief description of the legend pourpuse, to be shown below the `title`             |
+| description    | `string | React.node`  |         | Brief description of the legend pourpuse, to be shown below the `title`             |
 | offsetLeft     | `string`               |         | Sets a gap of defined size on the left of the component                             |
 | offsetBottom   | `string`               |         | Sets a gap of defined size on the bottom of the component                           |
 | isLoading      | `boolean`              |         | Shows a skeleton to show the loading status                                         |
@@ -54,10 +54,10 @@ Table below contains all types of the props available in the MapLegend component
 
 ### Enum
 
-| variant |
-| :------ |
-| range   |
-| points  |
+| variant    |
+| :--------- |
+| `"range"`  |
+| `"points"` |
 
 ### Action Props
 

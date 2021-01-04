@@ -20,8 +20,8 @@ After adding import into your project you can use it simply like:
 
 Table below contains all types of the props available in the SwitchButtons component.
 
-| Name     | Type               | Default | Description                                      |
-| :------- | :----------------- | :------ | :----------------------------------------------- |
-| children | `React.node`       |         | Elements to switch within                        |
-| value    | `number || string` |         | Defined value for the children                   |
-| onChange | `(event) => void`  |         | Handle behaviour when onClick event is triggered |
+| Name     | Type              | Default | Description                                      |
+| :------- | :---------------- | :------ | :----------------------------------------------- |
+| children | `React.node`      |         | Elements to switch within                        |
+| value    | `number | string` |         | Defined value for the children                   |
+| onChange | `(event) => void` |         | Handle behaviour when onClick event is triggered |

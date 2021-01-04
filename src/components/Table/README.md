@@ -30,10 +30,10 @@ Table below contains all types of the props available in the Table component.
 
 ### enum
 
-| variant  |
-| :------- |
-| `small`  |
-| `medium` |
+| variant    |
+| :--------- |
+| `"small"`  |
+| `"medium"` |
 
 ### columnsProps
 
@@ -49,8 +49,8 @@ Table below contains all types of the props available in the Table component.
 
 ### enum columnProps
 
-| align    | variant     |
-| :------- | :---------- |
-| `left`   | `primary`   |
-| `center` | `secondary` |
-| `right`  |             |
+| align      | variant       |
+| :--------- | :------------ |
+| `"left"`   | `"primary"`   |
+| `"center"` | `"secondary"` |
+| `"right"`  |               |
