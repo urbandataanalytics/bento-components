@@ -85,10 +85,10 @@ StyledOverlay.defaultProps = {
 
 const Modal = ({
   children,
-  closable = true,
-  enableClickOutside = true,
+  closable,
+  enableClickOutside,
   footer,
-  full = false,
+  full,
   header,
   isOpen,
   onClose,
@@ -145,4 +145,9 @@ Modal.propTypes = {
   full: PropTypes.bool.isRequired
 };
 
+Modal.defaultProps = {
+  full: false,
+  closable: true,
+  enableClickOutside: true
+};
 export default Modal;
