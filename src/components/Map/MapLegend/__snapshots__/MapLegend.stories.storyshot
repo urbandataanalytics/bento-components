@@ -1,47 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots MapLegend Points Legend 1`] = `
-<div
-  style={
-    Object {
-      "padding": "2rem",
-    }
-  }
->
-  <div
-    className="MapLegend__StyledContainer-sc-1s1tm5k-0 liZwHi"
-  >
-    <div
-      className="MapLegend__StyledWrapper-sc-1s1tm5k-1 iHoiQN"
-    >
-      <div
-        className="MapLegend__StylePoints-sc-1s1tm5k-5 hjpmot"
-      >
-        <div
-          className="MapLegend__StyledPointElement-sc-1s1tm5k-6 cILSmo"
-          color="#1B817A"
-        >
-          <span />
-          <span>
-            Exact address
-          </span>
-        </div>
-        <div
-          className="MapLegend__StyledPointElement-sc-1s1tm5k-6 fXUbQx"
-          color="#EDBE96"
-        >
-          <span />
-          <span>
-            No exact address
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots MapLegend Range Legend 1`] = `
+exports[`Storyshots MapLegend Playground 1`] = `
 <div
   style={
     Object {
@@ -180,7 +139,7 @@ exports[`Storyshots MapLegend With Actions 1`] = `
         className="MapLegend__StyledMinMaxText-sc-1s1tm5k-8 kfScoS"
       >
         <span>
-          Minium
+          Min
         </span>
         <span>
           Max
