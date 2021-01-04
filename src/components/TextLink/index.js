@@ -57,14 +57,14 @@ StyledTextLink.defaultProps = {
 
 const TextLink = React.forwardRef((props, ref) => {
   const {
-    children,
-    className,
-    disabled,
-    external,
-    href,
-    size,
-    tabIndex,
     variant,
+    tabIndex,
+    size,
+    href,
+    external,
+    disabled,
+    className,
+    children,
     ...other
   } = props;
 
@@ -87,10 +87,11 @@ const TextLink = React.forwardRef((props, ref) => {
 
 TextLink.propTypes = {
   children: PropTypes.node.isRequired,
+  className: PropTypes.string,
   disabled: PropTypes.bool,
   external: PropTypes.bool,
   href: PropTypes.string.isRequired,
-  size: PropTypes.oneOf(['medium', 'large']),
+  size: PropTypes.oneOf(['medium', 'large']).isRequired,
   tabIndex: PropTypes.string,
   variant: PropTypes.oneOf(['primary', 'secondary'])
 };
