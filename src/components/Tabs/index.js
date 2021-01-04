@@ -77,10 +77,10 @@ const Tabs = props => {
 };
 
 Tabs.propTypes = {
-  align: PropTypes.oneOf('left', 'center', 'right'),
+  align: PropTypes.oneOf(['left', 'center', 'right']),
   children: PropTypes.node,
-  leftContent: PropTypes.string,
-  rightContent: PropTypes.string,
+  leftContent: PropTypes.node,
+  rightContent: PropTypes.node,
   onChange: PropTypes.func,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };

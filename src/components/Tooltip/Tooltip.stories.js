@@ -1,6 +1,7 @@
 import React from 'react';
 import Tooltip from './index';
 import Button from '../Button/index.js';
+import { select, text, number } from '@storybook/addon-knobs';
 
 export default {
   title: 'Tooltip',
@@ -17,69 +18,19 @@ const containerStyle = {
 
 const buttonStyle = { marginBottom: '2rem' };
 
-export const Medium = () => {
+export const Playground = () => {
   return (
     <div style={containerStyle}>
       <div style={buttonStyle}>
-        <Tooltip title="Tooltip text" position="left">
+        <Tooltip
+          title={text('Title', 'Title for tooltip')}
+          enterDelay={number('Enter Delay', 100)}
+          leaveDelay={number('Leave Delay', 0)}
+          value={text('Value', 'Text for tooltip')}
+          position={select('Position', ['top', 'right', 'bottom', 'left'], 'top')}
+        >
           <Button variant="primary" size="medium">
-            Tooltip Left
-          </Button>
-        </Tooltip>
-      </div>
-      <div style={buttonStyle}>
-        <Tooltip title="Tooltip text" position="top">
-          <Button variant="primary" size="medium">
-            Tooltip Top
-          </Button>
-        </Tooltip>
-      </div>
-      <div style={buttonStyle}>
-        <Tooltip title="Tooltip text" position="bottom">
-          <Button variant="primary" size="medium">
-            Tooltip Bottom
-          </Button>
-        </Tooltip>
-      </div>
-      <div style={buttonStyle}>
-        <Tooltip title="Tooltip text" position="right">
-          <Button variant="primary" size="medium">
-            Tooltip Right
-          </Button>
-        </Tooltip>
-      </div>
-    </div>
-  );
-};
-
-export const Large = () => {
-  return (
-    <div style={containerStyle}>
-      <div style={buttonStyle}>
-        <Tooltip title="Tooltip text" value="Tooltip value" position="left">
-          <Button variant="primary" size="medium">
-            Tooltip Left
-          </Button>
-        </Tooltip>
-      </div>
-      <div style={buttonStyle}>
-        <Tooltip title="Tooltip text" value="Tooltip value" position="top">
-          <Button variant="primary" size="medium">
-            Tooltip Top
-          </Button>
-        </Tooltip>
-      </div>
-      <div style={buttonStyle}>
-        <Tooltip title="Tooltip text" value="Tooltip value" position="bottom">
-          <Button variant="primary" size="medium">
-            Tooltip Bottom
-          </Button>
-        </Tooltip>
-      </div>
-      <div style={buttonStyle}>
-        <Tooltip title="Tooltip text" value="Tooltip value" position="right">
-          <Button variant="primary" size="medium">
-            Tooltip Right
+            Mouse on
           </Button>
         </Tooltip>
       </div>

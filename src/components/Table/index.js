@@ -87,9 +87,9 @@ Table.propTypes = {
   rows: PropTypes.array.isRequired,
   columns: PropTypes.arrayOf(
     PropTypes.shape({
-      headerName: PropTypes.string.isRequired,
+      headerName: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
       field: PropTypes.string.isRequired,
-      align: PropTypes.oneOf(['left', 'center', 'right']).isRequired,
+      align: PropTypes.oneOf(['left', 'center', 'right']),
       highlight: PropTypes.bool,
       variant: PropTypes.oneOf(['primary', 'secondary']),
       cellRenderer: PropTypes.string
