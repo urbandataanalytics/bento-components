@@ -12,6 +12,8 @@ After adding import into your project you can use it simply like:
 <Table columns={columnDef} rows={data} domLayout="autoHeight"></Table>
 ```
 
+For additional information, this component implements [AgGrid](https://www.ag-grid.com/react-grid/) package under the hood.
+
 ## Props
 
 Table below contains all types of the props available in the Table component.
