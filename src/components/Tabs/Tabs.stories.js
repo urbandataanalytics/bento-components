@@ -24,7 +24,8 @@ const NormalComponent = () => {
     </div>
   );
 };
-export const Normal = () => <NormalComponent />;
+
+export const Playground = () => <NormalComponent />;
 
 const WithBadgeComponent = () => {
   const [value, setValue] = useState(0);
@@ -37,7 +38,7 @@ const WithBadgeComponent = () => {
       <Tabs value={value} onChange={(e, value) => setValue(value)}>
         <Tab label="Tab 1" badge="12" />
         <Tab label="Tab 2" badge="9" />
-        <Tab label="Tab 3" badge="9" disabled />
+        <Tab label="Tab 3" badge="9" />
       </Tabs>
     </div>
   );

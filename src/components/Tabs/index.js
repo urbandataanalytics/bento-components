@@ -45,11 +45,11 @@ const StyledTabsContent = styled.div`
 const Tabs = props => {
   const {
     align = 'center',
-    value,
-    leftContent,
-    rightContent,
-    onChange,
     children: childrenProp,
+    leftContent,
+    onChange,
+    rightContent,
+    value,
     ...other
   } = props;
   const children = React.Children.map(childrenProp, (child, childIndex) => {
@@ -77,9 +77,12 @@ const Tabs = props => {
 };
 
 Tabs.propTypes = {
-  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  align: PropTypes.oneOf('left', 'center', 'right'),
+  children: PropTypes.node,
+  leftContent: PropTypes.string,
+  rightContent: PropTypes.string,
   onChange: PropTypes.func,
-  children: PropTypes.node
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
 Tabs.displayName = 'Tabs';
