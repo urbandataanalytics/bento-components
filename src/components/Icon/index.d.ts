@@ -4,8 +4,8 @@ export interface Props {
   children?: React.ReactNode;
   className?: string;
   color?: 'primary' | 'secondary';
+  size?: 'small' | 'medium' | 'large' | 'extralarge';
   customColor?: string;
-  size?: 'small' | 'medium' | 'large';
   viewBox?: string;
 }
 
