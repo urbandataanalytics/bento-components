@@ -28,6 +28,17 @@ describe(`Tabs`, () => {
     expect(wrapper.find('Tab').at(1).props().active).toBe(true);
   });
 
+  it('fails on invalid child', () => {
+    const invalidChild = 'stringToFail';
+    const wrapper = shallow(
+      <Tabs>
+        {invalidChild}
+        <Tab header="testHeader">Text</Tab>
+      </Tabs>
+    );
+    expect(wrapper.find('Tabs__StyledTabsContainer').children().length).toBe(1);
+  });
+
   describe('events', () => {
     it('should invoke onChange with expected value', () => {
       const onChange = jest.fn();
