@@ -91,4 +91,15 @@ describe(`Accordion List`, () => {
     expect(wrapper.find('#acc1').prop('expanded')).toBe(true);
     expect(wrapper.find('#acc2').prop('expanded')).toBe(false);
   });
+
+  it('fails on invalid child', () => {
+    const invalidChild = 'stringToFail';
+    const wrapper = shallow(
+      <AccordionList>
+        {invalidChild}
+        <Accordion header="testHeader">Text</Accordion>
+      </AccordionList>
+    );
+    expect(wrapper.find('AccordionList__StyledAccordionList').children().length).toBe(1);
+  });
 });
