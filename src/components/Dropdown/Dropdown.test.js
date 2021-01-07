@@ -68,6 +68,22 @@ describe(`Dropdown`, () => {
     expect(wrapper.find('Dropdown__ChildrenContainer').exists()).toBe(false);
   });
 
+  it('should not close dropdown whtn inside click if closeOnClickInside is false', () => {
+    const wrapper = shallow(
+      <Dropdown closeOnClickInside={false} label="Label">
+        <p id="child1">Child 1</p>
+      </Dropdown>
+    );
+
+    //Opens dropdown from button
+    wrapper.find('Dropdown__StyledLabel').simulate('click');
+
+    //Click inside to close
+    wrapper.find('Dropdown__ChildrenContainer').simulate('click');
+
+    expect(wrapper.find('Dropdown__ChildrenContainer').exists()).toBe(true);
+  });
+
   // it('childrenContainer should dissapear when closeOnClickOutside is true and click is done', () => {
   //   const wrapper = mount(
   //     <Dropdown closeOnClickOutside={true} label="Label">

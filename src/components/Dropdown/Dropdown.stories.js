@@ -92,6 +92,48 @@ export const CloseOnClickInside = () => {
   );
 };
 
+export const TopPosition = () => {
+  const containerStyle = {
+    padding: '15rem 2rem'
+  };
+
+  const numberOfChild = getCommonProps().numberOfChildren;
+  const elements = Array.apply(null, Array(numberOfChild));
+
+  return (
+    <div style={containerStyle}>
+      <Dropdown position="top" align="center" label={<Button>Label example</Button>}>
+        <List {...getCommonProps()}>
+          {elements.map((e, i) => (
+            <ListItem key={i}>{i + 1}</ListItem>
+          ))}
+        </List>
+      </Dropdown>
+    </div>
+  );
+};
+
+export const BottomPosition = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  const numberOfChild = getCommonProps().numberOfChildren;
+  const elements = Array.apply(null, Array(numberOfChild));
+
+  return (
+    <div style={containerStyle}>
+      <Dropdown position="bottom" align="center" label={<Button>Label example</Button>}>
+        <List {...getCommonProps()}>
+          {elements.map((e, i) => (
+            <ListItem key={i}>{i + 1}</ListItem>
+          ))}
+        </List>
+      </Dropdown>
+    </div>
+  );
+};
+
 export const RightAlignment = () => {
   const containerStyle = {
     padding: '2rem'
