@@ -28,3 +28,7 @@ export const WithInitials = () => (
     {text('Text', 'John Doe')}
   </Avatar>
 );
+
+export const WithNoCustomColor = () => (
+  <Avatar initialsNum={number('Initials number', 2)}>{text('Text', 'John Doe')}</Avatar>
+);
