@@ -91,3 +91,66 @@ export const CloseOnClickInside = () => {
     </div>
   );
 };
+
+export const RightAlignment = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  const numberOfChild = getCommonProps().numberOfChildren;
+  const elements = Array.apply(null, Array(numberOfChild));
+
+  return (
+    <div style={containerStyle}>
+      <Dropdown align="right" label={<Button>Label example</Button>}>
+        <List {...getCommonProps()}>
+          {elements.map((e, i) => (
+            <ListItem key={i}>{i + 1}</ListItem>
+          ))}
+        </List>
+      </Dropdown>
+    </div>
+  );
+};
+
+export const CenterAlignment = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  const numberOfChild = getCommonProps().numberOfChildren;
+  const elements = Array.apply(null, Array(numberOfChild));
+
+  return (
+    <div style={containerStyle}>
+      <Dropdown align="center" label={<Button>Label example</Button>}>
+        <List {...getCommonProps()}>
+          {elements.map((e, i) => (
+            <ListItem key={i}>{i + 1}</ListItem>
+          ))}
+        </List>
+      </Dropdown>
+    </div>
+  );
+};
+
+export const LeftAlignment = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  const numberOfChild = getCommonProps().numberOfChildren;
+  const elements = Array.apply(null, Array(numberOfChild));
+
+  return (
+    <div style={containerStyle}>
+      <Dropdown align="left" label={<Button>Label example</Button>}>
+        <List {...getCommonProps()}>
+          {elements.map((e, i) => (
+            <ListItem key={i}>{i + 1}</ListItem>
+          ))}
+        </List>
+      </Dropdown>
+    </div>
+  );
+};
