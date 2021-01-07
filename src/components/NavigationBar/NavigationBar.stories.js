@@ -74,3 +74,5 @@ export const Playground = () => {
 };
 
 export const WithoutMenu = () => <NavigationBar header={HeaderLogo}></NavigationBar>;
+
+export const Loading = () => <NavigationBar header={HeaderLogo} loading={true}></NavigationBar>;
