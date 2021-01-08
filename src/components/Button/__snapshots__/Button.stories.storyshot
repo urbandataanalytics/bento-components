@@ -11,7 +11,6 @@ exports[`Storyshots Button Block 1`] = `
   <button
     className="Button__StyledButton-sc-1tzlszx-0 bZDFQF"
     disabled={false}
-    onClick={[Function]}
     size="medium"
   >
     <span
@@ -495,7 +494,7 @@ exports[`Storyshots Button Block 1`] = `
       <span
         className="Loader__StyledText-ew77jg-0 hBFTWi"
       >
-        Loading
+        
       </span>
     </span>
     <span
@@ -518,7 +517,6 @@ exports[`Storyshots Button Loading 1`] = `
   <button
     className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
     disabled={true}
-    onClick={[Function]}
     size="medium"
   >
     <span
@@ -1002,13 +1000,13 @@ exports[`Storyshots Button Loading 1`] = `
       <span
         className="Loader__StyledText-ew77jg-0 hBFTWi"
       >
-        Loading
+        Loading Text
       </span>
     </span>
     <span
       className="Button__StyledContent-sc-1tzlszx-2 cPiKOG"
     >
-      "Button"
+      Button
     </span>
   </button>
 </div>
@@ -1025,7 +1023,6 @@ exports[`Storyshots Button Playground 1`] = `
   <button
     className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
     disabled={false}
-    onClick={[Function]}
     size="medium"
   >
     <span
@@ -1509,14 +1506,16 @@ exports[`Storyshots Button Playground 1`] = `
       <span
         className="Loader__StyledText-ew77jg-0 hBFTWi"
       >
-        Loading
+        
       </span>
     </span>
+    
     <span
       className="Button__StyledContent-sc-1tzlszx-2 cPiKOG"
     >
       Button
     </span>
+    
   </button>
 </div>
 `;
@@ -1532,7 +1531,6 @@ exports[`Storyshots Button With Icon Left 1`] = `
   <button
     className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
     disabled={false}
-    onClick={[Function]}
     size="medium"
   >
     <span
@@ -2016,7 +2014,7 @@ exports[`Storyshots Button With Icon Left 1`] = `
       <span
         className="Loader__StyledText-ew77jg-0 hBFTWi"
       >
-        Loading
+        
       </span>
     </span>
     <span
@@ -2504,7 +2502,7 @@ exports[`Storyshots Button With Icon Left 1`] = `
     <span
       className="Button__StyledContent-sc-1tzlszx-2 cPiKOG"
     >
-      Button
+       Button Name
     </span>
   </button>
 </div>
@@ -2521,7 +2519,6 @@ exports[`Storyshots Button With Icon Right 1`] = `
   <button
     className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
     disabled={false}
-    onClick={[Function]}
     size="medium"
   >
     <span
@@ -3005,13 +3002,13 @@ exports[`Storyshots Button With Icon Right 1`] = `
       <span
         className="Loader__StyledText-ew77jg-0 hBFTWi"
       >
-        Loading
+        
       </span>
     </span>
     <span
       className="Button__StyledContent-sc-1tzlszx-2 cPiKOG"
     >
-      Button
+       Button Name
     </span>
     <span
       className="Button__IconWrapper-sc-1tzlszx-1 inVbhy"
