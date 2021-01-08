@@ -16,5 +16,11 @@ describe(`MapActions`, () => {
       const skeleton = () => wrapper.find(MapActionsSkeleton);
       expect(skeleton().exists()).toBe(true);
     });
+
+    it('must change icon when button is pressed', () => {
+      const wrapper = shallow(<MapActions>Test</MapActions>);
+      wrapper.find('MapActions__StyledButton').simulate('click');
+      expect(wrapper.find('IconArrowDoubleLeft').exists()).toBe(true);
+    });
   });
 });
