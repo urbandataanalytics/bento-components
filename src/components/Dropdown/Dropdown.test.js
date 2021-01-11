@@ -68,7 +68,7 @@ describe(`Dropdown`, () => {
     expect(wrapper.find('Dropdown__ChildrenContainer').exists()).toBe(false);
   });
 
-  it('should not close dropdown whtn inside click if closeOnClickInside is false', () => {
+  it('should not close dropdown with inside click if closeOnClickInside is false', () => {
     const wrapper = shallow(
       <Dropdown closeOnClickInside={false} label="Label">
         <p id="child1">Child 1</p>
@@ -83,16 +83,4 @@ describe(`Dropdown`, () => {
 
     expect(wrapper.find('Dropdown__ChildrenContainer').exists()).toBe(true);
   });
-
-  // it('childrenContainer should dissapear when closeOnClickOutside is true and click is done', () => {
-  //   const wrapper = mount(
-  //     <Dropdown closeOnClickOutside={true} label="Label">
-  //       <p id="child1">Child 1</p>
-  //     </Dropdown>
-  //   );
-
-  //   wrapper.find('Dropdown__StyledLabel').simulate('click');
-  // @ TODO: Needs to register a click action outside the component
-  //    expect(wrapper.find('Dropdown__ChildrenContainer').exists()).toBe(false);
-  // });
 });
