@@ -19,7 +19,6 @@ describe('Tooltip testing', () => {
 
     wrapper.update();
     //No genera la Styledtooltip label
-    console.log(wrapper.debug());
 
     const tooltipRendered = wrapper.find('Tooltip__StyledTooltipLabel');
 
