@@ -43,6 +43,25 @@ export const Playground = () => {
   );
 };
 
+export const WithPoints = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <MapLegend
+        title={text('Title', 'Legend')}
+        description={text('Description', 'Lorem ipsum')}
+        variant={'points'}
+        points={[
+          { color: '#1B817A', label: 'Exact address' },
+          { color: '#EDBE96', label: 'No exact address' }
+        ]}
+      />
+    </div>
+  );
+};
 export const WithActions = () => {
   const containerStyle = {
     padding: '2rem'
@@ -75,6 +94,32 @@ export const WithActions = () => {
         ]}
         activeAction={select('Active Action', ['sale', 'rent'], 'sale')}
         onChangeAction={action('action')}
+        actions={[
+          {
+            label: 'Sale',
+            value: 'sale'
+          },
+          {
+            label: 'Rent',
+            value: 'rent'
+          }
+        ]}
+      />
+    </div>
+  );
+};
+
+export const Loading = () => {
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <MapLegend
+        title={'Legend'}
+        description={'Lorem Ipsum'}
+        isLoading={true}
         actions={[
           {
             label: 'Sale',
