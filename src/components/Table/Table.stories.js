@@ -23,6 +23,7 @@ export const Playground = () => {
       ),
       field: 'make',
       sortable: true,
+      align: 'left',
       variant: 'primary'
     },
     {
@@ -57,6 +58,24 @@ export const Playground = () => {
         variant={select('Variant', ['small', 'medium'], 'medium')}
         domLayout="autoHeight"
       />
+    </div>
+  );
+};
+
+export const Loading = () => {
+  const columnDefs = [
+    {
+      headerName: 'one',
+      field: 'make',
+      sortable: true,
+      align: 'left',
+      variant: 'primary'
+    }
+  ];
+  const rowData = [{ make: 'test' }];
+  return (
+    <div style={decoratorStyles}>
+      <Table columns={columnDefs} rows={rowData} loading={true} domLayout="autoHeight" />
     </div>
   );
 };

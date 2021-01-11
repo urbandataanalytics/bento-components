@@ -80,7 +80,7 @@ const Dropdown = ({
   children,
   closeOnClickInside,
   closeOnClickOutside,
-  isOpen = false,
+  isOpen,
   label,
   onChange = () => {},
   position,

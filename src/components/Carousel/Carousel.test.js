@@ -37,13 +37,28 @@ describe(`Carousel`, () => {
 
   it('should call onChange when clicking next with active slide', () => {
     const onChange = jest.fn();
-    const wrapper = mount(<Carousel slides={CAROUSEL_SLIDES} onChange={onChange} />);
+    const wrapper = mount(
+      <Carousel thumbnailsEnabled slides={CAROUSEL_SLIDES} onChange={onChange} />
+    );
 
     // Click on next button
     const buttons = wrapper.find('Carousel__ControlButton');
     buttons.at(1).simulate('click');
 
     expect(onChange).toHaveBeenCalledWith(1);
+  });
+
+  it('should call onChange when clicking previous with active slide', () => {
+    const onChange = jest.fn();
+    const wrapper = mount(
+      <Carousel thumbnailsEnabled slides={CAROUSEL_SLIDES} onChange={onChange} />
+    );
+
+    // Click on next button
+    const leftButton = wrapper.find('Carousel__ControlButton');
+    leftButton.at(0).simulate('click');
+
+    expect(onChange).toHaveBeenCalled();
   });
 
   it('should overwrite a control button', () => {
