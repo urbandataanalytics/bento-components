@@ -1,21 +1,51 @@
 import React from 'react';
-import { text, number } from '@storybook/addon-knobs';
 import Grid from './index';
 
 export default {
   title: 'Grid',
-  component: Grid
+  component: Grid,
+  argTypes: {
+    children: {
+      description: 'Children for the grid. It will generate as much rows as children received.',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    className: {
+      description: 'Adds class for this element',
+      control: 'none',
+      table: {
+        category: 'others'
+      }
+    },
+    columns: {
+      description: 'Define columns in CSS Grid syntax                                  ',
+      table: {
+        category: 'format'
+      }
+    },
+    gap: {
+      description: 'Define gap size in CSS units',
+      table: {
+        category: 'format'
+      }
+    },
+    numberOfChildren: {
+      name: 'Number of Children to Test',
+      control: 'number',
+      table: {
+        category: 'testing data'
+      }
+    }
+  },
+  args: {
+    columns: 'repeat(3, 1fr)',
+    gap: '20px'
+  }
 };
 
-export const Playground = () => {
-  const getCommonProps = () => {
-    return {
-      columns: text('Columns', 'repeat(3, 1fr)'),
-      gap: text('Gap', '20px'),
-      numberOfChildren: number('Number Of Children', 4)
-    };
-  };
-
+export const Playground = ({ numberOfChildren, ...args }) => {
   const containerStyle = {
     padding: '2rem'
   };
@@ -30,12 +60,11 @@ export const Playground = () => {
     boxShadow: '0px 8px 16px rgba(54, 60, 75, 0.1)'
   };
 
-  const numberOfChild = getCommonProps().numberOfChildren;
-  const elements = Array.apply(null, Array(numberOfChild));
+  const elements = Array.apply(null, Array(numberOfChildren));
 
   return (
     <div style={containerStyle}>
-      <Grid {...getCommonProps()}>
+      <Grid {...args}>
         {elements.map((e, i) => (
           <div key={i} style={elementStyle}>
             {i + 1}
@@ -44,4 +73,8 @@ export const Playground = () => {
       </Grid>
     </div>
   );
+};
+
+Playground.args = {
+  numberOfChildren: 4
 };
