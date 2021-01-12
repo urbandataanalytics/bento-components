@@ -173,7 +173,6 @@ const Tooltip = ({
 
   const handleEnter = (forward = true) => event => {
     const childrenProps = children.props;
-
     if (event.type === 'mouseover' && childrenProps.onMouseOver && forward) {
       childrenProps.onMouseOver(event);
     }

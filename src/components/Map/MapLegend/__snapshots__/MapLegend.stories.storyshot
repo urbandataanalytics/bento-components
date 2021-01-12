@@ -1,5 +1,79 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots MapLegend Loading 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="MapLegend__StyledContainer-sc-1s1tm5k-0 liZwHi"
+  >
+    <div
+      className="MapLegendSkeleton__Style-bfdz79-1 eOAGEj"
+    >
+      <div
+        className="MapLegendSkeleton__StyledContainer-bfdz79-0 cyMWGv"
+      >
+        <i
+          className="Skeleton__StyledSkeleton-imrnkm-0 iZGcST"
+          height="15px"
+          width="50%"
+        />
+        <i
+          className="Skeleton__StyledSkeleton-imrnkm-0 gYGfWE"
+          height="8px"
+          width="30%"
+        />
+        <i
+          className="Skeleton__StyledSkeleton-imrnkm-0 jfNIcT"
+          height="10px"
+          width="100%"
+        />
+        <div
+          className="MapLegendSkeleton__StyledMinMax-bfdz79-2 fiBVbE"
+        >
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 dSZPBY"
+            height="8px"
+            width="50px"
+          />
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 dSZPBY"
+            height="8px"
+            width="50px"
+          />
+        </div>
+      </div>
+      <div
+        className="MapLegendSkeleton__StyledActions-bfdz79-3 jMVTnE"
+      >
+        <span
+          className="MapLegendSkeleton__StyledAction-bfdz79-4 bBJNJl"
+        >
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 jQyOSG"
+            height="10px"
+            width="20px"
+          />
+        </span>
+        <span
+          className="MapLegendSkeleton__StyledAction-bfdz79-4 bBJNJl"
+        >
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 jQyOSG"
+            height="10px"
+            width="20px"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots MapLegend Playground 1`] = `
 <div
   style={
@@ -162,6 +236,57 @@ exports[`Storyshots MapLegend With Actions 1`] = `
         Rent
       </div>
     </footer>
+  </div>
+</div>
+`;
+
+exports[`Storyshots MapLegend With Points 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="MapLegend__StyledContainer-sc-1s1tm5k-0 liZwHi"
+  >
+    <div
+      className="MapLegend__StyledWrapper-sc-1s1tm5k-1 iHoiQN"
+    >
+      <header
+        className="MapLegend__StyledTitle-sc-1s1tm5k-2 jpSsIc"
+      >
+        Legend
+      </header>
+      <div
+        className="MapLegend__StyledDescription-sc-1s1tm5k-3 iZSflf"
+      >
+        Lorem ipsum
+      </div>
+      <div
+        className="MapLegend__StylePoints-sc-1s1tm5k-5 hjpmot"
+      >
+        <div
+          className="MapLegend__StyledPointElement-sc-1s1tm5k-6 cILSmo"
+          color="#1B817A"
+        >
+          <span />
+          <span>
+            Exact address
+          </span>
+        </div>
+        <div
+          className="MapLegend__StyledPointElement-sc-1s1tm5k-6 fXUbQx"
+          color="#EDBE96"
+        >
+          <span />
+          <span>
+            No exact address
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

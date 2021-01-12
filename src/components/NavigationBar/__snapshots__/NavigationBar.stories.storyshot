@@ -1,5 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots NavigationBar Loading 1`] = `
+<header
+  className="NavigationBarSkeleton__StyledSkeleton-sc-1g8mcqk-0 fsXiYN"
+>
+  <div
+    className="NavigationBarSkeleton__StyledLeft-sc-1g8mcqk-1 gWfcAH"
+  >
+    <div />
+    <div>
+      <em />
+      <span />
+    </div>
+  </div>
+  <div
+    className="NavigationBarSkeleton__StyledRight-sc-1g8mcqk-2 jaHuu"
+  >
+    <div>
+      <span />
+      <span />
+      <span />
+    </div>
+    <i>
+      |
+    </i>
+    <em />
+    <div>
+      <em />
+      <span />
+    </div>
+  </div>
+</header>
+`;
+
 exports[`Storyshots NavigationBar Playground 1`] = `
 <div
   style={

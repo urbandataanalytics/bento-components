@@ -60,9 +60,35 @@ describe(`MapLegend`, () => {
     });
 
     it('should render loading Skeleton', () => {
+      const onClick = jest.fn();
       const wrapper = shallow(<MapLegend isLoading {...commonProps} />);
       const skeleton = () => wrapper.find(MapLegendSkeleton);
       expect(skeleton().exists()).toBe(true);
+    });
+
+    it('should call onclick when change tab', () => {
+      const onChangeAction = jest.fn();
+      const wrapper = shallow(
+        <MapLegend
+          title={'Legend'}
+          description={'Lorem Ipsum'}
+          onChangeAction={onChangeAction}
+          actions={[
+            {
+              label: 'Sale',
+              value: 'sale'
+            },
+            {
+              label: 'Rent',
+              value: 'rent'
+            }
+          ]}
+        />
+      );
+      const actions = wrapper.find('MapLegend__Action');
+      actions.at(1).simulate('click');
+
+      expect(onChangeAction).toHaveBeenCalled();
     });
   });
 });

@@ -41,3 +41,12 @@ exports[`Storyshots Avatar With No Custom Colors 1`] = `
   ST
 </div>
 `;
+
+exports[`Storyshots Avatar With No Custom Color 1`] = `
+<div
+  className="Avatar__StyledAvatar-sc-1ivfczv-0 liEgeh"
+  size="medium"
+>
+  JD
+</div>
+`;

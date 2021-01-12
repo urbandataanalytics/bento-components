@@ -37,3 +37,38 @@ export const Playground = () => {
     </div>
   );
 };
+
+export const AllPositions = () => {
+  return (
+    <div style={containerStyle}>
+      <div style={buttonStyle}>
+        <Tooltip title="Top Position" position="top">
+          <Button variant="primary" size="medium">
+            Top
+          </Button>
+        </Tooltip>
+      </div>
+      <div style={buttonStyle}>
+        <Tooltip title="Left Position" position="left">
+          <Button variant="primary" size="medium">
+            Left
+          </Button>
+        </Tooltip>
+      </div>
+      <div style={buttonStyle}>
+        <Tooltip title="Right Position" position="right">
+          <Button variant="primary" size="medium">
+            Right
+          </Button>
+        </Tooltip>
+      </div>
+      <div style={buttonStyle}>
+        <Tooltip title="Bottom Position" position="bottom">
+          <Button variant="primary" size="medium">
+            Bottom
+          </Button>
+        </Tooltip>
+      </div>
+    </div>
+  );
+};

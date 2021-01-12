@@ -28,6 +28,17 @@ describe(`SwitchButtons`, () => {
     expect(wrapper.find('ButtonLink').at(1).props().variant).toBe('primary');
   });
 
+  it('fails on invalid child', () => {
+    const invalidChild = 'stringToFail';
+    const wrapper = shallow(
+      <SwitchButtons value={'b'}>
+        {invalidChild}
+        <ButtonLink value="b" />
+      </SwitchButtons>
+    );
+    expect(wrapper.find('SwitchButtons__StyledSwitchButtonsContainer').children().length).toBe(1);
+  });
+
   describe('events', () => {
     it('should invoke onChange with expected value', () => {
       const onChange = jest.fn();
