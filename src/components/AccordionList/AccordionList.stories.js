@@ -20,7 +20,7 @@ export default {
       }
     },
     children: {
-      description: 'The content of the AccordionList. You can use only <Accordion>',
+      description: 'The content of the AccordionList. You can only use `<Accordion>`',
       control: 'none',
       table: {
         category: 'content'
