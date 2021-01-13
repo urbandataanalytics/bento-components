@@ -22,14 +22,15 @@ exports[`Storyshots Pagination Playground 1`] = `
       <span
         style={
           Object {
-            "width": "NaN%",
+            "width": "21%",
           }
         }
       />
     </div>
     <button
       className="Button__StyledButton-sc-1tzlszx-0 cbHvsx"
-      disabled={true}
+      disabled={false}
+      onClick={[Function]}
       size="large"
     >
       <span

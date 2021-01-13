@@ -47,7 +47,8 @@ export default {
     currentCount: 32,
     totalCount: 150,
     moreLabel: 'Load More',
-    isLoading: false
+    isLoading: false,
+    onLoadMore: () => {}
   }
 };
 
@@ -60,7 +61,12 @@ export const Playground = ({ label, currentCount, totalCount, ...args }) => {
 
   return (
     <div style={decoratorStyles}>
-      <Pagination label={labelContent} {...args} />
+      <Pagination
+        currentCount={currentCount}
+        totalCount={totalCount}
+        {...args}
+        label={labelContent}
+      />
     </div>
   );
 };

@@ -88,7 +88,8 @@ export default {
       { value: 'es', label: 'Spanish' }
     ],
     disabled: false,
-    value: 'en'
+    value: 'en',
+    onChange: () => {}
   }
 };
 
