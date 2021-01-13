@@ -9,7 +9,7 @@ exports[`Storyshots MapLegend Loading 1`] = `
   }
 >
   <div
-    className="MapLegend__StyledContainer-sc-1s1tm5k-0 liZwHi"
+    className="MapLegend__StyledContainer-sc-1s1tm5k-0 gRzBmY"
   >
     <div
       className="MapLegendSkeleton__Style-bfdz79-1 eOAGEj"
@@ -213,7 +213,7 @@ exports[`Storyshots MapLegend With Actions 1`] = `
         className="MapLegend__StyledMinMaxText-sc-1s1tm5k-8 kfScoS"
       >
         <span>
-          Min
+          Minium
         </span>
         <span>
           Max
@@ -249,7 +249,7 @@ exports[`Storyshots MapLegend With Points 1`] = `
   }
 >
   <div
-    className="MapLegend__StyledContainer-sc-1s1tm5k-0 liZwHi"
+    className="MapLegend__StyledContainer-sc-1s1tm5k-0 gRzBmY"
   >
     <div
       className="MapLegend__StyledWrapper-sc-1s1tm5k-1 iHoiQN"
