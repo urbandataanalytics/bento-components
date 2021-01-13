@@ -5,13 +5,7 @@ import ListItem from '../List/ListItem';
 import { IconSettings, IconUpdate, IconUser } from '../../icons';
 import TextLink from '../TextLink';
 import { Dropdown } from '../../index';
-import { select, boolean } from '@storybook/addon-knobs';
 import * as Icons from '../../icons';
-
-export default {
-  title: 'NavigationBar',
-  component: NavigationBar
-};
 
 const HeaderLogo = (
   <svg
@@ -29,33 +23,74 @@ const HeaderLogo = (
   </svg>
 );
 
-export const Playground = () => {
-  const rightContent = (
-    <Dropdown label={<IconUser style={{ marginRight: '30px' }} />}>
-      <ListItem leftContent={<IconUser />}>Text</ListItem>
-      <ListItem leftContent={<IconUpdate />}>Text</ListItem>
-    </Dropdown>
-  );
+export default {
+  title: 'NavigationBar',
+  component: NavigationBar,
+  subcomponents: { TextLink, List, ListItem, Dropdown },
+  argTypes: {
+    children: {
+      description:
+        'Content of the NavigationBar. Elements aligned right corner before rightContent if informed',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    header: {
+      description: 'Content for the header of the NavigationBar. It will align left.',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    dropdownMenu: {
+      description:
+        'Elements to be included in the main menu on the left. Usually used with `<List>`',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    iconMenu: {
+      description: 'Icon to be used for the main menu of the left',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    sticked: {
+      description:
+        "Applies 'sticky' property to the navbar and stays on top of screen when scrolling",
+      table: {
+        category: 'format'
+      }
+    },
+    loading: {
+      description: ' Shows a loading skeleton',
+      table: {
+        category: 'format'
+      }
+    },
+    rightContent: {
+      description:
+        'Places node on the right corner of the Navbar. For example, it can be used with `<Dropdown>`',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    }
+  },
+  args: {
+    header: HeaderLogo
+  }
+};
 
-  const CustomIcon = Icons[select('Icon Menu', Object.keys(Icons), 'IconMove')];
-  const isSticky = boolean('Sticky', false);
-  const isLoading = boolean('Loading', false);
+export const Playground = ({ isSticky, iconMenu, ...args }) => {
+  const CustomIcon = Icons[iconMenu];
 
   return (
     <div style={{ height: isSticky ? '5000px' : 'auto' }}>
-      <NavigationBar
-        header={HeaderLogo}
-        dropdownMenu={
-          <List>
-            <ListItem leftContent={<IconUser />}>Text</ListItem>
-            <ListItem leftContent={<IconUpdate />}>Text</ListItem>
-          </List>
-        }
-        iconMenu={<CustomIcon size={'large'} />}
-        sticked={isSticky}
-        loading={isLoading}
-        rightContent={rightContent}
-      >
+      <NavigationBar {...args} iconMenu={<CustomIcon size={'large'} />}>
         <a className={'active'} href="https://pulse.urbandataanalytics.com/">
           Normal Link
         </a>
@@ -66,13 +101,31 @@ export const Playground = () => {
         <TextLink href="https://pulse.urbandataanalytics.com/" size={'large'} variant={'secondary'}>
           Product 2
         </TextLink>
-
         <IconSettings color={'secondary'} />
       </NavigationBar>
     </div>
   );
 };
 
-export const WithoutMenu = () => <NavigationBar header={HeaderLogo}></NavigationBar>;
+Playground.args = {
+  rightContent: (
+    <Dropdown label={<IconUser style={{ marginRight: '30px' }} />}>
+      <ListItem leftContent={<IconUser />}>Text</ListItem>
+      <ListItem leftContent={<IconUpdate />}>Text</ListItem>
+    </Dropdown>
+  ),
+  dropdownMenu: (
+    <List>
+      <ListItem leftContent={<IconUser />}>Text</ListItem>
+      <ListItem leftContent={<IconUpdate />}>Text</ListItem>
+    </List>
+  ),
+  iconMenu: 'IconMove'
+};
+export const WithoutMenu = args => <NavigationBar {...args}></NavigationBar>;
 
-export const Loading = () => <NavigationBar header={HeaderLogo} loading={true}></NavigationBar>;
+export const Loading = args => <NavigationBar {...args} />;
+
+Loading.args = {
+  loading: true
+};

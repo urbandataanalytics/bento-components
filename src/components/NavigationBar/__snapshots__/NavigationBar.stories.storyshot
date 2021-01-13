@@ -544,7 +544,6 @@ exports[`Storyshots NavigationBar Playground 1`] = `
       >
         <svg
           fill="none"
-          sticked={false}
           style={
             Object {
               "width": "100px",
@@ -583,7 +582,6 @@ exports[`Storyshots NavigationBar Playground 1`] = `
             <a
               className="active"
               href="https://pulse.urbandataanalytics.com/"
-              sticked={false}
             >
               Normal Link
             </a>
@@ -593,7 +591,6 @@ exports[`Storyshots NavigationBar Playground 1`] = `
           >
             <a
               href="https://pulse.urbandataanalytics.com/"
-              sticked={false}
             >
               Active Link
             </a>
@@ -630,7 +627,6 @@ exports[`Storyshots NavigationBar Playground 1`] = `
               data-name="IconSettings"
               preserveAspectRatio="xMidYMid meet"
               size="medium"
-              sticked={false}
               theme={
                 Object {
                   "animations": Object {
