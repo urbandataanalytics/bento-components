@@ -490,13 +490,12 @@ exports[`Storyshots SelectField Playground 1`] = `
       <select
         className="SelectField__Select-sc-1svgo9p-2 kRMpmK"
         disabled={false}
-        onChange={[Function]}
         value="en"
       >
         <option
           defaultValue={true}
         >
-          Select value
+          Select Value
         </option>
         <option
           value="en"
@@ -519,7 +518,7 @@ exports[`Storyshots SelectField Playground 1`] = `
     <small
       className="SelectField__HelpText-sc-1svgo9p-1 ijFTeB"
     >
-      Help text
+      Help Text
     </small>
   </div>
 </div>
