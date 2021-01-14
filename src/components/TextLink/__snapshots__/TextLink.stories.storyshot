@@ -12,10 +12,9 @@ exports[`Storyshots TextLink Playground 1`] = `
     className="TextLink__StyledTextLink-qefl1h-0 kxSbQp"
     disabled={false}
     href="#"
-    onClick={[Function]}
     size="medium"
   >
-    Example Text
+    Link Text
   </a>
 </div>
 `;
