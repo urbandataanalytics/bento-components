@@ -1,6 +1,4 @@
 import React from 'react';
-import { text, select } from '@storybook/addon-knobs';
-import { action } from '@storybook/addon-actions';
 import InputField from './index';
 
 export default {
