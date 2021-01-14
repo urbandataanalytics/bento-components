@@ -4,12 +4,12 @@ module.exports = {
     '@storybook/preset-create-react-app',
     '@storybook/addon-actions',
     '@storybook/addon-links',
-    '@storybook/addon-controls',
     {
       name: '@storybook/addon-docs',
       options: {
         configureJSX: true
       }
-    }
+    },
+    '@storybook/addon-controls'
   ]
 };
