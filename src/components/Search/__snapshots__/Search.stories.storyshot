@@ -490,12 +490,17 @@ exports[`Storyshots Search Playground 1`] = `
     <div
       className="Search__StyledWrapper-mfs9oj-1 hiQdNt"
     >
-      
-      
+      <h5
+        className="Search__StyledHeading-mfs9oj-3 kBPcEQ"
+      >
+        Search
+      </h5>
+      <i
+        className="Search__StyledSeparator-mfs9oj-2 HnbvA"
+      />
       <input
         className="Search__Input-mfs9oj-4 eBddUo"
         disabled={false}
-        onChange={[Function]}
         onKeyDown={[Function]}
         placeholder="Search any portfolio by name, seller or buyer"
         type="text"
