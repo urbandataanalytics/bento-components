@@ -176,7 +176,6 @@ Button.propTypes = {
   tabIndex: PropTypes.string,
   variant: PropTypes.oneOf(['primary', 'secondary'])
 };
-// Quitar opción "normal" de aquí? - No aplica ningun efecto
 
 StyledButton.defaultProps = {
   theme: DefaultTheme
