@@ -11,10 +11,6 @@ export default {
       control: { type: 'select', options: Object.keys(Icons) },
       table: { category: 'testing data' }
     },
-    size: {
-      description: 'Allows to choose between available sizes defined in default theme',
-      table: { category: 'format' }
-    },
     ariaHidden: {
       description: ' Includes `aria-hidden` attribute to icon',
       control: 'none',
@@ -59,7 +55,7 @@ export default {
       }
     },
     size: {
-      description: 'Allos to choose between available sizes defined in the default theme',
+      description: 'Allows to choose between available sizes defined in the default theme',
       table: {
         category: 'format'
       }

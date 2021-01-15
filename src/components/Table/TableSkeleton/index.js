@@ -23,7 +23,7 @@ const StyledSkeleton = styled.table`
         ${({ striped, theme }) =>
           striped ? `border-bottom: 1px solid ${theme.color.charcoal300}` : null};
         line-height: 0;
-        padding: ${({ variant, theme }) => (variant === 'medium' ? '26px' : '9px')}
+        padding: ${({ variant }) => (variant === 'medium' ? '26px' : '9px')}
           ${({ theme }) => theme.spacings.small3};
       }
     }
@@ -36,11 +36,11 @@ const StyledSplit = styled.div`
   grid-gap: 10px;
 `;
 
-const TableSkeleton = React.forwardRef(({ rows, columns, striped, variant }, ref) => (
+const TableSkeleton = React.forwardRef(({ rows, columns, striped, variant }) => (
   <StyledSkeleton striped={striped} variant={variant}>
     <thead>
       <tr>
-        {[...Array(columns)].map((e, i) => (
+        {[...Array(columns)].map((_, i) => (
           <th key={i}>
             <Skeleton variant="rounded" height="10px" />
           </th>
@@ -48,7 +48,7 @@ const TableSkeleton = React.forwardRef(({ rows, columns, striped, variant }, ref
       </tr>
     </thead>
     <tbody>
-      {[...Array(rows)].map((e, i) => (
+      {[...Array(rows)].map((_, i) => (
         <tr key={i}>
           {[...Array(columns)].map((e, k) => (
             <td key={k}>

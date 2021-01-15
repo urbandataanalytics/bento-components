@@ -9,7 +9,7 @@ exports[`Storyshots Search Playground 1`] = `
   }
 >
   <div
-    className="Search__StyledContainer-mfs9oj-0 tOCty"
+    className="Search__StyledContainer-mfs9oj-0 gtEVJV"
   >
     <svg
       className="Icon__StyledIcon-xqsk8h-0 kEczNP"
@@ -499,7 +499,7 @@ exports[`Storyshots Search Playground 1`] = `
         className="Search__StyledSeparator-mfs9oj-2 HnbvA"
       />
       <input
-        className="Search__Input-mfs9oj-4 eBddUo"
+        className="Search__Input-mfs9oj-4 fMlJCq"
         disabled={false}
         onKeyDown={[Function]}
         placeholder="Search any portfolio by name, seller or buyer"
