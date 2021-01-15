@@ -15,7 +15,7 @@ exports[`Storyshots Tabs Playground 1`] = `
       className="Tabs__StyledTabsContent-sc-1du08bp-3 gvkgBJ"
     >
       <div
-        className="Tab__StyledTabContainer-uhya80-2 dsxvNP"
+        className="Tab__StyledTabContainer-uhya80-2 bgozYf"
         onClick={[Function]}
       >
         <span
@@ -25,7 +25,7 @@ exports[`Storyshots Tabs Playground 1`] = `
         </span>
       </div>
       <div
-        className="Tab__StyledTabContainer-uhya80-2 bgozYf"
+        className="Tab__StyledTabContainer-uhya80-2 dsxvNP"
         onClick={[Function]}
       >
         <span
@@ -91,22 +91,18 @@ exports[`Storyshots Tabs With Badge 1`] = `
         <span
           className="Tab__StyledTabBadge-uhya80-1 Snlpy"
         >
-          9
+          8
         </span>
       </div>
       <div
-        className="Tab__StyledTabContainer-uhya80-2 bgozYf"
+        className="Tab__StyledTabContainer-uhya80-2 cwGgvg"
+        disabled={true}
         onClick={[Function]}
       >
         <span
           className="Tab__StyledTabLabel-uhya80-0 QGhYK"
         >
           Tab 3
-        </span>
-        <span
-          className="Tab__StyledTabBadge-uhya80-1 Snlpy"
-        >
-          9
         </span>
       </div>
     </div>
@@ -654,22 +650,18 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
         <span
           className="Tab__StyledTabBadge-uhya80-1 Snlpy"
         >
-          9
+          8
         </span>
       </div>
       <div
-        className="Tab__StyledTabContainer-uhya80-2 bgozYf"
+        className="Tab__StyledTabContainer-uhya80-2 cwGgvg"
+        disabled={true}
         onClick={[Function]}
       >
         <span
           className="Tab__StyledTabLabel-uhya80-0 QGhYK"
         >
           Tab 3
-        </span>
-        <span
-          className="Tab__StyledTabBadge-uhya80-1 Snlpy"
-        >
-          9
         </span>
       </div>
     </div>

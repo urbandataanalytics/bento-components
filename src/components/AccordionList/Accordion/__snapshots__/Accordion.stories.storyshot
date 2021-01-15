@@ -1,19 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots SelectField Playground 1`] = `
+exports[`Storyshots Accordion Playground 1`] = `
 <div
-  style={
-    Object {
-      "padding": "2rem",
-    }
-  }
+  className="AccordionList__StyledAccordionList-sc-1xrig2d-0 iktzqh"
 >
-  <div>
-    <label
-      className="SelectField__Label-sc-1svgo9p-3 kZqal"
+  <div
+    className="Accordion__StyledAccordionLabel-jp5rw6-0 ePhDwd"
+    onClick={[Function]}
+  >
+    <div
+      className="Accordion__StyledAccordionHeader-jp5rw6-3 fTqYfU"
+    >
+      <div
+        className="Accordion__StyledHeaderContent-jp5rw6-6 kLVjpx"
+      >
+        Header title
+      </div>
+      <div
+        className="Accordion__StyledSubHeaderContent-jp5rw6-7 eZvtVa"
+      >
+        Subheader text
+      </div>
+    </div>
+    <div
+      className="Accordion__StyledRightContent-jp5rw6-5 eriVpY"
     >
       <svg
-        className="Icon__StyledIcon-xqsk8h-0 kEczNP"
+        className="Icon__StyledIcon-xqsk8h-0 kEczNP Accordion__StyledArrowIcon-jp5rw6-8 jPqXHu"
         data-name="IconArrowClose"
         preserveAspectRatio="xMidYMid meet"
         size="medium"
@@ -487,40 +500,16 @@ exports[`Storyshots SelectField Playground 1`] = `
           d="M9.293 12.293a1 1 0 011.414 0L16 17.586l5.293-5.293a1 1 0 011.414 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414z"
         />
       </svg>
-      <select
-        className="SelectField__Select-sc-1svgo9p-2 kRMpmK"
-        disabled={false}
-        onChange={[Function]}
-        value="en"
-      >
-        <option
-          defaultValue={true}
-        >
-          Select Value
-        </option>
-        <option
-          value="en"
-        >
-          English
-        </option>
-        <option
-          value="es"
-        >
-          Spanish
-        </option>
-      </select>
-      <p
-        className="SelectField__LabelText-sc-1svgo9p-0 kdJPvF"
-        disabled={false}
-      >
-        Label Text
-      </p>
-    </label>
-    <small
-      className="SelectField__HelpText-sc-1svgo9p-1 ijFTeB"
+    </div>
+  </div>
+  <div
+    className="Accordion__StyledAccordionContent-jp5rw6-1 lQjkD"
+  >
+    <div
+      className="Accordion__StyledAccordionChildren-jp5rw6-2 dWNKmv"
     >
-      Help Text
-    </small>
+      First Child
+    </div>
   </div>
 </div>
 `;

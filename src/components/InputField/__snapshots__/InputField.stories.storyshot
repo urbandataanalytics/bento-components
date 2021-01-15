@@ -15,7 +15,6 @@ exports[`Storyshots InputField Disabled 1`] = `
       <input
         className="InputField__Input-sc-1kf04eo-2 cxnUBS"
         disabled={true}
-        onChange={[Function]}
         placeholder="Placeholder text"
         type="text"
         value="Value text"
@@ -51,7 +50,6 @@ exports[`Storyshots InputField Error 1`] = `
       <input
         className="InputField__Input-sc-1kf04eo-2 cxnUBS error"
         disabled={false}
-        onChange={[Function]}
         placeholder="Placeholder text"
         type="text"
         value="Value text"
@@ -87,7 +85,6 @@ exports[`Storyshots InputField Normal 1`] = `
       <input
         className="InputField__Input-sc-1kf04eo-2 cxnUBS"
         disabled={false}
-        onChange={[Function]}
         placeholder="Placeholder text"
         type="text"
         value="Value text"

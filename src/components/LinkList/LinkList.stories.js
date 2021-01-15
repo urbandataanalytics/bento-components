@@ -1,7 +1,6 @@
 import React from 'react';
 import LinkList from './index';
 import LinkListItem from '../List/LinkListItem';
-import { select } from '@storybook/addon-knobs';
 
 export default {
   title: 'LinkList',

@@ -43,13 +43,13 @@ exports[`Storyshots MapActions Playground 1`] = `
   }
 >
   <div
-    className="MapActions__StyledContainer-sc-1u74xmz-0 bGbcdb"
+    className="MapActions__StyledContainer-sc-1u74xmz-0 iTboHq"
   >
     <div
       className="MapActions__StyledWrapper-sc-1u74xmz-2 jtTQpA"
     >
       <button
-        className="MapActions__StyledButton-sc-1u74xmz-3 kTZJvR"
+        className="MapActions__StyledButton-sc-1u74xmz-3 iLdzus"
         onClick={[Function]}
       >
         <svg
@@ -531,9 +531,9 @@ exports[`Storyshots MapActions Playground 1`] = `
         </svg>
       </button>
       <div
-        className="MapActions__StyledContent-sc-1u74xmz-1 jFWAAy"
+        className="MapActions__StyledContent-sc-1u74xmz-1 gJhqWb"
       >
-        Test content
+        Sample Text Children
       </div>
     </div>
   </div>

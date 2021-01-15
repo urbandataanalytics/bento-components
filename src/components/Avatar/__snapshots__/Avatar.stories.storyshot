@@ -2,32 +2,42 @@
 
 exports[`Storyshots Avatar Playground 1`] = `
 <div
-  className="Avatar__StyledAvatar-sc-1ivfczv-0 foRswF"
-  size="medium"
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
 >
-  <img
-    alt="John Doe Photo"
-    className="Avatar__StyledImg-sc-1ivfczv-1 gmMTzE"
+  <div
+    className="Avatar__StyledAvatar-sc-1ivfczv-0 foRswF"
     size="medium"
-    src="https://atlantaseo.marketing/wp-content/uploads/avatar-2.png"
-  />
+  >
+    <img
+      alt="John Doe Photo"
+      className="Avatar__StyledImg-sc-1ivfczv-1 gmMTzE"
+      size="medium"
+      src="https://atlantaseo.marketing/wp-content/uploads/avatar-2.png"
+    />
+  </div>
 </div>
 `;
 
 exports[`Storyshots Avatar With Initials 1`] = `
-<div
-  className="Avatar__StyledAvatar-sc-1ivfczv-0 foRswF"
-  size="medium"
->
-  JD
+<div>
+  <div
+    className="Avatar__StyledAvatar-sc-1ivfczv-0 foRswF"
+    size="medium"
+  >
+    ST
+  </div>
 </div>
 `;
 
-exports[`Storyshots Avatar With No Custom Color 1`] = `
+exports[`Storyshots Avatar With No Custom Colors 1`] = `
 <div
   className="Avatar__StyledAvatar-sc-1ivfczv-0 liEgeh"
   size="medium"
 >
-  JD
+  ST
 </div>
 `;

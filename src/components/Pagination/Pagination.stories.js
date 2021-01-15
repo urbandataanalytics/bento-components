@@ -1,30 +1,71 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
-import { boolean, number, text } from '@storybook/addon-knobs';
 import Pagination from './index';
 
 export default {
   title: 'Pagination',
-  component: Pagination
+  component: Pagination,
+  argTypes: {
+    currentCount: {
+      description: 'Number of items currently viewed should be <= `totalCount`',
+      table: {
+        category: 'content'
+      }
+    },
+    isLoading: {
+      description: 'Shows loading icon on the button',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    label: {
+      description: ' Text over the progress bar',
+      table: {
+        category: 'content'
+      }
+    },
+    moreLabel: {
+      description: 'Text on the button',
+      table: {
+        category: 'content'
+      }
+    },
+    onLoadMore: {
+      description: 'Handles behaviour when button is clicked. Usually to load more items',
+      action: 'onLoadMore event',
+      table: {
+        category: 'events'
+      }
+    },
+    totalCount: {
+      description: 'Total number to be shown and over which to calculate the progress',
+      table: {
+        category: 'content'
+      }
+    }
+  },
+  args: {
+    currentCount: 32,
+    totalCount: 150,
+    moreLabel: 'Load More',
+    isLoading: false,
+    onLoadMore: () => {}
+  }
 };
 
 const decoratorStyles = {
   padding: '2rem'
 };
 
-export const Playground = () => {
-  const totalCountNum = number('Total Items', 150);
-  const currentCountNum = number('Current Items', 32);
+export const Playground = ({ label, currentCount, totalCount, ...args }) => {
+  const labelContent = label ? label : `You’ve viewed ${currentCount} of ${totalCount} assets`;
 
   return (
     <div style={decoratorStyles}>
       <Pagination
-        totalCount={totalCountNum}
-        currentCount={currentCountNum}
-        label={`You’ve viewed ${currentCountNum} of ${totalCountNum} assets`}
-        moreLabel={text('Button Label', 'Load More')}
-        isLoading={boolean('Is Loading', false)}
-        onLoadMore={action('load more')}
+        currentCount={currentCount}
+        totalCount={totalCount}
+        {...args}
+        label={labelContent}
       />
     </div>
   );

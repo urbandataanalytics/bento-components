@@ -1,8 +1,7 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import Accordion from './Accordion/index';
 import AccordionList from './index';
-import { Children } from 'react';
 
 describe(`Accordion List`, () => {
   it('should render two Accordion components with ', () => {

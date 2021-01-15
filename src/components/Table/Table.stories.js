@@ -1,18 +1,69 @@
 import React from 'react';
 import Table from './index';
 import IconGlobal from '../../icons/Global/index';
-import { boolean, select } from '@storybook/addon-knobs';
 
 export default {
   title: 'Table',
-  component: Table
+  component: Table,
+  argTypes: {
+    height: {
+      description: 'Height value for the table',
+      table: {
+        category: 'format'
+      }
+    },
+    rows: {
+      description:
+        'Expects the array with the data for the table, each element will be a row, and the row should contain the same props as the columns headers',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    columns: {
+      description: 'Expects an array of objects with the definition of the columns for the table',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    loading: {
+      description: 'Shows skeleton version of the table',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    variant: {
+      description: 'Changes the styling of the table',
+      table: {
+        category: 'format'
+      }
+    },
+    striped: {
+      description: 'Shows line of division between rows',
+      table: {
+        category: 'format'
+      }
+    },
+    domLayout: {
+      description: "set as 'autoHeight' in order to make the table's height adjust to fit the rows",
+      table: {
+        category: 'others'
+      }
+    }
+  },
+  args: {
+    loading: false,
+    variant: 'medium',
+    domLayout: 'autoHeight'
+  }
 };
 
 const decoratorStyles = {
   padding: '2rem'
 };
 
-export const Playground = () => {
+export const Playground = ({ columns, rows, ...args }) => {
   const columnDefs = [
     {
       headerName: (
@@ -50,14 +101,7 @@ export const Playground = () => {
   ];
   return (
     <div style={decoratorStyles}>
-      <Table
-        columns={columnDefs}
-        striped={boolean('Striped', true)}
-        rows={rowData}
-        loading={boolean('loading', false)}
-        variant={select('Variant', ['small', 'medium'], 'medium')}
-        domLayout="autoHeight"
-      />
+      <Table columns={columnDefs} rows={rowData} {...args} />
     </div>
   );
 };

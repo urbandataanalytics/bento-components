@@ -1,38 +1,65 @@
 import React from 'react';
-import { text, boolean } from '@storybook/addon-knobs';
 import MapActions from './index';
 
 export default {
   title: 'MapActions',
-  component: MapActions
+  component: MapActions,
+  argTypes: {
+    children: {
+      description: 'Defined actions for the component',
+      control: 'text',
+      table: {
+        category: 'content'
+      }
+    },
+    offsetRight: {
+      description: 'Sets a gap of defined size on the right of the component',
+      table: {
+        category: 'format'
+      }
+    },
+    offsetBottom: {
+      description: 'Sets a gap of defined size on the bottom of the component',
+      table: {
+        category: 'format'
+      }
+    },
+    isLoading: {
+      description: 'Shows a skeleton to show the loading status',
+      table: {
+        category: 'format'
+      }
+    }
+  },
+  args: {
+    children: 'Sample Text Children'
+  }
 };
 
-export const Playground = () => {
+export const Playground = ({ ...args }) => {
   const containerStyle = {
     padding: '2rem'
   };
 
   return (
     <div style={containerStyle}>
-      <MapActions
-        isLoading={boolean('Loading', false)}
-        offsetRight={text('Offset Right', '0px')}
-        offsetBottom={text('Offset Bottom', '0px')}
-      >
-        {text('Content', 'Test content')}
-      </MapActions>
+      <MapActions {...args}></MapActions>
     </div>
   );
 };
 
-export const Loading = () => {
+export const Loading = args => {
   const containerStyle = {
     padding: '2rem'
   };
 
   return (
     <div style={containerStyle}>
-      <MapActions isLoading={true}></MapActions>
+      <MapActions {...args}></MapActions>
     </div>
   );
+};
+
+Loading.args = {
+  isLoading: true
 };

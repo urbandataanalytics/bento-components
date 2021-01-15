@@ -20,7 +20,8 @@ Table below contains all types of the props available in the Dropdown component.
 
 | Name                | Type            | Default    | Description                                                                     |
 | :------------------ | :-------------- | :--------- | :------------------------------------------------------------------------------ |
-| align               | [`enum`](#enum) | `'left'`   | The alignment side on which side the Dropdown children container should appear. |  |
+| align               | [`enum`](#enum) | `'left'`   | The alignment side on which side the Dropdown children container should appear. |
+| children            | `React.node`    |            | Elements to be included within the Dropdown.                                    |
 | className           | `string`        |            | Specific class name to pass down to the Dropdown component.                     |
 | closeOnClickInside  | `boolean`       | `false`    | Close Dropdown when an option is selected.                                      |
 | closeOnClickOutside | `boolean`       | `true`     | Close Dropdown when a click outside is detected.                                |

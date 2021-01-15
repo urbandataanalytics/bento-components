@@ -1,6 +1,4 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import Table from '../Table/index';
 
 const columnDefs = [
   {

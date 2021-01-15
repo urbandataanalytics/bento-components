@@ -19,7 +19,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
         <input
           className="InputField__Input-sc-1kf04eo-2 cxnUBS"
           disabled={false}
-          onChange={[Function]}
           placeholder="Type your email address"
           type="email"
           value=""
@@ -43,7 +42,6 @@ exports[`Storyshots FormGroup Playground 1`] = `
         <input
           className="InputField__Input-sc-1kf04eo-2 cxnUBS"
           disabled={false}
-          onChange={[Function]}
           placeholder="Type your password"
           type="password"
           value=""

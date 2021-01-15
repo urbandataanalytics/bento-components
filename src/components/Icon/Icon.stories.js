@@ -1,46 +1,100 @@
 import React from 'react';
-import { select, color, text } from '@storybook/addon-knobs';
+import Icon from './index';
 import * as Icons from '../../icons';
 
 export default {
-  title: 'Icon'
+  title: 'Icon',
+  component: Icon,
+  argTypes: {
+    icon: {
+      name: 'Choose icon to display',
+      control: { type: 'select', options: Object.keys(Icons) },
+      table: { category: 'testing data' }
+    },
+    ariaHidden: {
+      description: ' Includes `aria-hidden` attribute to icon',
+      control: 'none',
+      table: {
+        category: 'others'
+      }
+    },
+    ariaLabel: {
+      description: ' Includes `aria-label` attribute to icon',
+      control: 'none',
+      table: {
+        category: 'others'
+      }
+    },
+    children: {
+      description: ' Children for the Icon. For adding `<p>` for example ',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    className: {
+      description: 'Adds class for this element',
+      control: 'none',
+      table: {
+        category: 'others'
+      }
+    },
+    color: {
+      description:
+        "Offers color variants from default theme. When `custom color` is not informed, `color` will be taken into account. Won't work if `custom-color` is defined.",
+      table: {
+        category: 'format'
+      }
+    },
+    customColor: {
+      description:
+        " Allows picking a custom color in CSS format (#hexadecimal or RGB). Takes priority in front of `color`. When defined, `color` won't work.",
+      control: 'color',
+      table: {
+        category: 'format'
+      }
+    },
+    size: {
+      description: 'Allows to choose between available sizes defined in the default theme',
+      table: {
+        category: 'format'
+      }
+    },
+    viewBox: {
+      description:
+        ' Sets custom defined "viewBox" attribute to apply to icon SVG if desired, in order to manage scaling and aspect ratio. Expected format: ("0 0 0 0")',
+      control: 'text',
+      table: {
+        category: 'format'
+      }
+    }
+  },
+  args: {
+    size: 'medium'
+  }
 };
 
-export const Normal = () => {
-  const getCommonProps = () => {
-    return {
-      size: select('Size', ['small', 'medium', 'large'], 'medium'),
-      color: select('Color', [null, 'primary', 'secondary']),
-      customColor: color('Custom Color')
-    };
-  };
-
-  const source = select('Icon', Object.keys(Icons), 'IconWarning');
-  const CustomIcon = Icons[source];
-
+export const Playground = ({ icon, ...args }) => {
+  const CustomIcon = Icons[icon];
   const containerStyle = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100vh'
+    height: '50vh'
   };
 
   return (
     <div style={containerStyle}>
-      <CustomIcon {...getCommonProps()} />
+      <CustomIcon {...args} />
     </div>
   );
 };
 
-export const AllIcons = () => {
-  const getCommonProps = () => {
-    return {
-      size: select('Size', ['small', 'medium', 'large'], 'large'),
-      color: select('Color', [null, 'primary', 'secondary']),
-      customColor: color('Custom Color')
-    };
-  };
+Playground.args = {
+  icon: 'IconWarning'
+};
 
+export const AllIcons = args => {
   const iconListStyle = {
     ul: {
       padding: '2rem',
@@ -69,7 +123,7 @@ export const AllIcons = () => {
     <ul style={iconListStyle.ul}>
       {Object.entries(Icons).map(([iconName, Icon]) => (
         <li key={iconName} style={iconListStyle.li}>
-          <Icon {...getCommonProps()} />
+          <Icon {...args} />
           <pre style={iconListStyle.li.pre}>&lt;{iconName}/&gt;</pre>
         </li>
       ))}
@@ -77,29 +131,26 @@ export const AllIcons = () => {
   );
 };
 
-export const ChangeViewBox = () => {
-  const getCommonProps = () => {
-    return {
-      size: select('Size', ['small', 'medium', 'large'], 'large'),
-      color: select('Color', [null, 'primary', 'secondary']),
-      customColor: color('Custom Color'),
-      viewBox: text('ViewBox Attribute', '3 3 25 25')
-    };
-  };
-
-  const source = select('Icon', Object.keys(Icons), 'IconWarning');
-  const CustomIcon = Icons[source];
+export const ChangeViewBox = ({ icon, ...args }) => {
+  const CustomIcon = Icons[icon];
 
   const containerStyle = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100vh'
+    height: '50vh'
   };
 
   return (
     <div style={containerStyle}>
-      <CustomIcon {...getCommonProps()} />
+      <CustomIcon {...args} />
     </div>
   );
+};
+
+ChangeViewBox.args = {
+  size: 'large',
+  color: 'secondary',
+  viewBox: '3 3 25 25',
+  icon: 'IconWarning'
 };

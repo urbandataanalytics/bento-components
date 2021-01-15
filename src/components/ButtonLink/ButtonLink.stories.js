@@ -1,61 +1,114 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
-import { boolean, select, text } from '@storybook/addon-knobs';
 import ButtonLink from './index';
 import * as Icons from '../../icons';
 
 export default {
   title: 'ButtonLink',
-  component: ButtonLink
+  component: ButtonLink,
+  argTypes: {
+    children: {
+      description: 'Content of button link',
+      control: 'text',
+      table: {
+        category: 'content'
+      }
+    },
+    className: {
+      description: 'custom className for the component',
+      control: 'none',
+      table: {
+        category: 'others'
+      }
+    },
+    disabled: {
+      description: 'Button will be disabled',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    iconLeft: {
+      description: 'The displayed icon on the left',
+      control: { type: 'select', options: Object.keys(Icons) },
+      table: {
+        category: 'content'
+      }
+    },
+    iconRight: {
+      description: 'The displayed icon on the right',
+      control: { type: 'select', options: Object.keys(Icons) },
+      table: {
+        category: 'content'
+      }
+    },
+    onClick: {
+      description: 'Functions to handle the onclick event',
+      action: 'click',
+      table: {
+        category: 'events'
+      }
+    },
+    size: {
+      description: 'Variant of size of the component',
+      table: {
+        category: 'format'
+      }
+    },
+    tabIndex: {
+      description: 'Specifies the tab order of an element',
+      table: {
+        category: 'others'
+      }
+    },
+    variant: {
+      description: 'Format variant of the component',
+      table: {
+        category: 'format'
+      }
+    }
+  },
+  args: {
+    size: 'medium',
+    variant: 'primary',
+    disabled: false,
+    children: 'ButtonLink'
+  }
 };
 
-const getCommonProps = () => {
-  return {
-    size: select('Sizes', ['small', 'medium', 'large'], 'medium'),
-    variant: select('Variants', ['primary', 'secondary'], 'primary'),
-    disabled: boolean('Disabled', false),
-    text: text('ButtonLink text', 'ButtonLink')
-  };
+const containerStyle = {
+  padding: '2rem'
 };
 
-export const Normal = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
+export const Playground = ({ iconLeft, iconRight, ...rest }) => {
+  const CustomIconLeft = Icons[iconLeft];
+  const CustomIconRight = Icons[iconRight];
+
   return (
     <div style={containerStyle}>
-      <ButtonLink {...getCommonProps()} onClick={action('clicked')}>
-        {getCommonProps().text}
-      </ButtonLink>
+      <ButtonLink
+        {...rest}
+        iconLeft={iconLeft ? <CustomIconLeft /> : ''}
+        iconRight={iconRight ? <CustomIconRight /> : ''}
+      ></ButtonLink>
     </div>
   );
 };
 
 export const WithIconLeft = () => {
-  const selectedIcon = select('Icons', Object.keys(Icons), 'IconWarning');
-  const CustomIcon = Icons[selectedIcon];
-  const containerStyle = {
-    padding: '2rem'
-  };
+  const CustomIconLeft = Icons['IconWarning'];
+
   return (
     <div style={containerStyle}>
-      <ButtonLink onClick={action('clicked')} iconLeft={<CustomIcon />} {...getCommonProps()}>
-        {getCommonProps().text}
-      </ButtonLink>
+      <ButtonLink iconLeft={<CustomIconLeft />}> Button Name</ButtonLink>
     </div>
   );
 };
+
 export const WithIconRight = () => {
-  const selectedIcon = select('Icons', Object.keys(Icons), 'IconWarning');
-  const CustomIcon = Icons[selectedIcon];
-  const containerStyle = {
-    padding: '2rem'
-  };
+  const CustomIconRight = Icons['IconWarning'];
+
   return (
     <div style={containerStyle}>
-      <ButtonLink onClick={action('clicked')} iconRight={<CustomIcon />} {...getCommonProps()}>
-        {getCommonProps().text}
-      </ButtonLink>
+      <ButtonLink iconRight={<CustomIconRight />}> Button Name</ButtonLink>
     </div>
   );
 };

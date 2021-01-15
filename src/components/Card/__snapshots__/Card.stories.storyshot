@@ -153,7 +153,6 @@ exports[`Storyshots Card Playground 1`] = `
 >
   <article
     className="Card__StyledCard-sc-1saz4sv-0 dYtRjf"
-    content="Lorem ipsum dolor sit amet"
   >
     <header
       className="CardHeader__StyledCardHeader-dpp5o1-0 hrzGbb"
@@ -187,7 +186,7 @@ exports[`Storyshots Card Playground 1`] = `
     <div
       className="CardContent__StyledCardContent-dh88vi-0 cQuoHH"
     >
-      Lorem ipsum dolor sit amet
+      Lorem Ipsum
     </div>
   </article>
 </div>

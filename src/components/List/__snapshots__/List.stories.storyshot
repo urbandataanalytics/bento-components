@@ -5,6 +5,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
   style={
     Object {
       "padding": "2rem",
+      "size": "medium",
     }
   }
 >
@@ -8439,6 +8440,7 @@ exports[`Storyshots List Playground 1`] = `
   style={
     Object {
       "padding": "2rem",
+      "size": "medium",
     }
   }
 >
@@ -8555,6 +8557,7 @@ exports[`Storyshots List With Check List 1`] = `
   style={
     Object {
       "padding": "2rem",
+      "size": "medium",
     }
   }
 >

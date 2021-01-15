@@ -1,5 +1,4 @@
 import React from 'react';
-import { number, boolean, select } from '@storybook/addon-knobs';
 import ListItem from '../List/ListItem/';
 import List from '../List/';
 import Button from '../Button/';
@@ -8,37 +7,85 @@ import IconFolder from '../../icons/Folder/index';
 
 export default {
   title: 'Dropdown',
-  component: Dropdown
+  component: Dropdown,
+  subcomponents: { List, ListItem },
+  argTypes: {
+    align: {
+      description:
+        'The alignment side on which side the Dropdown children container should appear.',
+      table: {
+        category: 'format'
+      }
+    },
+    children: {
+      description:
+        'Elements to be included within the Dropdown.                                   ',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    closeOnClickInside: {
+      description: 'Close Dropdown when an option is selected. ',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    closeOnClickOutside: {
+      description: 'Close Dropdown when a click outside is detected.   ',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    isOpen: {
+      description: 'Set Dropdown open status.',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    label: {
+      description: 'The label for the Dropdown.  ',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    onChange: {
+      description: 'Function for handling onChange event. ',
+      action: 'onChangeEvent',
+      table: {
+        category: 'events'
+      }
+    },
+    position: {
+      description: 'The position on which side the Dropdown children container should appear.',
+      table: {
+        category: 'format'
+      }
+    }
+  },
+  args: {
+    align: 'left',
+    closeOnClickInside: false,
+    closeOnClickOutside: true,
+    isOpen: false,
+    position: 'bottom',
+    label: <Button>Label example</Button>
+  }
 };
 
-const getCommonProps = () => {
-  return {
-    numberOfChildren: number('Number Of Children', 4)
-  };
+const containerStyle = {
+  padding: '2rem'
 };
 
-const getDropdownProps = () => {
-  return {
-    align: select('Align', ['left', 'right', 'center'], 'left'),
-    closeOnClickInside: boolean('Close on click inside', false),
-    closeOnClickOutside: boolean('Close on click outside', true),
-    isOpen: boolean('Is Open', false),
-    position: select('Position', ['top', 'bottom'], 'bottom')
-  };
-};
-
-export const Playground = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
-  const numberOfChild = getCommonProps().numberOfChildren;
+export const Playground = args => {
+  const numberOfChild = 4;
   const elements = Array.apply(null, Array(numberOfChild));
 
   return (
     <div style={containerStyle}>
-      <Dropdown {...getDropdownProps()} label={<Button>Label example</Button>}>
-        <List {...getCommonProps()}>
+      <Dropdown {...args}>
+        <List>
           {elements.map((e, i) => (
             <ListItem key={i}>{i + 1}</ListItem>
           ))}
@@ -48,14 +95,10 @@ export const Playground = () => {
   );
 };
 
-export const WithChildrens = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
+export const WithChildrens = args => {
   return (
     <div style={containerStyle}>
-      <Dropdown label={<Button>Label example</Button>}>
+      <Dropdown {...args}>
         <List>
           <ListItem leftContent={<IconFolder />}>Text</ListItem>
           <ListItem rightContent={<IconFolder />} disabled>
@@ -70,14 +113,10 @@ export const WithChildrens = () => {
   );
 };
 
-export const CloseOnClickInside = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
+export const CloseOnClickInside = args => {
   return (
     <div style={containerStyle}>
-      <Dropdown label={<Button>Label example</Button>} closeOnClickInside={true}>
+      <Dropdown {...args}>
         <List>
           <ListItem leftContent={<IconFolder />}>Text</ListItem>
           <ListItem rightContent={<IconFolder />} disabled>
@@ -92,18 +131,20 @@ export const CloseOnClickInside = () => {
   );
 };
 
-export const TopPosition = () => {
-  const containerStyle = {
+CloseOnClickInside.args = {
+  closeOnClickInside: true
+};
+export const TopPosition = args => {
+  const containerTopStyle = {
     padding: '15rem 2rem'
   };
 
-  const numberOfChild = getCommonProps().numberOfChildren;
-  const elements = Array.apply(null, Array(numberOfChild));
+  const elements = Array.apply(null, Array(4));
 
   return (
-    <div style={containerStyle}>
-      <Dropdown position="top" align="center" label={<Button>Label example</Button>}>
-        <List {...getCommonProps()}>
+    <div style={containerTopStyle}>
+      <Dropdown {...args}>
+        <List>
           {elements.map((e, i) => (
             <ListItem key={i}>{i + 1}</ListItem>
           ))}
@@ -113,18 +154,17 @@ export const TopPosition = () => {
   );
 };
 
-export const BottomPosition = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
+TopPosition.args = {
+  position: 'top'
+};
 
-  const numberOfChild = getCommonProps().numberOfChildren;
-  const elements = Array.apply(null, Array(numberOfChild));
+export const BottomPosition = args => {
+  const elements = Array.apply(null, Array(4));
 
   return (
     <div style={containerStyle}>
-      <Dropdown position="bottom" align="center" label={<Button>Label example</Button>}>
-        <List {...getCommonProps()}>
+      <Dropdown {...args}>
+        <List>
           {elements.map((e, i) => (
             <ListItem key={i}>{i + 1}</ListItem>
           ))}
@@ -134,18 +174,18 @@ export const BottomPosition = () => {
   );
 };
 
-export const RightAlignment = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
+BottomPosition.args = {
+  position: 'bottom',
+  align: 'center'
+};
 
-  const numberOfChild = getCommonProps().numberOfChildren;
-  const elements = Array.apply(null, Array(numberOfChild));
+export const RightAlignment = args => {
+  const elements = Array.apply(null, Array(4));
 
   return (
     <div style={containerStyle}>
-      <Dropdown align="right" label={<Button>Label example</Button>}>
-        <List {...getCommonProps()}>
+      <Dropdown {...args}>
+        <List>
           {elements.map((e, i) => (
             <ListItem key={i}>{i + 1}</ListItem>
           ))}
@@ -154,19 +194,17 @@ export const RightAlignment = () => {
     </div>
   );
 };
+RightAlignment.args = {
+  align: 'right'
+};
 
-export const CenterAlignment = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
-  const numberOfChild = getCommonProps().numberOfChildren;
-  const elements = Array.apply(null, Array(numberOfChild));
+export const CenterAlignment = args => {
+  const elements = Array.apply(null, Array(4));
 
   return (
     <div style={containerStyle}>
-      <Dropdown align="center" label={<Button>Label example</Button>}>
-        <List {...getCommonProps()}>
+      <Dropdown {...args}>
+        <List>
           {elements.map((e, i) => (
             <ListItem key={i}>{i + 1}</ListItem>
           ))}
@@ -175,19 +213,17 @@ export const CenterAlignment = () => {
     </div>
   );
 };
+CenterAlignment.args = {
+  align: 'center'
+};
 
-export const LeftAlignment = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
-  const numberOfChild = getCommonProps().numberOfChildren;
-  const elements = Array.apply(null, Array(numberOfChild));
+export const LeftAlignment = args => {
+  const elements = Array.apply(null, Array(4));
 
   return (
     <div style={containerStyle}>
-      <Dropdown align="left" label={<Button>Label example</Button>}>
-        <List {...getCommonProps()}>
+      <Dropdown {...args}>
+        <List>
           {elements.map((e, i) => (
             <ListItem key={i}>{i + 1}</ListItem>
           ))}
@@ -195,4 +231,7 @@ export const LeftAlignment = () => {
       </Dropdown>
     </div>
   );
+};
+LeftAlignment.args = {
+  align: 'left'
 };

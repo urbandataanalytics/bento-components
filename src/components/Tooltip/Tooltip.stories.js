@@ -1,11 +1,60 @@
 import React from 'react';
 import Tooltip from './index';
 import Button from '../Button/index.js';
-import { select, text, number } from '@storybook/addon-knobs';
 
 export default {
   title: 'Tooltip',
-  component: Tooltip
+  component: Tooltip,
+  argTypes: {
+    children: {
+      description: 'Elements within the tooltip. The elements that trigger the tooltip on hover.',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    enterDelay: {
+      description: 'Sets a time delay for the tooltip to open. In milisecs.',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    enterNextDelay: {
+      description:
+        'Sets a time delay to open another tooltip when another is already open. In milisecs.',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    leaveDelay: {
+      description: 'Sets a time delay for closing the tooltip when leaving the hover. In milisecs.',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    position: {
+      description:
+        'Determines the position of the tooltip relative to the element that triggers it',
+      table: {
+        category: 'format'
+      }
+    },
+    title: {
+      description: 'Displays a paragraph on the top as a title for the tooltip',
+      table: { category: 'content' }
+    },
+    value: {
+      description: 'Displays a paragraph below the `title` with text for the tooltip',
+      table: {
+        category: 'content'
+      }
+    }
+  },
+  args: {
+    title: 'Title for tooltip',
+    enterDelay: 100,
+    leaveDelay: 0
+  }
 };
 
 const containerStyle = {
@@ -18,17 +67,11 @@ const containerStyle = {
 
 const buttonStyle = { marginBottom: '2rem' };
 
-export const Playground = () => {
+export const Playground = args => {
   return (
     <div style={containerStyle}>
       <div style={buttonStyle}>
-        <Tooltip
-          title={text('Title', 'Title for tooltip')}
-          enterDelay={number('Enter Delay', 100)}
-          leaveDelay={number('Leave Delay', 0)}
-          value={text('Value', 'Text for tooltip')}
-          position={select('Position', ['top', 'right', 'bottom', 'left'], 'top')}
-        >
+        <Tooltip {...args}>
           <Button variant="primary" size="medium">
             Mouse on
           </Button>

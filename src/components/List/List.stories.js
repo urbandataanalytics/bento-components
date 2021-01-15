@@ -1,5 +1,4 @@
 import React from 'react';
-import { boolean, number, select, text } from '@storybook/addon-knobs';
 import List from './index';
 import ListItem from './ListItem/';
 import CheckListItem from './CheckListItem/';
@@ -11,34 +10,56 @@ import NavListItem from './NavListItem';
 
 export default {
   title: 'List',
-  component: List
+  component: List,
+  subcomponents: { ListItem, LinkListItem, NavListItem },
+  argTypes: {
+    children: {
+      description:
+        'Any of the children options (LinkListItem, CheckListItem, ListItem, NavListItem), also admits any other children such as `<p>` or `<a>`',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    className: {
+      description: 'Adds the class name to the element',
+      control: 'none',
+      table: {
+        category: 'others'
+      }
+    },
+    size: {
+      description: 'Size of the children, option',
+      table: {
+        category: 'format'
+      }
+    },
+    numberOfChildren: {
+      name: 'Number of Children to show',
+      control: 'number',
+      table: {
+        category: 'Testing Data'
+      }
+    }
+  },
+  args: {
+    numberOfChildren: 4
+  }
 };
 
-const getCommonProps = () => {
-  return {
-    numberOfChildren: number('Number Of Children', 4)
-  };
+const containerStyle = {
+  padding: '2rem',
+  size: 'medium'
 };
 
-export const Playground = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
-  const numberOfChild = getCommonProps().numberOfChildren;
-  const elements = Array.apply(null, Array(numberOfChild));
+export const Playground = ({ numberOfChildren, ...args }) => {
+  const elements = Array.apply(null, Array(numberOfChildren));
 
   return (
     <div style={containerStyle}>
-      <List {...getCommonProps()}>
+      <List>
         {elements.map((e, i) => (
-          <ListItem
-            leftContent={text('Left Content', '-')}
-            rightContent={text('Right Content', 'View')}
-            active={boolean('All Items Active', false)}
-            disabled={boolean('Disable Items', false)}
-            key={i}
-          >
+          <ListItem leftContent="-" rightContent="View" active={false} disabled={false} key={i}>
             Regular ListItem {i}
           </ListItem>
         ))}
@@ -47,14 +68,10 @@ export const Playground = () => {
   );
 };
 
-export const FormattedListItems = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
+export const FormattedListItems = args => {
   return (
     <div style={containerStyle}>
-      <List size={select('Sizes', ['medium', 'large'], 'medium')}>
+      <List {...args}>
         <ListItem leftContent={<IconFolder />}>Item with 'leftContent' icon</ListItem>
         <ListItem focusLeftContent leftContent={<IconFolder />}>
           Item with 'focusLeftContent' and 'leftContent'
@@ -89,14 +106,10 @@ export const FormattedListItems = () => {
   );
 };
 
-export const WithCheckList = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
+export const WithCheckList = args => {
   return (
     <div style={containerStyle}>
-      <List size={select('Sizes', ['medium', 'large'], 'medium')}>
+      <List {...args}>
         <CheckListItem active>Active</CheckListItem>
         <CheckListItem>Not active</CheckListItem>
         <CheckListItem active leftContent={<IconUser size={'small'} />}>
@@ -110,14 +123,14 @@ export const WithCheckList = () => {
   );
 };
 
-export const LinkList = () => {
+export const LinkList = args => {
   const containerStyle = {
     padding: '2rem'
   };
 
   return (
     <div style={containerStyle}>
-      <List size={select('Sizes', ['medium', 'large'], 'medium')}>
+      <List {...args}>
         <LinkListItem href={'https://google.com'}>Link 1</LinkListItem>
         <LinkListItem active={true}>Link 2 - active Default rightContent</LinkListItem>
         <LinkListItem active={true} rightContent={<IconUser size={'small'} />}>

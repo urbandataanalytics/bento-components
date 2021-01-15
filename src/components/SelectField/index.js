@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 import IconArrowClose from '../../icons/ArrowClose/index';
+
 const LabelText = styled.p`
   font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
   color: ${({ theme }) => theme.components.inputFieldLabelColor};

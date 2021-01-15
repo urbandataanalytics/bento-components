@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import ListItem from './';
 import TextLink from '../../TextLink';
 
@@ -40,7 +40,6 @@ describe(`ListItem`, () => {
           Message
         </ListItem>
       );
-
       wrapper.find('ListItem__StyledListItem').simulate('click');
 
       expect(onClick).toHaveBeenCalled();

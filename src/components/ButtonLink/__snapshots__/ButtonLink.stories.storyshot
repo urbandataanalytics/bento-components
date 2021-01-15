@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots ButtonLink Normal 1`] = `
+exports[`Storyshots ButtonLink Playground 1`] = `
 <div
   style={
     Object {
@@ -11,10 +11,11 @@ exports[`Storyshots ButtonLink Normal 1`] = `
   <button
     className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"
     disabled={false}
-    onClick={[Function]}
     size="medium"
   >
+    
     ButtonLink
+    
   </button>
 </div>
 `;
@@ -30,7 +31,6 @@ exports[`Storyshots ButtonLink With Icon Left 1`] = `
   <button
     className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"
     disabled={false}
-    onClick={[Function]}
     size="medium"
   >
     <span
@@ -515,7 +515,7 @@ exports[`Storyshots ButtonLink With Icon Left 1`] = `
         />
       </svg>
     </span>
-    ButtonLink
+     Button Name
   </button>
 </div>
 `;
@@ -531,10 +531,9 @@ exports[`Storyshots ButtonLink With Icon Right 1`] = `
   <button
     className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"
     disabled={false}
-    onClick={[Function]}
     size="medium"
   >
-    ButtonLink
+     Button Name
     <span
       className="ButtonLink__IconWrapper-cg5tmh-1 goUIPd"
       direction="right"
