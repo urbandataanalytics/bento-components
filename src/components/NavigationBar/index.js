@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React, { Children, useState } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import defaultTheme from '../../themes/defaultTheme';
 import IconMove from '../../icons/Move';
 import Dropdown from '../Dropdown';
 import NavigationBarSkeleton from './NavigationBarSkeleton';
-import { Children } from 'react';
 
 const StyledNavigation = styled.nav`
   display: flex;

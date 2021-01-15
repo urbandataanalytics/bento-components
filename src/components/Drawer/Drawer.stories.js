@@ -1,6 +1,5 @@
 import Drawer from './index';
-import React, { useState } from 'react';
-import Button from '../Button';
+import React from 'react';
 import ListItem from '../List/ListItem';
 import IconFolder from '../../icons/Folder';
 import List from '../List';

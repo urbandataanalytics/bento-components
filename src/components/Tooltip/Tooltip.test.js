@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Tooltip from './index';
 import Button from '../Button';
-import { act } from 'react-dom/test-utils';
 
 describe('Tooltip testing', () => {
   it('should render label with styles when opening', () => {

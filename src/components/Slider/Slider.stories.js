@@ -1,6 +1,5 @@
 import React from 'react';
 import Slider from './index';
-import Button from '../Button';
 
 export default {
   title: 'Slider',
@@ -132,7 +131,6 @@ export const Range = ({ ...args }) => {
 Range.args = {
   min: 0,
   max: 200,
-  step: 5,
   suffix: '€/m2',
   prefix: '',
   variant: 'range',

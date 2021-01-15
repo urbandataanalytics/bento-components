@@ -7,7 +7,7 @@ export interface ListItemProps {
   focusContent?: boolean;
   focusLeftContent?: boolean;
   focusRightContent?: boolean;
-  focused: boolean;
+  focused?: boolean;
   leftContent?: React.ReactNode;
   onClick?: () => void;
   rightContent?: React.ReactNode;

@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes, { string } from 'prop-types';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
 import IconSearch from '../../icons/Search/index';
@@ -12,7 +12,7 @@ const StyledContainer = styled.div`
   grid-template-columns: 24px 1fr auto;
   align-items: center;
   padding: 16px 24px;
-  box-shadow: 0px 8px 16px rgba(54, 60, 75, 0.1);
+  box-shadow: 0 8px 16px rgba(54, 60, 75, 0.1);
 `;
 
 const StyledWrapper = styled.div`
@@ -35,7 +35,7 @@ const StyledHeading = styled.h5`
 const Input = styled.input`
   outline: 0;
   transition: ${({ theme }) => theme.global.transitionM};
-  border: 0px solid transparent;
+  border: 0 solid transparent;
   ${({ theme }) => theme.texts.p1b};
   color: ${({ theme }) => theme.color.charcoal600};
   white-space: nowrap;

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useEmblaCarousel } from 'embla-carousel/react';
 import styled from 'styled-components';
 import CarouselSlide from './Slide';
-import { IconChevronRight, IconChevronLeft } from '../../icons';
+import { IconChevronLeft, IconChevronRight } from '../../icons';
 import useTheme from '../../hooks/useTheme/index';
 import defaultTheme from '../../themes/defaultTheme';
 import { Thumb } from './Thumbnails';

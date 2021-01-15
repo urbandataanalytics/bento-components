@@ -2,10 +2,10 @@ import React from 'react';
 import NavigationBar from './index';
 import List from '../List';
 import ListItem from '../List/ListItem';
+import * as Icons from '../../icons';
 import { IconSettings, IconUpdate, IconUser } from '../../icons';
 import TextLink from '../TextLink';
 import { Dropdown } from '../../index';
-import * as Icons from '../../icons';
 
 const HeaderLogo = (
   <svg

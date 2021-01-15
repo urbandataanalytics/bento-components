@@ -1,7 +1,7 @@
 import * as React from 'react';
+import { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { forwardRef } from 'react';
 import MapLegendSkeleton from './MapLegendSkeleton';
 
 const StyledContainer = styled.div`

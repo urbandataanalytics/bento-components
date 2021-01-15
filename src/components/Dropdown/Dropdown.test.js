@@ -1,6 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
-import { act } from 'react-dom/test-utils';
+import { mount, shallow } from 'enzyme';
 import Dropdown from '.';
 
 describe(`Dropdown`, () => {

@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import RcSlider from 'rc-slider';
-import { Range } from 'rc-slider';
+import RcSlider, { Range } from 'rc-slider';
 import SliderSkeleton from './SliderSkeleton';
 import defaultTheme from '../../themes/defaultTheme';
 import InputFormatter from './InputFormatter';

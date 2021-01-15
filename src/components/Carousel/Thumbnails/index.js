@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import defaultTheme from '../../../themes/defaultTheme';
 import Skeleton from '../../Skeleton/index';

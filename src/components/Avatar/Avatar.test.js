@@ -1,7 +1,8 @@
 import React from 'react';
-import { shallow, mount, render } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import Avatar from './index';
 import useLoadedImage from '../../hooks/useLoadedImage';
+
 jest.mock('../../hooks/useLoadedImage');
 
 describe('Avatar', () => {

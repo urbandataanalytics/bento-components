@@ -1,8 +1,8 @@
 import * as React from 'react';
+import { forwardRef } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import defaultTheme from '../../themes/defaultTheme';
-import { forwardRef } from 'react';
 
 const componentSizes = theme => ({
   small: {
