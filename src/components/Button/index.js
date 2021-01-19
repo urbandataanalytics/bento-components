@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import DefaultTheme from '../../themes/defaultTheme';
+import defaultTheme from '../../themes/defaultTheme';
 import Loader from './Loader/';
 
 const componentSizes = theme => ({
@@ -178,11 +178,11 @@ Button.propTypes = {
 };
 
 StyledButton.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 IconWrapper.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 Button.defaultProps = {

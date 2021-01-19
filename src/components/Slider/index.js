@@ -26,6 +26,10 @@ const PrefixSuffix = styled.span`
   padding: ${({ theme }) => theme.spacings.small1} 0;
 `;
 
+PrefixSuffix.defaultProps = {
+  theme: defaultTheme
+};
+
 const StyledContent = styled.div`
   .rc-slider {
     width: calc(100% - 5px);
@@ -46,6 +50,10 @@ const StyledContent = styled.div`
     border-color: ${({ theme }) => theme.components.sliderHandleDisabledColor} !important;
   }
 `;
+
+StyledContent.defaultProps = {
+  theme: defaultTheme
+};
 
 const getDefaultValue = ({ value, min, max, variant }) => {
   let result = null;
@@ -70,7 +78,7 @@ const getDefaultValue = ({ value, min, max, variant }) => {
 const Slider = React.forwardRef((props, ref) => {
   const {
     disabled,
-    format = value => Number(value),
+    format = inputValue => Number(inputValue),
     isLoading,
     max,
     maxPrefix,

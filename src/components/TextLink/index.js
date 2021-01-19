@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import DefaultTheme from '../../themes/defaultTheme';
+import defaultTheme from '../../themes/defaultTheme';
 
 const componentSizes = theme => ({
   medium: {
@@ -52,7 +52,7 @@ const StyledTextLink = styled.a`
 `;
 
 StyledTextLink.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 const TextLink = React.forwardRef((props, ref) => {

@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import DefaultTheme from '../../themes/defaultTheme';
+import defaultTheme from '../../themes/defaultTheme';
 import useDimensions from '../../hooks/useDimensions';
 import Portal from '../Portal/index';
 import hexToRgba from '../../utils/hexToRgba';
@@ -41,7 +41,7 @@ const StyledTooltip = styled.div`
   position: relative;
 `;
 StyledTooltip.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 const StyledTooltipLabel = styled.div`
@@ -73,7 +73,7 @@ const StyledTooltipLabel = styled.div`
   }
 `;
 StyledTooltipLabel.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 const calculatePosition = (position, dimensions) => {
