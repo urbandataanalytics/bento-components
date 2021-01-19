@@ -270,7 +270,6 @@ Slider.defaultProps = {
   max: 5000,
   min: 0,
   step: 1,
-  theme: defaultTheme,
   variant: 'slider'
 };
 
