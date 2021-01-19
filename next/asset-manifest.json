@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "./main.a09cdb1cd15eb7baf58d.bundle.js",
-    "main.js.map": "./main.a09cdb1cd15eb7baf58d.bundle.js.map",
-    "runtime~main.js": "./runtime~main.a09cdb1cd15eb7baf58d.bundle.js",
-    "runtime~main.js.map": "./runtime~main.a09cdb1cd15eb7baf58d.bundle.js.map",
+    "main.js": "./main.f6ad962d5d1e009e126b.bundle.js",
+    "main.js.map": "./main.f6ad962d5d1e009e126b.bundle.js.map",
+    "runtime~main.js": "./runtime~main.f6ad962d5d1e009e126b.bundle.js",
+    "runtime~main.js.map": "./runtime~main.f6ad962d5d1e009e126b.bundle.js.map",
     "vendors~main.css": "./static/css/vendors~main.ed590494.chunk.css",
-    "vendors~main.js": "./vendors~main.a09cdb1cd15eb7baf58d.bundle.js",
+    "vendors~main.js": "./vendors~main.f6ad962d5d1e009e126b.bundle.js",
     "vendors~main.css.map": "./static/css/vendors~main.ed590494.chunk.css.map",
-    "vendors~main.js.map": "./vendors~main.a09cdb1cd15eb7baf58d.bundle.js.map",
+    "vendors~main.js.map": "./vendors~main.f6ad962d5d1e009e126b.bundle.js.map",
     "iframe.html": "./iframe.html",
-    "precache-manifest.675da5c245bc6a578bc25965b9596353.js": "./precache-manifest.675da5c245bc6a578bc25965b9596353.js",
+    "precache-manifest.9e2984c0a042b0b99173a5e337d5c10d.js": "./precache-manifest.9e2984c0a042b0b99173a5e337d5c10d.js",
     "service-worker.js": "./service-worker.js",
     "static/media/logo-uda.svg": "./static/media/logo-uda.6ef0868e.svg",
-    "vendors~main.a09cdb1cd15eb7baf58d.bundle.js.LICENSE.txt": "./vendors~main.a09cdb1cd15eb7baf58d.bundle.js.LICENSE.txt"
+    "vendors~main.f6ad962d5d1e009e126b.bundle.js.LICENSE.txt": "./vendors~main.f6ad962d5d1e009e126b.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.a09cdb1cd15eb7baf58d.bundle.js",
+    "runtime~main.f6ad962d5d1e009e126b.bundle.js",
     "static/css/vendors~main.ed590494.chunk.css",
-    "vendors~main.a09cdb1cd15eb7baf58d.bundle.js",
-    "main.a09cdb1cd15eb7baf58d.bundle.js"
+    "vendors~main.f6ad962d5d1e009e126b.bundle.js",
+    "main.f6ad962d5d1e009e126b.bundle.js"
   ]
 }
