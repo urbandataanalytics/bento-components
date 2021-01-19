@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState} from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
+import { IconEye, IconEyeOff } from '../../icons';
 
 const LabelText = styled.p`
   font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
@@ -28,6 +29,19 @@ const HelpText = styled.small`
 HelpText.defaultProps = {
   theme: defaultTheme
 };
+
+const PasswordContainer = styled.div`
+outline: 0;
+font-size: ${({ theme }) => theme.components.inputFieldFontSize};
+line-height: ${({ theme }) => theme.components.inputFieldLineHeight};
+text-indent: ${({ theme }) => theme.components.inputFieldTextIndent};
+border-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
+border-width: 1px;
+border-style: solid;
+transition: ${({ theme }) => theme.global.transitionM};
+background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
+border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
+` 
 
 const Input = styled.input`
   outline: 0;
@@ -108,10 +122,33 @@ const InputField = React.forwardRef((props, ref) => {
     ...other
   } = props;
 
+  const [isPasswordVisible, setPasswordVisibility] = useState(false)
+  const togglePasswordVisiblity = () => {
+    setPasswordVisibility(isPasswordVisible ? false : true);
+  };
   return (
     <div className={className}>
+    
       <Label>
+      {type == "password" ? 
+      <PasswordContainer>
         <Input
+            className={error ? `error` : null}
+            type= {isPasswordVisible ? "text" : "password"}
+            disabled={disabled}
+            value={value}
+            name={name}
+            onChange={onChange}
+            placeholder={placeholder}
+            tabIndex={tabIndex}
+            ref={ref}
+            {...other}
+          />
+          {isPasswordVisible ? <IconEyeOff onClick={togglePasswordVisiblity}></IconEyeOff> : <IconEye onClick={togglePasswordVisiblity}></IconEye>}
+      </PasswordContainer>
+       
+      
+      : <Input
           className={error ? `error` : null}
           type={type}
           disabled={disabled}
@@ -122,7 +159,8 @@ const InputField = React.forwardRef((props, ref) => {
           tabIndex={tabIndex}
           ref={ref}
           {...other}
-        />
+        />}
+        
         {label && <LabelText disabled={disabled}>{label}</LabelText>}
       </Label>
       {help && <HelpText className={error ? 'error' : null}>{help}</HelpText>}
