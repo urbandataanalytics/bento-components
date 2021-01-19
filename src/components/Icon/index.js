@@ -70,14 +70,14 @@ const Icon = props => {
 
   return (
     <StyledIcon
-      viewBox={viewBox}
-      size={size}
-      className={className}
-      name={name}
-      customColor={customColor}
-      color={color}
       ariaHidden={ariaHidden}
       ariaLabel={ariaLabel}
+      className={className}
+      color={color}
+      customColor={customColor}
+      name={name}
+      size={size}
+      viewBox={viewBox}
       {...other}
     >
       {children}
@@ -86,11 +86,14 @@ const Icon = props => {
 };
 
 Icon.propTypes = {
-  color: PropTypes.oneOf(['primary', 'secondary', 'info', 'success', 'warning']),
-  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  ariaHidden: PropTypes.bool,
+  ariaLabel: PropTypes.string,
+  children: PropTypes.node,
+  className: PropTypes.string,
+  color: PropTypes.oneOf(['primary', 'secondary']),
   customColor: PropTypes.string,
-  viewBox: PropTypes.string,
-  children: PropTypes.node
+  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  viewBox: PropTypes.string
 };
 
 Icon.defaultProps = {

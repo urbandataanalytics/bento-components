@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { shallow, mount } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import ButtonLink from './index';
 import IconCheck from '../../icons/Check';
 

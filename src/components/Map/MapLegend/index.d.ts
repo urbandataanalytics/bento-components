@@ -1,17 +1,17 @@
 export interface Props {
-  title? : string | React.ReactNode;
-  description? : string | React.ReactNode;
-  rangeColors: Array<string>;
-  rangeTextMin: string;
-  rangeTextMax: string;
-  offsetLeft?: string;
-  offsetBottom?: string;
-  isLoading?: boolean;
-  activeAction? : string;
   actions?: Array<Action>;
+  activeAction?: string;
+  description?: string | React.ReactNode;
+  isLoading?: boolean;
+  offsetBottom?: string;
+  offsetLeft?: string;
   onChangeAction?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
-  variant?: 'range' | 'points';
   points?: Array<Point>;
+  rangeColors?: Array<string>;
+  rangeTextMax?: string;
+  rangeTextMin?: string;
+  title?: string | React.ReactNode;
+  variant?: 'range' | 'points';
 }
 
 interface Action {

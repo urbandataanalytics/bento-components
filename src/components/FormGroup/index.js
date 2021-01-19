@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
+import PropTypes from 'prop-types';
 
 const StyledFormGroup = styled.div`
   margin-bottom: ${({ theme }) => theme.components.formGroupMarginBottom};
@@ -19,6 +20,11 @@ const FormGroup = React.forwardRef((props, ref) => {
     </StyledFormGroup>
   );
 });
+
+FormGroup.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string
+};
 
 FormGroup.displayName = 'FormGroup';
 

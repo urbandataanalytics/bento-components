@@ -1,7 +1,10 @@
 export interface SwitchButtonsProps {
   children?: React.ReactNode;
-  value: string | number;
-  onChange?: (ev: SyntheticInputEvent<HTMLInputElement>, value: string | number) => void | Promise<any>;
+  onChange?: (
+    ev: SyntheticInputEvent<HTMLInputElement>,
+    value: string | number
+  ) => void | Promise<any>;
+  value?: string | number;
 }
 
 declare const SwitchButtons: React.FunctionComponent<SwitchButtonsProps>;

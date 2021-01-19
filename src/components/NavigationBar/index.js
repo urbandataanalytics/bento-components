@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React, { Children, useState } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import defaultTheme from '../../themes/defaultTheme';
 import IconMove from '../../icons/Move';
 import Dropdown from '../Dropdown';
 import NavigationBarSkeleton from './NavigationBarSkeleton';
-import { Children } from 'react';
 
 const StyledNavigation = styled.nav`
   display: flex;
@@ -144,13 +143,13 @@ StyledDropdown.defaultProps = {
 const NavigationBar = props => {
   const {
     children,
-    header,
     dropdownMenu,
-    rightContent,
+    header,
     iconMenu,
-    loading,
-    sticked,
     linkList,
+    loading,
+    rightContent,
+    sticked,
     ...other
   } = props;
   const [isOpenDropdown, setOpenDropdown] = useState(false);
@@ -209,11 +208,14 @@ const NavigationBar = props => {
 };
 
 NavigationBar.propTypes = {
-  header: PropTypes.node,
-  dropdownMenu: PropTypes.node,
-  rightContent: PropTypes.node,
   children: PropTypes.node,
-  iconMenu: PropTypes.node
+  dropdownMenu: PropTypes.node,
+  header: PropTypes.node,
+  iconMenu: PropTypes.node,
+  linkList: PropTypes.node,
+  loading: PropTypes.bool,
+  rightContent: PropTypes.node,
+  sticked: PropTypes.bool
 };
 
 export default NavigationBar;

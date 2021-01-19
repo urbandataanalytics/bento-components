@@ -63,12 +63,12 @@ const Pagination = ({ label, moreLabel, totalCount, currentCount, onLoadMore, is
 };
 
 Pagination.propTypes = {
-  label: PropTypes.string,
-  moreLabel: PropTypes.string,
-  totalCount: PropTypes.number,
-  currentCount: PropTypes.number,
-  onLoadMore: PropTypes.func,
-  isLoading: PropTypes.bool
+  label: PropTypes.string.isRequired,
+  moreLabel: PropTypes.string.isRequired,
+  totalCount: PropTypes.number.isRequired,
+  currentCount: PropTypes.number.isRequired,
+  onLoadMore: PropTypes.func.isRequired,
+  isLoading: PropTypes.bool.isRequired
 };
 
 export default Pagination;

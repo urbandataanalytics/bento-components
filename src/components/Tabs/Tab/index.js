@@ -110,10 +110,10 @@ const Tab = ({ label, badge, active, disabled, value, onChange }) => {
 };
 
 Tab.propTypes = {
-  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  active: PropTypes.bool,
   badge: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.node]),
   disabled: PropTypes.bool,
-  active: PropTypes.bool,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
   onChange: PropTypes.func,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };

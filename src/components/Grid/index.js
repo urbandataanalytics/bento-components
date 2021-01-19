@@ -19,6 +19,8 @@ const Grid = React.forwardRef((props, ref) => {
 });
 
 Grid.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
   columns: PropTypes.string.isRequired,
   gap: PropTypes.string
 };

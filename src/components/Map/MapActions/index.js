@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { forwardRef, useState } from 'react';
 import styled from 'styled-components';
-import { forwardRef } from 'react';
 import MapActionsSkeleton from './MapActionsSkeleton';
 import IconArrowDoubleRight from '../../../icons/ArrowDoubleRight/index';
 import IconArrowDoubleLeft from '../../../icons/ArrowDoubleLeft/index';
+import PropTypes from 'prop-types';
 import useTheme from '../../../hooks/useTheme/index';
 
 const StyledContainer = styled.div`
@@ -16,7 +16,6 @@ const StyledContainer = styled.div`
 `;
 
 const StyledContent = styled.div`
-  transition: left 0.3s ease-in-out;
   background: ${({ theme }) => theme.color.white};
   border: 1px solid ${({ theme }) => theme.color.charcoal300};
   box-sizing: border-box;
@@ -35,7 +34,6 @@ const StyledWrapper = styled.div`
 const StyledButton = styled.button`
   background: ${({ theme }) => theme.color.white};
   border: 1px solid ${({ theme }) => theme.color.charcoal300};
-  box-sizing: border-box;
   border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
   margin-bottom: ${({ theme }) => theme.spacings.small1};
   position: relative;
@@ -70,6 +68,12 @@ const MapActions = forwardRef((props, ref) => {
   );
 });
 
+MapActions.propTypes = {
+  children: PropTypes.node,
+  offsetRight: PropTypes.string,
+  offsetBottom: PropTypes.string,
+  isLoading: PropTypes.bool
+};
 MapActions.defaultProps = {};
 
 export default MapActions;

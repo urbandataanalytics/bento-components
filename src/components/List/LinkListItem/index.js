@@ -1,6 +1,7 @@
 import React from 'react';
 import ListItem from '../../List/ListItem';
 import { TextLink } from '../../../index';
+import PropTypes from 'prop-types';
 
 const BULLET_ICON = `\u2022`;
 
@@ -17,6 +18,12 @@ const LinkListItem = props => {
       {children}
     </ListItem>
   );
+};
+
+LinkListItem.propTypes = {
+  children: PropTypes.node,
+  active: PropTypes.bool,
+  disabled: PropTypes.bool
 };
 
 export default LinkListItem;

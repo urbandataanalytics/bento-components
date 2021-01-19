@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-
 import DefaultTheme from '../../themes/defaultTheme';
 import Loader from './Loader/';
 
@@ -166,18 +165,16 @@ const Button = React.forwardRef((props, ref) => {
 Button.propTypes = {
   block: PropTypes.bool,
   children: PropTypes.node,
+  className: PropTypes.string,
   disabled: PropTypes.bool,
+  loading: PropTypes.bool,
+  loadingText: PropTypes.string,
+  iconLeft: PropTypes.node,
+  iconRight: PropTypes.node,
+  onClick: PropTypes.func,
   size: PropTypes.oneOf(['medium', 'large']),
   tabIndex: PropTypes.string,
-  variant: PropTypes.oneOf(['normal', 'primary', 'secondary'])
-};
-
-Button.defaultProps = {
-  block: false,
-  disabled: false,
-  loading: false,
-  size: 'medium',
-  variant: 'primary'
+  variant: PropTypes.oneOf(['primary', 'secondary'])
 };
 
 StyledButton.defaultProps = {
@@ -186,6 +183,14 @@ StyledButton.defaultProps = {
 
 IconWrapper.defaultProps = {
   theme: DefaultTheme
+};
+
+Button.defaultProps = {
+  block: false,
+  disabled: false,
+  loading: false,
+  size: 'medium',
+  variant: 'primary'
 };
 
 Button.displayName = 'Button';

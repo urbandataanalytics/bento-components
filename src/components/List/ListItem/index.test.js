@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import ListItem from './';
 import TextLink from '../../TextLink';
 
@@ -31,6 +31,30 @@ describe(`ListItem`, () => {
 
       const message = () => wrapper.find('TextLink');
       expect(message().exists()).toBeTruthy();
+    });
+
+    it('should call onlick', () => {
+      const onClick = jest.fn();
+      const wrapper = shallow(
+        <ListItem onClick={onClick} as={TextLink}>
+          Message
+        </ListItem>
+      );
+      wrapper.find('ListItem__StyledListItem').simulate('click');
+
+      expect(onClick).toHaveBeenCalled();
+    });
+
+    it('should not call onlick if disabled', () => {
+      const onClick = jest.fn();
+      const wrapper = shallow(
+        <ListItem disabled={true} onClick={onClick} as={TextLink}>
+          Message
+        </ListItem>
+      );
+
+      wrapper.find('ListItem__StyledListItem').simulate('click');
+      expect(onClick).toHaveBeenCalledTimes(0);
     });
   });
 

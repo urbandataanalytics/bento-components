@@ -7,7 +7,7 @@ const MinMaxContainer = styled.div`
   justify-content: space-between;
   margin-top: 15px;
 `;
-const MapLegendSkeleton = ({ variant }) => {
+const SliderSkeleton = ({ variant }) => {
   return (
     <div>
       <Skeleton height="10px" width="100%" />
@@ -21,4 +21,4 @@ const MapLegendSkeleton = ({ variant }) => {
   );
 };
 
-export default MapLegendSkeleton;
+export default SliderSkeleton;

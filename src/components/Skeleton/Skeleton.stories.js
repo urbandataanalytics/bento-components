@@ -1,28 +1,44 @@
 import React from 'react';
-import { text, select } from '@storybook/addon-knobs';
 import Skeleton from './index';
 
 export default {
   title: 'Skeleton',
-  component: Skeleton
+  component: Skeleton,
+  argTypes: {
+    height: {
+      description: 'Set height for the component in CSS units',
+      table: {
+        category: 'format'
+      }
+    },
+    width: {
+      description: 'Set width for the component in CSS units',
+      table: {
+        category: 'format'
+      }
+    },
+    variant: {
+      description: 'Applies different shapes',
+      table: {
+        category: 'format'
+      }
+    }
+  },
+  args: {
+    width: '100px',
+    height: '10px',
+    variant: 'text'
+  }
 };
 
-const getCommonProps = () => {
-  return {
-    width: text('Width', '100px'),
-    height: text('Height', '10px'),
-    variant: select('Variant', ['text', 'circular', 'rounded', 'square'], 'text')
-  };
-};
-
-export const Playground = () => {
+export const Playground = args => {
   const containerStyle = {
     padding: '2rem'
   };
 
   return (
     <div style={containerStyle}>
-      <Skeleton {...getCommonProps()} />
+      <Skeleton {...args} />
     </div>
   );
 };

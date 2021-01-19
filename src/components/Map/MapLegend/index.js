@@ -1,7 +1,7 @@
 import * as React from 'react';
+import { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { forwardRef } from 'react';
 import MapLegendSkeleton from './MapLegendSkeleton';
 
 const StyledContainer = styled.div`
@@ -96,19 +96,19 @@ const Action = styled.div`
 
 const MapLegend = forwardRef((props, ref) => {
   const {
-    title,
-    isLoading,
-    description,
-    variant,
-    rangeColors,
-    points,
-    rangeTextMin,
-    rangeTextMax,
-    offsetLeft,
-    offsetBottom,
     actions,
-    onChangeAction,
     activeAction,
+    description,
+    isLoading,
+    offsetBottom,
+    offsetLeft,
+    onChangeAction,
+    points,
+    rangeColors,
+    rangeTextMax,
+    rangeTextMin,
+    title,
+    variant,
     ...other
   } = props;
 
@@ -179,17 +179,19 @@ MapLegend.defaultProps = {
 };
 
 MapLegend.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
-  variant: PropTypes.oneOf(['range', 'points']),
-  rangeColors: PropTypes.arrayOf(PropTypes.string),
-  rangeTextMin: PropTypes.string,
-  rangeTextMax: PropTypes.string,
-  offsetLeft: PropTypes.string,
-  offsetBottom: PropTypes.string,
-  isLoading: PropTypes.bool,
+  actions: PropTypes.array,
   activeAction: PropTypes.string,
-  onChangeAction: PropTypes.func
+  description: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  isLoading: PropTypes.bool,
+  offsetBottom: PropTypes.string,
+  offsetLeft: PropTypes.string,
+  onChangeAction: PropTypes.func,
+  points: PropTypes.array,
+  rangeColors: PropTypes.arrayOf(PropTypes.string),
+  rangeTextMax: PropTypes.string,
+  rangeTextMin: PropTypes.string,
+  title: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  variant: PropTypes.oneOf(['range', 'points'])
 };
 
 export default MapLegend;

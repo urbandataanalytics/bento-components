@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
@@ -76,14 +76,14 @@ const calculatePosition = (align, position, dimensions) => {
 };
 
 const Dropdown = ({
-  children,
-  label,
-  closeOnClickOutside,
-  closeOnClickInside,
   align,
-  position,
+  children,
+  closeOnClickInside,
+  closeOnClickOutside,
+  isOpen,
+  label,
   onChange = () => {},
-  isOpen = false,
+  position,
   ...other
 }) => {
   const [isDropdownOpen, setOpen] = useState(isOpen);
@@ -145,13 +145,14 @@ const Dropdown = ({
 Dropdown.displayName = 'Dropdown';
 
 Dropdown.propTypes = {
+  align: PropTypes.oneOf(['left', 'center', 'right']),
   children: PropTypes.node,
-  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
-  className: PropTypes.string,
-  position: PropTypes.oneOf(['top', 'bottom']),
-  align: PropTypes.oneOf(['right', 'center', 'left']),
+  closeOnClickInside: PropTypes.bool,
   closeOnClickOutside: PropTypes.bool,
-  isOpen: PropTypes.bool
+  isOpen: PropTypes.bool,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
+  onChange: PropTypes.func,
+  position: PropTypes.oneOf(['top', 'bottom'])
 };
 
 Dropdown.defaultProps = {

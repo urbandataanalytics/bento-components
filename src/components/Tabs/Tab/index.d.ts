@@ -1,10 +1,13 @@
 export interface TabProps {
-  label: string | React.ReactNode;
+  active?: boolean;
   badge?: string | number | React.ReactNode;
   disabled?: boolean;
-  active?: boolean;
+  label: string | React.ReactNode;
+  onChange?: (
+    ev: SyntheticInputEvent<HTMLInputElement>,
+    value: string | number
+  ) => void | Promise<any>;
   value?: string | number;
-  onChange?: (ev: SyntheticInputEvent<HTMLInputElement>, value: string | number) => void | Promise<any>;
 }
 
 declare const Tab: React.FunctionComponent<TabProps>;

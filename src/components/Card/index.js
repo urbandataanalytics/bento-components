@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import DefaultTheme from '../../themes/defaultTheme';
 import CardSkeleton from './CardSkeleton';
+import PropTypes from 'prop-types';
+
 const StyledCard = styled.article`
   border: 1px solid ${({ theme }) => theme.color.charcoal400};
   box-sizing: border-box;
@@ -24,5 +26,11 @@ const Card = React.forwardRef((props, ref) => {
 });
 
 Card.displayName = 'Card';
+
+Card.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
+  loading: PropTypes.bool
+};
 
 export default Card;

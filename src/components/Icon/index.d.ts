@@ -1,9 +1,12 @@
 export interface Props {
-  color?: 'primary' | 'secondary' | 'tertiary' | 'info' | 'success' | 'warning' | 'critical';
-  size?: 'small' | 'medium' | 'large';
+  ariaHidden?: boolean;
+  ariaLabel?: string;
+  children?: React.ReactNode;
+  className?: string;
+  color?: 'primary' | 'secondary';
+  size?: 'small' | 'medium' | 'large' | 'extralarge';
   customColor?: string;
   viewBox?: string;
-  children: React.ReactNode;
 }
 
 declare const Icon: React.FunctionComponent<Props>;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Search Normal 1`] = `
+exports[`Storyshots Search Playground 1`] = `
 <div
   style={
     Object {
@@ -9,7 +9,7 @@ exports[`Storyshots Search Normal 1`] = `
   }
 >
   <div
-    className="Search__StyledContainer-mfs9oj-0 tOCty"
+    className="Search__StyledContainer-mfs9oj-0 gtEVJV"
   >
     <svg
       className="Icon__StyledIcon-xqsk8h-0 kEczNP"
@@ -490,12 +490,17 @@ exports[`Storyshots Search Normal 1`] = `
     <div
       className="Search__StyledWrapper-mfs9oj-1 hiQdNt"
     >
-      
-      
+      <h5
+        className="Search__StyledHeading-mfs9oj-3 kBPcEQ"
+      >
+        Search
+      </h5>
+      <i
+        className="Search__StyledSeparator-mfs9oj-2 HnbvA"
+      />
       <input
-        className="Search__Input-mfs9oj-4 eBddUo"
+        className="Search__Input-mfs9oj-4 fMlJCq"
         disabled={false}
-        onChange={[Function]}
         onKeyDown={[Function]}
         placeholder="Search any portfolio by name, seller or buyer"
         type="text"
@@ -503,7 +508,7 @@ exports[`Storyshots Search Normal 1`] = `
       />
     </div>
     <button
-      onClick={true}
+      onClick={[Function]}
       type="button"
     >
       <svg

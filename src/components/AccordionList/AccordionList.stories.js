@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Accordion from './Accordion/index';
 import AccordionList from './index';
 import { IconActivity } from '../../icons';
@@ -9,7 +9,37 @@ import TextLink from '../TextLink';
 
 export default {
   title: 'AccordionList',
-  component: AccordionList
+  component: AccordionList,
+  subcomponents: { Accordion },
+  argTypes: {
+    toggleOnExpand: {
+      description: 'Toggle others element when the section is expanded',
+      control: 'boolean',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    children: {
+      description: 'The content of the AccordionList. You can only use `<Accordion>`',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    }
+  }
+};
+
+export const Playground = args => {
+  return (
+    <AccordionList {...args}>
+      <Accordion header={'Accordion First'}>First child</Accordion>
+      <Accordion header={'Accordion Second'}>Second child</Accordion>
+    </AccordionList>
+  );
+};
+
+Playground.args = {
+  toggleOnExpand: true
 };
 
 export const ExpandOneByOne = () => (
@@ -39,10 +69,10 @@ export const ExpandOneByOne = () => (
 
 export const ExpandAll = () => (
   <AccordionList toggleOnExpand={false}>
-    <Accordion iconLeft={<IconActivity />} header={'Accordion First'}>
+    <Accordion leftContent={<IconActivity />} header={'Accordion First'}>
       First child
     </Accordion>
-    <Accordion iconLeft={<IconActivity />} header={'Accordion Second'} isDefaultExpanded>
+    <Accordion leftContent={<IconActivity />} header={'Accordion Second'} isDefaultExpanded>
       Second child
     </Accordion>
   </AccordionList>

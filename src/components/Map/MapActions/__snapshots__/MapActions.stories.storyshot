@@ -1,5 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots MapActions Loading 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="MapActions__StyledContainer-sc-1u74xmz-0 iTboHq"
+  >
+    <div
+      className="MapActionsSkeleton__Style-sc-43veat-0 fpWInD"
+    >
+      <i
+        className="Skeleton__StyledSkeleton-imrnkm-0 FdIVx"
+        height="14px"
+        width="75px"
+      />
+      <i
+        className="Skeleton__StyledSkeleton-imrnkm-0 FdIVx"
+        height="14px"
+        width="75px"
+      />
+      <i
+        className="Skeleton__StyledSkeleton-imrnkm-0 FdIVx"
+        height="14px"
+        width="75px"
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots MapActions Playground 1`] = `
 <div
   style={
@@ -9,13 +43,13 @@ exports[`Storyshots MapActions Playground 1`] = `
   }
 >
   <div
-    className="MapActions__StyledContainer-sc-1u74xmz-0 bGbcdb"
+    className="MapActions__StyledContainer-sc-1u74xmz-0 iTboHq"
   >
     <div
       className="MapActions__StyledWrapper-sc-1u74xmz-2 jtTQpA"
     >
       <button
-        className="MapActions__StyledButton-sc-1u74xmz-3 kTZJvR"
+        className="MapActions__StyledButton-sc-1u74xmz-3 iLdzus"
         onClick={[Function]}
       >
         <svg
@@ -497,9 +531,9 @@ exports[`Storyshots MapActions Playground 1`] = `
         </svg>
       </button>
       <div
-        className="MapActions__StyledContent-sc-1u74xmz-1 jFWAAy"
+        className="MapActions__StyledContent-sc-1u74xmz-1 gJhqWb"
       >
-        Test content
+        Sample Text Children
       </div>
     </div>
   </div>
