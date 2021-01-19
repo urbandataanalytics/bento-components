@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import DefaultTheme from '../../../themes/defaultTheme';
+import defaultTheme from '../../../themes/defaultTheme';
 import PropTypes from 'prop-types';
 
 const StyledCardHeader = styled.header`
@@ -21,7 +21,7 @@ const StyledChildrenContainer = styled.div`
 `;
 
 StyledCardHeader.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 const StyledRightContent = styled.div`

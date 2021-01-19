@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import DefaultTheme from '../../themes/defaultTheme';
+import defaultTheme from '../../themes/defaultTheme';
 
 const REGEX_PATTERN_NUMBER = 'd+(.d*)?';
 
@@ -31,7 +31,7 @@ const MinMaxInput = styled.input`
 `;
 
 MinMaxInput.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 const InputFormatter = ({
