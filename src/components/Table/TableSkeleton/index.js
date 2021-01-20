@@ -36,7 +36,7 @@ const StyledSplit = styled.div`
   grid-gap: 10px;
 `;
 
-const TableSkeleton = React.forwardRef(({ rows, columns, striped, variant }) => (
+const TableSkeleton = React.forwardRef(({ rows, columns, striped, variant }, _) => (
   <StyledSkeleton striped={striped} variant={variant}>
     <thead>
       <tr>

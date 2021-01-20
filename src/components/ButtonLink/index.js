@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import DefaultTheme from '../../themes/defaultTheme';
+import defaultTheme from '../../themes/defaultTheme';
 
 const componentSizes = theme => ({
   small: {
@@ -125,11 +125,11 @@ ButtonLink.defaultProps = {
 };
 
 StyledButtonLink.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 IconWrapper.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 ButtonLink.displayName = 'ButtonLink';

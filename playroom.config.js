@@ -15,27 +15,7 @@ module.exports = {
   baseUrl: '/bento-components/playroom/',
   webpackConfig: () => ({
     module: {
-      rules: [
-        {
-          test: /\.js$/,
-          exclude: /node_modules/,
-          use: [
-            {
-              loader: 'babel-loader',
-              options: {
-                presets: [['@babel/preset-env', { modules: false }], '@babel/preset-react']
-              }
-            }
-          ]
-        },
-        {
-          test: /\.(ttf|eot|woff|woff2)$/,
-          loader: 'file-loader',
-          options: {
-            name: 'fonts/[name].[ext]'
-          }
-        }
-      ]
+      rules: [{ test: /\.(js|jsx)$/, use: 'babel-loader', exclude: '/node_modules/' }]
     }
   })
 };

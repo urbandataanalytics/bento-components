@@ -7,6 +7,7 @@ import defaultTheme from '../../themes/defaultTheme';
 import InputFormatter from './InputFormatter';
 
 import 'rc-slider/assets/index.css';
+import useTheme from '../../hooks/useTheme';
 
 const MinMaxContainer = styled.div`
   display: flex;
@@ -25,6 +26,10 @@ const PrefixSuffix = styled.span`
   color: ${({ theme }) => theme.color.charcoal800};
   padding: ${({ theme }) => theme.spacings.small1} 0;
 `;
+
+PrefixSuffix.defaultProps = {
+  theme: defaultTheme
+};
 
 const StyledContent = styled.div`
   .rc-slider {
@@ -47,6 +52,10 @@ const StyledContent = styled.div`
   }
 `;
 
+StyledContent.defaultProps = {
+  theme: defaultTheme
+};
+
 const getDefaultValue = ({ value, min, max, variant }) => {
   let result = null;
 
@@ -67,10 +76,39 @@ const getDefaultValue = ({ value, min, max, variant }) => {
   return result;
 };
 
+const propStyles = theme => ({
+  railStyle: {
+    backgroundColor: theme.components.sliderRailColor,
+    height: theme.components.sliderlRailSize
+  },
+  trackStyle: [
+    {
+      backgroundColor: theme.components.sliderTrackColor,
+      height: theme.components.sliderlRailSize
+    }
+  ],
+  handleStyle: [
+    {
+      backgroundColor: theme.components.sliderHandleColor,
+      borderColor: theme.components.sliderHandleColor,
+      height: theme.components.sliderHandleSize,
+      marginTop: theme.components.sliderHandleMarginTop,
+      width: theme.components.sliderHandleSize
+    },
+    {
+      backgroundColor: theme.components.sliderHandleColor,
+      borderColor: theme.components.sliderHandleColor,
+      height: theme.components.sliderHandleSize,
+      marginTop: theme.components.sliderHandleMarginTop,
+      width: theme.components.sliderHandleSize
+    }
+  ]
+});
+
 const Slider = React.forwardRef((props, ref) => {
   const {
     disabled,
-    format = value => Number(value),
+    format = inputValue => Number(inputValue),
     isLoading,
     max,
     maxPrefix,
@@ -90,6 +128,7 @@ const Slider = React.forwardRef((props, ref) => {
   const [values, setValues] = useState(getDefaultValue({ value, min, max, variant }));
   const [isEditing, toggleEdditing] = useState({ min: false, max: false });
   const [calculatedStep, setCalculatedStep] = useState(step);
+  const theme = useTheme();
 
   useEffect(() => {
     setValues(getDefaultValue({ min, max, variant, value }));
@@ -139,35 +178,6 @@ const Slider = React.forwardRef((props, ref) => {
     toggleEdditing({ ...isEditing, [type]: false });
   };
 
-  const propStyles = {
-    railStyle: {
-      backgroundColor: props.theme.components.sliderRailColor,
-      height: props.theme.components.sliderlRailSize
-    },
-    trackStyle: [
-      {
-        backgroundColor: props.theme.components.sliderTrackColor,
-        height: props.theme.components.sliderlRailSize
-      }
-    ],
-    handleStyle: [
-      {
-        backgroundColor: props.theme.components.sliderHandleColor,
-        borderColor: props.theme.components.sliderHandleColor,
-        height: props.theme.components.sliderHandleSize,
-        marginTop: props.theme.components.sliderHandleMarginTop,
-        width: props.theme.components.sliderHandleSize
-      },
-      {
-        backgroundColor: props.theme.components.sliderHandleColor,
-        borderColor: props.theme.components.sliderHandleColor,
-        height: props.theme.components.sliderHandleSize,
-        marginTop: props.theme.components.sliderHandleMarginTop,
-        width: props.theme.components.sliderHandleSize
-      }
-    ]
-  };
-
   return (
     <StyledContent {...other}>
       {isLoading ? (
@@ -181,7 +191,7 @@ const Slider = React.forwardRef((props, ref) => {
           onAfterChange={handleAfterChange}
           step={step}
           value={values}
-          {...propStyles}
+          {...propStyles(theme)}
         />
       ) : (
         <>
@@ -194,7 +204,7 @@ const Slider = React.forwardRef((props, ref) => {
             ref={ref}
             step={calculatedStep}
             value={values}
-            {...propStyles}
+            {...propStyles(theme)}
           />
 
           <MinMaxContainer>
@@ -260,7 +270,6 @@ Slider.defaultProps = {
   max: 5000,
   min: 0,
   step: 1,
-  theme: defaultTheme,
   variant: 'slider'
 };
 
