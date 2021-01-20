@@ -17,7 +17,7 @@
   },
   "private": false,
   "scripts": {
-    "storybook": "yarn build:icons && start-storybook -p 9009 -s public",
+    "storybook": "yarn build:icons && start-storybook -p 9009 -s public --no-manager-cache",
     "playroom:start": "playroom start",
     "playroom:build": "playroom build",
     "build": "yarn clean && yarn build:icons && yarn build:lib",
@@ -101,6 +101,7 @@
     "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^6.1.14",
     "@storybook/storybook-deployer": "^2.8.6",
+    "@storybook/theming": "^6.1.14",
     "@styled-system/prop-types": "5.1.2",
     "@styled-system/props": "5.1.4",
     "@styled-system/theme-get": "5.1.2",
