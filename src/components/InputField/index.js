@@ -1,8 +1,9 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 import { IconEye, IconEyeOff } from '../../icons';
+import useTheme from '../../hooks/useTheme/index';
 
 const LabelText = styled.p`
   font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
@@ -30,19 +31,6 @@ HelpText.defaultProps = {
   theme: defaultTheme
 };
 
-const PasswordContainer = styled.div`
-outline: 0;
-font-size: ${({ theme }) => theme.components.inputFieldFontSize};
-line-height: ${({ theme }) => theme.components.inputFieldLineHeight};
-text-indent: ${({ theme }) => theme.components.inputFieldTextIndent};
-border-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
-border-width: 1px;
-border-style: solid;
-transition: ${({ theme }) => theme.global.transitionM};
-background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
-border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
-` 
-
 const Input = styled.input`
   outline: 0;
   font-size: ${({ theme }) => theme.components.inputFieldFontSize};
@@ -54,6 +42,15 @@ const Input = styled.input`
   transition: ${({ theme }) => theme.global.transitionM};
   background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
   border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
+  ${({ type }) => type === 'password' && 'padding-right: 75px;'}
+
+  + button {
+    position: absolute;
+    right: 0;
+    top: 23px;
+    cursor: pointer;
+    padding: 13px 15px;
+  }
 
   &::placeholder {
     color: ${({ theme }) => theme.components.inputFieldPlaceholderColor};
@@ -100,6 +97,7 @@ Input.defaultProps = {
 const Label = styled.label`
   display: flex;
   flex-direction: column-reverse;
+  position: relative;
 `;
 
 Label.defaultProps = {
@@ -122,19 +120,42 @@ const InputField = React.forwardRef((props, ref) => {
     ...other
   } = props;
 
-  const [isPasswordVisible, setPasswordVisibility] = useState(false)
+  const [isPasswordVisible, setPasswordVisibility] = useState(false);
   const togglePasswordVisiblity = () => {
     setPasswordVisibility(isPasswordVisible ? false : true);
   };
+
+  const theme = useTheme();
+
   return (
     <div className={className}>
-    
       <Label>
-      {type == "password" ? 
-      <PasswordContainer>
-        <Input
+        {type == 'password' ? (
+          <>
+            <Input
+              className={error ? `error` : null}
+              type={isPasswordVisible ? 'text' : 'password'}
+              disabled={disabled}
+              value={value}
+              name={name}
+              onChange={onChange}
+              placeholder={placeholder}
+              tabIndex={tabIndex}
+              ref={ref}
+              {...other}
+            />
+            <button onClick={togglePasswordVisiblity}>
+              {isPasswordVisible ? (
+                <IconEyeOff customColor={theme.color.charcoal500} />
+              ) : (
+                <IconEye customColor={theme.color.primary500} />
+              )}
+            </button>
+          </>
+        ) : (
+          <Input
             className={error ? `error` : null}
-            type= {isPasswordVisible ? "text" : "password"}
+            type={type}
             disabled={disabled}
             value={value}
             name={name}
@@ -144,23 +165,8 @@ const InputField = React.forwardRef((props, ref) => {
             ref={ref}
             {...other}
           />
-          {isPasswordVisible ? <IconEyeOff onClick={togglePasswordVisiblity}></IconEyeOff> : <IconEye onClick={togglePasswordVisiblity}></IconEye>}
-      </PasswordContainer>
-       
-      
-      : <Input
-          className={error ? `error` : null}
-          type={type}
-          disabled={disabled}
-          value={value}
-          name={name}
-          onChange={onChange}
-          placeholder={placeholder}
-          tabIndex={tabIndex}
-          ref={ref}
-          {...other}
-        />}
-        
+        )}
+
         {label && <LabelText disabled={disabled}>{label}</LabelText>}
       </Label>
       {help && <HelpText className={error ? 'error' : null}>{help}</HelpText>}
