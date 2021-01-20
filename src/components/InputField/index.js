@@ -121,8 +121,10 @@ const InputField = React.forwardRef((props, ref) => {
   } = props;
 
   const [isPasswordVisible, setPasswordVisibility] = useState(false);
-  const togglePasswordVisiblity = () => {
-    setPasswordVisibility(isPasswordVisible ? false : true);
+
+  const togglePasswordVisiblity = e => {
+    e.preventDefault();
+    setPasswordVisibility(!isPasswordVisible);
   };
 
   const theme = useTheme();
