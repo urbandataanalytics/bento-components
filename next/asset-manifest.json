@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "./main.f6ad962d5d1e009e126b.bundle.js",
-    "main.js.map": "./main.f6ad962d5d1e009e126b.bundle.js.map",
-    "runtime~main.js": "./runtime~main.f6ad962d5d1e009e126b.bundle.js",
-    "runtime~main.js.map": "./runtime~main.f6ad962d5d1e009e126b.bundle.js.map",
+    "main.js": "./main.daa4d350dfe94dcecbe1.bundle.js",
+    "main.js.map": "./main.daa4d350dfe94dcecbe1.bundle.js.map",
+    "runtime~main.js": "./runtime~main.daa4d350dfe94dcecbe1.bundle.js",
+    "runtime~main.js.map": "./runtime~main.daa4d350dfe94dcecbe1.bundle.js.map",
     "vendors~main.css": "./static/css/vendors~main.ed590494.chunk.css",
-    "vendors~main.js": "./vendors~main.f6ad962d5d1e009e126b.bundle.js",
+    "vendors~main.js": "./vendors~main.daa4d350dfe94dcecbe1.bundle.js",
     "vendors~main.css.map": "./static/css/vendors~main.ed590494.chunk.css.map",
-    "vendors~main.js.map": "./vendors~main.f6ad962d5d1e009e126b.bundle.js.map",
+    "vendors~main.js.map": "./vendors~main.daa4d350dfe94dcecbe1.bundle.js.map",
     "iframe.html": "./iframe.html",
-    "precache-manifest.9e2984c0a042b0b99173a5e337d5c10d.js": "./precache-manifest.9e2984c0a042b0b99173a5e337d5c10d.js",
+    "precache-manifest.88e971bcc183e84561a6360a72f67f98.js": "./precache-manifest.88e971bcc183e84561a6360a72f67f98.js",
     "service-worker.js": "./service-worker.js",
-    "static/media/logo-uda.svg": "./static/media/logo-uda.6ef0868e.svg",
-    "vendors~main.f6ad962d5d1e009e126b.bundle.js.LICENSE.txt": "./vendors~main.f6ad962d5d1e009e126b.bundle.js.LICENSE.txt"
+    "static/media/logo-bento-dark.svg": "./static/media/logo-bento-dark.6a25f0fb.svg",
+    "vendors~main.daa4d350dfe94dcecbe1.bundle.js.LICENSE.txt": "./vendors~main.daa4d350dfe94dcecbe1.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.f6ad962d5d1e009e126b.bundle.js",
+    "runtime~main.daa4d350dfe94dcecbe1.bundle.js",
     "static/css/vendors~main.ed590494.chunk.css",
-    "vendors~main.f6ad962d5d1e009e126b.bundle.js",
-    "main.f6ad962d5d1e009e126b.bundle.js"
+    "vendors~main.daa4d350dfe94dcecbe1.bundle.js",
+    "main.daa4d350dfe94dcecbe1.bundle.js"
   ]
 }
