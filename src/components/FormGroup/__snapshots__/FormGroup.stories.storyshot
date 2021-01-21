@@ -48,6 +48,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
         />
         <button
           onClick={[Function]}
+          type="button"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 hkSbBS"
