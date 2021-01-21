@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
-import { IconEye, IconEyeOff } from '../../icons';
-import useTheme from '../../hooks/useTheme/index';
+import InputFieldPassword from './InputFieldPassword';
 
 const LabelText = styled.p`
   font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
@@ -31,7 +30,7 @@ HelpText.defaultProps = {
   theme: defaultTheme
 };
 
-const Input = styled.input`
+export const Input = styled.input`
   outline: 0;
   font-size: ${({ theme }) => theme.components.inputFieldFontSize};
   line-height: ${({ theme }) => theme.components.inputFieldLineHeight};
@@ -120,40 +119,22 @@ const InputField = React.forwardRef((props, ref) => {
     ...other
   } = props;
 
-  const [isPasswordVisible, setPasswordVisibility] = useState(false);
-
-  const togglePasswordVisiblity = e => {
-    e.preventDefault();
-    setPasswordVisibility(!isPasswordVisible);
-  };
-
-  const theme = useTheme();
-
   return (
     <div className={className}>
       <Label>
-        {type == 'password' ? (
-          <>
-            <Input
-              className={error ? `error` : null}
-              type={isPasswordVisible ? 'text' : 'password'}
-              disabled={disabled}
-              value={value}
-              name={name}
-              onChange={onChange}
-              placeholder={placeholder}
-              tabIndex={tabIndex}
-              ref={ref}
-              {...other}
-            />
-            <button onClick={togglePasswordVisiblity}>
-              {isPasswordVisible ? (
-                <IconEyeOff customColor={theme.color.charcoal500} />
-              ) : (
-                <IconEye customColor={theme.color.primary500} />
-              )}
-            </button>
-          </>
+        {type === 'password' ? (
+          <InputFieldPassword
+            className={error ? `error` : null}
+            type={type}
+            disabled={disabled}
+            value={value}
+            name={name}
+            onChange={onChange}
+            placeholder={placeholder}
+            tabIndex={tabIndex}
+            ref={ref}
+            {...other}
+          />
         ) : (
           <Input
             className={error ? `error` : null}
