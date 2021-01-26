@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
-import { IconOrderDesc } from '../../icons';
 
 const FullInputContainer = styled.div`
   display: grid;
@@ -12,8 +11,8 @@ const FullInputContainer = styled.div`
 
 const LabelText = styled.p`
   display: inline;
-  font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
-  color: ${({ theme }) => theme.color.charcoal600};
+  font-size: ${({ theme }) => theme.components.inlineInputFieldLabelFontSize};
+  color: ${({ theme }) => theme.components.inlineInputLabelColor};
   margin-bottom: 4px;
   transition: 300ms ease-in-out;
 `;
@@ -28,11 +27,11 @@ const HelpText = styled.small`
   text-align: ${({ textAlign }) => textAlign};
   padding-top: 7px;
   display: block;
-  font-size: ${({ theme }) => theme.components.inputFieldHelpFontSize};
+  font-size: ${({ theme }) => theme.components.inlineInputFieldHelpFontSize};
   min-height: 25px;
   color: ${({ theme }) => theme.color.charcoal600};
   &.error {
-    color: ${({ theme }) => theme.components.inputFieldErrorHelpColor};
+    color: ${({ theme }) => theme.components.inlineInputFieldErrorHelpColor};
   }
 `;
 
@@ -42,7 +41,7 @@ HelpText.defaultProps = {
 
 const IconWrapper = styled.span`
   display: inline-flex;
-  margin: ${props => (props.direction === 'left' ? '0 8px 0 0' : '0 0 0 8px')};
+  margin: '0 8px 0 0';
   & > svg {
     width: ${props => (props.size === 'large' ? '18px' : '15px')};
     height: ${props => (props.size === 'large' ? '18px' : '15px')};
@@ -63,54 +62,54 @@ export const Input = styled.input`
   outline: 0;
   width: 100%;
   text-align: ${({ textAlign }) => textAlign};
-  font-size: ${({ theme }) => theme.components.inputFieldFontSize};
-  line-height: 40px;
-  text-indent: ${({ theme }) => theme.components.inputFieldTextIndent};
+  font-size: ${({ theme }) => theme.components.inlineInputFieldFontSize};
+  line-height: ${({ theme }) => theme.components.inlineInputFieldLineHeight};
+  text-indent: ${({ theme }) => theme.components.inlineInputFieldTextIndent};
   padding-right: ${({ textAlign }) => (textAlign === 'right' ? '24px' : 0)};
-  border-radius: 4px 4px 0 0;
+  border-radius: ${({ theme }) => theme.components.inlineInputFieldBorderRadius};
   border-width: 1px;
   border-style: solid;
-  box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.color.charcoal400};
+  box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldBottomBorderColor};
   transition: ${({ theme }) => theme.global.transitionM};
-  background-color: ${({ theme }) => theme.color.charcoal200};
-  border-color: ${({ theme }) => theme.color.charcoal200};
+  background-color: ${({ theme }) => theme.components.inlineInputFieldBackgroundColor};
+  border-color: ${({ theme }) => theme.components.inlineInputFieldBorderColor};
 
   &::placeholder {
-    color: ${({ theme }) => theme.components.inputFieldPlaceholderColor};
+    color: ${({ theme }) => theme.components.inlineInputFieldPlaceholderColor};
     transition: color 300ms ease-in-out;
   }
 
   &.error {
-    background-color: ${({ theme }) => theme.components.inputFieldErrorBackgroundColor};
-    border-color: ${({ theme }) => theme.components.inputFieldErrorBackgroundColor};
-    box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inputFieldErrorBorderColor};
+    background-color: ${({ theme }) => theme.components.inlineInputFieldErrorBackgroundColor};
+    border-color: ${({ theme }) => theme.components.inlineInputFieldErrorBorderColor};
+    box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldErrorBottomBorderColor};
     &::placeholder {
-      color: ${({ theme }) => theme.components.inputFieldErrorPlaceholderColor};
+      color: ${({ theme }) => theme.components.inlineInputFieldErrorPlaceholderColor};
     }
 
     &:focus::placeholder {
-      color: ${({ theme }) => theme.components.inputFieldPlaceholderColor};
+      color: ${({ theme }) => theme.components.inlineInputFieldPlaceholderColor};
     }
   }
 
   &:focus {
-    background-color: ${({ theme }) => theme.components.inputFieldFocusBackgroundColor};
-    border-color: ${({ theme }) => theme.components.inputFieldFocusBackgroundColor};
-    box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inputFieldFocusBorderColor};
+    background-color: ${({ theme }) => theme.components.inlineInputFieldFocusBackgroundColor};
+    border-color: ${({ theme }) => theme.components.inlineInputFieldFocusBorderColor};
+    box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldFocusBottomBorderColor};
 
     + ${LabelText} {
-      color: ${({ theme }) => theme.components.inputFieldFocusLabelColor};
+      color: ${({ theme }) => theme.components.inlineInputFieldFocusLabelColor};
     }
   }
 
   &:disabled {
-    background-color: ${({ theme }) => theme.components.inputFieldDisabledBackgroundColor};
-    border-color: ${({ theme }) => theme.components.inputFieldDisabledBackgroundColor};
-    box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inputFieldDisabledBorderColor};
-    color: ${({ theme }) => theme.components.inputFieldDisabledColor};
+    background-color: ${({ theme }) => theme.components.inlineInputFieldDisabledBackgroundColor};
+    border-color: ${({ theme }) => theme.components.inlineInputFieldDisabledBorderColor};
+    box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldDisabledBottomBorderColor};
+    color: ${({ theme }) => theme.components.inlineInputFieldDisabledColor};
 
     + ${LabelText} {
-      color: ${({ theme }) => theme.components.inputFieldDisabledLabelColor};
+      color: ${({ theme }) => theme.components.inlineInputFieldDisabledLabelColor};
     }
   }
 `;
@@ -135,7 +134,7 @@ Label.defaultProps = {
   theme: defaultTheme
 };
 
-const InlineInputField = React.forwardRef((props, ref) => {
+const InlineinlineInputField = React.forwardRef((props, ref) => {
   const {
     className,
     disabled,
@@ -191,7 +190,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
   );
 });
 
-InlineInputField.propTypes = {
+InlineinlineInputField.propTypes = {
   className: PropTypes.string,
   disabled: PropTypes.bool,
   error: PropTypes.bool,
@@ -207,13 +206,13 @@ InlineInputField.propTypes = {
   labelIcon: PropTypes.node
 };
 
-InlineInputField.defaultProps = {
+InlineinlineInputField.defaultProps = {
   value: '',
   textAlign: 'left',
   disabled: false,
   type: 'text'
 };
 
-InlineInputField.displayName = 'InlineInputField';
+InlineinlineInputField.displayName = 'InlineinlineInputField';
 
-export default InlineInputField;
+export default InlineinlineInputField;
