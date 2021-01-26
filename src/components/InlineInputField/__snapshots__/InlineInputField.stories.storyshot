@@ -17,7 +17,7 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
         className="InlineInputField__Label-jwshkl-6 kFwnzx"
       >
         <p
-          className="InlineInputField__LabelText-jwshkl-1 DfFIp"
+          className="InlineInputField__LabelText-jwshkl-1 gzviAo"
           disabled={true}
         >
           Label text
@@ -62,7 +62,7 @@ exports[`Storyshots InlineInputField Error 1`] = `
         className="InlineInputField__Label-jwshkl-6 kFwnzx"
       >
         <p
-          className="InlineInputField__LabelText-jwshkl-1 DfFIp"
+          className="InlineInputField__LabelText-jwshkl-1 gzviAo"
           disabled={false}
         >
           Label text
@@ -108,7 +108,7 @@ exports[`Storyshots InlineInputField Playground 1`] = `
       >
         
         <p
-          className="InlineInputField__LabelText-jwshkl-1 DfFIp"
+          className="InlineInputField__LabelText-jwshkl-1 gzviAo"
           disabled={false}
         >
           Label text
@@ -153,7 +153,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
         className="InlineInputField__Label-jwshkl-6 kFwnzx"
       >
         <span
-          className="InlineInputField__IconWrapper-jwshkl-3 cvDELl"
+          className="InlineInputField__IconWrapper-jwshkl-3 cjTPuy"
           direction="left"
           disabled={false}
           size="medium"
@@ -392,6 +392,32 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
                   "iconSizeLarge": "32px",
                   "iconSizeMedium": "24px",
                   "iconSizeSmall": "16px",
+                  "inlineInputFieldBackgroundColor": "#FAFBFC",
+                  "inlineInputFieldBorderColor": "#FAFBFC",
+                  "inlineInputFieldBorderRadius": "4px 4px 0 0",
+                  "inlineInputFieldBottomBorderColor": "#DCDFE6",
+                  "inlineInputFieldDisabledBackgroundColor": "#FAFBFC",
+                  "inlineInputFieldDisabledBorderColor": "#FAFBFC",
+                  "inlineInputFieldDisabledBottomBorderColor": "#DCDFE6",
+                  "inlineInputFieldDisabledColor": "#DCDFE6",
+                  "inlineInputFieldDisabledLabelColor": "#DCDFE6",
+                  "inlineInputFieldErrorBackgroundColor": "#FAEDEC",
+                  "inlineInputFieldErrorBorderColor": "#FAEDEC",
+                  "inlineInputFieldErrorBottomBorderColor": "#CD4C41",
+                  "inlineInputFieldErrorHelpColor": "#CD4C41",
+                  "inlineInputFieldErrorPlaceholderColor": "#CD4C41",
+                  "inlineInputFieldFocusBackgroundColor": "#EFF7FB",
+                  "inlineInputFieldFocusBorderColor": "#EFF7FB",
+                  "inlineInputFieldFocusBottomBorderColor": "#48AAF1",
+                  "inlineInputFieldFocusLabelColor": "#48AAF1",
+                  "inlineInputFieldFontSize": "14px",
+                  "inlineInputFieldHelpColor": "#212632",
+                  "inlineInputFieldHelpFontSize": "12px",
+                  "inlineInputFieldLabelColor": "#747D93",
+                  "inlineInputFieldLabelFontSize": "12px",
+                  "inlineInputFieldLineHeight": "40px",
+                  "inlineInputFieldPlaceholderColor": "#DCDFE6",
+                  "inlineInputFieldTextIndent": "24px",
                   "inputFieldBackgroundColor": "#FFFFFF",
                   "inputFieldBorderColor": "#DCDFE6",
                   "inputFieldBorderRadius": "4px",
@@ -635,7 +661,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
           </svg>
         </span>
         <p
-          className="InlineInputField__LabelText-jwshkl-1 DfFIp"
+          className="InlineInputField__LabelText-jwshkl-1 gzviAo"
           disabled={false}
         >
           Label text
