@@ -57,6 +57,7 @@ const StyledMessage = styled.div`
   font-weight: ${props => props.theme.global.fontWeightRegular};
   font-size: 14px;
   line-height: 24px;
+  margin-right: ${props => props.theme.components.notificationPadding};
   width: 100%;
 `;
 StyledMessage.defaultProps = {
