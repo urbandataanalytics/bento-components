@@ -146,8 +146,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
       className="InlineInputField__Label-jwshkl-6 kFwnzx"
     >
       <span
-        className="InlineInputField__IconWrapper-jwshkl-3 cjTPuy"
-        direction="left"
+        className="InlineInputField__IconWrapper-jwshkl-3 kUFCQE"
         disabled={false}
         size="medium"
       >
