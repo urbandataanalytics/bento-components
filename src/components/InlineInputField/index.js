@@ -58,7 +58,7 @@ const IconWrapper = styled.span`
   }
 `;
 
-export const Input = styled.input`
+const Input = styled.input`
   outline: 0;
   width: 100%;
   text-align: ${({ textAlign }) => textAlign};
@@ -134,7 +134,7 @@ Label.defaultProps = {
   theme: defaultTheme
 };
 
-const InlineinlineInputField = React.forwardRef((props, ref) => {
+const InlineInputField = React.forwardRef((props, ref) => {
   const {
     className,
     disabled,
@@ -190,7 +190,7 @@ const InlineinlineInputField = React.forwardRef((props, ref) => {
   );
 });
 
-InlineinlineInputField.propTypes = {
+InlineInputField.propTypes = {
   className: PropTypes.string,
   disabled: PropTypes.bool,
   error: PropTypes.bool,
@@ -206,13 +206,13 @@ InlineinlineInputField.propTypes = {
   labelIcon: PropTypes.node
 };
 
-InlineinlineInputField.defaultProps = {
+InlineInputField.defaultProps = {
   value: '',
   textAlign: 'left',
   disabled: false,
   type: 'text'
 };
 
-InlineinlineInputField.displayName = 'InlineinlineInputField';
+InlineInputField.displayName = 'InlineInputField';
 
-export default InlineinlineInputField;
+export default InlineInputField;
