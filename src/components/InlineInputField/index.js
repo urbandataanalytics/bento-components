@@ -4,9 +4,10 @@ import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 
 const FullInputContainer = styled.div`
+  width: 100%;
   display: grid;
   grid-template-columns: ${({ label }) => (label ? '2fr 10fr' : '1fr')};
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: ${({ helpText }) => (helpText ? '2fr 1fr' : '1fr')};
 `;
 
 const LabelText = styled.p`
@@ -153,8 +154,8 @@ const InlineInputField = React.forwardRef((props, ref) => {
   } = props;
 
   return (
-    <div className={className}>
-      <FullInputContainer label={label}>
+    <>
+      <FullInputContainer className={className} label={label} helpText={help}>
         {label && (
           <Label for={name}>
             {labelIcon && (
@@ -186,7 +187,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
           </HelpText>
         )}
       </FullInputContainer>
-    </div>
+    </>
   );
 });
 
