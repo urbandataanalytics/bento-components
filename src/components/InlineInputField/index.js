@@ -44,18 +44,8 @@ const IconWrapper = styled.span`
   display: inline-flex;
   margin: '0 8px 0 0';
   & > svg {
-    width: ${props => (props.size === 'large' ? '18px' : '15px')};
+    width: '${props => (props.size === 'large' ? '18px' : '15px')}';
     height: ${props => (props.size === 'large' ? '18px' : '15px')};
-    path {
-      ${props =>
-        props.disabled
-          ? `fill: ${
-              props.variant === 'primary'
-                ? props.theme.color.white
-                : props.theme.components.buttonSecondaryDisabledColor
-            } ;`
-          : null}
-    }
   }
 `;
 
@@ -159,7 +149,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
         {label && (
           <Label for={name}>
             {labelIcon && (
-              <IconWrapper variant="secondary" disabled={disabled} direction="left" size="medium">
+              <IconWrapper variant="secondary" disabled={disabled} size="medium">
                 {labelIcon}
               </IconWrapper>
             )}
