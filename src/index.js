@@ -18,6 +18,9 @@ export * from './components/Icon';
 export { default as InputField } from './components/InputField';
 export * from './components/InputField';
 
+export { default as InlineInputField } from './components/InlineInputField';
+export * from './components/InlineInputField';
+
 export { default as Notification } from './components/Notification';
 export * from './components/Notification';
 
