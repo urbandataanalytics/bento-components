@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Pagination Playground 1`] = `
+exports[`Storyshots InlineInputField Disabled 1`] = `
 <div
   style={
     Object {
@@ -9,39 +9,152 @@ exports[`Storyshots Pagination Playground 1`] = `
   }
 >
   <div
-    className="Pagination__StyledPaginationContainer-lcy88e-0 jpiDBg"
+    className="InlineInputField__FullInputContainer-jwshkl-0 datQcM"
+    label="Label text"
   >
-    <div
-      className="Pagination__StyledPaginationLabel-lcy88e-1 iUGNIT"
+    <label
+      className="InlineInputField__Label-jwshkl-6 kFwnzx"
     >
-      You’ve viewed 32 of 150 assets
-    </div>
+      <p
+        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        disabled={true}
+      >
+        Label text
+      </p>
+    </label>
     <div
-      className="Pagination__StyledPaginationProgress-lcy88e-2 fjFZfC"
+      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
     >
-      <span
-        style={
-          Object {
-            "width": "21%",
-          }
-        }
+      <input
+        className="InlineInputField__Input-jwshkl-4 jcCXVQ"
+        disabled={true}
+        placeholder="Placeholder text"
+        type="text"
+        value="Value text"
       />
     </div>
-    <button
-      className="Button__StyledButton-sc-1tzlszx-0 cbHvsx"
-      disabled={false}
-      onClick={[Function]}
-      size="large"
+    <small
+      className="InlineInputField__HelpText-jwshkl-2 eXvLVg"
+      label="Label text"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InlineInputField Error 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="InlineInputField__FullInputContainer-jwshkl-0 datQcM"
+    label="Label text"
+  >
+    <label
+      className="InlineInputField__Label-jwshkl-6 kFwnzx"
+    >
+      <p
+        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        disabled={false}
+      >
+        Label text
+      </p>
+    </label>
+    <div
+      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+    >
+      <input
+        className="InlineInputField__Input-jwshkl-4 jcCXVQ error"
+        disabled={false}
+        placeholder="Placeholder text"
+        type="text"
+        value="Value text"
+      />
+    </div>
+    <small
+      className="InlineInputField__HelpText-jwshkl-2 eXvLVg error"
+      label="Label text"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InlineInputField Playground 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="InlineInputField__FullInputContainer-jwshkl-0 datQcM"
+    label="Label text"
+  >
+    <label
+      className="InlineInputField__Label-jwshkl-6 kFwnzx"
+    >
+      
+      <p
+        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        disabled={false}
+      >
+        Label text
+      </p>
+    </label>
+    <div
+      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+    >
+      <input
+        className="InlineInputField__Input-jwshkl-4 jcCXVQ"
+        disabled={false}
+        placeholder="Placeholder text"
+        type="text"
+        value="Value text"
+      />
+    </div>
+    <small
+      className="InlineInputField__HelpText-jwshkl-2 eXvLVg"
+      label="Label text"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InlineInputField With Icon 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="InlineInputField__FullInputContainer-jwshkl-0 datQcM"
+    label="Label text"
+  >
+    <label
+      className="InlineInputField__Label-jwshkl-6 kFwnzx"
     >
       <span
-        className="Loader__StyledLoader-ew77jg-1 jzdEUT"
-        loading="false"
+        className="InlineInputField__IconWrapper-jwshkl-3 kUFCQE"
+        disabled={false}
+        size="medium"
       >
         <svg
-          className="Icon__StyledIcon-xqsk8h-0 EPaHT"
-          data-name="IconLoader"
+          className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
+          data-name="IconOrderDesc"
           preserveAspectRatio="xMidYMid meet"
-          size="small"
+          size="medium"
           theme={
             Object {
               "animations": Object {
@@ -534,21 +647,35 @@ exports[`Storyshots Pagination Playground 1`] = `
           viewBox="0 0 32 32"
         >
           <path
-            d="M16 1.667a1 1 0 011 1V8a1 1 0 11-2 0V2.667a1 1 0 011-1zM16 23a1 1 0 011 1v5.333a1 1 0 11-2 0V24a1 1 0 011-1zM5.866 5.866a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.414 1.414L5.866 7.28a1 1 0 010-1.414zM20.946 20.946a1 1 0 011.414 0l3.774 3.774a1 1 0 01-1.415 1.414l-3.773-3.774a1 1 0 010-1.414zM1.667 16a1 1 0 011-1H8a1 1 0 110 2H2.667a1 1 0 01-1-1zM23 16a1 1 0 011-1h5.333a1 1 0 110 2H24a1 1 0 01-1-1zM11.054 20.946a1 1 0 010 1.414L7.28 26.134a1 1 0 01-1.414-1.414l3.774-3.774a1 1 0 011.414 0zM26.134 5.866a1 1 0 010 1.414l-3.774 3.774a1 1 0 01-1.414-1.414l3.773-3.774a1 1 0 011.415 0z"
+            clipRule="evenodd"
+            d="M20 17.2c0 .663-.597 1.2-1.333 1.2H9.333C8.597 18.4 8 17.863 8 17.2c0-.663.597-1.2 1.333-1.2h9.334c.736 0 1.333.537 1.333 1.2zm4-6c0 .663-.597 1.2-1.333 1.2H9.333C8.597 12.4 8 11.863 8 11.2c0-.663.597-1.2 1.333-1.2h13.334c.736 0 1.333.537 1.333 1.2zm-8 12c0 .663-.597 1.2-1.333 1.2H9.333C8.597 24.4 8 23.863 8 23.2c0-.663.597-1.2 1.333-1.2h5.334c.736 0 1.333.537 1.333 1.2z"
           />
         </svg>
-        <span
-          className="Loader__StyledText-ew77jg-0 hBFTWi"
-        >
-          
-        </span>
       </span>
-      <span
-        className="Button__StyledContent-sc-1tzlszx-2 cPiKOG"
+      <p
+        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        disabled={false}
       >
-        Load More
-      </span>
-    </button>
+        Label text
+      </p>
+    </label>
+    <div
+      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+    >
+      <input
+        className="InlineInputField__Input-jwshkl-4 jcCXVQ"
+        disabled={false}
+        placeholder="Placeholder text"
+        type="text"
+        value="Value text"
+      />
+    </div>
+    <small
+      className="InlineInputField__HelpText-jwshkl-2 eXvLVg"
+      label="Label text"
+    >
+      Help text
+    </small>
   </div>
 </div>
 `;
