@@ -517,7 +517,7 @@ exports[`Storyshots Notification Closable 1`] = `
       </svg>
     </div>
     <div
-      className="Notification__StyledMessage-sc-44l06t-1 gxRWMf"
+      className="Notification__StyledMessage-sc-44l06t-1 kFXJQS"
     >
       Notification Message
     </div>
@@ -1546,7 +1546,7 @@ exports[`Storyshots Notification Playground 1`] = `
       </svg>
     </div>
     <div
-      className="Notification__StyledMessage-sc-44l06t-1 gxRWMf"
+      className="Notification__StyledMessage-sc-44l06t-1 kFXJQS"
     >
       Notification Message
     </div>
