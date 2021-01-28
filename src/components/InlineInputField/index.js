@@ -6,7 +6,8 @@ import defaultTheme from '../../themes/defaultTheme';
 const FullInputContainer = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: ${({ label }) => (label ? '2fr 10fr' : '1fr')};
+  column-gap: 16px;
+  grid-template-columns: ${({ label }) => (label ? '128px 10fr' : '1fr')};
   grid-template-rows: ${({ helpText }) => (helpText ? '2fr 1fr' : '1fr')};
 `;
 
@@ -115,10 +116,8 @@ Input.defaultProps = {
 };
 
 const Label = styled.label`
-  max-width: 100px;
   display: flex;
   align-self: center;
-  margin-right: 16px;
 `;
 
 Label.defaultProps = {
