@@ -124,6 +124,26 @@ withIcon.args = {
   labelIcon: 'IconOrderDesc'
 };
 
+export const SeveralAlignment = ({ label, labelIcon, ...rest }) => {
+  const CustomIcon = Icons[labelIcon];
+  return (
+    <div style={decoratorStyles}>
+      <InlineInputField {...rest} label="very long label to test reactivity" />
+      <InlineInputField {...rest} label="label" labelIcon={labelIcon ? <CustomIcon /> : ''} />
+      <InlineInputField
+        {...rest}
+        label="label with icon"
+        labelIcon={labelIcon ? <CustomIcon /> : ''}
+      />
+      <InlineInputField {...rest} label="label no icon" />
+    </div>
+  );
+};
+
+SeveralAlignment.args = {
+  labelIcon: 'IconOrderDesc'
+};
+
 export const Error = args => (
   <div style={decoratorStyles}>
     <InlineInputField error {...args} />
