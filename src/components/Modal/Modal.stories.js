@@ -65,7 +65,7 @@ export default {
     closable: true,
     full: false,
     isOpen: false,
-    header: <p>'Title'</p>,
+    header: <p>Title</p>,
     enableClickOutside: true,
     onClose: () => {}
   }
@@ -118,7 +118,31 @@ export const WithOverflow = ({ footer, ...args }) => {
           dolor sit amet, consectetur adipiscing elit. Mauris pellentesque viverra magna, ut
           condimentum lectus imperdiet ut. Cras scelerisque euismod neque, a scelerisque dolor
           efficitur sit amet. In tempus malesuada pretium. In turpis velit, aliquam quis laoreet in,
-          semper commodo turpis. Fusce a ipsum ante.
+          semper commodo turpis. Fusce a ipsum ante. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Aliquam lorem turpis, dignissim et ultrices vitae, condimentum in mauris.
+          Maecenas pharetra pulvinar massa, tincidunt porta risus congue non. Vestibulum ante ipsum
+          primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis a est vehicula,
+          aliquam lectus ut, sollicitudin enim. Quisque convallis arcu turpis, quis scelerisque nisi
+          lobortis fringilla. Sed rhoncus varius enim vel efficitur. Nullam consequat rhoncus magna,
+          semper bibendum lacus iaculis dapibus. Donec sed diam sed risus tempus maximus. Fusce
+          neque nulla, accumsan vitae hendrerit ac, convallis eget sem. Curabitur pretium rhoncus
+          dapibus. Nulla non suscipit purus. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Aliquam lorem turpis, dignissim et ultrices vitae, condimentum in mauris. Maecenas
+          pharetra pulvinar massa, tincidunt porta risus congue non. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Duis a est vehicula, aliquam
+          lectus ut, sollicitudin enim. Quisque convallis arcu turpis, quis scelerisque nisi
+          lobortis fringilla. Sed rhoncus varius enim vel efficitur. Nullam consequat rhoncus magna,
+          semper bibendum lacus iaculis dapibus. Donec sed diam sed risus tempus maximus. Fusce
+          neque nulla, accumsan vitae hendrerit ac, convallis eget sem. Curabitur pretium rhoncus
+          dapibus. Nulla non suscipit purus. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Aliquam lorem turpis, dignissim et ultrices vitae, condimentum in mauris. Maecenas
+          pharetra pulvinar massa, tincidunt porta risus congue non. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Duis a est vehicula, aliquam
+          lectus ut, sollicitudin enim. Quisque convallis arcu turpis, quis scelerisque nisi
+          lobortis fringilla. Sed rhoncus varius enim vel efficitur. Nullam consequat rhoncus magna,
+          semper bibendum lacus iaculis dapibus. Donec sed diam sed risus tempus maximus. Fusce
+          neque nulla, accumsan vitae hendrerit ac, convallis eget sem. Curabitur pretium rhoncus
+          dapibus. Nulla non suscipit purus.
         </p>
       </Modal>
     </>
