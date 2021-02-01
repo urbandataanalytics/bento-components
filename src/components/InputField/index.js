@@ -47,9 +47,16 @@ export const Input = styled.input`
   + button {
     position: absolute;
     right: 0;
-    top: 23px;
+    bottom: -2px;
     cursor: pointer;
-    padding: 13px 15px;
+    padding: 16px;
+
+    /* Safari 11+ */
+    @media not all and (min-resolution: 0.001dpcm) {
+      @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        bottom: 2px;
+      }
+    }
   }
 
   &::placeholder {
