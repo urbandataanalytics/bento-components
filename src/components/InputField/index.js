@@ -31,6 +31,7 @@ HelpText.defaultProps = {
 };
 
 export const Input = styled.input`
+  appearance: none;
   outline: 0;
   font-size: ${({ theme }) => theme.components.inputFieldFontSize};
   line-height: ${({ theme }) => theme.components.inputFieldLineHeight};
