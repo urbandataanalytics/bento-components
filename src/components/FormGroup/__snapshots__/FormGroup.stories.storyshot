@@ -17,7 +17,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
         className="InputField__Label-sc-1kf04eo-3 ckeGRO"
       >
         <input
-          className="InputField__Input-sc-1kf04eo-2 kstbgi"
+          className="InputField__Input-sc-1kf04eo-2 ePOZCe"
           disabled={false}
           placeholder="Type your email address"
           type="email"
@@ -40,7 +40,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
         className="InputField__Label-sc-1kf04eo-3 ckeGRO"
       >
         <input
-          className="InputField__Input-sc-1kf04eo-2 kxYyhk"
+          className="InputField__Input-sc-1kf04eo-2 fxADbd"
           disabled={false}
           placeholder="Type your password"
           type="password"

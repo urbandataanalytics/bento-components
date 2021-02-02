@@ -537,7 +537,7 @@ exports[`Storyshots Modal Playground 1`] = `
           className="Modal__StyleHeading-sc-18autff-2 cWfiSj"
         >
           <p>
-            'Title'
+            Title
           </p>
         </h3>
         <button
@@ -1046,7 +1046,7 @@ exports[`Storyshots Modal Playground 1`] = `
         </button>
       </header>
       <div
-        className="Modal__StyledContent-sc-18autff-3 fOLIRu"
+        className="Modal__StyledContent-sc-18autff-3 gklWpr"
       >
         Lorem Ipsum dolor
       </div>
