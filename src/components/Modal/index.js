@@ -48,7 +48,7 @@ StyleHeading.defaultProps = {
 const StyledContent = styled.div`
   margin: ${({ theme, full }) => (full ? '0' : theme.spacings.medium1)} 0;
   padding: 0 ${({ theme, full }) => (full ? '0' : theme.spacings.small3)};
-  overflow: hidden;
+  overflow: auto;
   position: relative;
   height: 100%;
 `;

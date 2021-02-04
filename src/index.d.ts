@@ -116,3 +116,6 @@ export * from './components/Search';
 
 export { default as Carousel } from './components/Carousel';
 export * from './components/Carousel';
+
+export { default as InlineInputField } from './components/InlineInputField';
+export * from './components/InlineInputField';

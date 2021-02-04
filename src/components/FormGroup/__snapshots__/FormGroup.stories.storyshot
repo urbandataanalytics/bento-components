@@ -17,7 +17,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
         className="InputField__Label-sc-1kf04eo-3 ckeGRO"
       >
         <input
-          className="InputField__Input-sc-1kf04eo-2 kstbgi"
+          className="InputField__Input-sc-1kf04eo-2 ePOZCe"
           disabled={false}
           placeholder="Type your email address"
           type="email"
@@ -40,7 +40,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
         className="InputField__Label-sc-1kf04eo-3 ckeGRO"
       >
         <input
-          className="InputField__Input-sc-1kf04eo-2 kxYyhk"
+          className="InputField__Input-sc-1kf04eo-2 fxADbd"
           disabled={false}
           placeholder="Type your password"
           type="password"
@@ -284,6 +284,32 @@ exports[`Storyshots FormGroup Playground 1`] = `
                   "iconSizeLarge": "32px",
                   "iconSizeMedium": "24px",
                   "iconSizeSmall": "16px",
+                  "inlineInputFieldBackgroundColor": "#FAFBFC",
+                  "inlineInputFieldBorderColor": "#FAFBFC",
+                  "inlineInputFieldBorderRadius": "4px 4px 0 0",
+                  "inlineInputFieldBottomBorderColor": "#DCDFE6",
+                  "inlineInputFieldDisabledBackgroundColor": "#FAFBFC",
+                  "inlineInputFieldDisabledBorderColor": "#FAFBFC",
+                  "inlineInputFieldDisabledBottomBorderColor": "#DCDFE6",
+                  "inlineInputFieldDisabledColor": "#DCDFE6",
+                  "inlineInputFieldDisabledLabelColor": "#DCDFE6",
+                  "inlineInputFieldErrorBackgroundColor": "#FAEDEC",
+                  "inlineInputFieldErrorBorderColor": "#FAEDEC",
+                  "inlineInputFieldErrorBottomBorderColor": "#CD4C41",
+                  "inlineInputFieldErrorHelpColor": "#CD4C41",
+                  "inlineInputFieldErrorPlaceholderColor": "#CD4C41",
+                  "inlineInputFieldFocusBackgroundColor": "#EFF7FB",
+                  "inlineInputFieldFocusBorderColor": "#EFF7FB",
+                  "inlineInputFieldFocusBottomBorderColor": "#48AAF1",
+                  "inlineInputFieldFocusLabelColor": "#48AAF1",
+                  "inlineInputFieldFontSize": "14px",
+                  "inlineInputFieldHelpColor": "#212632",
+                  "inlineInputFieldHelpFontSize": "12px",
+                  "inlineInputFieldLabelColor": "#747D93",
+                  "inlineInputFieldLabelFontSize": "12px",
+                  "inlineInputFieldLineHeight": "40px",
+                  "inlineInputFieldPlaceholderColor": "#DCDFE6",
+                  "inlineInputFieldTextIndent": "24px",
                   "inputFieldBackgroundColor": "#FFFFFF",
                   "inputFieldBorderColor": "#DCDFE6",
                   "inputFieldBorderRadius": "4px",
@@ -781,6 +807,32 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "iconSizeLarge": "32px",
                 "iconSizeMedium": "24px",
                 "iconSizeSmall": "16px",
+                "inlineInputFieldBackgroundColor": "#FAFBFC",
+                "inlineInputFieldBorderColor": "#FAFBFC",
+                "inlineInputFieldBorderRadius": "4px 4px 0 0",
+                "inlineInputFieldBottomBorderColor": "#DCDFE6",
+                "inlineInputFieldDisabledBackgroundColor": "#FAFBFC",
+                "inlineInputFieldDisabledBorderColor": "#FAFBFC",
+                "inlineInputFieldDisabledBottomBorderColor": "#DCDFE6",
+                "inlineInputFieldDisabledColor": "#DCDFE6",
+                "inlineInputFieldDisabledLabelColor": "#DCDFE6",
+                "inlineInputFieldErrorBackgroundColor": "#FAEDEC",
+                "inlineInputFieldErrorBorderColor": "#FAEDEC",
+                "inlineInputFieldErrorBottomBorderColor": "#CD4C41",
+                "inlineInputFieldErrorHelpColor": "#CD4C41",
+                "inlineInputFieldErrorPlaceholderColor": "#CD4C41",
+                "inlineInputFieldFocusBackgroundColor": "#EFF7FB",
+                "inlineInputFieldFocusBorderColor": "#EFF7FB",
+                "inlineInputFieldFocusBottomBorderColor": "#48AAF1",
+                "inlineInputFieldFocusLabelColor": "#48AAF1",
+                "inlineInputFieldFontSize": "14px",
+                "inlineInputFieldHelpColor": "#212632",
+                "inlineInputFieldHelpFontSize": "12px",
+                "inlineInputFieldLabelColor": "#747D93",
+                "inlineInputFieldLabelFontSize": "12px",
+                "inlineInputFieldLineHeight": "40px",
+                "inlineInputFieldPlaceholderColor": "#DCDFE6",
+                "inlineInputFieldTextIndent": "24px",
                 "inputFieldBackgroundColor": "#FFFFFF",
                 "inputFieldBorderColor": "#DCDFE6",
                 "inputFieldBorderRadius": "4px",
