@@ -22,7 +22,7 @@
     "playroom:build": "playroom build",
     "build": "yarn clean && yarn build:icons && yarn build:lib",
     "build:lib": "yarn copy:lib && cross-env NODE_ENV=\"production\" babel --out-dir lib --ignore **/*.stories.js,**/*.test.js,**/serviceWorker.js,**/setupTests.js src",
-    "build:icons": "babel-node scripts/svgIcon.js",
+    "build:icons": "babel-node scripts/cleanSVGIcons.js && babel-node scripts/svgIcon.js",
     "build:storybook": "yarn build:icons && build-storybook -s public",
     "build:local": "yarn build:icons && yarn build:lib && yalc publish --push",
     "copy:lib": "copyfiles -u 1 \"./src/icons/**\" --exclude \"./src/icons/svg/**\" lib && yarn copy:ts",
