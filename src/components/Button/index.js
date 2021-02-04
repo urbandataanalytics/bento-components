@@ -45,6 +45,38 @@ const componentVariants = theme => ({
       borderColor: theme.components.buttonSecondaryDisabledBorderColor,
       color: theme.components.buttonSecondaryDisabledColor
     }
+  },
+  danger: {
+    color: theme.components.buttonDangerColor,
+    backgroundColor: theme.components.buttonDangerBackgroundColor,
+    borderColor: theme.components.buttonDangerBorderColor,
+    borderRadius: theme.components.buttonDangerBorderRadius,
+    '&:hover': {
+      backgroundColor: theme.components.buttonDangerHoverBackgroundColor,
+      borderColor: theme.components.buttonDangerHoverBorderColor,
+      color: theme.components.buttonDangerHoverColor
+    },
+    '&:disabled': {
+      backgroundColor: theme.components.buttonDangerDisabledBackgroundColor,
+      borderColor: theme.components.buttonDangerDisabledBorderColor,
+      color: theme.components.buttonDangerDisabledColor
+    }
+  },
+  careful: {
+    color: theme.components.buttonDangerColor,
+    backgroundColor: theme.components.buttonDangerBackgroundColor,
+    borderColor: theme.components.buttonDangerBorderColor,
+    borderRadius: theme.components.buttonDangerBorderRadius,
+    '&:hover': {
+      backgroundColor: theme.components.buttonDangerHoverBackgroundColor,
+      borderColor: theme.components.buttonDangerHoverBorderColor,
+      color: theme.components.buttonDangerHoverColor
+    },
+    '&:disabled': {
+      backgroundColor: theme.components.buttonDangerDisabledBackgroundColor,
+      borderColor: theme.components.buttonDangerDisabledBorderColor,
+      color: theme.components.buttonDangerDisabledColor
+    }
   }
 });
 
@@ -174,7 +206,7 @@ Button.propTypes = {
   onClick: PropTypes.func,
   size: PropTypes.oneOf(['medium', 'large']),
   tabIndex: PropTypes.string,
-  variant: PropTypes.oneOf(['primary', 'secondary'])
+  variant: PropTypes.oneOf(['primary', 'secondary', 'danger'])
 };
 
 StyledButton.defaultProps = {

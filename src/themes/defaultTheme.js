@@ -289,6 +289,20 @@ const components = {
   buttonSecondaryHoverBorderColor: color.charcoal400,
   buttonSecondaryHoverColor: color.charcoal800,
 
+  buttonDangerBackgroundColor: color.redclay500,
+  buttonDangerBorderRadius: shapes.borderRadiusMedium,
+  buttonDangerColor: color.white,
+  buttonDangerDisabledBackgroundColor: color.charcoal400,
+  buttonDangerHoverBackgroundColor: color.charcoal400,
+  buttonDangerHoverColor: color.white,
+
+  buttonDangerBackgroundColor: color.redclay500,
+  buttonDangerBorderRadius: shapes.borderRadiusMedium,
+  buttonDangerColor: color.white,
+  buttonDangerDisabledBackgroundColor: color.charcoal400,
+  buttonDangerHoverBackgroundColor: color.charcoal400,
+  buttonDangerHoverColor: color.white,
+
   buttonLinkPaddingSmall: '3px 4px',
   buttonLinkFontSizeSmall: '12px',
   buttonLinkPaddingMedium: '5px',
