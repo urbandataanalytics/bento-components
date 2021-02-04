@@ -127,3 +127,27 @@ Loading.args = {
   loadingText: 'Loading Text',
   loading: true
 };
+
+export const DangerPrimary = args => {
+  return (
+    <div style={containerStyle}>
+      <Button {...args}></Button>
+    </div>
+  );
+};
+
+DangerPrimary.args = {
+  variant: 'dangerPrimary'
+};
+
+export const DangerSecondary = args => {
+  return (
+    <div style={containerStyle}>
+      <Button {...args}></Button>
+    </div>
+  );
+};
+
+DangerSecondary.args = {
+  variant: 'dangerSecondary'
+};
