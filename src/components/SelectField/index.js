@@ -122,7 +122,7 @@ const SelectField = React.forwardRef((props, ref) => {
         </Select>
         {label && <LabelText disabled={disabled}>{label}</LabelText>}
       </Label>
-      <HelpText className={error ? 'error' : null}>{help}</HelpText>
+      {help && <HelpText className={error ? 'error' : null}>{help}</HelpText>}
     </div>
   );
 });

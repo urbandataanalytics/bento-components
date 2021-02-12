@@ -46,7 +46,7 @@ describe(`SelectField`, () => {
   });
 
   describe('styles', () => {
-    const component = mount(<SelectField error {...props} />);
+    const component = mount(<SelectField error {...props} help="Help text" />);
     const help = component.find('SelectField__HelpText');
     const input = component.find('SelectField__Select');
     const theme = input.prop('theme');
