@@ -530,7 +530,7 @@ exports[`Storyshots SelectField Playground 1`] = `
         />
       </svg>
       <select
-        className="SelectField__Select-sc-1svgo9p-2 kRMpmK"
+        className="SelectField__Select-sc-1svgo9p-2 gbewSl"
         disabled={false}
         onChange={[Function]}
         value="en"

@@ -42,6 +42,7 @@ const Select = styled.select`
   transition: ${({ theme }) => theme.global.transitionM};
   background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
   border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
+  padding: 2px 0;
 
   &:focus {
     background-color: ${({ theme }) => theme.components.inputFieldFocusBackgroundColor};
