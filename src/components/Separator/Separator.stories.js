@@ -6,7 +6,7 @@ export default {
   component: Separator,
   argTypes: {
     label: {
-      description: 'Accepts a string to shown in the middle of the separator',
+      description: 'Accepts a string to show in the middle of the separator',
       table: {
         category: 'content'
       }
