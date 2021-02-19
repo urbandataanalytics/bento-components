@@ -151,11 +151,11 @@ const Drawer = props => {
           <StyleSubHeading>{subHeader}</StyleSubHeading>
         </div>
 
-        {closeButton ? (
+        {closeButton && (
           <CloseButton onClick={onClose}>
             <IconClose size={'small'} />
           </CloseButton>
-        ) : null}
+        )}
       </StyledDrawerHeader>
       <StyledDrawerContent>{children}</StyledDrawerContent>
     </StyledDrawerSide>
