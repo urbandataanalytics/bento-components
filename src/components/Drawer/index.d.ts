@@ -1,7 +1,7 @@
 export interface Props {
   children: React.ReactNode;
   closeButton: boolean;
-  header?: React.ReactNode;
+  header: React.ReactNode;
   headerColor?: string;
   offsetBottom?: string;
   offsetLeft?: string;
