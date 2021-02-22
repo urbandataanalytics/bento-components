@@ -32,6 +32,7 @@ const StyledDrawerHeader = styled.header`
   padding: ${({ theme }) => theme.components.drawerHeaderPadding};
   border-bottom: ${({ theme }) => theme.components.drawerHeaderBorder};
   min-height: ${({ theme }) => theme.components.drawerHeaderMinHeight};
+  ${({ headerColor }) => (headerColor ? `background-color: ${headerColor}` : ``)}
 `;
 
 StyledDrawerHeader.defaultProps = {
@@ -116,7 +117,9 @@ StyledDrawerSide.defaultProps = {
 const Drawer = props => {
   const {
     children,
+    closeButton,
     header,
+    headerColor,
     offsetBottom,
     offsetLeft,
     offsetRight,
@@ -142,15 +145,17 @@ const Drawer = props => {
       offsetBottom={offsetBottom}
       {...other}
     >
-      <StyledDrawerHeader>
+      <StyledDrawerHeader headerColor={headerColor}>
         <div>
           <StyleHeading>{header}</StyleHeading>
           <StyleSubHeading>{subHeader}</StyleSubHeading>
         </div>
 
-        <CloseButton onClick={onClose}>
-          <IconClose size={'small'} />
-        </CloseButton>
+        {closeButton && (
+          <CloseButton onClick={onClose}>
+            <IconClose size={'small'} />
+          </CloseButton>
+        )}
       </StyledDrawerHeader>
       <StyledDrawerContent>{children}</StyledDrawerContent>
     </StyledDrawerSide>
@@ -163,6 +168,9 @@ const Drawer = props => {
   );
 };
 
+Drawer.defaultProps = {
+  closeButton: true
+};
 Drawer.propTypes = {
   children: PropTypes.node.isRequired,
   header: PropTypes.node.isRequired,
@@ -175,7 +183,9 @@ Drawer.propTypes = {
   position: PropTypes.oneOf(['left', 'right']).isRequired,
   showOverlay: PropTypes.bool,
   subHeader: PropTypes.node,
-  width: PropTypes.string
+  width: PropTypes.string,
+  closeButton: PropTypes.bool,
+  headerColor: PropTypes.string
 };
 
 export default Drawer;

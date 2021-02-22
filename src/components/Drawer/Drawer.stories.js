@@ -1,11 +1,13 @@
 import Drawer from './index';
 import React from 'react';
 import ListItem from '../List/ListItem';
+import Button from '../Button';
 import IconFolder from '../../icons/Folder';
 import List from '../List';
 import { IconAsset, IconEye, IconFilter, IconNavigation, IconUser } from '../../icons';
 import Accordion from '../AccordionList/Accordion';
 import { ButtonLink, Grid } from '../../index';
+import { useArgs } from '@storybook/client-api';
 
 export default {
   title: 'Drawer',
@@ -19,11 +21,24 @@ export default {
         category: 'content'
       }
     },
+    closeButton: {
+      description: 'Hides or shows the cross close button in the header',
+      table: {
+        category: 'behaviour'
+      }
+    },
     header: {
       description: "Title of the Drawer that will be rendered in the Drawer's header.",
       control: 'text',
       table: {
         category: 'content'
+      }
+    },
+    headerColor: {
+      description: 'If indicated, applies a background color only to the header section',
+      control: 'color',
+      table: {
+        category: 'format'
       }
     },
     offsetBottom: {
@@ -95,14 +110,18 @@ export default {
     offsetTop: '0px',
     offsetRight: '0px',
     offsetLeft: '0px',
-    offsetBottom: '0px'
+    offsetBottom: '0px',
+    onClose: () => {}
   }
 };
 
-export const Playground = args => {
+export const Playground = ({ onClose, ...args }) => {
+  const [{ open }, updateArgs] = useArgs();
+
   return (
     <>
-      <Drawer {...args}>
+      <Button onClick={() => updateArgs({ open: !open })}>{open ? 'Close' : 'Open'}</Button>
+      <Drawer onClose={() => updateArgs({ open: false })} {...args}>
         <Accordion header={'Accordion title 1'} leftContent={<IconNavigation />}>
           <List>
             <ListItem leftContent={<IconUser />}>Text</ListItem>
@@ -240,4 +259,82 @@ RightPosition.args = {
   header: 'Accordion title 1',
   subHeader: 'Subtitle',
   position: 'right'
+};
+
+export const NoCloseButton = args => {
+  const [{ open }, updateArgs] = useArgs();
+
+  return (
+    <>
+      <Button onClick={() => updateArgs({ open: !open })}>{open ? 'Close' : 'Open'}</Button>
+      <Drawer {...args}>
+        <Accordion header={'Accordion title 1'} leftContent={<IconNavigation />}>
+          <List>
+            <ListItem leftContent={<IconUser />}>Text</ListItem>
+            <ListItem leftContent={<IconAsset />}>Text</ListItem>
+            <ListItem leftContent={<IconFolder />}>Text</ListItem>
+          </List>
+        </Accordion>
+        <Accordion header={'Accordion title 2'} leftContent={<IconUser />}>
+          <Grid columns={'90% 10%'} gap={'5px'}>
+            <List>
+              <ListItem rightContent={<IconFilter size={'small'} />}>Text 1</ListItem>
+              <ListItem rightContent={<IconFilter size={'small'} />}>Text 2</ListItem>
+              <ListItem rightContent={<IconFilter size={'small'} />}>Text 3</ListItem>
+            </List>
+            <div>
+              <div
+                style={{
+                  marginBottom: '4px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  alignContent: 'center',
+                  justifyContent: 'center'
+                }}
+              >
+                <ButtonLink size={'small'} variant={'primary'} style={{ minHeight: '34px' }}>
+                  <IconEye />
+                </ButtonLink>
+              </div>
+              <div
+                style={{
+                  marginBottom: '4px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  alignContent: 'center',
+                  justifyContent: 'center'
+                }}
+              >
+                <ButtonLink size={'small'} variant={'secondary'} style={{ minHeight: '34px' }}>
+                  <IconEye />
+                </ButtonLink>
+              </div>
+              <div
+                style={{
+                  marginBottom: '4px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  alignContent: 'center',
+                  justifyContent: 'center'
+                }}
+              >
+                <ButtonLink size={'small'} variant={'secondary'} style={{ minHeight: '34px' }}>
+                  <IconEye />
+                </ButtonLink>
+              </div>
+            </div>
+          </Grid>
+        </Accordion>
+      </Drawer>
+    </>
+  );
+};
+
+NoCloseButton.args = {
+  header: 'Accordion title 1',
+  subHeader: 'Subtitle',
+  position: 'left',
+  closeButton: false,
+  position: 'right',
+  headerColor: '#1778FB'
 };
