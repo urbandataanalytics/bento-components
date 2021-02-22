@@ -109,7 +109,7 @@ export const Playground = ({ isSticky, iconMenu, ...args }) => {
 
 Playground.args = {
   rightContent: (
-    <Dropdown label={<IconUser style={{ marginRight: '30px' }} />}>
+    <Dropdown align="right" label={<IconUser style={{ marginRight: '30px' }} />}>
       <ListItem leftContent={<IconUser />}>Text</ListItem>
       <ListItem leftContent={<IconUpdate />}>Text</ListItem>
     </Dropdown>

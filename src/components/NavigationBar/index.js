@@ -176,13 +176,7 @@ const NavigationBar = props => {
             </Dropdown>
           </StyledDropdown>
         )}
-        {header && (
-          <NavigationLeftHeader>
-            {React.cloneElement(header, {
-              sticked
-            })}
-          </NavigationLeftHeader>
-        )}
+        {header && <NavigationLeftHeader>{React.cloneElement(header)}</NavigationLeftHeader>}
       </NavigationLeft>
 
       <NavigationRight>
@@ -190,17 +184,13 @@ const NavigationBar = props => {
           <NavigationContent>
             <NavigationLink>
               {Children.map(children, child => (
-                <NavigationLinkItem>{React.cloneElement(child, { sticked })}</NavigationLinkItem>
+                <NavigationLinkItem>{React.cloneElement(child)}</NavigationLinkItem>
               ))}
             </NavigationLink>
           </NavigationContent>
         )}
         {rightContent && (
-          <NavigationRightContent>
-            {React.cloneElement(rightContent, {
-              sticked
-            })}
-          </NavigationRightContent>
+          <NavigationRightContent>{React.cloneElement(rightContent)}</NavigationRightContent>
         )}
       </NavigationRight>
     </StyledNavigation>
