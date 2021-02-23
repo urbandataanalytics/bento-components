@@ -31,7 +31,7 @@ const ChildrenContainer = styled.div`
   border-radius: ${props => props.theme.components.dropdownBorderRadius};
   background: ${props => props.theme.components.dropdownBackground};
   padding: ${props => props.theme.components.dropdownPadding};
-  z-index: 10;
+  z-index: ${({ zIndex }) => zIndex};
   animation: ${({ theme }) => theme.animations.dropDownDisplay} 125ms
     cubic-bezier(0.73, 0.005, 0.22, 1);
 `;
@@ -84,6 +84,7 @@ const Dropdown = ({
   label,
   onChange = () => {},
   position,
+  zIndex,
   ...other
 }) => {
   const [isDropdownOpen, setOpen] = useState(isOpen);
@@ -129,6 +130,7 @@ const Dropdown = ({
       {isDropdownOpen && (
         <Portal renderInto="dropdowns">
           <ChildrenContainer
+            zIndex={zIndex}
             isOpen={isDropdownOpen}
             ref={dropdown}
             style={dropdownPosition}
@@ -152,7 +154,8 @@ Dropdown.propTypes = {
   isOpen: PropTypes.bool,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
   onChange: PropTypes.func,
-  position: PropTypes.oneOf(['top', 'bottom'])
+  position: PropTypes.oneOf(['top', 'bottom']),
+  zIndex: PropTypes.number
 };
 
 Dropdown.defaultProps = {
@@ -160,7 +163,8 @@ Dropdown.defaultProps = {
   isOpen: false,
   closeOnClickInside: false,
   position: 'bottom',
-  align: 'left'
+  align: 'left',
+  zIndex: 10
 };
 
 export default Dropdown;

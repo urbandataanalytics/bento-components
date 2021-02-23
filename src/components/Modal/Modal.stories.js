@@ -58,6 +58,12 @@ export default {
       table: {
         category: 'format'
       }
+    },
+    zIndex: {
+      description: 'Allows to set a custom z-index property',
+      table: {
+        category: 'format'
+      }
     }
   },
   args: {
