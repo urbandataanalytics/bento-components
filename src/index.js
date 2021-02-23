@@ -122,3 +122,6 @@ export * from './components/Carousel';
 
 export { default as InlineInputField } from './components/InlineInputField';
 export * from './components/InlineInputField';
+
+export { default as Separator } from './components/Separator';
+export * from './components/Separator';
