@@ -62,6 +62,12 @@ export default {
       table: {
         category: 'format'
       }
+    },
+    zIndex: {
+      description: 'Allows to set a custom z-index property',
+      table: {
+        category: 'format'
+      }
     }
   },
   args: {
@@ -70,7 +76,8 @@ export default {
     closeOnClickOutside: true,
     isOpen: false,
     position: 'bottom',
-    label: <Button>Label example</Button>
+    label: <Button>Label example</Button>,
+    zIndex: 1000
   }
 };
 

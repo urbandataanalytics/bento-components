@@ -71,7 +71,7 @@ const StyledOverlay = styled.div`
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 9999;
+  z-index: ${({ zIndex }) => zIndex};
   width: 100%;
   height: 100%;
   display: flex;
@@ -92,6 +92,7 @@ const Modal = ({
   header,
   isOpen,
   onClose,
+  zIndex,
   ...other
 }) => {
   const theme = useTheme();
@@ -115,7 +116,7 @@ const Modal = ({
   }, [isOpen]);
 
   return isOpen ? (
-    <StyledOverlay>
+    <StyledOverlay zIndex={zIndex}>
       <StyledContainer {...other} ref={ref}>
         {((header && header.props.children) || closable) && (
           <StyledHeader hasHeading={header && header.props.children} closable={closable}>
@@ -142,12 +143,14 @@ Modal.propTypes = {
   header: PropTypes.node,
   onClose: PropTypes.func.isRequired,
   isOpen: PropTypes.bool.isRequired,
-  full: PropTypes.bool.isRequired
+  full: PropTypes.bool.isRequired,
+  zIndex: PropTypes.number
 };
 
 Modal.defaultProps = {
   full: false,
   closable: true,
-  enableClickOutside: true
+  enableClickOutside: true,
+  zIndex: 9999
 };
 export default Modal;
