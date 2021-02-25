@@ -64,6 +64,12 @@ export default {
       table: {
         category: 'format'
       }
+    },
+    opacity: {
+      description: 'Changes the opacity of the backing overlay',
+      table: {
+        category: 'format'
+      }
     }
   },
   args: {

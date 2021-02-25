@@ -541,7 +541,8 @@ exports[`Storyshots Modal Playground 1`] = `
     </span>
   </button>
   <div
-    className="Modal__StyledOverlay-sc-18autff-5 fMKtSc"
+    className="Modal__StyledOverlay-sc-18autff-5 byeIOI"
+    opacity={0.3}
   >
     <div
       className="Modal__StyledContainer-sc-18autff-0 jHJDJs"
