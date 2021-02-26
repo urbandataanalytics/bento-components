@@ -67,7 +67,7 @@ StyledFooter.defaultProps = {
 };
 
 const StyledOverlay = styled.div`
-  background-color: ${({ theme }) => hexToRgba(theme.color.charcoal800, 0.2)};
+  background-color: ${({ theme, opacity }) => hexToRgba(theme.color.charcoal800, opacity)};
   position: fixed;
   left: 0;
   top: 0;
@@ -92,6 +92,7 @@ const Modal = ({
   header,
   isOpen,
   onClose,
+  opacity,
   zIndex,
   ...other
 }) => {
@@ -116,7 +117,7 @@ const Modal = ({
   }, [isOpen]);
 
   return isOpen ? (
-    <StyledOverlay zIndex={zIndex}>
+    <StyledOverlay zIndex={zIndex} opacity={opacity}>
       <StyledContainer {...other} ref={ref}>
         {((header && header.props.children) || closable) && (
           <StyledHeader hasHeading={header && header.props.children} closable={closable}>
@@ -144,13 +145,15 @@ Modal.propTypes = {
   onClose: PropTypes.func.isRequired,
   isOpen: PropTypes.bool.isRequired,
   full: PropTypes.bool.isRequired,
-  zIndex: PropTypes.number
+  zIndex: PropTypes.number,
+  opacity: PropTypes.number
 };
 
 Modal.defaultProps = {
   full: false,
   closable: true,
   enableClickOutside: true,
-  zIndex: 9999
+  zIndex: 9999,
+  opacity: 0.3
 };
 export default Modal;
