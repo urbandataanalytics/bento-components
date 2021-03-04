@@ -73,12 +73,14 @@ export const FormattedListItems = args => {
     <div style={containerStyle}>
       <List {...args}>
         <ListItem leftContent={<IconFolder />}>Item with 'leftContent' icon</ListItem>
-        <ListItem focusLeftContent leftContent={<IconFolder />}>
+        <ListItem focusLeftContent leftContent={<IconFolder customColor="#432AC3" />}>
           Item with 'focusLeftContent' and 'leftContent'
         </ListItem>
         <ListItem separator />
-        <ListItem rightContent={<IconFolder />}>Item with 'rightContent' icon</ListItem>
-        <ListItem focusRightContent rightContent={<IconFolder />}>
+        <ListItem rightContent={<IconFolder customColor="#432AC3" />}>
+          Item with 'rightContent' icon
+        </ListItem>
+        <ListItem focusRightContent rightContent={<IconFolder customColor="#432AC3" />}>
           <ListItem separator />
           Item with 'focusRightContent' and 'rightContent'
         </ListItem>

@@ -22,7 +22,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -554,10 +554,10 @@ exports[`Storyshots List Formatted List Items 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
         >
           <svg
-            className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
+            className="Icon__StyledIcon-xqsk8h-0 GrMRi"
             data-name="IconFolder"
             preserveAspectRatio="xMidYMid meet"
             size="medium"
@@ -1090,10 +1090,10 @@ exports[`Storyshots List Formatted List Items 1`] = `
       >
         Item with 'rightContent' icon
         <div
-          className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+          className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
         >
           <svg
-            className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
+            className="Icon__StyledIcon-xqsk8h-0 GrMRi"
             data-name="IconFolder"
             preserveAspectRatio="xMidYMid meet"
             size="medium"
@@ -1625,10 +1625,10 @@ exports[`Storyshots List Formatted List Items 1`] = `
         />
         Item with 'focusRightContent' and 'rightContent'
         <div
-          className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+          className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
         >
           <svg
-            className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
+            className="Icon__StyledIcon-xqsk8h-0 GrMRi"
             data-name="IconFolder"
             preserveAspectRatio="xMidYMid meet"
             size="medium"
@@ -2159,7 +2159,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -2681,7 +2681,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         </div>
         Item with leftContent and rightContent
         <div
-          className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+          className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -3212,7 +3212,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -3734,7 +3734,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         </div>
         Item with focusContent and leftContent and rightContent
         <div
-          className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+          className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -4268,7 +4268,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 QgJsL"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 jLrpoj"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -4817,7 +4817,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         size="medium"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fbbAiQ"
@@ -5350,7 +5350,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fImbnH"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 eDeguz"
           disabled={true}
         >
           <svg
@@ -5873,7 +5873,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         </div>
         Item disabled
         <div
-          className="ListItem__StyledRightContent-sc-4kscw7-2 bsfhMr"
+          className="ListItem__StyledRightContent-sc-4kscw7-2 iNNcBx"
           disabled={true}
         >
           <svg
@@ -7021,7 +7021,7 @@ exports[`Storyshots List Navbar List 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -8086,7 +8086,7 @@ exports[`Storyshots List Navbar List 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fImbnH"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 eDeguz"
           disabled={true}
         >
           <svg
@@ -8622,7 +8622,7 @@ exports[`Storyshots List Navbar List 1`] = `
         size="medium"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -9172,7 +9172,7 @@ exports[`Storyshots List Playground 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
           disabled={false}
         >
           -
@@ -9180,7 +9180,7 @@ exports[`Storyshots List Playground 1`] = `
         Regular ListItem 
         0
         <div
-          className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+          className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
           disabled={false}
         >
           View
@@ -9197,7 +9197,7 @@ exports[`Storyshots List Playground 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
           disabled={false}
         >
           -
@@ -9205,7 +9205,7 @@ exports[`Storyshots List Playground 1`] = `
         Regular ListItem 
         1
         <div
-          className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+          className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
           disabled={false}
         >
           View
@@ -9222,7 +9222,7 @@ exports[`Storyshots List Playground 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
           disabled={false}
         >
           -
@@ -9230,7 +9230,7 @@ exports[`Storyshots List Playground 1`] = `
         Regular ListItem 
         2
         <div
-          className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+          className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
           disabled={false}
         >
           View
@@ -9247,7 +9247,7 @@ exports[`Storyshots List Playground 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
           disabled={false}
         >
           -
@@ -9255,7 +9255,7 @@ exports[`Storyshots List Playground 1`] = `
         Regular ListItem 
         3
         <div
-          className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+          className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
           disabled={false}
         >
           View
