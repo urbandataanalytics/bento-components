@@ -1638,7 +1638,7 @@ Array [
                 className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
               >
                 <div
-                  className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+                  className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
                 >
                   <svg
                     className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -2170,7 +2170,7 @@ Array [
                 className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
               >
                 <div
-                  className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+                  className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
                 >
                   <svg
                     className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -2702,7 +2702,7 @@ Array [
                 className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
               >
                 <div
-                  className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+                  className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
                 >
                   <svg
                     className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -4307,7 +4307,7 @@ Array [
                 >
                   Text 1
                   <div
-                    className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+                    className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
                   >
                     <svg
                       className="Icon__StyledIcon-xqsk8h-0 fbbAiQ"
@@ -4839,7 +4839,7 @@ Array [
                 >
                   Text 2
                   <div
-                    className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+                    className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
                   >
                     <svg
                       className="Icon__StyledIcon-xqsk8h-0 fbbAiQ"
@@ -5371,7 +5371,7 @@ Array [
                 >
                   Text 3
                   <div
-                    className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+                    className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
                   >
                     <svg
                       className="Icon__StyledIcon-xqsk8h-0 fbbAiQ"
@@ -9683,7 +9683,7 @@ Array [
                 className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
               >
                 <div
-                  className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+                  className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
                 >
                   <svg
                     className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -10215,7 +10215,7 @@ Array [
                 className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
               >
                 <div
-                  className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+                  className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
                 >
                   <svg
                     className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -10747,7 +10747,7 @@ Array [
                 className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
               >
                 <div
-                  className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+                  className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
                 >
                   <svg
                     className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -12352,7 +12352,7 @@ Array [
                 >
                   Text 1
                   <div
-                    className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+                    className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
                   >
                     <svg
                       className="Icon__StyledIcon-xqsk8h-0 fbbAiQ"
@@ -12884,7 +12884,7 @@ Array [
                 >
                   Text 2
                   <div
-                    className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+                    className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
                   >
                     <svg
                       className="Icon__StyledIcon-xqsk8h-0 fbbAiQ"
@@ -13416,7 +13416,7 @@ Array [
                 >
                   Text 3
                   <div
-                    className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+                    className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
                   >
                     <svg
                       className="Icon__StyledIcon-xqsk8h-0 fbbAiQ"
@@ -17189,7 +17189,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
             >
               <div
-                className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+                className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
               >
                 <svg
                   className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -17721,7 +17721,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
             >
               <div
-                className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+                className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
               >
                 <svg
                   className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -18253,7 +18253,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
             >
               <div
-                className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+                className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
               >
                 <svg
                   className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -19858,7 +19858,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               >
                 Text 1
                 <div
-                  className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+                  className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
                 >
                   <svg
                     className="Icon__StyledIcon-xqsk8h-0 fbbAiQ"
@@ -20390,7 +20390,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               >
                 Text 2
                 <div
-                  className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+                  className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
                 >
                   <svg
                     className="Icon__StyledIcon-xqsk8h-0 fbbAiQ"
@@ -20922,7 +20922,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               >
                 Text 3
                 <div
-                  className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+                  className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
                 >
                   <svg
                     className="Icon__StyledIcon-xqsk8h-0 fbbAiQ"

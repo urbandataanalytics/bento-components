@@ -4294,7 +4294,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
             className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
           >
             <div
-              className="ListItem__StyledLeftContent-sc-4kscw7-0 fKiLMm"
+              className="ListItem__StyledLeftContent-sc-4kscw7-0 kZLXlw"
             >
               <svg
                 className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -4827,7 +4827,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
           >
             Text
             <div
-              className="ListItem__StyledRightContent-sc-4kscw7-2 ipGEVH"
+              className="ListItem__StyledRightContent-sc-4kscw7-2 cZFoFh"
             >
               <svg
                 className="Icon__StyledIcon-xqsk8h-0 fYJxjg"

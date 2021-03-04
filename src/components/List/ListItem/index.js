@@ -23,10 +23,7 @@ export const StyledLeftContent = styled.div`
   ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
 
   > svg {
-    fill: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
+    fill: ${props => (props.active ? props.theme.components.listItemColorActive : '')};
     ${props => props.focused && `fill: ${props.theme.components.listItemColorFocused}`};
     ${props => props.disabled && `fill: ${props.theme.components.listItemColorDisabled}`}
   }
@@ -60,10 +57,7 @@ export const StyledRightContent = styled.div`
   ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
 
   > svg {
-    fill: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
+    fill: ${props => (props.active ? props.theme.components.listItemColorActive : '')};
     ${props => props.disabled && `fill: ${props.theme.components.listItemColorDisabled}`}
     ${props => props.focused && `fill: ${props.theme.components.listItemColorFocused}`};
   }
