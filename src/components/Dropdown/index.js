@@ -50,14 +50,22 @@ const calculatePosition = (align, position, dimensions) => {
     containerWidth,
     popperHeight,
     popperWidth,
-    windowWidth
+    windowWidth,
+    windowHeight
   } = dimensions;
 
   let top = 0;
   let left = 0;
 
-  top =
-    position === 'bottom' ? containerTop + containerHeight + 10 : containerTop - popperHeight - 10;
+  const bottomPosition = containerTop + containerHeight + 10;
+  const topPosition = containerTop - popperHeight - 10;
+
+  if (position === 'bottom') {
+    top = bottomPosition + popperHeight > windowHeight ? topPosition : bottomPosition;
+  } else {
+    top = topPosition <= 0 ? bottomPosition : topPosition;
+  }
+
   if (align === 'left') {
     left = containerLeft;
     if (left <= DROPDOWN_OFFSET) {
