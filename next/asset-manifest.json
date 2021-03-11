@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "./main.c75c372f183246a64d75.bundle.js",
-    "main.js.map": "./main.c75c372f183246a64d75.bundle.js.map",
-    "runtime~main.js": "./runtime~main.c75c372f183246a64d75.bundle.js",
-    "runtime~main.js.map": "./runtime~main.c75c372f183246a64d75.bundle.js.map",
+    "main.js": "./main.5ad271e888a2bc2a98c7.bundle.js",
+    "main.js.map": "./main.5ad271e888a2bc2a98c7.bundle.js.map",
+    "runtime~main.js": "./runtime~main.5ad271e888a2bc2a98c7.bundle.js",
+    "runtime~main.js.map": "./runtime~main.5ad271e888a2bc2a98c7.bundle.js.map",
     "vendors~main.css": "./static/css/vendors~main.ed590494.chunk.css",
-    "vendors~main.js": "./vendors~main.c75c372f183246a64d75.bundle.js",
+    "vendors~main.js": "./vendors~main.5ad271e888a2bc2a98c7.bundle.js",
     "vendors~main.css.map": "./static/css/vendors~main.ed590494.chunk.css.map",
-    "vendors~main.js.map": "./vendors~main.c75c372f183246a64d75.bundle.js.map",
+    "vendors~main.js.map": "./vendors~main.5ad271e888a2bc2a98c7.bundle.js.map",
     "iframe.html": "./iframe.html",
-    "precache-manifest.f997b45d864f02ce4ee79f9fdcdf9508.js": "./precache-manifest.f997b45d864f02ce4ee79f9fdcdf9508.js",
+    "precache-manifest.d32e1df657c801367523a41372d1b3c0.js": "./precache-manifest.d32e1df657c801367523a41372d1b3c0.js",
     "service-worker.js": "./service-worker.js",
     "static/media/logo-bento-dark.svg": "./static/media/logo-bento-dark.6a25f0fb.svg",
-    "vendors~main.c75c372f183246a64d75.bundle.js.LICENSE.txt": "./vendors~main.c75c372f183246a64d75.bundle.js.LICENSE.txt"
+    "vendors~main.5ad271e888a2bc2a98c7.bundle.js.LICENSE.txt": "./vendors~main.5ad271e888a2bc2a98c7.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.c75c372f183246a64d75.bundle.js",
+    "runtime~main.5ad271e888a2bc2a98c7.bundle.js",
     "static/css/vendors~main.ed590494.chunk.css",
-    "vendors~main.c75c372f183246a64d75.bundle.js",
-    "main.c75c372f183246a64d75.bundle.js"
+    "vendors~main.5ad271e888a2bc2a98c7.bundle.js",
+    "main.5ad271e888a2bc2a98c7.bundle.js"
   ]
 }
