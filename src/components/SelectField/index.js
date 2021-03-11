@@ -87,6 +87,7 @@ const SelectField = React.forwardRef((props, ref) => {
   const {
     className,
     defaultLabel,
+    defaultValue,
     disabled,
     error,
     help,
@@ -113,7 +114,7 @@ const SelectField = React.forwardRef((props, ref) => {
           ref={ref}
           {...other}
         >
-          {defaultLabel && <option defaultValue>{defaultLabel}</option>}
+          {defaultLabel && <option value={defaultValue}>{defaultLabel}</option>}
           {options &&
             options.map((opt, key) => (
               <option key={key} value={opt.value}>
@@ -131,6 +132,7 @@ const SelectField = React.forwardRef((props, ref) => {
 SelectField.propTypes = {
   className: PropTypes.string,
   defaultLabel: PropTypes.string,
+  defaultValue: PropTypes.string,
   disabled: PropTypes.bool,
   error: PropTypes.bool,
   help: PropTypes.string,
@@ -144,6 +146,7 @@ SelectField.propTypes = {
 
 SelectField.defaultProps = {
   value: '',
+  defaultValue: '',
   disabled: false
 };
 
