@@ -125,3 +125,6 @@ export * from './components/InlineInputField';
 
 export { default as Separator } from './components/Separator';
 export * from './components/Separator';
+
+export { default as TextareaField } from './components/TextareaField';
+export * from './components/TextareaField';
