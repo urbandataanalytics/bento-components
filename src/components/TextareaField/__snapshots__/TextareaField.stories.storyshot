@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots TextareaField Disabled 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div>
+    <label
+      className="TextareaField__Label-sc-16uni0c-3 ekHYWB"
+    >
+      <textarea
+        className="TextareaField__Textarea-sc-16uni0c-2 iHqEbM"
+        disabled={true}
+        placeholder="Placeholder text"
+        value="Value text"
+      />
+      <p
+        className="TextareaField__LabelText-sc-16uni0c-0 ixGIyV"
+        disabled={true}
+      >
+        Label text
+      </p>
+    </label>
+    <small
+      className="TextareaField__HelpText-sc-16uni0c-1 enucUr"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TextareaField Error 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div>
+    <label
+      className="TextareaField__Label-sc-16uni0c-3 ekHYWB"
+    >
+      <textarea
+        className="TextareaField__Textarea-sc-16uni0c-2 iHqEbM error"
+        disabled={false}
+        placeholder="Placeholder text"
+        value="Value text"
+      />
+      <p
+        className="TextareaField__LabelText-sc-16uni0c-0 ixGIyV"
+        disabled={false}
+      >
+        Label text
+      </p>
+    </label>
+    <small
+      className="TextareaField__HelpText-sc-16uni0c-1 enucUr error"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TextareaField Normal 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div>
+    <label
+      className="TextareaField__Label-sc-16uni0c-3 ekHYWB"
+    >
+      <textarea
+        className="TextareaField__Textarea-sc-16uni0c-2 iHqEbM"
+        disabled={false}
+        placeholder="Placeholder text"
+        value="Value text"
+      />
+      <p
+        className="TextareaField__LabelText-sc-16uni0c-0 ixGIyV"
+        disabled={false}
+      >
+        Label text
+      </p>
+    </label>
+    <small
+      className="TextareaField__HelpText-sc-16uni0c-1 enucUr"
+    >
+      Help text
+    </small>
+  </div>
+</div>
+`;

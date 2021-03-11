@@ -365,6 +365,31 @@ const components = {
   inputFieldPlaceholderColor: color.charcoal400,
   inputFieldTextIndent: spacings.small4,
 
+  /*TextareaField Theme props*/
+
+  textareaFieldBackgroundColor: color.white,
+  textareaFieldBorderColor: color.charcoal400,
+  textareaFieldBorderRadius: shapes.borderRadiusMedium,
+  textareaFieldDisabledBackgroundColor: color.charcoal200,
+  textareaFieldDisabledBorderColor: color.charcoal400,
+  textareaFieldDisabledColor: color.charcoal400,
+  textareaFieldDisabledLabelColor: color.charcoal400,
+  textareaFieldErrorBackgroundColor: color.redclay100,
+  textareaFieldErrorBorderColor: color.redclay500,
+  textareaFieldErrorHelpColor: color.redclay500,
+  textareaFieldErrorPlaceholderColor: color.redclay500,
+  textareaFieldFocusBackgroundColor: color.primary100,
+  textareaFieldFocusBorderColor: color.primary300,
+  textareaFieldFocusLabelColor: color.primary300,
+  textareaFieldFontSize: '14px',
+  textareaFieldHelpColor: color.charcoal800,
+  textareaFieldHelpFontSize: '12px',
+  textareaFieldLabelColor: color.charcoal700,
+  textareaFieldLabelFontSize: '12px',
+  textareaFieldLineHeight: '48px',
+  textareaFieldPlaceholderColor: color.charcoal400,
+  textareaFieldTextIndent: spacings.small4,
+
   /*InlineInputField Theme props*/
 
   inlineInputFieldBackgroundColor: color.charcoal200,

@@ -119,3 +119,6 @@ export * from './components/Carousel';
 
 export { default as InlineInputField } from './components/InlineInputField';
 export * from './components/InlineInputField';
+
+export { default as TextareaField } from './components/TextareaField';
+export * from './components/TextareaField';
