@@ -536,7 +536,7 @@ exports[`Storyshots SelectField Playground 1`] = `
         value="en"
       >
         <option
-          defaultValue={true}
+          value=""
         >
           Select Value
         </option>
