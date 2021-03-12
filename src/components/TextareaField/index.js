@@ -30,6 +30,7 @@ HelpText.defaultProps = {
 };
 
 export const Textarea = styled.textarea`
+  min-height: 100px;
   resize: vertical;
   appearance: none;
   outline: 0;
