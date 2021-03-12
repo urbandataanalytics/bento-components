@@ -2,41 +2,62 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const StyledSeparator = styled.i`
-  position: relative;
-  display: block;
+const StyledContainer = styled.div`
   margin: ${({ theme }) => theme.spacings.medium1} 0;
-  ${({ theme }) => theme.texts.p2b};
-  color: ${({ theme }) => theme.color.charcoal600};
+  position: relative;
+  width: ${({ width }) => (width ? width : '100%')};
+  margin: 0 auto;
+`;
+
+const StyledWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const StyledLine = styled.hr`
+  border: 1px solid ${({ theme }) => theme.color.charcoal400};
+  width: 100%;
+`;
+
+const StyledLabel = styled.div`
   text-align: center;
-  top: 9px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 
   > span {
+    ${({ theme }) => theme.texts.p2b};
+    color: ${({ theme }) => theme.color.charcoal600};
     background-color: white;
     padding: 0 12px;
-    position: relative;
-    top: -9px;
-    z-index: 1;
-  }
-
-  &:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    border-top: 1px solid ${({ theme }) => theme.color.charcoal400};
   }
 `;
 
 const Separator = props => {
-  const { label, ...other } = props;
+  const { label, width, ...other } = props;
 
-  return <StyledSeparator>{label ? <span>{label}</span> : null}</StyledSeparator>;
+  return (
+    <StyledContainer width={width}>
+      {label && (
+        <StyledLabel>
+          <span>{label}</span>
+        </StyledLabel>
+      )}
+      <StyledWrapper>
+        <StyledLine />
+      </StyledWrapper>
+    </StyledContainer>
+  );
 };
 
 Separator.propTypes = {
-  label: PropTypes.string
+  label: PropTypes.string,
+  width: PropTypes.string
 };
 
 Separator.displayName = 'Separator';
