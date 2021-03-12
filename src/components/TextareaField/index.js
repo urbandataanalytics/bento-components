@@ -30,6 +30,7 @@ HelpText.defaultProps = {
 };
 
 export const Textarea = styled.textarea`
+  resize: vertical;
   appearance: none;
   outline: 0;
   font-family: ${props => props.theme.global.fontFamily};
