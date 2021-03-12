@@ -9,9 +9,17 @@ exports[`Storyshots Separator Playground 1`] = `
     }
   }
 >
-  <i
-    className="Separator__StyledSeparator-y87nwe-0 fLtOsP"
-  />
+  <div
+    className="Separator__StyledContainer-y87nwe-0 fYQAah"
+  >
+    <div
+      className="Separator__StyledWrapper-y87nwe-1 bkojVI"
+    >
+      <hr
+        className="Separator__StyledLine-y87nwe-2 cKqBbM"
+      />
+    </div>
+  </div>
 </div>
 `;
 
@@ -24,12 +32,23 @@ exports[`Storyshots Separator With Label 1`] = `
     }
   }
 >
-  <i
-    className="Separator__StyledSeparator-y87nwe-0 fLtOsP"
+  <div
+    className="Separator__StyledContainer-y87nwe-0 fYQAah"
   >
-    <span>
-      O
-    </span>
-  </i>
+    <div
+      className="Separator__StyledLabel-y87nwe-3 klxkJW"
+    >
+      <span>
+        O
+      </span>
+    </div>
+    <div
+      className="Separator__StyledWrapper-y87nwe-1 bkojVI"
+    >
+      <hr
+        className="Separator__StyledLine-y87nwe-2 cKqBbM"
+      />
+    </div>
+  </div>
 </div>
 `;
