@@ -25,11 +25,15 @@ exports[`Storyshots TextareaField Disabled 1`] = `
         Label text
       </p>
     </label>
-    <small
-      className="TextareaField__HelpText-sc-16uni0c-1 enucUr"
+    <div
+      className="TextareaField__SubContainer-sc-16uni0c-4 ilPzso"
     >
-      Help text
-    </small>
+      <small
+        className="TextareaField__HelpText-sc-16uni0c-1 enucUr"
+      >
+        Help text
+      </small>
+    </div>
   </div>
 </div>
 `;
@@ -59,11 +63,15 @@ exports[`Storyshots TextareaField Error 1`] = `
         Label text
       </p>
     </label>
-    <small
-      className="TextareaField__HelpText-sc-16uni0c-1 enucUr error"
+    <div
+      className="TextareaField__SubContainer-sc-16uni0c-4 ilPzso"
     >
-      Help text
-    </small>
+      <small
+        className="TextareaField__HelpText-sc-16uni0c-1 enucUr error"
+      >
+        Help text
+      </small>
+    </div>
   </div>
 </div>
 `;
@@ -93,11 +101,15 @@ exports[`Storyshots TextareaField Normal 1`] = `
         Label text
       </p>
     </label>
-    <small
-      className="TextareaField__HelpText-sc-16uni0c-1 enucUr"
+    <div
+      className="TextareaField__SubContainer-sc-16uni0c-4 ilPzso"
     >
-      Help text
-    </small>
+      <small
+        className="TextareaField__HelpText-sc-16uni0c-1 enucUr"
+      >
+        Help text
+      </small>
+    </div>
   </div>
 </div>
 `;
