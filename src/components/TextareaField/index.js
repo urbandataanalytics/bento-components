@@ -112,6 +112,12 @@ Label.defaultProps = {
   theme: defaultTheme
 };
 
+const SubContainer = styled.div`
+  display: flex;
+  justify-content: ${({ help }) => (help ? 'space-between' : 'flex-end')};
+  width: 100%;
+`;
+
 const TextareaField = React.forwardRef((props, ref) => {
   const {
     className,
@@ -124,6 +130,8 @@ const TextareaField = React.forwardRef((props, ref) => {
     placeholder,
     tabIndex,
     value,
+    maxlength,
+    counter,
     ...other
   } = props;
 
@@ -133,17 +141,24 @@ const TextareaField = React.forwardRef((props, ref) => {
         <Textarea
           className={error ? `error` : null}
           disabled={disabled}
-          value={value}
+          value={value.length < maxlength ? value : value.slice(0, maxlength)}
           name={name}
-          onChange={onChange}
           placeholder={placeholder}
           tabIndex={tabIndex}
+          onChange={onChange}
           ref={ref}
           {...other}
         />
         {label && <LabelText disabled={disabled}>{label}</LabelText>}
       </Label>
-      {help && <HelpText className={error ? 'error' : null}>{help}</HelpText>}
+      <SubContainer help={help}>
+        {help && <HelpText className={error ? 'error' : null}>{help}</HelpText>}
+        {maxlength && counter && (
+          <HelpText>
+            {value.length < maxlength ? value.length : maxlength}/{maxlength}
+          </HelpText>
+        )}
+      </SubContainer>
     </div>
   );
 });
@@ -158,12 +173,15 @@ TextareaField.propTypes = {
   onChange: PropTypes.func,
   placeholder: PropTypes.string,
   tabIndex: PropTypes.string,
-  value: PropTypes.string
+  value: PropTypes.string,
+  maxlength: PropTypes.number,
+  counter: PropTypes.bool
 };
 
 TextareaField.defaultProps = {
   value: '',
-  disabled: false
+  disabled: false,
+  counter: true
 };
 
 TextareaField.displayName = 'TextareaField';

@@ -71,6 +71,18 @@ export default {
       table: {
         category: 'content'
       }
+    },
+    counter: {
+      description: 'Shows the counter of characters left if there are limitations',
+      table: {
+        category: 'format'
+      }
+    },
+    maxlength: {
+      description: 'Stablished the max count of characters allowed in the text area',
+      table: {
+        category: 'content'
+      }
     }
   },
   args: {

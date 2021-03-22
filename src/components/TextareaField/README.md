@@ -28,3 +28,5 @@ Table below contains all types of the props available in the TextareaField compo
 | placeholder | `string`              |         | Assigns 'placeholder' attribute to the input, displaying assisting text inside the field, and dissapears when something is written into the input |
 | tabIndex    | `string`              |         | Assigns "tabIndex" attribute to the input, in order to control focus and sequential navigation                                                    |
 | value       | `string`              | `""`    | Sets an initial value of the input field                                                                                                          |
+| counter     | `boolean`             | `true`  | Shows the count of characters left if maxlength is informed.                                                                                      |
+| maxlength   | `number`              |         | Number of max characters allowed in the field                                                                                                     |
