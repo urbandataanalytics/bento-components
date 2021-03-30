@@ -5,6 +5,7 @@ export interface SwitchButtonsProps {
     value: string | number
   ) => void | Promise<any>;
   value?: string | number;
+  variant?: 'tabs' | 'button';
 }
 
 declare const SwitchButtons: React.FunctionComponent<SwitchButtonsProps>;

@@ -8,6 +8,12 @@ export default {
   component: SwitchButtons,
   subcomponents: { ButtonLink },
   argTypes: {
+    variant: {
+      description: ' Modify style of children',
+      table: {
+        category: 'format'
+      }
+    },
     children: {
       description: ' Elements to switch within',
       control: 'none',
