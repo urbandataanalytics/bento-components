@@ -79,6 +79,7 @@ CarouselWrapper.defaultProps = {
 };
 
 const ThumbsContainer = styled.div`
+  border-radius: ${({ rounded, theme }) => (rounded ? theme.spacings.small1 : 0)};
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -218,7 +219,7 @@ const Carousel = React.forwardRef((props, ref) => {
       </CarouselComponent>
       {thumbnailsEnabled ? (
         <>
-          <ThumbsContainer ref={thumbViewportRef}>
+          <ThumbsContainer ref={thumbViewportRef} rounded={rounded}>
             <Thumbs>
               {slides.map((slide, index) => (
                 <Thumb
