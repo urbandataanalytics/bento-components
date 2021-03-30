@@ -5,6 +5,12 @@ export default {
   title: 'Carousel',
   component: Carousel,
   argTypes: {
+    gap: {
+      description: 'Defines gap between thumbnails (only with thumbnails active)',
+      table: {
+        category: 'format'
+      }
+    },
     controlOffset: {
       description:
         'Defines the separation of the `next` and `previous` controls from the edge of the image',
@@ -106,6 +112,7 @@ export default {
     ],
     draggable: false,
     controlOffset: '10px',
+    gap: '16px',
     loop: false,
     rounded: false,
     startIndex: 0,
