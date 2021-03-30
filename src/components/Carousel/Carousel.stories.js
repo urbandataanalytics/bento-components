@@ -8,7 +8,7 @@ export default {
     gap: {
       description: 'Defines gap between thumbnails (only with thumbnails active)',
       table: {
-        category: 'behaviour'
+        category: 'format'
       }
     },
     controlOffset: {
