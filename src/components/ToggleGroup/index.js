@@ -3,26 +3,34 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 
-const StyledSwitchButtonsContainer = styled.div`
+const StyledToggleGroupContainer = styled.div`
+
   > button.switch__button {
     ${({ theme }) => theme.texts.p1}
     padding: ${({ theme }) => `${theme.spacings.small2} ${theme.spacings.small3}`};
+    background-color: ${({ theme }) => theme.color.white};    
     margin-right: ${({ theme }) => theme.spacings.small2};
-    border: 2px solid transparent;
+    border: 1px solid ${({ theme }) => theme.color.charcoal300};
     color: ${({ theme }) => theme.color.charcoal600};
+
     &.active {
       ${({ theme }) => theme.texts.p1b}
       color: ${({ theme }) => theme.color.primary500};
       border: 2px solid ${({ theme }) => theme.color.primary500};
     }
+
+    &:hover{
+      background-color: ${({ theme }) => theme.color.charcoal300};
+    }
+
   }
 `;
 
-StyledSwitchButtonsContainer.defaultProps = {
+StyledToggleGroupContainer.defaultProps = {
   theme: defaultTheme
 };
 
-const SwitchButtons = props => {
+const ToggleGroup = props => {
   const { variant, value, onChange, children: childrenProp, ...other } = props;
   const children = React.Children.map(childrenProp, (child, childIndex) => {
     if (!React.isValidElement(child)) {
@@ -45,23 +53,23 @@ const SwitchButtons = props => {
   });
 
   return (
-    <StyledSwitchButtonsContainer variant={variant} {...other}>
+    <StyledToggleGroupContainer variant={variant} {...other}>
       {children}
-    </StyledSwitchButtonsContainer>
+    </StyledToggleGroupContainer>
   );
 };
 
-SwitchButtons.propTypes = {
+ToggleGroup.propTypes = {
   children: PropTypes.node,
   onChange: PropTypes.func,
   variant: PropTypes.oneOf(['tabs', 'buttons']),
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-SwitchButtons.displayName = 'SwitchButtons';
+ToggleGroup.displayName = 'ToggleGroup';
 
-SwitchButtons.defaultProps = {
+ToggleGroup.defaultProps = {
   variant: 'tabs'
 };
 
-export default SwitchButtons;
+export default ToggleGroup;

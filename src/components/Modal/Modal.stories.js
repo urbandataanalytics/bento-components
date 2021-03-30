@@ -99,10 +99,6 @@ export const Playground = ({ onClose, footer, ...args }) => {
   );
 };
 
-Playground.args = {
-  isOpen: true
-};
-
 export const WithOverflow = ({ footer, ...args }) => {
   const [{ isOpen }, updateArgs] = useArgs();
   const handleClose = () => updateArgs({ isOpen: !isOpen });

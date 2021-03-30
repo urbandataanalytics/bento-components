@@ -1,4 +1,4 @@
-export interface SwitchButtonsProps {
+export interface ToggleGroupProps {
   children?: React.ReactNode;
   onChange?: (
     ev: SyntheticInputEvent<HTMLInputElement>,
@@ -8,6 +8,6 @@ export interface SwitchButtonsProps {
   variant?: 'tabs' | 'button';
 }
 
-declare const SwitchButtons: React.FunctionComponent<SwitchButtonsProps>;
+declare const ToggleGroup: React.FunctionComponent<ToggleGroupProps>;
 
-export default SwitchButtons;
+export default ToggleGroup;

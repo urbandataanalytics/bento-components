@@ -122,3 +122,6 @@ export * from './components/InlineInputField';
 
 export { default as TextareaField } from './components/TextareaField';
 export * from './components/TextareaField';
+
+export { default as ToggleGroup } from './components/ToggleGroup';
+export * from './components/ToggleGroup';

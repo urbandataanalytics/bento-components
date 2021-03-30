@@ -1,11 +1,11 @@
 import React from 'react';
-import SwitchButtons from './index';
+import ToggleGroup from './index';
 import ButtonLink from '../ButtonLink/index.js';
 import { useArgs } from '@storybook/client-api';
 
 export default {
-  title: 'SwitchButtons',
-  component: SwitchButtons,
+  title: 'ToggleGroup',
+  component: ToggleGroup,
   subcomponents: { ButtonLink },
   argTypes: {
     variant: {
@@ -46,15 +46,38 @@ export const Playground = ({ onChange, ...args }) => {
   const handleChange = value => updateArgs({ value: value });
   return (
     <div style={containerStyle}>
-      <SwitchButtons onChange={(e, value) => handleChange(value)} {...args}>
+      <ToggleGroup onChange={(e, value) => handleChange(value)} {...args}>
         <ButtonLink value="first">First</ButtonLink>
         <ButtonLink value="second">Second</ButtonLink>
         <ButtonLink value="third">Value</ButtonLink>
-      </SwitchButtons>
+      </ToggleGroup>
     </div>
   );
 };
 
 Playground.args = {
   value: 'first'
+};
+
+export const ButtonVariant = ({ onChange, ...args }) => {
+  const [{ value }, updateArgs] = useArgs();
+  const containerStyle = {
+    padding: '2rem'
+  };
+
+  const handleChange = value => updateArgs({ value: value });
+  return (
+    <div style={containerStyle}>
+      <ToggleGroup onChange={(e, value) => handleChange(value)} {...args}>
+        <ButtonLink value="first">First</ButtonLink>
+        <ButtonLink value="second">Second</ButtonLink>
+        <ButtonLink value="third">Value</ButtonLink>
+      </ToggleGroup>
+    </div>
+  );
+};
+
+ButtonVariant.args = {
+  value: 'second',
+  variant: 'buttons'
 };

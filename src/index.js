@@ -128,3 +128,6 @@ export * from './components/Separator';
 
 export { default as TextareaField } from './components/TextareaField';
 export * from './components/TextareaField';
+
+export { default as ToggleGroup } from './components/ToggleGroup';
+export * from './components/ToggleGroup';

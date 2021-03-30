@@ -39,7 +39,7 @@ const StyledLabel = styled.div`
 `;
 
 const Separator = props => {
-  const { label, width, ...other } = props;
+  const { label, width } = props;
 
   return (
     <StyledContainer width={width}>
