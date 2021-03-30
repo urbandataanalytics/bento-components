@@ -72,7 +72,7 @@ const CarouselWrapper = styled.div`
   margin-right: auto;
   display: grid;
   grid-template-columns: ${({ thumbnailsEnabled }) => (thumbnailsEnabled ? '75% 1fr' : '100% 1fr')};
-  grid-gap: ${({ theme }) => theme.spacings.small3};
+  grid-gap: ${({ gap }) => gap};
 `;
 CarouselWrapper.defaultProps = {
   theme: defaultTheme
@@ -87,7 +87,7 @@ const ThumbsContainer = styled.div`
 
 const Thumbs = styled.div`
   height: 100%;
-  margin-bottom: -${({ theme }) => theme.spacings.small3};
+  margin-bottom: -${({ gap }) => gap};
 `;
 Thumbs.defaultProps = {
   theme: defaultTheme
@@ -98,6 +98,7 @@ const Carousel = React.forwardRef((props, ref) => {
   const {
     controlOffset,
     draggable,
+    gap,
     loop,
     nextButton,
     onChange,
@@ -179,7 +180,7 @@ const Carousel = React.forwardRef((props, ref) => {
   }, [embla, onSelect, findSlidesInView]);
 
   return (
-    <CarouselWrapper thumbnailsEnabled={thumbnailsEnabled}>
+    <CarouselWrapper gap={gap} thumbnailsEnabled={thumbnailsEnabled}>
       <CarouselComponent>
         <CarouselContainer ref={emblaRef} rounded={rounded}>
           <CarouselSlidesContainer>
@@ -220,9 +221,10 @@ const Carousel = React.forwardRef((props, ref) => {
       {thumbnailsEnabled ? (
         <>
           <ThumbsContainer ref={thumbViewportRef} rounded={rounded}>
-            <Thumbs>
+            <Thumbs gap={gap}>
               {slides.map((slide, index) => (
                 <Thumb
+                  gap={gap}
                   key={index}
                   index={index}
                   imgSrc={slide}
@@ -261,6 +263,7 @@ Carousel.propTypes = {
 
 Carousel.defaultProps = {
   controlOffset: '10px',
+  gap: '16px',
   draggable: false,
   loop: true,
   onChange: () => {},
