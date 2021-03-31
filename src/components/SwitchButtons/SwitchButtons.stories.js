@@ -46,6 +46,9 @@ export const Playground = ({ onChange, ...args }) => {
   const handleChange = value => updateArgs({ value: value });
   return (
     <div style={containerStyle}>
+      <p
+        style={{ color: 'red' }}
+      >{`This component is deprecated, please reffer to <ToggleGroup/> instead`}</p>
       <SwitchButtons onChange={(e, value) => handleChange(value)} {...args}>
         <ButtonLink value="first">First</ButtonLink>
         <ButtonLink value="second">Second</ButtonLink>

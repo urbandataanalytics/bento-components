@@ -1,5 +1,7 @@
 # SwitchButtons
 
+_THIS COMPONENT IS DEPRECATED - PLEASE REFFER TO TOOGLE BUTTONS_
+
 To implement `SwitchButtons` component into your project you'll need to import it. It is often used with other components such as `ButtonLink`:
 
 ```jsx
