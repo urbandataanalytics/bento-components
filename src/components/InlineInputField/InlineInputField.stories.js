@@ -87,6 +87,13 @@ export default {
     textAlign: {
       description: 'Defines the text alignment both for the input and the help text',
       table: { category: 'format' }
+    },
+    prefix: {
+      description:
+        'Inserts a label with custom text in the left side of the input. The input text will not override the prefix. This option also changes the full style of the field to be used as a narrower variant.',
+      table: {
+        category: 'content'
+      }
     }
   },
   args: {
@@ -124,14 +131,15 @@ withIcon.args = {
   labelIcon: 'IconOrderDesc'
 };
 
-export const SeveralAlignment = ({ label, labelIcon, ...rest }) => {
+export const SeveralAlignment = ({ label, labelIcon, textAlign, ...rest }) => {
   const CustomIcon = Icons[labelIcon];
   return (
     <div style={decoratorStyles}>
-      <InlineInputField {...rest} label="very long label to test reactivity" />
+      <InlineInputField {...rest} textAlign="right" label="very long label to test reactivity" />
       <InlineInputField {...rest} label="label" labelIcon={labelIcon ? <CustomIcon /> : ''} />
       <InlineInputField
         {...rest}
+        textAlign="right"
         label="label with icon"
         labelIcon={labelIcon ? <CustomIcon /> : ''}
       />
@@ -162,4 +170,19 @@ export const Disabled = args => (
 
 Disabled.args = {
   disabled: true
+};
+
+export const WithInnerLabels = args => (
+  <div style={{ width: '250px' }}>
+    <div style={{ ...decoratorStyles }}>
+      <InlineInputField {...args} />
+    </div>
+  </div>
+);
+
+WithInnerLabels.args = {
+  prefix: '1.280€ ',
+  label: '',
+  help: '',
+  value: '25%'
 };

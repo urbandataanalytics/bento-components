@@ -416,6 +416,7 @@ const components = {
   inlineInputFieldLabelColor: color.charcoal600,
   inlineInputFieldLabelFontSize: '12px',
   inlineInputFieldLineHeight: '40px',
+  inlineInputFieldPrefixLineHeight: '32px',
   inlineInputFieldPlaceholderColor: color.charcoal400,
   inlineInputFieldTextIndent: spacings.small4,
 

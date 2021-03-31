@@ -9,11 +9,11 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
   }
 >
   <div
-    className="InlineInputField__FullInputContainer-jwshkl-0 jLvWZd"
+    className="InlineInputField__FullInputContainer-jwshkl-0 hhdzJM"
     label="Label text"
   >
     <label
-      className="InlineInputField__Label-jwshkl-6 cDcOBz"
+      className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <p
         className="InlineInputField__LabelText-jwshkl-1 gzviAo"
@@ -23,15 +23,19 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
       </p>
     </label>
     <div
-      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+      className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
-      <input
-        className="InlineInputField__Input-jwshkl-4 jcCXVQ"
-        disabled={true}
-        placeholder="Placeholder text"
-        type="text"
-        value="Value text"
-      />
+      <div
+        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+      >
+        <input
+          className="InlineInputField__Input-jwshkl-5 gIJAcl"
+          disabled={true}
+          placeholder="Placeholder text"
+          type="text"
+          value="Value text"
+        />
+      </div>
     </div>
     <small
       className="InlineInputField__HelpText-jwshkl-2 eXvLVg"
@@ -52,11 +56,11 @@ exports[`Storyshots InlineInputField Error 1`] = `
   }
 >
   <div
-    className="InlineInputField__FullInputContainer-jwshkl-0 jLvWZd"
+    className="InlineInputField__FullInputContainer-jwshkl-0 hhdzJM"
     label="Label text"
   >
     <label
-      className="InlineInputField__Label-jwshkl-6 cDcOBz"
+      className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <p
         className="InlineInputField__LabelText-jwshkl-1 gzviAo"
@@ -66,15 +70,19 @@ exports[`Storyshots InlineInputField Error 1`] = `
       </p>
     </label>
     <div
-      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+      className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
-      <input
-        className="InlineInputField__Input-jwshkl-4 jcCXVQ error"
-        disabled={false}
-        placeholder="Placeholder text"
-        type="text"
-        value="Value text"
-      />
+      <div
+        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+      >
+        <input
+          className="InlineInputField__Input-jwshkl-5 gIJAcl error"
+          disabled={false}
+          placeholder="Placeholder text"
+          type="text"
+          value="Value text"
+        />
+      </div>
     </div>
     <small
       className="InlineInputField__HelpText-jwshkl-2 eXvLVg error"
@@ -95,11 +103,11 @@ exports[`Storyshots InlineInputField Playground 1`] = `
   }
 >
   <div
-    className="InlineInputField__FullInputContainer-jwshkl-0 jLvWZd"
+    className="InlineInputField__FullInputContainer-jwshkl-0 hhdzJM"
     label="Label text"
   >
     <label
-      className="InlineInputField__Label-jwshkl-6 cDcOBz"
+      className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       
       <p
@@ -110,15 +118,19 @@ exports[`Storyshots InlineInputField Playground 1`] = `
       </p>
     </label>
     <div
-      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+      className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
-      <input
-        className="InlineInputField__Input-jwshkl-4 jcCXVQ"
-        disabled={false}
-        placeholder="Placeholder text"
-        type="text"
-        value="Value text"
-      />
+      <div
+        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+      >
+        <input
+          className="InlineInputField__Input-jwshkl-5 gIJAcl"
+          disabled={false}
+          placeholder="Placeholder text"
+          type="text"
+          value="Value text"
+        />
+      </div>
     </div>
     <small
       className="InlineInputField__HelpText-jwshkl-2 eXvLVg"
@@ -139,11 +151,11 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
   }
 >
   <div
-    className="InlineInputField__FullInputContainer-jwshkl-0 jLvWZd"
+    className="InlineInputField__FullInputContainer-jwshkl-0 hhdzJM"
     label="very long label to test reactivity"
   >
     <label
-      className="InlineInputField__Label-jwshkl-6 cDcOBz"
+      className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <p
         className="InlineInputField__LabelText-jwshkl-1 gzviAo"
@@ -153,29 +165,33 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       </p>
     </label>
     <div
-      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+      className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
-      <input
-        className="InlineInputField__Input-jwshkl-4 jcCXVQ"
-        disabled={false}
-        placeholder="Placeholder text"
-        type="text"
-        value="Value text"
-      />
+      <div
+        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+      >
+        <input
+          className="InlineInputField__Input-jwshkl-5 dmoHjr"
+          disabled={false}
+          placeholder="Placeholder text"
+          type="text"
+          value="Value text"
+        />
+      </div>
     </div>
     <small
-      className="InlineInputField__HelpText-jwshkl-2 eXvLVg"
+      className="InlineInputField__HelpText-jwshkl-2 cLScQt"
       label="very long label to test reactivity"
     >
       Help text
     </small>
   </div>
   <div
-    className="InlineInputField__FullInputContainer-jwshkl-0 jLvWZd"
+    className="InlineInputField__FullInputContainer-jwshkl-0 hhdzJM"
     label="label"
   >
     <label
-      className="InlineInputField__Label-jwshkl-6 cDcOBz"
+      className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <span
         className="InlineInputField__IconWrapper-jwshkl-3 kUFCQE"
@@ -457,6 +473,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "inlineInputFieldLabelFontSize": "12px",
                 "inlineInputFieldLineHeight": "40px",
                 "inlineInputFieldPlaceholderColor": "#DCDFE6",
+                "inlineInputFieldPrefixLineHeight": "32px",
                 "inlineInputFieldTextIndent": "24px",
                 "inputFieldBackgroundColor": "#FFFFFF",
                 "inputFieldBorderColor": "#DCDFE6",
@@ -730,15 +747,19 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       </p>
     </label>
     <div
-      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+      className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
-      <input
-        className="InlineInputField__Input-jwshkl-4 jcCXVQ"
-        disabled={false}
-        placeholder="Placeholder text"
-        type="text"
-        value="Value text"
-      />
+      <div
+        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+      >
+        <input
+          className="InlineInputField__Input-jwshkl-5 gIJAcl"
+          disabled={false}
+          placeholder="Placeholder text"
+          type="text"
+          value="Value text"
+        />
+      </div>
     </div>
     <small
       className="InlineInputField__HelpText-jwshkl-2 eXvLVg"
@@ -748,11 +769,11 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
     </small>
   </div>
   <div
-    className="InlineInputField__FullInputContainer-jwshkl-0 jLvWZd"
+    className="InlineInputField__FullInputContainer-jwshkl-0 hhdzJM"
     label="label with icon"
   >
     <label
-      className="InlineInputField__Label-jwshkl-6 cDcOBz"
+      className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <span
         className="InlineInputField__IconWrapper-jwshkl-3 kUFCQE"
@@ -1034,6 +1055,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "inlineInputFieldLabelFontSize": "12px",
                 "inlineInputFieldLineHeight": "40px",
                 "inlineInputFieldPlaceholderColor": "#DCDFE6",
+                "inlineInputFieldPrefixLineHeight": "32px",
                 "inlineInputFieldTextIndent": "24px",
                 "inputFieldBackgroundColor": "#FFFFFF",
                 "inputFieldBorderColor": "#DCDFE6",
@@ -1307,29 +1329,33 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       </p>
     </label>
     <div
-      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+      className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
-      <input
-        className="InlineInputField__Input-jwshkl-4 jcCXVQ"
-        disabled={false}
-        placeholder="Placeholder text"
-        type="text"
-        value="Value text"
-      />
+      <div
+        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+      >
+        <input
+          className="InlineInputField__Input-jwshkl-5 dmoHjr"
+          disabled={false}
+          placeholder="Placeholder text"
+          type="text"
+          value="Value text"
+        />
+      </div>
     </div>
     <small
-      className="InlineInputField__HelpText-jwshkl-2 eXvLVg"
+      className="InlineInputField__HelpText-jwshkl-2 cLScQt"
       label="label with icon"
     >
       Help text
     </small>
   </div>
   <div
-    className="InlineInputField__FullInputContainer-jwshkl-0 jLvWZd"
+    className="InlineInputField__FullInputContainer-jwshkl-0 hhdzJM"
     label="label no icon"
   >
     <label
-      className="InlineInputField__Label-jwshkl-6 cDcOBz"
+      className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <p
         className="InlineInputField__LabelText-jwshkl-1 gzviAo"
@@ -1339,15 +1365,19 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       </p>
     </label>
     <div
-      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+      className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
-      <input
-        className="InlineInputField__Input-jwshkl-4 jcCXVQ"
-        disabled={false}
-        placeholder="Placeholder text"
-        type="text"
-        value="Value text"
-      />
+      <div
+        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+      >
+        <input
+          className="InlineInputField__Input-jwshkl-5 gIJAcl"
+          disabled={false}
+          placeholder="Placeholder text"
+          type="text"
+          value="Value text"
+        />
+      </div>
     </div>
     <small
       className="InlineInputField__HelpText-jwshkl-2 eXvLVg"
@@ -1368,11 +1398,11 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
   }
 >
   <div
-    className="InlineInputField__FullInputContainer-jwshkl-0 jLvWZd"
+    className="InlineInputField__FullInputContainer-jwshkl-0 hhdzJM"
     label="Label text"
   >
     <label
-      className="InlineInputField__Label-jwshkl-6 cDcOBz"
+      className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <span
         className="InlineInputField__IconWrapper-jwshkl-3 kUFCQE"
@@ -1654,6 +1684,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
                 "inlineInputFieldLabelFontSize": "12px",
                 "inlineInputFieldLineHeight": "40px",
                 "inlineInputFieldPlaceholderColor": "#DCDFE6",
+                "inlineInputFieldPrefixLineHeight": "32px",
                 "inlineInputFieldTextIndent": "24px",
                 "inputFieldBackgroundColor": "#FFFFFF",
                 "inputFieldBorderColor": "#DCDFE6",
@@ -1927,15 +1958,19 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
       </p>
     </label>
     <div
-      className="InlineInputField__InputContainer-jwshkl-5 lqukC"
+      className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
-      <input
-        className="InlineInputField__Input-jwshkl-4 jcCXVQ"
-        disabled={false}
-        placeholder="Placeholder text"
-        type="text"
-        value="Value text"
-      />
+      <div
+        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+      >
+        <input
+          className="InlineInputField__Input-jwshkl-5 gIJAcl"
+          disabled={false}
+          placeholder="Placeholder text"
+          type="text"
+          value="Value text"
+        />
+      </div>
     </div>
     <small
       className="InlineInputField__HelpText-jwshkl-2 eXvLVg"
@@ -1943,6 +1978,55 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
     >
       Help text
     </small>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InlineInputField With Inner Labels 1`] = `
+<div
+  style={
+    Object {
+      "width": "250px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "padding": "2rem",
+      }
+    }
+  >
+    <div
+      className="InlineInputField__FullInputContainer-jwshkl-0 iHFQNH"
+      label=""
+      prefix="1.280€ "
+    >
+      
+      <div
+        className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
+      >
+        <div
+          className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+          prefix="1.280€ "
+        >
+          <p
+            className="InlineInputField__InnerLabel-jwshkl-8 jDepsm prefix"
+          >
+            1.280€ 
+          </p>
+          <input
+            className="InlineInputField__Input-jwshkl-5 gQLdgH"
+            disabled={false}
+            placeholder="Placeholder text"
+            prefix="1.280€ "
+            type="text"
+            value="25%"
+          />
+        </div>
+      </div>
+      
+    </div>
   </div>
 </div>
 `;

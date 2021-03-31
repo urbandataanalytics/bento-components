@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
@@ -8,7 +8,7 @@ const FullInputContainer = styled.div`
   display: grid;
   column-gap: 16px;
   grid-template-columns: ${({ label }) => (label ? '128px 10fr' : '1fr')};
-  grid-template-rows: ${({ helpText }) => (helpText ? '2fr 1fr' : '1fr')};
+  grid-template-rows: ${({ helpText }) => (helpText ? '1fr 1fr' : '1fr')};
 `;
 
 const LabelText = styled.p`
@@ -50,14 +50,10 @@ const IconWrapper = styled.span`
   }
 `;
 
-const Input = styled.input`
+const InputWrapper = styled.div`
+  align-items: center;
   outline: 0;
   width: 100%;
-  text-align: ${({ textAlign }) => textAlign};
-  font-size: ${({ theme }) => theme.components.inlineInputFieldFontSize};
-  line-height: ${({ theme }) => theme.components.inlineInputFieldLineHeight};
-  text-indent: ${({ theme }) => theme.components.inlineInputFieldTextIndent};
-  padding-right: ${({ textAlign }) => (textAlign === 'right' ? '24px' : 0)};
   border-radius: ${({ theme }) => theme.components.inlineInputFieldBorderRadius};
   border-width: 1px;
   border-style: solid;
@@ -65,6 +61,22 @@ const Input = styled.input`
   transition: ${({ theme }) => theme.global.transitionM};
   background-color: ${({ theme }) => theme.components.inlineInputFieldBackgroundColor};
   border-color: ${({ theme }) => theme.components.inlineInputFieldBorderColor};
+`;
+
+const Input = styled.input`
+  width: 100%;
+  padding-right: ${({ theme, textAlign, prefix }) =>
+    textAlign === 'right' || prefix ? theme.spacings.small3 : 0};
+  text-align: ${({ textAlign, prefix }) => (prefix ? 'right' : textAlign)};
+  font-weight: ${({ theme, prefix }) => (prefix ? theme.global.fontWeightBold : '')};
+  line-height: ${({ theme, prefix }) =>
+    prefix
+      ? theme.components.inlineInputFieldPrefixLineHeight
+      : theme.components.inlineInputFieldLineHeight};
+  text-indent: ${({ theme, prefix }) => (prefix ? 0 : theme.components.inlineInputFieldTextIndent)};
+  padding-left: ${({ prefix, prefixWidth }) => (prefix ? prefixWidth : 0)};
+  background-color: transparent;
+  border: none;
 
   &::placeholder {
     color: ${({ theme }) => theme.components.inlineInputFieldPlaceholderColor};
@@ -124,27 +136,49 @@ Label.defaultProps = {
   theme: defaultTheme
 };
 
+const InnerLabel = styled.p`
+  position: absolute;
+  ${({ theme }) => theme.texts.p1b};
+  color: ${({ theme }) => theme.color.charcoal600};
+  max-width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+
+  &.prefix {
+    padding: 6px 10px 0 ${({ theme }) => theme.spacings.small3};
+  }
+`;
+
 const InlineInputField = React.forwardRef((props, ref) => {
   const {
     className,
     disabled,
     error,
-    labelIcon,
-    label,
     help,
-    textAlign,
+    label,
+    labelIcon,
     name,
     onChange,
     placeholder,
+    prefix,
     tabIndex,
+    textAlign,
     type,
     value,
     ...other
   } = props;
+  const [prefixWidth, setPrefixWidth] = useState(null);
+
+  const getPrefixWidth = async node => {
+    if (node) {
+      const styles = await window.getComputedStyle(node);
+      setPrefixWidth(styles.width);
+    }
+  };
 
   return (
     <>
-      <FullInputContainer className={className} label={label} helpText={help}>
+      <FullInputContainer prefix={prefix} className={className} label={label} helpText={help}>
         {label && (
           <Label for={name}>
             {labelIcon && (
@@ -156,19 +190,32 @@ const InlineInputField = React.forwardRef((props, ref) => {
           </Label>
         )}
         <InputContainer>
-          <Input
-            textAlign={textAlign}
-            className={error ? `error` : null}
-            type={type}
-            disabled={disabled}
-            value={value}
-            name={name}
-            onChange={onChange}
-            placeholder={placeholder}
-            tabIndex={tabIndex}
-            ref={ref}
-            {...other}
-          />
+          <InputWrapper prefix={prefix}>
+            {prefix && (
+              <InnerLabel
+                ref={node => {
+                  getPrefixWidth(node);
+                }}
+                className={'prefix'}
+              >
+                {prefix}
+              </InnerLabel>
+            )}
+            <Input
+              textAlign={textAlign}
+              className={error ? `error` : null}
+              type={type}
+              prefixWidth={prefixWidth}
+              disabled={disabled}
+              prefix={prefix}
+              value={value}
+              name={name}
+              onChange={onChange}
+              placeholder={placeholder}
+              tabIndex={tabIndex}
+              {...other}
+            ></Input>
+          </InputWrapper>
         </InputContainer>
         {help && (
           <HelpText label={label} textAlign={textAlign} className={error ? 'error' : null}>
@@ -193,7 +240,8 @@ InlineInputField.propTypes = {
   type: PropTypes.string,
   value: PropTypes.string,
   textAlign: PropTypes.oneOf(['left', 'right']),
-  labelIcon: PropTypes.node
+  labelIcon: PropTypes.node,
+  prefix: PropTypes.string
 };
 
 InlineInputField.defaultProps = {

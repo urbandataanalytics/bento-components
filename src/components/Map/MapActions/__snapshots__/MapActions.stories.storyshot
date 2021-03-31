@@ -327,6 +327,7 @@ exports[`Storyshots MapActions Playground 1`] = `
                 "inlineInputFieldLabelFontSize": "12px",
                 "inlineInputFieldLineHeight": "40px",
                 "inlineInputFieldPlaceholderColor": "#DCDFE6",
+                "inlineInputFieldPrefixLineHeight": "32px",
                 "inlineInputFieldTextIndent": "24px",
                 "inputFieldBackgroundColor": "#FFFFFF",
                 "inputFieldBorderColor": "#DCDFE6",
