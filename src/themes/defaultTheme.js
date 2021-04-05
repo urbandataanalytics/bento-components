@@ -450,7 +450,7 @@ const components = {
   navigationLinkMargin: `0 ${spacings.small4} 0 0`,
   navigationHeaderPadding: '0 17px',
   navigationMinHeight: '40px',
-  navigationMaxHeight: '73px',
+  navigationMaxHeight: '56px',
 
   /* Notification Theme Props */
   accordionMinHeight: '65px',
