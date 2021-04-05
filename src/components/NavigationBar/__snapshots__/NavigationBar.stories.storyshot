@@ -5,7 +5,7 @@ exports[`Storyshots NavigationBar Loading 1`] = `
   className="NavigationBarSkeleton__StyledSkeleton-sc-1g8mcqk-0 fsXiYN"
 >
   <div
-    className="NavigationBarSkeleton__StyledLeft-sc-1g8mcqk-1 gWfcAH"
+    className="NavigationBarSkeleton__StyledLeft-sc-1g8mcqk-1 bpyVoC"
   >
     <div />
     <div>
@@ -42,7 +42,7 @@ exports[`Storyshots NavigationBar Playground 1`] = `
   }
 >
   <nav
-    className="NavigationBar__StyledNavigation-sc-8hnjeq-0 cvsREZ"
+    className="NavigationBar__StyledNavigation-sc-8hnjeq-0 cnGYzL"
   >
     <div
       className="NavigationBar__NavigationLeft-sc-8hnjeq-1 BnMzB"
@@ -398,7 +398,7 @@ exports[`Storyshots NavigationBar Playground 1`] = `
                       "navigationHeaderPadding": "0 17px",
                       "navigationLinkFontSize": "12px",
                       "navigationLinkMargin": "0 24px 0 0",
-                      "navigationMaxHeight": "73px",
+                      "navigationMaxHeight": "56px",
                       "navigationMenuBackgroundColor": "#EFF2F7",
                       "navigationMenuHoverBackgroundColor": "#DCDFE6",
                       "navigationMenuOpenBackgroundColor": "#EFF7FB",
@@ -1025,7 +1025,7 @@ exports[`Storyshots NavigationBar Playground 1`] = `
                     "navigationHeaderPadding": "0 17px",
                     "navigationLinkFontSize": "12px",
                     "navigationLinkMargin": "0 24px 0 0",
-                    "navigationMaxHeight": "73px",
+                    "navigationMaxHeight": "56px",
                     "navigationMenuBackgroundColor": "#EFF2F7",
                     "navigationMenuHoverBackgroundColor": "#DCDFE6",
                     "navigationMenuOpenBackgroundColor": "#EFF7FB",
@@ -1583,7 +1583,7 @@ exports[`Storyshots NavigationBar Playground 1`] = `
                     "navigationHeaderPadding": "0 17px",
                     "navigationLinkFontSize": "12px",
                     "navigationLinkMargin": "0 24px 0 0",
-                    "navigationMaxHeight": "73px",
+                    "navigationMaxHeight": "56px",
                     "navigationMenuBackgroundColor": "#EFF2F7",
                     "navigationMenuHoverBackgroundColor": "#DCDFE6",
                     "navigationMenuOpenBackgroundColor": "#EFF7FB",
@@ -1795,7 +1795,7 @@ exports[`Storyshots NavigationBar Playground 1`] = `
 
 exports[`Storyshots NavigationBar Without Menu 1`] = `
 <nav
-  className="NavigationBar__StyledNavigation-sc-8hnjeq-0 jEBpfx"
+  className="NavigationBar__StyledNavigation-sc-8hnjeq-0 iWjOhY"
 >
   <div
     className="NavigationBar__NavigationLeft-sc-8hnjeq-1 BnMzB"
