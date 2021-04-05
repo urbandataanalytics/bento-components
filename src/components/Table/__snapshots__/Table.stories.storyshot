@@ -17,7 +17,7 @@ exports[`Storyshots Table Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </th>
@@ -25,7 +25,7 @@ exports[`Storyshots Table Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </th>
@@ -33,7 +33,7 @@ exports[`Storyshots Table Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </th>
@@ -41,7 +41,7 @@ exports[`Storyshots Table Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </th>
@@ -53,7 +53,7 @@ exports[`Storyshots Table Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </td>
@@ -64,13 +64,13 @@ exports[`Storyshots Table Loading 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -79,7 +79,7 @@ exports[`Storyshots Table Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </td>
@@ -90,67 +90,13 @@ exports[`Storyshots Table Loading 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
-              width="100%"
-            />
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
-            height="10px"
-            opacity={1}
-            width="100%"
-          />
-        </td>
-        <td>
-          <div
-            className="TableSkeleton__StyledSplit-yfxmne-1 bdEPFj"
-          >
-            <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
-              height="10px"
-              opacity={1}
-              width="100%"
-            />
-            <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
-              height="10px"
-              opacity={1}
-              width="100%"
-            />
-          </div>
-        </td>
-        <td>
-          <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
-            height="10px"
-            opacity={1}
-            width="100%"
-          />
-        </td>
-        <td>
-          <div
-            className="TableSkeleton__StyledSplit-yfxmne-1 bdEPFj"
-          >
-            <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
-              height="10px"
-              opacity={1}
-              width="100%"
-            />
-            <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
-              height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -161,7 +107,7 @@ exports[`Storyshots Table Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </td>
@@ -172,13 +118,13 @@ exports[`Storyshots Table Loading 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -187,7 +133,7 @@ exports[`Storyshots Table Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </td>
@@ -198,13 +144,13 @@ exports[`Storyshots Table Loading 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -215,7 +161,7 @@ exports[`Storyshots Table Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </td>
@@ -226,13 +172,13 @@ exports[`Storyshots Table Loading 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -241,7 +187,7 @@ exports[`Storyshots Table Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </td>
@@ -252,13 +198,67 @@ exports[`Storyshots Table Loading 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
               height="10px"
-              opacity={1}
+              opacity="1"
+              width="100%"
+            />
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
+            height="10px"
+            opacity="1"
+            width="100%"
+          />
+        </td>
+        <td>
+          <div
+            className="TableSkeleton__StyledSplit-yfxmne-1 bdEPFj"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
+              height="10px"
+              opacity="1"
+              width="100%"
+            />
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
+              height="10px"
+              opacity="1"
+              width="100%"
+            />
+          </div>
+        </td>
+        <td>
+          <i
+            className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
+            height="10px"
+            opacity="1"
+            width="100%"
+          />
+        </td>
+        <td>
+          <div
+            className="TableSkeleton__StyledSplit-yfxmne-1 bdEPFj"
+          >
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
+              height="10px"
+              opacity="1"
+              width="100%"
+            />
+            <i
+              className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
+              height="10px"
+              opacity="1"
               width="100%"
             />
           </div>

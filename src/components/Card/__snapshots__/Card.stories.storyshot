@@ -20,20 +20,20 @@ exports[`Storyshots Card Loading 1`] = `
         <i
           className="Skeleton__StyledSkeleton-imrnkm-0 kapveI"
           height="10px"
-          opacity={1}
+          opacity="1"
           width="40px"
         />
         <div>
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
@@ -45,13 +45,13 @@ exports[`Storyshots Card Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 eimyDx"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="60%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
@@ -59,13 +59,13 @@ exports[`Storyshots Card Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 eimyDx"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="60%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
@@ -73,13 +73,13 @@ exports[`Storyshots Card Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 eimyDx"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="60%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
@@ -87,13 +87,13 @@ exports[`Storyshots Card Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 eimyDx"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="60%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
@@ -105,25 +105,25 @@ exports[`Storyshots Card Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 eimyDx"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="60%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
@@ -131,25 +131,25 @@ exports[`Storyshots Card Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 eimyDx"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="60%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 bcxUhn"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>

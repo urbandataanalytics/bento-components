@@ -63,5 +63,5 @@ export const WithOpacity = args => {
 };
 
 WithOpacity.args = {
-  opacity: 0.3
+  opacity: '0.3'
 };

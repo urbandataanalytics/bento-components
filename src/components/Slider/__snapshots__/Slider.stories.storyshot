@@ -15,7 +15,7 @@ exports[`Storyshots Slider Loading 1`] = `
       <i
         className="Skeleton__StyledSkeleton-imrnkm-0 jROCNn"
         height="10px"
-        opacity={1}
+        opacity="1"
         width="100%"
       />
     </div>

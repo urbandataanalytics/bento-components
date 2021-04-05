@@ -180,7 +180,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
     <>
       <FullInputContainer prefix={prefix} className={className} label={label} helpText={help}>
         {label && (
-          <Label for={name}>
+          <Label htmlFor={name}>
             {labelIcon && (
               <IconWrapper variant="secondary" disabled={disabled} size="medium">
                 {labelIcon}

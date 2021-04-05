@@ -20,19 +20,19 @@ exports[`Storyshots MapLegend Loading 1`] = `
         <i
           className="Skeleton__StyledSkeleton-imrnkm-0 jqlAbU"
           height="15px"
-          opacity={1}
+          opacity="1"
           width="50%"
         />
         <i
           className="Skeleton__StyledSkeleton-imrnkm-0 fkxxdy"
           height="8px"
-          opacity={1}
+          opacity="1"
           width="30%"
         />
         <i
           className="Skeleton__StyledSkeleton-imrnkm-0 jROCNn"
           height="10px"
-          opacity={1}
+          opacity="1"
           width="100%"
         />
         <div
@@ -41,13 +41,13 @@ exports[`Storyshots MapLegend Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 ijteZt"
             height="8px"
-            opacity={1}
+            opacity="1"
             width="50px"
           />
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 ijteZt"
             height="8px"
-            opacity={1}
+            opacity="1"
             width="50px"
           />
         </div>
@@ -61,7 +61,7 @@ exports[`Storyshots MapLegend Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 dAsGCI"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="20px"
           />
         </span>
@@ -71,7 +71,7 @@ exports[`Storyshots MapLegend Loading 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 dAsGCI"
             height="10px"
-            opacity={1}
+            opacity="1"
             width="20px"
           />
         </span>

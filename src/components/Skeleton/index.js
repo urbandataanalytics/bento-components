@@ -49,14 +49,14 @@ Skeleton.propTypes = {
   height: PropTypes.string,
   variant: PropTypes.oneOf(['square', 'circular', 'rounded', 'text']).isRequired,
   width: PropTypes.string.isRequired,
-  opacity: PropTypes.number
+  opacity: PropTypes.string
 };
 
 Skeleton.defaultProps = {
   height: '10px',
   width: '100%',
   variant: 'text',
-  opacity: 1
+  opacity: '1'
 };
 
 Skeleton.displayName = 'Skeleton';

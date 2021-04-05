@@ -28,7 +28,7 @@ exports[`Storyshots Carousel Playground 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -38,7 +38,7 @@ exports[`Storyshots Carousel Playground 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -48,7 +48,7 @@ exports[`Storyshots Carousel Playground 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -58,7 +58,7 @@ exports[`Storyshots Carousel Playground 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -68,7 +68,7 @@ exports[`Storyshots Carousel Playground 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -107,7 +107,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -117,7 +117,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -127,7 +127,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -137,7 +137,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -147,7 +147,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
             <i
               className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
-              opacity={1}
+              opacity="1"
               width="100%"
             />
           </div>
@@ -166,7 +166,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
             height="100%"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
@@ -176,7 +176,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
             height="100%"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
@@ -186,7 +186,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
             height="100%"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
@@ -196,7 +196,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
             height="100%"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
@@ -206,7 +206,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
           <i
             className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
             height="100%"
-            opacity={1}
+            opacity="1"
             width="100%"
           />
         </div>
