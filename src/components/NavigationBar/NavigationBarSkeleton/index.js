@@ -29,7 +29,7 @@ const StyledLeft = styled.div`
   display: flex;
   align-items: center;
   > div:first-child {
-    height: 71px;
+    height: ${({ theme }) => theme.components.navigationMaxHeight};
     width: 64px;
     background-color: ${({ theme }) => theme.color.charcoal400};
     animation: ${({ theme }) => theme.animations.loading} 1s infinite ease-in-out;
