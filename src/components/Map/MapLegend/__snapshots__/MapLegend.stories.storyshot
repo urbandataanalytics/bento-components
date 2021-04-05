@@ -18,31 +18,36 @@ exports[`Storyshots MapLegend Loading 1`] = `
         className="MapLegendSkeleton__StyledContainer-bfdz79-0 cyMWGv"
       >
         <i
-          className="Skeleton__StyledSkeleton-imrnkm-0 iZGcST"
+          className="Skeleton__StyledSkeleton-imrnkm-0 jqlAbU"
           height="15px"
+          opacity={1}
           width="50%"
         />
         <i
-          className="Skeleton__StyledSkeleton-imrnkm-0 gYGfWE"
+          className="Skeleton__StyledSkeleton-imrnkm-0 fkxxdy"
           height="8px"
+          opacity={1}
           width="30%"
         />
         <i
-          className="Skeleton__StyledSkeleton-imrnkm-0 jfNIcT"
+          className="Skeleton__StyledSkeleton-imrnkm-0 jROCNn"
           height="10px"
+          opacity={1}
           width="100%"
         />
         <div
           className="MapLegendSkeleton__StyledMinMax-bfdz79-2 fiBVbE"
         >
           <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 dSZPBY"
+            className="Skeleton__StyledSkeleton-imrnkm-0 ijteZt"
             height="8px"
+            opacity={1}
             width="50px"
           />
           <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 dSZPBY"
+            className="Skeleton__StyledSkeleton-imrnkm-0 ijteZt"
             height="8px"
+            opacity={1}
             width="50px"
           />
         </div>
@@ -54,8 +59,9 @@ exports[`Storyshots MapLegend Loading 1`] = `
           className="MapLegendSkeleton__StyledAction-bfdz79-4 bBJNJl"
         >
           <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 jQyOSG"
+            className="Skeleton__StyledSkeleton-imrnkm-0 dAsGCI"
             height="10px"
+            opacity={1}
             width="20px"
           />
         </span>
@@ -63,8 +69,9 @@ exports[`Storyshots MapLegend Loading 1`] = `
           className="MapLegendSkeleton__StyledAction-bfdz79-4 bBJNJl"
         >
           <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 jQyOSG"
+            className="Skeleton__StyledSkeleton-imrnkm-0 dAsGCI"
             height="10px"
+            opacity={1}
             width="20px"
           />
         </span>
