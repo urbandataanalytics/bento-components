@@ -15,18 +15,21 @@ exports[`Storyshots MapActions Loading 1`] = `
       className="MapActionsSkeleton__Style-sc-43veat-0 fpWInD"
     >
       <i
-        className="Skeleton__StyledSkeleton-imrnkm-0 FdIVx"
+        className="Skeleton__StyledSkeleton-imrnkm-0 iUhBHQ"
         height="14px"
+        opacity="1"
         width="75px"
       />
       <i
-        className="Skeleton__StyledSkeleton-imrnkm-0 FdIVx"
+        className="Skeleton__StyledSkeleton-imrnkm-0 iUhBHQ"
         height="14px"
+        opacity="1"
         width="75px"
       />
       <i
-        className="Skeleton__StyledSkeleton-imrnkm-0 FdIVx"
+        className="Skeleton__StyledSkeleton-imrnkm-0 iUhBHQ"
         height="14px"
+        opacity="1"
         width="75px"
       />
     </div>

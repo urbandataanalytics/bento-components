@@ -27,6 +27,7 @@ const componentVariants = (theme, width, height) => ({
 });
 
 const StyledSkeleton = styled.i`
+  opacity: ${({ opacity }) => opacity};
   ${({ theme, width, height, variant }) => componentVariants(theme, width, height)[variant]};
   animation: ${({ theme }) => theme.animations.loading} 1s infinite ease-in-out;
   display: block;
@@ -37,21 +38,25 @@ StyledSkeleton.defaultProps = {
 };
 
 const Skeleton = React.forwardRef((props, ref) => {
-  const { width, height, variant, ...other } = props;
+  const { width, height, opacity, variant, ...other } = props;
 
-  return <StyledSkeleton variant={variant} width={width} height={height} {...other} />;
+  return (
+    <StyledSkeleton variant={variant} width={width} height={height} opacity={opacity} {...other} />
+  );
 });
 
 Skeleton.propTypes = {
   height: PropTypes.string,
   variant: PropTypes.oneOf(['square', 'circular', 'rounded', 'text']).isRequired,
-  width: PropTypes.string.isRequired
+  width: PropTypes.string.isRequired,
+  opacity: PropTypes.string
 };
 
 Skeleton.defaultProps = {
   height: '10px',
   width: '100%',
-  variant: 'text'
+  variant: 'text',
+  opacity: '1'
 };
 
 Skeleton.displayName = 'Skeleton';

@@ -22,6 +22,13 @@ export default {
       table: {
         category: 'format'
       }
+    },
+    opacity: {
+      description:
+        'Allows to apply a certain opacity to make it work better on dark colors. 1 for default',
+      table: {
+        category: 'format'
+      }
     }
   },
   args: {
@@ -41,4 +48,20 @@ export const Playground = args => {
       <Skeleton {...args} />
     </div>
   );
+};
+
+export const WithOpacity = args => {
+  const containerStyle = {
+    padding: '2rem',
+    backgroundColor: 'darkblue'
+  };
+  return (
+    <div style={containerStyle}>
+      <Skeleton {...args} />
+    </div>
+  );
+};
+
+WithOpacity.args = {
+  opacity: '0.3'
 };

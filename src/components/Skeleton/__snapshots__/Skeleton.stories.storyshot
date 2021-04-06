@@ -9,8 +9,27 @@ exports[`Storyshots Skeleton Playground 1`] = `
   }
 >
   <i
-    className="Skeleton__StyledSkeleton-imrnkm-0 ewHUWZ"
+    className="Skeleton__StyledSkeleton-imrnkm-0 gbNhIG"
     height="10px"
+    opacity="1"
+    width="100px"
+  />
+</div>
+`;
+
+exports[`Storyshots Skeleton With Opacity 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "darkblue",
+      "padding": "2rem",
+    }
+  }
+>
+  <i
+    className="Skeleton__StyledSkeleton-imrnkm-0 dDhTuV"
+    height="10px"
+    opacity="0.3"
     width="100px"
   />
 </div>

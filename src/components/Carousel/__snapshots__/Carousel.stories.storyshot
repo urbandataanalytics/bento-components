@@ -26,8 +26,9 @@ exports[`Storyshots Carousel Playground 1`] = `
             className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
+              opacity="1"
               width="100%"
             />
           </div>
@@ -35,8 +36,9 @@ exports[`Storyshots Carousel Playground 1`] = `
             className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
+              opacity="1"
               width="100%"
             />
           </div>
@@ -44,8 +46,9 @@ exports[`Storyshots Carousel Playground 1`] = `
             className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
+              opacity="1"
               width="100%"
             />
           </div>
@@ -53,8 +56,9 @@ exports[`Storyshots Carousel Playground 1`] = `
             className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
+              opacity="1"
               width="100%"
             />
           </div>
@@ -62,8 +66,9 @@ exports[`Storyshots Carousel Playground 1`] = `
             className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
+              opacity="1"
               width="100%"
             />
           </div>
@@ -100,8 +105,9 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
             className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
+              opacity="1"
               width="100%"
             />
           </div>
@@ -109,8 +115,9 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
             className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
+              opacity="1"
               width="100%"
             />
           </div>
@@ -118,8 +125,9 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
             className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
+              opacity="1"
               width="100%"
             />
           </div>
@@ -127,8 +135,9 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
             className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
+              opacity="1"
               width="100%"
             />
           </div>
@@ -136,8 +145,9 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
             className="Slide__StyledSlideContainer-sc-1lch2cn-0 bdISsf"
           >
             <i
-              className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+              className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
               height="100%"
+              opacity="1"
               width="100%"
             />
           </div>
@@ -154,8 +164,9 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
           className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 cnzhQR"
         >
           <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+            className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
             height="100%"
+            opacity="1"
             width="100%"
           />
         </div>
@@ -163,8 +174,9 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
           className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 cnzhQR"
         >
           <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+            className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
             height="100%"
+            opacity="1"
             width="100%"
           />
         </div>
@@ -172,8 +184,9 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
           className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 cnzhQR"
         >
           <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+            className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
             height="100%"
+            opacity="1"
             width="100%"
           />
         </div>
@@ -181,8 +194,9 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
           className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 cnzhQR"
         >
           <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+            className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
             height="100%"
+            opacity="1"
             width="100%"
           />
         </div>
@@ -190,8 +204,9 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
           className="Thumbnails__StyledThumbContainer-sc-1tm7kn0-0 cnzhQR"
         >
           <i
-            className="Skeleton__StyledSkeleton-imrnkm-0 dMFhvO"
+            className="Skeleton__StyledSkeleton-imrnkm-0 kCcine"
             height="100%"
+            opacity="1"
             width="100%"
           />
         </div>
