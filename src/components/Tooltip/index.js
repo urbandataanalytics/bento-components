@@ -64,8 +64,7 @@ const StyledTooltipLabel = styled.div`
     width: 0px;
     ${({ position, theme }) => arrowPosition(theme)[position]}
   }
-  > div {
-  }
+
   p {
     ${({ theme }) => theme.texts.p2};
     color: ${({ theme }) => theme.color.white};
