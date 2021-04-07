@@ -43,6 +43,12 @@ export default {
       description: 'Displays a paragraph on the top as a title for the tooltip',
       table: { category: 'content' }
     },
+    width: {
+      description: 'Sets a width measure to limit the tooltip and force wrap',
+      table: {
+        category: 'format'
+      }
+    },
     value: {
       description: 'Displays a paragraph below the `title` with text for the tooltip',
       table: {
@@ -114,4 +120,24 @@ export const AllPositions = () => {
       </div>
     </div>
   );
+};
+
+export const MaxWidth = args => {
+  return (
+    <div style={containerStyle}>
+      <div style={{ ...buttonStyle, marginTop: '45px' }}>
+        <Tooltip {...args}>
+          <Button variant="primary" size="medium">
+            Mouse on
+          </Button>
+        </Tooltip>
+      </div>
+    </div>
+  );
+};
+
+MaxWidth.args = {
+  width: '200px',
+  title: 'This a long title with a lot of text that should wrap',
+  value: 'And this the value that will also make wrap'
 };

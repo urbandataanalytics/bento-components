@@ -47,6 +47,7 @@ StyledTooltip.defaultProps = {
 const StyledTooltipLabel = styled.div`
   display: flex;
   align-items: center;
+  width: ${({ width }) => (width ? width : '')};
   flex-direction: row;
   padding: ${({ theme }) => theme.spacings.small1} 12px;
   background: ${({ theme }) => hexToRgba(theme.color.charcoal800, 0.9)};
@@ -62,6 +63,8 @@ const StyledTooltipLabel = styled.div`
     height: 0px;
     width: 0px;
     ${({ position, theme }) => arrowPosition(theme)[position]}
+  }
+  > div {
   }
   p {
     ${({ theme }) => theme.texts.p2};
@@ -120,6 +123,7 @@ const Tooltip = ({
   enterDelay = 100,
   enterNextDelay = 0,
   leaveDelay = 0,
+  width,
   onClose,
   onOpen,
   position,
@@ -246,6 +250,7 @@ const Tooltip = ({
       {open && (
         <Portal renderInto="tooltips">
           <StyledTooltipLabel
+            width={width}
             ref={tooltip}
             position={position}
             style={{ ...tooltipPosition }}
@@ -269,7 +274,8 @@ Tooltip.propTypes = {
   leaveDelay: PropTypes.number,
   position: PropTypes.oneOf(['top', 'right', 'bottom', 'left']),
   title: PropTypes.string.isRequired,
-  value: PropTypes.string
+  value: PropTypes.string,
+  width: PropTypes.string
 };
 
 Tooltip.defaultProps = {
