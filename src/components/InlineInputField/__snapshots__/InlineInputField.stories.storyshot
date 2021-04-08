@@ -16,7 +16,7 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
       className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <p
-        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        className="InlineInputField__LabelText-jwshkl-1 dSHaNK"
         disabled={true}
       >
         Label text
@@ -26,14 +26,18 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 gIJAcl"
+          className="InlineInputField__Input-jwshkl-5 iuWgyE"
           disabled={true}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
+        />
+        <p
+          className="InlineInputField__InnerLabel-jwshkl-8 hSxllS suffix"
+          disabled={true}
         />
       </div>
     </div>
@@ -63,7 +67,7 @@ exports[`Storyshots InlineInputField Error 1`] = `
       className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <p
-        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        className="InlineInputField__LabelText-jwshkl-1 eufKgE"
         disabled={false}
       >
         Label text
@@ -73,14 +77,18 @@ exports[`Storyshots InlineInputField Error 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 gIJAcl error"
+          className="InlineInputField__Input-jwshkl-5 iuWgyE error"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
+        />
+        <p
+          className="InlineInputField__InnerLabel-jwshkl-8 ApwTw suffix"
+          disabled={false}
         />
       </div>
     </div>
@@ -111,7 +119,7 @@ exports[`Storyshots InlineInputField Playground 1`] = `
     >
       
       <p
-        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        className="InlineInputField__LabelText-jwshkl-1 eufKgE"
         disabled={false}
       >
         Label text
@@ -121,14 +129,18 @@ exports[`Storyshots InlineInputField Playground 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 gIJAcl"
+          className="InlineInputField__Input-jwshkl-5 iuWgyE"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
+        />
+        <p
+          className="InlineInputField__InnerLabel-jwshkl-8 ApwTw suffix"
+          disabled={false}
         />
       </div>
     </div>
@@ -158,7 +170,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <p
-        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        className="InlineInputField__LabelText-jwshkl-1 eufKgE"
         disabled={false}
       >
         very long label to test reactivity
@@ -168,14 +180,18 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 dmoHjr"
+          className="InlineInputField__Input-jwshkl-5 hzLOcN"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
+        />
+        <p
+          className="InlineInputField__InnerLabel-jwshkl-8 ApwTw suffix"
+          disabled={false}
         />
       </div>
     </div>
@@ -740,7 +756,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         </svg>
       </span>
       <p
-        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        className="InlineInputField__LabelText-jwshkl-1 eufKgE"
         disabled={false}
       >
         label
@@ -750,14 +766,18 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 gIJAcl"
+          className="InlineInputField__Input-jwshkl-5 iuWgyE"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
+        />
+        <p
+          className="InlineInputField__InnerLabel-jwshkl-8 ApwTw suffix"
+          disabled={false}
         />
       </div>
     </div>
@@ -1322,7 +1342,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         </svg>
       </span>
       <p
-        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        className="InlineInputField__LabelText-jwshkl-1 eufKgE"
         disabled={false}
       >
         label with icon
@@ -1332,14 +1352,18 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 dmoHjr"
+          className="InlineInputField__Input-jwshkl-5 hzLOcN"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
+        />
+        <p
+          className="InlineInputField__InnerLabel-jwshkl-8 ApwTw suffix"
+          disabled={false}
         />
       </div>
     </div>
@@ -1358,7 +1382,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <p
-        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        className="InlineInputField__LabelText-jwshkl-1 eufKgE"
         disabled={false}
       >
         label no icon
@@ -1368,14 +1392,18 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 gIJAcl"
+          className="InlineInputField__Input-jwshkl-5 iuWgyE"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
+        />
+        <p
+          className="InlineInputField__InnerLabel-jwshkl-8 ApwTw suffix"
+          disabled={false}
         />
       </div>
     </div>
@@ -1951,7 +1979,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
         </svg>
       </span>
       <p
-        className="InlineInputField__LabelText-jwshkl-1 gzviAo"
+        className="InlineInputField__LabelText-jwshkl-1 eufKgE"
         disabled={false}
       >
         Label text
@@ -1961,14 +1989,18 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
+        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 gIJAcl"
+          className="InlineInputField__Input-jwshkl-5 iuWgyE"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
+        />
+        <p
+          className="InlineInputField__InnerLabel-jwshkl-8 ApwTw suffix"
+          disabled={false}
         />
       </div>
     </div>
@@ -1986,7 +2018,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
 <div
   style={
     Object {
-      "width": "250px",
+      "width": "400px",
     }
   }
 >
@@ -1998,34 +2030,170 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
     }
   >
     <div
-      className="InlineInputField__FullInputContainer-jwshkl-0 iHFQNH"
-      label=""
-      prefix="1.280€ "
+      className="InlineInputField__FullInputContainer-jwshkl-0 cWbDNN"
+      label="With prefix and suffix"
+      prefix="1.280€"
     >
-      
+      <label
+        className="InlineInputField__Label-jwshkl-7 kZozSM"
+      >
+        <p
+          className="InlineInputField__LabelText-jwshkl-1 eufKgE"
+          disabled={false}
+        >
+          With prefix and suffix
+        </p>
+      </label>
       <div
         className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
       >
         <div
-          className="InlineInputField__InputWrapper-jwshkl-4 bInEel"
-          prefix="1.280€ "
+          className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+          prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 jDepsm prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 ApwTw prefix"
+            disabled={false}
           >
-            1.280€ 
+            1.280€
           </p>
           <input
-            className="InlineInputField__Input-jwshkl-5 gQLdgH"
+            className="InlineInputField__Input-jwshkl-5 iSdslR"
             disabled={false}
-            placeholder="Placeholder text"
-            prefix="1.280€ "
+            prefix="1.280€"
             type="text"
-            value="25%"
+            value="2"
+          />
+          <p
+            className="InlineInputField__InnerLabel-jwshkl-8 ghDJHO suffix"
+            disabled={false}
+            prefix="1.280€"
+          >
+            %
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="InlineInputField__FullInputContainer-jwshkl-0 cWbDNN"
+      label="Only prefix"
+      prefix="1.280€"
+    >
+      <label
+        className="InlineInputField__Label-jwshkl-7 kZozSM"
+      >
+        <p
+          className="InlineInputField__LabelText-jwshkl-1 eufKgE"
+          disabled={false}
+        >
+          Only prefix
+        </p>
+      </label>
+      <div
+        className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
+      >
+        <div
+          className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+          prefix="1.280€"
+        >
+          <p
+            className="InlineInputField__InnerLabel-jwshkl-8 ApwTw prefix"
+            disabled={false}
+          >
+            1.280€
+          </p>
+          <input
+            className="InlineInputField__Input-jwshkl-5 iSdslR"
+            disabled={false}
+            prefix="1.280€"
+            type="text"
+            value="2"
+          />
+          <p
+            className="InlineInputField__InnerLabel-jwshkl-8 ghDJHO suffix"
+            disabled={false}
+            prefix="1.280€"
           />
         </div>
       </div>
-      
+    </div>
+    <div
+      className="InlineInputField__FullInputContainer-jwshkl-0 cWbDNN"
+      label="Only prefix disabled"
+      prefix="1.280€"
+    >
+      <label
+        className="InlineInputField__Label-jwshkl-7 kZozSM"
+      >
+        <p
+          className="InlineInputField__LabelText-jwshkl-1 dSHaNK"
+          disabled={true}
+        >
+          Only prefix disabled
+        </p>
+      </label>
+      <div
+        className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
+      >
+        <div
+          className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+          prefix="1.280€"
+        >
+          <p
+            className="InlineInputField__InnerLabel-jwshkl-8 hSxllS prefix"
+            disabled={true}
+          >
+            1.280€
+          </p>
+          <input
+            className="InlineInputField__Input-jwshkl-5 iSdslR"
+            disabled={true}
+            prefix="1.280€"
+            type="text"
+            value="2"
+          />
+          <p
+            className="InlineInputField__InnerLabel-jwshkl-8 cJETTp suffix"
+            disabled={true}
+            prefix="1.280€"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="InlineInputField__FullInputContainer-jwshkl-0 cWbDNN"
+      label="Only suffix"
+    >
+      <label
+        className="InlineInputField__Label-jwshkl-7 kZozSM"
+      >
+        <p
+          className="InlineInputField__LabelText-jwshkl-1 eufKgE"
+          disabled={false}
+        >
+          Only suffix
+        </p>
+      </label>
+      <div
+        className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
+      >
+        <div
+          className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+        >
+          <input
+            className="InlineInputField__Input-jwshkl-5 hzLOcN"
+            disabled={false}
+            type="text"
+            value="2"
+          />
+          <p
+            className="InlineInputField__InnerLabel-jwshkl-8 ApwTw suffix"
+            disabled={false}
+          >
+            %
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

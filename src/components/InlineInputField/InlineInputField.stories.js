@@ -27,13 +27,6 @@ export default {
         category: 'format'
       }
     },
-    inputFontColor: {
-      descriptrion: 'Sets a custom color for the font color',
-      control: 'color',
-      table: {
-        category: 'format'
-      }
-    },
     error: {
       description: 'Adds falsy style to the field',
       table: {
