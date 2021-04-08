@@ -138,7 +138,7 @@ Label.defaultProps = {
 
 const InnerLabel = styled.p`
   position: absolute;
-  ${({ theme }) => theme.texts.p1};
+  ${({ theme }) => theme.texts.p1b};
   max-width: 100px;
   overflow: hidden;
   white-space: nowrap;
