@@ -3,6 +3,7 @@ export interface InputFieldProps {
   disabled?: boolean;
   error?: boolean;
   help?: string;
+  inputBackground?: string;
   label?: string | React.ReactNode;
   labelIcon?: React.ReactNode;
   name?: string;
@@ -13,7 +14,7 @@ export interface InputFieldProps {
   tabIndex?: string;
   textAlign?: 'left' | 'right';
   type: string;
-  value?: string;
+  value?: string | number;
 }
 
 declare const InputField: React.FunctionComponent<
