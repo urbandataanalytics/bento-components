@@ -4,13 +4,15 @@ export interface InputFieldProps {
   error?: boolean;
   help?: string;
   label?: string | React.ReactNode;
+  labelIcon?: React.ReactNode;
   name?: string;
   onChange?: (ev: SyntheticInputEvent<HTMLInputElement>) => void | Promise<any>;
   placeholder?: string;
+  prefix?: string;
+  suffix?: string;
   tabIndex?: string;
+  textAlign?: 'left' | 'right';
   type: string;
-  labelIcon: React.ReactNode;
-  textAlign: 'left' | 'right';
   value?: string;
 }
 

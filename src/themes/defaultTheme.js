@@ -365,6 +365,10 @@ const components = {
   inputFieldPlaceholderColor: color.charcoal400,
   inputFieldTextIndent: spacings.small4,
 
+  /*InlineInputField Theme props*/
+
+  inlineInputFieldLabelColor: color.charcoal800,
+
   /*TextareaField Theme props*/
 
   textareaFieldBackgroundColor: color.white,

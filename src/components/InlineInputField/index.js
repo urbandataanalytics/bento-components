@@ -13,10 +13,12 @@ const FullInputContainer = styled.div`
 
 const LabelText = styled.p`
   display: inline;
-  font-size: ${({ theme }) => theme.components.inlineInputFieldLabelFontSize};
-  color: ${({ theme }) => theme.components.inlineInputLabelColor};
   margin-bottom: 4px;
   transition: 300ms ease-in-out;
+  color: ${({ theme, disabled }) =>
+    disabled
+      ? theme.components.inlineInputFieldDisabledLabelColor
+      : theme.components.inlineInputFieldLabelColor};
 `;
 
 LabelText.defaultProps = {
@@ -51,6 +53,7 @@ const IconWrapper = styled.span`
 `;
 
 const InputWrapper = styled.div`
+  position: relative;
   align-items: center;
   outline: 0;
   width: 100%;
@@ -59,16 +62,21 @@ const InputWrapper = styled.div`
   border-style: solid;
   box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldBottomBorderColor};
   transition: ${({ theme }) => theme.global.transitionM};
-  background-color: ${({ theme }) => theme.components.inlineInputFieldBackgroundColor};
+  background-color: ${({ theme, inputBackground }) =>
+    inputBackground ? inputBackground : theme.components.inlineInputFieldBackgroundColor};
   border-color: ${({ theme }) => theme.components.inlineInputFieldBorderColor};
 `;
 
 const Input = styled.input`
   width: 100%;
-  padding-right: ${({ theme, textAlign, prefix }) =>
-    textAlign === 'right' || prefix ? theme.spacings.small3 : 0};
-  text-align: ${({ textAlign, prefix }) => (prefix ? 'right' : textAlign)};
-  font-weight: ${({ theme, prefix }) => (prefix ? theme.global.fontWeightBold : '')};
+  font-family: ${({ theme }) => theme.global.fontFamily};
+  ${({ theme, prefix }) => (prefix ? theme.texts.p1b : theme.texts.p1)};
+  padding-right: ${({ theme, textAlign, prefix, suffixWidth }) =>
+    (textAlign === 'right') & (prefix && suffixWidth)
+      ? theme.spacings.small3
+      : `calc(${suffixWidth} + 2px)`};
+  text-align: ${({ textAlign, prefix, suffix }) => (prefix || suffix ? 'right' : textAlign)};
+  font-weight: ${({ theme, prefix }) => (prefix ? theme.global.fontWeightMedium : '')};
   line-height: ${({ theme, prefix }) =>
     prefix
       ? theme.components.inlineInputFieldPrefixLineHeight
@@ -100,10 +108,6 @@ const Input = styled.input`
     background-color: ${({ theme }) => theme.components.inlineInputFieldFocusBackgroundColor};
     border-color: ${({ theme }) => theme.components.inlineInputFieldFocusBorderColor};
     box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldFocusBottomBorderColor};
-
-    + ${LabelText} {
-      color: ${({ theme }) => theme.components.inlineInputFieldFocusLabelColor};
-    }
   }
 
   &:disabled {
@@ -111,10 +115,6 @@ const Input = styled.input`
     border-color: ${({ theme }) => theme.components.inlineInputFieldDisabledBorderColor};
     box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldDisabledBottomBorderColor};
     color: ${({ theme }) => theme.components.inlineInputFieldDisabledColor};
-
-    + ${LabelText} {
-      color: ${({ theme }) => theme.components.inlineInputFieldDisabledLabelColor};
-    }
   }
 `;
 const InputContainer = styled.div`
@@ -138,14 +138,24 @@ Label.defaultProps = {
 
 const InnerLabel = styled.p`
   position: absolute;
-  ${({ theme }) => theme.texts.p1b};
-  color: ${({ theme }) => theme.color.charcoal600};
+  ${({ theme }) => theme.texts.p1};
   max-width: 100px;
   overflow: hidden;
   white-space: nowrap;
 
   &.prefix {
     padding: 6px 10px 0 ${({ theme }) => theme.spacings.small3};
+    color: ${({ theme, disabled }) =>
+      disabled ? theme.components.inlineInputFieldDisabledLabelColor : theme.color.charcoal600};
+  }
+
+  &.suffix {
+    top: ${({ prefix }) => (prefix ? '6px' : '10px')};
+    right: 0;
+    padding-right: ${({ theme }) => theme.spacings.small3};
+    color: ${({ theme, disabled }) =>
+      disabled ? theme.components.inlineInputFieldDisabledLabelColor : theme.color.charcoal800};
+    ${({ theme, prefix }) => (prefix ? theme.texts.p1b : theme.texts.p1)}
   }
 `;
 
@@ -155,12 +165,14 @@ const InlineInputField = React.forwardRef((props, ref) => {
     disabled,
     error,
     help,
+    inputBackground,
     label,
     labelIcon,
     name,
     onChange,
     placeholder,
     prefix,
+    suffix,
     tabIndex,
     textAlign,
     type,
@@ -168,11 +180,19 @@ const InlineInputField = React.forwardRef((props, ref) => {
     ...other
   } = props;
   const [prefixWidth, setPrefixWidth] = useState(null);
+  const [suffixWidth, setSuffixWidth] = useState(null);
 
   const getPrefixWidth = async node => {
     if (node) {
       const styles = await window.getComputedStyle(node);
       setPrefixWidth(styles.width);
+    }
+  };
+
+  const getSuffixWidth = async node => {
+    if (node) {
+      const styles = await window.getComputedStyle(node);
+      setSuffixWidth(styles.width);
     }
   };
 
@@ -190,9 +210,10 @@ const InlineInputField = React.forwardRef((props, ref) => {
           </Label>
         )}
         <InputContainer>
-          <InputWrapper prefix={prefix}>
+          <InputWrapper prefix={prefix} inputBackground={inputBackground}>
             {prefix && (
               <InnerLabel
+                disabled={disabled}
                 ref={node => {
                   getPrefixWidth(node);
                 }}
@@ -206,8 +227,10 @@ const InlineInputField = React.forwardRef((props, ref) => {
               className={error ? `error` : null}
               type={type}
               prefixWidth={prefixWidth}
+              suffixWidth={suffixWidth}
               disabled={disabled}
               prefix={prefix}
+              suffix={suffix}
               value={value}
               name={name}
               onChange={onChange}
@@ -215,6 +238,16 @@ const InlineInputField = React.forwardRef((props, ref) => {
               tabIndex={tabIndex}
               {...other}
             ></Input>
+            <InnerLabel
+              disabled={disabled}
+              prefix={prefix}
+              ref={node => {
+                getSuffixWidth(node);
+              }}
+              className="suffix"
+            >
+              {suffix}
+            </InnerLabel>
           </InputWrapper>
         </InputContainer>
         {help && (
@@ -238,10 +271,12 @@ InlineInputField.propTypes = {
   placeholder: PropTypes.string,
   tabIndex: PropTypes.string,
   type: PropTypes.string,
-  value: PropTypes.string,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   textAlign: PropTypes.oneOf(['left', 'right']),
   labelIcon: PropTypes.node,
-  prefix: PropTypes.string
+  prefix: PropTypes.string,
+  suffix: PropTypes.string,
+  inputBackground: PropTypes.string
 };
 
 InlineInputField.defaultProps = {
