@@ -9,7 +9,7 @@ const StyledTabsContainer = styled.div`
   border-bottom: 1px solid ${({ theme }) => theme.components.tabsBorderColor};
   background-color: ${({ theme }) => theme.components.tabsBackgroundColor};
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: ${({ align }) => align};
   position: relative;
   min-height: 56px;
@@ -50,6 +50,7 @@ const Tabs = props => {
     onChange,
     rightContent,
     value,
+    lineHeight,
     ...other
   } = props;
   const children = React.Children.map(childrenProp, (child, childIndex) => {
@@ -63,7 +64,8 @@ const Tabs = props => {
     return React.cloneElement(child, {
       active,
       onChange,
-      value: childValue
+      value: childValue,
+      lineHeight
     });
   });
 
@@ -82,7 +84,8 @@ Tabs.propTypes = {
   leftContent: PropTypes.node,
   rightContent: PropTypes.node,
   onChange: PropTypes.func,
-  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  lineHeight: PropTypes.number
 };
 
 Tabs.displayName = 'Tabs';

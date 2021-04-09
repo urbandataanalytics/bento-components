@@ -147,7 +147,7 @@ const InnerLabel = styled.p`
     padding-left: ${({ theme }) => theme.spacings.small3};
     ${({ theme }) => theme.texts.p1b};
     color: ${({ theme, disabled }) =>
-      disabled ? theme.components.inlineInputFieldDisabledLabelColor : theme.color.charcoal600};
+      disabled ? theme.components.inlineInputFieldDisabledLabelColor : theme.color.charcoal500};
   }
 
   &.suffix {
@@ -245,7 +245,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
               placeholder={placeholder}
               tabIndex={tabIndex}
               {...other}
-            ></Input>
+            />
             <InnerLabel
               disabled={disabled}
               ref={node => {

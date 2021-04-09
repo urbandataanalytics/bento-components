@@ -60,8 +60,8 @@ StyledTabBadge.defaultProps = {
 const StyledTabContainer = styled.div`
   text-transform: uppercase;
   margin: 0 20px;
-  height: 38px;
-  line-height: 38px;
+  height: ${({ lineHeight }) => (lineHeight ? `${lineHeight + 24}px` : '24px')};
+  line-height: ${({ lineHeight }) => (lineHeight ? `${lineHeight + 24}px` : '24px')};
   cursor: pointer;
   display: flex;
   border-bottom: 3px solid transparent;
@@ -90,7 +90,7 @@ StyledTabContainer.defaultProps = {
   theme: defaultTheme
 };
 
-const Tab = ({ label, badge, active, disabled, value, onChange }) => {
+const Tab = ({ label, badge, active, disabled, value, lineHeight, onChange }) => {
   const handleClick = event => {
     if (!disabled && onChange) {
       onChange(event, value);
@@ -98,7 +98,12 @@ const Tab = ({ label, badge, active, disabled, value, onChange }) => {
   };
 
   return (
-    <StyledTabContainer active={active} disabled={disabled} onClick={handleClick}>
+    <StyledTabContainer
+      active={active}
+      disabled={disabled}
+      onClick={handleClick}
+      lineHeight={lineHeight}
+    >
       <StyledTabLabel>{label}</StyledTabLabel>
       {badge && !disabled ? (
         <StyledTabBadge active={active} disabled={disabled}>
@@ -119,7 +124,8 @@ Tab.propTypes = {
 };
 
 Tab.defaultProps = {
-  label: ''
+  label: '',
+  lineHeight: 14
 };
 
 Tab.displayName = 'Tab';
