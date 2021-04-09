@@ -70,17 +70,17 @@ const InputWrapper = styled.div`
 const Input = styled.input`
   width: 100%;
   font-family: ${({ theme }) => theme.global.fontFamily};
-  ${({ theme, prefix }) => (prefix ? theme.texts.p1b : theme.texts.p1)};
+  ${({ theme, boldContent }) => (boldContent ? theme.texts.p1b : theme.texts.p1)};
   padding-right: ${({ theme, textAlign, prefix, suffixWidth }) =>
     (textAlign === 'right') & (prefix && suffixWidth)
       ? theme.spacings.small3
-      : `calc(${suffixWidth} + 2px)`};
+      : `calc(${suffixWidth} + 1px)`};
   text-align: ${({ textAlign, prefix, suffix }) => (prefix || suffix ? 'right' : textAlign)};
-  font-weight: ${({ theme, prefix }) => (prefix ? theme.global.fontWeightMedium : '')};
-  line-height: ${({ theme, prefix }) =>
-    prefix
+  line-height: ${({ theme, narrow }) =>
+    narrow
       ? theme.components.inlineInputFieldPrefixLineHeight
       : theme.components.inlineInputFieldLineHeight};
+
   text-indent: ${({ theme, prefix }) => (prefix ? 0 : theme.components.inlineInputFieldTextIndent)};
   padding-left: ${({ prefix, prefixWidth }) => (prefix ? prefixWidth : 0)};
   background-color: transparent;
@@ -138,24 +138,26 @@ Label.defaultProps = {
 
 const InnerLabel = styled.p`
   position: absolute;
-  ${({ theme }) => theme.texts.p1b};
-  max-width: 100px;
   overflow: hidden;
   white-space: nowrap;
 
   &.prefix {
-    padding: 6px 10px 0 ${({ theme }) => theme.spacings.small3};
+    max-width: 100px;
+    top: ${({ narrow }) => (narrow ? '6px' : '10px')};
+    padding-left: ${({ theme }) => theme.spacings.small3};
+    ${({ theme }) => theme.texts.p1b};
     color: ${({ theme, disabled }) =>
       disabled ? theme.components.inlineInputFieldDisabledLabelColor : theme.color.charcoal600};
   }
 
   &.suffix {
-    top: ${({ prefix }) => (prefix ? '6px' : '10px')};
+    max-width: fit-content;
+    top: ${({ narrow }) => (narrow ? '6px' : '10px')};
     right: 0;
     padding-right: ${({ theme }) => theme.spacings.small3};
+    ${({ theme, boldContent }) => (boldContent ? theme.texts.p1b : theme.texts.p1)};
     color: ${({ theme, disabled }) =>
       disabled ? theme.components.inlineInputFieldDisabledLabelColor : theme.color.charcoal800};
-    ${({ theme, prefix }) => (prefix ? theme.texts.p1b : theme.texts.p1)}
   }
 `;
 
@@ -173,6 +175,8 @@ const InlineInputField = React.forwardRef((props, ref) => {
     placeholder,
     prefix,
     suffix,
+    boldContent,
+    narrow,
     tabIndex,
     textAlign,
     type,
@@ -217,6 +221,8 @@ const InlineInputField = React.forwardRef((props, ref) => {
                 ref={node => {
                   getPrefixWidth(node);
                 }}
+                boldContent={boldContent}
+                narrow={narrow}
                 className={'prefix'}
               >
                 {prefix}
@@ -226,12 +232,14 @@ const InlineInputField = React.forwardRef((props, ref) => {
               textAlign={textAlign}
               className={error ? `error` : null}
               type={type}
+              narrow={narrow}
               prefixWidth={prefixWidth}
               suffixWidth={suffixWidth}
               disabled={disabled}
               prefix={prefix}
               suffix={suffix}
               value={value}
+              boldContent={boldContent}
               name={name}
               onChange={onChange}
               placeholder={placeholder}
@@ -240,18 +248,24 @@ const InlineInputField = React.forwardRef((props, ref) => {
             ></Input>
             <InnerLabel
               disabled={disabled}
-              prefix={prefix}
               ref={node => {
                 getSuffixWidth(node);
               }}
               className="suffix"
+              narrow={narrow}
+              boldContent={boldContent}
             >
               {suffix}
             </InnerLabel>
           </InputWrapper>
         </InputContainer>
         {help && (
-          <HelpText label={label} textAlign={textAlign} className={error ? 'error' : null}>
+          <HelpText
+            boldContent={boldContent}
+            label={label}
+            textAlign={textAlign}
+            className={error ? 'error' : null}
+          >
             {help}
           </HelpText>
         )}
@@ -276,14 +290,18 @@ InlineInputField.propTypes = {
   labelIcon: PropTypes.node,
   prefix: PropTypes.string,
   suffix: PropTypes.string,
-  inputBackground: PropTypes.string
+  inputBackground: PropTypes.string,
+  narrow: PropTypes.bool,
+  boldContent: PropTypes.bool
 };
 
 InlineInputField.defaultProps = {
   value: '',
   textAlign: 'left',
   disabled: false,
-  type: 'text'
+  type: 'text',
+  boldContent: false,
+  narrow: false
 };
 
 InlineInputField.displayName = 'InlineInputField';

@@ -53,6 +53,18 @@ export default {
         category: 'others'
       }
     },
+    narrow: {
+      description: 'Displays a narrower version of the field',
+      table: {
+        category: 'format'
+      }
+    },
+    boldContent: {
+      description: 'Displays the value and suffix in bold or not. Prefix is always bold',
+      table: {
+        category: 'format'
+      }
+    },
     onChange: {
       description: ' Method to handle onChange event',
       action: 'click OnChange',
@@ -190,7 +202,14 @@ Disabled.args = {
 export const WithInnerLabels = () => (
   <div style={{ width: '400px' }}>
     <div style={{ ...decoratorStyles }}>
-      <InlineInputField label="With prefix and suffix" prefix="1.280€" suffix="%" value="2" />
+      <InlineInputField
+        narrow={true}
+        label="With prefix, suffix and narrow"
+        prefix="1.280€"
+        suffix="% yoy"
+        value="2"
+        boldContent={true}
+      />
     </div>
     <div style={{ ...decoratorStyles }}>
       {' '}

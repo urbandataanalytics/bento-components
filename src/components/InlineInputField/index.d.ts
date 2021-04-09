@@ -15,6 +15,8 @@ export interface InputFieldProps {
   textAlign?: 'left' | 'right';
   type: string;
   value?: string | number;
+  narrow?: boolean;
+  boldContent?: boolean;
 }
 
 declare const InputField: React.FunctionComponent<
