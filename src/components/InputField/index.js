@@ -31,6 +31,7 @@ HelpText.defaultProps = {
 };
 
 export const Input = styled.input`
+  font-family: ${({ theme }) => theme.global.fontFamily};
   appearance: none;
   outline: 0;
   font-size: ${({ theme }) => theme.components.inputFieldFontSize};

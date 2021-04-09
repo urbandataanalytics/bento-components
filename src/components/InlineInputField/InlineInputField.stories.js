@@ -19,6 +19,14 @@ export default {
         category: 'behaviour'
       }
     },
+    inputBackground: {
+      description:
+        'Sets a background color for the input when not focus or error. Transparent by default.',
+      control: 'color',
+      table: {
+        category: 'format'
+      }
+    },
     error: {
       description: 'Adds falsy style to the field',
       table: {
@@ -43,6 +51,18 @@ export default {
       control: 'none',
       table: {
         category: 'others'
+      }
+    },
+    narrow: {
+      description: 'Displays a narrower version of the field',
+      table: {
+        category: 'format'
+      }
+    },
+    boldContent: {
+      description: 'Displays the value and suffix in bold or not. Prefix is always bold',
+      table: {
+        category: 'format'
       }
     },
     onChange: {
@@ -91,6 +111,13 @@ export default {
     prefix: {
       description:
         'Inserts a label with custom text in the left side of the input. The input text will not override the prefix. This option also changes the full style of the field to be used as a narrower variant.',
+      table: {
+        category: 'content'
+      }
+    },
+    suffix: {
+      description:
+        'Inserts a string on the right side of the input. It will be right next to it, and will always force the text-align to the right.',
       table: {
         category: 'content'
       }
@@ -172,17 +199,31 @@ Disabled.args = {
   disabled: true
 };
 
-export const WithInnerLabels = args => (
-  <div style={{ width: '250px' }}>
+export const WithInnerLabels = () => (
+  <div style={{ width: '400px' }}>
     <div style={{ ...decoratorStyles }}>
-      <InlineInputField {...args} />
+      <InlineInputField
+        narrow={true}
+        label="With prefix, suffix and narrow"
+        prefix="1.280€"
+        suffix="% yoy"
+        value="2"
+        boldContent={true}
+      />
+    </div>
+    <div style={{ ...decoratorStyles }}>
+      {' '}
+      <InlineInputField label="Only prefix" prefix="1.280€" value="2" />
+    </div>
+
+    <div style={{ ...decoratorStyles }}>
+      {' '}
+      <InlineInputField label="Only prefix disabled" disabled prefix="1.280€" value="2" />
+    </div>
+
+    <div style={{ ...decoratorStyles }}>
+      {' '}
+      <InlineInputField label="Only suffix" suffix="%" value="2" />
     </div>
   </div>
 );
-
-WithInnerLabels.args = {
-  prefix: '1.280€ ',
-  label: '',
-  help: '',
-  value: '25%'
-};
