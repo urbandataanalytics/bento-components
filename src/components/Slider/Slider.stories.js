@@ -60,6 +60,13 @@ export default {
         category: 'events'
       }
     },
+    onAfterChange: {
+      description: 'Handles the behaviour when the onAfterChange event is triggered',
+      actions: 'onAfterChange action',
+      table: {
+        category: 'events'
+      }
+    },
     prefix: {
       description:
         'Sets a prefix both for minimum and maximum values. Overrides `maxPrefix` and `minPrefix`',
@@ -94,7 +101,7 @@ export default {
       }
     },
     railSize: {
-      description: 'Allows to choose between `slider` or `range`',
+      description: 'Allows to choose between `regular` or `slim` rail size',
       table: {
         category: 'format'
       }
