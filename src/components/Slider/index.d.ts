@@ -9,6 +9,7 @@ export interface SliderProps {
   minSuffix?: string;
   name?: string;
   onChange: (ev: SyntheticInputEvent<HTMLInputElement>, value: number) => void | Promise<any>;
+  onAfterChange?: (ev: SyntheticInputEvent<HTMLInputElement>, value: number) => void | Promise<any>;
   prefix?: string;
   step: number;
   suffix?: string;

@@ -138,6 +138,7 @@ const Slider = React.forwardRef((props, ref) => {
     minPrefix,
     minSuffix,
     name,
+    onAfterChange = () => {},
     onChange = () => {},
     prefix,
     step,
@@ -208,8 +209,8 @@ const Slider = React.forwardRef((props, ref) => {
           disabled={disabled}
           max={max}
           min={min}
-          onChange={handleSliderSimpleChange}
-          onAfterChange={handleAfterChange}
+          onChange={onChange}
+          onAfterChange={onAfterChange}
           step={step}
           value={values}
           {...propStyles(theme, railSize)}
@@ -280,6 +281,7 @@ Slider.propTypes = {
   minSuffix: PropTypes.string,
   name: PropTypes.string,
   onChange: PropTypes.func.isRequired,
+  onAfterChange: PropTypes.func,
   prefix: PropTypes.string,
   step: PropTypes.number.isRequired,
   suffix: PropTypes.string,
