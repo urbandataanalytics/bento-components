@@ -9,6 +9,12 @@ export default {
   component: Tabs,
   subcomponents: { Tab },
   argTypes: {
+    lineHeight: {
+      description: 'Defines the line height of the texts within the tabs',
+      table: {
+        category: 'format'
+      }
+    },
     align: {
       description: 'Defines the aligment of the texts within the tabs',
       table: {
