@@ -92,6 +92,12 @@ export default {
       table: {
         category: 'format'
       }
+    },
+    railSize: {
+      description: 'Allows to choose between `slider` or `range`',
+      table: {
+        category: 'format'
+      }
     }
   },
   args: {
@@ -117,6 +123,7 @@ Playground.args = {
   max: 10,
   step: 1,
   variant: 'slider',
+  railSize: 'regular',
   value: 2
 };
 
