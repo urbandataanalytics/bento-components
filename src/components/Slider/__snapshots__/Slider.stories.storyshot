@@ -179,14 +179,9 @@ exports[`Storyshots Slider Range 1`] = `
         role="slider"
         style={
           Object {
-            "backgroundColor": "#1778FB",
-            "borderColor": "#1778FB",
-            "height": "16px",
             "left": "50%",
-            "marginTop": "-6px",
             "right": "auto",
             "transform": "translateX(-50%)",
-            "width": "16px",
           }
         }
         tabIndex={0}
