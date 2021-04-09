@@ -84,10 +84,6 @@ const getDefaultValue = ({ value, min, max, variant }) => {
 };
 
 const propStyles = (theme, railSize) => ({
-  stepStyle: {
-    height:
-      railSize === 'regular' ? theme.components.sliderRailSize : theme.components.sliderRailSizeSlim
-  },
   railStyle: {
     backgroundColor: theme.components.sliderRailColor,
     height:
@@ -103,16 +99,6 @@ const propStyles = (theme, railSize) => ({
     }
   ],
   handleStyle: [
-    {
-      backgroundColor: theme.components.sliderHandleColor,
-      borderColor: theme.components.sliderHandleColor,
-      height: theme.components.sliderHandleSize,
-      marginTop:
-        railSize === 'regular'
-          ? theme.components.sliderHandleMarginTop
-          : theme.components.sliderHandleMarginTopSlim,
-      width: theme.components.sliderHandleSize
-    },
     {
       backgroundColor: theme.components.sliderHandleColor,
       borderColor: theme.components.sliderHandleColor,
