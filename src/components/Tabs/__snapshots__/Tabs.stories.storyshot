@@ -9,7 +9,7 @@ exports[`Storyshots Tabs Playground 1`] = `
   }
 >
   <div
-    className="Tabs__StyledTabsContainer-sc-1du08bp-0 giHxWP"
+    className="Tabs__StyledTabsContainer-sc-1du08bp-0 gNleNY"
   >
     <div
       className="Tabs__StyledTabsContent-sc-1du08bp-3 gvkgBJ"
@@ -59,7 +59,7 @@ exports[`Storyshots Tabs With Badge 1`] = `
   }
 >
   <div
-    className="Tabs__StyledTabsContainer-sc-1du08bp-0 giHxWP"
+    className="Tabs__StyledTabsContainer-sc-1du08bp-0 gNleNY"
   >
     <div
       className="Tabs__StyledTabsContent-sc-1du08bp-3 gvkgBJ"
@@ -119,7 +119,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
   }
 >
   <div
-    className="Tabs__StyledTabsContainer-sc-1du08bp-0 giHxWP"
+    className="Tabs__StyledTabsContainer-sc-1du08bp-0 gNleNY"
   >
     <div
       className="Tabs__StyledLeftContent-sc-1du08bp-1 kGSGJe"

@@ -87,7 +87,7 @@ exports[`Storyshots InlineInputField Error 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 iaVPks suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
           disabled={false}
         />
       </div>
@@ -139,7 +139,7 @@ exports[`Storyshots InlineInputField Playground 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 iaVPks suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
           disabled={false}
         />
       </div>
@@ -190,7 +190,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 iaVPks suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
           disabled={false}
         />
       </div>
@@ -776,7 +776,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 iaVPks suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
           disabled={false}
         />
       </div>
@@ -1362,7 +1362,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 iaVPks suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
           disabled={false}
         />
       </div>
@@ -1402,7 +1402,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 iaVPks suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
           disabled={false}
         />
       </div>
@@ -1999,7 +1999,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 iaVPks suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
           disabled={false}
         />
       </div>
@@ -2052,7 +2052,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 ebfxum prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 NFvdN prefix"
             disabled={false}
           >
             1.280€
@@ -2065,7 +2065,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 ebfxum suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 NFvdN suffix"
             disabled={false}
           >
             % yoy
@@ -2105,7 +2105,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 iaVPks prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL prefix"
             disabled={false}
           >
             1.280€
@@ -2118,7 +2118,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 iaVPks suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
             disabled={false}
           />
         </div>
@@ -2211,7 +2211,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 iaVPks suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
             disabled={false}
           >
             %
