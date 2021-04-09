@@ -9,7 +9,7 @@ exports[`Storyshots Slider Loading 1`] = `
   }
 >
   <div
-    className="Slider__StyledContent-sc-14leke7-3 kMQLIf"
+    className="Slider__StyledContent-sc-14leke7-3 MXwZc"
   >
     <div>
       <i
@@ -32,7 +32,7 @@ exports[`Storyshots Slider Playground 1`] = `
   }
 >
   <div
-    className="Slider__StyledContent-sc-14leke7-3 kMQLIf"
+    className="Slider__StyledContent-sc-14leke7-3 MXwZc"
   >
     <div
       className="rc-slider"
@@ -48,7 +48,7 @@ exports[`Storyshots Slider Playground 1`] = `
         style={
           Object {
             "backgroundColor": "#DCDFE6",
-            "height": undefined,
+            "height": "4px",
           }
         }
       />
@@ -57,7 +57,7 @@ exports[`Storyshots Slider Playground 1`] = `
         style={
           Object {
             "backgroundColor": "#1778FB",
-            "height": undefined,
+            "height": "4px",
             "left": "0%",
             "right": "auto",
             "width": "11.11111111111111%",
@@ -108,7 +108,7 @@ exports[`Storyshots Slider Range 1`] = `
   }
 >
   <div
-    className="Slider__StyledContent-sc-14leke7-3 kMQLIf"
+    className="Slider__StyledContent-sc-14leke7-3 MXwZc"
   >
     <div
       className="rc-slider"
@@ -124,7 +124,7 @@ exports[`Storyshots Slider Range 1`] = `
         style={
           Object {
             "backgroundColor": "#DCDFE6",
-            "height": undefined,
+            "height": "4px",
           }
         }
       />
@@ -133,7 +133,7 @@ exports[`Storyshots Slider Range 1`] = `
         style={
           Object {
             "backgroundColor": "#1778FB",
-            "height": undefined,
+            "height": "4px",
             "left": "0%",
             "right": "auto",
             "width": "50%",
