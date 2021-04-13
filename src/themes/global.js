@@ -66,7 +66,15 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
-  
+
+  input {
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button{
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
   a {
     font-family: ${({ theme }) => theme.global.fontFamily};
     font-weight: ${({ theme }) => theme.global.fontWeightBold};
