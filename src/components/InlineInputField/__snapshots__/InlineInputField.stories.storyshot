@@ -2121,7 +2121,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             disabled={false}
             prefix="1.280€"
             type="text"
-            value="2%"
+            value="2"
           />
           <p
             className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"

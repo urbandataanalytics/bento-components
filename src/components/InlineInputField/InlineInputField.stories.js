@@ -213,7 +213,7 @@ export const WithInnerLabels = () => (
     </div>
     <div style={{ ...decoratorStyles }}>
       {' '}
-      <InlineInputField label="Only prefix" prefix="1.280€" value="2%" />
+      <InlineInputField label="Only prefix" prefix="1.280€" value="2" />
     </div>
 
     <div style={{ ...decoratorStyles }}>
