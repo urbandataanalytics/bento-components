@@ -144,7 +144,7 @@ const InnerLabel = styled.p`
 
   &.prefix {
     max-width: 100px;
-    top: ${({ narrow }) => (narrow ? '6px' : '10px')};
+    top: ${({ narrow }) => (narrow ? '6.45px' : '10.45px')};
     padding-left: ${({ theme }) => theme.spacings.small3};
     ${({ theme }) => theme.texts.p1b};
     color: ${({ theme, disabled }) =>

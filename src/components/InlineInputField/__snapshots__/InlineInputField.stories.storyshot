@@ -36,7 +36,7 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 kANHOR suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 jdMauW suffix"
           disabled={true}
         />
       </div>
@@ -87,7 +87,7 @@ exports[`Storyshots InlineInputField Error 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
         />
       </div>
@@ -139,7 +139,7 @@ exports[`Storyshots InlineInputField Playground 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
         />
       </div>
@@ -190,7 +190,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
         />
       </div>
@@ -778,7 +778,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
         />
       </div>
@@ -1366,7 +1366,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
         />
       </div>
@@ -1406,7 +1406,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
         />
       </div>
@@ -2005,7 +2005,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
         />
       </div>
@@ -2058,7 +2058,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 joNTMV prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 lhNbjw prefix"
             disabled={false}
           >
             1.280€
@@ -2071,7 +2071,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 joNTMV suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 lhNbjw suffix"
             disabled={false}
           >
             % yoy
@@ -2111,7 +2111,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 dueuKL prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 gIoQit prefix"
             disabled={false}
           >
             1.280€
@@ -2124,7 +2124,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2%"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
             disabled={false}
           />
         </div>
@@ -2162,7 +2162,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 kANHOR prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 jdMauW prefix"
             disabled={true}
           >
             1.280€
@@ -2175,7 +2175,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 kANHOR suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 jdMauW suffix"
             disabled={true}
           />
         </div>
@@ -2217,7 +2217,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
             disabled={false}
           >
             %
