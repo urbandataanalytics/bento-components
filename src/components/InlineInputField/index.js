@@ -186,6 +186,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
   } = props;
   const [prefixWidth, setPrefixWidth] = useState(null);
   const [suffixWidth, setSuffixWidth] = useState(null);
+  let inputRef = null;
 
   const getPrefixWidth = async node => {
     if (node) {
@@ -199,6 +200,10 @@ const InlineInputField = React.forwardRef((props, ref) => {
       const styles = await window.getComputedStyle(node);
       setSuffixWidth(styles.width);
     }
+  };
+
+  const handleSuffixClick = () => {
+    inputRef.focus();
   };
 
   return (
@@ -230,6 +235,9 @@ const InlineInputField = React.forwardRef((props, ref) => {
               </InnerLabel>
             )}
             <Input
+              ref={node => {
+                inputRef = node;
+              }}
               textAlign={textAlign}
               className={error ? `error` : null}
               type={type}
@@ -248,6 +256,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
               {...other}
             />
             <InnerLabel
+              onClick={handleSuffixClick}
               disabled={disabled}
               ref={node => {
                 getSuffixWidth(node);
