@@ -9,7 +9,7 @@ exports[`Storyshots Slider Loading 1`] = `
   }
 >
   <div
-    className="Slider__StyledContent-sc-14leke7-3 MXwZc"
+    className="Slider__StyledContent-sc-14leke7-3 exLQIY"
   >
     <div>
       <i
@@ -32,7 +32,7 @@ exports[`Storyshots Slider Playground 1`] = `
   }
 >
   <div
-    className="Slider__StyledContent-sc-14leke7-3 MXwZc"
+    className="Slider__StyledContent-sc-14leke7-3 exLQIY"
   >
     <div
       className="rc-slider"
@@ -108,7 +108,7 @@ exports[`Storyshots Slider Range 1`] = `
   }
 >
   <div
-    className="Slider__StyledContent-sc-14leke7-3 MXwZc"
+    className="Slider__StyledContent-sc-14leke7-3 exLQIY"
   >
     <div
       className="rc-slider"
@@ -179,9 +179,14 @@ exports[`Storyshots Slider Range 1`] = `
         role="slider"
         style={
           Object {
+            "backgroundColor": "#1778FB",
+            "borderColor": "#1778FB",
+            "height": "16px",
             "left": "50%",
+            "marginTop": "-6px",
             "right": "auto",
             "transform": "translateX(-50%)",
+            "width": "16px",
           }
         }
         tabIndex={0}
@@ -225,6 +230,82 @@ exports[`Storyshots Slider Range 1`] = `
           €/m2
         </span>
       </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slider Slim Version 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="Slider__StyledContent-sc-14leke7-3 exLQIY"
+  >
+    <div
+      className="rc-slider"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseDown={[Function]}
+      onMouseUp={[Function]}
+      onTouchStart={[Function]}
+    >
+      <div
+        className="rc-slider-rail"
+        style={
+          Object {
+            "backgroundColor": "#DCDFE6",
+            "height": "2px",
+          }
+        }
+      />
+      <div
+        className="rc-slider-track"
+        style={
+          Object {
+            "backgroundColor": "#1778FB",
+            "height": "2px",
+            "left": "0%",
+            "right": "auto",
+            "width": "11.11111111111111%",
+          }
+        }
+      />
+      <div
+        className="rc-slider-step"
+      />
+      <div
+        aria-disabled={false}
+        aria-valuemax={10}
+        aria-valuemin={1}
+        aria-valuenow={2}
+        className="rc-slider-handle"
+        onBlur={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        role="slider"
+        style={
+          Object {
+            "backgroundColor": "#1778FB",
+            "borderColor": "#1778FB",
+            "height": "16px",
+            "left": "11.11111111111111%",
+            "marginTop": "-7px",
+            "right": "auto",
+            "transform": "translateX(-50%)",
+            "width": "16px",
+          }
+        }
+        tabIndex={0}
+      />
+      <div
+        className="rc-slider-mark"
+      />
     </div>
   </div>
 </div>

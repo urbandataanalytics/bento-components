@@ -5,8 +5,8 @@ import RcSlider, { Range } from 'rc-slider';
 import SliderSkeleton from './SliderSkeleton';
 import defaultTheme from '../../themes/defaultTheme';
 import InputFormatter from './InputFormatter';
-
 import 'rc-slider/assets/index.css';
+
 import useTheme from '../../hooks/useTheme';
 
 const MinMaxContainer = styled.div`
@@ -100,14 +100,24 @@ const propStyles = (theme, railSize) => ({
   ],
   handleStyle: [
     {
-      backgroundColor: theme.components.sliderHandleColor,
-      borderColor: theme.components.sliderHandleColor,
-      height: theme.components.sliderHandleSize,
+      backgroundColor: theme.components.sliderFirstHandleColor,
+      borderColor: theme.components.sliderFirstHandleColor,
+      height: theme.components.sliderFirstHandleSize,
       marginTop:
         railSize === 'regular'
-          ? theme.components.sliderHandleMarginTop
-          : theme.components.sliderHandleMarginTopSlim,
-      width: theme.components.sliderHandleSize
+          ? theme.components.sliderFirstHandleMarginTop
+          : theme.components.sliderFirstHandleMarginTopSlim,
+      width: theme.components.sliderFirstHandleSize
+    },
+    {
+      backgroundColor: theme.components.sliderSecondHandleColor,
+      borderColor: theme.components.sliderSecondHandleColor,
+      height: theme.components.sliderSecondHandleSize,
+      marginTop:
+        railSize === 'regular'
+          ? theme.components.sliderSecondHandleMarginTop
+          : theme.components.sliderSecondHandleMarginTopSlim,
+      width: theme.components.sliderSecondHandleSize
     }
   ]
 });
