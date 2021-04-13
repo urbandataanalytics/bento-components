@@ -168,3 +168,20 @@ Loading.args = {
   value: 2,
   isLoading: true
 };
+
+export const SlimVersion = args => {
+  return (
+    <div style={decoratorStyles}>
+      <Slider {...args} />
+    </div>
+  );
+};
+
+SlimVersion.args = {
+  min: 1,
+  max: 10,
+  step: 1,
+  variant: 'slider',
+  value: 2,
+  railSize: 'slim'
+};
