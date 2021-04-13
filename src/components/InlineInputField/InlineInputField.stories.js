@@ -201,13 +201,13 @@ Disabled.args = {
 
 export const WithInnerLabels = () => (
   <div style={{ width: '400px' }}>
-    <div style={{ ...decoratorStyles, backgroundColor: 'blue' }}>
+    <div style={{ ...decoratorStyles }}>
       <InlineInputField
         narrow={true}
         label="With prefix, suffix and narrow"
         prefix="1.280€"
         suffix="% yoy"
-        value="2%"
+        value="2"
         boldContent={true}
       />
     </div>
@@ -223,7 +223,7 @@ export const WithInnerLabels = () => (
 
     <div style={{ ...decoratorStyles }}>
       {' '}
-      <InlineInputField label="Only suffix" suffix="%" value="2%" />
+      <InlineInputField label="Only suffix" suffix="%" value="2" />
     </div>
   </div>
 );

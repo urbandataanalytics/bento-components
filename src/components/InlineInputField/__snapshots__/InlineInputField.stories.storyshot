@@ -26,17 +26,17 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+        className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 dftMSU"
+          className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={true}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 cYazfV suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 kANHOR suffix"
           disabled={true}
         />
       </div>
@@ -77,17 +77,17 @@ exports[`Storyshots InlineInputField Error 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+        className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 dftMSU error"
+          className="InlineInputField__Input-jwshkl-5 KAbsI error"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
           disabled={false}
         />
       </div>
@@ -129,17 +129,17 @@ exports[`Storyshots InlineInputField Playground 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+        className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 dftMSU"
+          className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
           disabled={false}
         />
       </div>
@@ -180,17 +180,17 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+        className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 eLotnl"
+          className="InlineInputField__Input-jwshkl-5 fwrzpN"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
           disabled={false}
         />
       </div>
@@ -768,17 +768,17 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+        className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 dftMSU"
+          className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
           disabled={false}
         />
       </div>
@@ -1356,17 +1356,17 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+        className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 eLotnl"
+          className="InlineInputField__Input-jwshkl-5 fwrzpN"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
           disabled={false}
         />
       </div>
@@ -1396,17 +1396,17 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+        className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 dftMSU"
+          className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
           disabled={false}
         />
       </div>
@@ -1995,17 +1995,17 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
       className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
     >
       <div
-        className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+        className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 dftMSU"
+          className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
           disabled={false}
         />
       </div>
@@ -2054,24 +2054,24 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
         className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
       >
         <div
-          className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+          className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 NFvdN prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 joNTMV prefix"
             disabled={false}
           >
             1.280€
           </p>
           <input
-            className="InlineInputField__Input-jwshkl-5 lcdqDy"
+            className="InlineInputField__Input-jwshkl-5 ykNjn"
             disabled={false}
             prefix="1.280€"
             type="text"
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 NFvdN suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 joNTMV suffix"
             disabled={false}
           >
             % yoy
@@ -2107,24 +2107,24 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
         className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
       >
         <div
-          className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+          className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 dueuKL prefix"
             disabled={false}
           >
             1.280€
           </p>
           <input
-            className="InlineInputField__Input-jwshkl-5 cajtkM"
+            className="InlineInputField__Input-jwshkl-5 ileiKQ"
             disabled={false}
             prefix="1.280€"
             type="text"
-            value="2"
+            value="2%"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
             disabled={false}
           />
         </div>
@@ -2158,24 +2158,24 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
         className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
       >
         <div
-          className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+          className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 cYazfV prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 kANHOR prefix"
             disabled={true}
           >
             1.280€
           </p>
           <input
-            className="InlineInputField__Input-jwshkl-5 cajtkM"
+            className="InlineInputField__Input-jwshkl-5 ileiKQ"
             disabled={true}
             prefix="1.280€"
             type="text"
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 cYazfV suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 kANHOR suffix"
             disabled={true}
           />
         </div>
@@ -2208,16 +2208,16 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
         className="InlineInputField__InputContainer-jwshkl-6 fnlFeX"
       >
         <div
-          className="InlineInputField__InputWrapper-jwshkl-4 jIUBmO"
+          className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
         >
           <input
-            className="InlineInputField__Input-jwshkl-5 eLotnl"
+            className="InlineInputField__Input-jwshkl-5 fwrzpN"
             disabled={false}
             type="text"
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 hPWNrL suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 dueuKL suffix"
             disabled={false}
           >
             %
