@@ -58,8 +58,6 @@ const InputWrapper = styled.div`
   outline: 0;
   width: 100%;
   border-radius: ${({ theme }) => theme.components.inlineInputFieldBorderRadius};
-  border-width: 1px;
-  border-style: solid;
   box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldBottomBorderColor};
   transition: ${({ theme }) => theme.global.transitionM};
   background-color: ${({ theme, inputBackground }) =>
@@ -94,6 +92,7 @@ const Input = styled.input`
   &.error {
     background-color: ${({ theme }) => theme.components.inlineInputFieldErrorBackgroundColor};
     border-color: ${({ theme }) => theme.components.inlineInputFieldErrorBorderColor};
+    border-radius: ${({ theme }) => theme.components.inlineInputFieldBorderRadius};
     box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldErrorBottomBorderColor};
     &::placeholder {
       color: ${({ theme }) => theme.components.inlineInputFieldErrorPlaceholderColor};
@@ -108,6 +107,7 @@ const Input = styled.input`
     background-color: ${({ theme }) => theme.components.inlineInputFieldFocusBackgroundColor};
     border-color: ${({ theme }) => theme.components.inlineInputFieldFocusBorderColor};
     box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldFocusBottomBorderColor};
+    border-radius: ${({ theme }) => theme.components.inlineInputFieldBorderRadius};
   }
 
   &:disabled {
@@ -115,6 +115,7 @@ const Input = styled.input`
     border-color: ${({ theme }) => theme.components.inlineInputFieldDisabledBorderColor};
     box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldDisabledBottomBorderColor};
     color: ${({ theme }) => theme.components.inlineInputFieldDisabledColor};
+    border-radius: ${({ theme }) => theme.components.inlineInputFieldBorderRadius};
   }
 `;
 const InputContainer = styled.div`
@@ -147,12 +148,12 @@ const InnerLabel = styled.p`
     padding-left: ${({ theme }) => theme.spacings.small3};
     ${({ theme }) => theme.texts.p1b};
     color: ${({ theme, disabled }) =>
-      disabled ? theme.components.inlineInputFieldDisabledLabelColor : theme.color.charcoal600};
+      disabled ? theme.components.inlineInputFieldDisabledLabelColor : theme.color.charcoal500};
   }
 
   &.suffix {
     max-width: fit-content;
-    top: ${({ narrow }) => (narrow ? '6px' : '10px')};
+    top: ${({ narrow }) => (narrow ? '6.45px' : '10.45px')};
     right: 0;
     padding-right: ${({ theme }) => theme.spacings.small3};
     ${({ theme, boldContent }) => (boldContent ? theme.texts.p1b : theme.texts.p1)};
