@@ -58,8 +58,6 @@ const InputWrapper = styled.div`
   outline: 0;
   width: 100%;
   border-radius: ${({ theme }) => theme.components.inlineInputFieldBorderRadius};
-  border-width: 1px;
-  border-style: solid;
   box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldBottomBorderColor};
   transition: ${({ theme }) => theme.global.transitionM};
   background-color: ${({ theme, inputBackground }) =>
@@ -94,6 +92,7 @@ const Input = styled.input`
   &.error {
     background-color: ${({ theme }) => theme.components.inlineInputFieldErrorBackgroundColor};
     border-color: ${({ theme }) => theme.components.inlineInputFieldErrorBorderColor};
+    border-radius: ${({ theme }) => theme.components.inlineInputFieldBorderRadius};
     box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldErrorBottomBorderColor};
     &::placeholder {
       color: ${({ theme }) => theme.components.inlineInputFieldErrorPlaceholderColor};
@@ -108,6 +107,7 @@ const Input = styled.input`
     background-color: ${({ theme }) => theme.components.inlineInputFieldFocusBackgroundColor};
     border-color: ${({ theme }) => theme.components.inlineInputFieldFocusBorderColor};
     box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldFocusBottomBorderColor};
+    border-radius: ${({ theme }) => theme.components.inlineInputFieldBorderRadius};
   }
 
   &:disabled {
@@ -115,6 +115,7 @@ const Input = styled.input`
     border-color: ${({ theme }) => theme.components.inlineInputFieldDisabledBorderColor};
     box-shadow: inset 0 -1px 0 0 ${({ theme }) => theme.components.inlineInputFieldDisabledBottomBorderColor};
     color: ${({ theme }) => theme.components.inlineInputFieldDisabledColor};
+    border-radius: ${({ theme }) => theme.components.inlineInputFieldBorderRadius};
   }
 `;
 const InputContainer = styled.div`
@@ -143,7 +144,7 @@ const InnerLabel = styled.p`
 
   &.prefix {
     max-width: 100px;
-    top: ${({ narrow }) => (narrow ? '6px' : '10px')};
+    top: ${({ narrow }) => (narrow ? '6.45px' : '10.45px')};
     padding-left: ${({ theme }) => theme.spacings.small3};
     ${({ theme }) => theme.texts.p1b};
     color: ${({ theme, disabled }) =>
@@ -152,7 +153,7 @@ const InnerLabel = styled.p`
 
   &.suffix {
     max-width: fit-content;
-    top: ${({ narrow }) => (narrow ? '6px' : '10px')};
+    top: ${({ narrow }) => (narrow ? '6.45px' : '10.45px')};
     right: 0;
     padding-right: ${({ theme }) => theme.spacings.small3};
     ${({ theme, boldContent }) => (boldContent ? theme.texts.p1b : theme.texts.p1)};
@@ -185,6 +186,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
   } = props;
   const [prefixWidth, setPrefixWidth] = useState(null);
   const [suffixWidth, setSuffixWidth] = useState(null);
+  let inputRef = null;
 
   const getPrefixWidth = async node => {
     if (node) {
@@ -198,6 +200,10 @@ const InlineInputField = React.forwardRef((props, ref) => {
       const styles = await window.getComputedStyle(node);
       setSuffixWidth(styles.width);
     }
+  };
+
+  const handleSuffixClick = () => {
+    inputRef.focus();
   };
 
   return (
@@ -229,6 +235,9 @@ const InlineInputField = React.forwardRef((props, ref) => {
               </InnerLabel>
             )}
             <Input
+              ref={node => {
+                inputRef = node;
+              }}
               textAlign={textAlign}
               className={error ? `error` : null}
               type={type}
@@ -247,6 +256,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
               {...other}
             />
             <InnerLabel
+              onClick={handleSuffixClick}
               disabled={disabled}
               ref={node => {
                 getSuffixWidth(node);
