@@ -246,7 +246,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
               placeholder={placeholder}
               tabIndex={tabIndex}
               {...other}
-            ></Input>
+            />
             <InnerLabel
               disabled={disabled}
               ref={node => {

@@ -60,6 +60,13 @@ export default {
         category: 'events'
       }
     },
+    onAfterChange: {
+      description: 'Handles the behaviour when the onAfterChange event is triggered',
+      actions: 'onAfterChange action',
+      table: {
+        category: 'events'
+      }
+    },
     prefix: {
       description:
         'Sets a prefix both for minimum and maximum values. Overrides `maxPrefix` and `minPrefix`',
@@ -92,6 +99,12 @@ export default {
       table: {
         category: 'format'
       }
+    },
+    railSize: {
+      description: 'Allows to choose between `regular` or `slim` rail size',
+      table: {
+        category: 'format'
+      }
     }
   },
   args: {
@@ -117,6 +130,7 @@ Playground.args = {
   max: 10,
   step: 1,
   variant: 'slider',
+  railSize: 'regular',
   value: 2
 };
 

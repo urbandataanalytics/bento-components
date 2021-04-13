@@ -8,6 +8,7 @@ export interface TabsProps {
     value: string | number
   ) => void | Promise<any>;
   value?: string | number;
+  lineHeight?: number;
 }
 
 declare const Tabs: React.FunctionComponent<TabsProps>;

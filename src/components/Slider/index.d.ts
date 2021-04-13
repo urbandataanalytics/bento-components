@@ -9,11 +9,13 @@ export interface SliderProps {
   minSuffix?: string;
   name?: string;
   onChange: (ev: SyntheticInputEvent<HTMLInputElement>, value: number) => void | Promise<any>;
+  onAfterChange?: (ev: SyntheticInputEvent<HTMLInputElement>, value: number) => void | Promise<any>;
   prefix?: string;
   step: number;
   suffix?: string;
   value: number | Array<number>;
   variant: 'slider' | 'range';
+  railSize?: 'regular' | 'slim';
 }
 
 declare const Slider: React.FunctionComponent<

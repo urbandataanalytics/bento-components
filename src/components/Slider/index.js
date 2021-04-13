@@ -46,6 +46,13 @@ const StyledContent = styled.div`
     background-color: transparent;
   }
 
+  .rc-slider-step {
+    height: ${({ theme, railSize }) =>
+      railSize === 'regular'
+        ? theme.components.sliderRailSize
+        : theme.components.sliderRailSizeSlim};
+  }
+
   .rc-slider-disabled .rc-slider-handle {
     background-color: ${({ theme }) => theme.components.sliderHandleDisabledColor} !important;
     border-color: ${({ theme }) => theme.components.sliderHandleDisabledColor} !important;
@@ -76,15 +83,19 @@ const getDefaultValue = ({ value, min, max, variant }) => {
   return result;
 };
 
-const propStyles = theme => ({
+const propStyles = (theme, railSize) => ({
   railStyle: {
     backgroundColor: theme.components.sliderRailColor,
-    height: theme.components.sliderlRailSize
+    height:
+      railSize === 'regular' ? theme.components.sliderRailSize : theme.components.sliderRailSizeSlim
   },
   trackStyle: [
     {
       backgroundColor: theme.components.sliderTrackColor,
-      height: theme.components.sliderlRailSize
+      height:
+        railSize === 'regular'
+          ? theme.components.sliderRailSize
+          : theme.components.sliderRailSizeSlim
     }
   ],
   handleStyle: [
@@ -92,14 +103,10 @@ const propStyles = theme => ({
       backgroundColor: theme.components.sliderHandleColor,
       borderColor: theme.components.sliderHandleColor,
       height: theme.components.sliderHandleSize,
-      marginTop: theme.components.sliderHandleMarginTop,
-      width: theme.components.sliderHandleSize
-    },
-    {
-      backgroundColor: theme.components.sliderHandleColor,
-      borderColor: theme.components.sliderHandleColor,
-      height: theme.components.sliderHandleSize,
-      marginTop: theme.components.sliderHandleMarginTop,
+      marginTop:
+        railSize === 'regular'
+          ? theme.components.sliderHandleMarginTop
+          : theme.components.sliderHandleMarginTopSlim,
       width: theme.components.sliderHandleSize
     }
   ]
@@ -117,14 +124,17 @@ const Slider = React.forwardRef((props, ref) => {
     minPrefix,
     minSuffix,
     name,
+    onAfterChange = () => {},
     onChange = () => {},
     prefix,
     step,
     suffix,
+    railSize,
     value,
     variant,
     ...other
   } = props;
+
   const [values, setValues] = useState(getDefaultValue({ value, min, max, variant }));
   const [isEditing, toggleEdditing] = useState({ min: false, max: false });
   const theme = useTheme();
@@ -185,11 +195,11 @@ const Slider = React.forwardRef((props, ref) => {
           disabled={disabled}
           max={max}
           min={min}
-          onChange={handleSliderSimpleChange}
-          onAfterChange={handleAfterChange}
+          onChange={onChange}
+          onAfterChange={onAfterChange}
           step={step}
           value={values}
-          {...propStyles(theme)}
+          {...propStyles(theme, railSize)}
         />
       ) : (
         <>
@@ -202,7 +212,7 @@ const Slider = React.forwardRef((props, ref) => {
             ref={ref}
             step={step}
             value={values}
-            {...propStyles(theme)}
+            {...propStyles(theme, railSize)}
           />
 
           <MinMaxContainer>
@@ -257,18 +267,21 @@ Slider.propTypes = {
   minSuffix: PropTypes.string,
   name: PropTypes.string,
   onChange: PropTypes.func.isRequired,
+  onAfterChange: PropTypes.func,
   prefix: PropTypes.string,
   step: PropTypes.number.isRequired,
   suffix: PropTypes.string,
   value: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
-  variant: PropTypes.oneOf(['slider', 'range']).isRequired
+  variant: PropTypes.oneOf(['slider', 'range']).isRequired,
+  railSize: PropTypes.oneOf(['regular', 'slim']).isRequired
 };
 
 Slider.defaultProps = {
   max: 5000,
   min: 0,
   step: 1,
-  variant: 'slider'
+  variant: 'slider',
+  railSize: 'regular'
 };
 
 Slider.displayName = 'Slider';

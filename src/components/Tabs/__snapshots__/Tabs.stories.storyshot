@@ -9,7 +9,7 @@ exports[`Storyshots Tabs Playground 1`] = `
   }
 >
   <div
-    className="Tabs__StyledTabsContainer-sc-1du08bp-0 giHxWP"
+    className="Tabs__StyledTabsContainer-sc-1du08bp-0 gNleNY"
   >
     <div
       className="Tabs__StyledTabsContent-sc-1du08bp-3 gvkgBJ"
@@ -59,7 +59,7 @@ exports[`Storyshots Tabs With Badge 1`] = `
   }
 >
   <div
-    className="Tabs__StyledTabsContainer-sc-1du08bp-0 giHxWP"
+    className="Tabs__StyledTabsContainer-sc-1du08bp-0 gNleNY"
   >
     <div
       className="Tabs__StyledTabsContent-sc-1du08bp-3 gvkgBJ"
@@ -119,7 +119,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
   }
 >
   <div
-    className="Tabs__StyledTabsContainer-sc-1du08bp-0 giHxWP"
+    className="Tabs__StyledTabsContainer-sc-1du08bp-0 gNleNY"
   >
     <div
       className="Tabs__StyledLeftContent-sc-1du08bp-1 kGSGJe"
@@ -497,9 +497,11 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "sliderHandleDisabledColor": "#B6BBC6",
                   "sliderHandleDraggingColor": undefined,
                   "sliderHandleMarginTop": "-6px",
+                  "sliderHandleMarginTopSlim": "-7px",
                   "sliderHandleSize": "16px",
                   "sliderRailColor": "#DCDFE6",
-                  "sliderRailSize": "2px",
+                  "sliderRailSize": "4px",
+                  "sliderRailSizeSlim": "2px",
                   "sliderTrackColor": "#1778FB",
                   "tabBadgeBackground": "#EFF2F7",
                   "tabBadgeBackgroundActive": "#1778FB",
@@ -1106,9 +1108,11 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
                   "sliderHandleDisabledColor": "#B6BBC6",
                   "sliderHandleDraggingColor": undefined,
                   "sliderHandleMarginTop": "-6px",
+                  "sliderHandleMarginTopSlim": "-7px",
                   "sliderHandleSize": "16px",
                   "sliderRailColor": "#DCDFE6",
-                  "sliderRailSize": "2px",
+                  "sliderRailSize": "4px",
+                  "sliderRailSizeSlim": "2px",
                   "sliderTrackColor": "#1778FB",
                   "tabBadgeBackground": "#EFF2F7",
                   "tabBadgeBackgroundActive": "#1778FB",
