@@ -1,5 +1,5 @@
 import { create } from '@storybook/theming';
-import logo from "./logo-uda.svg";
+import logo from './logo-uda.svg';
 
 export default create({
   base: 'light',
