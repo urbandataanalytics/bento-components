@@ -1,5 +1,5 @@
 import { create } from '@storybook/theming';
-import logo from '../src/assets/logo-bento-dark.svg'
+import logo from '../src/assets/logo-bento-dark.svg';
 
 export default create({
   base: 'dark',
