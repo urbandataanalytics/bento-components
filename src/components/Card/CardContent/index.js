@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import DefaultTheme from '../../../themes/defaultTheme';
+import PropTypes from 'prop-types';
+import defaultTheme from '../../../themes/defaultTheme';
 
 const StyledCardContent = styled.div`
   padding: ${({ theme }) => theme.spacings.small3} ${({ theme }) => theme.spacings.small4};
@@ -8,7 +9,7 @@ const StyledCardContent = styled.div`
 `;
 
 StyledCardContent.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 const CardContent = React.forwardRef((props, ref) => {
@@ -21,6 +22,10 @@ const CardContent = React.forwardRef((props, ref) => {
   );
 });
 
+CardContent.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string
+};
 CardContent.displayName = 'CardContent';
 
 export default CardContent;

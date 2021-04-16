@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import DefaultTheme from '../../../themes/defaultTheme';
+import defaultTheme from '../../../themes/defaultTheme';
 import IconLoader from '../../../icons/Loader';
 
 const StyledText = styled.span`
@@ -40,7 +40,7 @@ const Loader = props => {
 };
 
 StyledLoader.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 Loader.defaultProps = {

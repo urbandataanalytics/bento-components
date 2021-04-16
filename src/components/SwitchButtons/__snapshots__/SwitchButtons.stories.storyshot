@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots SwitchButtons Normal 1`] = `
+exports[`Storyshots SwitchButtons Playground 1`] = `
 <div
   style={
     Object {
@@ -8,8 +8,17 @@ exports[`Storyshots SwitchButtons Normal 1`] = `
     }
   }
 >
+  <p
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+  >
+    This component is deprecated, please reffer to &lt;ToggleGroup/&gt; instead
+  </p>
   <div
-    className="SwitchButtons__StyledSwitchButtonsContainer-cs8esz-0 eFSafg"
+    className="SwitchButtons__StyledSwitchButtonsContainer-cs8esz-0 cPFYQd"
   >
     <button
       className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"

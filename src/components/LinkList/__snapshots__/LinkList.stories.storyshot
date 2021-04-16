@@ -4,14 +4,9 @@ exports[`Storyshots LinkList Normal 1`] = `
 <ul
   className="List__StyledList-sc-1lqmygi-0 hnvVOG"
   size="medium"
-  style={
-    Object {
-      "margin": "20px",
-    }
-  }
 >
   <li
-    className="ListItem__StyledListItem-sc-4kscw7-4 laOoIU"
+    className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
     onClick={[Function]}
     size="medium"
   >
@@ -25,7 +20,7 @@ exports[`Storyshots LinkList Normal 1`] = `
     </a>
   </li>
   <li
-    className="ListItem__StyledListItem-sc-4kscw7-4 bTeMQX"
+    className="ListItem__StyledListItem-sc-4kscw7-4 jupLBf"
     onClick={[Function]}
     size="medium"
   >
@@ -46,7 +41,7 @@ exports[`Storyshots LinkList Normal 1`] = `
     </a>
   </li>
   <li
-    className="ListItem__StyledListItem-sc-4kscw7-4 fHLaEa"
+    className="ListItem__StyledListItem-sc-4kscw7-4 clmhGD"
     disabled={true}
     onClick={[Function]}
     size="medium"

@@ -1,7 +1,8 @@
 export interface SkeletonProps {
-  height: string;
+  height?: string;
+  variant: 'square' | 'circular' | 'rounded' | 'text';
   width: string;
-  variant?: 'square' | 'circular' | 'rounded' | 'text';
+  opacity?: string;
 }
 
 declare const Skeleton: React.FunctionComponent<SkeletonProps>;

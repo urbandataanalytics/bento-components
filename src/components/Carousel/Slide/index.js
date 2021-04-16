@@ -64,6 +64,7 @@ const CarouselSlide = React.forwardRef((props, ref) => {
       image.onload = setLoaded;
       setBackgroundImage(image);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [visible]);
 
   return (
@@ -73,6 +74,7 @@ const CarouselSlide = React.forwardRef((props, ref) => {
           imageSrc={backgroundImage ? backgroundImage.src : ''}
           loaded={hasLoaded}
           onClick={() => onClick(index)}
+          {...other}
         />
       ) : (
         <Skeleton variant="text" height="100%" width="100%" />

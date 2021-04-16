@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import IconOrderAsc from '../../icons/OrderAsc';
 import IconOrderDesc from '../../icons/OrderDesc';
 import styled from 'styled-components';

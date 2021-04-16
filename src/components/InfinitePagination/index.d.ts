@@ -1,7 +1,7 @@
 export interface InfinitiPaginationProps {
+  currentCount: number;
   label: string;
   totalCount: number;
-  currentCount: number;
 }
 
 declare const InfinitePagination: React.FunctionComponent<InfinitiPaginationProps>;

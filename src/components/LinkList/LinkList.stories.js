@@ -1,7 +1,6 @@
 import React from 'react';
 import LinkList from './index';
-import LinkListItem from './LinkListItem';
-import { select } from '@storybook/addon-knobs';
+import LinkListItem from '../List/LinkListItem';
 
 export default {
   title: 'LinkList',
@@ -10,7 +9,7 @@ export default {
 
 export const Normal = () => {
   return (
-    <LinkList size={select('Sizes', ['medium', 'large'], 'medium')} style={{ margin: '20px' }}>
+    <LinkList>
       <LinkListItem href={'#'}>Link default</LinkListItem>
       <LinkListItem href={'#'} active>
         Link active

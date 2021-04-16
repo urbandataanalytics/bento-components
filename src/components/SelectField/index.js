@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 import IconArrowClose from '../../icons/ArrowClose/index';
+
 const LabelText = styled.p`
   font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
   color: ${({ theme }) => theme.components.inputFieldLabelColor};
@@ -41,6 +42,7 @@ const Select = styled.select`
   transition: ${({ theme }) => theme.global.transitionM};
   background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
   border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
+  padding: 2px 0;
 
   &:focus {
     background-color: ${({ theme }) => theme.components.inputFieldFocusBackgroundColor};
@@ -84,14 +86,15 @@ Label.defaultProps = {
 const SelectField = React.forwardRef((props, ref) => {
   const {
     className,
-    disabled,
     defaultLabel,
+    defaultValue,
+    disabled,
     error,
     help,
     label,
     name,
-    options,
     onChange,
+    options,
     tabIndex,
     value,
     ...other
@@ -111,7 +114,7 @@ const SelectField = React.forwardRef((props, ref) => {
           ref={ref}
           {...other}
         >
-          {defaultLabel && <option defaultValue>{defaultLabel}</option>}
+          {defaultLabel && <option value={defaultValue}>{defaultLabel}</option>}
           {options &&
             options.map((opt, key) => (
               <option key={key} value={opt.value}>
@@ -121,27 +124,29 @@ const SelectField = React.forwardRef((props, ref) => {
         </Select>
         {label && <LabelText disabled={disabled}>{label}</LabelText>}
       </Label>
-      <HelpText className={error ? 'error' : null}>{help}</HelpText>
+      {help && <HelpText className={error ? 'error' : null}>{help}</HelpText>}
     </div>
   );
 });
 
 SelectField.propTypes = {
   className: PropTypes.string,
+  defaultLabel: PropTypes.string,
+  defaultValue: PropTypes.string,
   disabled: PropTypes.bool,
-  options: PropTypes.array.isRequired,
   error: PropTypes.bool,
   help: PropTypes.string,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
-  defaultLabel: PropTypes.string,
   onChange: PropTypes.func.isRequired,
+  options: PropTypes.array.isRequired,
   tabIndex: PropTypes.string,
   value: PropTypes.string.isRequired
 };
 
 SelectField.defaultProps = {
   value: '',
+  defaultValue: '',
   disabled: false
 };
 

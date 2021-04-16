@@ -48,9 +48,9 @@ StyledNavListItem.defaultProps = {
 };
 
 const NavListItem = props => {
-  const { size = 'large', as, ...other } = props;
+  const { as, ...other } = props;
 
-  return <StyledNavListItem size={size} component={as} {...other} />;
+  return <StyledNavListItem component={as} {...other} />;
 };
 
 NavListItem.propTypes = ListItem.propTypes;

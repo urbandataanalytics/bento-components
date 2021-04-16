@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import Dropdown from '.';
 
 describe(`Dropdown`, () => {
@@ -10,10 +10,12 @@ describe(`Dropdown`, () => {
     expect(message().exists()).toBe(false);
   });
 
-  it('should render children content when is open', () => {
-    const wrapper = shallow(
-      <Dropdown isOpen={true} label={'Label'}>
-        Message
+  it('should render children content with styles when is open', () => {
+    const wrapper = mount(
+      <Dropdown isOpen={true} label="Label">
+        <p>Child 1</p>
+        <p>Child 2</p>
+        <p>Child 3</p>
       </Dropdown>
     );
 
@@ -47,5 +49,37 @@ describe(`Dropdown`, () => {
 
     const message = () => wrapper.find('Dropdown__StyledLabel');
     expect(message().text()).toBe('Label');
+  });
+
+  it('should make childrenContainer dissapear when closeOnClickInside is true and click is done', () => {
+    const wrapper = shallow(
+      <Dropdown closeOnClickInside={true} label="Label">
+        <p id="child1">Child 1</p>
+      </Dropdown>
+    );
+
+    //Opens dropdown from button
+    wrapper.find('Dropdown__StyledLabel').simulate('click');
+
+    //Click inside to close
+    wrapper.find('Dropdown__ChildrenContainer').simulate('click');
+
+    expect(wrapper.find('Dropdown__ChildrenContainer').exists()).toBe(false);
+  });
+
+  it('should not close dropdown with inside click if closeOnClickInside is false', () => {
+    const wrapper = shallow(
+      <Dropdown closeOnClickInside={false} label="Label">
+        <p id="child1">Child 1</p>
+      </Dropdown>
+    );
+
+    //Opens dropdown from button
+    wrapper.find('Dropdown__StyledLabel').simulate('click');
+
+    //Click inside to close
+    wrapper.find('Dropdown__ChildrenContainer').simulate('click');
+
+    expect(wrapper.find('Dropdown__ChildrenContainer').exists()).toBe(true);
   });
 });

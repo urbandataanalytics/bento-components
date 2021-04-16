@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import DefaultTheme from '../../themes/defaultTheme';
+import defaultTheme from '../../themes/defaultTheme';
 
 const REGEX_PATTERN_NUMBER = 'd+(.d*)?';
 
@@ -31,7 +31,7 @@ const MinMaxInput = styled.input`
 `;
 
 MinMaxInput.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 const InputFormatter = ({
@@ -48,7 +48,10 @@ const InputFormatter = ({
   };
 
   const [inputValue, setInputValue] = useState(value);
-  const onChange = event => setInputValue(event.target.value);
+  const onChange = event => {
+    if (isNaN(event.target.value)) return;
+    setInputValue(Number(event.target.value));
+  };
 
   useEffect(() => {
     if (isEditing) {
@@ -56,6 +59,7 @@ const InputFormatter = ({
     } else {
       setInputValue('');
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isEditing]);
 
   return isEditing ? (

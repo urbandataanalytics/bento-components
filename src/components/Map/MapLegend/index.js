@@ -1,6 +1,7 @@
 import * as React from 'react';
-import styled from 'styled-components';
 import { forwardRef } from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import MapLegendSkeleton from './MapLegendSkeleton';
 
 const StyledContainer = styled.div`
@@ -36,6 +37,27 @@ const StyledDescription = styled.div`
 const StyledRangeColors = styled.div`
   display: flex;
   margin-top: 15px;
+`;
+
+const StylePoints = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const StyledPointElement = styled.div`
+  width: 100%;
+  span:first-child {
+    background: ${({ color }) => color};
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  span:last-child {
+    ${({ theme }) => theme.texts.p2};
+    color: ${({ theme }) => theme.color.charcoal600};
+    margin-left: 12px;
+  }
 `;
 
 const StyledColor = styled.i`
@@ -74,17 +96,19 @@ const Action = styled.div`
 
 const MapLegend = forwardRef((props, ref) => {
   const {
-    title,
-    isLoading,
-    description,
-    rangeColors,
-    rangeTextMin,
-    rangeTextMax,
-    offsetLeft,
-    offsetBottom,
     actions,
-    onChangeAction,
     activeAction,
+    description,
+    isLoading,
+    offsetBottom,
+    offsetLeft,
+    onChangeAction,
+    points,
+    rangeColors,
+    rangeTextMax,
+    rangeTextMin,
+    title,
+    variant,
     ...other
   } = props;
 
@@ -99,15 +123,28 @@ const MapLegend = forwardRef((props, ref) => {
           <StyledWrapper>
             {title && <StyledTitle>{title}</StyledTitle>}
             {description && <StyledDescription>{description}</StyledDescription>}
-            <StyledRangeColors>
-              {rangeColors.map((color, i) => (
-                <StyledColor color={color} key={i} />
-              ))}
-            </StyledRangeColors>
-            <StyledMinMaxText>
-              <span>{rangeTextMin}</span>
-              <span>{rangeTextMax}</span>
-            </StyledMinMaxText>
+            {variant === 'range' ? (
+              <>
+                <StyledRangeColors>
+                  {rangeColors.map((color, i) => (
+                    <StyledColor color={color} key={i} />
+                  ))}
+                </StyledRangeColors>
+                <StyledMinMaxText>
+                  <span>{rangeTextMin}</span>
+                  <span>{rangeTextMax}</span>
+                </StyledMinMaxText>
+              </>
+            ) : (
+              <StylePoints>
+                {points.map((point, i) => (
+                  <StyledPointElement key={i} color={point.color}>
+                    <span></span>
+                    <span>{point.label}</span>
+                  </StyledPointElement>
+                ))}
+              </StylePoints>
+            )}
           </StyledWrapper>
           {actions.length > 0 && (
             <StyledActions>
@@ -125,6 +162,7 @@ const MapLegend = forwardRef((props, ref) => {
 });
 
 MapLegend.defaultProps = {
+  variant: 'range',
   rangeColors: [
     '#03045E',
     '#ADE8F4',
@@ -138,6 +176,22 @@ MapLegend.defaultProps = {
   rangeTextMin: 'Min',
   rangeTextMax: 'Max',
   actions: []
+};
+
+MapLegend.propTypes = {
+  actions: PropTypes.array,
+  activeAction: PropTypes.string,
+  description: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  isLoading: PropTypes.bool,
+  offsetBottom: PropTypes.string,
+  offsetLeft: PropTypes.string,
+  onChangeAction: PropTypes.func,
+  points: PropTypes.array,
+  rangeColors: PropTypes.arrayOf(PropTypes.string),
+  rangeTextMax: PropTypes.string,
+  rangeTextMin: PropTypes.string,
+  title: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  variant: PropTypes.oneOf(['range', 'points'])
 };
 
 export default MapLegend;

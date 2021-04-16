@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import InputField from './index';
 
 describe(`InputField`, () => {
@@ -42,7 +42,7 @@ describe(`InputField`, () => {
   });
 
   describe('styles', () => {
-    const component = mount(<InputField error {...props} />);
+    const component = mount(<InputField help="Help text" error {...props} />);
     const help = component.find('InputField__HelpText');
     const input = component.find('InputField__Input');
     const theme = input.prop('theme');

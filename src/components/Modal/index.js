@@ -48,7 +48,7 @@ StyleHeading.defaultProps = {
 const StyledContent = styled.div`
   margin: ${({ theme, full }) => (full ? '0' : theme.spacings.medium1)} 0;
   padding: 0 ${({ theme, full }) => (full ? '0' : theme.spacings.small3)};
-  overflow: hidden;
+  overflow: auto;
   position: relative;
   height: 100%;
 `;
@@ -67,11 +67,11 @@ StyledFooter.defaultProps = {
 };
 
 const StyledOverlay = styled.div`
-  background-color: ${({ theme }) => hexToRgba(theme.color.charcoal800, 0.2)};
+  background-color: ${({ theme, opacity }) => hexToRgba(theme.color.charcoal800, opacity)};
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 9999;
+  z-index: ${({ zIndex }) => zIndex};
   width: 100%;
   height: 100%;
   display: flex;
@@ -85,13 +85,15 @@ StyledOverlay.defaultProps = {
 
 const Modal = ({
   children,
-  closable = true,
-  enableClickOutside = true,
+  closable,
+  enableClickOutside,
   footer,
+  full,
   header,
-  onClose,
   isOpen,
-  full = false,
+  onClose,
+  opacity,
+  zIndex,
   ...other
 }) => {
   const theme = useTheme();
@@ -100,17 +102,22 @@ const Modal = ({
   const prevBodyOverflowStyle = useRef(null);
 
   useEffect(() => {
+    const overflow = document.body.scrollHeight > window.innerHeight;
     if (isOpen) {
-      prevBodyOverflowStyle.current = document.body.style.overflow;
-      document.body.style.overflow = 'hidden';
+      prevBodyOverflowStyle.current = document.body.style.overflowY;
+      document.body.style.overflowY = overflow ? 'scroll' : '';
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
     }
     return () => {
-      document.body.style.overflow = prevBodyOverflowStyle.current || '';
+      document.body.style.overflowY = prevBodyOverflowStyle.current || '';
+      document.body.style.position = '';
+      document.body.style.width = '';
     };
   }, [isOpen]);
 
   return isOpen ? (
-    <StyledOverlay>
+    <StyledOverlay zIndex={zIndex} opacity={opacity}>
       <StyledContainer {...other} ref={ref}>
         {((header && header.props.children) || closable) && (
           <StyledHeader hasHeading={header && header.props.children} closable={closable}>
@@ -136,7 +143,17 @@ Modal.propTypes = {
   footer: PropTypes.node,
   header: PropTypes.node,
   onClose: PropTypes.func.isRequired,
-  isOpen: PropTypes.bool.isRequired
+  isOpen: PropTypes.bool.isRequired,
+  full: PropTypes.bool.isRequired,
+  zIndex: PropTypes.number,
+  opacity: PropTypes.number
 };
 
+Modal.defaultProps = {
+  full: false,
+  closable: true,
+  enableClickOutside: true,
+  zIndex: 9999,
+  opacity: 0.3
+};
 export default Modal;

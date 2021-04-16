@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
+import InputFieldPassword from './InputFieldPassword';
 
 const LabelText = styled.p`
   font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
@@ -29,7 +30,9 @@ HelpText.defaultProps = {
   theme: defaultTheme
 };
 
-const Input = styled.input`
+export const Input = styled.input`
+  font-family: ${({ theme }) => theme.global.fontFamily};
+  appearance: none;
   outline: 0;
   font-size: ${({ theme }) => theme.components.inputFieldFontSize};
   line-height: ${({ theme }) => theme.components.inputFieldLineHeight};
@@ -40,6 +43,22 @@ const Input = styled.input`
   transition: ${({ theme }) => theme.global.transitionM};
   background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
   border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
+  ${({ type }) => type === 'password' && 'padding-right: 75px;'}
+
+  + button {
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    cursor: pointer;
+    padding: 16px;
+
+    /* Safari 11+ */
+    @media not all and (min-resolution: 0.001dpcm) {
+      @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        bottom: 2px;
+      }
+    }
+  }
 
   &::placeholder {
     color: ${({ theme }) => theme.components.inputFieldPlaceholderColor};
@@ -86,6 +105,7 @@ Input.defaultProps = {
 const Label = styled.label`
   display: flex;
   flex-direction: column-reverse;
+  position: relative;
 `;
 
 Label.defaultProps = {
@@ -111,21 +131,37 @@ const InputField = React.forwardRef((props, ref) => {
   return (
     <div className={className}>
       <Label>
-        <Input
-          className={error ? `error` : null}
-          type={type}
-          disabled={disabled}
-          value={value}
-          name={name}
-          onChange={onChange}
-          placeholder={placeholder}
-          tabIndex={tabIndex}
-          ref={ref}
-          {...other}
-        />
+        {type === 'password' ? (
+          <InputFieldPassword
+            className={error ? `error` : null}
+            type={type}
+            disabled={disabled}
+            value={value}
+            name={name}
+            onChange={onChange}
+            placeholder={placeholder}
+            tabIndex={tabIndex}
+            ref={ref}
+            {...other}
+          />
+        ) : (
+          <Input
+            className={error ? `error` : null}
+            type={type}
+            disabled={disabled}
+            value={value}
+            name={name}
+            onChange={onChange}
+            placeholder={placeholder}
+            tabIndex={tabIndex}
+            ref={ref}
+            {...other}
+          />
+        )}
+
         {label && <LabelText disabled={disabled}>{label}</LabelText>}
       </Label>
-      <HelpText className={error ? 'error' : null}>{help}</HelpText>
+      {help && <HelpText className={error ? 'error' : null}>{help}</HelpText>}
     </div>
   );
 });
@@ -137,11 +173,11 @@ InputField.propTypes = {
   help: PropTypes.string,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
-  onChange: PropTypes.func.isRequired,
+  onChange: PropTypes.func,
   placeholder: PropTypes.string,
   tabIndex: PropTypes.string,
-  type: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired
+  type: PropTypes.oneOf(['text', 'password', 'email']).isRequired,
+  value: PropTypes.string
 };
 
 InputField.defaultProps = {

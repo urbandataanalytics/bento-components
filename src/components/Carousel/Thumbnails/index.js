@@ -1,10 +1,10 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import defaultTheme from '../../../themes/defaultTheme';
 import Skeleton from '../../Skeleton/index';
 
 const StyledThumbContainer = styled.div`
-  padding-bottom: ${({ theme }) => theme.spacings.small3};
+  padding-bottom: ${({ gap }) => gap};
   height: ${({ thumbCount }) => `calc((100% / ${thumbCount}) + 4px)`};
   position: relative;
 `;
@@ -31,7 +31,7 @@ StyledThumbButton.defaultProps = {
   theme: defaultTheme
 };
 
-export const Thumb = ({ onClick, imgSrc, index, thumbCount, rounded, visible }) => {
+export const Thumb = ({ gap, onClick, imgSrc, index, thumbCount, rounded, visible }) => {
   const [hasLoaded, setHasLoaded] = useState(false);
   const [backgroundImage, setBackgroundImage] = useState(false);
 
@@ -46,10 +46,11 @@ export const Thumb = ({ onClick, imgSrc, index, thumbCount, rounded, visible }) 
       image.onload = setLoaded;
       setBackgroundImage(image);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [visible]);
 
   return (
-    <StyledThumbContainer thumbCount={thumbCount}>
+    <StyledThumbContainer gap={gap} thumbCount={thumbCount}>
       {visible ? (
         <StyledThumbButton
           rounded={rounded}

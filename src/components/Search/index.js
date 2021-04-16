@@ -12,7 +12,7 @@ const StyledContainer = styled.div`
   grid-template-columns: 24px 1fr auto;
   align-items: center;
   padding: 16px 24px;
-  box-shadow: 0px 8px 16px rgba(54, 60, 75, 0.1);
+  box-shadow: 0 8px 16px rgba(54, 60, 75, 0.1);
 `;
 
 const StyledWrapper = styled.div`
@@ -35,7 +35,7 @@ const StyledHeading = styled.h5`
 const Input = styled.input`
   outline: 0;
   transition: ${({ theme }) => theme.global.transitionM};
-  border: 0px solid transparent;
+  border: 0 solid transparent;
   ${({ theme }) => theme.texts.p1b};
   color: ${({ theme }) => theme.color.charcoal600};
   white-space: nowrap;
@@ -52,14 +52,14 @@ const Search = ({
   className,
   closable,
   disabled,
+  enableClickOutside = true,
+  leftContent,
   name,
   onChange,
-  leftContent,
+  onClose,
   placeholder,
   tabIndex,
   value,
-  enableClickOutside = true,
-  onClose,
   ...other
 }) => {
   const ref = useOnclickOutside(() => enableClickOutside && onClose());
@@ -97,14 +97,16 @@ const Search = ({
 
 Search.propTypes = {
   className: PropTypes.string,
-  disabled: PropTypes.bool,
   closable: PropTypes.bool,
-  error: PropTypes.bool,
+  disabled: PropTypes.bool,
+  enableClickOutside: PropTypes.bool,
+  leftContent: PropTypes.string,
   name: PropTypes.string,
-  onChange: PropTypes.func.isRequired,
+  onChange: PropTypes.func,
+  onClose: PropTypes.func.isRequired,
   placeholder: PropTypes.string,
   tabIndex: PropTypes.string,
-  value: PropTypes.string.isRequired
+  value: PropTypes.string
 };
 
 Search.defaultProps = {

@@ -198,7 +198,7 @@ const headings = [
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '3.4rem'
+    size: '36px'
   },
   {
     fontFamily: global.fontFamily,
@@ -213,12 +213,12 @@ const headings = [
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '1.1rem'
+    size: '16px'
   },
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '0.8rem'
+    size: '12px'
   }
 ];
 
@@ -284,11 +284,26 @@ const components = {
   buttonSecondaryColor: color.charcoal800,
   buttonSecondaryDisabledBackgroundColor: color.white,
   buttonSecondaryDisabledBorderColor: color.charcoal300,
-  buttonSecondaryDisabledColor: color.charcoal400,
+  buttonSecondaryDisabledColor: color.white,
   buttonSecondaryHoverBackgroundColor: color.charcoal400,
   buttonSecondaryHoverBorderColor: color.charcoal400,
   buttonSecondaryHoverColor: color.charcoal800,
-
+  buttonDangerPrimaryBackgroundColor: color.redclay500,
+  buttonDangerPrimaryBorderRadius: shapes.borderRadiusMedium,
+  buttonDangerPrimaryColor: color.white,
+  buttonDangerPrimaryDisabledBackgroundColor: color.charcoal400,
+  buttonDangerPrimaryHoverBackgroundColor: color.carabinero500,
+  buttonDangerPrimaryHoverColor: color.white,
+  buttonDangerSecondaryBackgroundColor: color.white,
+  buttonDangerSecondaryBorderColor: color.redclay500,
+  buttonDangerSecondaryBorderRadius: shapes.borderRadiusMedium,
+  buttonDangerSecondaryColor: color.redclay500,
+  buttonDangerSecondaryDisabledBackgroundColor: color.white,
+  buttonDangerSecondaryDisabledBorderColor: color.charcoal400,
+  buttonDangerSecondaryDisabledColor: color.white,
+  buttonDangerSecondaryHoverBackgroundColor: color.redclay100,
+  buttonDangerSecondaryHoverBorderColor: color.redclay100,
+  buttonDangerSecondaryHoverColor: color.redclay500,
   buttonLinkPaddingSmall: '3px 4px',
   buttonLinkFontSizeSmall: '12px',
   buttonLinkPaddingMedium: '5px',
@@ -350,6 +365,61 @@ const components = {
   inputFieldPlaceholderColor: color.charcoal400,
   inputFieldTextIndent: spacings.small4,
 
+  /*TextareaField Theme props*/
+
+  textareaFieldBackgroundColor: color.white,
+  textareaFieldBorderColor: color.charcoal400,
+  textareaFieldBorderRadius: shapes.borderRadiusMedium,
+  textareaFieldDisabledBackgroundColor: color.charcoal200,
+  textareaFieldDisabledBorderColor: color.charcoal400,
+  textareaFieldDisabledColor: color.charcoal400,
+  textareaFieldDisabledLabelColor: color.charcoal400,
+  textareaFieldErrorBackgroundColor: color.redclay100,
+  textareaFieldErrorBorderColor: color.redclay500,
+  textareaFieldErrorHelpColor: color.redclay500,
+  textareaFieldErrorPlaceholderColor: color.redclay500,
+  textareaFieldFocusBackgroundColor: color.primary100,
+  textareaFieldFocusBorderColor: color.primary300,
+  textareaFieldFocusLabelColor: color.primary300,
+  textareaFieldFontSize: '14px',
+  textareaFieldHelpColor: color.charcoal800,
+  textareaFieldHelpFontSize: '12px',
+  textareaFieldLabelColor: color.charcoal700,
+  textareaFieldLabelFontSize: '12px',
+  textareaFieldLineHeight: '48px',
+  textareaFieldPlaceholderColor: color.charcoal400,
+  textareaFieldTextIndent: spacings.small4,
+
+  /*InlineInputField Theme props*/
+
+  inlineInputFieldBackgroundColor: color.charcoal200,
+  inlineInputFieldBorderColor: color.charcoal200,
+  inlineInputFieldBottomBorderColor: color.charcoal400,
+  inlineInputFieldBorderRadius: '4px 4px 0 0',
+  inlineInputFieldDisabledBackgroundColor: color.charcoal200,
+  inlineInputFieldDisabledBorderColor: color.charcoal200,
+  inlineInputFieldDisabledBottomBorderColor: color.charcoal400,
+  inlineInputFieldDisabledColor: color.charcoal400,
+  inlineInputFieldDisabledLabelColor: color.charcoal400,
+  inlineInputFieldErrorBackgroundColor: color.redclay100,
+  inlineInputFieldErrorBorderColor: color.redclay100,
+  inlineInputFieldErrorBottomBorderColor: color.redclay500,
+  inlineInputFieldErrorHelpColor: color.redclay500,
+  inlineInputFieldErrorPlaceholderColor: color.redclay500,
+  inlineInputFieldFocusBackgroundColor: color.primary100,
+  inlineInputFieldFocusBorderColor: color.primary100,
+  inlineInputFieldFocusBottomBorderColor: color.primary300,
+  inlineInputFieldFocusLabelColor: color.primary300,
+  inlineInputFieldFontSize: '14px',
+  inlineInputFieldHelpColor: color.charcoal800,
+  inlineInputFieldHelpFontSize: '12px',
+  inlineInputFieldLabelColor: color.charcoal600,
+  inlineInputFieldLabelFontSize: '12px',
+  inlineInputFieldLineHeight: '40px',
+  inlineInputFieldPrefixLineHeight: '32px',
+  inlineInputFieldPlaceholderColor: color.charcoal400,
+  inlineInputFieldTextIndent: spacings.small4,
+
   /* Avatar Theme Props */
   avatarBorderRadius: shapes.borderRadiusFull,
   avatarBackgroundColor: color.charcoal700,
@@ -380,7 +450,7 @@ const components = {
   navigationLinkMargin: `0 ${spacings.small4} 0 0`,
   navigationHeaderPadding: '0 17px',
   navigationMinHeight: '40px',
-  navigationMaxHeight: '73px',
+  navigationMaxHeight: '56px',
 
   /* Notification Theme Props */
   accordionMinHeight: '65px',
@@ -506,13 +576,21 @@ const components = {
 
   /* Slider Theme props */
   sliderRailColor: color.charcoal400,
-  sliderRailSize: '2px',
+  sliderRailSize: '4px',
+  sliderRailSizeSlim: '2px',
   sliderTrackColor: color.primary500,
-  sliderHandleColor: color.primary500,
-  sliderHandleDisabledColor: color.charcoal500,
-  sliderHandleDraggingColor: color.primary600,
-  sliderHandleSize: spacings.small3,
-  sliderHandleMarginTop: '-6px',
+  sliderFirstHandleColor: color.primary500,
+  sliderFirstHandleDisabledColor: color.charcoal500,
+  sliderFirstHandleDraggingColor: color.primary600,
+  sliderFirstHandleSize: spacings.small3,
+  sliderFirstHandleMarginTop: '-6px',
+  sliderFirstHandleMarginTopSlim: '-7px',
+  sliderSecondHandleColor: color.primary500,
+  sliderSecondHandleDisabledColor: color.charcoal500,
+  sliderSecondHandleDraggingColor: color.primary600,
+  sliderSecondHandleSize: spacings.small3,
+  sliderSecondHandleMarginTop: '-6px',
+  sliderSecondHandleMarginTopSlim: '-7px',
 
   /* Carousel Theme props */
   carouselButtonSize: '32px',
