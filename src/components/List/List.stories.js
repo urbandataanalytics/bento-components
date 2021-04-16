@@ -1,5 +1,4 @@
 import React from 'react';
-import { number, select } from '@storybook/addon-knobs';
 import List from './index';
 import ListItem from './ListItem/';
 import CheckListItem from './CheckListItem/';
@@ -11,79 +10,113 @@ import NavListItem from './NavListItem';
 
 export default {
   title: 'List',
-  component: List
+  component: List,
+  subcomponents: { ListItem, LinkListItem, NavListItem },
+  argTypes: {
+    children: {
+      description:
+        'Any of the children options (LinkListItem, CheckListItem, ListItem, NavListItem), also admits any other children such as `<p>` or `<a>`',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
+    },
+    className: {
+      description: 'Adds the class name to the element',
+      control: 'none',
+      table: {
+        category: 'others'
+      }
+    },
+    size: {
+      description: 'Size of the children, option',
+      table: {
+        category: 'format'
+      }
+    },
+    numberOfChildren: {
+      name: 'Number of Children to show',
+      control: 'number',
+      table: {
+        category: 'Testing Data'
+      }
+    }
+  },
+  args: {
+    numberOfChildren: 4
+  }
 };
 
-const getCommonProps = () => {
-  return {
-    numberOfChildren: number('Number Of Children', 4)
-  };
+const containerStyle = {
+  padding: '2rem',
+  size: 'medium'
 };
 
-export const Playground = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
-  const numberOfChild = getCommonProps().numberOfChildren;
-  const elements = Array.apply(null, Array(numberOfChild));
+export const Playground = ({ numberOfChildren, ...args }) => {
+  const elements = Array.apply(null, Array(numberOfChildren));
 
   return (
     <div style={containerStyle}>
-      <List {...getCommonProps()}>
+      <List>
         {elements.map((e, i) => (
-          <ListItem key={i}>{i + 1}</ListItem>
+          <ListItem leftContent="-" rightContent="View" active={false} disabled={false} key={i}>
+            Regular ListItem {i}
+          </ListItem>
         ))}
       </List>
     </div>
   );
 };
 
-export const WithChildrens = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
+export const FormattedListItems = args => {
   return (
     <div style={containerStyle}>
-      <List size={select('Sizes', ['medium', 'large'], 'medium')}>
-        <ListItem leftContent={<IconFolder />}>Text</ListItem>
+      <List {...args}>
+        <ListItem leftContent={<IconFolder />}>Item with 'leftContent' icon</ListItem>
+        <ListItem focusLeftContent leftContent={<IconFolder customColor="#432AC3" />}>
+          Item with 'focusLeftContent' and 'leftContent'
+        </ListItem>
+        <ListItem separator />
+        <ListItem rightContent={<IconFolder customColor="#432AC3" />}>
+          Item with 'rightContent' icon
+        </ListItem>
+        <ListItem focusRightContent rightContent={<IconFolder customColor="#432AC3" />}>
+          <ListItem separator />
+          Item with 'focusRightContent' and 'rightContent'
+        </ListItem>
+        <ListItem separator />
+        <ListItem leftContent={<IconFolder />} rightContent={<IconFolder />}>
+          Item with leftContent and rightContent
+        </ListItem>
+        <ListItem focusContent leftContent={<IconFolder />} rightContent={<IconFolder />}>
+          Item with focusContent and leftContent and rightContent
+        </ListItem>
+        <ListItem separator />
         <ListItem focused leftContent={<IconFolder />}>
-          Text
+          Item focused
         </ListItem>
-        <ListItem rightContent={<IconFolder />} active>
-          Text
-        </ListItem>
-        <ListItem onClick={() => {}}>Text with onclick</ListItem>
+        <ListItem onClick={() => {}}>Item with onclick</ListItem>
         <ListItem separator />
         <ListItem leftContent={<IconUser size={'small'} />} as={TextLink} href={'#'}>
-          With Link
-        </ListItem>
-        <ListItem as={TextLink} href={'#'}>
-          No icon with Link
-        </ListItem>
-        <ListItem leftContent={<IconFolder />} rightContent={<IconFolder />}>
-          Text
+          Item using TextLink component and leftContent with Icon
         </ListItem>
         <ListItem disabled={true} leftContent={<IconFolder />} rightContent={<IconFolder />}>
-          Text
+          Item disabled
         </ListItem>
       </List>
     </div>
   );
 };
 
-export const WithCheckList = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
-
+export const WithCheckList = args => {
   return (
     <div style={containerStyle}>
-      <List size={select('Sizes', ['medium', 'large'], 'medium')}>
+      <List {...args}>
         <CheckListItem active>Active</CheckListItem>
         <CheckListItem>Not active</CheckListItem>
-        <CheckListItem active>Active</CheckListItem>
+        <CheckListItem active leftContent={<IconUser size={'small'} />}>
+          Active with LeftContent Icon
+        </CheckListItem>
         <CheckListItem active>Active</CheckListItem>
         <CheckListItem active>Active</CheckListItem>
         <CheckListItem disabled>Disabled</CheckListItem>
@@ -92,18 +125,21 @@ export const WithCheckList = () => {
   );
 };
 
-export const LinkList = () => {
+export const LinkList = args => {
   const containerStyle = {
     padding: '2rem'
   };
 
   return (
     <div style={containerStyle}>
-      <List {...getCommonProps()}>
+      <List {...args}>
         <LinkListItem href={'https://google.com'}>Link 1</LinkListItem>
-        <LinkListItem active={true}>Link 2</LinkListItem>
+        <LinkListItem active={true}>Link 2 - active Default rightContent</LinkListItem>
+        <LinkListItem active={true} rightContent={<IconUser size={'small'} />}>
+          Link 3 - active Defined rightContent
+        </LinkListItem>
         <LinkListItem focused href={'#test'}>
-          Link 3
+          Link 4 - focused
         </LinkListItem>
       </List>
     </div>
@@ -117,7 +153,7 @@ export const NavbarList = () => {
 
   return (
     <div style={containerStyle}>
-      <List {...getCommonProps()}>
+      <List>
         <NavListItem focusContent={true} leftContent={<IconUser />}>
           Nav 1
         </NavListItem>

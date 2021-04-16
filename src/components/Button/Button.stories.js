@@ -1,76 +1,153 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
-import { boolean, select, text } from '@storybook/addon-knobs';
 import Button from './index';
 import * as Icons from '../../icons';
 
+const containerStyle = {
+  padding: '2rem'
+};
+
 export default {
   title: 'Button',
-  component: Button
+  component: Button,
+  argTypes: {
+    block: {
+      description: 'Button will grow up to the full width of its container',
+      table: { category: 'format' }
+    },
+    children: {
+      description: 'The content of the button',
+      control: 'text',
+      table: { category: 'content' }
+    },
+    className: {
+      description: 'Specific class name to pass down to the Button component',
+      control: 'null',
+      table: { category: 'format' }
+    },
+    disabled: { description: 'Disable mode for the button', table: { category: 'format' } },
+    loading: {
+      description: 'Loading mode for the button',
+      table: { category: 'format' }
+    },
+
+    loadingText: {
+      description: 'Text to show on when loading  = true',
+      table: { category: 'content' }
+    },
+    onClick: {
+      description: 'Handle behaviour when onClick event',
+      action: 'clicked',
+      table: { category: 'events' }
+    },
+    size: { description: 'Size options for the button', table: { category: 'format' } },
+    variant: { description: 'Format variants for the button', table: { category: 'format' } },
+    tabIndex: {
+      description: 'Specifies the tab order of an element. ',
+      table: { category: 'others' },
+      control: 'null'
+    },
+    iconLeft: {
+      description: 'The displayed icon on the left',
+      control: { type: 'select', options: Object.keys(Icons) },
+      table: { category: 'content' }
+    },
+    iconRight: {
+      description: 'The displayed icon on the right',
+      control: { type: 'select', options: Object.keys(Icons) },
+      table: { category: 'content' }
+    }
+  },
+  args: {
+    block: false,
+    size: 'medium',
+    variant: 'primary',
+    disabled: false,
+    loading: false,
+    children: 'Button'
+  }
 };
 
-const getCommonProps = () => {
-  return {
-    size: select('Sizes', ['medium', 'large'], 'medium'),
-    variant: select('Variants', ['primary', 'secondary'], 'primary'),
-    disabled: boolean('Disabled', false),
-    loading: boolean('Loading', false),
-    text: text('Button text', 'Button'),
-    loadingText: text('Loading text', 'Loading')
-  };
-};
+export const Playground = ({ iconLeft, iconRight, ...rest }) => {
+  const CustomIconLeft = Icons[iconLeft];
+  const CustomIconRight = Icons[iconRight];
 
-export const Normal = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
   return (
     <div style={containerStyle}>
-      <Button {...getCommonProps()} onClick={action('clicked')}>
-        {getCommonProps().text}
-      </Button>
+      <Button
+        {...rest}
+        iconLeft={iconLeft ? <CustomIconLeft /> : ''}
+        iconRight={iconRight ? <CustomIconRight /> : ''}
+      ></Button>
+    </div>
+  );
+};
+export const Block = args => {
+  return (
+    <div style={containerStyle}>
+      <Button {...args}></Button>
     </div>
   );
 };
 
-export const Block = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
+Block.args = {
+  block: true
+};
+
+export const WithIconLeft = () => {
+  //Must import icon first
+  const CustomIconLeft = Icons['IconWarning'];
 
   return (
     <div style={containerStyle}>
-      <Button onClick={action('clicked')} {...getCommonProps()} block>
-        {getCommonProps().text}
-      </Button>
+      <Button iconLeft={<CustomIconLeft />}> Button Name</Button>
     </div>
   );
 };
 
-export const WithIcon = () => {
-  const selectedIcon = select('Icons', Object.keys(Icons), 'IconWarning');
-  const CustomIcon = Icons[selectedIcon];
-  const containerStyle = {
-    padding: '2rem'
-  };
+export const WithIconRight = () => {
+  //Must import icon first
+  const CustomIconRight = Icons['IconWarning'];
+
   return (
     <div style={containerStyle}>
-      <Button onClick={action('clicked')} iconLeft={<CustomIcon />} {...getCommonProps()}>
-        {getCommonProps().text}
-      </Button>
+      <Button iconRight={<CustomIconRight />}> Button Name</Button>
     </div>
   );
 };
 
-export const Loading = () => {
-  const containerStyle = {
-    padding: '2rem'
-  };
+export const Loading = args => {
   return (
     <div style={containerStyle}>
-      <Button {...getCommonProps()} onClick={action('clicked')} loading>
-        {getCommonProps().text}
-      </Button>
+      <Button {...args}></Button>
     </div>
   );
+};
+
+Loading.args = {
+  loadingText: 'Loading Text',
+  loading: true
+};
+
+export const DangerPrimary = args => {
+  return (
+    <div style={containerStyle}>
+      <Button {...args}></Button>
+    </div>
+  );
+};
+
+DangerPrimary.args = {
+  variant: 'dangerPrimary'
+};
+
+export const DangerSecondary = args => {
+  return (
+    <div style={containerStyle}>
+      <Button {...args}></Button>
+    </div>
+  );
+};
+
+DangerSecondary.args = {
+  variant: 'dangerSecondary'
 };

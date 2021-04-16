@@ -2,34 +2,41 @@ import React from 'react';
 import FormGroup from './index';
 import InputField from './../InputField';
 import Button from './../Button';
-import { text } from '@storybook/addon-knobs';
-import { action } from '@storybook/addon-actions';
 
 export default {
   title: 'FormGroup',
-  component: FormGroup
+  component: FormGroup,
+  argTypes: {
+    children: {
+      description: 'The children/inputs for this form',
+      table: {
+        category: 'content'
+      }
+    },
+    className: {
+      description: 'Adds class for this element ',
+      table: {
+        category: 'others'
+      }
+    }
+  }
 };
 
-export const Playground = () => {
-  const getCommonProps = () => {
-    return {
-      value: text('Value', ''),
-      onChange: action('onChange')
-    };
-  };
-
+export const Playground = ({ value, ...args }) => {
   const containerStyle = {
-    padding: '2rem'
+    padding: '2rem',
+    width: '400px'
   };
 
   return (
     <div style={containerStyle}>
       <FormGroup>
         <InputField
+          {...args}
           label="Email"
           type="email"
           placeholder="Type your email address"
-          {...getCommonProps()}
+          value={value}
         />
       </FormGroup>
       <FormGroup>
@@ -37,7 +44,7 @@ export const Playground = () => {
           label="Password"
           type="password"
           placeholder="Type your password"
-          {...getCommonProps()}
+          value={value}
         />
       </FormGroup>
       <FormGroup>
@@ -47,4 +54,8 @@ export const Playground = () => {
       </FormGroup>
     </div>
   );
+};
+
+Playground.args = {
+  value: ''
 };

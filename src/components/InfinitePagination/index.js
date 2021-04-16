@@ -59,9 +59,9 @@ const InfinitePagination = ({ label, totalCount, currentCount }) => {
 };
 
 InfinitePagination.propTypes = {
-  label: PropTypes.string,
-  totalCount: PropTypes.number,
-  currentCount: PropTypes.number
+  currentCount: PropTypes.number.isRequired,
+  label: PropTypes.string.isRequired,
+  totalCount: PropTypes.number.isRequired
 };
 
 export default InfinitePagination;

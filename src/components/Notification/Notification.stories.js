@@ -1,56 +1,80 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
-import { text, boolean, select } from '@storybook/addon-knobs';
 import Notification from './index';
 import * as Icons from '../../icons';
 
 export default {
   title: 'Notification',
-  component: Notification
-};
-
-const getCommonProps = () => {
-  return {
-    children: text('Notification Text', 'Message'),
-    showIcon: boolean('Show Icon', true),
-    closable: boolean('Closable', false),
-    onClose: action('onClose')
-  };
+  component: Notification,
+  argTypes: {
+    children: {
+      description: 'Content of the Notification.',
+      control: 'text',
+      table: {
+        category: 'content'
+      }
+    },
+    closable: {
+      description: "Adds  'X' icon to allow the content to be closed manually",
+      table: {
+        category: 'behaviour'
+      }
+    },
+    icon: {
+      description:
+        'Allows to specify an icon for the Warning. ShowIcon must be `true`in order to show',
+      control: { type: 'select', options: Object.keys(Icons) },
+      table: { category: 'content' }
+    },
+    onClose: {
+      description: 'Handles the behaviour onClose event',
+      action: 'onClose event',
+      table: {
+        category: 'events'
+      }
+    },
+    showIcon: {
+      description: 'shows the specified icon on the left of the message',
+      table: {
+        category: 'format'
+      }
+    },
+    variant: {
+      description: 'The format of the notification',
+      table: { category: 'format' }
+    }
+  },
+  args: {
+    variant: 'success',
+    showIcon: true,
+    closable: false,
+    icon: 'IconPin',
+    children: 'Notification Message'
+  }
 };
 
 const decoratorStyles = {
   padding: '2rem'
 };
 
-export const Normal = () => (
-  <div style={decoratorStyles}>
-    <Notification {...getCommonProps()} />
-  </div>
-);
-
-export const Success = () => (
-  <div style={decoratorStyles}>
-    <Notification variant="success" {...getCommonProps()} />
-  </div>
-);
-
-export const Error = () => (
-  <div style={decoratorStyles}>
-    <Notification variant="error" {...getCommonProps()} />
-  </div>
-);
-
-export const WithCustomIcon = () => {
-  const selectedIcon = select('Custom Icon', Object.keys(Icons), 'IconPin');
-  const CustomIcon = Icons[selectedIcon];
-
+export const Playground = ({ icon, ...args }) => {
+  const CustomIcon = Icons[icon];
   return (
     <div style={decoratorStyles}>
-      <Notification
-        variant={select('Variant', ['normal', 'success', 'error'], 'success')}
-        {...getCommonProps()}
-        icon={<CustomIcon size="medium" />}
-      />
+      <Notification {...args} icon={<CustomIcon />}></Notification>
     </div>
   );
+};
+
+export const Closable = ({ icon, ...args }) => {
+  const CustomIcon = Icons[icon];
+  return (
+    <div style={decoratorStyles}>
+      <Notification {...args} icon={<CustomIcon />}></Notification>
+    </div>
+  );
+};
+
+Closable.args = {
+  closable: true,
+  variant: 'normal'
 };

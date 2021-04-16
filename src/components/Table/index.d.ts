@@ -8,12 +8,12 @@ export interface ColumnProps {
 }
 
 export interface TableProps {
-  height?: string | number;
   columns: ColumnProps[];
-  rows: any[];
+  height?: string | number;
   loading?: boolean;
-  variant?: 'small' | 'medium';
+  rows: any[];
   striped?: boolean;
+  variant?: 'small' | 'medium';
 }
 
 declare const Table: React.FunctionComponent<TableProps>;

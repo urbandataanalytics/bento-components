@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import RcSlider from 'rc-slider';
-import { Range } from 'rc-slider';
+import RcSlider, { Range } from 'rc-slider';
 import SliderSkeleton from './SliderSkeleton';
 import defaultTheme from '../../themes/defaultTheme';
 import InputFormatter from './InputFormatter';
-
 import 'rc-slider/assets/index.css';
+
+import useTheme from '../../hooks/useTheme';
 
 const MinMaxContainer = styled.div`
   display: flex;
@@ -27,6 +27,10 @@ const PrefixSuffix = styled.span`
   padding: ${({ theme }) => theme.spacings.small1} 0;
 `;
 
+PrefixSuffix.defaultProps = {
+  theme: defaultTheme
+};
+
 const StyledContent = styled.div`
   .rc-slider {
     width: calc(100% - 5px);
@@ -42,11 +46,22 @@ const StyledContent = styled.div`
     background-color: transparent;
   }
 
+  .rc-slider-step {
+    height: ${({ theme, railSize }) =>
+      railSize === 'regular'
+        ? theme.components.sliderRailSize
+        : theme.components.sliderRailSizeSlim};
+  }
+
   .rc-slider-disabled .rc-slider-handle {
     background-color: ${({ theme }) => theme.components.sliderHandleDisabledColor} !important;
     border-color: ${({ theme }) => theme.components.sliderHandleDisabledColor} !important;
   }
 `;
+
+StyledContent.defaultProps = {
+  theme: defaultTheme
+};
 
 const getDefaultValue = ({ value, min, max, variant }) => {
   let result = null;
@@ -68,28 +83,71 @@ const getDefaultValue = ({ value, min, max, variant }) => {
   return result;
 };
 
+const propStyles = (theme, railSize) => ({
+  railStyle: {
+    backgroundColor: theme.components.sliderRailColor,
+    height:
+      railSize === 'regular' ? theme.components.sliderRailSize : theme.components.sliderRailSizeSlim
+  },
+  trackStyle: [
+    {
+      backgroundColor: theme.components.sliderTrackColor,
+      height:
+        railSize === 'regular'
+          ? theme.components.sliderRailSize
+          : theme.components.sliderRailSizeSlim
+    }
+  ],
+  handleStyle: [
+    {
+      backgroundColor: theme.components.sliderFirstHandleColor,
+      borderColor: theme.components.sliderFirstHandleColor,
+      height: theme.components.sliderFirstHandleSize,
+      marginTop:
+        railSize === 'regular'
+          ? theme.components.sliderFirstHandleMarginTop
+          : theme.components.sliderFirstHandleMarginTopSlim,
+      width: theme.components.sliderFirstHandleSize
+    },
+    {
+      backgroundColor: theme.components.sliderSecondHandleColor,
+      borderColor: theme.components.sliderSecondHandleColor,
+      height: theme.components.sliderSecondHandleSize,
+      marginTop:
+        railSize === 'regular'
+          ? theme.components.sliderSecondHandleMarginTop
+          : theme.components.sliderSecondHandleMarginTopSlim,
+      width: theme.components.sliderSecondHandleSize
+    }
+  ]
+});
+
 const Slider = React.forwardRef((props, ref) => {
   const {
     disabled,
+    format = inputValue => Number(inputValue),
     isLoading,
     max,
-    min,
-    name,
-    onChange = () => {},
-    format = value => Number(value),
-    prefix,
-    minPrefix,
     maxPrefix,
+    maxSuffix,
+    min,
+    minPrefix,
+    minSuffix,
+    name,
+    onAfterChange = () => {},
+    onChange = () => {},
+    prefix,
     step,
     suffix,
-    minSuffix,
-    maxSuffix,
-    variant,
+    railSize,
     value,
+    variant,
     ...other
   } = props;
+
   const [values, setValues] = useState(getDefaultValue({ value, min, max, variant }));
   const [isEditing, toggleEdditing] = useState({ min: false, max: false });
+  const theme = useTheme();
 
   useEffect(() => {
     setValues(getDefaultValue({ min, max, variant, value }));
@@ -138,35 +196,6 @@ const Slider = React.forwardRef((props, ref) => {
     toggleEdditing({ ...isEditing, [type]: false });
   };
 
-  const propStyles = {
-    railStyle: {
-      backgroundColor: props.theme.components.sliderRailColor,
-      height: props.theme.components.sliderlRailSize
-    },
-    trackStyle: [
-      {
-        backgroundColor: props.theme.components.sliderTrackColor,
-        height: props.theme.components.sliderlRailSize
-      }
-    ],
-    handleStyle: [
-      {
-        backgroundColor: props.theme.components.sliderHandleColor,
-        borderColor: props.theme.components.sliderHandleColor,
-        height: props.theme.components.sliderHandleSize,
-        marginTop: props.theme.components.sliderHandleMarginTop,
-        width: props.theme.components.sliderHandleSize
-      },
-      {
-        backgroundColor: props.theme.components.sliderHandleColor,
-        borderColor: props.theme.components.sliderHandleColor,
-        height: props.theme.components.sliderHandleSize,
-        marginTop: props.theme.components.sliderHandleMarginTop,
-        width: props.theme.components.sliderHandleSize
-      }
-    ]
-  };
-
   return (
     <StyledContent {...other}>
       {isLoading ? (
@@ -176,11 +205,11 @@ const Slider = React.forwardRef((props, ref) => {
           disabled={disabled}
           max={max}
           min={min}
-          onChange={handleSliderSimpleChange}
-          onAfterChange={handleAfterChange}
+          onChange={onChange}
+          onAfterChange={onAfterChange}
           step={step}
           value={values}
-          {...propStyles}
+          {...propStyles(theme, railSize)}
         />
       ) : (
         <>
@@ -193,7 +222,7 @@ const Slider = React.forwardRef((props, ref) => {
             ref={ref}
             step={step}
             value={values}
-            {...propStyles}
+            {...propStyles(theme, railSize)}
           />
 
           <MinMaxContainer>
@@ -241,26 +270,28 @@ Slider.propTypes = {
   disabled: PropTypes.bool,
   isLoading: PropTypes.bool,
   max: PropTypes.number.isRequired,
+  maxPrefix: PropTypes.string,
+  maxSuffix: PropTypes.string,
   min: PropTypes.number.isRequired,
+  minPrefix: PropTypes.string,
+  minSuffix: PropTypes.string,
   name: PropTypes.string,
   onChange: PropTypes.func.isRequired,
+  onAfterChange: PropTypes.func,
   prefix: PropTypes.string,
-  minPrefix: PropTypes.string,
-  maxPrefix: PropTypes.string,
   step: PropTypes.number.isRequired,
   suffix: PropTypes.string,
-  minSuffix: PropTypes.string,
-  maxSuffix: PropTypes.string,
   value: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
-  variant: PropTypes.oneOf(['slider', 'range']).isRequired
+  variant: PropTypes.oneOf(['slider', 'range']).isRequired,
+  railSize: PropTypes.oneOf(['regular', 'slim']).isRequired
 };
 
 Slider.defaultProps = {
   max: 5000,
   min: 0,
   step: 1,
-  theme: defaultTheme,
-  variant: 'slider'
+  variant: 'slider',
+  railSize: 'regular'
 };
 
 Slider.displayName = 'Slider';

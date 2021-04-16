@@ -1,17 +1,19 @@
 export interface SelectFieldProps {
+  className?: string;
+  defaultLabel?: string;
   disabled?: boolean;
   error?: boolean;
   help?: string;
-  className?: string;
-  defaultLabel?: string;
   label?: string | React.ReactNode;
   name?: string;
+  onChange: (ev: SyntheticSelectEvent<HTMLSelectElement>) => void | Promise<any>;
   options: Array<T>;
-  onChange?: (ev: SyntheticSelectEvent<HTMLSelectElement>) => void | Promise<any>,
   tabIndex?: string;
-  value?: string;
+  value: string;
 }
 
-declare const SelectField: React.FunctionComponent<SelectFieldProps & React.SelectHTMLAttributes<HTMLSelectElement>>;
+declare const SelectField: React.FunctionComponent<
+  SelectFieldProps & React.SelectHTMLAttributes<HTMLSelectElement>
+>;
 
 export default SelectField;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots TextLink Primary 1`] = `
+exports[`Storyshots TextLink Playground 1`] = `
 <div
   style={
     Object {
@@ -12,30 +12,9 @@ exports[`Storyshots TextLink Primary 1`] = `
     className="TextLink__StyledTextLink-qefl1h-0 kxSbQp"
     disabled={false}
     href="#"
-    onClick={[Function]}
     size="medium"
   >
-    Message
-  </a>
-</div>
-`;
-
-exports[`Storyshots TextLink Secondary 1`] = `
-<div
-  style={
-    Object {
-      "padding": "2rem",
-    }
-  }
->
-  <a
-    className="TextLink__StyledTextLink-qefl1h-0 dDUSbT"
-    disabled={false}
-    href="#"
-    onClick={[Function]}
-    size="medium"
-  >
-    Message
+    Link Text
   </a>
 </div>
 `;

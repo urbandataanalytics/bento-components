@@ -10,12 +10,11 @@ exports[`Storyshots InputField Disabled 1`] = `
 >
   <div>
     <label
-      className="InputField__Label-sc-1kf04eo-3 cqcTdW"
+      className="InputField__Label-sc-1kf04eo-3 ckeGRO"
     >
       <input
-        className="InputField__Input-sc-1kf04eo-2 cxnUBS"
+        className="InputField__Input-sc-1kf04eo-2 fpIUFd"
         disabled={true}
-        onChange={[Function]}
         placeholder="Placeholder text"
         type="text"
         value="Value text"
@@ -46,12 +45,11 @@ exports[`Storyshots InputField Error 1`] = `
 >
   <div>
     <label
-      className="InputField__Label-sc-1kf04eo-3 cqcTdW"
+      className="InputField__Label-sc-1kf04eo-3 ckeGRO"
     >
       <input
-        className="InputField__Input-sc-1kf04eo-2 cxnUBS error"
+        className="InputField__Input-sc-1kf04eo-2 fpIUFd error"
         disabled={false}
-        onChange={[Function]}
         placeholder="Placeholder text"
         type="text"
         value="Value text"
@@ -82,12 +80,11 @@ exports[`Storyshots InputField Normal 1`] = `
 >
   <div>
     <label
-      className="InputField__Label-sc-1kf04eo-3 cqcTdW"
+      className="InputField__Label-sc-1kf04eo-3 ckeGRO"
     >
       <input
-        className="InputField__Input-sc-1kf04eo-2 cxnUBS"
+        className="InputField__Input-sc-1kf04eo-2 fpIUFd"
         disabled={false}
-        onChange={[Function]}
         placeholder="Placeholder text"
         type="text"
         value="Value text"

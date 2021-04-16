@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import DefaultTheme from '../../themes/defaultTheme';
+import defaultTheme from '../../themes/defaultTheme';
 
 const componentSizes = theme => ({
   small: {
@@ -108,7 +108,11 @@ const ButtonLink = React.forwardRef((props, ref) => {
 
 ButtonLink.propTypes = {
   children: PropTypes.node,
+  className: PropTypes.string,
   disabled: PropTypes.bool,
+  iconLeft: PropTypes.node,
+  iconRight: PropTypes.node,
+  onClick: PropTypes.func,
   size: PropTypes.oneOf(['small', 'medium', 'large']).isRequired,
   tabIndex: PropTypes.string,
   variant: PropTypes.oneOf(['primary', 'secondary']).isRequired
@@ -121,11 +125,11 @@ ButtonLink.defaultProps = {
 };
 
 StyledButtonLink.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 IconWrapper.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 ButtonLink.displayName = 'ButtonLink';

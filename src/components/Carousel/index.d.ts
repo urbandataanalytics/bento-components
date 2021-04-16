@@ -1,18 +1,19 @@
 export interface CarouselProps {
-  slides: string[];
-  loop?: boolean;
-  draggable?: boolean;
-  onChange?: (selectedIndex: number) => void;
-  prevButton?: React.ReactNode;
-  nextButton?: React.ReactNode;
   controlOffset?: string;
-  rounded: boolean;
-  thumbnailsEnabled: boolean;
-  thumbCount: number;
-  onThumbClick: (index: number) => void;
-  onClick: (index: number) => void;
+  draggable?: boolean;
+  gap?: string;
+  loop?: boolean;
+  nextButton?: React.ReactNode;
+  onChange?: (selectedIndex: number) => void;
+  onClick?: (index: number) => void;
+  onThumbClick?: (index: number) => void;
+  prevButton?: React.ReactNode;
+  rounded?: boolean;
+  slides: string[];
   startIndex?: number;
+  thumbCount?: number;
   thumbnailStartIndex?: number;
+  thumbnailsEnabled?: boolean;
 }
 
 declare const Carousel: React.FunctionComponent<CarouselProps>;

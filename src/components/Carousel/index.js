@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useEmblaCarousel } from 'embla-carousel/react';
 import styled from 'styled-components';
 import CarouselSlide from './Slide';
-import { IconChevronRight, IconChevronLeft } from '../../icons';
+import { IconChevronLeft, IconChevronRight } from '../../icons';
 import useTheme from '../../hooks/useTheme/index';
 import defaultTheme from '../../themes/defaultTheme';
 import { Thumb } from './Thumbnails';
@@ -72,13 +72,14 @@ const CarouselWrapper = styled.div`
   margin-right: auto;
   display: grid;
   grid-template-columns: ${({ thumbnailsEnabled }) => (thumbnailsEnabled ? '75% 1fr' : '100% 1fr')};
-  grid-gap: ${({ theme }) => theme.spacings.small3};
+  grid-gap: ${({ gap }) => gap};
 `;
 CarouselWrapper.defaultProps = {
   theme: defaultTheme
 };
 
 const ThumbsContainer = styled.div`
+  border-radius: ${({ rounded, theme }) => (rounded ? theme.spacings.small1 : 0)};
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -86,7 +87,7 @@ const ThumbsContainer = styled.div`
 
 const Thumbs = styled.div`
   height: 100%;
-  margin-bottom: -${({ theme }) => theme.spacings.small3};
+  margin-bottom: -${({ gap }) => gap};
 `;
 Thumbs.defaultProps = {
   theme: defaultTheme
@@ -95,20 +96,21 @@ Thumbs.defaultProps = {
 const Carousel = React.forwardRef((props, ref) => {
   const theme = useTheme();
   const {
-    slides,
-    loop,
+    controlOffset,
     draggable,
-    rounded,
-    prevButton,
+    gap,
+    loop,
     nextButton,
     onChange,
-    controlOffset,
-    thumbnailsEnabled,
-    onThumbClick,
-    thumbCount,
     onClick,
+    onThumbClick,
+    prevButton,
+    rounded,
+    slides,
     startIndex,
+    thumbCount,
     thumbnailStartIndex,
+    thumbnailsEnabled,
     ...other
   } = props;
   const [emblaRef, embla] = useEmblaCarousel({ loop, draggable, startIndex });
@@ -128,12 +130,14 @@ const Carousel = React.forwardRef((props, ref) => {
     if (!embla || (thumbnailsEnabled && !emblaThumbs)) return;
     if (thumbnailsEnabled) emblaThumbs.scrollPrev();
     embla.scrollPrev();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [embla]);
 
   const scrollNext = useCallback(() => {
     if (!embla || (thumbnailsEnabled && !emblaThumbs)) return;
     if (thumbnailsEnabled) emblaThumbs.scrollNext();
     embla.scrollNext();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [embla]);
 
   const onSelect = useCallback(() => {
@@ -162,6 +166,7 @@ const Carousel = React.forwardRef((props, ref) => {
         return thumbSlidesInView.concat(inView);
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [embla, setSlidesInView]);
 
   useEffect(() => {
@@ -171,10 +176,11 @@ const Carousel = React.forwardRef((props, ref) => {
     embla.on('select', onSelect);
 
     embla.on('select', findSlidesInView);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [embla, onSelect, findSlidesInView]);
 
   return (
-    <CarouselWrapper thumbnailsEnabled={thumbnailsEnabled}>
+    <CarouselWrapper gap={gap} thumbnailsEnabled={thumbnailsEnabled}>
       <CarouselComponent>
         <CarouselContainer ref={emblaRef} rounded={rounded}>
           <CarouselSlidesContainer>
@@ -186,6 +192,7 @@ const Carousel = React.forwardRef((props, ref) => {
                 visible={slidesInView.indexOf(index) > -1}
                 rounded={rounded}
                 onClick={onClick}
+                {...other}
               />
             ))}
           </CarouselSlidesContainer>
@@ -213,10 +220,11 @@ const Carousel = React.forwardRef((props, ref) => {
       </CarouselComponent>
       {thumbnailsEnabled ? (
         <>
-          <ThumbsContainer ref={thumbViewportRef}>
-            <Thumbs>
+          <ThumbsContainer ref={thumbViewportRef} rounded={rounded}>
+            <Thumbs gap={gap}>
               {slides.map((slide, index) => (
                 <Thumb
+                  gap={gap}
                   key={index}
                   index={index}
                   imgSrc={slide}
@@ -237,35 +245,36 @@ const Carousel = React.forwardRef((props, ref) => {
 });
 
 Carousel.propTypes = {
-  loop: PropTypes.bool,
-  draggable: PropTypes.bool,
-  slides: PropTypes.array.isRequired,
-  rounded: PropTypes.bool,
-  onChange: PropTypes.func,
-  prevButton: PropTypes.node,
-  nextButton: PropTypes.node,
   controlOffset: PropTypes.string,
-  thumbnailsEnabled: PropTypes.bool,
-  thumbCount: PropTypes.number,
-  onThumbClick: PropTypes.func,
+  draggable: PropTypes.bool,
+  loop: PropTypes.bool,
+  nextButton: PropTypes.node,
+  onChange: PropTypes.func,
   onClick: PropTypes.func,
+  onThumbClick: PropTypes.func,
+  prevButton: PropTypes.node,
+  rounded: PropTypes.bool,
+  slides: PropTypes.array.isRequired,
   startIndex: PropTypes.number,
-  thumbnailStartIndex: PropTypes.number
+  thumbCount: PropTypes.number,
+  thumbnailStartIndex: PropTypes.number,
+  thumbnailsEnabled: PropTypes.bool
 };
 
 Carousel.defaultProps = {
-  loop: true,
-  draggable: false,
-  slides: [],
-  onChange: () => {},
   controlOffset: '10px',
-  thumbnailsEnabled: false,
-  rounded: false,
-  thumbCount: 3,
-  onThumbClick: () => {},
+  gap: '16px',
+  draggable: false,
+  loop: true,
+  onChange: () => {},
   onClick: () => {},
+  onThumbClick: () => {},
+  rounded: false,
+  slides: [],
   startIndex: 0,
-  thumbnailStartIndex: 1
+  thumbCount: 3,
+  thumbnailStartIndex: 1,
+  thumbnailsEnabled: false
 };
 
 Carousel.displayName = 'Carousel';

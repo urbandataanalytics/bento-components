@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import DefaultTheme from '../../themes/defaultTheme';
 import CardSkeleton from './CardSkeleton';
+import PropTypes from 'prop-types';
+import defaultTheme from '../../themes/defaultTheme';
+
 const StyledCard = styled.article`
   border: 1px solid ${({ theme }) => theme.color.charcoal400};
   box-sizing: border-box;
@@ -10,7 +12,7 @@ const StyledCard = styled.article`
 `;
 
 StyledCard.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 const Card = React.forwardRef((props, ref) => {
@@ -24,5 +26,11 @@ const Card = React.forwardRef((props, ref) => {
 });
 
 Card.displayName = 'Card';
+
+Card.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
+  loading: PropTypes.bool
+};
 
 export default Card;

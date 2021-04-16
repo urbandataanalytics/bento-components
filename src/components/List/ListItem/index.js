@@ -23,10 +23,7 @@ export const StyledLeftContent = styled.div`
   ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
 
   > svg {
-    fill: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
+    fill: ${props => (props.active ? props.theme.components.listItemColorActive : '')};
     ${props => props.focused && `fill: ${props.theme.components.listItemColorFocused}`};
     ${props => props.disabled && `fill: ${props.theme.components.listItemColorDisabled}`}
   }
@@ -60,10 +57,7 @@ export const StyledRightContent = styled.div`
   ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
 
   > svg {
-    fill: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefault};
+    fill: ${props => (props.active ? props.theme.components.listItemColorActive : '')};
     ${props => props.disabled && `fill: ${props.theme.components.listItemColorDisabled}`}
     ${props => props.focused && `fill: ${props.theme.components.listItemColorFocused}`};
   }
@@ -106,10 +100,10 @@ export const StyledListItem = styled.li`
   transition: ${props => props.theme.global.transitionM};
   margin: ${props => props.theme.components.listItemMargin};
   line-height: 26px;
-  ${props => props.onClick && 'cursor: pointer'};
+  cursor: ${props => (props.disabled ? 'default' : props.onClick ? 'pointer' : 'default')};
   ${props =>
     props.disabled &&
-    `color: ${props.theme.components.listItemColorDisabled}; background-color:${props.theme.components.listItemBackgroundColorDisabled};`};
+    ` color: ${props.theme.components.listItemColorDisabled}; background-color:${props.theme.components.listItemBackgroundColorDisabled};`};
   ${props =>
     props.focused && `background-color: ${props.theme.components.listItemBackgroundColorFocused}`};
   ${props => props.focused && `color: ${props.theme.components.listItemColorFocused}`};
@@ -194,20 +188,20 @@ StyledListItem.defaultProps = {
 
 const ListItem = React.forwardRef((props, ref) => {
   const {
-    children,
-    as: Component,
-    leftContent,
-    rightContent,
-    separator,
-    size,
     active,
-    disabled,
-    focused,
+    as: Component,
+    children,
     className,
+    disabled,
     focusContent,
     focusLeftContent,
     focusRightContent,
+    focused,
+    leftContent,
     onClick,
+    rightContent,
+    separator,
+    size,
     ...other
   } = props;
 
@@ -251,19 +245,20 @@ const ListItem = React.forwardRef((props, ref) => {
 ListItem.displayName = 'ListItem';
 
 ListItem.propTypes = {
-  children: PropTypes.node,
+  active: PropTypes.bool,
   as: PropTypes.elementType,
-  leftContent: PropTypes.node,
-  rightContent: PropTypes.node,
+  children: PropTypes.node,
+  className: PropTypes.string,
+  disabled: PropTypes.bool,
   focusContent: PropTypes.bool,
   focusLeftContent: PropTypes.bool,
   focusRightContent: PropTypes.bool,
-  separator: PropTypes.bool,
-  size: PropTypes.oneOf(['medium', 'large']),
-  active: PropTypes.bool,
-  disabled: PropTypes.bool,
   focused: PropTypes.bool,
-  onClick: PropTypes.func
+  leftContent: PropTypes.node,
+  onClick: PropTypes.func,
+  rightContent: PropTypes.node,
+  separator: PropTypes.bool,
+  size: PropTypes.oneOf(['medium', 'large'])
 };
 
 ListItem.defaultProps = {

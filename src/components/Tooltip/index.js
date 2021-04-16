@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import DefaultTheme from '../../themes/defaultTheme';
+import defaultTheme from '../../themes/defaultTheme';
 import useDimensions from '../../hooks/useDimensions';
 import Portal from '../Portal/index';
 import hexToRgba from '../../utils/hexToRgba';
@@ -41,12 +41,13 @@ const StyledTooltip = styled.div`
   position: relative;
 `;
 StyledTooltip.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 const StyledTooltipLabel = styled.div`
   display: flex;
   align-items: center;
+  width: ${({ width }) => (width ? width : '')};
   flex-direction: row;
   padding: ${({ theme }) => theme.spacings.small1} 12px;
   background: ${({ theme }) => hexToRgba(theme.color.charcoal800, 0.9)};
@@ -63,6 +64,7 @@ const StyledTooltipLabel = styled.div`
     width: 0px;
     ${({ position, theme }) => arrowPosition(theme)[position]}
   }
+
   p {
     ${({ theme }) => theme.texts.p2};
     color: ${({ theme }) => theme.color.white};
@@ -73,7 +75,7 @@ const StyledTooltipLabel = styled.div`
   }
 `;
 StyledTooltipLabel.defaultProps = {
-  theme: DefaultTheme
+  theme: defaultTheme
 };
 
 const calculatePosition = (position, dimensions) => {
@@ -117,16 +119,15 @@ export function testReset() {
 
 const Tooltip = ({
   children,
-  title,
-  value,
-  position,
   enterDelay = 100,
   enterNextDelay = 0,
-  enterTouchDelay = 700,
   leaveDelay = 0,
-  leaveTouchDelay = 1500,
+  width,
+  onClose,
   onOpen,
-  onClose
+  position,
+  title,
+  value
 }) => {
   const container = useRef(null);
   const tooltip = useRef(null);
@@ -175,7 +176,6 @@ const Tooltip = ({
 
   const handleEnter = (forward = true) => event => {
     const childrenProps = children.props;
-
     if (event.type === 'mouseover' && childrenProps.onMouseOver && forward) {
       childrenProps.onMouseOver(event);
     }
@@ -249,6 +249,7 @@ const Tooltip = ({
       {open && (
         <Portal renderInto="tooltips">
           <StyledTooltipLabel
+            width={width}
             ref={tooltip}
             position={position}
             style={{ ...tooltipPosition }}
@@ -267,9 +268,13 @@ const Tooltip = ({
 
 Tooltip.propTypes = {
   children: PropTypes.node.isRequired,
+  enterDelay: PropTypes.number,
+  enterNextDelay: PropTypes.number,
+  leaveDelay: PropTypes.number,
+  position: PropTypes.oneOf(['top', 'right', 'bottom', 'left']),
   title: PropTypes.string.isRequired,
   value: PropTypes.string,
-  position: PropTypes.oneOf(['top', 'right', 'bottom', 'left'])
+  width: PropTypes.string
 };
 
 Tooltip.defaultProps = {

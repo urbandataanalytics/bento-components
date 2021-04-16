@@ -1,5 +1,5 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@typescript-eslint/parser",
   "plugins": [
     "import",
     "prettier",
@@ -7,7 +7,6 @@
     "react-hooks"
   ],
   "extends": [
-    "react-app",
     "prettier",
     "prettier/react"
   ],

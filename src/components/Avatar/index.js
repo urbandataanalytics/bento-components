@@ -1,8 +1,8 @@
 import * as React from 'react';
+import { forwardRef } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import defaultTheme from '../../themes/defaultTheme';
-import { forwardRef } from 'react';
 import { IconUser } from '../../icons';
 import { getInitials } from '../../utils/initials';
 import useLoadedImage from '../../hooks/useLoadedImage';
@@ -63,7 +63,6 @@ const Avatar = forwardRef((props, ref) => {
     srcSet,
     alt,
     size,
-    color,
     customColor,
     initialsNum = 2,
     imgProps,
@@ -105,7 +104,6 @@ Avatar.propTypes = {
   initialsNum: PropTypes.number,
   size: PropTypes.oneOf(['small', 'medium', 'large', 'extralarge']),
   imgProps: PropTypes.object,
-  color: PropTypes.oneOf(['primary', 'secondary']),
   children: PropTypes.node,
   customColor: PropTypes.string,
   customTextColor: PropTypes.string

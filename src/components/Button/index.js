@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-
-import DefaultTheme from '../../themes/defaultTheme';
+import defaultTheme from '../../themes/defaultTheme';
 import Loader from './Loader/';
 
 const componentSizes = theme => ({
@@ -46,11 +45,40 @@ const componentVariants = theme => ({
       borderColor: theme.components.buttonSecondaryDisabledBorderColor,
       color: theme.components.buttonSecondaryDisabledColor
     }
+  },
+  dangerPrimary: {
+    color: theme.components.buttonDangerPrimaryColor,
+    backgroundColor: theme.components.buttonDangerPrimaryBackgroundColor,
+    borderRadius: theme.components.buttonDangerPrimaryBorderRadius,
+    '&:hover': {
+      backgroundColor: theme.components.buttonDangerPrimaryHoverBackgroundColor,
+      color: theme.components.buttonDangerPrimaryHoverColor
+    },
+    '&:disabled': {
+      backgroundColor: theme.components.buttonDangerPrimaryDisabledBackgroundColor
+    }
+  },
+  dangerSecondary: {
+    color: theme.components.buttonDangerSecondaryColor,
+    backgroundColor: theme.components.buttonDangerSecondaryBackgroundColor,
+    borderColor: theme.components.buttonDangerSecondaryBorderColor,
+    borderRadius: theme.components.buttonDangerSecondaryBorderRadius,
+    '&:hover': {
+      backgroundColor: theme.components.buttonDangerSecondaryHoverBackgroundColor,
+      borderColor: theme.components.buttonDangerSecondaryHoverBorderColor,
+      color: theme.components.buttonDangerSecondaryHoverColor
+    },
+    '&:disabled': {
+      backgroundColor: theme.components.buttonDangerSecondaryDisabledBackgroundColor,
+      borderColor: theme.components.buttonDangerSecondaryDisabledBorderColor,
+      color: theme.components.buttonDangerSecondaryDisabledColor
+    }
   }
 });
 
 const StyledButton = styled.button`
-  border-width: ${props => (props.variant === 'secondary' ? '1px' : 0)};
+  border-width: ${props =>
+    props.variant === 'secondary' || props.variant === 'dangerSecondary' ? '1px' : 0};
   border-style: solid;
   font-family: ${props => props.theme.global.fontFamily};
   font-weight: ${props => props.theme.global.fontWeightMedium};
@@ -166,10 +194,24 @@ const Button = React.forwardRef((props, ref) => {
 Button.propTypes = {
   block: PropTypes.bool,
   children: PropTypes.node,
+  className: PropTypes.string,
   disabled: PropTypes.bool,
+  loading: PropTypes.bool,
+  loadingText: PropTypes.string,
+  iconLeft: PropTypes.node,
+  iconRight: PropTypes.node,
+  onClick: PropTypes.func,
   size: PropTypes.oneOf(['medium', 'large']),
   tabIndex: PropTypes.string,
-  variant: PropTypes.oneOf(['normal', 'primary', 'secondary'])
+  variant: PropTypes.oneOf(['primary', 'secondary', 'dangerPrimary', 'dangerSecondary'])
+};
+
+StyledButton.defaultProps = {
+  theme: defaultTheme
+};
+
+IconWrapper.defaultProps = {
+  theme: defaultTheme
 };
 
 Button.defaultProps = {
@@ -178,14 +220,6 @@ Button.defaultProps = {
   loading: false,
   size: 'medium',
   variant: 'primary'
-};
-
-StyledButton.defaultProps = {
-  theme: DefaultTheme
-};
-
-IconWrapper.defaultProps = {
-  theme: DefaultTheme
 };
 
 Button.displayName = 'Button';

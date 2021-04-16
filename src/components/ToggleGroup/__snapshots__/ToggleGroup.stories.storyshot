@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots ToggleGroup Button Variant 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="ToggleGroup__StyledToggleGroupContainer-sc-1utrc7f-0 laojMa"
+  >
+    <button
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 dKgKYk switch__button"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="first"
+    >
+      First
+    </button>
+    <button
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU switch__button active"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="second"
+    >
+      Second
+    </button>
+    <button
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 dKgKYk switch__button"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="third"
+    >
+      Value
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ToggleGroup Playground 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="ToggleGroup__StyledToggleGroupContainer-sc-1utrc7f-0 laojMa"
+  >
+    <button
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="first"
+    >
+      First
+    </button>
+    <button
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 dKgKYk"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="second"
+    >
+      Second
+    </button>
+    <button
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 dKgKYk"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      value="third"
+    >
+      Value
+    </button>
+  </div>
+</div>
+`;

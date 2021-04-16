@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { shallow, mount } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import Tabs from './index';
 import Tab from './Tab/index';
 
@@ -26,6 +26,17 @@ describe(`Tabs`, () => {
 
     expect(wrapper.find('Tab').at(0).props().active).toBe(false);
     expect(wrapper.find('Tab').at(1).props().active).toBe(true);
+  });
+
+  it('fails on invalid child', () => {
+    const invalidChild = 'stringToFail';
+    const wrapper = shallow(
+      <Tabs>
+        {invalidChild}
+        <Tab header="testHeader">Text</Tab>
+      </Tabs>
+    );
+    expect(wrapper.find('Tabs__StyledTabsContainer').children().length).toBe(1);
   });
 
   describe('events', () => {

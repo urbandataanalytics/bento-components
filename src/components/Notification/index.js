@@ -57,6 +57,7 @@ const StyledMessage = styled.div`
   font-weight: ${props => props.theme.global.fontWeightRegular};
   font-size: 14px;
   line-height: 24px;
+  margin-right: ${props => props.theme.components.notificationPadding};
   width: 100%;
 `;
 StyledMessage.defaultProps = {
@@ -89,7 +90,7 @@ StyledCloseButton.defaultProps = {
 };
 
 const Notification = props => {
-  const { showIcon, icon, variant, children, closable, onClose } = props;
+  const { children, closable, icon, onClose, showIcon, variant } = props;
 
   const DefaultIcon = variants[variant].icon;
   return (
@@ -107,10 +108,11 @@ const Notification = props => {
 
 Notification.propTypes = {
   children: PropTypes.node,
-  variant: PropTypes.oneOf(['normal', 'success', 'error']),
-  showIcon: PropTypes.bool,
+  closable: PropTypes.bool,
   icon: PropTypes.node,
-  closable: PropTypes.bool
+  onClose: PropTypes.func,
+  showIcon: PropTypes.bool,
+  variant: PropTypes.oneOf(['normal', 'success', 'error']).isRequired
 };
 
 Notification.defaultProps = {

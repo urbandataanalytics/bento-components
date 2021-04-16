@@ -119,3 +119,15 @@ export * from './components/Search';
 
 export { default as Carousel } from './components/Carousel';
 export * from './components/Carousel';
+
+export { default as InlineInputField } from './components/InlineInputField';
+export * from './components/InlineInputField';
+
+export { default as Separator } from './components/Separator';
+export * from './components/Separator';
+
+export { default as TextareaField } from './components/TextareaField';
+export * from './components/TextareaField';
+
+export { default as ToggleGroup } from './components/ToggleGroup';
+export * from './components/ToggleGroup';

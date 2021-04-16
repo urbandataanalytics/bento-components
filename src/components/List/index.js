@@ -30,6 +30,7 @@ List.defaultProps = {
 
 List.propTypes = {
   children: PropTypes.node.isRequired,
+  className: PropTypes.string,
   size: PropTypes.oneOf(['medium', 'large'])
 };
 

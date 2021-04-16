@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Search Normal 1`] = `
+exports[`Storyshots Search Playground 1`] = `
 <div
   style={
     Object {
@@ -9,7 +9,7 @@ exports[`Storyshots Search Normal 1`] = `
   }
 >
   <div
-    className="Search__StyledContainer-mfs9oj-0 tOCty"
+    className="Search__StyledContainer-mfs9oj-0 gtEVJV"
   >
     <svg
       className="Icon__StyledIcon-xqsk8h-0 kEczNP"
@@ -173,6 +173,22 @@ exports[`Storyshots Search Normal 1`] = `
             "avatarSizeLarge": "40px",
             "avatarSizeMedium": "32px",
             "avatarSizeSmall": "24px",
+            "buttonDangerPrimaryBackgroundColor": "#CD4C41",
+            "buttonDangerPrimaryBorderRadius": "4px",
+            "buttonDangerPrimaryColor": "#FFFFFF",
+            "buttonDangerPrimaryDisabledBackgroundColor": "#DCDFE6",
+            "buttonDangerPrimaryHoverBackgroundColor": "#E1897F",
+            "buttonDangerPrimaryHoverColor": "#FFFFFF",
+            "buttonDangerSecondaryBackgroundColor": "#FFFFFF",
+            "buttonDangerSecondaryBorderColor": "#CD4C41",
+            "buttonDangerSecondaryBorderRadius": "4px",
+            "buttonDangerSecondaryColor": "#CD4C41",
+            "buttonDangerSecondaryDisabledBackgroundColor": "#FFFFFF",
+            "buttonDangerSecondaryDisabledBorderColor": "#DCDFE6",
+            "buttonDangerSecondaryDisabledColor": "#FFFFFF",
+            "buttonDangerSecondaryHoverBackgroundColor": "#FAEDEC",
+            "buttonDangerSecondaryHoverBorderColor": "#FAEDEC",
+            "buttonDangerSecondaryHoverColor": "#CD4C41",
             "buttonFontSizeLarge": "14px",
             "buttonFontSizeMedium": "12px",
             "buttonLinkDisabledColor": "#DCDFE6",
@@ -201,7 +217,7 @@ exports[`Storyshots Search Normal 1`] = `
             "buttonSecondaryColor": "#212632",
             "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
             "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-            "buttonSecondaryDisabledColor": "#DCDFE6",
+            "buttonSecondaryDisabledColor": "#FFFFFF",
             "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
             "buttonSecondaryHoverBorderColor": "#DCDFE6",
             "buttonSecondaryHoverColor": "#212632",
@@ -245,6 +261,33 @@ exports[`Storyshots Search Normal 1`] = `
             "iconSizeLarge": "32px",
             "iconSizeMedium": "24px",
             "iconSizeSmall": "16px",
+            "inlineInputFieldBackgroundColor": "#FAFBFC",
+            "inlineInputFieldBorderColor": "#FAFBFC",
+            "inlineInputFieldBorderRadius": "4px 4px 0 0",
+            "inlineInputFieldBottomBorderColor": "#DCDFE6",
+            "inlineInputFieldDisabledBackgroundColor": "#FAFBFC",
+            "inlineInputFieldDisabledBorderColor": "#FAFBFC",
+            "inlineInputFieldDisabledBottomBorderColor": "#DCDFE6",
+            "inlineInputFieldDisabledColor": "#DCDFE6",
+            "inlineInputFieldDisabledLabelColor": "#DCDFE6",
+            "inlineInputFieldErrorBackgroundColor": "#FAEDEC",
+            "inlineInputFieldErrorBorderColor": "#FAEDEC",
+            "inlineInputFieldErrorBottomBorderColor": "#CD4C41",
+            "inlineInputFieldErrorHelpColor": "#CD4C41",
+            "inlineInputFieldErrorPlaceholderColor": "#CD4C41",
+            "inlineInputFieldFocusBackgroundColor": "#EFF7FB",
+            "inlineInputFieldFocusBorderColor": "#EFF7FB",
+            "inlineInputFieldFocusBottomBorderColor": "#48AAF1",
+            "inlineInputFieldFocusLabelColor": "#48AAF1",
+            "inlineInputFieldFontSize": "14px",
+            "inlineInputFieldHelpColor": "#212632",
+            "inlineInputFieldHelpFontSize": "12px",
+            "inlineInputFieldLabelColor": "#747D93",
+            "inlineInputFieldLabelFontSize": "12px",
+            "inlineInputFieldLineHeight": "40px",
+            "inlineInputFieldPlaceholderColor": "#DCDFE6",
+            "inlineInputFieldPrefixLineHeight": "32px",
+            "inlineInputFieldTextIndent": "24px",
             "inputFieldBackgroundColor": "#FFFFFF",
             "inputFieldBorderColor": "#DCDFE6",
             "inputFieldBorderRadius": "4px",
@@ -306,7 +349,7 @@ exports[`Storyshots Search Normal 1`] = `
             "navigationHeaderPadding": "0 17px",
             "navigationLinkFontSize": "12px",
             "navigationLinkMargin": "0 24px 0 0",
-            "navigationMaxHeight": "73px",
+            "navigationMaxHeight": "56px",
             "navigationMenuBackgroundColor": "#EFF2F7",
             "navigationMenuHoverBackgroundColor": "#DCDFE6",
             "navigationMenuOpenBackgroundColor": "#EFF7FB",
@@ -328,13 +371,21 @@ exports[`Storyshots Search Normal 1`] = `
             "paginationProgressActiveBackgroundColor": "#212632",
             "paginationProgressBackgroundColor": "#DCDFE6",
             "paginationProgressMarginBottom": "16px",
-            "sliderHandleColor": "#1778FB",
-            "sliderHandleDisabledColor": "#B6BBC6",
-            "sliderHandleDraggingColor": undefined,
-            "sliderHandleMarginTop": "-6px",
-            "sliderHandleSize": "16px",
+            "sliderFirstHandleColor": "#1778FB",
+            "sliderFirstHandleDisabledColor": "#B6BBC6",
+            "sliderFirstHandleDraggingColor": undefined,
+            "sliderFirstHandleMarginTop": "-6px",
+            "sliderFirstHandleMarginTopSlim": "-7px",
+            "sliderFirstHandleSize": "16px",
             "sliderRailColor": "#DCDFE6",
-            "sliderRailSize": "2px",
+            "sliderRailSize": "4px",
+            "sliderRailSizeSlim": "2px",
+            "sliderSecondHandleColor": "#1778FB",
+            "sliderSecondHandleDisabledColor": "#B6BBC6",
+            "sliderSecondHandleDraggingColor": undefined,
+            "sliderSecondHandleMarginTop": "-6px",
+            "sliderSecondHandleMarginTopSlim": "-7px",
+            "sliderSecondHandleSize": "16px",
             "sliderTrackColor": "#1778FB",
             "tabBadgeBackground": "#EFF2F7",
             "tabBadgeBackgroundActive": "#1778FB",
@@ -365,6 +416,28 @@ exports[`Storyshots Search Normal 1`] = `
             "textLinkPrimaryHoverColor": "#48AAF1",
             "textLinkSecondaryColor": "#747D93",
             "textLinkSecondaryHoverColor": "#48AAF1",
+            "textareaFieldBackgroundColor": "#FFFFFF",
+            "textareaFieldBorderColor": "#DCDFE6",
+            "textareaFieldBorderRadius": "4px",
+            "textareaFieldDisabledBackgroundColor": "#FAFBFC",
+            "textareaFieldDisabledBorderColor": "#DCDFE6",
+            "textareaFieldDisabledColor": "#DCDFE6",
+            "textareaFieldDisabledLabelColor": "#DCDFE6",
+            "textareaFieldErrorBackgroundColor": "#FAEDEC",
+            "textareaFieldErrorBorderColor": "#CD4C41",
+            "textareaFieldErrorHelpColor": "#CD4C41",
+            "textareaFieldErrorPlaceholderColor": "#CD4C41",
+            "textareaFieldFocusBackgroundColor": "#EFF7FB",
+            "textareaFieldFocusBorderColor": "#48AAF1",
+            "textareaFieldFocusLabelColor": "#48AAF1",
+            "textareaFieldFontSize": "14px",
+            "textareaFieldHelpColor": "#212632",
+            "textareaFieldHelpFontSize": "12px",
+            "textareaFieldLabelColor": "#363C4B",
+            "textareaFieldLabelFontSize": "12px",
+            "textareaFieldLineHeight": "48px",
+            "textareaFieldPlaceholderColor": "#DCDFE6",
+            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -399,7 +472,7 @@ exports[`Storyshots Search Normal 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "3.4rem",
+              "size": "36px",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -414,12 +487,12 @@ exports[`Storyshots Search Normal 1`] = `
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "1.1rem",
+              "size": "16px",
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
               "fontWeight": 500,
-              "size": "0.8rem",
+              "size": "12px",
             },
           ],
           "shapes": Object {
@@ -490,12 +563,17 @@ exports[`Storyshots Search Normal 1`] = `
     <div
       className="Search__StyledWrapper-mfs9oj-1 hiQdNt"
     >
-      
-      
+      <h5
+        className="Search__StyledHeading-mfs9oj-3 kBPcEQ"
+      >
+        Search
+      </h5>
+      <i
+        className="Search__StyledSeparator-mfs9oj-2 HnbvA"
+      />
       <input
-        className="Search__Input-mfs9oj-4 eBddUo"
+        className="Search__Input-mfs9oj-4 fMlJCq"
         disabled={false}
-        onChange={[Function]}
         onKeyDown={[Function]}
         placeholder="Search any portfolio by name, seller or buyer"
         type="text"
@@ -503,7 +581,7 @@ exports[`Storyshots Search Normal 1`] = `
       />
     </div>
     <button
-      onClick={true}
+      onClick={[Function]}
       type="button"
     >
       <svg
@@ -668,6 +746,22 @@ exports[`Storyshots Search Normal 1`] = `
               "avatarSizeLarge": "40px",
               "avatarSizeMedium": "32px",
               "avatarSizeSmall": "24px",
+              "buttonDangerPrimaryBackgroundColor": "#CD4C41",
+              "buttonDangerPrimaryBorderRadius": "4px",
+              "buttonDangerPrimaryColor": "#FFFFFF",
+              "buttonDangerPrimaryDisabledBackgroundColor": "#DCDFE6",
+              "buttonDangerPrimaryHoverBackgroundColor": "#E1897F",
+              "buttonDangerPrimaryHoverColor": "#FFFFFF",
+              "buttonDangerSecondaryBackgroundColor": "#FFFFFF",
+              "buttonDangerSecondaryBorderColor": "#CD4C41",
+              "buttonDangerSecondaryBorderRadius": "4px",
+              "buttonDangerSecondaryColor": "#CD4C41",
+              "buttonDangerSecondaryDisabledBackgroundColor": "#FFFFFF",
+              "buttonDangerSecondaryDisabledBorderColor": "#DCDFE6",
+              "buttonDangerSecondaryDisabledColor": "#FFFFFF",
+              "buttonDangerSecondaryHoverBackgroundColor": "#FAEDEC",
+              "buttonDangerSecondaryHoverBorderColor": "#FAEDEC",
+              "buttonDangerSecondaryHoverColor": "#CD4C41",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
               "buttonLinkDisabledColor": "#DCDFE6",
@@ -696,7 +790,7 @@ exports[`Storyshots Search Normal 1`] = `
               "buttonSecondaryColor": "#212632",
               "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
               "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-              "buttonSecondaryDisabledColor": "#DCDFE6",
+              "buttonSecondaryDisabledColor": "#FFFFFF",
               "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
               "buttonSecondaryHoverBorderColor": "#DCDFE6",
               "buttonSecondaryHoverColor": "#212632",
@@ -740,6 +834,33 @@ exports[`Storyshots Search Normal 1`] = `
               "iconSizeLarge": "32px",
               "iconSizeMedium": "24px",
               "iconSizeSmall": "16px",
+              "inlineInputFieldBackgroundColor": "#FAFBFC",
+              "inlineInputFieldBorderColor": "#FAFBFC",
+              "inlineInputFieldBorderRadius": "4px 4px 0 0",
+              "inlineInputFieldBottomBorderColor": "#DCDFE6",
+              "inlineInputFieldDisabledBackgroundColor": "#FAFBFC",
+              "inlineInputFieldDisabledBorderColor": "#FAFBFC",
+              "inlineInputFieldDisabledBottomBorderColor": "#DCDFE6",
+              "inlineInputFieldDisabledColor": "#DCDFE6",
+              "inlineInputFieldDisabledLabelColor": "#DCDFE6",
+              "inlineInputFieldErrorBackgroundColor": "#FAEDEC",
+              "inlineInputFieldErrorBorderColor": "#FAEDEC",
+              "inlineInputFieldErrorBottomBorderColor": "#CD4C41",
+              "inlineInputFieldErrorHelpColor": "#CD4C41",
+              "inlineInputFieldErrorPlaceholderColor": "#CD4C41",
+              "inlineInputFieldFocusBackgroundColor": "#EFF7FB",
+              "inlineInputFieldFocusBorderColor": "#EFF7FB",
+              "inlineInputFieldFocusBottomBorderColor": "#48AAF1",
+              "inlineInputFieldFocusLabelColor": "#48AAF1",
+              "inlineInputFieldFontSize": "14px",
+              "inlineInputFieldHelpColor": "#212632",
+              "inlineInputFieldHelpFontSize": "12px",
+              "inlineInputFieldLabelColor": "#747D93",
+              "inlineInputFieldLabelFontSize": "12px",
+              "inlineInputFieldLineHeight": "40px",
+              "inlineInputFieldPlaceholderColor": "#DCDFE6",
+              "inlineInputFieldPrefixLineHeight": "32px",
+              "inlineInputFieldTextIndent": "24px",
               "inputFieldBackgroundColor": "#FFFFFF",
               "inputFieldBorderColor": "#DCDFE6",
               "inputFieldBorderRadius": "4px",
@@ -801,7 +922,7 @@ exports[`Storyshots Search Normal 1`] = `
               "navigationHeaderPadding": "0 17px",
               "navigationLinkFontSize": "12px",
               "navigationLinkMargin": "0 24px 0 0",
-              "navigationMaxHeight": "73px",
+              "navigationMaxHeight": "56px",
               "navigationMenuBackgroundColor": "#EFF2F7",
               "navigationMenuHoverBackgroundColor": "#DCDFE6",
               "navigationMenuOpenBackgroundColor": "#EFF7FB",
@@ -823,13 +944,21 @@ exports[`Storyshots Search Normal 1`] = `
               "paginationProgressActiveBackgroundColor": "#212632",
               "paginationProgressBackgroundColor": "#DCDFE6",
               "paginationProgressMarginBottom": "16px",
-              "sliderHandleColor": "#1778FB",
-              "sliderHandleDisabledColor": "#B6BBC6",
-              "sliderHandleDraggingColor": undefined,
-              "sliderHandleMarginTop": "-6px",
-              "sliderHandleSize": "16px",
+              "sliderFirstHandleColor": "#1778FB",
+              "sliderFirstHandleDisabledColor": "#B6BBC6",
+              "sliderFirstHandleDraggingColor": undefined,
+              "sliderFirstHandleMarginTop": "-6px",
+              "sliderFirstHandleMarginTopSlim": "-7px",
+              "sliderFirstHandleSize": "16px",
               "sliderRailColor": "#DCDFE6",
-              "sliderRailSize": "2px",
+              "sliderRailSize": "4px",
+              "sliderRailSizeSlim": "2px",
+              "sliderSecondHandleColor": "#1778FB",
+              "sliderSecondHandleDisabledColor": "#B6BBC6",
+              "sliderSecondHandleDraggingColor": undefined,
+              "sliderSecondHandleMarginTop": "-6px",
+              "sliderSecondHandleMarginTopSlim": "-7px",
+              "sliderSecondHandleSize": "16px",
               "sliderTrackColor": "#1778FB",
               "tabBadgeBackground": "#EFF2F7",
               "tabBadgeBackgroundActive": "#1778FB",
@@ -860,6 +989,28 @@ exports[`Storyshots Search Normal 1`] = `
               "textLinkPrimaryHoverColor": "#48AAF1",
               "textLinkSecondaryColor": "#747D93",
               "textLinkSecondaryHoverColor": "#48AAF1",
+              "textareaFieldBackgroundColor": "#FFFFFF",
+              "textareaFieldBorderColor": "#DCDFE6",
+              "textareaFieldBorderRadius": "4px",
+              "textareaFieldDisabledBackgroundColor": "#FAFBFC",
+              "textareaFieldDisabledBorderColor": "#DCDFE6",
+              "textareaFieldDisabledColor": "#DCDFE6",
+              "textareaFieldDisabledLabelColor": "#DCDFE6",
+              "textareaFieldErrorBackgroundColor": "#FAEDEC",
+              "textareaFieldErrorBorderColor": "#CD4C41",
+              "textareaFieldErrorHelpColor": "#CD4C41",
+              "textareaFieldErrorPlaceholderColor": "#CD4C41",
+              "textareaFieldFocusBackgroundColor": "#EFF7FB",
+              "textareaFieldFocusBorderColor": "#48AAF1",
+              "textareaFieldFocusLabelColor": "#48AAF1",
+              "textareaFieldFontSize": "14px",
+              "textareaFieldHelpColor": "#212632",
+              "textareaFieldHelpFontSize": "12px",
+              "textareaFieldLabelColor": "#363C4B",
+              "textareaFieldLabelFontSize": "12px",
+              "textareaFieldLineHeight": "48px",
+              "textareaFieldPlaceholderColor": "#DCDFE6",
+              "textareaFieldTextIndent": "24px",
             },
             "fonts": Array [
               Object {
@@ -894,7 +1045,7 @@ exports[`Storyshots Search Normal 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "3.4rem",
+                "size": "36px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
@@ -909,12 +1060,12 @@ exports[`Storyshots Search Normal 1`] = `
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "1.1rem",
+                "size": "16px",
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
                 "fontWeight": 500,
-                "size": "0.8rem",
+                "size": "12px",
               },
             ],
             "shapes": Object {

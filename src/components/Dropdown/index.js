@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
@@ -31,8 +31,8 @@ const ChildrenContainer = styled.div`
   border-radius: ${props => props.theme.components.dropdownBorderRadius};
   background: ${props => props.theme.components.dropdownBackground};
   padding: ${props => props.theme.components.dropdownPadding};
-  z-index: 10;
-  animation: ${({ theme }) => theme.animations.dropDownDisplay} 0.4s
+  z-index: ${({ zIndex }) => zIndex};
+  animation: ${({ theme }) => theme.animations.dropDownDisplay} 125ms
     cubic-bezier(0.73, 0.005, 0.22, 1);
 `;
 
@@ -50,14 +50,22 @@ const calculatePosition = (align, position, dimensions) => {
     containerWidth,
     popperHeight,
     popperWidth,
-    windowWidth
+    windowWidth,
+    windowHeight
   } = dimensions;
 
   let top = 0;
   let left = 0;
 
-  top =
-    position === 'bottom' ? containerTop + containerHeight + 10 : containerTop - popperHeight - 10;
+  const bottomPosition = containerTop + containerHeight + 10;
+  const topPosition = containerTop - popperHeight - 10;
+
+  if (position === 'bottom') {
+    top = bottomPosition + popperHeight > windowHeight ? topPosition : bottomPosition;
+  } else {
+    top = topPosition <= 0 ? bottomPosition : topPosition;
+  }
+
   if (align === 'left') {
     left = containerLeft;
     if (left <= DROPDOWN_OFFSET) {
@@ -76,14 +84,15 @@ const calculatePosition = (align, position, dimensions) => {
 };
 
 const Dropdown = ({
-  children,
-  label,
-  closeOnClickOutside,
-  closeOnClickInside,
   align,
-  position,
+  children,
+  closeOnClickInside,
+  closeOnClickOutside,
+  isOpen,
+  label,
   onChange = () => {},
-  isOpen = false,
+  position,
+  zIndex,
   ...other
 }) => {
   const [isDropdownOpen, setOpen] = useState(isOpen);
@@ -129,6 +138,7 @@ const Dropdown = ({
       {isDropdownOpen && (
         <Portal renderInto="dropdowns">
           <ChildrenContainer
+            zIndex={zIndex}
             isOpen={isDropdownOpen}
             ref={dropdown}
             style={dropdownPosition}
@@ -145,13 +155,15 @@ const Dropdown = ({
 Dropdown.displayName = 'Dropdown';
 
 Dropdown.propTypes = {
+  align: PropTypes.oneOf(['left', 'center', 'right']),
   children: PropTypes.node,
-  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
-  className: PropTypes.string,
-  position: PropTypes.oneOf(['top', 'bottom']),
-  align: PropTypes.oneOf(['right', 'center', 'left']),
+  closeOnClickInside: PropTypes.bool,
   closeOnClickOutside: PropTypes.bool,
-  isOpen: PropTypes.bool
+  isOpen: PropTypes.bool,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
+  onChange: PropTypes.func,
+  position: PropTypes.oneOf(['top', 'bottom']),
+  zIndex: PropTypes.number
 };
 
 Dropdown.defaultProps = {
@@ -159,7 +171,8 @@ Dropdown.defaultProps = {
   isOpen: false,
   closeOnClickInside: false,
   position: 'bottom',
-  align: 'left'
+  align: 'left',
+  zIndex: 10
 };
 
 export default Dropdown;
