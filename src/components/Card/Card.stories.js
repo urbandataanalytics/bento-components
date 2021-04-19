@@ -54,12 +54,7 @@ export const Playground = ({ contentBackgroundColor, contentFontColor, ...args }
         <CardHeader leftContent="Left" rightContent="Right" title="Title" subheader="Subtitle">
           Extra content
         </CardHeader>
-        <CardContent
-          contentBackgroundColor={contentBackgroundColor}
-          contentFontColor={contentFontColor}
-        >
-          Lorem Ipsum
-        </CardContent>
+        <CardContent>Lorem Ipsum</CardContent>
       </Card>
     </div>
   );
@@ -73,17 +68,25 @@ export const Loading = () => {
   );
 };
 
-export const colouredContent = () => {
+export const colouredContent = ({ contentBackgroundColor, contentFontColor, ...args }) => {
   return (
     <div style={containerStyle}>
       <Card>
         <CardHeader leftContent="Left" rightContent="Right" title="Title" subheader="Subtitle">
           Extra content
         </CardHeader>
-        <CardContent contentBackgroundColor="darkblue" contentFontColor="white">
+        <CardContent
+          contentBackgroundColor={contentBackgroundColor}
+          contentFontColor={contentFontColor}
+        >
           Lorem Ipsum
         </CardContent>
       </Card>
     </div>
   );
+};
+
+colouredContent.args = {
+  contentBackgroundColor: 'darkblue',
+  contentFontColor: 'white'
 };
