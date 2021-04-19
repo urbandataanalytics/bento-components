@@ -35,7 +35,7 @@ export default {
     },
     contentFontColor: {
       control: 'text',
-      description: 'Allos to customize the font color of the card content'
+      description: 'Allows to customize the font color of the card content'
     }
   },
   args: {
@@ -47,10 +47,31 @@ const containerStyle = {
   padding: '2rem'
 };
 
-export const Playground = ({ contentBackgroundColor, contentFontColor, ...args }) => {
+export const Playground = ({ ...args }) => {
   return (
     <div style={containerStyle}>
       <Card {...args}>
+        <CardHeader leftContent="Left" rightContent="Right" title="Title" subheader="Subtitle">
+          Extra content
+        </CardHeader>
+        <CardContent>Lorem Ipsum</CardContent>
+      </Card>
+    </div>
+  );
+};
+
+export const Loading = () => {
+  return (
+    <div style={containerStyle}>
+      <Card loading></Card>
+    </div>
+  );
+};
+
+export const colouredContent = ({ contentBackgroundColor, contentFontColor, ...args }) => {
+  return (
+    <div style={containerStyle}>
+      <Card>
         <CardHeader leftContent="Left" rightContent="Right" title="Title" subheader="Subtitle">
           Extra content
         </CardHeader>
@@ -65,25 +86,7 @@ export const Playground = ({ contentBackgroundColor, contentFontColor, ...args }
   );
 };
 
-export const Loading = () => {
-  return (
-    <div style={containerStyle}>
-      <Card loading></Card>
-    </div>
-  );
-};
-
-export const colouredContent = () => {
-  return (
-    <div style={containerStyle}>
-      <Card>
-        <CardHeader leftContent="Left" rightContent="Right" title="Title" subheader="Subtitle">
-          Extra content
-        </CardHeader>
-        <CardContent contentBackgroundColor="darkblue" contentFontColor="white">
-          Lorem Ipsum
-        </CardContent>
-      </Card>
-    </div>
-  );
+colouredContent.args = {
+  contentBackgroundColor: 'darkblue',
+  contentFontColor: 'white'
 };
