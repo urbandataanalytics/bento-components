@@ -71,6 +71,9 @@ const calculatePosition = (align, position, dimensions) => {
     if (left <= DROPDOWN_OFFSET) {
       left = DROPDOWN_OFFSET;
     }
+    if (left + popperWidth >= windowWidth - DROPDOWN_OFFSET) {
+      left = windowWidth - popperWidth - DROPDOWN_OFFSET;
+    }
   } else if (align === 'center') {
     left = containerLeft + containerWidth / 2 - popperWidth / 2;
   } else if (align === 'right') {
