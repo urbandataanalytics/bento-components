@@ -312,8 +312,11 @@ const components = {
   buttonLinkFontSizeLarge: '14px',
   buttonLinkPrimaryColor: color.primary500,
   buttonLinkSecondaryColor: color.charcoal600,
+  buttonLinkPrimaryContrastColor: color.primary500,
+  buttonLinkSecondaryContrastColor: color.charcoal300,
   buttonLinkDisabledColor: color.charcoal400,
   buttonLinkHoverBackgroundColor: color.charcoal300,
+  buttonLinkHoverSecondaryContrastColor: color.charcoal800,
 
   /* Checkbox Theme props */
   checkboxBackground: color.white,

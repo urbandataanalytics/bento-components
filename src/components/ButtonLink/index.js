@@ -19,14 +19,26 @@ const componentSizes = theme => ({
   }
 });
 
-const componentVariants = theme => ({
-  primary: {
-    color: theme.components.buttonLinkPrimaryColor
-  },
-  secondary: {
-    color: theme.components.buttonLinkSecondaryColor
+const componentVariants = (theme, contrast) => {
+  if (contrast) {
+    return {
+      primary: {
+        color: theme.components.buttonLinkPrimaryContrastColor
+      },
+      secondary: {
+        color: theme.components.buttonLinkSecondaryContrastColor
+      }
+    };
   }
-});
+  return {
+    primary: {
+      color: theme.components.buttonLinkPrimaryColor
+    },
+    secondary: {
+      color: theme.components.buttonLinkSecondaryColor
+    }
+  };
+};
 
 const StyledButtonLink = styled.button`
   font-family: ${({ theme }) => theme.global.fontFamily};
@@ -49,9 +61,13 @@ const StyledButtonLink = styled.button`
   &:hover {
     background-color: ${props =>
       props.disabled ? 'transparent' : props.theme.components.buttonLinkHoverBackgroundColor};
+    ${({ theme, variant, contrast }) =>
+      variant === 'secondary' && contrast
+        ? { color: theme.components.buttonLinkHoverSecondaryContrastColor }
+        : null}
   }
 
-  ${props => componentVariants(props.theme)[props.variant]}
+  ${props => componentVariants(props.theme, props.contrast)[props.variant]}
   ${props => componentSizes(props.theme)[props.size]}
 `;
 
@@ -78,6 +94,7 @@ const ButtonLink = React.forwardRef((props, ref) => {
     size,
     tabIndex,
     variant,
+    contrast,
     ...other
   } = props;
 
@@ -89,6 +106,7 @@ const ButtonLink = React.forwardRef((props, ref) => {
       size={size}
       tabIndex={tabIndex}
       variant={variant}
+      contrast={contrast}
       {...other}
     >
       {iconLeft && (
@@ -115,13 +133,15 @@ ButtonLink.propTypes = {
   onClick: PropTypes.func,
   size: PropTypes.oneOf(['small', 'medium', 'large']).isRequired,
   tabIndex: PropTypes.string,
-  variant: PropTypes.oneOf(['primary', 'secondary']).isRequired
+  variant: PropTypes.oneOf(['primary', 'secondary']).isRequired,
+  contrast: PropTypes.bool
 };
 
 ButtonLink.defaultProps = {
   disabled: false,
   size: 'medium',
-  variant: 'primary'
+  variant: 'primary',
+  contrast: false
 };
 
 StyledButtonLink.defaultProps = {
