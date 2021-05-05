@@ -64,6 +64,12 @@ export default {
       table: {
         category: 'format'
       }
+    },
+    contrast: {
+      description: 'Specifies contrast format for darker backgrounds',
+      table: {
+        category: 'format'
+      }
     }
   },
   args: {
@@ -109,6 +115,19 @@ export const WithIconRight = () => {
   return (
     <div style={containerStyle}>
       <ButtonLink iconRight={<CustomIconRight />}> Button Name</ButtonLink>
+    </div>
+  );
+};
+
+export const Contrast = () => {
+  return (
+    <div style={{ ...containerStyle, background: '#0C1B7A' }}>
+      <ButtonLink variant="primary" size="medium" contrast={true}>
+        Primary
+      </ButtonLink>
+      <ButtonLink variant="secondary" size="medium" contrast={true}>
+        Secondary
+      </ButtonLink>
     </div>
   );
 };
