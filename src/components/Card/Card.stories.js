@@ -28,6 +28,14 @@ export default {
       table: {
         category: 'format'
       }
+    },
+    contentBackgroundColor: {
+      control: 'text',
+      description: 'Allows to customize the background color of the card content'
+    },
+    contentFontColor: {
+      control: 'text',
+      description: 'Allows to customize the font color of the card content'
     }
   },
   args: {
@@ -39,7 +47,7 @@ const containerStyle = {
   padding: '2rem'
 };
 
-export const Playground = args => {
+export const Playground = ({ ...args }) => {
   return (
     <div style={containerStyle}>
       <Card {...args}>
@@ -58,4 +66,27 @@ export const Loading = () => {
       <Card loading></Card>
     </div>
   );
+};
+
+export const colouredContent = ({ contentBackgroundColor, contentFontColor, ...args }) => {
+  return (
+    <div style={containerStyle}>
+      <Card>
+        <CardHeader leftContent="Left" rightContent="Right" title="Title" subheader="Subtitle">
+          Extra content
+        </CardHeader>
+        <CardContent
+          contentBackgroundColor={contentBackgroundColor}
+          contentFontColor={contentFontColor}
+        >
+          Lorem Ipsum
+        </CardContent>
+      </Card>
+    </div>
+  );
+};
+
+colouredContent.args = {
+  contentBackgroundColor: 'darkblue',
+  contentFontColor: 'white'
 };

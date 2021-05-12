@@ -9,15 +9,19 @@ exports[`Storyshots Slider Loading 1`] = `
   }
 >
   <div
-    className="Slider__StyledContent-sc-14leke7-3 exLQIY"
+    className="Slider__StyledSheet-sc-14leke7-3 cXwmOx"
   >
-    <div>
-      <i
-        className="Skeleton__StyledSkeleton-imrnkm-0 jROCNn"
-        height="10px"
-        opacity="1"
-        width="100%"
-      />
+    <div
+      className="Slider__StyledContent-sc-14leke7-4 bFNnHi"
+    >
+      <div>
+        <i
+          className="Skeleton__StyledSkeleton-imrnkm-0 jROCNn"
+          height="10px"
+          opacity="1"
+          width="100%"
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -32,68 +36,72 @@ exports[`Storyshots Slider Playground 1`] = `
   }
 >
   <div
-    className="Slider__StyledContent-sc-14leke7-3 exLQIY"
+    className="Slider__StyledSheet-sc-14leke7-3 cXwmOx"
   >
     <div
-      className="rc-slider"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onMouseDown={[Function]}
-      onMouseUp={[Function]}
-      onTouchStart={[Function]}
+      className="Slider__StyledContent-sc-14leke7-4 bFNnHi"
     >
       <div
-        className="rc-slider-rail"
-        style={
-          Object {
-            "backgroundColor": "#DCDFE6",
-            "height": "4px",
-          }
-        }
-      />
-      <div
-        className="rc-slider-track"
-        style={
-          Object {
-            "backgroundColor": "#1778FB",
-            "height": "4px",
-            "left": "0%",
-            "right": "auto",
-            "width": "11.11111111111111%",
-          }
-        }
-      />
-      <div
-        className="rc-slider-step"
-      />
-      <div
-        aria-disabled={false}
-        aria-valuemax={10}
-        aria-valuemin={1}
-        aria-valuenow={2}
-        className="rc-slider-handle"
+        className="rc-slider"
         onBlur={[Function]}
+        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
-        role="slider"
-        style={
-          Object {
-            "backgroundColor": "#1778FB",
-            "borderColor": "#1778FB",
-            "height": "16px",
-            "left": "11.11111111111111%",
-            "marginTop": "-6px",
-            "right": "auto",
-            "transform": "translateX(-50%)",
-            "width": "16px",
+        onMouseUp={[Function]}
+        onTouchStart={[Function]}
+      >
+        <div
+          className="rc-slider-rail"
+          style={
+            Object {
+              "backgroundColor": "#DCDFE6",
+              "height": "4px",
+            }
           }
-        }
-        tabIndex={0}
-      />
-      <div
-        className="rc-slider-mark"
-      />
+        />
+        <div
+          className="rc-slider-track"
+          style={
+            Object {
+              "backgroundColor": "#1778FB",
+              "height": "4px",
+              "left": "0%",
+              "right": "auto",
+              "width": "11.11111111111111%",
+            }
+          }
+        />
+        <div
+          className="rc-slider-step"
+        />
+        <div
+          aria-disabled={false}
+          aria-valuemax={10}
+          aria-valuemin={1}
+          aria-valuenow={2}
+          className="rc-slider-handle"
+          onBlur={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="slider"
+          style={
+            Object {
+              "backgroundColor": "#1778FB",
+              "borderColor": "#1778FB",
+              "height": "16px",
+              "left": "11.11111111111111%",
+              "marginTop": "-6px",
+              "right": "auto",
+              "transform": "translateX(-50%)",
+              "width": "16px",
+            }
+          }
+          tabIndex={0}
+        />
+        <div
+          className="rc-slider-mark"
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -108,128 +116,132 @@ exports[`Storyshots Slider Range 1`] = `
   }
 >
   <div
-    className="Slider__StyledContent-sc-14leke7-3 exLQIY"
+    className="Slider__StyledSheet-sc-14leke7-3 cXwmOx"
   >
     <div
-      className="rc-slider"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onMouseDown={[Function]}
-      onMouseUp={[Function]}
-      onTouchStart={[Function]}
+      className="Slider__StyledContent-sc-14leke7-4 bFNnHi"
     >
       <div
-        className="rc-slider-rail"
-        style={
-          Object {
-            "backgroundColor": "#DCDFE6",
-            "height": "4px",
-          }
-        }
-      />
-      <div
-        className="rc-slider-track rc-slider-track-1"
-        style={
-          Object {
-            "backgroundColor": "#1778FB",
-            "height": "4px",
-            "left": "0%",
-            "right": "auto",
-            "width": "50%",
-          }
-        }
-      />
-      <div
-        className="rc-slider-step"
-      />
-      <div
-        aria-disabled={false}
-        aria-valuemax={200}
-        aria-valuemin={0}
-        aria-valuenow={0}
-        className="rc-slider-handle rc-slider-handle-1"
+        className="rc-slider"
         onBlur={[Function]}
+        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
-        role="slider"
-        style={
-          Object {
-            "backgroundColor": "#1778FB",
-            "borderColor": "#1778FB",
-            "height": "16px",
-            "left": "0%",
-            "marginTop": "-6px",
-            "right": "auto",
-            "transform": "translateX(-50%)",
-            "width": "16px",
-          }
-        }
-        tabIndex={0}
-      />
-      <div
-        aria-disabled={false}
-        aria-valuemax={200}
-        aria-valuemin={0}
-        aria-valuenow={100}
-        className="rc-slider-handle rc-slider-handle-2"
-        onBlur={[Function]}
-        onKeyDown={[Function]}
-        onMouseDown={[Function]}
-        role="slider"
-        style={
-          Object {
-            "backgroundColor": "#1778FB",
-            "borderColor": "#1778FB",
-            "height": "16px",
-            "left": "50%",
-            "marginTop": "-6px",
-            "right": "auto",
-            "transform": "translateX(-50%)",
-            "width": "16px",
-          }
-        }
-        tabIndex={0}
-      />
-      <div
-        className="rc-slider-mark"
-      />
-    </div>
-    <div
-      className="Slider__MinMaxContainer-sc-14leke7-0 imwmgK"
-    >
-      <label
-        className="Slider__InputContainer-sc-14leke7-1 bqScOy"
+        onMouseUp={[Function]}
+        onTouchStart={[Function]}
       >
-        <input
-          className="InputFormatter__MinMaxInput-ptc9ju-0 jffsVq"
-          onClick={[Function]}
-          readOnly={true}
-          type="text"
-          value="0"
+        <div
+          className="rc-slider-rail"
+          style={
+            Object {
+              "backgroundColor": "#DCDFE6",
+              "height": "4px",
+            }
+          }
         />
-        <span
-          className="Slider__PrefixSuffix-sc-14leke7-2 gwieVm"
-        >
-          €/m2
-        </span>
-      </label>
-      <label
-        className="Slider__InputContainer-sc-14leke7-1 bqScOy"
+        <div
+          className="rc-slider-track rc-slider-track-1"
+          style={
+            Object {
+              "backgroundColor": "#1778FB",
+              "height": "4px",
+              "left": "0%",
+              "right": "auto",
+              "width": "50%",
+            }
+          }
+        />
+        <div
+          className="rc-slider-step"
+        />
+        <div
+          aria-disabled={false}
+          aria-valuemax={200}
+          aria-valuemin={0}
+          aria-valuenow={0}
+          className="rc-slider-handle rc-slider-handle-1"
+          onBlur={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="slider"
+          style={
+            Object {
+              "backgroundColor": "#1778FB",
+              "borderColor": "#1778FB",
+              "height": "16px",
+              "left": "0%",
+              "marginTop": "-6px",
+              "right": "auto",
+              "transform": "translateX(-50%)",
+              "width": "16px",
+            }
+          }
+          tabIndex={0}
+        />
+        <div
+          aria-disabled={false}
+          aria-valuemax={200}
+          aria-valuemin={0}
+          aria-valuenow={100}
+          className="rc-slider-handle rc-slider-handle-2"
+          onBlur={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="slider"
+          style={
+            Object {
+              "backgroundColor": "#1778FB",
+              "borderColor": "#1778FB",
+              "height": "16px",
+              "left": "50%",
+              "marginTop": "-6px",
+              "right": "auto",
+              "transform": "translateX(-50%)",
+              "width": "16px",
+            }
+          }
+          tabIndex={0}
+        />
+        <div
+          className="rc-slider-mark"
+        />
+      </div>
+      <div
+        className="Slider__MinMaxContainer-sc-14leke7-0 imwmgK"
       >
-        <input
-          className="InputFormatter__MinMaxInput-ptc9ju-0 dfxshO"
-          onClick={[Function]}
-          readOnly={true}
-          type="text"
-          value="100"
-        />
-        <span
-          className="Slider__PrefixSuffix-sc-14leke7-2 gwieVm"
+        <label
+          className="Slider__InputContainer-sc-14leke7-1 bqScOy"
         >
-          €/m2
-        </span>
-      </label>
+          <input
+            className="InputFormatter__MinMaxInput-ptc9ju-0 jffsVq"
+            onClick={[Function]}
+            readOnly={true}
+            type="text"
+            value="0"
+          />
+          <span
+            className="Slider__PrefixSuffix-sc-14leke7-2 gwieVm"
+          >
+            €/m2
+          </span>
+        </label>
+        <label
+          className="Slider__InputContainer-sc-14leke7-1 bqScOy"
+        >
+          <input
+            className="InputFormatter__MinMaxInput-ptc9ju-0 dfxshO"
+            onClick={[Function]}
+            readOnly={true}
+            type="text"
+            value="100"
+          />
+          <span
+            className="Slider__PrefixSuffix-sc-14leke7-2 gwieVm"
+          >
+            €/m2
+          </span>
+        </label>
+      </div>
     </div>
   </div>
 </div>
@@ -244,68 +256,72 @@ exports[`Storyshots Slider Slim Version 1`] = `
   }
 >
   <div
-    className="Slider__StyledContent-sc-14leke7-3 exLQIY"
+    className="Slider__StyledSheet-sc-14leke7-3 cXwmOx"
   >
     <div
-      className="rc-slider"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onMouseDown={[Function]}
-      onMouseUp={[Function]}
-      onTouchStart={[Function]}
+      className="Slider__StyledContent-sc-14leke7-4 bFNnHi"
     >
       <div
-        className="rc-slider-rail"
-        style={
-          Object {
-            "backgroundColor": "#DCDFE6",
-            "height": "2px",
-          }
-        }
-      />
-      <div
-        className="rc-slider-track"
-        style={
-          Object {
-            "backgroundColor": "#1778FB",
-            "height": "2px",
-            "left": "0%",
-            "right": "auto",
-            "width": "11.11111111111111%",
-          }
-        }
-      />
-      <div
-        className="rc-slider-step"
-      />
-      <div
-        aria-disabled={false}
-        aria-valuemax={10}
-        aria-valuemin={1}
-        aria-valuenow={2}
-        className="rc-slider-handle"
+        className="rc-slider"
         onBlur={[Function]}
+        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
-        role="slider"
-        style={
-          Object {
-            "backgroundColor": "#1778FB",
-            "borderColor": "#1778FB",
-            "height": "16px",
-            "left": "11.11111111111111%",
-            "marginTop": "-7px",
-            "right": "auto",
-            "transform": "translateX(-50%)",
-            "width": "16px",
+        onMouseUp={[Function]}
+        onTouchStart={[Function]}
+      >
+        <div
+          className="rc-slider-rail"
+          style={
+            Object {
+              "backgroundColor": "#DCDFE6",
+              "height": "2px",
+            }
           }
-        }
-        tabIndex={0}
-      />
-      <div
-        className="rc-slider-mark"
-      />
+        />
+        <div
+          className="rc-slider-track"
+          style={
+            Object {
+              "backgroundColor": "#1778FB",
+              "height": "2px",
+              "left": "0%",
+              "right": "auto",
+              "width": "11.11111111111111%",
+            }
+          }
+        />
+        <div
+          className="rc-slider-step"
+        />
+        <div
+          aria-disabled={false}
+          aria-valuemax={10}
+          aria-valuemin={1}
+          aria-valuenow={2}
+          className="rc-slider-handle"
+          onBlur={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="slider"
+          style={
+            Object {
+              "backgroundColor": "#1778FB",
+              "borderColor": "#1778FB",
+              "height": "16px",
+              "left": "11.11111111111111%",
+              "marginTop": "-7px",
+              "right": "auto",
+              "transform": "translateX(-50%)",
+              "width": "16px",
+            }
+          }
+          tabIndex={0}
+        />
+        <div
+          className="rc-slider-mark"
+        />
+      </div>
     </div>
   </div>
 </div>

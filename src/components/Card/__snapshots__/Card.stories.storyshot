@@ -1,5 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Card Coloured Content 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <article
+    className="Card__StyledCard-sc-1saz4sv-0 dYtRjf"
+  >
+    <header
+      className="CardHeader__StyledCardHeader-dpp5o1-0 hrzGbb"
+    >
+      <div
+        className="CardHeader__StyledContainer-dpp5o1-1 hDziRf"
+      >
+        <div>
+          Left
+        </div>
+        <div>
+          <div>
+            Title
+          </div>
+          <div>
+            Subtitle
+          </div>
+        </div>
+        <div
+          className="CardHeader__StyledRightContent-dpp5o1-3 iyVebu"
+        >
+          Right
+        </div>
+      </div>
+      <div
+        className="CardHeader__StyledChildrenContainer-dpp5o1-2 esYIOD"
+      >
+        Extra content
+      </div>
+    </header>
+    <div
+      className="CardContent__StyledCardContent-dh88vi-0 kVhzKc"
+    >
+      Lorem Ipsum
+    </div>
+  </article>
+</div>
+`;
+
 exports[`Storyshots Card Loading 1`] = `
 <div
   style={
@@ -203,7 +252,7 @@ exports[`Storyshots Card Playground 1`] = `
       </div>
     </header>
     <div
-      className="CardContent__StyledCardContent-dh88vi-0 cQuoHH"
+      className="CardContent__StyledCardContent-dh88vi-0 jHVHWB"
     >
       Lorem Ipsum
     </div>
