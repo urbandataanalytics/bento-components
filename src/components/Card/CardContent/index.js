@@ -5,7 +5,9 @@ import defaultTheme from '../../../themes/defaultTheme';
 
 const StyledCardContent = styled.div`
   padding: ${({ theme }) => theme.spacings.small3} ${({ theme }) => theme.spacings.small4};
-  background-color: ${({ theme }) => theme.color.charcoal300};
+  background-color: ${({ contentBackgroundColor, theme }) =>
+    contentBackgroundColor ? contentBackgroundColor : theme.color.charcoal300};
+  color: ${({ contentFontColor }) => contentFontColor};
 `;
 
 StyledCardContent.defaultProps = {
@@ -13,18 +15,29 @@ StyledCardContent.defaultProps = {
 };
 
 const CardContent = React.forwardRef((props, ref) => {
-  const { children, className, ...other } = props;
+  const { children, className, contentBackgroundColor, contentFontColor, ...other } = props;
 
   return (
-    <StyledCardContent className={className} {...other}>
+    <StyledCardContent
+      className={className}
+      contentBackgroundColor={contentBackgroundColor}
+      contentFontColor={contentFontColor}
+      {...other}
+    >
       {children}
     </StyledCardContent>
   );
 });
 
+CardContent.defaultProps = {
+  contentBackgroundColor: defaultTheme.color.charcoal300
+};
+
 CardContent.propTypes = {
   children: PropTypes.node,
-  className: PropTypes.string
+  className: PropTypes.string,
+  contentBackgroundColor: PropTypes.string,
+  contentFontColor: PropTypes.string
 };
 CardContent.displayName = 'CardContent';
 

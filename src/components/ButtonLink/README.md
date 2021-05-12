@@ -27,6 +27,7 @@ Table below contains all types of the props available in ButtonLink component.
 | **size**    | [`enum`](#enum) | `"medium"`  | The size of the ButtonLink.                                   |
 | tabIndex    | `string`        |             | Specifies the tab order of an element.                        |
 | **variant** | [`enum`](#enum) | `"primary"` | The variant of ButtonLink.                                    |
+| contrast    | `boolean`       | `false`     | Activates contrast variant for darker backgrounds             |
 
 ### enum
 
