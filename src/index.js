@@ -131,3 +131,6 @@ export * from './components/TextareaField';
 
 export { default as ToggleGroup } from './components/ToggleGroup';
 export * from './components/ToggleGroup';
+
+export { default as VerticalSeparator } from './components/VerticalSeparator';
+export * from './components/VerticalSeparator';
