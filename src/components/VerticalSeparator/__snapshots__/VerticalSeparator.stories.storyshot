@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots VerticalSeparator Playground 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "space-between",
+      "padding": "2rem",
+      "width": "300px",
+    }
+  }
+>
+  <p>
+    A text
+  </p>
+  <i
+    className="VerticalSeparator__StyledSeparator-sc-1czorzf-0 iSMWqJ"
+  >
+    |
+  </i>
+  <p>
+    B text
+  </p>
+  <i
+    className="VerticalSeparator__StyledSeparator-sc-1czorzf-0 iSMWqJ"
+  >
+    |
+  </i>
+  <p>
+    C text
+  </p>
+</div>
+`;
