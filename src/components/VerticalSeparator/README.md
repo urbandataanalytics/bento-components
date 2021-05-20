@@ -20,6 +20,8 @@ Table below contains all types of the props available in the VerticalSeparator c
 | :---------------- | :------- | :------ | :------------------------------------------------------------- |
 | customColor       | `string` |         | Accepts a valid color definition                               |
 | separatorLocation | `enum`   |         | Sets location of separator by adding padding. Right by default |
+| height            | `string` |         | Allows to set a custom height. Any css valid measure.          |
+| width             | `string` |         | Allows to set a custom width. Any css valid measure.           |
 
 ### Enum
 
