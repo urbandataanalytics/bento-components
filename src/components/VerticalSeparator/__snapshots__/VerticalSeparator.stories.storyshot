@@ -4,6 +4,7 @@ exports[`Storyshots VerticalSeparator Playground 1`] = `
 <div
   style={
     Object {
+      "alignItems": "center",
       "display": "flex",
       "justifyContent": "space-between",
       "padding": "2rem",
@@ -15,18 +16,18 @@ exports[`Storyshots VerticalSeparator Playground 1`] = `
     A text
   </p>
   <i
-    className="VerticalSeparator__StyledSeparator-sc-1czorzf-0 iSMWqJ"
-  >
-    |
-  </i>
+    className="VerticalSeparator__StyledSeparator-sc-1czorzf-0 bKAnzi"
+    height="16px"
+    width="1px"
+  />
   <p>
     B text
   </p>
   <i
-    className="VerticalSeparator__StyledSeparator-sc-1czorzf-0 iSMWqJ"
-  >
-    |
-  </i>
+    className="VerticalSeparator__StyledSeparator-sc-1czorzf-0 bKAnzi"
+    height="16px"
+    width="1px"
+  />
   <p>
     C text
   </p>

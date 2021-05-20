@@ -5,6 +5,18 @@ export default {
   title: 'VerticalSeparator',
   component: VerticalSeparator,
   argTypes: {
+    width: {
+      description: 'Allows to set a custom width. Any css valid measure.',
+      table: {
+        category: 'format'
+      }
+    },
+    height: {
+      description: 'Allows to set a custom height. Any css valid measure.',
+      table: {
+        category: 'format'
+      }
+    },
     customColor: {
       description: 'Allows to set a custom color for the separator',
       control: 'color',
@@ -25,6 +37,7 @@ export const Playground = args => {
   const containerStyle = {
     display: 'flex',
     justifyContent: 'space-between',
+    alignItems: 'center',
     padding: '2rem',
     width: '300px'
   };
