@@ -52,7 +52,7 @@ export default {
       }
     },
     customLabelColor: {
-      description: 'Accepts a custom color in css format',
+      description: 'Accepts a custom color for the label when the input is checked in css format',
       control: 'color',
       table: {
         category: 'format'
