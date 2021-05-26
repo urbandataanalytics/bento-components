@@ -333,6 +333,23 @@ const components = {
   checkboxSizeMedium: spacings.small4,
   checkboxSizeSmall: spacings.small3,
 
+  /* RadioButton Theme props */
+  radioButtonBackground: color.white,
+  radioButtonBackgroundChecked: color.primary500,
+  radioButtonBackgroundDisabled: color.charcoal400,
+  radioButtonBorderColor: color.charcoal400,
+  radioButtonBorderRadius: shapes.borderRadiusFull,
+  radioButtonBorderWidth: shapes.borderWidthMedium,
+  radioButtonIconColor: color.white,
+  radioButtonLabelColor: color.charcoal800,
+  radioButtonLabelDisabled: color.charcoal400,
+  radioButtonLabelFontSize: '14px',
+  radioButtonLabelMargin: spacings.small3,
+  radioButtonSizeMedium: spacings.small4,
+  radioButtonGlyphSizeMedium: spacings.small3,
+  radioButtonSizeSmall: spacings.small3,
+  radioButtonGlyphSizeSmall: spacings.small2,
+
   /*FormGroup Theme props*/
   formGroupMarginBottom: spacings.small3,
 
