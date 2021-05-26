@@ -117,7 +117,7 @@ const Checkbox = React.forwardRef((props, ref) => {
       onChange(event, !checked);
     }
   };
-  console.log(checked);
+
   return (
     <Label disabled={disabled} checked={checked}>
       <Input
