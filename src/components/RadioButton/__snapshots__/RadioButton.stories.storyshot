@@ -9,12 +9,12 @@ exports[`Storyshots RadioButton Disabled 1`] = `
   }
 >
   <label
-    checked={true}
-    className="RadioButton__Label-sc-1penxr0-4 krslsq"
+    checked={false}
+    className="RadioButton__StyledLabel-sc-1penxr0-4 cfdEXV"
     disabled={true}
   >
     <input
-      checked={true}
+      checked={false}
       className="RadioButton__Input-sc-1penxr0-3 gGuiHC"
       disabled={true}
       name="radio"
@@ -22,7 +22,7 @@ exports[`Storyshots RadioButton Disabled 1`] = `
       type="radio"
     />
     <div
-      checked={true}
+      checked={false}
       className="RadioButton__IconContainer-sc-1penxr0-1 ebvoRQ"
       disabled={true}
       size="medium"
@@ -40,12 +40,12 @@ exports[`Storyshots RadioButton Disabled 1`] = `
     </div>
   </label>
   <label
-    checked={true}
-    className="RadioButton__Label-sc-1penxr0-4 krslsq"
+    checked={false}
+    className="RadioButton__StyledLabel-sc-1penxr0-4 cfdEXV"
     disabled={true}
   >
     <input
-      checked={true}
+      checked={false}
       className="RadioButton__Input-sc-1penxr0-3 gGuiHC"
       disabled={true}
       name="radio"
@@ -53,7 +53,7 @@ exports[`Storyshots RadioButton Disabled 1`] = `
       type="radio"
     />
     <div
-      checked={true}
+      checked={false}
       className="RadioButton__IconContainer-sc-1penxr0-1 ebvoRQ"
       disabled={true}
       size="medium"
@@ -82,20 +82,21 @@ exports[`Storyshots RadioButton Playground 1`] = `
   }
 >
   <label
-    checked={true}
-    className="RadioButton__Label-sc-1penxr0-4 eiTitI"
+    checked={false}
+    className="RadioButton__StyledLabel-sc-1penxr0-4 huBxdU"
     disabled={false}
   >
     <input
-      checked={true}
+      checked={false}
       className="RadioButton__Input-sc-1penxr0-3 gGuiHC"
       disabled={false}
       name="radio"
       size="medium"
       type="radio"
+      value="option1"
     />
     <div
-      checked={true}
+      checked={false}
       className="RadioButton__IconContainer-sc-1penxr0-1 ebvoRQ"
       disabled={false}
       size="medium"
@@ -110,68 +111,6 @@ exports[`Storyshots RadioButton Playground 1`] = `
       className="RadioButton__LabelText-sc-1penxr0-2 ePnBbT"
     >
       option1
-    </div>
-  </label>
-  <label
-    checked={true}
-    className="RadioButton__Label-sc-1penxr0-4 eiTitI"
-    disabled={false}
-  >
-    <input
-      checked={true}
-      className="RadioButton__Input-sc-1penxr0-3 gGuiHC"
-      disabled={false}
-      name="radio"
-      size="medium"
-      type="radio"
-    />
-    <div
-      checked={true}
-      className="RadioButton__IconContainer-sc-1penxr0-1 ebvoRQ"
-      disabled={false}
-      size="medium"
-    >
-      <span
-        className="RadioButton__Glyph-sc-1penxr0-0 hCdTaz"
-        disabled={false}
-        size="medium"
-      />
-    </div>
-    <div
-      className="RadioButton__LabelText-sc-1penxr0-2 ePnBbT"
-    >
-      option2
-    </div>
-  </label>
-  <label
-    checked={true}
-    className="RadioButton__Label-sc-1penxr0-4 eiTitI"
-    disabled={false}
-  >
-    <input
-      checked={true}
-      className="RadioButton__Input-sc-1penxr0-3 gGuiHC"
-      disabled={false}
-      name="radio"
-      size="medium"
-      type="radio"
-    />
-    <div
-      checked={true}
-      className="RadioButton__IconContainer-sc-1penxr0-1 ebvoRQ"
-      disabled={false}
-      size="medium"
-    >
-      <span
-        className="RadioButton__Glyph-sc-1penxr0-0 hCdTaz"
-        disabled={false}
-        size="medium"
-      />
-    </div>
-    <div
-      className="RadioButton__LabelText-sc-1penxr0-2 ePnBbT"
-    >
-      option2
     </div>
   </label>
 </div>

@@ -107,7 +107,7 @@ Input.defaultProps = {
   theme: defaultTheme
 };
 
-export const Label = styled.label`
+const StyledLabel = styled.label`
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -117,7 +117,7 @@ export const Label = styled.label`
   color: ${({ theme, color }) => (color ? color : theme.components.radioButtonLabelColor)};
 `;
 
-Label.defaultProps = {
+StyledLabel.defaultProps = {
   theme: defaultTheme
 };
 
@@ -136,7 +136,7 @@ const RadioButton = React.forwardRef((props, ref) => {
   } = props;
 
   return (
-    <Label disabled={disabled} checked={checked}>
+    <StyledLabel disabled={disabled} checked={checked}>
       <Input
         size={size}
         type="radio"
@@ -153,7 +153,7 @@ const RadioButton = React.forwardRef((props, ref) => {
         <Glyph disabled={disabled} size={size} />
       </IconContainer>
       {label && <LabelText color={customLabelColor}>{label}</LabelText>}
-    </Label>
+    </StyledLabel>
   );
 });
 

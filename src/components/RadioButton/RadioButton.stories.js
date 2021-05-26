@@ -1,5 +1,6 @@
 import React from 'react';
 import RadioButton from './index';
+import { useState } from 'react';
 
 export default {
   title: 'RadioButton',
@@ -52,21 +53,19 @@ export default {
     }
   },
   args: {
-    checked: false,
     disabled: false,
-    size: 'medium'
+    size: 'medium',
+    name: 'radio'
   }
 };
 const containerStyle = {
   padding: '2rem'
 };
 
-export const Playground = ({ label, checked, ...args }) => {
+export const Playground = ({ value, label, ...args }) => {
   return (
     <div style={containerStyle}>
-      <RadioButton {...args} checked={true} label="option1" name="radio" />
-      <RadioButton {...args} checked={true} label="option2" name="radio" />
-      <RadioButton {...args} checked={true} label="option2" name="radio" />
+      <RadioButton {...args} value="option1" label="option1" />
     </div>
   );
 };
@@ -74,8 +73,8 @@ export const Playground = ({ label, checked, ...args }) => {
 export const Disabled = ({ label, checked, ...args }) => {
   return (
     <div style={containerStyle}>
-      <RadioButton {...args} checked={true} label="option1" name="radio" />
-      <RadioButton {...args} checked={true} label="option2" name="radio" />
+      <RadioButton {...args} label="option1" name="radio" />
+      <RadioButton {...args} label="option2" name="radio" />
     </div>
   );
 };
