@@ -1,6 +1,5 @@
 import React from 'react';
 import RadioButton from './index';
-import { useState } from 'react';
 
 export default {
   title: 'RadioButton',
