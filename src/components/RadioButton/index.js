@@ -69,7 +69,8 @@ const LabelText = styled.div`
   font-family: ${props => props.theme.global.fontFamily};
   font-weight: ${props => props.theme.global.fontWeightRegular};
   font-size: ${props => props.theme.components.radioButtonLabelFontSize};
-  color: ${({ theme, color }) => (color ? color : theme.components.radioButtonLabelColor)};
+  color: ${({ theme, color, checked }) =>
+    color && checked ? color : theme.components.radioButtonLabelColor};
 `;
 
 LabelText.defaultProps = {
@@ -152,7 +153,11 @@ const RadioButton = React.forwardRef((props, ref) => {
       <IconContainer disabled={disabled} checked={checked} size={size}>
         <Glyph disabled={disabled} size={size} />
       </IconContainer>
-      {label && <LabelText color={customLabelColor}>{label}</LabelText>}
+      {label && (
+        <LabelText checked={checked} color={customLabelColor}>
+          {label}
+        </LabelText>
+      )}
     </StyledLabel>
   );
 });

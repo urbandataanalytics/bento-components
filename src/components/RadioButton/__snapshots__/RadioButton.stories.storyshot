@@ -34,6 +34,7 @@ exports[`Storyshots RadioButton Disabled 1`] = `
       />
     </div>
     <div
+      checked={false}
       className="RadioButton__LabelText-sc-1penxr0-2 ePnBbT"
     >
       option1
@@ -65,6 +66,7 @@ exports[`Storyshots RadioButton Disabled 1`] = `
       />
     </div>
     <div
+      checked={false}
       className="RadioButton__LabelText-sc-1penxr0-2 ePnBbT"
     >
       option2
@@ -81,6 +83,15 @@ exports[`Storyshots RadioButton Playground 1`] = `
     }
   }
 >
+  <p
+    style={
+      Object {
+        "margin": "0 0 15px 0",
+      }
+    }
+  >
+    Use controls to check/uncheck and change format
+  </p>
   <label
     checked={false}
     className="RadioButton__StyledLabel-sc-1penxr0-4 huBxdU"
@@ -108,9 +119,10 @@ exports[`Storyshots RadioButton Playground 1`] = `
       />
     </div>
     <div
+      checked={false}
       className="RadioButton__LabelText-sc-1penxr0-2 ePnBbT"
     >
-      option1
+      Option 1
     </div>
   </label>
 </div>
