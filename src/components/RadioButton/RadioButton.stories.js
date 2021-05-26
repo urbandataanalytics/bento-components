@@ -50,27 +50,43 @@ export default {
       table: {
         category: 'events'
       }
+    },
+    customLabelColor: {
+      description: 'Accepts a custom color in css format',
+      control: 'color',
+      table: {
+        category: 'format'
+      }
+    },
+    value: {
+      description: ' defines a value to be passed in the event for that option',
+      control: 'none',
+      table: {
+        category: 'content'
+      }
     }
   },
   args: {
     disabled: false,
     size: 'medium',
-    name: 'radio'
+    name: 'radio',
+    label: 'Option 1'
   }
 };
 const containerStyle = {
   padding: '2rem'
 };
 
-export const Playground = ({ value, label, ...args }) => {
+export const Playground = ({ value, ...args }) => {
   return (
     <div style={containerStyle}>
-      <RadioButton {...args} value="option1" label="option1" />
+      <p style={{ margin: '0 0 15px 0' }}>Use controls to check/uncheck and change format</p>
+      <RadioButton {...args} value="option1" />
     </div>
   );
 };
 
-export const Disabled = ({ label, checked, ...args }) => {
+export const Disabled = ({ label, ...args }) => {
   return (
     <div style={containerStyle}>
       <RadioButton {...args} label="option1" name="radio" />
