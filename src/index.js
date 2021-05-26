@@ -134,3 +134,6 @@ export * from './components/ToggleGroup';
 
 export { default as VerticalSeparator } from './components/VerticalSeparator';
 export * from './components/VerticalSeparator';
+
+export { default as RadioButton } from './components/RadioButton';
+export * from './components/RadioButton';
