@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots RadioButton Disabled 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <label
+    checked={false}
+    className="RadioButton__StyledLabel-sc-1penxr0-4 cfdEXV"
+    disabled={true}
+  >
+    <input
+      checked={false}
+      className="RadioButton__Input-sc-1penxr0-3 gGuiHC"
+      disabled={true}
+      name="radio"
+      size="medium"
+      type="radio"
+    />
+    <div
+      checked={false}
+      className="RadioButton__IconContainer-sc-1penxr0-1 ebvoRQ"
+      disabled={true}
+      size="medium"
+    >
+      <span
+        className="RadioButton__Glyph-sc-1penxr0-0 bSaLCv"
+        disabled={true}
+        size="medium"
+      />
+    </div>
+    <div
+      checked={false}
+      className="RadioButton__LabelText-sc-1penxr0-2 ePnBbT"
+    >
+      option1
+    </div>
+  </label>
+  <label
+    checked={false}
+    className="RadioButton__StyledLabel-sc-1penxr0-4 cfdEXV"
+    disabled={true}
+  >
+    <input
+      checked={false}
+      className="RadioButton__Input-sc-1penxr0-3 gGuiHC"
+      disabled={true}
+      name="radio"
+      size="medium"
+      type="radio"
+    />
+    <div
+      checked={false}
+      className="RadioButton__IconContainer-sc-1penxr0-1 ebvoRQ"
+      disabled={true}
+      size="medium"
+    >
+      <span
+        className="RadioButton__Glyph-sc-1penxr0-0 bSaLCv"
+        disabled={true}
+        size="medium"
+      />
+    </div>
+    <div
+      checked={false}
+      className="RadioButton__LabelText-sc-1penxr0-2 ePnBbT"
+    >
+      option2
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Storyshots RadioButton Playground 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <p
+    style={
+      Object {
+        "margin": "0 0 15px 0",
+      }
+    }
+  >
+    Use controls to check/uncheck and change format
+  </p>
+  <label
+    checked={false}
+    className="RadioButton__StyledLabel-sc-1penxr0-4 huBxdU"
+    disabled={false}
+  >
+    <input
+      checked={false}
+      className="RadioButton__Input-sc-1penxr0-3 gGuiHC"
+      disabled={false}
+      name="radio"
+      size="medium"
+      type="radio"
+      value="option1"
+    />
+    <div
+      checked={false}
+      className="RadioButton__IconContainer-sc-1penxr0-1 ebvoRQ"
+      disabled={false}
+      size="medium"
+    >
+      <span
+        className="RadioButton__Glyph-sc-1penxr0-0 hCdTaz"
+        disabled={false}
+        size="medium"
+      />
+    </div>
+    <div
+      checked={false}
+      className="RadioButton__LabelText-sc-1penxr0-2 ePnBbT"
+    >
+      Option 1
+    </div>
+  </label>
+</div>
+`;
