@@ -13,7 +13,7 @@ export interface TableProps {
   loading?: boolean;
   rows: any[];
   striped?: boolean;
-  variant?: 'small' | 'medium';
+  variant?: 'small' | 'medium' | 'large';
 }
 
 declare const Table: React.FunctionComponent<TableProps>;
