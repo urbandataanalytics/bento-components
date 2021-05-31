@@ -304,6 +304,8 @@ const components = {
   buttonDangerSecondaryHoverBackgroundColor: color.redclay100,
   buttonDangerSecondaryHoverBorderColor: color.redclay100,
   buttonDangerSecondaryHoverColor: color.redclay500,
+
+  /* ButtonLink Theme props */
   buttonLinkPaddingSmall: '3px 4px',
   buttonLinkFontSizeSmall: '12px',
   buttonLinkPaddingMedium: '5px',
@@ -312,8 +314,10 @@ const components = {
   buttonLinkFontSizeLarge: '14px',
   buttonLinkPrimaryColor: color.primary500,
   buttonLinkSecondaryColor: color.charcoal600,
+  buttonLinkDangerColor: color.redclay500,
   buttonLinkPrimaryContrastColor: color.primary500,
   buttonLinkSecondaryContrastColor: color.charcoal300,
+  buttonLinkDangerContrastColor: color.redclay500,
   buttonLinkDisabledColor: color.charcoal400,
   buttonLinkHoverBackgroundColor: color.charcoal300,
   buttonLinkHoverSecondaryContrastColor: color.charcoal800,

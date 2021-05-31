@@ -7,7 +7,7 @@ export interface ButtonLinkProps {
   onClick?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
   size: 'small' | 'medium' | 'large';
   tabIndex?: string;
-  variant: 'primary' | 'secondary';
+  variant: 'primary' | 'secondary', 'danger';
 }
 
 declare const ButtonLink: React.FunctionComponent<ButtonLinkProps  & React.ButtonHTMLAttributes<HTMLButtonElement>>;

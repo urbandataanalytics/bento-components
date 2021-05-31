@@ -23,6 +23,13 @@ exports[`Storyshots ButtonLink Contrast 1`] = `
   >
     Secondary
   </button>
+  <button
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 bfiMKH"
+    disabled={false}
+    size="medium"
+  >
+    Danger
+  </button>
 </div>
 `;
 
@@ -245,6 +252,8 @@ exports[`Storyshots ButtonLink With Icon Left 1`] = `
               "buttonDangerSecondaryHoverColor": "#CD4C41",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDangerColor": "#CD4C41",
+              "buttonLinkDangerContrastColor": "#CD4C41",
               "buttonLinkDisabledColor": "#DCDFE6",
               "buttonLinkFontSizeLarge": "14px",
               "buttonLinkFontSizeMedium": "14px",
@@ -837,6 +846,8 @@ exports[`Storyshots ButtonLink With Icon Right 1`] = `
               "buttonDangerSecondaryHoverColor": "#CD4C41",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDangerColor": "#CD4C41",
+              "buttonLinkDangerContrastColor": "#CD4C41",
               "buttonLinkDisabledColor": "#DCDFE6",
               "buttonLinkFontSizeLarge": "14px",
               "buttonLinkFontSizeMedium": "14px",
