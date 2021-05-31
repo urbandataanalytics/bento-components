@@ -27,6 +27,9 @@ const componentVariants = (theme, contrast) => {
       },
       secondary: {
         color: theme.components.buttonLinkSecondaryContrastColor
+      },
+      danger: {
+        color: theme.components.buttonLinkDangerContrastColor
       }
     };
   }
@@ -36,6 +39,9 @@ const componentVariants = (theme, contrast) => {
     },
     secondary: {
       color: theme.components.buttonLinkSecondaryColor
+    },
+    danger: {
+      color: theme.components.buttonLinkDangerColor
     }
   };
 };
@@ -133,7 +139,7 @@ ButtonLink.propTypes = {
   onClick: PropTypes.func,
   size: PropTypes.oneOf(['small', 'medium', 'large']).isRequired,
   tabIndex: PropTypes.string,
-  variant: PropTypes.oneOf(['primary', 'secondary']).isRequired,
+  variant: PropTypes.oneOf(['primary', 'secondary', 'danger']).isRequired,
   contrast: PropTypes.bool
 };
 

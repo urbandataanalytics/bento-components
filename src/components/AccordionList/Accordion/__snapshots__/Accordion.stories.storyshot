@@ -205,6 +205,8 @@ exports[`Storyshots Accordion Playground 1`] = `
               "buttonDangerSecondaryHoverColor": "#CD4C41",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDangerColor": "#CD4C41",
+              "buttonLinkDangerContrastColor": "#CD4C41",
               "buttonLinkDisabledColor": "#DCDFE6",
               "buttonLinkFontSizeLarge": "14px",
               "buttonLinkFontSizeMedium": "14px",
