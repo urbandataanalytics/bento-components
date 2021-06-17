@@ -410,9 +410,9 @@ const components = {
   textareaFieldHelpFontSize: '12px',
   textareaFieldLabelColor: color.charcoal700,
   textareaFieldLabelFontSize: '12px',
-  textareaFieldLineHeight: '48px',
+  textareaFieldLineHeight: '21px',
   textareaFieldPlaceholderColor: color.charcoal400,
-  textareaFieldTextIndent: spacings.small4,
+  textareaFieldPadding: `12px ${spacings.small3}`,
 
   /*InlineInputField Theme props*/
 
