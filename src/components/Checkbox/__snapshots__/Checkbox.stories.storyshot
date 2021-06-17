@@ -470,9 +470,9 @@ exports[`Storyshots Checkbox Checked 1`] = `
               "textareaFieldHelpFontSize": "12px",
               "textareaFieldLabelColor": "#363C4B",
               "textareaFieldLabelFontSize": "12px",
-              "textareaFieldLineHeight": "48px",
+              "textareaFieldLineHeight": "21px",
+              "textareaFieldPadding": "12px 16px",
               "textareaFieldPlaceholderColor": "#DCDFE6",
-              "textareaFieldTextIndent": "24px",
             },
             "fonts": Array [
               Object {
@@ -1074,9 +1074,9 @@ exports[`Storyshots Checkbox Disabled 1`] = `
               "textareaFieldHelpFontSize": "12px",
               "textareaFieldLabelColor": "#363C4B",
               "textareaFieldLabelFontSize": "12px",
-              "textareaFieldLineHeight": "48px",
+              "textareaFieldLineHeight": "21px",
+              "textareaFieldPadding": "12px 16px",
               "textareaFieldPlaceholderColor": "#DCDFE6",
-              "textareaFieldTextIndent": "24px",
             },
             "fonts": Array [
               Object {
@@ -1678,9 +1678,9 @@ exports[`Storyshots Checkbox Playground 1`] = `
               "textareaFieldHelpFontSize": "12px",
               "textareaFieldLabelColor": "#363C4B",
               "textareaFieldLabelFontSize": "12px",
-              "textareaFieldLineHeight": "48px",
+              "textareaFieldLineHeight": "21px",
+              "textareaFieldPadding": "12px 16px",
               "textareaFieldPlaceholderColor": "#DCDFE6",
-              "textareaFieldTextIndent": "24px",
             },
             "fonts": Array [
               Object {
@@ -2282,9 +2282,9 @@ exports[`Storyshots Checkbox Small Size 1`] = `
               "textareaFieldHelpFontSize": "12px",
               "textareaFieldLabelColor": "#363C4B",
               "textareaFieldLabelFontSize": "12px",
-              "textareaFieldLineHeight": "48px",
+              "textareaFieldLineHeight": "21px",
+              "textareaFieldPadding": "12px 16px",
               "textareaFieldPlaceholderColor": "#DCDFE6",
-              "textareaFieldTextIndent": "24px",
             },
             "fonts": Array [
               Object {
