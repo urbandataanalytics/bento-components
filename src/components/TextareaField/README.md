@@ -30,3 +30,15 @@ Table below contains all types of the props available in the TextareaField compo
 | value       | `string`              | `""`    | Sets an initial value of the input field                                                                                                          |
 | counter     | `boolean`             | `true`  | Shows the count of characters left if maxlength is informed.                                                                                      |
 | maxlength   | `number`              |         | Number of max characters allowed in the field                                                                                                     |
+| resize      | `enum`                |         | Allows to change the resizing functionality of the text area                                                                                      |
+
+### enum
+
+| size         |
+| :----------- |
+| `vertical`   |
+| `none`       |
+| `vertical`   |
+| `initial`    |
+| `horizontal` |
+| `both`       |

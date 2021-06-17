@@ -473,9 +473,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -1069,9 +1069,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -1665,9 +1665,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -2261,9 +2261,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -2872,9 +2872,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -3469,9 +3469,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -4072,9 +4072,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -4668,9 +4668,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -5266,9 +5266,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -5864,9 +5864,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -6459,9 +6459,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -7055,9 +7055,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -7651,9 +7651,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -8248,9 +8248,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -8844,9 +8844,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -9440,9 +9440,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -10040,9 +10040,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -10640,9 +10640,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -11240,9 +11240,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -11835,9 +11835,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -12430,9 +12430,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -13026,9 +13026,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -13622,9 +13622,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -14219,9 +14219,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -14815,9 +14815,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -15411,9 +15411,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -16006,9 +16006,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -16601,9 +16601,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -17196,9 +17196,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -17792,9 +17792,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -18389,9 +18389,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -18984,9 +18984,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -19579,9 +19579,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -20183,9 +20183,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -20789,9 +20789,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -21392,9 +21392,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -21992,9 +21992,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -22589,9 +22589,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -23184,9 +23184,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -23779,9 +23779,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -24379,9 +24379,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -24974,9 +24974,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -25572,9 +25572,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -26169,9 +26169,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -26765,9 +26765,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -27368,9 +27368,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -27964,9 +27964,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -28560,9 +28560,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -29157,9 +29157,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -29753,9 +29753,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -30349,9 +30349,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -30945,9 +30945,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -31542,9 +31542,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -32137,9 +32137,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -32737,9 +32737,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -33334,9 +33334,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -33930,9 +33930,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -34527,9 +34527,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -35122,9 +35122,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -35718,9 +35718,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -36314,9 +36314,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -36909,9 +36909,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -37505,9 +37505,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -38101,9 +38101,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -38696,9 +38696,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -39296,9 +39296,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -39896,9 +39896,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -40492,9 +40492,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -41088,9 +41088,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -41688,9 +41688,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -42284,9 +42284,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -42886,9 +42886,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -43481,9 +43481,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -44078,9 +44078,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -44675,9 +44675,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -45271,9 +45271,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -45868,9 +45868,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -46465,9 +46465,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -47062,9 +47062,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -47661,9 +47661,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -48273,9 +48273,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -48872,9 +48872,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -49474,9 +49474,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -50070,9 +50070,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -50666,9 +50666,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -51271,9 +51271,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -51867,9 +51867,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -52464,9 +52464,9 @@ exports[`Storyshots Icon All Icons 1`] = `
             "textareaFieldHelpFontSize": "12px",
             "textareaFieldLabelColor": "#363C4B",
             "textareaFieldLabelFontSize": "12px",
-            "textareaFieldLineHeight": "48px",
+            "textareaFieldLineHeight": "21px",
+            "textareaFieldPadding": "12px 16px",
             "textareaFieldPlaceholderColor": "#DCDFE6",
-            "textareaFieldTextIndent": "24px",
           },
           "fonts": Array [
             Object {
@@ -53059,9 +53059,9 @@ exports[`Storyshots Icon Change View Box 1`] = `
           "textareaFieldHelpFontSize": "12px",
           "textareaFieldLabelColor": "#363C4B",
           "textareaFieldLabelFontSize": "12px",
-          "textareaFieldLineHeight": "48px",
+          "textareaFieldLineHeight": "21px",
+          "textareaFieldPadding": "12px 16px",
           "textareaFieldPlaceholderColor": "#DCDFE6",
-          "textareaFieldTextIndent": "24px",
         },
         "fonts": Array [
           Object {
@@ -53641,9 +53641,9 @@ exports[`Storyshots Icon Playground 1`] = `
           "textareaFieldHelpFontSize": "12px",
           "textareaFieldLabelColor": "#363C4B",
           "textareaFieldLabelFontSize": "12px",
-          "textareaFieldLineHeight": "48px",
+          "textareaFieldLineHeight": "21px",
+          "textareaFieldPadding": "12px 16px",
           "textareaFieldPlaceholderColor": "#DCDFE6",
-          "textareaFieldTextIndent": "24px",
         },
         "fonts": Array [
           Object {

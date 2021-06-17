@@ -468,9 +468,9 @@ exports[`Storyshots Dropdown Bottom Position 1`] = `
                   "textareaFieldHelpFontSize": "12px",
                   "textareaFieldLabelColor": "#363C4B",
                   "textareaFieldLabelFontSize": "12px",
-                  "textareaFieldLineHeight": "48px",
+                  "textareaFieldLineHeight": "21px",
+                  "textareaFieldPadding": "12px 16px",
                   "textareaFieldPlaceholderColor": "#DCDFE6",
-                  "textareaFieldTextIndent": "24px",
                 },
                 "fonts": Array [
                   Object {
@@ -1076,9 +1076,9 @@ exports[`Storyshots Dropdown Center Alignment 1`] = `
                   "textareaFieldHelpFontSize": "12px",
                   "textareaFieldLabelColor": "#363C4B",
                   "textareaFieldLabelFontSize": "12px",
-                  "textareaFieldLineHeight": "48px",
+                  "textareaFieldLineHeight": "21px",
+                  "textareaFieldPadding": "12px 16px",
                   "textareaFieldPlaceholderColor": "#DCDFE6",
-                  "textareaFieldTextIndent": "24px",
                 },
                 "fonts": Array [
                   Object {
@@ -1684,9 +1684,9 @@ exports[`Storyshots Dropdown Close On Click Inside 1`] = `
                   "textareaFieldHelpFontSize": "12px",
                   "textareaFieldLabelColor": "#363C4B",
                   "textareaFieldLabelFontSize": "12px",
-                  "textareaFieldLineHeight": "48px",
+                  "textareaFieldLineHeight": "21px",
+                  "textareaFieldPadding": "12px 16px",
                   "textareaFieldPlaceholderColor": "#DCDFE6",
-                  "textareaFieldTextIndent": "24px",
                 },
                 "fonts": Array [
                   Object {
@@ -2292,9 +2292,9 @@ exports[`Storyshots Dropdown Left Alignment 1`] = `
                   "textareaFieldHelpFontSize": "12px",
                   "textareaFieldLabelColor": "#363C4B",
                   "textareaFieldLabelFontSize": "12px",
-                  "textareaFieldLineHeight": "48px",
+                  "textareaFieldLineHeight": "21px",
+                  "textareaFieldPadding": "12px 16px",
                   "textareaFieldPlaceholderColor": "#DCDFE6",
-                  "textareaFieldTextIndent": "24px",
                 },
                 "fonts": Array [
                   Object {
@@ -2900,9 +2900,9 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "textareaFieldHelpFontSize": "12px",
                   "textareaFieldLabelColor": "#363C4B",
                   "textareaFieldLabelFontSize": "12px",
-                  "textareaFieldLineHeight": "48px",
+                  "textareaFieldLineHeight": "21px",
+                  "textareaFieldPadding": "12px 16px",
                   "textareaFieldPlaceholderColor": "#DCDFE6",
-                  "textareaFieldTextIndent": "24px",
                 },
                 "fonts": Array [
                   Object {
@@ -3508,9 +3508,9 @@ exports[`Storyshots Dropdown Right Alignment 1`] = `
                   "textareaFieldHelpFontSize": "12px",
                   "textareaFieldLabelColor": "#363C4B",
                   "textareaFieldLabelFontSize": "12px",
-                  "textareaFieldLineHeight": "48px",
+                  "textareaFieldLineHeight": "21px",
+                  "textareaFieldPadding": "12px 16px",
                   "textareaFieldPlaceholderColor": "#DCDFE6",
-                  "textareaFieldTextIndent": "24px",
                 },
                 "fonts": Array [
                   Object {
@@ -4116,9 +4116,9 @@ exports[`Storyshots Dropdown Top Position 1`] = `
                   "textareaFieldHelpFontSize": "12px",
                   "textareaFieldLabelColor": "#363C4B",
                   "textareaFieldLabelFontSize": "12px",
-                  "textareaFieldLineHeight": "48px",
+                  "textareaFieldLineHeight": "21px",
+                  "textareaFieldPadding": "12px 16px",
                   "textareaFieldPlaceholderColor": "#DCDFE6",
-                  "textareaFieldTextIndent": "24px",
                 },
                 "fonts": Array [
                   Object {
@@ -4724,9 +4724,9 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "textareaFieldHelpFontSize": "12px",
                   "textareaFieldLabelColor": "#363C4B",
                   "textareaFieldLabelFontSize": "12px",
-                  "textareaFieldLineHeight": "48px",
+                  "textareaFieldLineHeight": "21px",
+                  "textareaFieldPadding": "12px 16px",
                   "textareaFieldPlaceholderColor": "#DCDFE6",
-                  "textareaFieldTextIndent": "24px",
                 },
                 "fonts": Array [
                   Object {
