@@ -329,7 +329,7 @@ const getDefaultValue = ({ value, min, max, variant }) => {
       result = [min, max];
     }
   } else {
-    if (value) {
+    if (value >= min && value <= max) {
       result = value;
     } else {
       result = max;
