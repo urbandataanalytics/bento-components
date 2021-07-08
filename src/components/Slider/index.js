@@ -467,6 +467,7 @@ const Slider = React.forwardRef((props, ref) => {
             step={step}
             value={values}
             {...propStyles(theme, railSize)}
+            {...other}
           />
         ) : (
           <>
@@ -480,6 +481,7 @@ const Slider = React.forwardRef((props, ref) => {
               step={step}
               value={values}
               {...propStyles(theme, railSize)}
+              {...other}
             />
 
             <MinMaxContainer>
