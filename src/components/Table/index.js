@@ -33,7 +33,8 @@ const StyledContainer = styled.div`
 
 const sizeVariants = {
   small: 28,
-  medium: 57
+  medium: 57,
+  large: 85
 };
 
 const Table = ({
@@ -96,7 +97,7 @@ Table.propTypes = {
     })
   ),
   loading: PropTypes.bool,
-  variant: PropTypes.oneOf(['small', 'medium']),
+  variant: PropTypes.oneOf(['small', 'medium', 'large']),
   striped: PropTypes.bool
 };
 

@@ -83,6 +83,12 @@ export default {
       table: {
         category: 'content'
       }
+    },
+    resize: {
+      description: 'Allows to modify the resize prop of the textarea',
+      table: {
+        category: 'behaviour'
+      }
     }
   },
   args: {

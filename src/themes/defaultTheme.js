@@ -304,6 +304,8 @@ const components = {
   buttonDangerSecondaryHoverBackgroundColor: color.redclay100,
   buttonDangerSecondaryHoverBorderColor: color.redclay100,
   buttonDangerSecondaryHoverColor: color.redclay500,
+
+  /* ButtonLink Theme props */
   buttonLinkPaddingSmall: '3px 4px',
   buttonLinkFontSizeSmall: '12px',
   buttonLinkPaddingMedium: '5px',
@@ -312,8 +314,10 @@ const components = {
   buttonLinkFontSizeLarge: '14px',
   buttonLinkPrimaryColor: color.primary500,
   buttonLinkSecondaryColor: color.charcoal600,
+  buttonLinkDangerColor: color.redclay500,
   buttonLinkPrimaryContrastColor: color.primary500,
   buttonLinkSecondaryContrastColor: color.charcoal300,
+  buttonLinkDangerContrastColor: color.redclay500,
   buttonLinkDisabledColor: color.charcoal400,
   buttonLinkHoverBackgroundColor: color.charcoal300,
   buttonLinkHoverSecondaryContrastColor: color.charcoal800,
@@ -332,6 +336,23 @@ const components = {
   checkboxLabelMargin: spacings.small3,
   checkboxSizeMedium: spacings.small4,
   checkboxSizeSmall: spacings.small3,
+
+  /* RadioButton Theme props */
+  radioButtonBackground: color.white,
+  radioButtonBackgroundChecked: color.primary500,
+  radioButtonBackgroundDisabled: color.charcoal400,
+  radioButtonBorderColor: color.charcoal400,
+  radioButtonBorderRadius: shapes.borderRadiusFull,
+  radioButtonBorderWidth: shapes.borderWidthMedium,
+  radioButtonIconColor: color.white,
+  radioButtonLabelColor: color.charcoal800,
+  radioButtonLabelDisabled: color.charcoal400,
+  radioButtonLabelFontSize: '14px',
+  radioButtonLabelMargin: spacings.small3,
+  radioButtonSizeMedium: spacings.small4,
+  radioButtonGlyphSizeMedium: spacings.small3,
+  radioButtonSizeSmall: spacings.small3,
+  radioButtonGlyphSizeSmall: spacings.small2,
 
   /*FormGroup Theme props*/
   formGroupMarginBottom: spacings.small3,
@@ -389,9 +410,9 @@ const components = {
   textareaFieldHelpFontSize: '12px',
   textareaFieldLabelColor: color.charcoal700,
   textareaFieldLabelFontSize: '12px',
-  textareaFieldLineHeight: '48px',
+  textareaFieldLineHeight: '21px',
   textareaFieldPlaceholderColor: color.charcoal400,
-  textareaFieldTextIndent: spacings.small4,
+  textareaFieldPadding: `12px ${spacings.small3}`,
 
   /*InlineInputField Theme props*/
 

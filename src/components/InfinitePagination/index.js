@@ -9,9 +9,9 @@ const StyledPaginationContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  right: 41px;
-  bottom: 33px;
+  position: absolute;
+  right: ${({ right }) => (!isNaN(right) ? right : 41)}px;
+  bottom: ${({ bottom }) => (!isNaN(bottom) ? bottom : 33)}px;
   background: ${({ theme }) => hexToRgba(theme.color.charcoal800, 0.9)};
   padding: 6px 8px 6px 8px;
   border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
@@ -47,9 +47,22 @@ StyledPaginationProgress.defaultProps = {
   theme: defaultTheme
 };
 
-const InfinitePagination = ({ label, totalCount, currentCount }) => {
+const InfinitePagination = ({
+  label,
+  totalCount,
+  currentCount,
+  topOffset,
+  rightOffset,
+  bottomOffset,
+  leftOffset
+}) => {
   return (
-    <StyledPaginationContainer>
+    <StyledPaginationContainer
+      top={topOffset}
+      right={rightOffset}
+      bottom={bottomOffset}
+      left={leftOffset}
+    >
       <StyledPaginationLabel>{label}</StyledPaginationLabel>
       <StyledPaginationProgress>
         <span style={{ width: `${Math.round((currentCount / totalCount) * 100)}%` }}></span>

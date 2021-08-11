@@ -23,13 +23,27 @@ export default {
       table: {
         category: 'content'
       }
+    },
+    rightOffset: {
+      description: 'Right offset from the parent container',
+      table: {
+        category: 'content'
+      }
+    },
+    bottomOffset: {
+      description: 'Bottom offset from the parent container',
+      table: {
+        category: 'content'
+      }
     }
   },
 
   args: {
     currentCount: 25,
     label: 'Page',
-    totalCount: 100
+    totalCount: 100,
+    rightOffset: 40,
+    bottomOffset: 10
   }
 };
 

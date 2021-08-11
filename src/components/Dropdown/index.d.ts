@@ -7,6 +7,8 @@ export interface DropdownProps {
   label: React.ReactNode;
   onChange?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
   position?: 'top' | 'bottom';
+  portalClassName?: string;
+  portalStyle?: React.CSSProperties;
 }
 
 declare const Dropdown: React.FunctionComponent<DropdownProps>;

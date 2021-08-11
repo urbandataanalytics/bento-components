@@ -30,14 +30,14 @@ HelpText.defaultProps = {
 };
 
 export const Textarea = styled.textarea`
+  resize: ${({ resize }) => resize};
   min-height: 100px;
-  resize: vertical;
   appearance: none;
   outline: 0;
+  padding: ${({ theme }) => theme.components.textareaFieldPadding};
   font-family: ${props => props.theme.global.fontFamily};
   font-size: ${({ theme }) => theme.components.textareaFieldFontSize};
   line-height: ${({ theme }) => theme.components.textareaFieldLineHeight};
-  text-indent: ${({ theme }) => theme.components.textareaFieldTextIndent};
   border-radius: ${({ theme }) => theme.components.textareaFieldBorderRadius};
   border-width: 1px;
   border-style: solid;
@@ -132,6 +132,7 @@ const TextareaField = React.forwardRef((props, ref) => {
     value,
     maxlength,
     counter,
+    resize,
     ...other
   } = props;
 
@@ -140,6 +141,7 @@ const TextareaField = React.forwardRef((props, ref) => {
       <Label>
         <Textarea
           className={error ? `error` : null}
+          resize={resize}
           disabled={disabled}
           value={value.length < maxlength ? value : value.slice(0, maxlength)}
           name={name}
@@ -175,13 +177,15 @@ TextareaField.propTypes = {
   tabIndex: PropTypes.string,
   value: PropTypes.string,
   maxlength: PropTypes.number,
-  counter: PropTypes.bool
+  counter: PropTypes.bool,
+  resize: PropTypes.oneOf(['vertical', 'none', 'vertical', 'initial', 'horizontal', 'both'])
 };
 
 TextareaField.defaultProps = {
   value: '',
   disabled: false,
-  counter: true
+  counter: true,
+  resize: 'vertical'
 };
 
 TextareaField.displayName = 'TextareaField';

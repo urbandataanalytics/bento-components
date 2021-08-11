@@ -329,7 +329,7 @@ const getDefaultValue = ({ value, min, max, variant }) => {
       result = [min, max];
     }
   } else {
-    if (value) {
+    if (value >= min && value <= max) {
       result = value;
     } else {
       result = max;
@@ -467,6 +467,7 @@ const Slider = React.forwardRef((props, ref) => {
             step={step}
             value={values}
             {...propStyles(theme, railSize)}
+            {...other}
           />
         ) : (
           <>
@@ -480,6 +481,7 @@ const Slider = React.forwardRef((props, ref) => {
               step={step}
               value={values}
               {...propStyles(theme, railSize)}
+              {...other}
             />
 
             <MinMaxContainer>

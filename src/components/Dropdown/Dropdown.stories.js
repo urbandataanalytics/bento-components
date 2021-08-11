@@ -68,6 +68,18 @@ export default {
       table: {
         category: 'format'
       }
+    },
+    portalStyle: {
+      description: 'Allows to add custom css to Portal',
+      table: {
+        category: 'format'
+      }
+    },
+    portalClassName: {
+      description: 'Allows to add custom css class name to Portal',
+      table: {
+        category: 'format'
+      }
     }
   },
   args: {
@@ -77,7 +89,9 @@ export default {
     isOpen: false,
     position: 'bottom',
     label: <Button>Label example</Button>,
-    zIndex: 1000
+    zIndex: 1000,
+    portalStyle: { marginTop: '0px' },
+    portalClassName: 'custom-class'
   }
 };
 

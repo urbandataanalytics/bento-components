@@ -23,6 +23,13 @@ exports[`Storyshots ButtonLink Contrast 1`] = `
   >
     Secondary
   </button>
+  <button
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 bfiMKH"
+    disabled={false}
+    size="medium"
+  >
+    Danger
+  </button>
 </div>
 `;
 
@@ -245,6 +252,8 @@ exports[`Storyshots ButtonLink With Icon Left 1`] = `
               "buttonDangerSecondaryHoverColor": "#CD4C41",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDangerColor": "#CD4C41",
+              "buttonLinkDangerContrastColor": "#CD4C41",
               "buttonLinkDisabledColor": "#DCDFE6",
               "buttonLinkFontSizeLarge": "14px",
               "buttonLinkFontSizeMedium": "14px",
@@ -428,6 +437,21 @@ exports[`Storyshots ButtonLink With Icon Left 1`] = `
               "paginationProgressActiveBackgroundColor": "#212632",
               "paginationProgressBackgroundColor": "#DCDFE6",
               "paginationProgressMarginBottom": "16px",
+              "radioButtonBackground": "#FFFFFF",
+              "radioButtonBackgroundChecked": "#1778FB",
+              "radioButtonBackgroundDisabled": "#DCDFE6",
+              "radioButtonBorderColor": "#DCDFE6",
+              "radioButtonBorderRadius": "50%",
+              "radioButtonBorderWidth": "2px",
+              "radioButtonGlyphSizeMedium": "16px",
+              "radioButtonGlyphSizeSmall": "8px",
+              "radioButtonIconColor": "#FFFFFF",
+              "radioButtonLabelColor": "#212632",
+              "radioButtonLabelDisabled": "#DCDFE6",
+              "radioButtonLabelFontSize": "14px",
+              "radioButtonLabelMargin": "16px",
+              "radioButtonSizeMedium": "24px",
+              "radioButtonSizeSmall": "16px",
               "sliderFirstHandleColor": "#1778FB",
               "sliderFirstHandleDisabledColor": "#B6BBC6",
               "sliderFirstHandleDraggingColor": undefined,
@@ -492,9 +516,9 @@ exports[`Storyshots ButtonLink With Icon Left 1`] = `
               "textareaFieldHelpFontSize": "12px",
               "textareaFieldLabelColor": "#363C4B",
               "textareaFieldLabelFontSize": "12px",
-              "textareaFieldLineHeight": "48px",
+              "textareaFieldLineHeight": "21px",
+              "textareaFieldPadding": "12px 16px",
               "textareaFieldPlaceholderColor": "#DCDFE6",
-              "textareaFieldTextIndent": "24px",
             },
             "fonts": Array [
               Object {
@@ -822,6 +846,8 @@ exports[`Storyshots ButtonLink With Icon Right 1`] = `
               "buttonDangerSecondaryHoverColor": "#CD4C41",
               "buttonFontSizeLarge": "14px",
               "buttonFontSizeMedium": "12px",
+              "buttonLinkDangerColor": "#CD4C41",
+              "buttonLinkDangerContrastColor": "#CD4C41",
               "buttonLinkDisabledColor": "#DCDFE6",
               "buttonLinkFontSizeLarge": "14px",
               "buttonLinkFontSizeMedium": "14px",
@@ -1005,6 +1031,21 @@ exports[`Storyshots ButtonLink With Icon Right 1`] = `
               "paginationProgressActiveBackgroundColor": "#212632",
               "paginationProgressBackgroundColor": "#DCDFE6",
               "paginationProgressMarginBottom": "16px",
+              "radioButtonBackground": "#FFFFFF",
+              "radioButtonBackgroundChecked": "#1778FB",
+              "radioButtonBackgroundDisabled": "#DCDFE6",
+              "radioButtonBorderColor": "#DCDFE6",
+              "radioButtonBorderRadius": "50%",
+              "radioButtonBorderWidth": "2px",
+              "radioButtonGlyphSizeMedium": "16px",
+              "radioButtonGlyphSizeSmall": "8px",
+              "radioButtonIconColor": "#FFFFFF",
+              "radioButtonLabelColor": "#212632",
+              "radioButtonLabelDisabled": "#DCDFE6",
+              "radioButtonLabelFontSize": "14px",
+              "radioButtonLabelMargin": "16px",
+              "radioButtonSizeMedium": "24px",
+              "radioButtonSizeSmall": "16px",
               "sliderFirstHandleColor": "#1778FB",
               "sliderFirstHandleDisabledColor": "#B6BBC6",
               "sliderFirstHandleDraggingColor": undefined,
@@ -1069,9 +1110,9 @@ exports[`Storyshots ButtonLink With Icon Right 1`] = `
               "textareaFieldHelpFontSize": "12px",
               "textareaFieldLabelColor": "#363C4B",
               "textareaFieldLabelFontSize": "12px",
-              "textareaFieldLineHeight": "48px",
+              "textareaFieldLineHeight": "21px",
+              "textareaFieldPadding": "12px 16px",
               "textareaFieldPlaceholderColor": "#DCDFE6",
-              "textareaFieldTextIndent": "24px",
             },
             "fonts": Array [
               Object {

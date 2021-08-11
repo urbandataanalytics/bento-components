@@ -128,6 +128,9 @@ export const Contrast = () => {
       <ButtonLink variant="secondary" size="medium" contrast={true}>
         Secondary
       </ButtonLink>
+      <ButtonLink variant="danger" size="medium" contrast={true}>
+        Danger
+      </ButtonLink>
     </div>
   );
 };

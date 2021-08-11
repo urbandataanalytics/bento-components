@@ -36,3 +36,4 @@ Table below contains all types of the props available in ButtonLink component.
 | `"normal"`    | `"small"`  |
 | `"primary"`   | `"medium"` |
 | `"secondary"` | `"large"`  |
+| `"danger"`    |            |
