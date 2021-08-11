@@ -119,6 +119,7 @@ export function testReset() {
 
 const Tooltip = ({
   children,
+  className,
   enterDelay = 100,
   enterNextDelay = 0,
   leaveDelay = 0,
@@ -255,7 +256,7 @@ const Tooltip = ({
             style={{ ...tooltipPosition }}
             {...interactiveWrapperListeners}
           >
-            <div ref={content}>
+            <div className={className} ref={content}>
               {title && <p>{title}</p>}
               {value && <p>{value}</p>}
             </div>
