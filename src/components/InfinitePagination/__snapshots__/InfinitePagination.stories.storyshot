@@ -2,7 +2,11 @@
 
 exports[`Storyshots InfinitePagination Playground 1`] = `
 <div
+<<<<<<< HEAD
   className="InfinitePagination__StyledPaginationContainer-wjio58-0 jIzgHL"
+=======
+  className="InfinitePagination__StyledPaginationContainer-wjio58-0 cefHKg"
+>>>>>>> master
 >
   <div
     className="InfinitePagination__StyledPaginationLabel-wjio58-1 iGTrDa"

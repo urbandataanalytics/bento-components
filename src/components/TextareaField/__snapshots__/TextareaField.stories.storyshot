@@ -13,7 +13,11 @@ exports[`Storyshots TextareaField Disabled 1`] = `
       className="TextareaField__Label-sc-16uni0c-3 ekHYWB"
     >
       <textarea
+<<<<<<< HEAD
         className="TextareaField__Textarea-sc-16uni0c-2 euCqBS"
+=======
+        className="TextareaField__Textarea-sc-16uni0c-2 gYUsXx"
+>>>>>>> master
         disabled={true}
         placeholder="Placeholder text"
         value="Value text"
@@ -51,7 +55,11 @@ exports[`Storyshots TextareaField Error 1`] = `
       className="TextareaField__Label-sc-16uni0c-3 ekHYWB"
     >
       <textarea
+<<<<<<< HEAD
         className="TextareaField__Textarea-sc-16uni0c-2 euCqBS error"
+=======
+        className="TextareaField__Textarea-sc-16uni0c-2 gYUsXx error"
+>>>>>>> master
         disabled={false}
         placeholder="Placeholder text"
         value="Value text"
@@ -89,7 +97,11 @@ exports[`Storyshots TextareaField Normal 1`] = `
       className="TextareaField__Label-sc-16uni0c-3 ekHYWB"
     >
       <textarea
+<<<<<<< HEAD
         className="TextareaField__Textarea-sc-16uni0c-2 euCqBS"
+=======
+        className="TextareaField__Textarea-sc-16uni0c-2 gYUsXx"
+>>>>>>> master
         disabled={false}
         placeholder="Placeholder text"
         value="Value text"

@@ -32,9 +32,6 @@ jobs:
       - name: Test
         run: yarn test:ci
 
-      - name: Build playroom
-        run: yarn playroom:build
-
       - name: Deploy storybook to gh-pages
         run: yarn deploy:storybook --ci
         env:
