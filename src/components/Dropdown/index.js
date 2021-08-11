@@ -96,7 +96,8 @@ const Dropdown = ({
   onChange = () => {},
   position,
   zIndex,
-  className,
+  portalClassName,
+  portalStyle,
   ...other
 }) => {
   const [isDropdownOpen, setOpen] = useState(isOpen);
@@ -145,12 +146,11 @@ const Dropdown = ({
             zIndex={zIndex}
             isOpen={isDropdownOpen}
             ref={dropdown}
-            style={dropdownPosition}
+            style={{ ...dropdownPosition, ...portalStyle }}
             onClick={() => (closeOnClickInside ? setOpen(false) : null)}
+            className={portalClassName}
           >
-            <div className={className} ref={content}>
-              {children}
-            </div>
+            <div ref={content}>{children}</div>
           </ChildrenContainer>
         </Portal>
       )}
@@ -169,6 +169,8 @@ Dropdown.propTypes = {
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
   onChange: PropTypes.func,
   position: PropTypes.oneOf(['top', 'bottom']),
+  portalClassName: PropTypes.string,
+  portalStyle: PropTypes.object,
   zIndex: PropTypes.number
 };
 

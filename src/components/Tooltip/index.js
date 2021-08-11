@@ -119,7 +119,7 @@ export function testReset() {
 
 const Tooltip = ({
   children,
-  className,
+  portalClassName,
   enterDelay = 100,
   enterNextDelay = 0,
   leaveDelay = 0,
@@ -128,7 +128,8 @@ const Tooltip = ({
   onOpen,
   position,
   title,
-  value
+  value,
+  portalStyle
 }) => {
   const container = useRef(null);
   const tooltip = useRef(null);
@@ -253,10 +254,11 @@ const Tooltip = ({
             width={width}
             ref={tooltip}
             position={position}
-            style={{ ...tooltipPosition }}
+            style={{ ...tooltipPosition, ...portalStyle }}
             {...interactiveWrapperListeners}
+            className={portalClassName}
           >
-            <div className={className} ref={content}>
+            <div ref={content}>
               {title && <p>{title}</p>}
               {value && <p>{value}</p>}
             </div>
@@ -275,7 +277,9 @@ Tooltip.propTypes = {
   position: PropTypes.oneOf(['top', 'right', 'bottom', 'left']),
   title: PropTypes.string.isRequired,
   value: PropTypes.string,
-  width: PropTypes.string
+  width: PropTypes.string,
+  portalClassName: PropTypes.string,
+  portalStyle: PropTypes.object
 };
 
 Tooltip.defaultProps = {

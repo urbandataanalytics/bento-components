@@ -18,17 +18,19 @@ This component can be used with `<List>` and `<ListItem>` components.
 
 Table below contains all types of the props available in the Dropdown component.
 
-| Name                | Type            | Default    | Description                                                                     |
-| :------------------ | :-------------- | :--------- | :------------------------------------------------------------------------------ |
-| align               | [`enum`](#enum) | `'left'`   | The alignment side on which side the Dropdown children container should appear. |
-| children            | `React.node`    |            | Elements to be included within the Dropdown.                                    |
-| className           | `string`        |            | Specific class name to pass down to the Dropdown component.                     |
-| closeOnClickInside  | `boolean`       | `false`    | Close Dropdown when an option is selected.                                      |
-| closeOnClickOutside | `boolean`       | `true`     | Close Dropdown when a click outside is detected.                                |
-| isOpen              | `boolean`       | `false`    | Set Dropdown open status.                                                       |
-| **label**           | `React.Node`    |            | The label for the Dropdown.                                                     |
-| onChange            | `event => void` |            | Function for handling onChange event.                                           |
-| position            | [`enum`](#enum) | `'bottom'` | The position on which side the Dropdown children container should appear.       |
+| Name                | Type                  | Default    | Description                                                                     |
+| :------------------ | :-------------------- | :--------- | :------------------------------------------------------------------------------ |
+| align               | [`enum`](#enum)       | `'left'`   | The alignment side on which side the Dropdown children container should appear. |
+| children            | `React.node`          |            | Elements to be included within the Dropdown.                                    |
+| closeOnClickInside  | `boolean`             | `false`    | Close Dropdown when an option is selected.                                      |
+| closeOnClickOutside | `boolean`             | `true`     | Close Dropdown when a click outside is detected.                                |
+| isOpen              | `boolean`             | `false`    | Set Dropdown open status.                                                       |
+| **label**           | `React.Node`          |            | The label for the Dropdown.                                                     |
+| onChange            | `event => void`       |            | Function for handling onChange event.                                           |
+| position            | [`enum`](#enum)       | `'bottom'` | The position on which side the Dropdown children container should appear.       |
+| position            | [`enum`](#enum)       | `'bottom'` | The position on which side the Dropdown children container should appear.       |
+| portalStyle         | `React.CSSProperties` |            | Add CSS to Portal element                                                       |
+| portalClassName     | `string`              |            | Specific class name to pass down to the Portal element.                         |
 
 ### enum
 

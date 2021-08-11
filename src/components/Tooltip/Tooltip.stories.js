@@ -54,12 +54,26 @@ export default {
       table: {
         category: 'content'
       }
+    },
+    portalStyle: {
+      description: 'Allows to add custom css to Portal',
+      table: {
+        category: 'format'
+      }
+    },
+    portalClassName: {
+      description: 'Allows to add custom css class name to Portal',
+      table: {
+        category: 'format'
+      }
     }
   },
   args: {
     title: 'Title for tooltip',
     enterDelay: 100,
-    leaveDelay: 0
+    leaveDelay: 0,
+    portalStyle: { marginTop: '0px' },
+    portalClassName: 'custom-class'
   }
 };
 
