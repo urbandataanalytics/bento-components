@@ -7,6 +7,7 @@ export interface DropdownProps {
   label: React.ReactNode;
   onChange?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
   position?: 'top' | 'bottom';
+  className: string;
 }
 
 declare const Dropdown: React.FunctionComponent<DropdownProps>;

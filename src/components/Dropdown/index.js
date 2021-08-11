@@ -96,6 +96,7 @@ const Dropdown = ({
   onChange = () => {},
   position,
   zIndex,
+  className,
   ...other
 }) => {
   const [isDropdownOpen, setOpen] = useState(isOpen);
@@ -147,7 +148,9 @@ const Dropdown = ({
             style={dropdownPosition}
             onClick={() => (closeOnClickInside ? setOpen(false) : null)}
           >
-            <div ref={content}>{children}</div>
+            <div className={className} ref={content}>
+              {children}
+            </div>
           </ChildrenContainer>
         </Portal>
       )}
