@@ -1,7 +1,7 @@
 {
   "name": "@uda/bento-components",
   "description": "uDA component library",
-  "version": "2.11.3",
+  "version": "2.11.4",
   "license": "MIT",
   "keywords": [
     "react",
