@@ -13,7 +13,13 @@ const MinMaxInput = styled.input`
   text-align: center;
   width: ${({ valueLength }) => `${valueLength}ch`};
   box-sizing: initial;
-  padding: ${({ theme }) => theme.spacings.small1} ${({ theme }) => theme.spacings.small2};
+  padding-top: ${({ theme }) => theme.spacings.small1};
+  padding-right: ${({ theme }) => theme.spacings.small3};
+  padding-bottom: 6px;
+  padding-left: ${({ theme }) => theme.spacings.small3}!important;
+  border-radius: 0;
+  position: relative;
+  top: 2px;
 
   .prefix {
     order: -1;

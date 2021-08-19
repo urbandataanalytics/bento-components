@@ -16,6 +16,7 @@ const MinMaxContainer = styled.div`
 
 const InputContainer = styled.label`
   display: flex;
+  align-items: center;
 `;
 
 const PrefixSuffix = styled.span`
@@ -23,7 +24,9 @@ const PrefixSuffix = styled.span`
   background-color: transparent;
   border-bottom: 1px solid ${({ theme }) => theme.color.charcoal400};
   color: ${({ theme }) => theme.color.charcoal800};
-  padding: ${({ theme }) => theme.spacings.small1} 0;
+  padding: ${({ theme }) => theme.spacings.small1};
+  border-radius: 0;
+  line-height: 2;
 `;
 
 PrefixSuffix.defaultProps = {
