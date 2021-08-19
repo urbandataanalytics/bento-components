@@ -27,6 +27,7 @@ const PrefixSuffix = styled.span`
   padding: ${({ theme }) => theme.spacings.small1};
   border-radius: 0;
   line-height: 2;
+  overflow: hidden;
 `;
 
 PrefixSuffix.defaultProps = {

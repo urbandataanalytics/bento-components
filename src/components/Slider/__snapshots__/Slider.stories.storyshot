@@ -220,7 +220,7 @@ exports[`Storyshots Slider Range 1`] = `
             value="0"
           />
           <span
-            className="Slider__PrefixSuffix-sc-14leke7-2 bWZTnS"
+            className="Slider__PrefixSuffix-sc-14leke7-2 pzUtu"
           >
             €/m2
           </span>
@@ -236,7 +236,7 @@ exports[`Storyshots Slider Range 1`] = `
             value="100"
           />
           <span
-            className="Slider__PrefixSuffix-sc-14leke7-2 bWZTnS"
+            className="Slider__PrefixSuffix-sc-14leke7-2 pzUtu"
           >
             €/m2
           </span>
