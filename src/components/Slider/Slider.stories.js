@@ -105,6 +105,13 @@ export default {
       table: {
         category: 'format'
       }
+    },
+    size: {
+      description:
+        'Allows to choose between `medium` or `large` component size, use large for better mobile ux',
+      table: {
+        category: 'format'
+      }
     }
   },
   args: {
@@ -131,6 +138,7 @@ Playground.args = {
   step: 1,
   variant: 'slider',
   railSize: 'regular',
+  size: 'medium',
   value: 2
 };
 

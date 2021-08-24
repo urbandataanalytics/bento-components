@@ -207,20 +207,20 @@ exports[`Storyshots Slider Range 1`] = `
         />
       </div>
       <div
-        className="Slider__MinMaxContainer-sc-14leke7-0 imwmgK"
+        className="Slider__MinMaxContainer-sc-14leke7-0 epwLrn"
       >
         <label
           className="Slider__InputContainer-sc-14leke7-1 eAIxmu"
         >
           <input
-            className="InputFormatter__MinMaxInput-ptc9ju-0 gimtqY"
+            className="InputFormatter__MinMaxInput-ptc9ju-0 iDjFxn"
             onClick={[Function]}
             readOnly={true}
             type="text"
             value="0"
           />
           <span
-            className="Slider__PrefixSuffix-sc-14leke7-2 pzUtu"
+            className="Slider__PrefixSuffix-sc-14leke7-2 ezUVel"
           >
             €/m2
           </span>
@@ -229,14 +229,14 @@ exports[`Storyshots Slider Range 1`] = `
           className="Slider__InputContainer-sc-14leke7-1 eAIxmu"
         >
           <input
-            className="InputFormatter__MinMaxInput-ptc9ju-0 kGyIAo"
+            className="InputFormatter__MinMaxInput-ptc9ju-0 ihySDw"
             onClick={[Function]}
             readOnly={true}
             type="text"
             value="100"
           />
           <span
-            className="Slider__PrefixSuffix-sc-14leke7-2 pzUtu"
+            className="Slider__PrefixSuffix-sc-14leke7-2 ezUVel"
           >
             €/m2
           </span>

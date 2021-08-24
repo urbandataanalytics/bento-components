@@ -16,6 +16,7 @@ export interface SliderProps {
   value: number | Array<number>;
   variant: 'slider' | 'range';
   railSize?: 'regular' | 'slim';
+  size?: 'medium' | 'large';
 }
 
 declare const Slider: React.FunctionComponent<

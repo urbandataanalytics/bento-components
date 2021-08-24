@@ -32,11 +32,12 @@ Table below contains all types of the props available in the Slider component.
 | **step**     | `number`          | `1`      | Sets the increment size (step) of the slider selector                                                                                                                                  |
 | suffix       | `string`          |          | Sets a suffix both for minimum and maximum values. Overrides `maxSuffix` and `minSuffix`                                                                                               |
 | value        | `number | array`  |          | If initially defined by the user, it expects a number in 'slider' variant and a two-element array with minimum value and maximum value like `value = {[0,100]}` in the 'range' variant |
+| size         | [enum](#enum)     | `medium` | Allows to choose between `medium` or `large` component size, use `large` for better UX on mobile devices                                                                               |
 | variant      | [enum](#enum)     | `slider` | Allows to choose between `slider` or `range`                                                                                                                                           |
 
 ## enum
 
-| variant    |
-| :--------- |
-| `"slider"` |
-| `"range"`  |
+| variant    | size       |
+| :--------- | :--------- |
+| `"slider"` | `"medium"` |
+| `"range"`  | `"large"`  |

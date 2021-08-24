@@ -5,21 +5,17 @@ import defaultTheme from '../../themes/defaultTheme';
 const REGEX_PATTERN_NUMBER = 'd+(.d*)?';
 
 const MinMaxInput = styled.input`
-  ${({ theme }) => theme.texts.p2b};
+  ${({ theme, size }) => (size === 'medium' ? theme.texts.p2b : theme.texts.p1b)};
   border: none;
   border-bottom: 1px solid ${({ theme }) => theme.color.charcoal400};
   color: ${({ theme }) => theme.color.charcoal800};
   background-color: transparent;
   text-align: center;
-  width: ${({ valueLength }) => `${valueLength}ch`};
+  width: ${({ valueLength }) => `calc(${valueLength}ch + 15px)`};
   box-sizing: initial;
-  padding-top: ${({ theme }) => theme.spacings.small1};
-  padding-right: ${({ theme }) => theme.spacings.small3};
-  padding-bottom: 6px;
-  padding-left: ${({ theme }) => theme.spacings.small3}!important;
+  padding: 0 ${({ theme }) => theme.spacings.small1};
   border-radius: 0;
-  position: relative;
-  top: 2px;
+  height: 100%;
 
   .prefix {
     order: -1;
@@ -46,6 +42,7 @@ const InputFormatter = ({
   name,
   value,
   format,
+  size,
   handleBlur,
   handleKeyDown
 }) => {
@@ -77,6 +74,7 @@ const InputFormatter = ({
         onChange={onChange}
         pattern={REGEX_PATTERN_NUMBER}
         type="text"
+        size={size}
         value={Number(inputValue)}
         valueLength={getValueLength(value)}
       />
@@ -85,6 +83,7 @@ const InputFormatter = ({
     <>
       <MinMaxInput
         type="text"
+        size={size}
         value={format(value)}
         valueLength={getValueLength(format(value))}
         onClick={() => toggleEditing(true)}

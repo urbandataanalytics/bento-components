@@ -12,6 +12,7 @@ const MinMaxContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+  position: relative;
 `;
 
 const InputContainer = styled.label`
@@ -20,14 +21,15 @@ const InputContainer = styled.label`
 `;
 
 const PrefixSuffix = styled.span`
-  ${({ theme }) => theme.texts.p2b};
+  ${({ theme, size }) => (size === 'medium' ? theme.texts.p2b : theme.texts.p1b)};
   background-color: transparent;
   border-bottom: 1px solid ${({ theme }) => theme.color.charcoal400};
   color: ${({ theme }) => theme.color.charcoal800};
-  padding: ${({ theme }) => theme.spacings.small1};
+  padding: ${({ theme }) => theme.spacings.small1} 1px;
   border-radius: 0;
   line-height: 2;
   overflow: hidden;
+  height: 100%;
 `;
 
 PrefixSuffix.defaultProps = {
@@ -400,6 +402,7 @@ const Slider = React.forwardRef((props, ref) => {
     step,
     suffix,
     railSize,
+    size,
     value,
     variant,
     ...other
@@ -491,7 +494,9 @@ const Slider = React.forwardRef((props, ref) => {
             <MinMaxContainer>
               <InputContainer>
                 {(prefix || minPrefix) && (
-                  <PrefixSuffix className="prefix">{prefix || minPrefix}</PrefixSuffix>
+                  <PrefixSuffix className="prefix" size={size}>
+                    {prefix || minPrefix}
+                  </PrefixSuffix>
                 )}
                 <InputFormatter
                   isEditing={isEditing.min}
@@ -501,14 +506,19 @@ const Slider = React.forwardRef((props, ref) => {
                   format={format}
                   handleBlur={handleBlur}
                   handleKeyDown={handleKeyDown}
+                  size={size}
                 />
 
-                {(suffix || minSuffix) && <PrefixSuffix>{suffix || minSuffix}</PrefixSuffix>}
+                {(suffix || minSuffix) && (
+                  <PrefixSuffix size={size}>{suffix || minSuffix}</PrefixSuffix>
+                )}
               </InputContainer>
 
               <InputContainer>
                 {(prefix || maxPrefix) && (
-                  <PrefixSuffix className="prefix">{prefix || maxPrefix}</PrefixSuffix>
+                  <PrefixSuffix className="prefix" size={size}>
+                    {prefix || maxPrefix}
+                  </PrefixSuffix>
                 )}
                 <InputFormatter
                   isEditing={isEditing.max}
@@ -518,9 +528,12 @@ const Slider = React.forwardRef((props, ref) => {
                   format={format}
                   handleBlur={handleBlur}
                   handleKeyDown={handleKeyDown}
+                  size={size}
                 />
 
-                {(suffix || maxSuffix) && <PrefixSuffix>{suffix || maxSuffix}</PrefixSuffix>}
+                {(suffix || maxSuffix) && (
+                  <PrefixSuffix size={size}>{suffix || maxSuffix}</PrefixSuffix>
+                )}
               </InputContainer>
             </MinMaxContainer>
           </>
