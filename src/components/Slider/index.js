@@ -18,7 +18,7 @@ const MinMaxContainer = styled.div`
 const InputContainer = styled.label`
   display: flex;
   align-items: center;
-  height: 38px;
+  height: 37px;
 `;
 
 const PrefixSuffix = styled.span`
