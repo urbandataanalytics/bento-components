@@ -210,7 +210,7 @@ exports[`Storyshots Slider Range 1`] = `
         className="Slider__MinMaxContainer-sc-14leke7-0 epwLrn"
       >
         <label
-          className="Slider__InputContainer-sc-14leke7-1 eAIxmu"
+          className="Slider__InputContainer-sc-14leke7-1 dxIdE"
         >
           <input
             className="InputFormatter__MinMaxInput-ptc9ju-0 iDjFxn"
@@ -220,13 +220,13 @@ exports[`Storyshots Slider Range 1`] = `
             value="0"
           />
           <span
-            className="Slider__PrefixSuffix-sc-14leke7-2 ezUVel"
+            className="Slider__PrefixSuffix-sc-14leke7-2 eeOZtj"
           >
             €/m2
           </span>
         </label>
         <label
-          className="Slider__InputContainer-sc-14leke7-1 eAIxmu"
+          className="Slider__InputContainer-sc-14leke7-1 dxIdE"
         >
           <input
             className="InputFormatter__MinMaxInput-ptc9ju-0 ihySDw"
@@ -236,7 +236,7 @@ exports[`Storyshots Slider Range 1`] = `
             value="100"
           />
           <span
-            className="Slider__PrefixSuffix-sc-14leke7-2 ezUVel"
+            className="Slider__PrefixSuffix-sc-14leke7-2 eeOZtj"
           >
             €/m2
           </span>

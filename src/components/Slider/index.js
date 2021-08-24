@@ -18,6 +18,7 @@ const MinMaxContainer = styled.div`
 const InputContainer = styled.label`
   display: flex;
   align-items: center;
+  height: 38px;
 `;
 
 const PrefixSuffix = styled.span`
@@ -30,6 +31,7 @@ const PrefixSuffix = styled.span`
   line-height: 2;
   overflow: hidden;
   height: 100%;
+  height: 37px;
 `;
 
 PrefixSuffix.defaultProps = {
