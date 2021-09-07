@@ -1,4 +1,3 @@
-
 <p align="center">
   <a href="https://urbandataanalytics.github.io/bento-components/">
     <img alt="Bento Components Library" src="https://user-images.githubusercontent.com/4963216/82238273-4f3efb00-9937-11ea-9f5d-5fba78f91fc6.png" width="100%" />
@@ -38,36 +37,40 @@ npm install @uda/bento-components
 ```
 
 ## 🚀 Usage
+
 Load Roboto font from CDN:
+
 ```html
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" />
 ```
+
 or via css:
+
 ```html
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
 ```
+
 Now you can start using components:
+
 ```jsx
 import { Button } from '@uda/bento-components';
 
-const Sample = () => (
-  <Button>
-    Bento rules!
-  </Button>
-);
+const Sample = () => <Button>Bento rules!</Button>;
 ```
 
-## 📚  Storybook
+## 📚 Storybook
+
 UI components guide
 
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://urbandataanalytics.github.io/bento-components/)
 
 ## 🕹️ Playroom
-**[Bento Playroom](https://urbandataanalytics.github.io/bento-components/playroom)**
+
+**[Bento Playroom](https://urbandataanalytics.github.io/bento-components/)**
 
 Create quick mock-ups and interactive prototypes with real code.
 
-## 📋  Changelog
+## 📋 Changelog
 
 Please read the [changelog](https://github.com/urbandataanalytics/bento-components/releases).
 
