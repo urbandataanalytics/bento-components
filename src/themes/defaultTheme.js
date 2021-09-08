@@ -284,7 +284,7 @@ const components = {
   buttonSecondaryColor: color.charcoal800,
   buttonSecondaryDisabledBackgroundColor: color.white,
   buttonSecondaryDisabledBorderColor: color.charcoal300,
-  buttonSecondaryDisabledColor: color.white,
+  buttonSecondaryDisabledColor: color.charcoal400,
   buttonSecondaryHoverBackgroundColor: color.charcoal400,
   buttonSecondaryHoverBorderColor: color.charcoal400,
   buttonSecondaryHoverColor: color.charcoal800,
