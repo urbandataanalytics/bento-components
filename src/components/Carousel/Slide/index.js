@@ -21,8 +21,10 @@ const StyledCarouselSlide = styled.div`
   overflow: hidden;
   height: 100%;
   background-image: url(${props => props.imageSrc});
-  background-size: cover;
-  background-position: 100%;
+  background-size: contain;
+  background-position: center;
+  opacity: 1;
+  background-repeat: no-repeat;
   opacity: ${({ loaded }) => (loaded ? 1 : 0)};
   &:hover {
     cursor: pointer;
