@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
@@ -188,7 +188,11 @@ const InlineInputField = React.forwardRef((props, ref) => {
   } = props;
   const [prefixWidth, setPrefixWidth] = useState(null);
   const [suffixWidth, setSuffixWidth] = useState(null);
-  let inputRef = null;
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
 
   const getPrefixWidth = async node => {
     if (node) {
@@ -237,9 +241,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
               </InnerLabel>
             )}
             <Input
-              ref={node => {
-                inputRef = node;
-              }}
+              ref={inputRef}
               textAlign={textAlign}
               className={error ? `error` : null}
               type={type}
