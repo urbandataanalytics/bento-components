@@ -17,7 +17,7 @@ const StyledContainer = styled.div`
   overflow: auto;
   display: flex;
   flex-direction: column;
-  height: fit-content;
+  height: ${({ isMobile }) => (isMobile ? '100%' : 'fit-content')};
 `;
 
 StyledContainer.defaultProps = {
