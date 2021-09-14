@@ -21,7 +21,7 @@ exports[`Storyshots SwitchButtons Playground 1`] = `
     className="SwitchButtons__StyledSwitchButtonsContainer-cs8esz-0 cPFYQd"
   >
     <button
-      className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 jGSaVU"
       disabled={false}
       onClick={[Function]}
       size="medium"
@@ -30,7 +30,7 @@ exports[`Storyshots SwitchButtons Playground 1`] = `
       First
     </button>
     <button
-      className="ButtonLink__StyledButtonLink-cg5tmh-0 dKgKYk"
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 cfKgnj"
       disabled={false}
       onClick={[Function]}
       size="medium"
@@ -39,7 +39,7 @@ exports[`Storyshots SwitchButtons Playground 1`] = `
       Second
     </button>
     <button
-      className="ButtonLink__StyledButtonLink-cg5tmh-0 dKgKYk"
+      className="ButtonLink__StyledButtonLink-cg5tmh-0 cfKgnj"
       disabled={false}
       onClick={[Function]}
       size="medium"

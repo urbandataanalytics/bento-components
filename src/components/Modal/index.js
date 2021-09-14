@@ -2,21 +2,22 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
-import useTheme from '../../hooks/useTheme/index';
 import defaultTheme from '../../themes/defaultTheme';
 import { IconClose } from '../../icons';
 import hexToRgba from '../../utils/hexToRgba';
+import { useBreakpoint } from '../../hooks/useBreakpoint';
+import useTheme from '../../hooks/useTheme/index';
 
 const StyledContainer = styled.div`
   background: white;
   border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
   position: relative;
-  max-width: 75vw;
-  max-height: 90vh;
+  max-width: ${({ isMobile }) => (isMobile ? '90vw' : '75vw')};
+  max-height: ${({ isMobile }) => (isMobile ? '70vh' : '90vh')};
   overflow: auto;
   display: flex;
   flex-direction: column;
-  height: fit-content;
+  height: ${({ isMobile }) => (isMobile ? '100%' : 'fit-content')};
 `;
 
 StyledContainer.defaultProps = {
@@ -116,9 +117,12 @@ const Modal = ({
     };
   }, [isOpen]);
 
+  const breakpoint = useBreakpoint();
+  const isMobile = breakpoint === 's' || breakpoint === 'm';
+
   return isOpen ? (
     <StyledOverlay zIndex={zIndex} opacity={opacity}>
-      <StyledContainer {...other} ref={ref}>
+      <StyledContainer {...other} ref={ref} isMobile={isMobile}>
         {((header && header.props.children) || closable) && (
           <StyledHeader hasHeading={header && header.props.children} closable={closable}>
             {header && header.props.children && <StyleHeading>{header}</StyleHeading>}

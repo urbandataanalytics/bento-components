@@ -45,46 +45,4 @@ describe(`ButtonLink`, () => {
       expect(onClick).toHaveBeenCalled();
     });
   });
-
-  describe('styles', () => {
-    describe('secondary', () => {
-      const component = mount(<ButtonLink variant="secondary" />);
-      const container = component.find('ButtonLink__StyledButtonLink');
-      const theme = container.prop('theme');
-
-      it('should have secondary styles', () => {
-        expect(container).toHaveStyleRule('color', theme.components.buttonLinkSecondaryColor);
-        expect(container).toHaveStyleRule(
-          'background-color',
-          theme.components.buttonLinkHoverBackgroundColor,
-          {
-            modifier: ':hover'
-          }
-        );
-        expect(container).toHaveStyleRule('color', theme.components.buttonLinkDisabledColor, {
-          modifier: ':disabled'
-        });
-      });
-    });
-
-    describe('danger', () => {
-      const component = mount(<ButtonLink variant="danger" />);
-      const container = component.find('ButtonLink__StyledButtonLink');
-      const theme = container.prop('theme');
-
-      it('should have secondary styles', () => {
-        expect(container).toHaveStyleRule('color', theme.components.buttonLinkDangerColor);
-        expect(container).toHaveStyleRule(
-          'background-color',
-          theme.components.buttonLinkHoverBackgroundColor,
-          {
-            modifier: ':hover'
-          }
-        );
-        expect(container).toHaveStyleRule('color', theme.components.buttonLinkDisabledColor, {
-          modifier: ':disabled'
-        });
-      });
-    });
-  });
 });

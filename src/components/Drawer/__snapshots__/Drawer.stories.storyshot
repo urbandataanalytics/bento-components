@@ -6468,7 +6468,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 cPWbTI"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 jejFeT"
                   disabled={false}
                   size="small"
                   style={
@@ -7059,7 +7059,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 kBcnSx"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 ccRBtq"
                   disabled={false}
                   size="small"
                   style={
@@ -7650,7 +7650,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 kBcnSx"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 ccRBtq"
                   disabled={false}
                   size="small"
                   style={
@@ -15278,7 +15278,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 cPWbTI"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 jejFeT"
                   disabled={false}
                   size="small"
                   style={
@@ -15869,7 +15869,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 kBcnSx"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 ccRBtq"
                   disabled={false}
                   size="small"
                   style={
@@ -16460,7 +16460,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 kBcnSx"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 ccRBtq"
                   disabled={false}
                   size="small"
                   style={
@@ -23498,7 +23498,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               }
             >
               <button
-                className="ButtonLink__StyledButtonLink-cg5tmh-0 cPWbTI"
+                className="ButtonLink__StyledButtonLink-cg5tmh-0 jejFeT"
                 disabled={false}
                 size="small"
                 style={
@@ -24089,7 +24089,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               }
             >
               <button
-                className="ButtonLink__StyledButtonLink-cg5tmh-0 kBcnSx"
+                className="ButtonLink__StyledButtonLink-cg5tmh-0 ccRBtq"
                 disabled={false}
                 size="small"
                 style={
@@ -24680,7 +24680,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               }
             >
               <button
-                className="ButtonLink__StyledButtonLink-cg5tmh-0 kBcnSx"
+                className="ButtonLink__StyledButtonLink-cg5tmh-0 ccRBtq"
                 disabled={false}
                 size="small"
                 style={
