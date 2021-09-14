@@ -29,6 +29,7 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
+          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={true}
           placeholder="Placeholder text"
@@ -80,6 +81,7 @@ exports[`Storyshots InlineInputField Error 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
+          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI error"
           disabled={false}
           placeholder="Placeholder text"
@@ -132,6 +134,7 @@ exports[`Storyshots InlineInputField Playground 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
+          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
@@ -183,6 +186,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
+          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 fwrzpN"
           disabled={false}
           placeholder="Placeholder text"
@@ -797,6 +801,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
+          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
@@ -1411,6 +1416,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
+          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 fwrzpN"
           disabled={false}
           placeholder="Placeholder text"
@@ -1451,6 +1457,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
+          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
@@ -2076,6 +2083,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
+          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
@@ -2142,6 +2150,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             1.280€
           </p>
           <input
+            autoFocus={true}
             className="InlineInputField__Input-jwshkl-5 ykNjn"
             disabled={false}
             prefix="1.280€"
@@ -2195,6 +2204,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             1.280€
           </p>
           <input
+            autoFocus={true}
             className="InlineInputField__Input-jwshkl-5 ileiKQ"
             disabled={false}
             prefix="1.280€"
@@ -2246,6 +2256,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             1.280€
           </p>
           <input
+            autoFocus={true}
             className="InlineInputField__Input-jwshkl-5 ileiKQ"
             disabled={true}
             prefix="1.280€"
@@ -2289,6 +2300,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
         >
           <input
+            autoFocus={true}
             className="InlineInputField__Input-jwshkl-5 fwrzpN"
             disabled={false}
             type="text"
