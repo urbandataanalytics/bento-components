@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 import Loader from './Loader/';
+import { useBreakpoint } from '../../hooks/useBreakpoint';
 
 const componentSizes = theme => ({
   medium: {
@@ -90,33 +91,37 @@ const StyledButton = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: ${props => props.theme.global.transitionM};
   position: relative;
   overflow: hidden;
 
-  &:after{
-    content: "";
-    background: rgba(255,255,255,0.3);
-    display: block;
-    position: absolute;
-    border-radius: 50%;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    opacity: 0;
-    transition: all 1s ease-in-out;
-  }
+  ${({ isDesktop }) =>
+    isDesktop &&
+    `
+    transition: ${props => props.theme.global.transitionM};
+    &:after{
+      content: "";
+      background: rgba(255,255,255,0.3);
+      display: block;
+      position: absolute;
+      border-radius: 50%;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 500px;
+      height: 500px;
+      margin: auto;
+      opacity: 0;
+      transition: all 1s ease-in-out;
+    }
+    &:active:after {
+      height: 1px;
+      width: 1px;
+      opacity: 1;
+      transition: 0s;
+    }
+  `}
 
-  &:active:after {
-    height: 1px;
-    width: 1px;
-    opacity: 1;
-    transition: 0s;
-  }
 
 
   &:disabled {
@@ -126,6 +131,18 @@ const StyledButton = styled.button`
   ${props => (props.block ? 'width: 100%;' : '')}
   ${props => componentSizes(props.theme)[props.size]}
   ${props => componentVariants(props.theme)[props.variant]}
+
+  ${({ isMobile }) =>
+    isMobile &&
+    `
+    transition: none;
+    height: 48px;
+    &:hover{
+      backgroundColor: inherit !important;
+      color: white !important;
+      border-color: inherit !important;
+    }
+  `}
 `;
 
 const IconWrapper = styled.span`
@@ -164,8 +181,15 @@ const Button = React.forwardRef((props, ref) => {
     ...other
   } = props;
 
+  const breakpoint = useBreakpoint();
+
+  const isMobile = breakpoint === 's' || breakpoint === 'm';
+  const isDesktop = breakpoint === 'l' || breakpoint === 'xl' || breakpoint === 'xxl';
+
   return (
     <StyledButton
+      isDesktop={isDesktop}
+      isMobile={isMobile}
       block={block}
       className={className}
       disabled={loading || disabled}

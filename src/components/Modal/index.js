@@ -10,14 +10,18 @@ import useTheme from '../../hooks/useTheme/index';
 
 const StyledContainer = styled.div`
   background: white;
-  border-radius: ${({ theme }) => theme.shapes.borderRadiusMedium};
+  border-radius: ${({ theme, isMobile }) =>
+    isMobile
+      ? `${theme.shapes.borderRadiusMedium} ${theme.shapes.borderRadiusMedium} 0 0`
+      : theme.shapes.borderRadiusMedium};
   position: relative;
-  max-width: ${({ isMobile }) => (isMobile ? '90vw' : '75vw')};
-  max-height: ${({ isMobile }) => (isMobile ? '70vh' : '90vh')};
+  max-width: ${({ isMobile }) => (isMobile ? '100vw' : '75vw')};
+  max-height: 90vh;
   overflow: auto;
   display: flex;
   flex-direction: column;
   height: ${({ isMobile }) => (isMobile ? '100%' : 'fit-content')};
+  ${({ isMobile }) => isMobile && 'width: 100vh'};
 `;
 
 StyledContainer.defaultProps = {
@@ -59,8 +63,9 @@ StyledContent.defaultProps = {
 };
 
 const StyledFooter = styled.footer`
-  padding: ${({ theme }) => theme.spacings.small4} ${({ theme }) => theme.spacings.small3}
-    ${({ theme }) => theme.spacings.small4};
+  border-top: 1px solid ${({ theme }) => theme.color.charcoal300};
+  padding: ${({ theme }) =>
+    `${theme.spacings.small4} ${theme.spacings.small3} ${theme.spacings.small4}`};
 `;
 
 StyledFooter.defaultProps = {
@@ -77,7 +82,7 @@ const StyledOverlay = styled.div`
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: ${({ isMobile }) => (isMobile ? 'flex-end' : 'center')};
 `;
 
 StyledOverlay.defaultProps = {
@@ -121,7 +126,7 @@ const Modal = ({
   const isMobile = breakpoint === 's' || breakpoint === 'm';
 
   return isOpen ? (
-    <StyledOverlay zIndex={zIndex} opacity={opacity}>
+    <StyledOverlay zIndex={zIndex} opacity={opacity} isMobile={isMobile}>
       <StyledContainer {...other} ref={ref} isMobile={isMobile}>
         {((header && header.props.children) || closable) && (
           <StyledHeader hasHeading={header && header.props.children} closable={closable}>

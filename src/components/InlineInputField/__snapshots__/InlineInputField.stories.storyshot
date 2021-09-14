@@ -38,7 +38,6 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
         <p
           className="InlineInputField__InnerLabel-jwshkl-8 eydVOn suffix"
           disabled={true}
-          onClick={[Function]}
         />
       </div>
     </div>
@@ -90,7 +89,6 @@ exports[`Storyshots InlineInputField Error 1`] = `
         <p
           className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
           disabled={false}
-          onClick={[Function]}
         />
       </div>
     </div>
@@ -143,7 +141,6 @@ exports[`Storyshots InlineInputField Playground 1`] = `
         <p
           className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
           disabled={false}
-          onClick={[Function]}
         />
       </div>
     </div>
@@ -195,7 +192,6 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         <p
           className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
           disabled={false}
-          onClick={[Function]}
         />
       </div>
     </div>
@@ -810,7 +806,6 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         <p
           className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
           disabled={false}
-          onClick={[Function]}
         />
       </div>
     </div>
@@ -1425,7 +1420,6 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         <p
           className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
           disabled={false}
-          onClick={[Function]}
         />
       </div>
     </div>
@@ -1466,7 +1460,6 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         <p
           className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
           disabled={false}
-          onClick={[Function]}
         />
       </div>
     </div>
@@ -2092,7 +2085,6 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
         <p
           className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
           disabled={false}
-          onClick={[Function]}
         />
       </div>
     </div>
@@ -2159,7 +2151,6 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           <p
             className="InlineInputField__InnerLabel-jwshkl-8 bdKEiL suffix"
             disabled={false}
-            onClick={[Function]}
           >
             % yoy
           </p>
@@ -2213,7 +2204,6 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           <p
             className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
             disabled={false}
-            onClick={[Function]}
           />
         </div>
       </div>
@@ -2265,7 +2255,6 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           <p
             className="InlineInputField__InnerLabel-jwshkl-8 eydVOn suffix"
             disabled={true}
-            onClick={[Function]}
           />
         </div>
       </div>
@@ -2308,7 +2297,6 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           <p
             className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
             disabled={false}
-            onClick={[Function]}
           >
             %
           </p>

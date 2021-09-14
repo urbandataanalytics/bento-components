@@ -125,7 +125,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
       className="Tabs__StyledLeftContent-sc-1du08bp-1 kGSGJe"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         size="medium"
       >
@@ -762,7 +762,7 @@ exports[`Storyshots Tabs With Left And Right Content 1`] = `
       className="Tabs__StyledRightContent-sc-1du08bp-2 ewyuPG"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         size="medium"
       >

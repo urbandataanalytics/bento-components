@@ -24,6 +24,7 @@ const StyledThumbButton = styled.button`
   overflow: hidden;
   background-image: url(${({ src }) => src});
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100%;
   border-radius: ${({ rounded, theme }) => (rounded ? theme.spacings.small1 : 0)};
 `;

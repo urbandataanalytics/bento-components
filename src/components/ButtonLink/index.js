@@ -59,7 +59,9 @@ const StyledButtonLink = styled.button`
   align-items: center;
   justify-content: center;
   background-color: 'transparent';
-  transition: ${({ theme }) => theme.global.transitionS};
+  width: ${({ block }) => (block ? '100%' : 'auto')};
+  height: ${({ isMobile }) => (isMobile ? '48px' : 'auto')};
+  
   &:disabled {
     cursor: default;
     color: ${({ theme }) => theme.components.buttonLinkDisabledColor};
@@ -68,6 +70,7 @@ const StyledButtonLink = styled.button`
   ${({ isDesktop }) =>
     isDesktop &&
     `
+     transition: ${({ theme }) => theme.global.transitionS};
       &:hover {
         background-color: ${props =>
           props.disabled ? 'transparent' : props.theme.components.buttonLinkHoverBackgroundColor};
@@ -97,6 +100,7 @@ const IconWrapper = styled.span`
 
 const ButtonLink = React.forwardRef((props, ref) => {
   const {
+    block,
     children,
     className,
     disabled,
@@ -112,9 +116,11 @@ const ButtonLink = React.forwardRef((props, ref) => {
   const breakpoint = useBreakpoint();
 
   const isDesktop = breakpoint === 'xl' || breakpoint === 'xxl' || breakpoint === 'l';
+  const isMobile = breakpoint === 's' || breakpoint === 'm';
 
   return (
     <StyledButtonLink
+      block={block}
       className={className}
       disabled={disabled}
       ref={ref}
@@ -123,6 +129,7 @@ const ButtonLink = React.forwardRef((props, ref) => {
       variant={variant}
       contrast={contrast}
       isDesktop={isDesktop}
+      isMobile={isMobile}
       {...other}
     >
       {iconLeft && (

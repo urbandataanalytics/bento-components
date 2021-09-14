@@ -1,4 +1,5 @@
 export interface ButtonLinkProps {
+  block?: boolean;
   children?: React.ReactNode;
   className?: string;
   disabled?: boolean;
