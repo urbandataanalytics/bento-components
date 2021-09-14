@@ -191,7 +191,9 @@ const InlineInputField = React.forwardRef((props, ref) => {
   const inputRef = useRef(null);
 
   useEffect(() => {
-    inputRef.current.focus();
+    if (inputRef && inputRef.current) {
+      inputRef.current.focus();
+    }
   }, []);
 
   const getPrefixWidth = async node => {
