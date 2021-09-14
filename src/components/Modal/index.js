@@ -16,11 +16,11 @@ const StyledContainer = styled.div`
       : theme.shapes.borderRadiusMedium};
   position: relative;
   max-width: ${({ isMobile }) => (isMobile ? '100vw' : '75vw')};
-  max-height: 90vh;
+  max-height: ${({ isMobile }) => (isMobile ? '75vh' : '90vh')};
   overflow: auto;
   display: flex;
   flex-direction: column;
-  height: ${({ isMobile }) => (isMobile ? '100%' : 'fit-content')};
+  height: ${({ isMobile }) => (isMobile ? 'auto' : 'fit-content')};
   ${({ isMobile }) => isMobile && 'width: 100vh'};
 `;
 
