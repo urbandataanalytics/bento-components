@@ -14,7 +14,7 @@ exports[`Storyshots Carousel Playground 1`] = `
     className="Carousel__CarouselWrapper-sc-19rb187-4 eXyKLP"
   >
     <div
-      className="Carousel__CarouselComponent-sc-19rb187-1 gTgZvR"
+      className="Carousel__CarouselComponent-sc-19rb187-1 MKvIP"
     >
       <div
         className="Carousel__CarouselContainer-sc-19rb187-2 gyIlwN"
@@ -93,7 +93,7 @@ exports[`Storyshots Carousel With Thumbnails Enabled 1`] = `
     className="Carousel__CarouselWrapper-sc-19rb187-4 vjaO"
   >
     <div
-      className="Carousel__CarouselComponent-sc-19rb187-1 gTgZvR"
+      className="Carousel__CarouselComponent-sc-19rb187-1 MKvIP"
     >
       <div
         className="Carousel__CarouselContainer-sc-19rb187-2 gyIlwN"

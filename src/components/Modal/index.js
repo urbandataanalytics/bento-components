@@ -10,18 +10,18 @@ import useTheme from '../../hooks/useTheme/index';
 
 const StyledContainer = styled.div`
   background: white;
-  border-radius: ${({ theme, isMobile }) =>
-    isMobile
+  border-radius: ${({ theme, isMobileOrTablet }) =>
+    isMobileOrTablet
       ? `${theme.shapes.borderRadiusMedium} ${theme.shapes.borderRadiusMedium} 0 0`
       : theme.shapes.borderRadiusMedium};
   position: relative;
-  max-width: ${({ isMobile }) => (isMobile ? '100vw' : '75vw')};
-  max-height: ${({ isMobile }) => (isMobile ? '75vh' : '90vh')};
+  max-width: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '550px' : '75vw')};
+  max-height: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '75vh' : '90vh')};
   overflow: auto;
   display: flex;
   flex-direction: column;
-  height: ${({ isMobile }) => (isMobile ? 'auto' : 'fit-content')};
-  ${({ isMobile }) => isMobile && 'width: 100vh'};
+  height: ${({ isMobileOrTablet }) => (isMobileOrTablet ? 'auto' : 'fit-content')};
+  ${({ isMobileOrTablet }) => isMobileOrTablet && 'width: 100vh'};
 `;
 
 StyledContainer.defaultProps = {
@@ -82,7 +82,7 @@ const StyledOverlay = styled.div`
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: ${({ isMobile }) => (isMobile ? 'flex-end' : 'center')};
+  align-items: ${({ isMobileOrTablet }) => (isMobileOrTablet ? 'flex-end' : 'center')};
 `;
 
 StyledOverlay.defaultProps = {
@@ -123,11 +123,11 @@ const Modal = ({
   }, [isOpen]);
 
   const breakpoint = useBreakpoint();
-  const isMobile = breakpoint === 's' || breakpoint === 'm';
+  const isMobileOrTablet = breakpoint === 's' || breakpoint === 'm' || breakpoint === 'l';
 
   return isOpen ? (
-    <StyledOverlay zIndex={zIndex} opacity={opacity} isMobile={isMobile}>
-      <StyledContainer {...other} ref={ref} isMobile={isMobile}>
+    <StyledOverlay zIndex={zIndex} opacity={opacity} isMobileOrTablet={isMobileOrTablet}>
+      <StyledContainer {...other} ref={ref} isMobileOrTablet={isMobileOrTablet}>
         {((header && header.props.children) || closable) && (
           <StyledHeader hasHeading={header && header.props.children} closable={closable}>
             {header && header.props.children && <StyleHeading>{header}</StyleHeading>}

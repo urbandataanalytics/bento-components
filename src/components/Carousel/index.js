@@ -105,8 +105,8 @@ Thumbs.defaultProps = {
 const Carousel = React.forwardRef((props, ref) => {
   const theme = useTheme();
   const breakpoint = useBreakpoint();
-  const isMobile = breakpoint === 's' || breakpoint === 'm';
-  const isDesktop = breakpoint === 'l' || breakpoint === 'xl' || breakpoint === 'xxl';
+  const isMobile = breakpoint === 's' || breakpoint === 'm' || breakpoint === 'l';
+  const isDesktop = breakpoint === 'xl' || breakpoint === 'xxl';
 
   const {
     controlOffset,
@@ -205,6 +205,7 @@ const Carousel = React.forwardRef((props, ref) => {
                 visible={slidesInView.indexOf(index) > -1}
                 rounded={rounded}
                 onClick={onClick}
+                draggable={dragable || isMobile}
                 {...other}
               />
             ))}
