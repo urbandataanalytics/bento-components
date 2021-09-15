@@ -205,7 +205,7 @@ const Carousel = React.forwardRef((props, ref) => {
                 visible={slidesInView.indexOf(index) > -1}
                 rounded={rounded}
                 onClick={onClick}
-                draggable={dragable || isMobile}
+                draggable={draggable || isMobile}
                 {...other}
               />
             ))}
