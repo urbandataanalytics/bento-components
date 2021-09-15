@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
@@ -143,7 +143,6 @@ const InnerLabel = styled.p`
   white-space: nowrap;
 
   &.prefix {
-    line-height: 23px;
     max-width: 100px;
     top: ${({ narrow }) => (narrow ? '6.45px' : '10.45px')};
     padding-left: ${({ theme }) => theme.spacings.small3};
@@ -153,7 +152,6 @@ const InnerLabel = styled.p`
   }
 
   &.suffix {
-    line-height: 23px;
     max-width: fit-content;
     top: ${({ narrow }) => (narrow ? '6.45px' : '10.45px')};
     right: 0;
@@ -188,8 +186,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
   } = props;
   const [prefixWidth, setPrefixWidth] = useState(null);
   const [suffixWidth, setSuffixWidth] = useState(null);
-
-  const inputRef = useRef();
+  let inputRef = null;
 
   const getPrefixWidth = async node => {
     if (node) {
@@ -203,6 +200,10 @@ const InlineInputField = React.forwardRef((props, ref) => {
       const styles = await window.getComputedStyle(node);
       setSuffixWidth(styles.width);
     }
+  };
+
+  const handleSuffixClick = () => {
+    inputRef.focus();
   };
 
   return (
@@ -234,8 +235,9 @@ const InlineInputField = React.forwardRef((props, ref) => {
               </InnerLabel>
             )}
             <Input
-              ref={inputRef}
-              autoFocus
+              ref={node => {
+                inputRef = node;
+              }}
               textAlign={textAlign}
               className={error ? `error` : null}
               type={type}
@@ -254,6 +256,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
               {...other}
             />
             <InnerLabel
+              onClick={handleSuffixClick}
               disabled={disabled}
               ref={node => {
                 getSuffixWidth(node);
