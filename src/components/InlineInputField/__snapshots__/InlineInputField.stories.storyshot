@@ -29,7 +29,6 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={true}
           placeholder="Placeholder text"
@@ -37,8 +36,9 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 eydVOn suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 jdMauW suffix"
           disabled={true}
+          onClick={[Function]}
         />
       </div>
     </div>
@@ -81,7 +81,6 @@ exports[`Storyshots InlineInputField Error 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI error"
           disabled={false}
           placeholder="Placeholder text"
@@ -89,8 +88,9 @@ exports[`Storyshots InlineInputField Error 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
+          onClick={[Function]}
         />
       </div>
     </div>
@@ -134,7 +134,6 @@ exports[`Storyshots InlineInputField Playground 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
@@ -142,8 +141,9 @@ exports[`Storyshots InlineInputField Playground 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
+          onClick={[Function]}
         />
       </div>
     </div>
@@ -186,7 +186,6 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 fwrzpN"
           disabled={false}
           placeholder="Placeholder text"
@@ -194,8 +193,9 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
+          onClick={[Function]}
         />
       </div>
     </div>
@@ -801,7 +801,6 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
@@ -809,8 +808,9 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
+          onClick={[Function]}
         />
       </div>
     </div>
@@ -1416,7 +1416,6 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 fwrzpN"
           disabled={false}
           placeholder="Placeholder text"
@@ -1424,8 +1423,9 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
+          onClick={[Function]}
         />
       </div>
     </div>
@@ -1457,7 +1457,6 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
@@ -1465,8 +1464,9 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
+          onClick={[Function]}
         />
       </div>
     </div>
@@ -2083,7 +2083,6 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          autoFocus={true}
           className="InlineInputField__Input-jwshkl-5 KAbsI"
           disabled={false}
           placeholder="Placeholder text"
@@ -2091,8 +2090,9 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
+          onClick={[Function]}
         />
       </div>
     </div>
@@ -2144,13 +2144,12 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 bdKEiL prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 lhNbjw prefix"
             disabled={false}
           >
             1.280€
           </p>
           <input
-            autoFocus={true}
             className="InlineInputField__Input-jwshkl-5 ykNjn"
             disabled={false}
             prefix="1.280€"
@@ -2158,8 +2157,9 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 bdKEiL suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 lhNbjw suffix"
             disabled={false}
+            onClick={[Function]}
           >
             % yoy
           </p>
@@ -2198,13 +2198,12 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 djifEr prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 gIoQit prefix"
             disabled={false}
           >
             1.280€
           </p>
           <input
-            autoFocus={true}
             className="InlineInputField__Input-jwshkl-5 ileiKQ"
             disabled={false}
             prefix="1.280€"
@@ -2212,8 +2211,9 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
             disabled={false}
+            onClick={[Function]}
           />
         </div>
       </div>
@@ -2250,13 +2250,12 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 eydVOn prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 jdMauW prefix"
             disabled={true}
           >
             1.280€
           </p>
           <input
-            autoFocus={true}
             className="InlineInputField__Input-jwshkl-5 ileiKQ"
             disabled={true}
             prefix="1.280€"
@@ -2264,8 +2263,9 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 eydVOn suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 jdMauW suffix"
             disabled={true}
+            onClick={[Function]}
           />
         </div>
       </div>
@@ -2300,15 +2300,15 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
         >
           <input
-            autoFocus={true}
             className="InlineInputField__Input-jwshkl-5 fwrzpN"
             disabled={false}
             type="text"
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
             disabled={false}
+            onClick={[Function]}
           >
             %
           </p>
