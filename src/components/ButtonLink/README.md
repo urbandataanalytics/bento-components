@@ -18,6 +18,7 @@ Table below contains all types of the props available in ButtonLink component.
 
 | Name        | Type            | Default     | Description                                                   |
 | :---------- | :-------------- | :---------- | :------------------------------------------------------------ |
+| block       | `boolean`       | `false`     | If `true`, the ButtonLink will be 100% width.                 |
 | children    | `React.Node`    |             | The content of the ButtonLink.                                |
 | className   | `string`        |             | Specific class name to pass down to the ButtonLink component. |
 | disabled    | `boolean`       | `false`     | If `true`, the ButtonLink will be disabled.                   |

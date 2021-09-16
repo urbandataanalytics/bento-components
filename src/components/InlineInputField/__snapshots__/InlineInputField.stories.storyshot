@@ -36,7 +36,7 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 eydVOn suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 jdMauW suffix"
           disabled={true}
           onClick={[Function]}
         />
@@ -88,7 +88,7 @@ exports[`Storyshots InlineInputField Error 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
           onClick={[Function]}
         />
@@ -141,7 +141,7 @@ exports[`Storyshots InlineInputField Playground 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
           onClick={[Function]}
         />
@@ -193,7 +193,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
           onClick={[Function]}
         />
@@ -808,7 +808,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
           onClick={[Function]}
         />
@@ -1423,7 +1423,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
           onClick={[Function]}
         />
@@ -1464,7 +1464,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
           onClick={[Function]}
         />
@@ -2090,7 +2090,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
           disabled={false}
           onClick={[Function]}
         />
@@ -2144,7 +2144,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 bdKEiL prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 lhNbjw prefix"
             disabled={false}
           >
             1.280€
@@ -2157,7 +2157,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 bdKEiL suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 lhNbjw suffix"
             disabled={false}
             onClick={[Function]}
           >
@@ -2198,7 +2198,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 djifEr prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 gIoQit prefix"
             disabled={false}
           >
             1.280€
@@ -2211,7 +2211,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
             disabled={false}
             onClick={[Function]}
           />
@@ -2250,7 +2250,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 eydVOn prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 jdMauW prefix"
             disabled={true}
           >
             1.280€
@@ -2263,7 +2263,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 eydVOn suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 jdMauW suffix"
             disabled={true}
             onClick={[Function]}
           />
@@ -2306,7 +2306,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 djifEr suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 gIoQit suffix"
             disabled={false}
             onClick={[Function]}
           >

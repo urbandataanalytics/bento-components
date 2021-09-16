@@ -692,7 +692,7 @@ exports[`Storyshots NavigationBar Playground 1`] = `
             className="NavigationBar__NavigationLinkItem-sc-8hnjeq-7 dQOBuh"
           >
             <a
-              className="TextLink__StyledTextLink-qefl1h-0 jwKAjC"
+              className="TextLink__StyledTextLink-qefl1h-0 fqEPGu"
               disabled={false}
               href="https://pulse.urbandataanalytics.com/"
               size="large"
@@ -704,7 +704,7 @@ exports[`Storyshots NavigationBar Playground 1`] = `
             className="NavigationBar__NavigationLinkItem-sc-8hnjeq-7 dQOBuh"
           >
             <a
-              className="TextLink__StyledTextLink-qefl1h-0 hpGuqi"
+              className="TextLink__StyledTextLink-qefl1h-0 glFcEi"
               disabled={false}
               href="https://pulse.urbandataanalytics.com/"
               size="large"
