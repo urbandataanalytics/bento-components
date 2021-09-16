@@ -265,7 +265,6 @@ const shapes = {
 };
 
 const components = {
-  /*Button Theme props*/
   buttonFontSizeLarge: '14px',
   buttonFontSizeMedium: '12px',
   buttonMinWidthLarge: '140px',
@@ -305,7 +304,6 @@ const components = {
   buttonDangerSecondaryHoverBorderColor: color.redclay100,
   buttonDangerSecondaryHoverColor: color.redclay500,
 
-  /* ButtonLink Theme props */
   buttonLinkPaddingSmall: '3px 4px',
   buttonLinkFontSizeSmall: '12px',
   buttonLinkPaddingMedium: '5px',
@@ -322,7 +320,6 @@ const components = {
   buttonLinkHoverBackgroundColor: color.charcoal300,
   buttonLinkHoverSecondaryContrastColor: color.charcoal800,
 
-  /* Checkbox Theme props */
   checkboxBackground: color.white,
   checkboxBackgroundChecked: color.primary500,
   checkboxBackgroundDisabled: color.charcoal400,
@@ -337,7 +334,6 @@ const components = {
   checkboxSizeMedium: spacings.small4,
   checkboxSizeSmall: spacings.small3,
 
-  /* RadioButton Theme props */
   radioButtonBackground: color.white,
   radioButtonBackgroundChecked: color.primary500,
   radioButtonBackgroundDisabled: color.charcoal400,
@@ -354,17 +350,13 @@ const components = {
   radioButtonSizeSmall: spacings.small3,
   radioButtonGlyphSizeSmall: spacings.small2,
 
-  /*FormGroup Theme props*/
   formGroupMarginBottom: spacings.small3,
 
-  /* Icon Theme props */
   iconSizeLarge: '32px',
   iconSizeMedium: spacings.small4,
   iconSizeSmall: spacings.small3,
   iconPrimaryColor: color.primary500,
   iconSecondaryColor: color.charcoal600,
-
-  /*InputField Theme props*/
 
   inputFieldBackgroundColor: color.white,
   inputFieldBorderColor: color.charcoal400,
@@ -389,8 +381,6 @@ const components = {
   inputFieldPlaceholderColor: color.charcoal400,
   inputFieldTextIndent: spacings.small4,
 
-  /*TextareaField Theme props*/
-
   textareaFieldBackgroundColor: color.white,
   textareaFieldBorderColor: color.charcoal400,
   textareaFieldBorderRadius: shapes.borderRadiusMedium,
@@ -413,8 +403,6 @@ const components = {
   textareaFieldLineHeight: '21px',
   textareaFieldPlaceholderColor: color.charcoal400,
   textareaFieldPadding: `12px ${spacings.small3}`,
-
-  /*InlineInputField Theme props*/
 
   inlineInputFieldBackgroundColor: color.charcoal200,
   inlineInputFieldBorderColor: color.charcoal200,
@@ -444,7 +432,6 @@ const components = {
   inlineInputFieldPlaceholderColor: color.charcoal400,
   inlineInputFieldTextIndent: spacings.small4,
 
-  /* Avatar Theme Props */
   avatarBorderRadius: shapes.borderRadiusFull,
   avatarBackgroundColor: color.charcoal700,
   avatarColor: color.white,
@@ -457,12 +444,10 @@ const components = {
   avatarFontSizeLarge: '12px',
   avatarFontSizeExtralarge: spacings.small3,
 
-  /* Loader Theme Props */
   loaderSizeSmall: spacings.medium1,
   loaderSizeMedium: spacings.medium3,
   loaderSizeLarge: spacings.medium5,
 
-  /* Navigation Theme Props */
   navigationBackgroundColor: 'white',
   navigationBorder: `1px solid ${color.charcoal300}`,
 
@@ -476,7 +461,6 @@ const components = {
   navigationMinHeight: '40px',
   navigationMaxHeight: '56px',
 
-  /* Notification Theme Props */
   accordionMinHeight: '65px',
   accordionPadding: `${spacings.small3} ${spacings.small4}`,
   accordionBorder: `1px solid ${color.charcoal300}`,
@@ -487,7 +471,6 @@ const components = {
   accordionSubHeaderFontSize: '10px',
   accordionSubHeaderFontWeight: global.fontWeightBold,
 
-  /* Notification Theme Props */
   notificationBorderRadius: shapes.borderRadiusLarge,
   notificationCloseButtonColor: color.charcoal800,
   notificationErrorBackgroundColor: color.redclay100,
@@ -501,7 +484,6 @@ const components = {
   notificationSuccessBorderColor: color.emerald600,
   notificationSuccessColor: color.emerald600,
 
-  /*TextLink Theme props*/
   textLinkDisabledColor: color.charcoal400,
   textLinkFontSizeLarge: '14px',
   textLinkFontSizeMedium: '12px',
@@ -510,7 +492,6 @@ const components = {
   textLinkSecondaryColor: color.charcoal600,
   textLinkSecondaryHoverColor: color.primary300,
 
-  /*Drawer Theme props*/
   drawerMaxWidth: '320px',
   drawerBackgroundColor: color.white,
   drawerBorder: `1px solid ${color.charcoal300}`,
@@ -523,18 +504,15 @@ const components = {
   drawerCloseButtonBorderRadius: shapes.borderRadiusMedium,
   drawerCloseButtonBorder: `1px solid ${color.charcoal400}`,
 
-  /*Dropdown Theme props*/
   dropdownBorderColor: color.charcoal300,
   dropdownBoxShadow: '0px 16px 32px rgba(54, 60, 75, 0.1)',
   dropdownBorderRadius: shapes.borderRadiusMedium,
   dropdownBackground: color.white,
   dropdownPadding: spacings.small2,
 
-  /*List Theme props*/
   listBackgroundColor: color.white,
   listPadding: spacings.small2,
 
-  /*ListItem Theme props*/
   listItemSeparatorColor: color.charcoal300,
   listItemColorActive: color.primary500,
   listItemColorActiveHover: color.primary100,
@@ -565,7 +543,6 @@ const components = {
   listNavItemFontWeight: global.fontWeightMedium,
   listNavItemFontSize: '14px',
 
-  /*Tabs Theme props*/
   tabsBackgroundColor: 'white',
   tabsBorderColor: color.charcoal300,
   tabFontSize: texts.p2b.fontSize,
@@ -587,18 +564,15 @@ const components = {
   tabBadgeBackgroundHover: color.primary300,
   tabBadgeBackgroundActive: color.primary500,
 
-  /* Table Theme props */
   tableHighlightedHeaderBackgroundColor: '#E5E8EE',
   tableHighlightedCellBackgroundColor: '#F8F9FA',
 
-  /* Pagination Theme props */
   paginationLabelColor: color.charcoal800,
   paginationLabelMarginBottom: spacings.small3,
   paginationProgressBackgroundColor: color.charcoal400,
   paginationProgressMarginBottom: spacings.small3,
   paginationProgressActiveBackgroundColor: color.charcoal800,
 
-  /* Slider Theme props */
   sliderRailColor: color.charcoal400,
   sliderRailSize: '4px',
   sliderRailSizeSlim: '2px',
@@ -616,7 +590,6 @@ const components = {
   sliderSecondHandleMarginTop: '-6px',
   sliderSecondHandleMarginTopSlim: '-7px',
 
-  /* Carousel Theme props */
   carouselButtonSize: '32px',
   carouselButtonTransition: global.transitionS,
   carouselButtonBackground: 'rgba(255, 255, 255, .6)',

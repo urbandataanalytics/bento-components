@@ -58,9 +58,13 @@ const StyledButtonLink = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  color: ${({ theme }) => theme.components.buttonLinkPrimaryColor};
   background-color: 'transparent';
   width: ${({ block }) => (block ? '100%' : 'auto')};
   height: ${({ isMobile }) => (isMobile ? '48px' : 'auto')};
+  ${props => componentVariants(props.theme, props.contrast)[props.variant]}
+  ${props => componentSizes(props.theme)[props.size]}
+
   
   &:disabled {
     cursor: default;
@@ -80,9 +84,6 @@ const StyledButtonLink = styled.button`
             : null}
       }
   `}
-
-  ${props => componentVariants(props.theme, props.contrast)[props.variant]}
-  ${props => componentSizes(props.theme)[props.size]}
 `;
 
 const IconWrapper = styled.span`

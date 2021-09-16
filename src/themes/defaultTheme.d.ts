@@ -69,6 +69,4 @@ declare module base {
     shapes: Shapes;
     components: Components;
   }
-
 }
-
