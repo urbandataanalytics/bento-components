@@ -16,7 +16,7 @@ exports[`Storyshots Dropdown Bottom Position 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         size="medium"
       >
@@ -235,7 +235,7 @@ exports[`Storyshots Dropdown Bottom Position 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -624,7 +624,7 @@ exports[`Storyshots Dropdown Center Alignment 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         size="medium"
       >
@@ -843,7 +843,7 @@ exports[`Storyshots Dropdown Center Alignment 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -1232,7 +1232,7 @@ exports[`Storyshots Dropdown Close On Click Inside 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         size="medium"
       >
@@ -1451,7 +1451,7 @@ exports[`Storyshots Dropdown Close On Click Inside 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -1840,7 +1840,7 @@ exports[`Storyshots Dropdown Left Alignment 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         size="medium"
       >
@@ -2059,7 +2059,7 @@ exports[`Storyshots Dropdown Left Alignment 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -2448,7 +2448,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         size="medium"
       >
@@ -2667,7 +2667,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -3056,7 +3056,7 @@ exports[`Storyshots Dropdown Right Alignment 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         size="medium"
       >
@@ -3275,7 +3275,7 @@ exports[`Storyshots Dropdown Right Alignment 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -3664,7 +3664,7 @@ exports[`Storyshots Dropdown Top Position 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         size="medium"
       >
@@ -3883,7 +3883,7 @@ exports[`Storyshots Dropdown Top Position 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -4272,7 +4272,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         size="medium"
       >
@@ -4491,7 +4491,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",

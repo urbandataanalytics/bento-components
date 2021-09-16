@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import defaultTheme from '../../themes/defaultTheme';
+import { useBreakpoint } from '../../hooks/useBreakpoint';
 
 const componentSizes = theme => ({
   medium: {
@@ -44,11 +45,21 @@ const StyledTextLink = styled.a`
   margin: 0;
   outline: none;
   text-decoration: none;
-  transition: color 300ms ease-in-out;
   white-space: nowrap;
   ${props => componentSizes(props.theme)[props.size]}
   ${props => componentVariants(props.theme)[props.variant]}
   ${props => props.disabled && componentDisabled(props.theme)}
+
+  ${({ isDesktop }) => isDesktop && `transition: ${({ theme }) => theme.global.transitionS};`};
+
+  ${({ isMobile }) =>
+    isMobile &&
+    `
+    transition: none;
+    &:hover{
+      color: inherit !important;
+    }
+  `};
 `;
 
 StyledTextLink.defaultProps = {
@@ -68,8 +79,15 @@ const TextLink = React.forwardRef((props, ref) => {
     ...other
   } = props;
 
+  const breakpoint = useBreakpoint();
+
+  const isMobile = breakpoint === 's' || breakpoint === 'm';
+  const isDesktop = breakpoint === 'l' || breakpoint === 'xl' || breakpoint === 'xxl';
+
   return (
     <StyledTextLink
+      isMobile={isMobile}
+      isDesktop={isDesktop}
       className={className}
       disabled={disabled}
       href={href}

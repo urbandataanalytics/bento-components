@@ -23,7 +23,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -244,7 +244,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -625,7 +625,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -846,7 +846,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -1227,7 +1227,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -1448,7 +1448,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -1829,7 +1829,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -2050,7 +2050,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -2447,7 +2447,7 @@ exports[`Storyshots Tooltip Max Width 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -2668,7 +2668,7 @@ exports[`Storyshots Tooltip Max Width 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
@@ -3064,7 +3064,7 @@ exports[`Storyshots Tooltip Playground 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -3285,7 +3285,7 @@ exports[`Storyshots Tooltip Playground 1`] = `
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
                   "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#FFFFFF",
+                  "buttonSecondaryDisabledColor": "#DCDFE6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",

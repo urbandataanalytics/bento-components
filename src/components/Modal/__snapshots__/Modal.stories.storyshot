@@ -3,7 +3,7 @@
 exports[`Storyshots Modal Playground 1`] = `
 <div>
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+    className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
     disabled={false}
     onClick={[Function]}
     size="medium"
@@ -223,7 +223,7 @@ exports[`Storyshots Modal Playground 1`] = `
               "buttonSecondaryColor": "#212632",
               "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
               "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-              "buttonSecondaryDisabledColor": "#FFFFFF",
+              "buttonSecondaryDisabledColor": "#DCDFE6",
               "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
               "buttonSecondaryHoverBorderColor": "#DCDFE6",
               "buttonSecondaryHoverColor": "#212632",
@@ -596,7 +596,7 @@ exports[`Storyshots Modal Playground 1`] = `
 
 exports[`Storyshots Modal With Full Borders 1`] = `
 <button
-  className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+  className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
   disabled={false}
   onClick={[Function]}
   size="medium"
@@ -816,7 +816,7 @@ exports[`Storyshots Modal With Full Borders 1`] = `
             "buttonSecondaryColor": "#212632",
             "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
             "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-            "buttonSecondaryDisabledColor": "#FFFFFF",
+            "buttonSecondaryDisabledColor": "#DCDFE6",
             "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
             "buttonSecondaryHoverBorderColor": "#DCDFE6",
             "buttonSecondaryHoverColor": "#212632",
@@ -1188,7 +1188,7 @@ exports[`Storyshots Modal With Full Borders 1`] = `
 
 exports[`Storyshots Modal With Overflow 1`] = `
 <button
-  className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+  className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
   disabled={false}
   onClick={[Function]}
   size="medium"
@@ -1408,7 +1408,7 @@ exports[`Storyshots Modal With Overflow 1`] = `
             "buttonSecondaryColor": "#212632",
             "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
             "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-            "buttonSecondaryDisabledColor": "#FFFFFF",
+            "buttonSecondaryDisabledColor": "#DCDFE6",
             "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
             "buttonSecondaryHoverBorderColor": "#DCDFE6",
             "buttonSecondaryHoverColor": "#212632",
@@ -1780,7 +1780,7 @@ exports[`Storyshots Modal With Overflow 1`] = `
 
 exports[`Storyshots Modal Without Header 1`] = `
 <button
-  className="Button__StyledButton-sc-1tzlszx-0 eyGzbC"
+  className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
   disabled={false}
   onClick={[Function]}
   size="medium"
@@ -2000,7 +2000,7 @@ exports[`Storyshots Modal Without Header 1`] = `
             "buttonSecondaryColor": "#212632",
             "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
             "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-            "buttonSecondaryDisabledColor": "#FFFFFF",
+            "buttonSecondaryDisabledColor": "#DCDFE6",
             "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
             "buttonSecondaryHoverBorderColor": "#DCDFE6",
             "buttonSecondaryHoverColor": "#212632",

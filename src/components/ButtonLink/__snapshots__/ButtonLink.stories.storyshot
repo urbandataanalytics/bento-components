@@ -10,21 +10,21 @@ exports[`Storyshots ButtonLink Contrast 1`] = `
   }
 >
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 jCgUtk"
     disabled={false}
     size="medium"
   >
     Primary
   </button>
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 dFNzAR"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 cpZjzi"
     disabled={false}
     size="medium"
   >
     Secondary
   </button>
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 bfiMKH"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 kWZaHl"
     disabled={false}
     size="medium"
   >
@@ -42,7 +42,7 @@ exports[`Storyshots ButtonLink Playground 1`] = `
   }
 >
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 jCgUtk"
     disabled={false}
     size="medium"
   >
@@ -62,7 +62,7 @@ exports[`Storyshots ButtonLink With Icon Left 1`] = `
   }
 >
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 jCgUtk"
     disabled={false}
     size="medium"
   >
@@ -283,7 +283,7 @@ exports[`Storyshots ButtonLink With Icon Left 1`] = `
               "buttonSecondaryColor": "#212632",
               "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
               "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-              "buttonSecondaryDisabledColor": "#FFFFFF",
+              "buttonSecondaryDisabledColor": "#DCDFE6",
               "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
               "buttonSecondaryHoverBorderColor": "#DCDFE6",
               "buttonSecondaryHoverColor": "#212632",
@@ -655,7 +655,7 @@ exports[`Storyshots ButtonLink With Icon Right 1`] = `
   }
 >
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 eCHGCU"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 jCgUtk"
     disabled={false}
     size="medium"
   >
@@ -877,7 +877,7 @@ exports[`Storyshots ButtonLink With Icon Right 1`] = `
               "buttonSecondaryColor": "#212632",
               "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
               "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-              "buttonSecondaryDisabledColor": "#FFFFFF",
+              "buttonSecondaryDisabledColor": "#DCDFE6",
               "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
               "buttonSecondaryHoverBorderColor": "#DCDFE6",
               "buttonSecondaryHoverColor": "#212632",

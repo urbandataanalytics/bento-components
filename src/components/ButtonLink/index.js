@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import defaultTheme from '../../themes/defaultTheme';
+import { useBreakpoint } from '../../hooks/useBreakpoint';
 
 const componentSizes = theme => ({
   small: {
@@ -58,20 +59,27 @@ const StyledButtonLink = styled.button`
   align-items: center;
   justify-content: center;
   background-color: 'transparent';
-  transition: ${({ theme }) => theme.global.transitionS};
+  width: ${({ block }) => (block ? '100%' : 'auto')};
+  height: ${({ isMobile }) => (isMobile ? '48px' : 'auto')};
+  
   &:disabled {
     cursor: default;
     color: ${({ theme }) => theme.components.buttonLinkDisabledColor};
   }
 
-  &:hover {
-    background-color: ${props =>
-      props.disabled ? 'transparent' : props.theme.components.buttonLinkHoverBackgroundColor};
-    ${({ theme, variant, contrast }) =>
-      variant === 'secondary' && contrast
-        ? { color: theme.components.buttonLinkHoverSecondaryContrastColor }
-        : null}
-  }
+  ${({ isDesktop }) =>
+    isDesktop &&
+    `
+     transition: ${({ theme }) => theme.global.transitionS};
+      &:hover {
+        background-color: ${props =>
+          props.disabled ? 'transparent' : props.theme.components.buttonLinkHoverBackgroundColor};
+        ${({ theme, variant, contrast }) =>
+          variant === 'secondary' && contrast
+            ? { color: theme.components.buttonLinkHoverSecondaryContrastColor }
+            : null}
+      }
+  `}
 
   ${props => componentVariants(props.theme, props.contrast)[props.variant]}
   ${props => componentSizes(props.theme)[props.size]}
@@ -92,6 +100,7 @@ const IconWrapper = styled.span`
 
 const ButtonLink = React.forwardRef((props, ref) => {
   const {
+    block,
     children,
     className,
     disabled,
@@ -104,8 +113,14 @@ const ButtonLink = React.forwardRef((props, ref) => {
     ...other
   } = props;
 
+  const breakpoint = useBreakpoint();
+
+  const isDesktop = breakpoint === 'xl' || breakpoint === 'xxl' || breakpoint === 'l';
+  const isMobile = breakpoint === 's' || breakpoint === 'm';
+
   return (
     <StyledButtonLink
+      block={block}
       className={className}
       disabled={disabled}
       ref={ref}
@@ -113,6 +128,8 @@ const ButtonLink = React.forwardRef((props, ref) => {
       tabIndex={tabIndex}
       variant={variant}
       contrast={contrast}
+      isDesktop={isDesktop}
+      isMobile={isMobile}
       {...other}
     >
       {iconLeft && (

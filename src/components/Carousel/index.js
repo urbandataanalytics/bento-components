@@ -7,6 +7,7 @@ import { IconChevronLeft, IconChevronRight } from '../../icons';
 import useTheme from '../../hooks/useTheme/index';
 import defaultTheme from '../../themes/defaultTheme';
 import { Thumb } from './Thumbnails';
+import { useBreakpoint } from '../../hooks/useBreakpoint';
 
 const ControlButton = styled.button`
   width: ${props => props.theme.components.carouselButtonSize};
@@ -17,12 +18,17 @@ const ControlButton = styled.button`
   top: calc(50% - 16px);
   left: ${props => props.left};
   right: ${props => props.right};
-  opacity: 0;
-  transition: ${props => props.theme.components.carouselButtonTransition};
 
-  &:hover {
-    background: ${props => props.theme.components.carouselButtonHoverBackground};
-  }
+  opacity: ${({ isMobile }) => (isMobile ? '1' : '0')};
+
+  ${({ isDesktop }) =>
+    isDesktop &&
+    `
+    transition: ${props => props.theme.components.carouselButtonTransition};
+    &:hover {
+      background: ${props => props.theme.components.carouselButtonHoverBackground};
+    }      
+  `};
 `;
 ControlButton.defaultProps = {
   theme: defaultTheme
@@ -34,12 +40,15 @@ const CarouselComponent = styled.div`
   height: 100%;
   margin-left: auto;
   margin-right: auto;
+  ${({ isMobile }) => isMobile && 'opacity: 1;'}
 
-  &:hover {
+  ${({ isDesktop }) =>
+    isDesktop &&
+    `  &:hover {
     ${ControlButton} {
       opacity: 1;
     }
-  }
+  }`}
 `;
 CarouselComponent.defaultProps = {
   theme: defaultTheme
@@ -95,6 +104,10 @@ Thumbs.defaultProps = {
 
 const Carousel = React.forwardRef((props, ref) => {
   const theme = useTheme();
+  const breakpoint = useBreakpoint();
+  const isMobile = breakpoint === 's' || breakpoint === 'm' || breakpoint === 'l';
+  const isDesktop = breakpoint === 'xl' || breakpoint === 'xxl';
+
   const {
     controlOffset,
     draggable,
@@ -181,7 +194,7 @@ const Carousel = React.forwardRef((props, ref) => {
 
   return (
     <CarouselWrapper gap={gap} thumbnailsEnabled={thumbnailsEnabled}>
-      <CarouselComponent>
+      <CarouselComponent isMobile={isMobile} isDesktop={isDesktop}>
         <CarouselContainer ref={emblaRef} rounded={rounded}>
           <CarouselSlidesContainer>
             {slides.map((slide, index) => (
@@ -192,6 +205,7 @@ const Carousel = React.forwardRef((props, ref) => {
                 visible={slidesInView.indexOf(index) > -1}
                 rounded={rounded}
                 onClick={onClick}
+                draggable={draggable || isMobile}
                 {...other}
               />
             ))}
@@ -202,7 +216,12 @@ const Carousel = React.forwardRef((props, ref) => {
             React.cloneElement(prevButton, { onClick: scrollPrev })
           ) : null
         ) : prevBtnEnabled ? (
-          <ControlButton onClick={scrollPrev} left={controlOffset}>
+          <ControlButton
+            onClick={scrollPrev}
+            left={controlOffset}
+            isDesktop={isDesktop}
+            isMobile={isMobile}
+          >
             <IconChevronLeft customColor={theme.color.charcoal800} />
           </ControlButton>
         ) : null}
@@ -213,7 +232,12 @@ const Carousel = React.forwardRef((props, ref) => {
             })
           ) : null
         ) : nextBtnEnabled ? (
-          <ControlButton onClick={scrollNext} right={controlOffset}>
+          <ControlButton
+            onClick={scrollNext}
+            right={controlOffset}
+            isDesktop={isDesktop}
+            isMobile={isMobile}
+          >
             <IconChevronRight customColor={theme.color.charcoal800} />
           </ControlButton>
         ) : null}

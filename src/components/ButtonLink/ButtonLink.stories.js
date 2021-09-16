@@ -6,6 +6,10 @@ export default {
   title: 'ButtonLink',
   component: ButtonLink,
   argTypes: {
+    block: {
+      description: 'Button will grow up to the full width of its container',
+      table: { category: 'format' }
+    },
     children: {
       description: 'Content of button link',
       control: 'text',
@@ -73,6 +77,7 @@ export default {
     }
   },
   args: {
+    block: false,
     size: 'medium',
     variant: 'primary',
     disabled: false,
