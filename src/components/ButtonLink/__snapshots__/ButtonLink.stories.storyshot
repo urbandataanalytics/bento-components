@@ -10,21 +10,21 @@ exports[`Storyshots ButtonLink Contrast 1`] = `
   }
 >
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 jCgUtk"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 gnqiVj"
     disabled={false}
     size="medium"
   >
     Primary
   </button>
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 cpZjzi"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 bqPkOd"
     disabled={false}
     size="medium"
   >
     Secondary
   </button>
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 kWZaHl"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 rFcLD"
     disabled={false}
     size="medium"
   >
@@ -42,7 +42,7 @@ exports[`Storyshots ButtonLink Playground 1`] = `
   }
 >
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 jCgUtk"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 gnqiVj"
     disabled={false}
     size="medium"
   >
@@ -62,7 +62,7 @@ exports[`Storyshots ButtonLink With Icon Left 1`] = `
   }
 >
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 jCgUtk"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 gnqiVj"
     disabled={false}
     size="medium"
   >
@@ -655,7 +655,7 @@ exports[`Storyshots ButtonLink With Icon Right 1`] = `
   }
 >
   <button
-    className="ButtonLink__StyledButtonLink-cg5tmh-0 jCgUtk"
+    className="ButtonLink__StyledButtonLink-cg5tmh-0 gnqiVj"
     disabled={false}
     size="medium"
   >

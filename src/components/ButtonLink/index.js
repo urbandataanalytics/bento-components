@@ -61,25 +61,11 @@ const StyledButtonLink = styled.button`
   background-color: 'transparent';
   width: ${({ block }) => (block ? '100%' : 'auto')};
   height: ${({ isMobile }) => (isMobile ? '48px' : 'auto')};
-  
+
   &:disabled {
     cursor: default;
     color: ${({ theme }) => theme.components.buttonLinkDisabledColor};
   }
-
-  ${({ isDesktop }) =>
-    isDesktop &&
-    `
-     transition: ${({ theme }) => theme.global.transitionS};
-      &:hover {
-        background-color: ${props =>
-          props.disabled ? 'transparent' : props.theme.components.buttonLinkHoverBackgroundColor};
-        ${({ theme, variant, contrast }) =>
-          variant === 'secondary' && contrast
-            ? { color: theme.components.buttonLinkHoverSecondaryContrastColor }
-            : null}
-      }
-  `}
 
   ${props => componentVariants(props.theme, props.contrast)[props.variant]}
   ${props => componentSizes(props.theme)[props.size]}

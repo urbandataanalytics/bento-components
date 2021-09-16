@@ -9,7 +9,7 @@ exports[`Storyshots Button Block 1`] = `
   }
 >
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 jTRzFq"
+    className="Button__StyledButton-sc-1tzlszx-0 iLiUZa"
     disabled={false}
     size="medium"
   >
@@ -608,7 +608,7 @@ exports[`Storyshots Button Danger Primary 1`] = `
   }
 >
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 eSaLMh"
+    className="Button__StyledButton-sc-1tzlszx-0 dgMRhJ"
     disabled={false}
     size="medium"
   >
@@ -1207,7 +1207,7 @@ exports[`Storyshots Button Danger Secondary 1`] = `
   }
 >
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 fHDjZn"
+    className="Button__StyledButton-sc-1tzlszx-0 iXBILu"
     disabled={false}
     size="medium"
   >
@@ -1806,7 +1806,7 @@ exports[`Storyshots Button Loading 1`] = `
   }
 >
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+    className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
     disabled={true}
     size="medium"
   >
@@ -2405,7 +2405,7 @@ exports[`Storyshots Button Playground 1`] = `
   }
 >
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+    className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
     disabled={false}
     size="medium"
   >
@@ -3006,7 +3006,7 @@ exports[`Storyshots Button With Icon Left 1`] = `
   }
 >
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+    className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
     disabled={false}
     size="medium"
   >
@@ -4180,7 +4180,7 @@ exports[`Storyshots Button With Icon Right 1`] = `
   }
 >
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+    className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
     disabled={false}
     size="medium"
   >

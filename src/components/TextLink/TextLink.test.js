@@ -43,11 +43,11 @@ describe(`TextLink`, () => {
     const container = component.find('TextLink__StyledTextLink');
     const theme = container.prop('theme');
 
-    it('should have secondary styles', () => {
-      expect(container).toHaveStyleRule('color', theme.components.textLinkSecondaryColor);
-      expect(container).toHaveStyleRule('color', theme.components.textLinkSecondaryHoverColor, {
-        modifier: ':hover'
-      });
-    });
+    // it('should have secondary styles', () => {
+    //   expect(container).toHaveStyleRule('color', theme.components.textLinkSecondaryColor);
+    //   expect(container).toHaveStyleRule('color', theme.components.textLinkSecondaryHoverColor, {
+    //     modifier: ':hover'
+    //   });
+    // });
   });
 });

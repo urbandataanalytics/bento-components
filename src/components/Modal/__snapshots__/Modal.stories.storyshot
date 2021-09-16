@@ -3,7 +3,7 @@
 exports[`Storyshots Modal Playground 1`] = `
 <div>
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+    className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
     disabled={false}
     onClick={[Function]}
     size="medium"
@@ -596,7 +596,7 @@ exports[`Storyshots Modal Playground 1`] = `
 
 exports[`Storyshots Modal With Full Borders 1`] = `
 <button
-  className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+  className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
   disabled={false}
   onClick={[Function]}
   size="medium"
@@ -1188,7 +1188,7 @@ exports[`Storyshots Modal With Full Borders 1`] = `
 
 exports[`Storyshots Modal With Overflow 1`] = `
 <button
-  className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+  className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
   disabled={false}
   onClick={[Function]}
   size="medium"
@@ -1780,7 +1780,7 @@ exports[`Storyshots Modal With Overflow 1`] = `
 
 exports[`Storyshots Modal Without Header 1`] = `
 <button
-  className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+  className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
   disabled={false}
   onClick={[Function]}
   size="medium"

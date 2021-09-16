@@ -3,7 +3,7 @@
 exports[`Storyshots Drawer No Close Button 1`] = `
 Array [
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+    className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
     disabled={false}
     onClick={[Function]}
     size="medium"
@@ -6468,7 +6468,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 uqDMx"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 jSExgs"
                   disabled={false}
                   size="small"
                   style={
@@ -7059,7 +7059,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 jsHFLp"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 hnIhzJ"
                   disabled={false}
                   size="small"
                   style={
@@ -7650,7 +7650,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 jsHFLp"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 hnIhzJ"
                   disabled={false}
                   size="small"
                   style={
@@ -8241,7 +8241,7 @@ Array [
 exports[`Storyshots Drawer Playground 1`] = `
 Array [
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+    className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
     disabled={false}
     onClick={[Function]}
     size="medium"
@@ -15278,7 +15278,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 uqDMx"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 jSExgs"
                   disabled={false}
                   size="small"
                   style={
@@ -15869,7 +15869,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 jsHFLp"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 hnIhzJ"
                   disabled={false}
                   size="small"
                   style={
@@ -16460,7 +16460,7 @@ Array [
                 }
               >
                 <button
-                  className="ButtonLink__StyledButtonLink-cg5tmh-0 jsHFLp"
+                  className="ButtonLink__StyledButtonLink-cg5tmh-0 hnIhzJ"
                   disabled={false}
                   size="small"
                   style={
@@ -23498,7 +23498,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               }
             >
               <button
-                className="ButtonLink__StyledButtonLink-cg5tmh-0 uqDMx"
+                className="ButtonLink__StyledButtonLink-cg5tmh-0 jSExgs"
                 disabled={false}
                 size="small"
                 style={
@@ -24089,7 +24089,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               }
             >
               <button
-                className="ButtonLink__StyledButtonLink-cg5tmh-0 jsHFLp"
+                className="ButtonLink__StyledButtonLink-cg5tmh-0 hnIhzJ"
                 disabled={false}
                 size="small"
                 style={
@@ -24680,7 +24680,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               }
             >
               <button
-                className="ButtonLink__StyledButtonLink-cg5tmh-0 jsHFLp"
+                className="ButtonLink__StyledButtonLink-cg5tmh-0 hnIhzJ"
                 disabled={false}
                 size="small"
                 style={
