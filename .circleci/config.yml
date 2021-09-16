@@ -36,7 +36,7 @@ jobs:
 
       - run:
           name: Tests and coverage
-          command: yarn test:ci --maxWorkers=2
+          command: yarn test --maxWorkers=2
 
       - run:
           name: Send coverage report to Code Climate
