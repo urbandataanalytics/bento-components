@@ -40,8 +40,7 @@ jobs:
 
       - run:
           name: Send coverage report to Code Climate
-          command:
-            ./cc-test-reporter after-build -t lcov
+          command: ./cc-test-reporter after-build -t lcov
           when: always
 
       - store_artifacts:
