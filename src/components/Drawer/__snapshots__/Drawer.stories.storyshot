@@ -3,7 +3,7 @@
 exports[`Storyshots Drawer No Close Button 1`] = `
 Array [
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
+    className="Button__StyledButton-sc-1tzlszx-0 lnyuFn"
     disabled={false}
     onClick={[Function]}
     size="medium"
@@ -8241,7 +8241,7 @@ Array [
 exports[`Storyshots Drawer Playground 1`] = `
 Array [
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
+    className="Button__StyledButton-sc-1tzlszx-0 lnyuFn"
     disabled={false}
     onClick={[Function]}
     size="medium"

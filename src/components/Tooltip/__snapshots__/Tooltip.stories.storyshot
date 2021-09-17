@@ -23,7 +23,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
+        className="Button__StyledButton-sc-1tzlszx-0 lnyuFn"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -625,7 +625,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
+        className="Button__StyledButton-sc-1tzlszx-0 lnyuFn"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -1227,7 +1227,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
+        className="Button__StyledButton-sc-1tzlszx-0 lnyuFn"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -1829,7 +1829,7 @@ exports[`Storyshots Tooltip All Positions 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
+        className="Button__StyledButton-sc-1tzlszx-0 lnyuFn"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -2447,7 +2447,7 @@ exports[`Storyshots Tooltip Max Width 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
+        className="Button__StyledButton-sc-1tzlszx-0 lnyuFn"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}
@@ -3064,7 +3064,7 @@ exports[`Storyshots Tooltip Playground 1`] = `
       className="Tooltip__StyledTooltip-zx344r-0 bhnmsU"
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 jovuLv"
+        className="Button__StyledButton-sc-1tzlszx-0 lnyuFn"
         disabled={false}
         onMouseLeave={[Function]}
         onMouseOver={[Function]}

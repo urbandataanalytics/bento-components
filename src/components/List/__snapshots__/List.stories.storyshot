@@ -5270,7 +5270,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 cHciRq ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="#"
         size="medium"
@@ -7030,7 +7030,7 @@ exports[`Storyshots List Link List 1`] = `
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 cHciRq ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="https://google.com"
         size="medium"
@@ -7044,7 +7044,7 @@ exports[`Storyshots List Link List 1`] = `
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 cHciRq ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="#"
         size="medium"
@@ -7065,7 +7065,7 @@ exports[`Storyshots List Link List 1`] = `
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 cHciRq ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="#"
         size="medium"
@@ -7651,7 +7651,7 @@ exports[`Storyshots List Link List 1`] = `
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 cHciRq ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="#test"
         size="medium"
@@ -9432,7 +9432,7 @@ exports[`Storyshots List Navbar List 1`] = `
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 cHciRq ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="https://google.com"
         size="medium"
