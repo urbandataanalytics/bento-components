@@ -57,52 +57,52 @@ describe(`Button`, () => {
     const container = component.find('Button__StyledButton');
     const theme = container.prop('theme');
 
-    // it('should have secondary and block styles', () => {
-    //   expect(container).toHaveStyleRule('width', '100%');
-    //   expect(container).toHaveStyleRule(
-    //     'background-color',
-    //     theme.components.buttonSecondaryBackgroundColor
-    //   );
-    //   expect(container).toHaveStyleRule(
-    //     'background-color',
-    //     theme.components.buttonSecondaryHoverBackgroundColor,
-    //     {
-    //       modifier: ':hover'
-    //     }
-    //   );
-    //   expect(container).toHaveStyleRule(
-    //     'background-color',
-    //     theme.components.buttonSecondaryDisabledBackgroundColor,
-    //     {
-    //       modifier: ':disabled'
-    //     }
-    //   );
-    //   expect(container).toHaveStyleRule(
-    //     'border-color',
-    //     theme.components.buttonSecondaryHoverBorderColor,
-    //     {
-    //       modifier: ':hover'
-    //     }
-    //   );
-    //   expect(container).toHaveStyleRule(
-    //     'border-color',
-    //     theme.components.buttonSecondaryDisabledBorderColor,
-    //     {
-    //       modifier: ':disabled'
-    //     }
-    //   );
-    //   expect(container).toHaveStyleRule(
-    //     'border-color',
-    //     theme.components.buttonSecondaryBorderColor
-    //   );
-    //   expect(container).toHaveStyleRule(
-    //     'border-radius',
-    //     theme.components.buttonSecondaryBorderRadius
-    //   );
-    //   expect(container).toHaveStyleRule('color', theme.components.buttonSecondaryColor);
-    //   expect(container).toHaveStyleRule('color', theme.components.buttonSecondaryHoverColor, {
-    //     modifier: ':hover'
-    //   });
-    // });
+    it('should have secondary and block styles', () => {
+      expect(container).toHaveStyleRule('width', '100%');
+      expect(container).toHaveStyleRule(
+        'background-color',
+        theme.components.buttonSecondaryBackgroundColor
+      );
+      expect(container).toHaveStyleRule(
+        'background-color',
+        theme.components.buttonSecondaryHoverBackgroundColor,
+        {
+          modifier: ':hover'
+        }
+      );
+      expect(container).toHaveStyleRule(
+        'background-color',
+        theme.components.buttonSecondaryDisabledBackgroundColor,
+        {
+          modifier: ':disabled'
+        }
+      );
+      expect(container).toHaveStyleRule(
+        'border-color',
+        theme.components.buttonSecondaryHoverBorderColor,
+        {
+          modifier: ':hover'
+        }
+      );
+      expect(container).toHaveStyleRule(
+        'border-color',
+        theme.components.buttonSecondaryDisabledBorderColor,
+        {
+          modifier: ':disabled'
+        }
+      );
+      expect(container).toHaveStyleRule(
+        'border-color',
+        theme.components.buttonSecondaryBorderColor
+      );
+      expect(container).toHaveStyleRule(
+        'border-radius',
+        theme.components.buttonSecondaryBorderRadius
+      );
+      expect(container).toHaveStyleRule('color', theme.components.buttonSecondaryColor);
+      expect(container).toHaveStyleRule('color', theme.components.buttonSecondaryHoverColor, {
+        modifier: ':hover'
+      });
+    });
   });
 });

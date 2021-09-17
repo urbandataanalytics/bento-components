@@ -61,7 +61,6 @@ LabelText.defaultProps = {
 };
 
 const Input = styled.input`
-  /* stylelint-disable */
   opacity: 0;
   z-index: -1;
   position: absolute;

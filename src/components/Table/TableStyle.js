@@ -1,11 +1,6 @@
 import { css } from 'styled-components';
 
 const TableStyle = css`
-  /**
- ****************************
- * Generic Styles
- ****************************
-*/
   ag-grid,
   ag-grid-angular,
   ag-grid-ng2,
@@ -170,11 +165,6 @@ const TableStyle = css`
     height: 100%;
   }
 
-  /**
- ****************************
- * Viewports
- ****************************
-*/
   .ag-header-viewport,
   .ag-floating-top-viewport,
   .ag-body-viewport,
@@ -237,11 +227,6 @@ const TableStyle = css`
     width: 100%;
   }
 
-  /**
- ****************************
- * Containers
- ****************************
-*/
   .ag-header-container,
   .ag-floating-top-container,
   .ag-body-container,
@@ -313,11 +298,6 @@ const TableStyle = css`
     overflow: hidden;
   }
 
-  /**
- ****************************
- * Scrollers
- ****************************
-*/
   .ag-center-cols-clipper {
     flex: 1;
     min-width: 0;
@@ -354,11 +334,6 @@ const TableStyle = css`
     overflow-x: hidden;
   }
 
-  /**
- ****************************
- * Headers
- ****************************
-*/
   .ag-header,
   .ag-pinned-left-header,
   .ag-pinned-right-header {
@@ -450,11 +425,6 @@ const TableStyle = css`
     display: flex;
   }
 
-  /**
- ****************************
- * Columns
- ****************************
-*/
   .ag-column-moving .ag-cell {
     transition: left 0.2s;
   }
@@ -467,11 +437,6 @@ const TableStyle = css`
     transition: left 0.2s, width 0.2s;
   }
 
-  /**
- ****************************
- * Column Panel
- ****************************
-*/
   .ag-column-panel {
     display: flex;
     flex-direction: column;
@@ -601,11 +566,6 @@ const TableStyle = css`
     overflow: hidden;
   }
 
-  /**
- ****************************
- * Rows
- ****************************
-*/
   .ag-row-animation .ag-row {
     transition: top 0.4s, height 0.4s, background-color 0.1s, opacity 0.2s, -webkit-transform 0.4s;
     transition: transform 0.4s, top 0.4s, height 0.4s, background-color 0.1s, opacity 0.2s;
@@ -653,11 +613,6 @@ const TableStyle = css`
     align-items: center;
   }
 
-  /**
- ****************************
- * Cells
- ****************************
-*/
   .ag-cell {
     display: inline-block;
     position: absolute;
@@ -704,11 +659,6 @@ const TableStyle = css`
     vertical-align: middle;
   }
 
-  /**
- ****************************
- * Filters
- ****************************
-*/
   .ag-set-filter-item {
     display: flex;
     align-items: center;
@@ -740,11 +690,6 @@ const TableStyle = css`
     display: flex;
   }
 
-  /**
- ****************************
- * Floating Filter
- ****************************
-*/
   .ag-floating-filter-body {
     position: relative;
     display: flex;
@@ -784,11 +729,6 @@ const TableStyle = css`
     flex: none;
   }
 
-  /**
- ****************************
- * Drag & Drop
- ****************************
-*/
   .ag-dnd-ghost {
     position: absolute;
     display: inline-flex;
@@ -797,11 +737,6 @@ const TableStyle = css`
     white-space: nowrap;
   }
 
-  /**
- ****************************
- * Overlay
- ****************************
-*/
   .ag-overlay {
     height: 100%;
     left: 0;
@@ -831,11 +766,6 @@ const TableStyle = css`
     pointer-events: all;
   }
 
-  /**
- ****************************
- * Popup
- ****************************
-*/
   .ag-popup-child {
     z-index: 5;
   }
@@ -853,21 +783,11 @@ const TableStyle = css`
     display: block;
   }
 
-  /**
- ****************************
- * Virtual Lists
- ****************************
-*/
   .ag-virtual-list-item {
     position: absolute;
     width: 100%;
   }
 
-  /**
- ****************************
- * Floating Top and Bottom
- ****************************
-*/
   .ag-floating-top {
     overflow: hidden;
     white-space: nowrap;
@@ -912,11 +832,6 @@ const TableStyle = css`
     min-width: 0px;
   }
 
-  /**
- ****************************
- * Dialog
- ****************************
-*/
   .ag-dialog,
   .ag-panel {
     display: flex;
@@ -1017,22 +932,12 @@ const TableStyle = css`
     cursor: ew-resize;
   }
 
-  /**
- ****************************
- * Tooltip
- ****************************
-*/
   .ag-tooltip {
     position: absolute;
     pointer-events: none;
     z-index: 99999;
   }
 
-  /**
- ****************************
- * Animations
- ****************************
-*/
   .ag-value-slide-out {
     margin-right: 5px;
     opacity: 1;
@@ -1049,11 +954,6 @@ const TableStyle = css`
     opacity: 0 !important;
   }
 
-  /**
- ****************************
- * Menu
- ****************************
-*/
   .ag-menu {
     max-height: 100%;
     overflow-y: auto;
@@ -1092,11 +992,6 @@ const TableStyle = css`
     height: 100%;
   }
 
-  /**
- ****************************
- * Rich Select
- ****************************
-*/
   .ag-rich-select {
     cursor: default;
     outline: none;
@@ -1133,11 +1028,6 @@ const TableStyle = css`
     white-space: nowrap;
   }
 
-  /**
- ****************************
- * Pagination
- ****************************
-*/
   .ag-paging-panel {
     align-items: center;
     display: flex;
@@ -1162,11 +1052,6 @@ const TableStyle = css`
     pointer-events: none;
   }
 
-  /**
- ****************************
- * Tool Panel
- ****************************
-*/
   .ag-tool-panel-wrapper {
     display: flex;
     overflow-y: auto;
@@ -1259,11 +1144,6 @@ const TableStyle = css`
     flex-direction: row;
   }
 
-  /**
- ****************************
- * Side Bar
- ****************************
-*/
   .ag-side-bar {
     display: flex;
     flex-direction: row-reverse;
@@ -1292,11 +1172,6 @@ const TableStyle = css`
     writing-mode: vertical-lr;
   }
 
-  /**
- ****************************
- * Status Bar
- ****************************
-*/
   .ag-status-bar {
     display: flex;
     justify-content: space-between;
@@ -1323,11 +1198,6 @@ const TableStyle = css`
     display: inline-flex;
   }
 
-  /**
- ****************************
- * Widgets
- ****************************
-*/
   .ag-icon {
     display: block;
     speak: none;

@@ -3,7 +3,7 @@
 exports[`Storyshots Drawer No Close Button 1`] = `
 Array [
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 lnyuFn"
+    className="Button__StyledButton-sc-1tzlszx-0 ekYBiO"
     disabled={false}
     onClick={[Function]}
     size="medium"
@@ -1783,7 +1783,7 @@ Array [
             size="medium"
           >
             <li
-              className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+              className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
               onClick={[Function]}
               size="medium"
             >
@@ -2366,7 +2366,7 @@ Array [
               </div>
             </li>
             <li
-              className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+              className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
               onClick={[Function]}
               size="medium"
             >
@@ -2949,7 +2949,7 @@ Array [
               </div>
             </li>
             <li
-              className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+              className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
               onClick={[Function]}
               size="medium"
             >
@@ -4706,7 +4706,7 @@ Array [
               size="medium"
             >
               <li
-                className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+                className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
                 onClick={[Function]}
                 size="medium"
               >
@@ -5289,7 +5289,7 @@ Array [
                 </div>
               </li>
               <li
-                className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+                className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
                 onClick={[Function]}
                 size="medium"
               >
@@ -5872,7 +5872,7 @@ Array [
                 </div>
               </li>
               <li
-                className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+                className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
                 onClick={[Function]}
                 size="medium"
               >
@@ -8241,7 +8241,7 @@ Array [
 exports[`Storyshots Drawer Playground 1`] = `
 Array [
   <button
-    className="Button__StyledButton-sc-1tzlszx-0 lnyuFn"
+    className="Button__StyledButton-sc-1tzlszx-0 ekYBiO"
     disabled={false}
     onClick={[Function]}
     size="medium"
@@ -10593,7 +10593,7 @@ Array [
             size="medium"
           >
             <li
-              className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+              className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
               onClick={[Function]}
               size="medium"
             >
@@ -11176,7 +11176,7 @@ Array [
               </div>
             </li>
             <li
-              className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+              className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
               onClick={[Function]}
               size="medium"
             >
@@ -11759,7 +11759,7 @@ Array [
               </div>
             </li>
             <li
-              className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+              className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
               onClick={[Function]}
               size="medium"
             >
@@ -13516,7 +13516,7 @@ Array [
               size="medium"
             >
               <li
-                className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+                className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
                 onClick={[Function]}
                 size="medium"
               >
@@ -14099,7 +14099,7 @@ Array [
                 </div>
               </li>
               <li
-                className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+                className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
                 onClick={[Function]}
                 size="medium"
               >
@@ -14682,7 +14682,7 @@ Array [
                 </div>
               </li>
               <li
-                className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+                className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
                 onClick={[Function]}
                 size="medium"
               >
@@ -18813,7 +18813,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
           size="medium"
         >
           <li
-            className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+            className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
             onClick={[Function]}
             size="medium"
           >
@@ -19396,7 +19396,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
             </div>
           </li>
           <li
-            className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+            className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
             onClick={[Function]}
             size="medium"
           >
@@ -19979,7 +19979,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
             </div>
           </li>
           <li
-            className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+            className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
             onClick={[Function]}
             size="medium"
           >
@@ -21736,7 +21736,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
             size="medium"
           >
             <li
-              className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+              className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
               onClick={[Function]}
               size="medium"
             >
@@ -22319,7 +22319,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               </div>
             </li>
             <li
-              className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+              className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
               onClick={[Function]}
               size="medium"
             >
@@ -22902,7 +22902,7 @@ exports[`Storyshots Drawer Right Position 1`] = `
               </div>
             </li>
             <li
-              className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+              className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
               onClick={[Function]}
               size="medium"
             >

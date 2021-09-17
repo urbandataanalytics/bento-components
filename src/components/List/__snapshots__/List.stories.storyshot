@@ -14,7 +14,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
     size="medium"
   >
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
       onClick={[Function]}
       size="medium"
     >
@@ -597,7 +597,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 hOZajB"
+      className="ListItem__StyledListItem-sc-4kscw7-4 ezfsDP"
       onClick={[Function]}
       size="medium"
     >
@@ -1183,7 +1183,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
       className="ListItem__StyledListSeparator-sc-4kscw7-3 cQsRvK"
     />
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
       onClick={[Function]}
       size="medium"
     >
@@ -1766,7 +1766,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 efswlT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 celQyQ"
       onClick={[Function]}
       size="medium"
     >
@@ -2355,7 +2355,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
       className="ListItem__StyledListSeparator-sc-4kscw7-3 cQsRvK"
     />
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
       onClick={[Function]}
       size="medium"
     >
@@ -3510,7 +3510,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 hLwLgX"
+      className="ListItem__StyledListItem-sc-4kscw7-4 hsAINg"
       onClick={[Function]}
       size="medium"
     >
@@ -4668,7 +4668,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
       className="ListItem__StyledListSeparator-sc-4kscw7-3 cQsRvK"
     />
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 HKJVh"
+      className="ListItem__StyledListItem-sc-4kscw7-4 fkvYwB"
       onClick={[Function]}
       size="medium"
     >
@@ -4676,7 +4676,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 jLrpoj"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 bZaZBJ"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -5251,7 +5251,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
       onClick={[Function]}
       size="medium"
     >
@@ -5265,12 +5265,12 @@ exports[`Storyshots List Formatted List Items 1`] = `
       className="ListItem__StyledListSeparator-sc-4kscw7-3 cQsRvK"
     />
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
       onClick={[Function]}
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fXRHPF ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="#"
         size="medium"
@@ -5851,7 +5851,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
       </a>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 clmhGD"
+      className="ListItem__StyledListItem-sc-4kscw7-4 iUqowZ"
       disabled={true}
       onClick={[Function]}
       size="medium"
@@ -5860,7 +5860,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 eDeguz"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 iXkQwt"
           disabled={true}
         >
           <svg
@@ -6434,7 +6434,7 @@ exports[`Storyshots List Formatted List Items 1`] = `
         </div>
         Item disabled
         <div
-          className="ListItem__StyledRightContent-sc-4kscw7-2 iNNcBx"
+          className="ListItem__StyledRightContent-sc-4kscw7-2 hLUgUb"
           disabled={true}
         >
           <svg
@@ -7025,12 +7025,12 @@ exports[`Storyshots List Link List 1`] = `
     size="medium"
   >
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
       onClick={[Function]}
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fXRHPF ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="https://google.com"
         size="medium"
@@ -7039,12 +7039,12 @@ exports[`Storyshots List Link List 1`] = `
       </a>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 jupLBf"
+      className="ListItem__StyledListItem-sc-4kscw7-4 lcEOtM"
       onClick={[Function]}
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fXRHPF ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="#"
         size="medium"
@@ -7060,12 +7060,12 @@ exports[`Storyshots List Link List 1`] = `
       </a>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 jupLBf"
+      className="ListItem__StyledListItem-sc-4kscw7-4 lcEOtM"
       onClick={[Function]}
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fXRHPF ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="#"
         size="medium"
@@ -7646,12 +7646,12 @@ exports[`Storyshots List Link List 1`] = `
       </a>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 HKJVh"
+      className="ListItem__StyledListItem-sc-4kscw7-4 fkvYwB"
       onClick={[Function]}
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fXRHPF ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="#test"
         size="medium"
@@ -7676,7 +7676,7 @@ exports[`Storyshots List Navbar List 1`] = `
     size="medium"
   >
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 hLwLgX NavListItem__StyledNavListItem-l6e83g-0 kOdTQM"
+      className="ListItem__StyledListItem-sc-4kscw7-4 hsAINg NavListItem__StyledNavListItem-l6e83g-0 GTEwM"
       onClick={[Function]}
       size="medium"
     >
@@ -8259,7 +8259,7 @@ exports[`Storyshots List Navbar List 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 fdcevC NavListItem__StyledNavListItem-l6e83g-0 lburXE"
+      className="ListItem__StyledListItem-sc-4kscw7-4 hgLPmT NavListItem__StyledNavListItem-l6e83g-0 lburXE"
       onClick={[Function]}
       size="medium"
     >
@@ -8842,7 +8842,7 @@ exports[`Storyshots List Navbar List 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 clmhGD NavListItem__StyledNavListItem-l6e83g-0 eInZqj"
+      className="ListItem__StyledListItem-sc-4kscw7-4 iUqowZ NavListItem__StyledNavListItem-l6e83g-0 ihoCvy"
       disabled={true}
       onClick={[Function]}
       size="medium"
@@ -8851,7 +8851,7 @@ exports[`Storyshots List Navbar List 1`] = `
         className="ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       >
         <div
-          className="ListItem__StyledLeftContent-sc-4kscw7-0 eDeguz"
+          className="ListItem__StyledLeftContent-sc-4kscw7-0 iXkQwt"
           disabled={true}
         >
           <svg
@@ -9427,12 +9427,12 @@ exports[`Storyshots List Navbar List 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT NavListItem__StyledNavListItem-l6e83g-0 kOdTQM"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM NavListItem__StyledNavListItem-l6e83g-0 GTEwM"
       onClick={[Function]}
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 fZTcey ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        className="TextLink__StyledTextLink-qefl1h-0 fXRHPF ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
         disabled={false}
         href="https://google.com"
         size="medium"
@@ -10030,7 +10030,7 @@ exports[`Storyshots List Playground 1`] = `
     size="medium"
   >
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
       disabled={false}
       onClick={[Function]}
       size="medium"
@@ -10055,7 +10055,7 @@ exports[`Storyshots List Playground 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
       disabled={false}
       onClick={[Function]}
       size="medium"
@@ -10080,7 +10080,7 @@ exports[`Storyshots List Playground 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
       disabled={false}
       onClick={[Function]}
       size="medium"
@@ -10105,7 +10105,7 @@ exports[`Storyshots List Playground 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
       disabled={false}
       onClick={[Function]}
       size="medium"
@@ -10147,7 +10147,7 @@ exports[`Storyshots List With Check List 1`] = `
     size="medium"
   >
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 jupLBf CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
+      className="ListItem__StyledListItem-sc-4kscw7-4 lcEOtM CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
       onClick={[Function]}
       size="medium"
     >
@@ -10730,7 +10730,7 @@ exports[`Storyshots List With Check List 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
+      className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
       onClick={[Function]}
       size="medium"
     >
@@ -10741,7 +10741,7 @@ exports[`Storyshots List With Check List 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 jupLBf CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
+      className="ListItem__StyledListItem-sc-4kscw7-4 lcEOtM CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
       onClick={[Function]}
       size="medium"
     >
@@ -11896,7 +11896,7 @@ exports[`Storyshots List With Check List 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 jupLBf CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
+      className="ListItem__StyledListItem-sc-4kscw7-4 lcEOtM CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
       onClick={[Function]}
       size="medium"
     >
@@ -12479,7 +12479,7 @@ exports[`Storyshots List With Check List 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 jupLBf CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
+      className="ListItem__StyledListItem-sc-4kscw7-4 lcEOtM CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
       onClick={[Function]}
       size="medium"
     >
@@ -13062,7 +13062,7 @@ exports[`Storyshots List With Check List 1`] = `
       </div>
     </li>
     <li
-      className="ListItem__StyledListItem-sc-4kscw7-4 clmhGD CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
+      className="ListItem__StyledListItem-sc-4kscw7-4 iUqowZ CheckListItem__StyledCheckListItem-vlf9g9-0 gZXyGm"
       disabled={true}
       onClick={[Function]}
       size="medium"

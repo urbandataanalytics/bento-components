@@ -41,7 +41,6 @@ describe(`Carousel`, () => {
       <Carousel thumbnailsEnabled slides={CAROUSEL_SLIDES} onChange={onChange} />
     );
 
-    // Click on next button
     const buttons = wrapper.find('Carousel__ControlButton');
     buttons.at(1).simulate('click');
 
@@ -54,7 +53,6 @@ describe(`Carousel`, () => {
       <Carousel thumbnailsEnabled slides={CAROUSEL_SLIDES} onChange={onChange} />
     );
 
-    // Click on next button
     const leftButton = wrapper.find('Carousel__ControlButton');
     leftButton.at(0).simulate('click');
 

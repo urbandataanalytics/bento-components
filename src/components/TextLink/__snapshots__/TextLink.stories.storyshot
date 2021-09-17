@@ -9,7 +9,7 @@ exports[`Storyshots TextLink Playground 1`] = `
   }
 >
   <a
-    className="TextLink__StyledTextLink-qefl1h-0 fZTcey"
+    className="TextLink__StyledTextLink-qefl1h-0 fXRHPF"
     disabled={false}
     href="#"
     size="medium"
