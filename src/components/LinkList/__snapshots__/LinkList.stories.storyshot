@@ -6,12 +6,12 @@ exports[`Storyshots LinkList Normal 1`] = `
   size="medium"
 >
   <li
-    className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+    className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
     onClick={[Function]}
     size="medium"
   >
     <a
-      className="TextLink__StyledTextLink-qefl1h-0 kcSnXN ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+      className="TextLink__StyledTextLink-qefl1h-0 fXRHPF ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       disabled={false}
       href="#"
       size="medium"
@@ -20,12 +20,12 @@ exports[`Storyshots LinkList Normal 1`] = `
     </a>
   </li>
   <li
-    className="ListItem__StyledListItem-sc-4kscw7-4 jupLBf"
+    className="ListItem__StyledListItem-sc-4kscw7-4 lcEOtM"
     onClick={[Function]}
     size="medium"
   >
     <a
-      className="TextLink__StyledTextLink-qefl1h-0 kcSnXN ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+      className="TextLink__StyledTextLink-qefl1h-0 fXRHPF ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       disabled={false}
       href="#"
       size="medium"
@@ -41,13 +41,13 @@ exports[`Storyshots LinkList Normal 1`] = `
     </a>
   </li>
   <li
-    className="ListItem__StyledListItem-sc-4kscw7-4 clmhGD"
+    className="ListItem__StyledListItem-sc-4kscw7-4 iUqowZ"
     disabled={true}
     onClick={[Function]}
     size="medium"
   >
     <a
-      className="TextLink__StyledTextLink-qefl1h-0 kVIPqQ ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+      className="TextLink__StyledTextLink-qefl1h-0 djQzKO ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
       disabled={true}
       href="#"
       size="medium"

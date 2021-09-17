@@ -20,17 +20,37 @@ export const StyledLeftContent = styled.div`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
-  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
+  ${props =>
+    props.disabled &&
+    css`
+      color: ${props.theme.components.listItemColorDisabled};
+    `}
 
   > svg {
     fill: ${props => (props.active ? props.theme.components.listItemColorActive : '')};
-    ${props => props.focused && `fill: ${props.theme.components.listItemColorFocused}`};
-    ${props => props.disabled && `fill: ${props.theme.components.listItemColorDisabled}`}
+    ${props =>
+      props.focused &&
+      css`
+        fill: ${props.theme.components.listItemColorFocused};
+      `};
+    ${props =>
+      props.disabled &&
+      css`
+        fill: ${props.theme.components.listItemColorDisabled};
+      `}
   }
 
   > * {
-    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
-    ${props => props.focused && `color: ${props.theme.components.listItemColorFocused}`};
+    ${props =>
+      props.disabled &&
+      css`
+        color: ${props.theme.components.listItemColorDisabled};
+      `}
+    ${props =>
+      props.focused &&
+      css`
+        color: ${props.theme.components.listItemColorFocused};
+      `};
   }
 `;
 
@@ -54,17 +74,37 @@ export const StyledRightContent = styled.div`
     props.active
       ? props.theme.components.listItemColorActive
       : props.theme.components.listItemColorDefault};
-  ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
+  ${props =>
+    props.disabled &&
+    css`
+      color: ${props.theme.components.listItemColorDisabled};
+    `}
 
   > svg {
     fill: ${props => (props.active ? props.theme.components.listItemColorActive : '')};
-    ${props => props.disabled && `fill: ${props.theme.components.listItemColorDisabled}`}
-    ${props => props.focused && `fill: ${props.theme.components.listItemColorFocused}`};
+    ${props =>
+      props.disabled &&
+      css`
+        fill: ${props.theme.components.listItemColorDisabled};
+      `}
+    ${props =>
+      props.focused &&
+      css`
+        fill: ${props.theme.components.listItemColorFocused};
+      `};
   }
 
   > * {
-    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`}
-    ${props => props.focused && `fill: ${props.theme.components.listItemColorFocused}`};
+    ${props =>
+      props.disabled &&
+      css`
+        color: ${props.theme.components.listItemColorDisabled};
+      `}
+    ${props =>
+      props.focused &&
+      css`
+        fill: ${props.theme.components.listItemColorFocused};
+      `};
   }
 `;
 
@@ -103,10 +143,20 @@ export const StyledListItem = styled.li`
   cursor: ${props => (props.disabled ? 'default' : props.onClick ? 'pointer' : 'default')};
   ${props =>
     props.disabled &&
-    ` color: ${props.theme.components.listItemColorDisabled}; background-color:${props.theme.components.listItemBackgroundColorDisabled};`};
+    css`
+      color: ${props.theme.components.listItemColorDisabled};
+      background-color: ${props.theme.components.listItemBackgroundColorDisabled};
+    `};
   ${props =>
-    props.focused && `background-color: ${props.theme.components.listItemBackgroundColorFocused}`};
-  ${props => props.focused && `color: ${props.theme.components.listItemColorFocused}`};
+    props.focused &&
+    css`
+      background-color: ${props.theme.components.listItemBackgroundColorFocused};
+    `};
+  ${props =>
+    props.focused &&
+    css`
+      color: ${props.theme.components.listItemColorFocused};
+    `};
   border-radius: ${props => props.theme.components.listItemBorderRadius};
 
   &:last-child {
@@ -116,17 +166,21 @@ export const StyledListItem = styled.li`
   &:hover {
     ${props =>
       !props.disabled &&
-      `background-color: ${
-        props.active
+      css`
+        background-color: ${props.active
           ? props.theme.components.listItemBackgroundColorActiveHover
-          : props.theme.components.listItemBackgroundColorDefaultHover
-      }`};
+          : props.theme.components.listItemBackgroundColorDefaultHover};
+      `};
     ${props =>
       props.disabled &&
-      `background-color: ${props.theme.components.listItemBackgroundColorHoverDisabled}`};
+      css`
+        background-color: ${props.theme.components.listItemBackgroundColorHoverDisabled};
+      `};
     ${props =>
       props.focused &&
-      `background-color: ${props.theme.components.listItemBackgroundColorFocused}`};
+      css`
+        background-color: ${props.theme.components.listItemBackgroundColorFocused};
+      `};
 
     color: ${props =>
       props.active
@@ -155,11 +209,21 @@ export const StyledListItem = styled.li`
   }
 
   ${StyledLeftContent} {
-    ${props => (props.focusContent || props.focusLeftContent) && !props.active && 'opacity: 0'};
+    ${props =>
+      (props.focusContent || props.focusLeftContent) &&
+      !props.active &&
+      css`
+        opacity: 0;
+      `};
   }
 
   ${StyledRightContent} {
-    ${props => (props.focusContent || props.focusRightContent) && !props.active && 'opacity: 0'};
+    ${props =>
+      (props.focusContent || props.focusRightContent) &&
+      !props.active &&
+      css`
+        opacity: 0;
+      `};
   }
 
   > ${StyledComponent} {
@@ -174,11 +238,27 @@ export const StyledListItem = styled.li`
         : props.theme.components.listItemColorDefault};
     font-weight: ${props => props.theme.components.listItemFontWeight};
     ${props => componentSizes(props.theme)[props.size]};
-    ${props => props.focused && `color: ${props.theme.components.listItemColorFocused}`};
-    ${props => props.focused && `font-weight: ${props.theme.components.listItemFontWeightFocused}`};
+    ${props =>
+      props.focused &&
+      css`
+        color: ${props.theme.components.listItemColorFocused};
+      `};
+    ${props =>
+      props.focused &&
+      css`
+        font-weight: ${props.theme.components.listItemFontWeightFocused};
+      `};
 
-    ${props => props.disabled && `color: ${props.theme.components.listItemColorDisabled}`};
-    ${props => props.disabled && `pointer-events: none`};
+    ${props =>
+      props.disabled &&
+      css`
+        color: ${props.theme.components.listItemColorDisabled};
+      `};
+    ${props =>
+      props.disabled &&
+      css`
+        pointer-events: none;
+      `};
   }
 `;
 

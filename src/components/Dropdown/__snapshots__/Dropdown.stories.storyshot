@@ -16,7 +16,7 @@ exports[`Storyshots Dropdown Bottom Position 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+        className="Button__StyledButton-sc-1tzlszx-0 ekYBiO"
         disabled={false}
         size="medium"
       >
@@ -624,7 +624,7 @@ exports[`Storyshots Dropdown Center Alignment 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+        className="Button__StyledButton-sc-1tzlszx-0 ekYBiO"
         disabled={false}
         size="medium"
       >
@@ -1232,7 +1232,7 @@ exports[`Storyshots Dropdown Close On Click Inside 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+        className="Button__StyledButton-sc-1tzlszx-0 ekYBiO"
         disabled={false}
         size="medium"
       >
@@ -1840,7 +1840,7 @@ exports[`Storyshots Dropdown Left Alignment 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+        className="Button__StyledButton-sc-1tzlszx-0 ekYBiO"
         disabled={false}
         size="medium"
       >
@@ -2448,7 +2448,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+        className="Button__StyledButton-sc-1tzlszx-0 ekYBiO"
         disabled={false}
         size="medium"
       >
@@ -3056,7 +3056,7 @@ exports[`Storyshots Dropdown Right Alignment 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+        className="Button__StyledButton-sc-1tzlszx-0 ekYBiO"
         disabled={false}
         size="medium"
       >
@@ -3664,7 +3664,7 @@ exports[`Storyshots Dropdown Top Position 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+        className="Button__StyledButton-sc-1tzlszx-0 ekYBiO"
         disabled={false}
         size="medium"
       >
@@ -4272,7 +4272,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
       onClick={[Function]}
     >
       <button
-        className="Button__StyledButton-sc-1tzlszx-0 hCykVi"
+        className="Button__StyledButton-sc-1tzlszx-0 ekYBiO"
         disabled={false}
         size="medium"
       >

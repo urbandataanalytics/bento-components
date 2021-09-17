@@ -4106,7 +4106,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
       className="Accordion__StyledRightContent-jp5rw6-5 eriVpY"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 kcSnXN"
+        className="TextLink__StyledTextLink-qefl1h-0 fXRHPF"
         disabled={false}
         href="#"
         size="medium"
@@ -4694,7 +4694,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
         size="medium"
       >
         <li
-          className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+          className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
           onClick={[Function]}
           size="medium"
         >
@@ -5277,7 +5277,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
           </div>
         </li>
         <li
-          className="ListItem__StyledListItem-sc-4kscw7-4 gvbmVT"
+          className="ListItem__StyledListItem-sc-4kscw7-4 cDZUJM"
           onClick={[Function]}
           size="medium"
         >
@@ -5860,7 +5860,7 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
           </div>
         </li>
         <li
-          className="ListItem__StyledListItem-sc-4kscw7-4 jupLBf"
+          className="ListItem__StyledListItem-sc-4kscw7-4 lcEOtM"
           onClick={[Function]}
           size="medium"
         >

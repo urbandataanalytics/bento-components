@@ -632,7 +632,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
     className="FormGroup__StyledFormGroup-sc-1b14bqt-0 kemqwl"
   >
     <button
-      className="Button__StyledButton-sc-1tzlszx-0 dtboMt"
+      className="Button__StyledButton-sc-1tzlszx-0 eJfdTp"
       disabled={true}
       size="large"
     >

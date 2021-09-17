@@ -116,10 +116,10 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background: ${({ theme }) => theme.color.golden300}; /* WebKit/Blink Browsers */
+    background: ${({ theme }) => theme.color.golden300}; 
   }
   ::-moz-selection {
-    background: ${({ theme }) => theme.color.golden300}; /* Gecko Browsers */
+    background: ${({ theme }) => theme.color.golden300}; 
   }
 `;
 

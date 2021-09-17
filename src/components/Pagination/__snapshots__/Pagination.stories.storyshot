@@ -28,7 +28,7 @@ exports[`Storyshots Pagination Playground 1`] = `
       />
     </div>
     <button
-      className="Button__StyledButton-sc-1tzlszx-0 hmjTYV"
+      className="Button__StyledButton-sc-1tzlszx-0 ksHqod"
       disabled={false}
       onClick={[Function]}
       size="large"

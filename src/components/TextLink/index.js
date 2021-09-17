@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import defaultTheme from '../../themes/defaultTheme';
 import { useBreakpoint } from '../../hooks/useBreakpoint';
@@ -50,16 +50,20 @@ const StyledTextLink = styled.a`
   ${props => componentVariants(props.theme)[props.variant]}
   ${props => props.disabled && componentDisabled(props.theme)}
 
-  ${({ isDesktop }) => isDesktop && `transition: ${({ theme }) => theme.global.transitionS};`};
+  ${({ isDesktop }) =>
+    isDesktop &&
+    css`
+      transition: ${({ theme }) => theme.global.transitionS};
+    `};
 
   ${({ isMobile }) =>
     isMobile &&
-    `
-    transition: none;
-    &:hover{
-      color: inherit !important;
-    }
-  `};
+    css`
+      transition: none;
+      &:hover {
+        color: inherit !important;
+      }
+    `};
 `;
 
 StyledTextLink.defaultProps = {
