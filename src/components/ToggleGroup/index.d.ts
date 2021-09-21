@@ -4,7 +4,7 @@ export interface ToggleGroupProps {
     ev: SyntheticInputEvent<HTMLInputElement>,
     value: string | number
   ) => void | Promise<any>;
-  value?: string | number;
+  value?: string | number | boolean;
   variant?: 'tabs' | 'button';
 }
 
