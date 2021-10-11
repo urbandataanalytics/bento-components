@@ -123,7 +123,7 @@ const Modal = ({
   }, [isOpen]);
 
   const breakpoint = useBreakpoint();
-  const isMobileOrTablet = breakpoint === 's' || breakpoint === 'm' || breakpoint === 'l';
+  const isMobileOrTablet = breakpoint === 's' || breakpoint === 'm';
 
   return isOpen ? (
     <StyledOverlay zIndex={zIndex} opacity={opacity} isMobileOrTablet={isMobileOrTablet}>
