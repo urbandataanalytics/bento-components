@@ -162,7 +162,7 @@ const Carousel = React.forwardRef((props, ref) => {
   }, [embla, emblaThumbs]);
 
   const findSlidesInView = useCallback(() => {
-    if (!embla) return;
+    if (!embla || (thumbnailsEnabled && !emblaThumbs)) return;
 
     setSlidesInView(slidesInView => {
       if (slidesInView.length === embla.slideNodes().length) {
@@ -180,7 +180,7 @@ const Carousel = React.forwardRef((props, ref) => {
       });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [embla, setSlidesInView]);
+  }, [embla, emblaThumbs, setSlidesInView, setThumbSlidesInView]);
 
   useEffect(() => {
     if (!embla) return;

@@ -25,6 +25,7 @@ const GlobalStyle = createGlobalStyle`
   html {
     font-family: ${({ theme }) => theme.global.fontFamily};
     ${({ theme }) => theme.texts.p1}
+    height: -webkit-fill-available;
   }
 
   body {
@@ -33,6 +34,8 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.5;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
   }
 
   ${({ theme }) => headingsGenerator(theme.headings)}
