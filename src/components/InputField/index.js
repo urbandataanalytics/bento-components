@@ -43,7 +43,11 @@ export const Input = styled.input`
   transition: ${({ theme }) => theme.global.transitionM};
   background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
   border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
-  ${({ type }) => type === 'password' && 'padding-right: 75px;'}
+  ${({ type }) =>
+    type === 'password' &&
+    css`
+      padding-right: 75px;
+    `}
 
   + button {
     position: absolute;
@@ -158,9 +162,9 @@ const InputField = React.forwardRef((props, ref) => {
           />
         )}
 
-        {label && <LabelText disabled={disabled}>{label}</LabelText>}
+        {label ? <LabelText disabled={disabled}>{label}</LabelText> : null}
       </Label>
-      {help && <HelpText className={error ? 'error' : null}>{help}</HelpText>}
+      {help ? <HelpText className={error ? 'error' : null}>{help}</HelpText> : null}
     </div>
   );
 });
@@ -169,7 +173,7 @@ InputField.propTypes = {
   className: PropTypes.string,
   disabled: PropTypes.bool,
   error: PropTypes.bool,
-  help: PropTypes.string,
+  help: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
   onChange: PropTypes.func,
