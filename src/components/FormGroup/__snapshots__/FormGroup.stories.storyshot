@@ -40,7 +40,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
         className="InputField__Label-sc-1kf04eo-3 ckeGRO"
       >
         <input
-          className="InputField__Input-sc-1kf04eo-2 pcwob"
+          className="InputField__Input-sc-1kf04eo-2 fcKoTL"
           disabled={false}
           placeholder="Type your password"
           type="password"
