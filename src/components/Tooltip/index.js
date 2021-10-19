@@ -248,7 +248,7 @@ const Tooltip = ({
   return (
     <StyledTooltip ref={container}>
       {React.cloneElement(children, childrenProps)}
-      {open && (
+      {open ? (
         <Portal renderInto="tooltips">
           <StyledTooltipLabel
             width={width}
@@ -259,12 +259,12 @@ const Tooltip = ({
             className={portalClassName}
           >
             <div ref={content}>
-              {title && <p>{title}</p>}
-              {value && <p>{value}</p>}
+              {title ? <p>{title}</p> : null}
+              {value ? <p>{value}</p> : null}
             </div>
           </StyledTooltipLabel>
         </Portal>
-      )}
+      ) : null}
     </StyledTooltip>
   );
 };

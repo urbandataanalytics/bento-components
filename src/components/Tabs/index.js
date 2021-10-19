@@ -71,9 +71,9 @@ const Tabs = props => {
 
   return (
     <StyledTabsContainer align={align} {...other}>
-      {leftContent && <StyledLeftContent>{leftContent}</StyledLeftContent>}
+      {leftContent ? <StyledLeftContent>{leftContent}</StyledLeftContent> : null}
       <StyledTabsContent>{children}</StyledTabsContent>
-      {rightContent && <StyledRightContent>{rightContent}</StyledRightContent>}
+      {rightContent ? <StyledRightContent>{rightContent}</StyledRightContent> : null}
     </StyledTabsContainer>
   );
 };

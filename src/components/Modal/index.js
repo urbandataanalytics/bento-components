@@ -128,18 +128,18 @@ const Modal = ({
   return isOpen ? (
     <StyledOverlay zIndex={zIndex} opacity={opacity} isMobileOrTablet={isMobileOrTablet}>
       <StyledContainer {...other} ref={ref} isMobileOrTablet={isMobileOrTablet}>
-        {((header && header.props.children) || closable) && (
+        {(header && header.props.children) || closable ? (
           <StyledHeader hasHeading={header && header.props.children} closable={closable}>
-            {header && header.props.children && <StyleHeading>{header}</StyleHeading>}
-            {closable && (
+            {header && header.props.children ? <StyleHeading>{header}</StyleHeading> : null}
+            {closable ? (
               <button onClick={onClose}>
                 <IconClose customColor={theme.color.charcoal600} />
               </button>
-            )}
+            ) : null}
           </StyledHeader>
-        )}
+        ) : null}
         <StyledContent full={full}>{children}</StyledContent>
-        {footer && footer.props.children && <StyledFooter>{footer}</StyledFooter>}
+        {footer && footer.props.children ? <StyledFooter>{footer}</StyledFooter> : null}
       </StyledContainer>
     </StyledOverlay>
   ) : null;

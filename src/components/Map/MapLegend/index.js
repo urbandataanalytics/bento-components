@@ -121,8 +121,8 @@ const MapLegend = forwardRef((props, ref) => {
       ) : (
         <>
           <StyledWrapper>
-            {title && <StyledTitle>{title}</StyledTitle>}
-            {description && <StyledDescription>{description}</StyledDescription>}
+            {title ? <StyledTitle>{title}</StyledTitle> : null}
+            {description ? <StyledDescription>{description}</StyledDescription> : null}
             {variant === 'range' ? (
               <>
                 <StyledRangeColors>
@@ -146,7 +146,7 @@ const MapLegend = forwardRef((props, ref) => {
               </StylePoints>
             )}
           </StyledWrapper>
-          {actions.length > 0 && (
+          {actions.length > 0 ? (
             <StyledActions>
               {actions.map(({ value, label }, i) => (
                 <Action key={i} onClick={() => onChangeAction(value)} active={value === active}>
@@ -154,7 +154,7 @@ const MapLegend = forwardRef((props, ref) => {
                 </Action>
               ))}
             </StyledActions>
-          )}
+          ) : null}
         </>
       )}
     </StyledContainer>

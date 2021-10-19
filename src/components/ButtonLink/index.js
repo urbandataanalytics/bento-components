@@ -118,17 +118,17 @@ const ButtonLink = React.forwardRef((props, ref) => {
       isMobile={isMobile}
       {...other}
     >
-      {iconLeft && (
+      {iconLeft ? (
         <IconWrapper variant={variant} disabled={disabled} direction="left" size={size}>
           {iconLeft}
         </IconWrapper>
-      )}
+      ) : null}
       {children}
-      {iconRight && (
+      {iconRight ? (
         <IconWrapper variant={variant} disabled={disabled} direction="right" size={size}>
           {iconRight}
         </IconWrapper>
-      )}
+      ) : null}
     </StyledButtonLink>
   );
 });

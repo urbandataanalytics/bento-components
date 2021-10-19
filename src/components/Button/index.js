@@ -200,17 +200,17 @@ const Button = React.forwardRef((props, ref) => {
       {...other}
     >
       <Loader loading={loading} loadingText={loadingText} />
-      {iconLeft && (
+      {iconLeft ? (
         <IconWrapper variant={variant} disabled={disabled} direction="left" size={size}>
           {iconLeft}
         </IconWrapper>
-      )}
+      ) : null}
       <StyledContent>{children}</StyledContent>
-      {iconRight && (
+      {iconRight ? (
         <IconWrapper variant={variant} disabled={disabled} direction="right" size={size}>
           {iconRight}
         </IconWrapper>
-      )}
+      ) : null}
     </StyledButton>
   );
 });

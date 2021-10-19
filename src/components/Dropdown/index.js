@@ -140,7 +140,7 @@ const Dropdown = ({
   return (
     <StyledDropdown {...other} ref={container}>
       <StyledLabel onClick={() => setOpen(!isDropdownOpen)}>{label}</StyledLabel>
-      {isDropdownOpen && (
+      {isDropdownOpen ? (
         <Portal renderInto="dropdowns">
           <ChildrenContainer
             zIndex={zIndex}
@@ -153,7 +153,7 @@ const Dropdown = ({
             <div ref={content}>{children}</div>
           </ChildrenContainer>
         </Portal>
-      )}
+      ) : null}
     </StyledDropdown>
   );
 };
