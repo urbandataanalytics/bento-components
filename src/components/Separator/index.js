@@ -43,11 +43,11 @@ const Separator = props => {
 
   return (
     <StyledContainer width={width}>
-      {label && (
+      {label ? (
         <StyledLabel>
           <span>{label}</span>
         </StyledLabel>
-      )}
+      ) : null}
       <StyledWrapper>
         <StyledLine />
       </StyledWrapper>

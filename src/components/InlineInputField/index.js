@@ -209,19 +209,19 @@ const InlineInputField = React.forwardRef((props, ref) => {
   return (
     <>
       <FullInputContainer prefix={prefix} className={className} label={label} helpText={help}>
-        {label && (
+        {label ? (
           <Label htmlFor={name}>
-            {labelIcon && (
+            {labelIcon ? (
               <IconWrapper variant="secondary" disabled={disabled} size="medium">
                 {labelIcon}
               </IconWrapper>
-            )}
+            ) : null}
             <LabelText disabled={disabled}>{label}</LabelText>
           </Label>
-        )}
+        ) : null}
         <InputContainer>
           <InputWrapper prefix={prefix} inputBackground={inputBackground}>
-            {prefix && (
+            {prefix ? (
               <InnerLabel
                 disabled={disabled}
                 ref={node => {
@@ -233,7 +233,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
               >
                 {prefix}
               </InnerLabel>
-            )}
+            ) : null}
             <Input
               ref={node => {
                 inputRef = node;
@@ -269,7 +269,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
             </InnerLabel>
           </InputWrapper>
         </InputContainer>
-        {help && (
+        {help ? (
           <HelpText
             boldContent={boldContent}
             label={label}
@@ -278,7 +278,7 @@ const InlineInputField = React.forwardRef((props, ref) => {
           >
             {help}
           </HelpText>
-        )}
+        ) : null}
       </FullInputContainer>
     </>
   );

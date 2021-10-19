@@ -11,12 +11,12 @@ const SliderSkeleton = ({ variant }) => {
   return (
     <div>
       <Skeleton height="10px" width="100%" />
-      {variant === 'range' && (
+      {variant === 'range' ? (
         <MinMaxContainer>
           <Skeleton height="14px" width="80px" />
           <Skeleton height="14px" width="80px" />
         </MinMaxContainer>
-      )}
+      ) : null}
     </div>
   );
 };

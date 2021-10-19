@@ -150,15 +150,15 @@ const TextareaField = React.forwardRef((props, ref) => {
           ref={ref}
           {...other}
         />
-        {label && <LabelText disabled={disabled}>{label}</LabelText>}
+        {label ? <LabelText disabled={disabled}>{label}</LabelText> : null}
       </Label>
       <SubContainer help={help}>
-        {help && <HelpText className={error ? 'error' : null}>{help}</HelpText>}
-        {maxlength && counter && (
+        {help ? <HelpText className={error ? 'error' : null}>{help}</HelpText> : null}
+        {maxlength && counter ? (
           <HelpText>
             {value.length < maxlength ? value.length : maxlength}/{maxlength}
           </HelpText>
-        )}
+        ) : null}
       </SubContainer>
     </div>
   );

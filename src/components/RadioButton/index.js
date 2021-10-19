@@ -152,11 +152,11 @@ const RadioButton = React.forwardRef((props, ref) => {
       <IconContainer disabled={disabled} checked={checked} size={size}>
         <Glyph disabled={disabled} size={size} />
       </IconContainer>
-      {label && (
+      {label ? (
         <LabelText checked={checked} color={customLabelColor}>
           {label}
         </LabelText>
-      )}
+      ) : null}
     </StyledLabel>
   );
 });

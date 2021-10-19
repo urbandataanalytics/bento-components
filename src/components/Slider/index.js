@@ -495,11 +495,11 @@ const Slider = React.forwardRef((props, ref) => {
 
             <MinMaxContainer>
               <InputContainer>
-                {(prefix || minPrefix) && (
+                {prefix || minPrefix ? (
                   <PrefixSuffix className="prefix" size={size}>
                     {prefix || minPrefix}
                   </PrefixSuffix>
-                )}
+                ) : null}
                 <InputFormatter
                   isEditing={isEditing.min}
                   toggleEditing={value => toggleEdditing({ ...isEditing, min: value })}
@@ -511,17 +511,17 @@ const Slider = React.forwardRef((props, ref) => {
                   size={size}
                 />
 
-                {(suffix || minSuffix) && (
+                {suffix || minSuffix ? (
                   <PrefixSuffix size={size}>{suffix || minSuffix}</PrefixSuffix>
-                )}
+                ) : null}
               </InputContainer>
 
               <InputContainer>
-                {(prefix || maxPrefix) && (
+                {prefix || maxPrefix ? (
                   <PrefixSuffix className="prefix" size={size}>
                     {prefix || maxPrefix}
                   </PrefixSuffix>
-                )}
+                ) : null}
                 <InputFormatter
                   isEditing={isEditing.max}
                   toggleEditing={value => toggleEdditing({ ...isEditing, max: value })}
@@ -533,9 +533,9 @@ const Slider = React.forwardRef((props, ref) => {
                   size={size}
                 />
 
-                {(suffix || maxSuffix) && (
+                {suffix || maxSuffix ? (
                   <PrefixSuffix size={size}>{suffix || maxSuffix}</PrefixSuffix>
-                )}
+                ) : null}
               </InputContainer>
             </MinMaxContainer>
           </>

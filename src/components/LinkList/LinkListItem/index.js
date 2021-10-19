@@ -11,7 +11,7 @@ const LinkListItem = props => {
     <ListItem
       active={active}
       as={as}
-      rightContent={active && <span>{BULLET_ICON}</span>}
+      rightContent={active ? <span>{BULLET_ICON}</span> : null}
       {...other}
     >
       {children}

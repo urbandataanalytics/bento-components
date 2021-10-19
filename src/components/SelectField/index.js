@@ -114,7 +114,7 @@ const SelectField = React.forwardRef((props, ref) => {
           ref={ref}
           {...other}
         >
-          {defaultLabel && <option value={defaultValue}>{defaultLabel}</option>}
+          {defaultLabel ? <option value={defaultValue}>{defaultLabel}</option> : null}
           {options &&
             options.map((opt, key) => (
               <option key={key} value={opt.value}>
@@ -122,9 +122,9 @@ const SelectField = React.forwardRef((props, ref) => {
               </option>
             ))}
         </Select>
-        {label && <LabelText disabled={disabled}>{label}</LabelText>}
+        {label ? <LabelText disabled={disabled}>{label}</LabelText> : null}
       </Label>
-      {help && <HelpText className={error ? 'error' : null}>{help}</HelpText>}
+      {help ? <HelpText className={error ? 'error' : null}>{help}</HelpText> : null}
     </div>
   );
 });
