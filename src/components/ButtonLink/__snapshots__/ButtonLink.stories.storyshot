@@ -46,9 +46,7 @@ exports[`Storyshots ButtonLink Playground 1`] = `
     disabled={false}
     size="medium"
   >
-    
     ButtonLink
-    
   </button>
 </div>
 `;

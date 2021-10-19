@@ -2986,13 +2986,11 @@ exports[`Storyshots Button Playground 1`] = `
         
       </span>
     </span>
-    
     <span
       className="Button__StyledContent-sc-1tzlszx-2 cPiKOG"
     >
       Button
     </span>
-    
   </button>
 </div>
 `;

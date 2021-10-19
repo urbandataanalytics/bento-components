@@ -119,7 +119,6 @@ exports[`Storyshots InlineInputField Playground 1`] = `
     <label
       className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
-      
       <p
         className="InlineInputField__LabelText-jwshkl-1 eufKgE"
         disabled={false}
