@@ -21,8 +21,18 @@ const StyledToggleGroupContainer = styled.div`
 
     &:hover{
       background-color: ${({ theme }) => theme.color.charcoal300};
+      &:disabled {
+        background-color: ${({ theme }) => theme.color.white};
+      }
     }
 
+    &:disabled {
+      color: ${({ theme }) => theme.color.charcoal400};
+      &.active {
+        color: ${({ theme }) => theme.color.primary300};
+        border: 2px solid ${({ theme }) => theme.color.primary300};
+      }
+    }
   }
 `;
 
@@ -48,7 +58,8 @@ const ToggleGroup = props => {
           : null,
       variant: value === childValue ? 'primary' : 'secondary',
       value: childValue,
-      onClick: event => onChange(event, childValue)
+      onClick: event => onChange(event, childValue),
+      disabled: child.props.disabled
     });
   });
 
