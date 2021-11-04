@@ -20,7 +20,7 @@ exports[`Storyshots InputField Disabled 1`] = `
         value="Value text"
       />
       <p
-        className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+        className="InputField__LabelText-sc-1kf04eo-0 ljMMho"
         disabled={true}
       >
         Label text
@@ -55,7 +55,7 @@ exports[`Storyshots InputField Error 1`] = `
         value="Value text"
       />
       <p
-        className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+        className="InputField__LabelText-sc-1kf04eo-0 ljMMho"
         disabled={false}
       >
         Label text
@@ -90,7 +90,7 @@ exports[`Storyshots InputField Normal 1`] = `
         value="Value text"
       />
       <p
-        className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+        className="InputField__LabelText-sc-1kf04eo-0 ljMMho"
         disabled={false}
       >
         Label text

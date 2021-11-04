@@ -312,7 +312,7 @@ exports[`Storyshots SelectField Playground 1`] = `
               "inputFieldHelpColor": "#212632",
               "inputFieldHelpFontSize": "12px",
               "inputFieldLabelColor": "#363C4B",
-              "inputFieldLabelFontSize": "12px",
+              "inputFieldLabelFontSize": "14px",
               "inputFieldLineHeight": "48px",
               "inputFieldPlaceholderColor": "#DCDFE6",
               "inputFieldTextIndent": "24px",
@@ -603,7 +603,7 @@ exports[`Storyshots SelectField Playground 1`] = `
         </option>
       </select>
       <p
-        className="SelectField__LabelText-sc-1svgo9p-0 kdJPvF"
+        className="SelectField__LabelText-sc-1svgo9p-0 kcBvxG"
         disabled={false}
       >
         Label Text
