@@ -376,7 +376,7 @@ const components = {
   inputFieldHelpColor: color.charcoal800,
   inputFieldHelpFontSize: '12px',
   inputFieldLabelColor: color.charcoal700,
-  inputFieldLabelFontSize: '12px',
+  inputFieldLabelFontSize: '14px',
   inputFieldLineHeight: '48px',
   inputFieldPlaceholderColor: color.charcoal400,
   inputFieldTextIndent: spacings.small4,
