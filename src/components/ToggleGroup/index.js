@@ -27,7 +27,8 @@ const StyledToggleGroupContainer = styled.div`
     }
 
     &:disabled {
-      color: ${({ theme }) => theme.color.charcoal400};
+      color: ${({ theme }) => theme.color.charcoal500};
+      border: 1px solid ${({ theme }) => theme.color.charcoal400};
       &.active {
         color: ${({ theme }) => theme.color.primary300};
         border: 2px solid ${({ theme }) => theme.color.primary300};
