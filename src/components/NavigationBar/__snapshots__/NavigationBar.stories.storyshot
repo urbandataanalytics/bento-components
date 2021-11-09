@@ -55,6 +55,7 @@ exports[`Storyshots NavigationBar Playground 1`] = `
         >
           <div
             className="Dropdown__StyledLabel-sc-103yhtj-1 gOugPm"
+            disabled={false}
             onClick={[Function]}
           >
             <div
@@ -1294,6 +1295,7 @@ exports[`Storyshots NavigationBar Playground 1`] = `
         >
           <div
             className="Dropdown__StyledLabel-sc-103yhtj-1 gOugPm"
+            disabled={false}
             onClick={[Function]}
           >
             <svg

@@ -25,6 +25,7 @@ Table below contains all types of the props available in the Dropdown component.
 | closeOnClickInside  | `boolean`             | `false`    | Close Dropdown when an option is selected.                                      |
 | closeOnClickOutside | `boolean`             | `true`     | Close Dropdown when a click outside is detected.                                |
 | isOpen              | `boolean`             | `false`    | Set Dropdown open status.                                                       |
+| disabled            | `boolean`             | `false`    | Set Dropdown disabled status.                                                   |
 | **label**           | `React.Node`          |            | The label for the Dropdown.                                                     |
 | onChange            | `event => void`       |            | Function for handling onChange event.                                           |
 | position            | [`enum`](#enum)       | `'bottom'` | The position on which side the Dropdown children container should appear.       |
