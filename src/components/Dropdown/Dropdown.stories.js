@@ -43,6 +43,12 @@ export default {
         category: 'behaviour'
       }
     },
+    disabled: {
+      description: 'Set disabled status.',
+      table: {
+        category: 'behaviour'
+      }
+    },
     label: {
       description: 'The label for the Dropdown.  ',
       control: 'none',
@@ -87,6 +93,7 @@ export default {
     closeOnClickInside: false,
     closeOnClickOutside: true,
     isOpen: false,
+    disabled: false,
     position: 'bottom',
     label: <Button>Label example</Button>,
     zIndex: 1000,

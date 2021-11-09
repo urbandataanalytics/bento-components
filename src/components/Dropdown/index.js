@@ -17,7 +17,7 @@ StyledDropdown.defaultProps = {
 };
 
 const StyledLabel = styled.div`
-  cursor: pointer;
+  cursor: ${props => (props.disabled ? 'default' : 'pointer')};
   height: 100%;
 `;
 
@@ -98,6 +98,7 @@ const Dropdown = ({
   zIndex,
   portalClassName,
   portalStyle,
+  disabled,
   ...other
 }) => {
   const [isDropdownOpen, setOpen] = useState(isOpen);
@@ -139,7 +140,17 @@ const Dropdown = ({
 
   return (
     <StyledDropdown {...other} ref={container}>
-      <StyledLabel onClick={() => setOpen(!isDropdownOpen)}>{label}</StyledLabel>
+      <StyledLabel
+        disabled={disabled}
+        onClick={() => {
+          if (disabled) {
+            return;
+          }
+          setOpen(!isDropdownOpen);
+        }}
+      >
+        {label}
+      </StyledLabel>
       {isDropdownOpen ? (
         <Portal renderInto="dropdowns">
           <ChildrenContainer
@@ -166,6 +177,7 @@ Dropdown.propTypes = {
   closeOnClickInside: PropTypes.bool,
   closeOnClickOutside: PropTypes.bool,
   isOpen: PropTypes.bool,
+  disabled: PropTypes.bool,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
   onChange: PropTypes.func,
   position: PropTypes.oneOf(['top', 'bottom']),
@@ -177,6 +189,7 @@ Dropdown.propTypes = {
 Dropdown.defaultProps = {
   closeOnClickOutside: true,
   isOpen: false,
+  disabled: false,
   closeOnClickInside: false,
   position: 'bottom',
   align: 'left',

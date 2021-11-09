@@ -13,6 +13,7 @@ exports[`Storyshots Dropdown Bottom Position 1`] = `
   >
     <div
       className="Dropdown__StyledLabel-sc-103yhtj-1 gOugPm"
+      disabled={false}
       onClick={[Function]}
     >
       <button
@@ -621,6 +622,7 @@ exports[`Storyshots Dropdown Center Alignment 1`] = `
   >
     <div
       className="Dropdown__StyledLabel-sc-103yhtj-1 gOugPm"
+      disabled={false}
       onClick={[Function]}
     >
       <button
@@ -1229,6 +1231,7 @@ exports[`Storyshots Dropdown Close On Click Inside 1`] = `
   >
     <div
       className="Dropdown__StyledLabel-sc-103yhtj-1 gOugPm"
+      disabled={false}
       onClick={[Function]}
     >
       <button
@@ -1837,6 +1840,7 @@ exports[`Storyshots Dropdown Left Alignment 1`] = `
   >
     <div
       className="Dropdown__StyledLabel-sc-103yhtj-1 gOugPm"
+      disabled={false}
       onClick={[Function]}
     >
       <button
@@ -2445,6 +2449,7 @@ exports[`Storyshots Dropdown Playground 1`] = `
   >
     <div
       className="Dropdown__StyledLabel-sc-103yhtj-1 gOugPm"
+      disabled={false}
       onClick={[Function]}
     >
       <button
@@ -3053,6 +3058,7 @@ exports[`Storyshots Dropdown Right Alignment 1`] = `
   >
     <div
       className="Dropdown__StyledLabel-sc-103yhtj-1 gOugPm"
+      disabled={false}
       onClick={[Function]}
     >
       <button
@@ -3661,6 +3667,7 @@ exports[`Storyshots Dropdown Top Position 1`] = `
   >
     <div
       className="Dropdown__StyledLabel-sc-103yhtj-1 gOugPm"
+      disabled={false}
       onClick={[Function]}
     >
       <button
@@ -4269,6 +4276,7 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
   >
     <div
       className="Dropdown__StyledLabel-sc-103yhtj-1 gOugPm"
+      disabled={false}
       onClick={[Function]}
     >
       <button
