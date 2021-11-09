@@ -148,7 +148,7 @@ const InnerLabel = styled.p`
     padding-left: ${({ theme }) => theme.spacings.small3};
     ${({ theme }) => theme.texts.p1b};
     color: ${({ theme, disabled }) =>
-      disabled ? theme.components.inlineInputFieldDisabledLabelColor : theme.color.charcoal500};
+      disabled ? theme.components.inlineInputFieldDisabledColor : theme.color.charcoal500};
   }
 
   &.suffix {
@@ -158,7 +158,7 @@ const InnerLabel = styled.p`
     padding-right: ${({ theme }) => theme.spacings.small3};
     ${({ theme, boldContent }) => (boldContent ? theme.texts.p1b : theme.texts.p1)};
     color: ${({ theme, disabled }) =>
-      disabled ? theme.components.inlineInputFieldDisabledLabelColor : theme.color.charcoal800};
+      disabled ? theme.components.inlineInputFieldDisabledColor : theme.color.charcoal800};
   }
 `;
 
