@@ -77,6 +77,8 @@ const StyledOverlay = styled.div`
   position: fixed;
   left: 0;
   top: 0;
+  right: 0;
+  bottom: 0;
   z-index: ${({ zIndex }) => zIndex};
   width: 100%;
   height: 100%;
@@ -112,13 +114,17 @@ const Modal = ({
     if (isOpen) {
       prevBodyOverflowStyle.current = document.body.style.overflowY;
       document.body.style.overflowY = overflow ? 'scroll' : '';
+      document.body.style.top = `-${window.scrollY}px`;
       document.body.style.position = 'fixed';
       document.body.style.width = '100%';
     }
     return () => {
+      const scrollY = document.body.style.top;
       document.body.style.overflowY = prevBodyOverflowStyle.current || '';
       document.body.style.position = '';
       document.body.style.width = '';
+      document.body.style.top = '';
+      window.scrollTo(0, parseInt(scrollY || '0') * -1);
     };
   }, [isOpen]);
 
