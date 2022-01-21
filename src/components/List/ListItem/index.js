@@ -163,48 +163,50 @@ export const StyledListItem = styled.li`
     margin-bottom: 0;
   }
 
-  &:hover {
-    ${props =>
-      !props.disabled &&
-      css`
-        background-color: ${props.active
-          ? props.theme.components.listItemBackgroundColorActiveHover
-          : props.theme.components.listItemBackgroundColorDefaultHover};
-      `};
-    ${props =>
-      props.disabled &&
-      css`
-        background-color: ${props.theme.components.listItemBackgroundColorHoverDisabled};
-      `};
-    ${props =>
-      props.focused &&
-      css`
-        background-color: ${props.theme.components.listItemBackgroundColorFocused};
-      `};
-
-    color: ${props =>
-      props.active
-        ? props.theme.components.listItemColorActive
-        : props.theme.components.listItemColorDefaultHover};
-
-    ${StyledLeftContent} {
+  @media (hover: hover) {
+    &:hover {
       ${props =>
-        (props.focusContent || props.focusLeftContent) &&
         !props.disabled &&
         css`
-          opacity: 1;
-          transition: opacity 150ms ease-in-out;
+          background-color: ${props.active
+            ? props.theme.components.listItemBackgroundColorActiveHover
+            : props.theme.components.listItemBackgroundColorDefaultHover};
         `};
-    }
-
-    ${StyledRightContent} {
       ${props =>
-        (props.focusContent || props.focusRightContent) &&
-        !props.disabled &&
+        props.disabled &&
         css`
-          opacity: 1;
-          transition: opacity 150ms ease-in-out;
+          background-color: ${props.theme.components.listItemBackgroundColorHoverDisabled};
         `};
+      ${props =>
+        props.focused &&
+        css`
+          background-color: ${props.theme.components.listItemBackgroundColorFocused};
+        `};
+
+      color: ${props =>
+        props.active
+          ? props.theme.components.listItemColorActive
+          : props.theme.components.listItemColorDefaultHover};
+
+      ${StyledLeftContent} {
+        ${props =>
+          (props.focusContent || props.focusLeftContent) &&
+          !props.disabled &&
+          css`
+            opacity: 1;
+            transition: opacity 150ms ease-in-out;
+          `};
+      }
+
+      ${StyledRightContent} {
+        ${props =>
+          (props.focusContent || props.focusRightContent) &&
+          !props.disabled &&
+          css`
+            opacity: 1;
+            transition: opacity 150ms ease-in-out;
+          `};
+      }
     }
   }
 
