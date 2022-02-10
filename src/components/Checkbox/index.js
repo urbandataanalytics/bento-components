@@ -132,7 +132,7 @@ const Checkbox = React.forwardRef((props, ref) => {
       <CheckboxContainer disabled={disabled} checked={checked} size={size}>
         <IconCheck />
       </CheckboxContainer>
-      {label && <LabelText>{label}</LabelText>}
+      {label ? <LabelText>{label}</LabelText> : null}
     </Label>
   );
 });

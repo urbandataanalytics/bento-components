@@ -71,8 +71,8 @@ const Search = ({
     <StyledContainer>
       <IconSearch customColor={theme.color.charcoal600} />
       <StyledWrapper>
-        {leftContent && <StyledHeading>{leftContent}</StyledHeading>}
-        {leftContent && <StyledSeparator />}
+        {leftContent ? <StyledHeading>{leftContent}</StyledHeading> : null}
+        {leftContent ? <StyledSeparator /> : null}
         <Input
           type="text"
           disabled={disabled}
@@ -86,11 +86,11 @@ const Search = ({
           {...other}
         />
       </StyledWrapper>
-      {closable && (
+      {closable ? (
         <button type="button" onClick={onClose}>
           <IconClose customColor={theme.color.charcoal600} />
         </button>
-      )}
+      ) : null}
     </StyledContainer>
   );
 };

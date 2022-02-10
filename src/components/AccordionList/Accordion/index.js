@@ -122,11 +122,11 @@ const Accordion = props => {
   return (
     <>
       <StyledAccordionLabel expanded={expanded} onClick={onClick} {...other}>
-        {leftContent && <StyledLeftContent>{leftContent}</StyledLeftContent>}
+        {leftContent ? <StyledLeftContent>{leftContent}</StyledLeftContent> : null}
 
         <StyledAccordionHeader>
           <StyledHeaderContent>{header}</StyledHeaderContent>
-          {subHeader && <StyledSubHeaderContent>{subHeader}</StyledSubHeaderContent>}
+          {subHeader ? <StyledSubHeaderContent>{subHeader}</StyledSubHeaderContent> : null}
         </StyledAccordionHeader>
 
         <StyledRightContent>

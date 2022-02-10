@@ -95,13 +95,13 @@ const Notification = props => {
   const DefaultIcon = variants[variant].icon;
   return (
     <StyledNotification variant={variant}>
-      {showIcon && <StyledIcon>{icon || <DefaultIcon size="medium" />}</StyledIcon>}
+      {showIcon ? <StyledIcon>{icon || <DefaultIcon size="medium" />}</StyledIcon> : null}
       <StyledMessage>{children}</StyledMessage>
-      {closable && (
+      {closable ? (
         <StyledCloseButton onClick={onClose}>
           <IconClose size="medium" />
         </StyledCloseButton>
-      )}
+      ) : null}
     </StyledNotification>
   );
 };

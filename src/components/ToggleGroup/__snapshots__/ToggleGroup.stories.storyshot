@@ -9,7 +9,7 @@ exports[`Storyshots ToggleGroup Button Variant 1`] = `
   }
 >
   <div
-    className="ToggleGroup__StyledToggleGroupContainer-sc-1utrc7f-0 laojMa"
+    className="ToggleGroup__StyledToggleGroupContainer-sc-1utrc7f-0 dIEfGn"
   >
     <button
       className="ButtonLink__StyledButtonLink-cg5tmh-0 cAfLtA switch__button"
@@ -51,7 +51,7 @@ exports[`Storyshots ToggleGroup Playground 1`] = `
   }
 >
   <div
-    className="ToggleGroup__StyledToggleGroupContainer-sc-1utrc7f-0 laojMa"
+    className="ToggleGroup__StyledToggleGroupContainer-sc-1utrc7f-0 dIEfGn"
   >
     <button
       className="ButtonLink__StyledButtonLink-cg5tmh-0 gnqiVj"

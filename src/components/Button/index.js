@@ -47,6 +47,22 @@ const componentVariants = theme => ({
       color: theme.components.buttonSecondaryDisabledColor
     }
   },
+  tertiary: {
+    color: theme.components.buttonTertiaryColor,
+    backgroundColor: theme.components.buttonTertiaryBackgroundColor,
+    borderColor: theme.components.buttonTertiaryBorderColor,
+    borderRadius: theme.components.buttonTertiaryBorderRadius,
+    '&:hover': {
+      backgroundColor: theme.components.buttonTertiaryHoverBackgroundColor,
+      borderColor: theme.components.buttonTertiaryHoverBorderColor,
+      color: theme.components.buttonTertiaryHoverColor
+    },
+    '&:disabled': {
+      backgroundColor: theme.components.buttonTertiaryDisabledBackgroundColor,
+      borderColor: theme.components.buttonTertiaryDisabledBorderColor,
+      color: theme.components.buttonTertiaryDisabledColor
+    }
+  },
   dangerPrimary: {
     color: theme.components.buttonDangerPrimaryColor,
     backgroundColor: theme.components.buttonDangerPrimaryBackgroundColor,
@@ -200,17 +216,17 @@ const Button = React.forwardRef((props, ref) => {
       {...other}
     >
       <Loader loading={loading} loadingText={loadingText} />
-      {iconLeft && (
+      {iconLeft ? (
         <IconWrapper variant={variant} disabled={disabled} direction="left" size={size}>
           {iconLeft}
         </IconWrapper>
-      )}
+      ) : null}
       <StyledContent>{children}</StyledContent>
-      {iconRight && (
+      {iconRight ? (
         <IconWrapper variant={variant} disabled={disabled} direction="right" size={size}>
           {iconRight}
         </IconWrapper>
-      )}
+      ) : null}
     </StyledButton>
   );
 });
@@ -227,7 +243,7 @@ Button.propTypes = {
   onClick: PropTypes.func,
   size: PropTypes.oneOf(['medium', 'large']),
   tabIndex: PropTypes.string,
-  variant: PropTypes.oneOf(['primary', 'secondary', 'dangerPrimary', 'dangerSecondary'])
+  variant: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'dangerPrimary', 'dangerSecondary'])
 };
 
 StyledButton.defaultProps = {

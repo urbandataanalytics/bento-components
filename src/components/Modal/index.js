@@ -15,6 +15,7 @@ const StyledContainer = styled.div`
       ? `${theme.shapes.borderRadiusMedium} ${theme.shapes.borderRadiusMedium} 0 0`
       : theme.shapes.borderRadiusMedium};
   position: relative;
+  width: 100%;
   max-width: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '550px' : '75vw')};
   max-height: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '75vh' : '90vh')};
   overflow: auto;
@@ -77,6 +78,8 @@ const StyledOverlay = styled.div`
   position: fixed;
   left: 0;
   top: 0;
+  right: 0;
+  bottom: 0;
   z-index: ${({ zIndex }) => zIndex};
   width: 100%;
   height: 100%;
@@ -112,13 +115,17 @@ const Modal = ({
     if (isOpen) {
       prevBodyOverflowStyle.current = document.body.style.overflowY;
       document.body.style.overflowY = overflow ? 'scroll' : '';
+      document.body.style.top = `-${window.scrollY}px`;
       document.body.style.position = 'fixed';
       document.body.style.width = '100%';
     }
     return () => {
+      const scrollY = document.body.style.top;
       document.body.style.overflowY = prevBodyOverflowStyle.current || '';
       document.body.style.position = '';
       document.body.style.width = '';
+      document.body.style.top = '';
+      window.scrollTo(0, parseInt(scrollY || '0') * -1);
     };
   }, [isOpen]);
 
@@ -128,18 +135,18 @@ const Modal = ({
   return isOpen ? (
     <StyledOverlay zIndex={zIndex} opacity={opacity} isMobileOrTablet={isMobileOrTablet}>
       <StyledContainer {...other} ref={ref} isMobileOrTablet={isMobileOrTablet}>
-        {((header && header.props.children) || closable) && (
+        {(header && header.props.children) || closable ? (
           <StyledHeader hasHeading={header && header.props.children} closable={closable}>
-            {header && header.props.children && <StyleHeading>{header}</StyleHeading>}
-            {closable && (
+            {header && header.props.children ? <StyleHeading>{header}</StyleHeading> : null}
+            {closable ? (
               <button onClick={onClose}>
                 <IconClose customColor={theme.color.charcoal600} />
               </button>
-            )}
+            ) : null}
           </StyledHeader>
-        )}
+        ) : null}
         <StyledContent full={full}>{children}</StyledContent>
-        {footer && footer.props.children && <StyledFooter>{footer}</StyledFooter>}
+        {footer && footer.props.children ? <StyledFooter>{footer}</StyledFooter> : null}
       </StyledContainer>
     </StyledOverlay>
   ) : null;

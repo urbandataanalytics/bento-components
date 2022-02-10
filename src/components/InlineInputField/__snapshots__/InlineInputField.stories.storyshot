@@ -16,7 +16,7 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
       className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
       <p
-        className="InlineInputField__LabelText-jwshkl-1 dSHaNK"
+        className="InlineInputField__LabelText-jwshkl-1 dFzVQN"
         disabled={true}
       >
         Label text
@@ -29,14 +29,14 @@ exports[`Storyshots InlineInputField Disabled 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 KAbsI"
+          className="InlineInputField__Input-jwshkl-5 cELMde"
           disabled={true}
           placeholder="Placeholder text"
           type="text"
           value="Value text"
         />
         <p
-          className="InlineInputField__InnerLabel-jwshkl-8 jdMauW suffix"
+          className="InlineInputField__InnerLabel-jwshkl-8 kXihxt suffix"
           disabled={true}
           onClick={[Function]}
         />
@@ -81,7 +81,7 @@ exports[`Storyshots InlineInputField Error 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 KAbsI error"
+          className="InlineInputField__Input-jwshkl-5 cELMde error"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
@@ -119,7 +119,6 @@ exports[`Storyshots InlineInputField Playground 1`] = `
     <label
       className="InlineInputField__Label-jwshkl-7 kZozSM"
     >
-      
       <p
         className="InlineInputField__LabelText-jwshkl-1 eufKgE"
         disabled={false}
@@ -134,7 +133,7 @@ exports[`Storyshots InlineInputField Playground 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 KAbsI"
+          className="InlineInputField__Input-jwshkl-5 cELMde"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
@@ -186,7 +185,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 fwrzpN"
+          className="InlineInputField__Input-jwshkl-5 fMlaPY"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
@@ -428,11 +427,21 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "buttonSecondaryBorderRadius": "4px",
                 "buttonSecondaryColor": "#212632",
                 "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                "buttonSecondaryDisabledColor": "#DCDFE6",
+                "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+                "buttonSecondaryDisabledColor": "#B6BBC6",
                 "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                 "buttonSecondaryHoverBorderColor": "#DCDFE6",
                 "buttonSecondaryHoverColor": "#212632",
+                "buttonTertiaryBackgroundColor": "#EFF7FB",
+                "buttonTertiaryBorderColor": "#EFF7FB",
+                "buttonTertiaryBorderRadius": "4px",
+                "buttonTertiaryColor": "#1778FB",
+                "buttonTertiaryDisabledBackgroundColor": "#FAFBFC",
+                "buttonTertiaryDisabledBorderColor": "#FAFBFC",
+                "buttonTertiaryDisabledColor": "#DCDFE6",
+                "buttonTertiaryHoverBackgroundColor": "#EFF2F7",
+                "buttonTertiaryHoverBorderColor": "#EFF2F7",
+                "buttonTertiaryHoverColor": "#1778FB",
                 "carouselButtonBackground": "rgba(255, 255, 255, .6)",
                 "carouselButtonHoverBackground": "rgba(255, 255, 255, .8)",
                 "carouselButtonSize": "32px",
@@ -480,8 +489,8 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "inlineInputFieldDisabledBackgroundColor": "#FAFBFC",
                 "inlineInputFieldDisabledBorderColor": "#FAFBFC",
                 "inlineInputFieldDisabledBottomBorderColor": "#DCDFE6",
-                "inlineInputFieldDisabledColor": "#DCDFE6",
-                "inlineInputFieldDisabledLabelColor": "#DCDFE6",
+                "inlineInputFieldDisabledColor": "#747D93",
+                "inlineInputFieldDisabledLabelColor": "#B6BBC6",
                 "inlineInputFieldErrorBackgroundColor": "#FAEDEC",
                 "inlineInputFieldErrorBorderColor": "#FAEDEC",
                 "inlineInputFieldErrorBottomBorderColor": "#CD4C41",
@@ -505,8 +514,8 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "inputFieldBorderRadius": "4px",
                 "inputFieldDisabledBackgroundColor": "#FAFBFC",
                 "inputFieldDisabledBorderColor": "#DCDFE6",
-                "inputFieldDisabledColor": "#DCDFE6",
-                "inputFieldDisabledLabelColor": "#DCDFE6",
+                "inputFieldDisabledColor": "#747D93",
+                "inputFieldDisabledLabelColor": "#747D93",
                 "inputFieldErrorBackgroundColor": "#FAEDEC",
                 "inputFieldErrorBorderColor": "#CD4C41",
                 "inputFieldErrorHelpColor": "#CD4C41",
@@ -518,7 +527,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "inputFieldHelpColor": "#212632",
                 "inputFieldHelpFontSize": "12px",
                 "inputFieldLabelColor": "#363C4B",
-                "inputFieldLabelFontSize": "12px",
+                "inputFieldLabelFontSize": "14px",
                 "inputFieldLineHeight": "48px",
                 "inputFieldPlaceholderColor": "#DCDFE6",
                 "inputFieldTextIndent": "24px",
@@ -648,8 +657,8 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "textareaFieldBorderRadius": "4px",
                 "textareaFieldDisabledBackgroundColor": "#FAFBFC",
                 "textareaFieldDisabledBorderColor": "#DCDFE6",
-                "textareaFieldDisabledColor": "#DCDFE6",
-                "textareaFieldDisabledLabelColor": "#DCDFE6",
+                "textareaFieldDisabledColor": "#747D93",
+                "textareaFieldDisabledLabelColor": "#747D93",
                 "textareaFieldErrorBackgroundColor": "#FAEDEC",
                 "textareaFieldErrorBorderColor": "#CD4C41",
                 "textareaFieldErrorHelpColor": "#CD4C41",
@@ -801,7 +810,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 KAbsI"
+          className="InlineInputField__Input-jwshkl-5 cELMde"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
@@ -1043,11 +1052,21 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "buttonSecondaryBorderRadius": "4px",
                 "buttonSecondaryColor": "#212632",
                 "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                "buttonSecondaryDisabledColor": "#DCDFE6",
+                "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+                "buttonSecondaryDisabledColor": "#B6BBC6",
                 "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                 "buttonSecondaryHoverBorderColor": "#DCDFE6",
                 "buttonSecondaryHoverColor": "#212632",
+                "buttonTertiaryBackgroundColor": "#EFF7FB",
+                "buttonTertiaryBorderColor": "#EFF7FB",
+                "buttonTertiaryBorderRadius": "4px",
+                "buttonTertiaryColor": "#1778FB",
+                "buttonTertiaryDisabledBackgroundColor": "#FAFBFC",
+                "buttonTertiaryDisabledBorderColor": "#FAFBFC",
+                "buttonTertiaryDisabledColor": "#DCDFE6",
+                "buttonTertiaryHoverBackgroundColor": "#EFF2F7",
+                "buttonTertiaryHoverBorderColor": "#EFF2F7",
+                "buttonTertiaryHoverColor": "#1778FB",
                 "carouselButtonBackground": "rgba(255, 255, 255, .6)",
                 "carouselButtonHoverBackground": "rgba(255, 255, 255, .8)",
                 "carouselButtonSize": "32px",
@@ -1095,8 +1114,8 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "inlineInputFieldDisabledBackgroundColor": "#FAFBFC",
                 "inlineInputFieldDisabledBorderColor": "#FAFBFC",
                 "inlineInputFieldDisabledBottomBorderColor": "#DCDFE6",
-                "inlineInputFieldDisabledColor": "#DCDFE6",
-                "inlineInputFieldDisabledLabelColor": "#DCDFE6",
+                "inlineInputFieldDisabledColor": "#747D93",
+                "inlineInputFieldDisabledLabelColor": "#B6BBC6",
                 "inlineInputFieldErrorBackgroundColor": "#FAEDEC",
                 "inlineInputFieldErrorBorderColor": "#FAEDEC",
                 "inlineInputFieldErrorBottomBorderColor": "#CD4C41",
@@ -1120,8 +1139,8 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "inputFieldBorderRadius": "4px",
                 "inputFieldDisabledBackgroundColor": "#FAFBFC",
                 "inputFieldDisabledBorderColor": "#DCDFE6",
-                "inputFieldDisabledColor": "#DCDFE6",
-                "inputFieldDisabledLabelColor": "#DCDFE6",
+                "inputFieldDisabledColor": "#747D93",
+                "inputFieldDisabledLabelColor": "#747D93",
                 "inputFieldErrorBackgroundColor": "#FAEDEC",
                 "inputFieldErrorBorderColor": "#CD4C41",
                 "inputFieldErrorHelpColor": "#CD4C41",
@@ -1133,7 +1152,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "inputFieldHelpColor": "#212632",
                 "inputFieldHelpFontSize": "12px",
                 "inputFieldLabelColor": "#363C4B",
-                "inputFieldLabelFontSize": "12px",
+                "inputFieldLabelFontSize": "14px",
                 "inputFieldLineHeight": "48px",
                 "inputFieldPlaceholderColor": "#DCDFE6",
                 "inputFieldTextIndent": "24px",
@@ -1263,8 +1282,8 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
                 "textareaFieldBorderRadius": "4px",
                 "textareaFieldDisabledBackgroundColor": "#FAFBFC",
                 "textareaFieldDisabledBorderColor": "#DCDFE6",
-                "textareaFieldDisabledColor": "#DCDFE6",
-                "textareaFieldDisabledLabelColor": "#DCDFE6",
+                "textareaFieldDisabledColor": "#747D93",
+                "textareaFieldDisabledLabelColor": "#747D93",
                 "textareaFieldErrorBackgroundColor": "#FAEDEC",
                 "textareaFieldErrorBorderColor": "#CD4C41",
                 "textareaFieldErrorHelpColor": "#CD4C41",
@@ -1416,7 +1435,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 fwrzpN"
+          className="InlineInputField__Input-jwshkl-5 fMlaPY"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
@@ -1457,7 +1476,7 @@ exports[`Storyshots InlineInputField Several Alignment 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 KAbsI"
+          className="InlineInputField__Input-jwshkl-5 cELMde"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
@@ -1710,11 +1729,21 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
                 "buttonSecondaryBorderRadius": "4px",
                 "buttonSecondaryColor": "#212632",
                 "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                "buttonSecondaryDisabledColor": "#DCDFE6",
+                "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+                "buttonSecondaryDisabledColor": "#B6BBC6",
                 "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                 "buttonSecondaryHoverBorderColor": "#DCDFE6",
                 "buttonSecondaryHoverColor": "#212632",
+                "buttonTertiaryBackgroundColor": "#EFF7FB",
+                "buttonTertiaryBorderColor": "#EFF7FB",
+                "buttonTertiaryBorderRadius": "4px",
+                "buttonTertiaryColor": "#1778FB",
+                "buttonTertiaryDisabledBackgroundColor": "#FAFBFC",
+                "buttonTertiaryDisabledBorderColor": "#FAFBFC",
+                "buttonTertiaryDisabledColor": "#DCDFE6",
+                "buttonTertiaryHoverBackgroundColor": "#EFF2F7",
+                "buttonTertiaryHoverBorderColor": "#EFF2F7",
+                "buttonTertiaryHoverColor": "#1778FB",
                 "carouselButtonBackground": "rgba(255, 255, 255, .6)",
                 "carouselButtonHoverBackground": "rgba(255, 255, 255, .8)",
                 "carouselButtonSize": "32px",
@@ -1762,8 +1791,8 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
                 "inlineInputFieldDisabledBackgroundColor": "#FAFBFC",
                 "inlineInputFieldDisabledBorderColor": "#FAFBFC",
                 "inlineInputFieldDisabledBottomBorderColor": "#DCDFE6",
-                "inlineInputFieldDisabledColor": "#DCDFE6",
-                "inlineInputFieldDisabledLabelColor": "#DCDFE6",
+                "inlineInputFieldDisabledColor": "#747D93",
+                "inlineInputFieldDisabledLabelColor": "#B6BBC6",
                 "inlineInputFieldErrorBackgroundColor": "#FAEDEC",
                 "inlineInputFieldErrorBorderColor": "#FAEDEC",
                 "inlineInputFieldErrorBottomBorderColor": "#CD4C41",
@@ -1787,8 +1816,8 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
                 "inputFieldBorderRadius": "4px",
                 "inputFieldDisabledBackgroundColor": "#FAFBFC",
                 "inputFieldDisabledBorderColor": "#DCDFE6",
-                "inputFieldDisabledColor": "#DCDFE6",
-                "inputFieldDisabledLabelColor": "#DCDFE6",
+                "inputFieldDisabledColor": "#747D93",
+                "inputFieldDisabledLabelColor": "#747D93",
                 "inputFieldErrorBackgroundColor": "#FAEDEC",
                 "inputFieldErrorBorderColor": "#CD4C41",
                 "inputFieldErrorHelpColor": "#CD4C41",
@@ -1800,7 +1829,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
                 "inputFieldHelpColor": "#212632",
                 "inputFieldHelpFontSize": "12px",
                 "inputFieldLabelColor": "#363C4B",
-                "inputFieldLabelFontSize": "12px",
+                "inputFieldLabelFontSize": "14px",
                 "inputFieldLineHeight": "48px",
                 "inputFieldPlaceholderColor": "#DCDFE6",
                 "inputFieldTextIndent": "24px",
@@ -1930,8 +1959,8 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
                 "textareaFieldBorderRadius": "4px",
                 "textareaFieldDisabledBackgroundColor": "#FAFBFC",
                 "textareaFieldDisabledBorderColor": "#DCDFE6",
-                "textareaFieldDisabledColor": "#DCDFE6",
-                "textareaFieldDisabledLabelColor": "#DCDFE6",
+                "textareaFieldDisabledColor": "#747D93",
+                "textareaFieldDisabledLabelColor": "#747D93",
                 "textareaFieldErrorBackgroundColor": "#FAEDEC",
                 "textareaFieldErrorBorderColor": "#CD4C41",
                 "textareaFieldErrorHelpColor": "#CD4C41",
@@ -2083,7 +2112,7 @@ exports[`Storyshots InlineInputField With Icon 1`] = `
         className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
       >
         <input
-          className="InlineInputField__Input-jwshkl-5 KAbsI"
+          className="InlineInputField__Input-jwshkl-5 cELMde"
           disabled={false}
           placeholder="Placeholder text"
           type="text"
@@ -2150,7 +2179,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             1.280€
           </p>
           <input
-            className="InlineInputField__Input-jwshkl-5 ykNjn"
+            className="InlineInputField__Input-jwshkl-5 kBTaIX"
             disabled={false}
             prefix="1.280€"
             type="text"
@@ -2204,7 +2233,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
             1.280€
           </p>
           <input
-            className="InlineInputField__Input-jwshkl-5 ileiKQ"
+            className="InlineInputField__Input-jwshkl-5 kzfRmZ"
             disabled={false}
             prefix="1.280€"
             type="text"
@@ -2236,7 +2265,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
         className="InlineInputField__Label-jwshkl-7 kZozSM"
       >
         <p
-          className="InlineInputField__LabelText-jwshkl-1 dSHaNK"
+          className="InlineInputField__LabelText-jwshkl-1 dFzVQN"
           disabled={true}
         >
           Only prefix disabled
@@ -2250,20 +2279,20 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           prefix="1.280€"
         >
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 jdMauW prefix"
+            className="InlineInputField__InnerLabel-jwshkl-8 kXihxt prefix"
             disabled={true}
           >
             1.280€
           </p>
           <input
-            className="InlineInputField__Input-jwshkl-5 ileiKQ"
+            className="InlineInputField__Input-jwshkl-5 kzfRmZ"
             disabled={true}
             prefix="1.280€"
             type="text"
             value="2"
           />
           <p
-            className="InlineInputField__InnerLabel-jwshkl-8 jdMauW suffix"
+            className="InlineInputField__InnerLabel-jwshkl-8 kXihxt suffix"
             disabled={true}
             onClick={[Function]}
           />
@@ -2300,7 +2329,7 @@ exports[`Storyshots InlineInputField With Inner Labels 1`] = `
           className="InlineInputField__InputWrapper-jwshkl-4 knHFlj"
         >
           <input
-            className="InlineInputField__Input-jwshkl-5 fwrzpN"
+            className="InlineInputField__Input-jwshkl-5 fMlaPY"
             disabled={false}
             type="text"
             value="2"

@@ -10,7 +10,7 @@ export interface ButtonProps {
   onClick?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
   size?: 'medium' | 'large';
   tabIndex?: string;
-  variant?: 'primary' | 'secondary' | 'dangerPrimary' | 'dangerSecondary';
+  variant?: 'primary' | 'secondary' | 'tertiary' | 'dangerPrimary' | 'dangerSecondary';
 }
 
 declare const Button: React.FunctionComponent<
