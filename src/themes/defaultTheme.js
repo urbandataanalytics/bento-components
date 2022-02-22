@@ -390,6 +390,7 @@ const components = {
   inputFieldLineHeight: '48px',
   inputFieldPlaceholderColor: color.charcoal400,
   inputFieldTextIndent: spacings.small4,
+  inputFieldIconColor: color.charcoal600,
 
   textareaFieldBackgroundColor: color.white,
   textareaFieldBorderColor: color.charcoal400,

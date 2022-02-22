@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import useOnclickOutside from 'react-cool-onclickoutside';
 import defaultTheme from '../../themes/defaultTheme';
 import IconArrowClose from '../../icons/ArrowClose/index';
+import IconArrowOpen from '../../icons/ArrowOpen/index';
+import IconCheck from '../../icons/Check/index';
 
 const LabelText = styled.p`
   font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
@@ -15,119 +18,243 @@ LabelText.defaultProps = {
   theme: defaultTheme
 };
 
-const HelpText = styled.small`
-  padding-top: 4px;
-  display: block;
-  font-size: ${({ theme }) => theme.components.inputFieldHelpFontSize};
-  min-height: 25px;
-  color: ${({ theme }) => theme.components.inputFieldHelpColor};
-  &.error {
-    color: ${({ theme }) => theme.components.inputFieldErrorHelpColor};
-  }
-`;
-
-HelpText.defaultProps = {
-  theme: defaultTheme
-};
-
-const Select = styled.select`
-  appearance: none;
-  outline: 0;
-  font-size: ${({ theme }) => theme.components.inputFieldFontSize};
-  line-height: ${({ theme }) => theme.components.inputFieldLineHeight};
-  text-indent: ${({ theme }) => theme.components.inputFieldTextIndent};
-  border-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
-  border-width: 1px;
-  border-style: solid;
-  transition: ${({ theme }) => theme.global.transitionM};
-  background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
-  border-color: ${({ theme }) => theme.components.inputFieldBorderColor};
-  padding: 2px 0;
-
-  &:focus {
-    background-color: ${({ theme }) => theme.components.inputFieldFocusBackgroundColor};
-    border-color: ${({ theme }) => theme.components.inputFieldFocusBorderColor};
-
-    + ${LabelText} {
-      color: ${({ theme }) => theme.components.inputFieldFocusLabelColor};
-    }
-  }
-
-  &:disabled {
-    background-color: ${({ theme }) => theme.components.inputFieldDisabledBackgroundColor};
-    border-color: ${({ theme }) => theme.components.inputFieldDisabledBorderColor};
-    color: ${({ theme }) => theme.components.inputFieldDisabledColor};
-
-    + ${LabelText} {
-      color: ${({ theme }) => theme.components.inputFieldDisabledLabelColor};
-    }
-  }
-`;
-
-Select.defaultProps = {
-  theme: defaultTheme
-};
-
-const Label = styled.label`
-  display: flex;
-  flex-direction: column-reverse;
+const StyledSelectField = styled.div`
   position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  min-width: 240px;
+  max-width: fit-content;
+  border: 1px solid ${({ theme }) => theme.components.inputFieldBorderColor};
+  border-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
+
   > svg {
-    position: absolute;
-    right: ${({ theme }) => theme.components.inputFieldTextIndent};
-    top: 35px;
+    color: ${({ theme }) => theme.components.inputFieldIconColor};
   }
 `;
 
-Label.defaultProps = {
+StyledSelectField.defaultProps = {
   theme: defaultTheme
 };
 
-const SelectField = React.forwardRef((props, ref) => {
-  const {
-    className,
-    defaultLabel,
-    defaultValue,
-    disabled,
-    error,
-    help,
-    label,
-    name,
-    onChange,
-    options,
-    tabIndex,
-    value,
-    ...other
-  } = props;
+const StyledSelectHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+  padding: 14px 22px 14px 24px;
+  outline: none;
+
+  > p {
+    padding-right: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &.active {
+      padding-left: 24px;
+      > p {
+        color: ${({ theme }) => theme.components.inputFieldFocusLabelColor};
+      }
+    }
+  }
+`;
+
+StyledSelectHeader.defaultProps = {
+  theme: defaultTheme
+};
+
+const StyledSelectHeaderIcon = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const StyledSelectList = styled.ul`
+  padding: 0;
+  margin: 0;
+  max-height: 320px;
+  overflow-y: scroll;
+  width: 100%;
+  min-width: 240px;
+  max-width: fit-content;
+  margin-top: 32px;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  > ::-webkit-scrollbar {
+    display: none;
+  }
+`;
+
+StyledSelectList.defaultProps = {
+  theme: defaultTheme
+};
+
+const StyledSelectItem = styled.li`
+  list-style-type: none;
+  white-space: nowrap;
+
+  :first-of-type {
+    > button {
+      border-top: 1px solid ${({ theme }) => theme.components.inputFieldBorderColor};
+      border-top-left-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
+      border-top-right-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
+    }
+  }
+
+  :last-of-type {
+    > button {
+      border-bottom: 1px solid ${({ theme }) => theme.components.inputFieldBorderColor};
+      border-bottom-left-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
+      border-bottom-right-radius: ${({ theme }) => theme.components.inputFieldBorderRadius};
+    }
+  }
+
+  > button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ${({ theme }) => theme.components.inputFieldBackgroundColor};
+    font-size: ${({ theme }) => theme.components.inputFieldFontSize};
+    padding: 20px;
+    line-height: 150%;
+    width: 100%;
+    text-align: left;
+    border: 0;
+    border-left: 1px solid ${({ theme }) => theme.components.inputFieldBorderColor};
+    border-right: 1px solid ${({ theme }) => theme.components.inputFieldBorderColor};
+    cursor: pointer;
+
+    > svg {
+      color: ${({ theme }) => theme.components.inputFieldIconColor};
+    }
+  }
+`;
+
+StyledSelectItem.defaultProps = {
+  theme: defaultTheme
+};
+
+const SelectField = ({
+  className,
+  defaultLabel,
+  defaultValue,
+  disabled,
+  error,
+  label,
+  name,
+  onChange,
+  options,
+  tabIndex,
+  value,
+  multiSelect,
+  ...other
+}) => {
+  const [listOpen, setListOpen] = useState(false);
+  const [headerTitle, setHeaderTitle] = useState(defaultLabel);
+  const [selection, setSelection] = useState([]);
+
+  const toggleList = () => {
+    setListOpen(!listOpen);
+  };
+
+  const container = useRef(null);
+  const selectList = useRef(null);
+
+  useOnclickOutside(
+    () => {
+      setListOpen(false);
+    },
+    { refs: [container, selectList] }
+  );
+
+  const isItemInSelection = item => {
+    return selection.some(current => current === item.value);
+  };
+
+  const clearSelection = () => {
+    setSelection([]);
+    setHeaderTitle(defaultLabel);
+    setListOpen(false);
+    onChange([]);
+  };
+
+  const handleSelect = item => {
+    if (!isItemInSelection(item)) {
+      if (!multiSelect) {
+        setSelection([item.value]);
+        setHeaderTitle(item.label);
+        setListOpen(false);
+        onChange([item.value]);
+      } else if (multiSelect) {
+        const selectedItems = [...selection, item.value];
+        if (selectedItems.length === 1) {
+          setHeaderTitle(item.label);
+        } else if (selectedItems.length === options.length) {
+          setHeaderTitle('All');
+        } else if (selectedItems.length > 1) {
+          setHeaderTitle(`${selectedItems.length} Selected`);
+        }
+
+        setSelection(selectedItems);
+        onChange(selectedItems);
+      }
+    } else {
+      let selectionAfterRemoval = selection;
+      selectionAfterRemoval = selectionAfterRemoval.filter(current => current !== item.value);
+
+      if (selectionAfterRemoval.length === 0) {
+        setHeaderTitle(defaultLabel);
+      } else if (selectionAfterRemoval.length === 1) {
+        const onlyOne = options.find(i => i.value === selectionAfterRemoval[0]);
+        setHeaderTitle(onlyOne.label);
+      } else if (selectionAfterRemoval.length > 1) {
+        setHeaderTitle(`${selectionAfterRemoval.length} Selected`);
+      }
+      setSelection([...selectionAfterRemoval]);
+      onChange([...selectionAfterRemoval]);
+    }
+  };
 
   return (
     <div className={className}>
-      <Label>
-        <IconArrowClose customColor={defaultTheme.color.charcoal600} />
-        <Select
-          className={error ? `error` : null}
-          disabled={disabled}
-          value={value}
-          name={name}
-          onChange={onChange}
+      {label && <LabelText disabled={disabled}>{label}</LabelText>}
+      <StyledSelectField {...other} ref={container}>
+        <StyledSelectHeader
           tabIndex={tabIndex}
-          ref={ref}
-          {...other}
+          role="button"
+          onClick={() => !disabled && toggleList()}
         >
-          {defaultLabel ? <option value={defaultValue}>{defaultLabel}</option> : null}
-          {options &&
-            options.map((opt, key) => (
-              <option key={key} value={opt.value}>
-                {opt.label}
-              </option>
-            ))}
-        </Select>
-        {label ? <LabelText disabled={disabled}>{label}</LabelText> : null}
-      </Label>
-      {help ? <HelpText className={error ? 'error' : null}>{help}</HelpText> : null}
+          {headerTitle.length < 24 ? headerTitle : `${headerTitle.substring(0, 21)}...`}
+          <StyledSelectHeaderIcon>
+            {listOpen ? <IconArrowOpen /> : <IconArrowClose />}
+          </StyledSelectHeaderIcon>
+        </StyledSelectHeader>
+        {listOpen && (
+          <StyledSelectList ref={selectList}>
+            {options.map(option => {
+              const active = isItemInSelection(option);
+              return (
+                <StyledSelectItem key={option.value}>
+                  <button type="button" onClick={() => handleSelect(option)}>
+                    {option.label}
+                    <span>{active && <IconCheck />}</span>
+                  </button>
+                </StyledSelectItem>
+              );
+            })}
+          </StyledSelectList>
+        )}
+      </StyledSelectField>
     </div>
   );
-});
+};
 
 SelectField.propTypes = {
   className: PropTypes.string,
@@ -135,19 +262,20 @@ SelectField.propTypes = {
   defaultValue: PropTypes.string,
   disabled: PropTypes.bool,
   error: PropTypes.bool,
-  help: PropTypes.string,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
   onChange: PropTypes.func.isRequired,
   options: PropTypes.array.isRequired,
   tabIndex: PropTypes.string,
-  value: PropTypes.string.isRequired
+  value: PropTypes.string.isRequired,
+  multiSelect: PropTypes.bool
 };
 
 SelectField.defaultProps = {
   value: '',
   defaultValue: '',
-  disabled: false
+  disabled: false,
+  multiSelect: false
 };
 
 SelectField.displayName = 'SelectField';

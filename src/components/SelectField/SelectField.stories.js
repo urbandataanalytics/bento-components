@@ -31,12 +31,6 @@ export default {
         category: 'format'
       }
     },
-    help: {
-      description: 'Adds custom text next as Help Text Below the field',
-      table: {
-        category: 'content'
-      }
-    },
     label: {
       description: 'Text above the field',
       table: {
@@ -79,13 +73,17 @@ export default {
     }
   },
   args: {
-    help: 'Help Text',
     error: false,
     label: 'Label Text',
     defaultLabel: 'Select Value',
     options: [
       { value: 'en', label: 'English' },
-      { value: 'es', label: 'Spanish' }
+      { value: 'es', label: 'Spanish' },
+      { value: 'it', label: 'Italy' },
+      { value: 'pt', label: 'Portugal' },
+      { value: 'fr', label: 'France' },
+      { value: 'de', label: 'Germany' },
+      { value: 'vc', label: 'Saint Vincent and the Grenadines' }
     ],
     disabled: false,
     value: 'en',
@@ -101,6 +99,14 @@ export const Playground = args => {
   return (
     <div style={decoratorStyles}>
       <SelectField {...args} />
+    </div>
+  );
+};
+
+export const MultiSelect = args => {
+  return (
+    <div style={decoratorStyles}>
+      <SelectField {...args} multiSelect={true} />
     </div>
   );
 };
