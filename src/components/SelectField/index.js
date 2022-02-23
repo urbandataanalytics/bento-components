@@ -162,6 +162,27 @@ StyledSelectItem.defaultProps = {
   theme: defaultTheme
 };
 
+const StyledLinkText = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 52px;
+  width: 100%;
+  padding: 10px 16px;
+  border-top: 1px solid ${({ theme }) => theme.components.selectFieldBorderColor};
+
+  > span {
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: ${({ theme }) => theme.components.selectFieldFocusFontWeight};
+    color: ${({ theme }) => theme.color.charcoal600};
+  }
+`;
+
+StyledLinkText.defaultProps = {
+  theme: defaultTheme
+};
+
 const SelectField = ({
   className,
   defaultLabel,
@@ -188,7 +209,6 @@ const SelectField = ({
 
   const container = useRef(null);
   const selectList = useRef(null);
-  const content = useRef(null);
 
   useOnclickOutside(
     () => {
@@ -204,7 +224,6 @@ const SelectField = ({
   const clearSelection = () => {
     setSelection([]);
     setHeaderTitle(defaultLabel);
-    setListOpen(false);
     onChange([]);
   };
 
@@ -268,6 +287,9 @@ const SelectField = ({
                 </StyledSelectItem>
               );
             })}
+            <StyledLinkText>
+              <span onClick={clearSelection}>Clear</span>
+            </StyledLinkText>
           </StyledSelectList>
         )}
       </StyledSelectField>

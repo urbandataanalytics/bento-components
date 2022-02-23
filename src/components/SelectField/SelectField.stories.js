@@ -25,12 +25,6 @@ export default {
         category: 'behaviour'
       }
     },
-    error: {
-      description: " Turns the help text into 'error variant'",
-      table: {
-        category: 'format'
-      }
-    },
     label: {
       description: 'Text above the field',
       table: {
@@ -79,11 +73,7 @@ export default {
     options: [
       { value: 'en', label: 'English' },
       { value: 'es', label: 'Spanish' },
-      { value: 'it', label: 'Italy' },
-      { value: 'pt', label: 'Portugal' },
-      { value: 'fr', label: 'France' },
-      { value: 'de', label: 'Germany' },
-      { value: 'vc', label: 'Saint Vincent and the Grenadines' }
+      { value: 'it', label: 'Italy' }
     ],
     disabled: false,
     value: 'en',
