@@ -12,44 +12,11 @@ export default {
         category: 'others'
       }
     },
-    defaultLabel: {
-      description:
-        "Sets a first option in the option list as a default value. For instance: 'Select value'",
-      table: {
-        category: 'content'
-      }
-    },
-    disabled: {
-      description: 'Disables the field and does not allow selecting',
-      table: {
-        category: 'behaviour'
-      }
-    },
-    label: {
-      description: 'Text above the field',
-      table: {
-        category: 'content'
-      }
-    },
     name: {
-      description: 'Sets `name`to the input field ',
+      description: 'Sets `name` to the input field ',
       control: 'none',
       table: {
         category: 'others'
-      }
-    },
-    onChange: {
-      description: 'Handles behaviour when input content changes.',
-      action: 'onChange Event',
-      table: {
-        category: 'events'
-      }
-    },
-    options: {
-      description:
-        'Expects an array of objects used to list the options, the object with props: `value`and `label`',
-      table: {
-        category: 'content'
       }
     },
     tabIndex: {
@@ -59,15 +26,89 @@ export default {
         category: 'others'
       }
     },
+    disabled: {
+      description: 'Disables the field and does not allow selecting',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    size: {
+      description: 'Sets size of the field, `medium` by default',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    multiSelect: {
+      description: 'Allows multiple options to be selected',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    defaultLabel: {
+      description:
+        "Sets a first option in the option list as a default label. For instance: 'Select value'",
+      table: {
+        category: 'content'
+      }
+    },
+    label: {
+      description: 'Text above the field',
+      table: {
+        category: 'content'
+      }
+    },
+    options: {
+      description:
+        'Expects an array of objects used to list the options, the object with props: `value` and `label`',
+      table: {
+        category: 'content'
+      }
+    },
+    defaultValue: {
+      description: 'Sets a first option in the option list as a default value.',
+      table: {
+        category: 'content'
+      }
+    },
     value: {
       description: 'Initial value set for the input field',
       table: {
         category: 'content'
       }
+    },
+    selectedWord: {
+      description: 'Handles behaviour when input content changes.',
+      table: {
+        category: 'content'
+      }
+    },
+    allSelectedWord: {
+      description: 'Word to be displayed when you select all items',
+      table: {
+        category: 'content'
+      }
+    },
+    clearButton: {
+      description: 'Add a button to clear the selection',
+      table: {
+        category: 'content'
+      }
+    },
+    clearButtonWord: {
+      description: 'Word to be displayed on the button',
+      table: {
+        category: 'content'
+      }
+    },
+    onChange: {
+      description: 'Handles behaviour when input content changes.',
+      action: 'onChange Event',
+      table: {
+        category: 'events'
+      }
     }
   },
   args: {
-    error: false,
     label: 'Label Text',
     defaultLabel: 'Select Value',
     options: [
