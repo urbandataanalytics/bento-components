@@ -390,6 +390,7 @@ const components = {
   inputFieldLineHeight: '48px',
   inputFieldPlaceholderColor: color.charcoal400,
   inputFieldTextIndent: spacings.small4,
+  inputFieldIconColor: color.charcoal600,
 
   textareaFieldBackgroundColor: color.white,
   textareaFieldBorderColor: color.charcoal400,
@@ -441,6 +442,20 @@ const components = {
   inlineInputFieldPrefixLineHeight: '32px',
   inlineInputFieldPlaceholderColor: color.charcoal400,
   inlineInputFieldTextIndent: spacings.small4,
+
+  selectFieldBackgroundColor: color.white,
+  selectFieldHoverBackgroundColor: color.charcoal300,
+  selectFieldDisabledBackgroundColor: color.charcoal300,
+  selectFieldFocusBackgroundColor: color.primary100,
+  selectFieldFontSize: '14px',
+  selectFieldColor: color.charcoal800,
+  selectFieldFocusColor: color.primary500,
+  selectFieldFontWeight: global.fontWeightRegular,
+  selectFieldFocusFontWeight: global.fontWeightMedium,
+  selectFieldBorderColor: color.charcoal400,
+  selectFieldFocusBorderColor: color.primary500,
+  selectFieldBorderRadius: shapes.borderRadiusMedium,
+  selectFieldBoxShadow: '0px 8px 16px rgba(54, 60, 75, 0.1)',
 
   avatarBorderRadius: shapes.borderRadiusFull,
   avatarBackgroundColor: color.charcoal700,
