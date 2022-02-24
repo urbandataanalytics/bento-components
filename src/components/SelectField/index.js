@@ -21,6 +21,15 @@ const componentDisabled = theme => ({
   'background-color': theme.components.selectFieldDisabledBackgroundColor
 });
 
+const positionList = () => ({
+  small: {
+    top: '36px'
+  },
+  medium: {
+    top: '52px'
+  }
+});
+
 const LabelText = styled.p`
   font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
   color: ${({ theme }) => theme.components.inputFieldLabelColor};
@@ -93,9 +102,8 @@ const StyledSelectList = styled.ul`
   width: 100%;
   min-width: fit-content;
   max-width: fit-content;
-  margin-top: 32px;
   position: absolute;
-  top: 24px;
+  ${({ size }) => positionList()[size]};
   left: 0;
   background-color: ${({ theme }) => theme.components.selectFieldBackgroundColor};
   box-shadow: ${({ theme }) => theme.components.selectFieldBoxShadow};
@@ -172,10 +180,9 @@ const StyledLinkText = styled.div`
   border-top: 1px solid ${({ theme }) => theme.components.selectFieldBorderColor};
 
   > span {
-    font-size: 12px;
+    ${({ theme }) => theme.texts.p2b};
     cursor: pointer;
-    font-weight: ${({ theme }) => theme.components.selectFieldFocusFontWeight};
-    color: ${({ theme }) => theme.color.charcoal600};
+    color: ${({ theme }) => theme.color.primary500};
   }
 `;
 
@@ -197,6 +204,9 @@ const SelectField = ({
   tabIndex,
   value,
   multiSelect,
+  size,
+  clearButton,
+  clearButtonWord,
   ...other
 }) => {
   const [listOpen, setListOpen] = useState(false);
@@ -267,7 +277,13 @@ const SelectField = ({
   return (
     <div className={className}>
       {label && <LabelText disabled={disabled}>{label}</LabelText>}
-      <StyledSelectField {...other} disabled={disabled} active={listOpen} ref={container}>
+      <StyledSelectField
+        {...other}
+        size={size}
+        disabled={disabled}
+        active={listOpen}
+        ref={container}
+      >
         <StyledSelectHeader tabIndex={tabIndex} role="button" onClick={toggleList}>
           {headerTitle.length < 24 ? headerTitle : `${headerTitle.substring(0, 21)}...`}
           <StyledSelectHeaderIcon>
@@ -275,7 +291,7 @@ const SelectField = ({
           </StyledSelectHeaderIcon>
         </StyledSelectHeader>
         {listOpen && (
-          <StyledSelectList ref={selectList}>
+          <StyledSelectList ref={selectList} size={size}>
             {options.map(option => {
               const active = isItemInSelection(option);
               return (
@@ -287,9 +303,11 @@ const SelectField = ({
                 </StyledSelectItem>
               );
             })}
-            <StyledLinkText>
-              <span onClick={clearSelection}>Clear</span>
-            </StyledLinkText>
+            {clearButton && (
+              <StyledLinkText>
+                <span onClick={clearSelection}>{clearButtonWord}</span>
+              </StyledLinkText>
+            )}
           </StyledSelectList>
         )}
       </StyledSelectField>
@@ -311,7 +329,9 @@ SelectField.propTypes = {
   options: PropTypes.array.isRequired,
   tabIndex: PropTypes.string,
   value: PropTypes.string.isRequired,
-  multiSelect: PropTypes.bool
+  multiSelect: PropTypes.bool,
+  clearButton: PropTypes.bool,
+  clearButtonWord: PropTypes.string
 };
 
 SelectField.defaultProps = {
@@ -321,7 +341,9 @@ SelectField.defaultProps = {
   selectedWord: 'Selected',
   allSelectedWord: 'All',
   disabled: false,
-  multiSelect: false
+  multiSelect: false,
+  clearButton: false,
+  clearButtonWord: 'Clear'
 };
 
 SelectField.displayName = 'SelectField';
