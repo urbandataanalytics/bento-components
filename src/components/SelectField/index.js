@@ -285,7 +285,7 @@ const SelectField = ({
         ref={container}
       >
         <StyledSelectHeader tabIndex={tabIndex} role="button" onClick={toggleList}>
-          {headerTitle.length < 24 ? headerTitle : `${headerTitle.substring(0, 21)}...`}
+          {headerTitle?.length < 24 ? headerTitle : `${headerTitle?.substring(0, 21)}...`}
           <StyledSelectHeaderIcon>
             {listOpen ? <IconArrowOpen /> : <IconArrowClose />}
           </StyledSelectHeaderIcon>
