@@ -4,6 +4,7 @@ export interface DropdownProps {
   closeOnClickInside?: boolean;
   closeOnClickOutside?: boolean;
   isOpen?: boolean;
+  disabled?: boolean;
   label: React.ReactNode;
   onChange?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
   position?: 'top' | 'bottom';

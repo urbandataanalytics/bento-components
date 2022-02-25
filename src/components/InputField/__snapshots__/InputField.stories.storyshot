@@ -13,14 +13,14 @@ exports[`Storyshots InputField Disabled 1`] = `
       className="InputField__Label-sc-1kf04eo-3 ckeGRO"
     >
       <input
-        className="InputField__Input-sc-1kf04eo-2 fpIUFd"
+        className="InputField__Input-sc-1kf04eo-2 gItViY"
         disabled={true}
         placeholder="Placeholder text"
         type="text"
         value="Value text"
       />
       <p
-        className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+        className="InputField__LabelText-sc-1kf04eo-0 ljMMho"
         disabled={true}
       >
         Label text
@@ -48,14 +48,14 @@ exports[`Storyshots InputField Error 1`] = `
       className="InputField__Label-sc-1kf04eo-3 ckeGRO"
     >
       <input
-        className="InputField__Input-sc-1kf04eo-2 fpIUFd error"
+        className="InputField__Input-sc-1kf04eo-2 gItViY error"
         disabled={false}
         placeholder="Placeholder text"
         type="text"
         value="Value text"
       />
       <p
-        className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+        className="InputField__LabelText-sc-1kf04eo-0 ljMMho"
         disabled={false}
       >
         Label text
@@ -83,14 +83,14 @@ exports[`Storyshots InputField Normal 1`] = `
       className="InputField__Label-sc-1kf04eo-3 ckeGRO"
     >
       <input
-        className="InputField__Input-sc-1kf04eo-2 fpIUFd"
+        className="InputField__Input-sc-1kf04eo-2 gItViY"
         disabled={false}
         placeholder="Placeholder text"
         type="text"
         value="Value text"
       />
       <p
-        className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+        className="InputField__LabelText-sc-1kf04eo-0 ljMMho"
         disabled={false}
       >
         Label text

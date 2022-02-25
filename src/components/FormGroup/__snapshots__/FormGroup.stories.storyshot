@@ -17,14 +17,14 @@ exports[`Storyshots FormGroup Playground 1`] = `
         className="InputField__Label-sc-1kf04eo-3 ckeGRO"
       >
         <input
-          className="InputField__Input-sc-1kf04eo-2 fpIUFd"
+          className="InputField__Input-sc-1kf04eo-2 gItViY"
           disabled={false}
           placeholder="Type your email address"
           type="email"
           value=""
         />
         <p
-          className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+          className="InputField__LabelText-sc-1kf04eo-0 ljMMho"
           disabled={false}
         >
           Email
@@ -40,7 +40,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
         className="InputField__Label-sc-1kf04eo-3 ckeGRO"
       >
         <input
-          className="InputField__Input-sc-1kf04eo-2 pcwob"
+          className="InputField__Input-sc-1kf04eo-2 iIIjSM"
           disabled={false}
           placeholder="Type your password"
           type="password"
@@ -260,11 +260,21 @@ exports[`Storyshots FormGroup Playground 1`] = `
                   "buttonSecondaryBorderRadius": "4px",
                   "buttonSecondaryColor": "#212632",
                   "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                  "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                  "buttonSecondaryDisabledColor": "#DCDFE6",
+                  "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+                  "buttonSecondaryDisabledColor": "#B6BBC6",
                   "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                   "buttonSecondaryHoverBorderColor": "#DCDFE6",
                   "buttonSecondaryHoverColor": "#212632",
+                  "buttonTertiaryBackgroundColor": "#EFF7FB",
+                  "buttonTertiaryBorderColor": "#EFF7FB",
+                  "buttonTertiaryBorderRadius": "4px",
+                  "buttonTertiaryColor": "#1778FB",
+                  "buttonTertiaryDisabledBackgroundColor": "#FAFBFC",
+                  "buttonTertiaryDisabledBorderColor": "#FAFBFC",
+                  "buttonTertiaryDisabledColor": "#DCDFE6",
+                  "buttonTertiaryHoverBackgroundColor": "#EFF2F7",
+                  "buttonTertiaryHoverBorderColor": "#EFF2F7",
+                  "buttonTertiaryHoverColor": "#1778FB",
                   "carouselButtonBackground": "rgba(255, 255, 255, .6)",
                   "carouselButtonHoverBackground": "rgba(255, 255, 255, .8)",
                   "carouselButtonSize": "32px",
@@ -312,8 +322,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
                   "inlineInputFieldDisabledBackgroundColor": "#FAFBFC",
                   "inlineInputFieldDisabledBorderColor": "#FAFBFC",
                   "inlineInputFieldDisabledBottomBorderColor": "#DCDFE6",
-                  "inlineInputFieldDisabledColor": "#DCDFE6",
-                  "inlineInputFieldDisabledLabelColor": "#DCDFE6",
+                  "inlineInputFieldDisabledColor": "#747D93",
+                  "inlineInputFieldDisabledLabelColor": "#B6BBC6",
                   "inlineInputFieldErrorBackgroundColor": "#FAEDEC",
                   "inlineInputFieldErrorBorderColor": "#FAEDEC",
                   "inlineInputFieldErrorBottomBorderColor": "#CD4C41",
@@ -337,8 +347,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
                   "inputFieldBorderRadius": "4px",
                   "inputFieldDisabledBackgroundColor": "#FAFBFC",
                   "inputFieldDisabledBorderColor": "#DCDFE6",
-                  "inputFieldDisabledColor": "#DCDFE6",
-                  "inputFieldDisabledLabelColor": "#DCDFE6",
+                  "inputFieldDisabledColor": "#747D93",
+                  "inputFieldDisabledLabelColor": "#747D93",
                   "inputFieldErrorBackgroundColor": "#FAEDEC",
                   "inputFieldErrorBorderColor": "#CD4C41",
                   "inputFieldErrorHelpColor": "#CD4C41",
@@ -350,7 +360,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                   "inputFieldHelpColor": "#212632",
                   "inputFieldHelpFontSize": "12px",
                   "inputFieldLabelColor": "#363C4B",
-                  "inputFieldLabelFontSize": "12px",
+                  "inputFieldLabelFontSize": "14px",
                   "inputFieldLineHeight": "48px",
                   "inputFieldPlaceholderColor": "#DCDFE6",
                   "inputFieldTextIndent": "24px",
@@ -480,8 +490,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
                   "textareaFieldBorderRadius": "4px",
                   "textareaFieldDisabledBackgroundColor": "#FAFBFC",
                   "textareaFieldDisabledBorderColor": "#DCDFE6",
-                  "textareaFieldDisabledColor": "#DCDFE6",
-                  "textareaFieldDisabledLabelColor": "#DCDFE6",
+                  "textareaFieldDisabledColor": "#747D93",
+                  "textareaFieldDisabledLabelColor": "#747D93",
                   "textareaFieldErrorBackgroundColor": "#FAEDEC",
                   "textareaFieldErrorBorderColor": "#CD4C41",
                   "textareaFieldErrorHelpColor": "#CD4C41",
@@ -620,7 +630,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
           </svg>
         </button>
         <p
-          className="InputField__LabelText-sc-1kf04eo-0 eSBTHR"
+          className="InputField__LabelText-sc-1kf04eo-0 ljMMho"
           disabled={false}
         >
           Password
@@ -850,11 +860,21 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "buttonSecondaryBorderRadius": "4px",
                 "buttonSecondaryColor": "#212632",
                 "buttonSecondaryDisabledBackgroundColor": "#FFFFFF",
-                "buttonSecondaryDisabledBorderColor": "#EFF2F7",
-                "buttonSecondaryDisabledColor": "#DCDFE6",
+                "buttonSecondaryDisabledBorderColor": "#DCDFE6",
+                "buttonSecondaryDisabledColor": "#B6BBC6",
                 "buttonSecondaryHoverBackgroundColor": "#DCDFE6",
                 "buttonSecondaryHoverBorderColor": "#DCDFE6",
                 "buttonSecondaryHoverColor": "#212632",
+                "buttonTertiaryBackgroundColor": "#EFF7FB",
+                "buttonTertiaryBorderColor": "#EFF7FB",
+                "buttonTertiaryBorderRadius": "4px",
+                "buttonTertiaryColor": "#1778FB",
+                "buttonTertiaryDisabledBackgroundColor": "#FAFBFC",
+                "buttonTertiaryDisabledBorderColor": "#FAFBFC",
+                "buttonTertiaryDisabledColor": "#DCDFE6",
+                "buttonTertiaryHoverBackgroundColor": "#EFF2F7",
+                "buttonTertiaryHoverBorderColor": "#EFF2F7",
+                "buttonTertiaryHoverColor": "#1778FB",
                 "carouselButtonBackground": "rgba(255, 255, 255, .6)",
                 "carouselButtonHoverBackground": "rgba(255, 255, 255, .8)",
                 "carouselButtonSize": "32px",
@@ -902,8 +922,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "inlineInputFieldDisabledBackgroundColor": "#FAFBFC",
                 "inlineInputFieldDisabledBorderColor": "#FAFBFC",
                 "inlineInputFieldDisabledBottomBorderColor": "#DCDFE6",
-                "inlineInputFieldDisabledColor": "#DCDFE6",
-                "inlineInputFieldDisabledLabelColor": "#DCDFE6",
+                "inlineInputFieldDisabledColor": "#747D93",
+                "inlineInputFieldDisabledLabelColor": "#B6BBC6",
                 "inlineInputFieldErrorBackgroundColor": "#FAEDEC",
                 "inlineInputFieldErrorBorderColor": "#FAEDEC",
                 "inlineInputFieldErrorBottomBorderColor": "#CD4C41",
@@ -927,8 +947,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "inputFieldBorderRadius": "4px",
                 "inputFieldDisabledBackgroundColor": "#FAFBFC",
                 "inputFieldDisabledBorderColor": "#DCDFE6",
-                "inputFieldDisabledColor": "#DCDFE6",
-                "inputFieldDisabledLabelColor": "#DCDFE6",
+                "inputFieldDisabledColor": "#747D93",
+                "inputFieldDisabledLabelColor": "#747D93",
                 "inputFieldErrorBackgroundColor": "#FAEDEC",
                 "inputFieldErrorBorderColor": "#CD4C41",
                 "inputFieldErrorHelpColor": "#CD4C41",
@@ -940,7 +960,7 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "inputFieldHelpColor": "#212632",
                 "inputFieldHelpFontSize": "12px",
                 "inputFieldLabelColor": "#363C4B",
-                "inputFieldLabelFontSize": "12px",
+                "inputFieldLabelFontSize": "14px",
                 "inputFieldLineHeight": "48px",
                 "inputFieldPlaceholderColor": "#DCDFE6",
                 "inputFieldTextIndent": "24px",
@@ -1070,8 +1090,8 @@ exports[`Storyshots FormGroup Playground 1`] = `
                 "textareaFieldBorderRadius": "4px",
                 "textareaFieldDisabledBackgroundColor": "#FAFBFC",
                 "textareaFieldDisabledBorderColor": "#DCDFE6",
-                "textareaFieldDisabledColor": "#DCDFE6",
-                "textareaFieldDisabledLabelColor": "#DCDFE6",
+                "textareaFieldDisabledColor": "#747D93",
+                "textareaFieldDisabledLabelColor": "#747D93",
                 "textareaFieldErrorBackgroundColor": "#FAEDEC",
                 "textareaFieldErrorBorderColor": "#CD4C41",
                 "textareaFieldErrorHelpColor": "#CD4C41",

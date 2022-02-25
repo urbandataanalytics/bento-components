@@ -304,19 +304,19 @@ const ListItem = React.forwardRef((props, ref) => {
       focusRightContent={focusRightContent}
     >
       <StyledComponent disabled={disabled} as={Component} {...other}>
-        {leftContent && (
+        {leftContent ? (
           <StyledLeftContent active={active} disabled={disabled} focused={focused}>
             {leftContent}
           </StyledLeftContent>
-        )}
+        ) : null}
 
         {children}
 
-        {rightContent && (
+        {rightContent ? (
           <StyledRightContent active={active} disabled={disabled} focused={focused}>
             {rightContent}
           </StyledRightContent>
-        )}
+        ) : null}
       </StyledComponent>
     </StyledListItem>
   );

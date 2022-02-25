@@ -82,4 +82,17 @@ describe(`Dropdown`, () => {
 
     expect(wrapper.find('Dropdown__ChildrenContainer').exists()).toBe(true);
   });
+
+  it('should not open dropdown if it is disabled', () => {
+    const wrapper = shallow(
+      <Dropdown disabled={true} label="Label">
+        <p id="child1">Child 1</p>
+      </Dropdown>
+    );
+
+    //Opens dropdown from button
+    wrapper.find('Dropdown__StyledLabel').simulate('click');
+
+    expect(wrapper.find('Dropdown__ChildrenContainer').exists()).toBe(false);
+  });
 });

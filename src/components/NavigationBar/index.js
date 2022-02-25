@@ -169,18 +169,18 @@ const NavigationBar = props => {
   ) : (
     <StyledNavigation sticked={sticked} header={header} dropdownMenu={dropdownMenu} {...other}>
       <NavigationLeft>
-        {dropdownMenu && (
+        {dropdownMenu ? (
           <StyledDropdown>
             <Dropdown onChange={handleDropdown} label={<Menu />}>
               {dropdownMenu}
             </Dropdown>
           </StyledDropdown>
-        )}
-        {header && <NavigationLeftHeader>{React.cloneElement(header)}</NavigationLeftHeader>}
+        ) : null}
+        {header ? <NavigationLeftHeader>{React.cloneElement(header)}</NavigationLeftHeader> : null}
       </NavigationLeft>
 
       <NavigationRight>
-        {children && (
+        {children ? (
           <NavigationContent>
             <NavigationLink>
               {Children.map(children, child => (
@@ -188,10 +188,10 @@ const NavigationBar = props => {
               ))}
             </NavigationLink>
           </NavigationContent>
-        )}
-        {rightContent && (
+        ) : null}
+        {rightContent ? (
           <NavigationRightContent>{React.cloneElement(rightContent)}</NavigationRightContent>
-        )}
+        ) : null}
       </NavigationRight>
     </StyledNavigation>
   );

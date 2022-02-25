@@ -80,7 +80,7 @@ const TableHeader = ({ column, enableSorting, displayName, setSort }) => {
       {icon}
       <StyledLabel className={sortDirection ? 'active' : null}>{displayName}</StyledLabel>
 
-      {sortDirection && (
+      {sortDirection ? (
         <StyledSort>
           {sortDirection === 'asc' ? (
             <IconOrderAsc size="small" customColor={theme.color.primary500} />
@@ -88,7 +88,7 @@ const TableHeader = ({ column, enableSorting, displayName, setSort }) => {
             <IconOrderDesc size="small" customColor={theme.color.primary500} />
           )}
         </StyledSort>
-      )}
+      ) : null}
     </StyledHeader>
   );
 };

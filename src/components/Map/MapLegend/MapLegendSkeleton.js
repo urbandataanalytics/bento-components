@@ -48,7 +48,7 @@ const MapLegendSkeleton = ({ actions, hasDescription }) => {
     <Style>
       <StyledContainer>
         <Skeleton height="15px" width="50%" />
-        {hasDescription && <Skeleton height="8px" width="30%" />}
+        {hasDescription ? <Skeleton height="8px" width="30%" /> : null}
         <Skeleton height="10px" width="100%" />
         <StyledMinMax>
           <Skeleton height="8px" width="50px" />
