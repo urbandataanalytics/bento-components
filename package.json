@@ -32,7 +32,7 @@
     "copy:ts": "copyfiles -u 1 \"./src/**/*.d.ts\" lib",
     "deploy:storybook": "cross-env BABEL_TARGET=\"storybook\" storybook-to-ghpages",
     "test": "jest",
-    "test:ci": "yarn build:icons && jest --ci --coverage",
+    "test:ci": "yarn build:icons && jest -u --ci --coverage",
     "test:updateSnapshot": "yarn test --updateSnapshot",
     "eject": "react-scripts eject",
     "lint": "eslint .",
