@@ -95,6 +95,7 @@ const StyledSelectHeaderIcon = styled.div`
 `;
 
 const StyledSelectList = styled.ul`
+  z-index: 1;
   padding: 0;
   margin: 0;
   max-height: 320px;
