@@ -217,7 +217,7 @@ const SelectField = ({
   useEffect(() => {
     if (value) {
       const option = options.find(option => option.value === value);
-      setHeaderTitle(option.label);
+      setHeaderTitle(option?.label || defaultLabel);
     }
   }, []);
 
