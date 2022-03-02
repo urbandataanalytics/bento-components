@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import useOnclickOutside from 'react-cool-onclickoutside';
@@ -95,6 +95,7 @@ const StyledSelectHeaderIcon = styled.div`
 `;
 
 const StyledSelectList = styled.ul`
+  z-index: 1;
   padding: 0;
   margin: 0;
   max-height: 320px;
@@ -213,6 +214,13 @@ const SelectField = ({
   const [headerTitle, setHeaderTitle] = useState(defaultLabel);
   const [selection, setSelection] = useState([]);
 
+  useEffect(() => {
+    if (value) {
+      const option = options.find(option => option.value === value);
+      setHeaderTitle(option?.label || defaultLabel);
+    }
+  }, []);
+
   const toggleList = () => {
     !disabled && setListOpen(!listOpen);
   };
@@ -234,7 +242,7 @@ const SelectField = ({
   const clearSelection = () => {
     setSelection([]);
     setHeaderTitle(defaultLabel);
-    onChange([]);
+    onChange(null);
   };
 
   const handleSelect = item => {
@@ -243,7 +251,7 @@ const SelectField = ({
         setSelection([item.value]);
         setHeaderTitle(item.label);
         setListOpen(false);
-        onChange([item.value]);
+        onChange(item.value);
       } else if (multiSelect) {
         const selectedItems = [...selection, item.value];
         if (selectedItems.length === 1) {
@@ -336,6 +344,7 @@ SelectField.propTypes = {
 
 SelectField.defaultProps = {
   value: '',
+  defaultLabel: '',
   defaultValue: '',
   size: 'medium',
   selectedWord: 'Selected',
