@@ -49,7 +49,7 @@ const StyledSelectField = styled.div`
   justify-content: center;
   height: 40px;
   min-width: 240px;
-  max-width: fit-content;
+  max-width: 100%;
   color: ${({ theme }) => theme.components.selectFieldColor};
   border: 1px solid
     ${({ active, theme }) =>
