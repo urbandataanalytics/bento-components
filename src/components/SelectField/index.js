@@ -48,7 +48,6 @@ const StyledSelectField = styled.div`
   align-items: center;
   justify-content: center;
   height: 40px;
-  min-width: 240px;
   max-width: 100%;
   color: ${({ theme }) => theme.components.selectFieldColor};
   border: 1px solid
@@ -59,6 +58,7 @@ const StyledSelectField = styled.div`
   border-radius: ${({ theme }) => theme.components.selectFieldBorderRadius};
   ${({ size, theme }) => componentSizes(theme)[size]};
   ${({ disabled, theme }) => disabled && componentDisabled(theme)};
+  z-index: 10;
 `;
 
 StyledSelectField.defaultProps = {
@@ -127,7 +127,7 @@ const StyledSelectItem = styled.li`
   list-style-type: none;
   white-space: nowrap;
   user-select: none;
-  min-width: 240px;
+  min-width: fit-content;
   background-color: ${({ theme }) => theme.components.selectFieldBackgroundColor};
   padding: 4px 8px;
 
