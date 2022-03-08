@@ -12,11 +12,18 @@ export default {
         category: 'others'
       }
     },
-    defaultLabel: {
-      description:
-        "Sets a first option in the option list as a default value. For instance: 'Select value'",
+    name: {
+      description: 'Sets `name` to the input field ',
+      control: 'none',
       table: {
-        category: 'content'
+        category: 'others'
+      }
+    },
+    tabIndex: {
+      description: "Specifies the tab order of the element (when the 'tab' key is pressed)",
+      control: 'none',
+      table: {
+        category: 'others'
       }
     },
     disabled: {
@@ -25,14 +32,21 @@ export default {
         category: 'behaviour'
       }
     },
-    error: {
-      description: " Turns the help text into 'error variant'",
+    size: {
+      description: 'Sets size of the field, `medium` by default',
       table: {
-        category: 'format'
+        category: 'behaviour'
       }
     },
-    help: {
-      description: 'Adds custom text next as Help Text Below the field',
+    multiSelect: {
+      description: 'Allows multiple options to be selected',
+      table: {
+        category: 'behaviour'
+      }
+    },
+    defaultLabel: {
+      description:
+        "Sets a first option in the option list as a default label. For instance: 'Select value'",
       table: {
         category: 'content'
       }
@@ -43,11 +57,47 @@ export default {
         category: 'content'
       }
     },
-    name: {
-      description: 'Sets `name`to the input field ',
-      control: 'none',
+    options: {
+      description:
+        'Expects an array of objects used to list the options, the object with props: `value` and `label`',
       table: {
-        category: 'others'
+        category: 'content'
+      }
+    },
+    defaultValue: {
+      description: 'Sets a first option in the option list as a default value.',
+      table: {
+        category: 'content'
+      }
+    },
+    value: {
+      description: 'Initial value set for the input field',
+      table: {
+        category: 'content'
+      }
+    },
+    selectedWord: {
+      description: 'Handles behaviour when input content changes.',
+      table: {
+        category: 'content'
+      }
+    },
+    allSelectedWord: {
+      description: 'Word to be displayed when you select all items',
+      table: {
+        category: 'content'
+      }
+    },
+    clearButton: {
+      description: 'Add a button to clear the selection',
+      table: {
+        category: 'content'
+      }
+    },
+    clearButtonWord: {
+      description: 'Word to be displayed on the button',
+      table: {
+        category: 'content'
       }
     },
     onChange: {
@@ -56,36 +106,15 @@ export default {
       table: {
         category: 'events'
       }
-    },
-    options: {
-      description:
-        'Expects an array of objects used to list the options, the object with props: `value`and `label`',
-      table: {
-        category: 'content'
-      }
-    },
-    tabIndex: {
-      description: "Specifies the tab order of the element (when the 'tab' key is pressed)",
-      control: 'none',
-      table: {
-        category: 'others'
-      }
-    },
-    value: {
-      description: 'Initial value set for the input field',
-      table: {
-        category: 'content'
-      }
     }
   },
   args: {
-    help: 'Help Text',
-    error: false,
     label: 'Label Text',
     defaultLabel: 'Select Value',
     options: [
       { value: 'en', label: 'English' },
-      { value: 'es', label: 'Spanish' }
+      { value: 'es', label: 'Spanish' },
+      { value: 'it', label: 'Italy' }
     ],
     disabled: false,
     value: 'en',
@@ -101,6 +130,14 @@ export const Playground = args => {
   return (
     <div style={decoratorStyles}>
       <SelectField {...args} />
+    </div>
+  );
+};
+
+export const MultiSelect = args => {
+  return (
+    <div style={decoratorStyles}>
+      <SelectField {...args} multiSelect={true} />
     </div>
   );
 };

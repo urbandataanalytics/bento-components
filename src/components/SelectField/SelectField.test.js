@@ -1,5 +1,5 @@
 import React from 'react';
-import { mount, shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import SelectField from './index';
 
 describe(`SelectField`, () => {
@@ -10,7 +10,8 @@ describe(`SelectField`, () => {
       { value: 'en', label: 'English' },
       { value: 'es', label: 'Spanish' }
     ],
-    type: 'text'
+    type: 'text',
+    size: 'medium'
   };
 
   it('should render the text from label prop', () => {
@@ -22,40 +23,44 @@ describe(`SelectField`, () => {
 
   it('should set disabled prop on input', () => {
     const wrapper = shallow(<SelectField disabled {...props} />);
-
-    const input = () => wrapper.find('SelectField__Select');
+    const input = () => wrapper.find('SelectField__StyledSelectField');
     expect(input().props().disabled).toBe(true);
 
     wrapper.setProps({ disabled: false });
     expect(input().props().disabled).toBe(false);
   });
 
-  it('should set tabindex prop on input', () => {
+  it('should set tab index prop on input', () => {
     const wrapper = shallow(<SelectField tabIndex="-1" {...props} />);
+    const input = () => wrapper.find('SelectField__StyledSelectHeader');
 
-    const input = () => wrapper.find('SelectField__Select');
     expect(input().props().tabIndex).toBe('-1');
   });
 
-  it('should execute onChange method', () => {
-    const wrapper = shallow(<SelectField label="Default" {...props} />);
-    const input = () => wrapper.find('SelectField__Select');
+  it('should set size prop small', () => {
+    const wrapper = shallow(<SelectField disabled {...props} />);
+    const input = () => wrapper.find('SelectField__StyledSelectField');
+    expect(input().props().size).toBe('medium');
 
-    input().simulate('change');
-    expect(props.onChange).toHaveBeenCalled();
+    wrapper.setProps({ size: 'small' });
+    expect(input().props().size).toBe('small');
   });
 
-  describe('styles', () => {
-    const component = mount(<SelectField error {...props} help="Help text" />);
-    const help = component.find('SelectField__HelpText');
-    const input = component.find('SelectField__Select');
-    const theme = input.prop('theme');
+  it('should render options list content', () => {
+    const wrapper = mount(<SelectField {...props} />);
+    wrapper.find('SelectField__StyledSelectHeader').simulate('click');
 
-    it('should have error classname', () => {
-      expect(help.hasClass('error')).toBe(true);
-      expect(help).toHaveStyleRule('color', theme.components.inputFieldErrorHelpColor, {
-        modifier: '&.error'
-      });
-    });
+    const options = () => wrapper.find('SelectField__StyledSelectList');
+    expect(options().exists()).toBe(true);
+  });
+
+  xit('should execute onChange method', () => {
+    const wrapper = shallow(<SelectField label="Default" {...props} />);
+    wrapper.find('SelectField__StyledSelectHeader').simulate('click');
+
+    const input = () => wrapper.find('SelectField__StyledSelectItem').at(0);
+    input().simulate('change');
+
+    expect(props.onChange).toHaveBeenCalled();
   });
 });
