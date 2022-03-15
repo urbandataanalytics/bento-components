@@ -17,7 +17,7 @@ const MinMaxContainer = styled.div`
 
 const InputContainer = styled.label`
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   height: 37px;
 `;
 
