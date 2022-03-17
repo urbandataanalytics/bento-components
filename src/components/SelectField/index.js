@@ -240,6 +240,12 @@ const SelectField = ({
     }
   }, []);
 
+  useEffect(() => {
+    if (!value) {
+      clearSelection();
+    }
+  }, [value]);
+
   const toggleList = () => {
     !disabled && setListOpen(!listOpen);
   };
