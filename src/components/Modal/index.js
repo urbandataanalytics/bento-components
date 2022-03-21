@@ -43,7 +43,8 @@ StyledHeader.defaultProps = {
   theme: defaultTheme
 };
 
-const StyleHeading = styled.h3`
+const StyleHeading = styled.div`
+  width: 100%;
   color: ${({ theme }) => theme.color.charcoal700};
 `;
 

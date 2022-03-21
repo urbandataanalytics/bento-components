@@ -32,6 +32,12 @@ export default {
         category: 'behaviour'
       }
     },
+    variant: {
+      description: 'Sets the variant of the field',
+      table: {
+        category: 'behaviour'
+      }
+    },
     size: {
       description: 'Sets size of the field, `medium` by default',
       table: {

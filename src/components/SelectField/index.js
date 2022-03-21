@@ -8,6 +8,17 @@ import IconArrowOpen from '../../icons/ArrowOpen/index';
 import IconCheck from '../../icons/Check/index';
 import IconDotLarge from '../../icons/DotLarge/index';
 
+const componentVariant = () => ({
+  medium: {
+    'flex-direction': 'column'
+  },
+  small: {
+    'flex-direction': 'row',
+    'justify-content': 'space-between',
+    'align-items': 'center'
+  }
+});
+
 const componentSizes = theme => ({
   small: {
     height: theme.spacings.medium1
@@ -29,6 +40,11 @@ const positionList = () => ({
     top: '52px'
   }
 });
+
+const StyledContainer = styled.div`
+  display: flex;
+  ${({ variant }) => componentVariant()[variant]}
+`;
 
 const LabelText = styled.p`
   font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
@@ -193,6 +209,8 @@ StyledLinkText.defaultProps = {
 
 const SelectField = ({
   className,
+  customStyleSelect,
+  customStyleLabel,
   defaultLabel,
   defaultValue,
   disabled,
@@ -205,6 +223,7 @@ const SelectField = ({
   tabIndex,
   value,
   multiSelect,
+  variant,
   size,
   clearButton,
   clearButtonWord,
@@ -220,6 +239,12 @@ const SelectField = ({
       setHeaderTitle(option?.label || defaultLabel);
     }
   }, []);
+
+  useEffect(() => {
+    if (!value) {
+      clearSelection();
+    }
+  }, [value]);
 
   const toggleList = () => {
     !disabled && setListOpen(!listOpen);
@@ -283,14 +308,19 @@ const SelectField = ({
   };
 
   return (
-    <div className={className}>
-      {label && <LabelText disabled={disabled}>{label}</LabelText>}
+    <StyledContainer className={className} variant={variant}>
+      {label && (
+        <LabelText style={customStyleLabel} disabled={disabled}>
+          {label}
+        </LabelText>
+      )}
       <StyledSelectField
         {...other}
         size={size}
         disabled={disabled}
         active={listOpen}
         ref={container}
+        style={customStyleSelect}
       >
         <StyledSelectHeader tabIndex={tabIndex} role="button" onClick={toggleList}>
           {headerTitle?.length < 24 ? headerTitle : `${headerTitle?.substring(0, 21)}...`}
@@ -319,18 +349,21 @@ const SelectField = ({
           </StyledSelectList>
         )}
       </StyledSelectField>
-    </div>
+    </StyledContainer>
   );
 };
 
 SelectField.propTypes = {
   className: PropTypes.string,
+  customStyleSelect: PropTypes.object,
+  customStyleLabel: PropTypes.object,
   defaultLabel: PropTypes.string,
   defaultValue: PropTypes.string,
   disabled: PropTypes.bool,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
   size: PropTypes.oneOf(['small', 'medium']),
+  variant: PropTypes.oneOf(['small', 'medium']),
   selectedWord: PropTypes.string,
   allSelectedWord: PropTypes.string,
   onChange: PropTypes.func.isRequired,
@@ -346,6 +379,7 @@ SelectField.defaultProps = {
   value: '',
   defaultLabel: '',
   defaultValue: '',
+  variant: 'medium',
   size: 'medium',
   selectedWord: 'Selected',
   allSelectedWord: 'All',
