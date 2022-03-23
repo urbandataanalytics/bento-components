@@ -229,6 +229,13 @@ const SelectField = ({
   const [selection, setSelection] = useState([]);
 
   useEffect(() => {
+    if (
+      multiSelect &&
+      (value === null || value === 'null') &&
+      options.some(i => i.value === null || i.value === 'null')
+    ) {
+      selectAll();
+    }
     if (value) {
       const option = options.find(option => option.value === value);
       setHeaderTitle(option?.label || defaultLabel);
@@ -237,7 +244,7 @@ const SelectField = ({
   }, []);
 
   useEffect(() => {
-    if (multiSelect && (!value || value === 'null')) {
+    if (multiSelect && (value === null || value === 'null')) {
       return selectAll();
     }
     if (!value) return clearSelection();
@@ -245,7 +252,7 @@ const SelectField = ({
 
   const selectAll = () => {
     const option = options.find(option => option.value === 'null' || option.value === null);
-    setSelection(['null']);
+    setSelection([option.value]);
     setHeaderTitle(option?.label || allSelectedWord);
   };
 
@@ -267,13 +274,6 @@ const SelectField = ({
     return selection.some(current => current === item.value);
   };
 
-  const isNullValue = item => {
-    if (typeof item === 'object') {
-      return item.value === 'null' || item.value === null;
-    }
-    return item === 'null' || item === null;
-  };
-
   const clearSelection = () => {
     setSelection([]);
     setHeaderTitle(defaultLabel);
@@ -288,11 +288,13 @@ const SelectField = ({
         setListOpen(false);
         onChange(item.value);
       } else if (multiSelect) {
-        if (isNullValue(item)) {
+        if (item?.value === 'null' || item?.value === null) {
           return selectAll();
         }
 
-        const selectedItems = [...selection.filter(item => !isNullValue(item)), item.value];
+        const selectedItems = [...selection, item.value]
+          .filter(i => i !== null)
+          .filter(i => i !== 'null');
         if (selectedItems.length === 1) {
           setHeaderTitle(item.label);
         } else if (selectedItems.length === options.length) {
