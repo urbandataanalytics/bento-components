@@ -244,8 +244,9 @@ const SelectField = ({
   }, [value]);
 
   const selectAll = () => {
+    const option = options.find(option => option.value === 'null' || option.value === null);
     setSelection(['null']);
-    setHeaderTitle(allSelectedWord);
+    setHeaderTitle(option?.label || allSelectedWord);
   };
 
   const toggleList = () => {
