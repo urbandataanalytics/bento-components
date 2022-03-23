@@ -96,7 +96,7 @@ const StyledSelectHeader = styled.div`
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: ${({ theme }) => theme.components.selectFieldColor};
+    ${({ theme, active }) => (active ? theme.texts.p1b : theme.texts.p1)};
   }
 `;
 
@@ -164,19 +164,14 @@ const StyledSelectItem = styled.li`
         ? theme.components.selectFieldFocusBackgroundColor
         : theme.components.selectFieldBackgroundColor};
     border-radius: ${({ theme }) => theme.shapes.borderRadiusSmall};
-    font-size: ${({ theme }) => theme.components.selectFieldFontSize};
     padding: 10px 16px;
     height: 40px;
-    line-height: 150%;
     width: 100%;
     text-align: left;
     cursor: pointer;
+    ${({ active, theme }) => (active ? theme.texts.p1b : theme.texts.p1)};
     color: ${({ active, theme }) =>
       active ? theme.components.selectFieldFocusColor : theme.components.selectFieldColor};
-    font-weight: ${({ active, theme }) =>
-      active
-        ? theme.components.selectFieldFocusFontWeight
-        : theme.components.selectFieldFontWeight};
     &:hover {
       background-color: ${({ theme }) => theme.components.selectFieldHoverBackgroundColor};
     }
@@ -237,14 +232,21 @@ const SelectField = ({
     if (value) {
       const option = options.find(option => option.value === value);
       setHeaderTitle(option?.label || defaultLabel);
+      handleSelect(option);
     }
   }, []);
 
   useEffect(() => {
-    if (!value) {
-      clearSelection();
+    if (multiSelect && (!value || value === 'null')) {
+      return selectAll();
     }
+    if (!value) return clearSelection();
   }, [value]);
+
+  const selectAll = () => {
+    setSelection(['null']);
+    setHeaderTitle(allSelectedWord);
+  };
 
   const toggleList = () => {
     !disabled && setListOpen(!listOpen);
@@ -264,10 +266,17 @@ const SelectField = ({
     return selection.some(current => current === item.value);
   };
 
+  const isNullValue = item => {
+    if (typeof item === 'object') {
+      return item.value === 'null' || item.value === null;
+    }
+    return item === 'null' || item === null;
+  };
+
   const clearSelection = () => {
     setSelection([]);
     setHeaderTitle(defaultLabel);
-    onChange(null);
+    onChange([]);
   };
 
   const handleSelect = item => {
@@ -278,7 +287,11 @@ const SelectField = ({
         setListOpen(false);
         onChange(item.value);
       } else if (multiSelect) {
-        const selectedItems = [...selection, item.value];
+        if (isNullValue(item)) {
+          return selectAll();
+        }
+
+        const selectedItems = [...selection.filter(item => !isNullValue(item)), item.value];
         if (selectedItems.length === 1) {
           setHeaderTitle(item.label);
         } else if (selectedItems.length === options.length) {
@@ -322,8 +335,13 @@ const SelectField = ({
         ref={container}
         style={customStyleSelect}
       >
-        <StyledSelectHeader tabIndex={tabIndex} role="button" onClick={toggleList}>
-          {headerTitle?.length < 24 ? headerTitle : `${headerTitle?.substring(0, 21)}...`}
+        <StyledSelectHeader
+          tabIndex={tabIndex}
+          role="button"
+          onClick={toggleList}
+          active={selection.length >= 1}
+        >
+          <p>{headerTitle?.length < 24 ? headerTitle : `${headerTitle?.substring(0, 21)}...`}</p>
           <StyledSelectHeaderIcon>
             {listOpen ? <IconArrowOpen /> : <IconArrowClose />}
           </StyledSelectHeaderIcon>
