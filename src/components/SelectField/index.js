@@ -227,19 +227,13 @@ const SelectField = ({
   const [listOpen, setListOpen] = useState(false);
   const [headerTitle, setHeaderTitle] = useState(defaultLabel);
   const [selection, setSelection] = useState([]);
-  const [hasNullOption, setHasNullOption] = useState(false);
-  const [nullOption, setNullOption] = useState({});
 
   useEffect(() => {
-    const option = options.find(option => option.value === 'null' || option.value === null);
-    if (multiSelect && option?.label) {
-      setHasNullOption(true);
-      setNullOption(option);
-    }
-  }, []);
-
-  useEffect(() => {
-    if (hasNullOption && (value === null || value === 'null')) {
+    if (
+      multiSelect &&
+      (value === null || value === 'null') &&
+      options.some(i => i.value === null || i.value === 'null')
+    ) {
       return selectAll();
     }
     if (multiSelect && typeof value === 'object') {
@@ -253,15 +247,16 @@ const SelectField = ({
   }, []);
 
   useEffect(() => {
-    if (hasNullOption && (value === null || value === 'null')) {
+    if (multiSelect && (value === null || value === 'null')) {
       return selectAll();
     }
     if (!value) return clearSelection();
   }, [value]);
 
   const selectAll = () => {
-    setSelection([nullOption?.value]);
-    setHeaderTitle(nullOption?.label || allSelectedWord);
+    const option = options.find(option => option.value === 'null' || option.value === null);
+    setSelection([option.value]);
+    setHeaderTitle(option?.label || allSelectedWord);
   };
 
   const toggleList = () => {
@@ -308,6 +303,7 @@ const SelectField = ({
         onChange(item.value);
       } else if (multiSelect) {
         if (item?.value === 'null' || item?.value === null) {
+          onChange([item?.value || null]);
           return selectAll();
         }
 
