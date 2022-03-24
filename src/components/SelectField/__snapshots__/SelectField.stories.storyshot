@@ -23,11 +23,13 @@ exports[`Storyshots SelectField Multi Select 1`] = `
       size="medium"
     >
       <div
-        className="SelectField__StyledSelectHeader-sc-1svgo9p-3 kGqvXR"
+        className="SelectField__StyledSelectHeader-sc-1svgo9p-3 hDDWSm"
         onClick={[Function]}
         role="button"
       >
-        Select Value
+        <p>
+          Select Value
+        </p>
         <div
           className="SelectField__StyledSelectHeaderIcon-sc-1svgo9p-4 jnOBem"
         >
@@ -653,11 +655,13 @@ exports[`Storyshots SelectField Playground 1`] = `
       size="medium"
     >
       <div
-        className="SelectField__StyledSelectHeader-sc-1svgo9p-3 kGqvXR"
+        className="SelectField__StyledSelectHeader-sc-1svgo9p-3 hDDWSm"
         onClick={[Function]}
         role="button"
       >
-        Select Value
+        <p>
+          Select Value
+        </p>
         <div
           className="SelectField__StyledSelectHeaderIcon-sc-1svgo9p-4 jnOBem"
         >

@@ -4,7 +4,7 @@ import SelectField from './index';
 
 describe(`SelectField`, () => {
   const props = {
-    value: 'default Value',
+    value: 'es',
     onChange: jest.fn(),
     options: [
       { value: 'en', label: 'English' },
