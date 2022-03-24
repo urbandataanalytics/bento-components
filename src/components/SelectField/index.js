@@ -227,33 +227,41 @@ const SelectField = ({
   const [listOpen, setListOpen] = useState(false);
   const [headerTitle, setHeaderTitle] = useState(defaultLabel);
   const [selection, setSelection] = useState([]);
+  const [hasNullOption, setHasNullOption] = useState(false);
+  const [nullOption, setNullOption] = useState({});
 
   useEffect(() => {
-    if (
-      multiSelect &&
-      (value === null || value === 'null') &&
-      options.some(i => i.value === null || i.value === 'null')
-    ) {
-      selectAll();
+    const option = options.find(option => option.value === 'null' || option.value === null);
+    if (multiSelect && option?.label) {
+      setHasNullOption(true);
+      setNullOption(option);
     }
-    if (value) {
-      const option = options.find(option => option.value === value);
+  }, []);
+
+  useEffect(() => {
+    if (hasNullOption && (value === null || value === 'null')) {
+      return selectAll();
+    }
+    if (multiSelect && typeof value === 'object') {
+      return handleInitialMultiSelect(value);
+    }
+    if (!multiSelect && value) {
+      const option = options.find(opt => opt?.value === value);
       setHeaderTitle(option?.label || defaultLabel);
       handleSelect(option);
     }
   }, []);
 
   useEffect(() => {
-    if (multiSelect && (value === null || value === 'null')) {
+    if (hasNullOption && (value === null || value === 'null')) {
       return selectAll();
     }
     if (!value) return clearSelection();
   }, [value]);
 
   const selectAll = () => {
-    const option = options.find(option => option.value === 'null' || option.value === null);
-    setSelection([option.value]);
-    setHeaderTitle(option?.label || allSelectedWord);
+    setSelection([nullOption?.value]);
+    setHeaderTitle(nullOption?.label || allSelectedWord);
   };
 
   const toggleList = () => {
@@ -271,13 +279,24 @@ const SelectField = ({
   );
 
   const isItemInSelection = item => {
-    return selection.some(current => current === item.value);
+    return selection.some(current => current === item?.value) || false;
   };
 
   const clearSelection = () => {
     setSelection([]);
     setHeaderTitle(defaultLabel);
     onChange([]);
+  };
+
+  const handleInitialMultiSelect = items => {
+    if (items.length === 1) {
+      setSelection(items);
+      const option = options.find(pot => pot.value === items[0]);
+      setHeaderTitle(option?.label);
+    } else {
+      setSelection(items);
+      setHeaderTitle(`${items.length} ${selectedWord}`);
+    }
   };
 
   const handleSelect = item => {
