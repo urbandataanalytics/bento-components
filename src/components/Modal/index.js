@@ -17,7 +17,7 @@ const StyledContainer = styled.div`
   position: relative;
   width: 100%;
   max-width: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '550px' : '75vw')};
-  max-height: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '75vh' : '90vh')};
+  max-height: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '100vh' : '90vh')};
   overflow: auto;
   display: flex;
   flex-direction: column;
