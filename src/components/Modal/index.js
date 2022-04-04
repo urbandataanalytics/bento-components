@@ -18,12 +18,14 @@ const StyledContainer = styled.div`
   width: 100%;
   height: 100%;
   max-width: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '550px' : '75vw')};
-  max-height: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '100vh' : '90vh')};
+  max-height: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '100%' : '90vh')};
   overflow: auto;
   display: flex;
   flex-direction: column;
   height: ${({ isMobileOrTablet }) => (isMobileOrTablet ? 'auto' : 'fit-content')};
   ${({ isMobileOrTablet }) => isMobileOrTablet && 'width: 100vh'};
+  ${({ isMobileOrTablet }) => isMobileOrTablet && 'min-height: -moz-available'};
+  ${({ isMobileOrTablet }) => isMobileOrTablet && 'min-height: -webkit-fill-available'};
 `;
 
 StyledContainer.defaultProps = {
