@@ -117,7 +117,7 @@ const StyledSelectList = styled.ul`
   max-height: 320px;
   overflow-y: scroll;
   width: 100%;
-  min-width: 180px;
+  min-width: 192px;
   max-width: fit-content;
   position: absolute;
   ${({ size }) => positionList()[size]};
