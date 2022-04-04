@@ -16,6 +16,7 @@ const StyledContainer = styled.div`
       : theme.shapes.borderRadiusMedium};
   position: relative;
   width: 100%;
+  height: 100%;
   max-width: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '550px' : '75vw')};
   max-height: ${({ isMobileOrTablet }) => (isMobileOrTablet ? '100vh' : '90vh')};
   overflow: auto;
