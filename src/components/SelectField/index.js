@@ -117,7 +117,7 @@ const StyledSelectList = styled.ul`
   max-height: 320px;
   overflow-y: scroll;
   width: 100%;
-  min-width: fit-content;
+  min-width: 180px;
   max-width: fit-content;
   position: absolute;
   ${({ size }) => positionList()[size]};
@@ -169,7 +169,7 @@ const StyledSelectItem = styled.li`
     width: 100%;
     text-align: left;
     cursor: pointer;
-    ${({ active, theme }) => (active ? theme.texts.p1b : theme.texts.p1)};
+    font-weight: ${({ active }) => (active ? '600' : '400')};
     color: ${({ active, theme }) =>
       active ? theme.components.selectFieldFocusColor : theme.components.selectFieldColor};
     &:hover {
