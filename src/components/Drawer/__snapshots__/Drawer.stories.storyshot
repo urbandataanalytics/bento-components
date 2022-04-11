@@ -616,7 +616,7 @@ Array [
     </span>
   </button>,
   <aside
-    className="Drawer__StyledDrawerSide-z7ijst-6 dgmLaz"
+    className="Drawer__StyledDrawerSide-z7ijst-6 eFmPMx"
     open={true}
     width="320px"
   >
@@ -9190,7 +9190,7 @@ Array [
     </span>
   </button>,
   <aside
-    className="Drawer__StyledDrawerSide-z7ijst-6 bqsqFg"
+    className="Drawer__StyledDrawerSide-z7ijst-6 bBpRdl"
     open={true}
     width="320px"
   >
@@ -17746,7 +17746,7 @@ Array [
 
 exports[`Storyshots Drawer Right Position 1`] = `
 <aside
-  className="Drawer__StyledDrawerSide-z7ijst-6 dgmLaz"
+  className="Drawer__StyledDrawerSide-z7ijst-6 eFmPMx"
   open={true}
   width="320px"
 >
