@@ -40,6 +40,7 @@ const StyledHeader = styled.header`
     ${({ theme }) => theme.spacings.small3};
   border-bottom: 1px solid
     ${({ theme, hasHeading }) => (hasHeading ? theme.color.charcoal300 : 'transparent')};
+  gap: 20px;
 `;
 
 StyledHeader.defaultProps = {
