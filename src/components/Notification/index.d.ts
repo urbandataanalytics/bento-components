@@ -4,7 +4,7 @@ export interface NotificationProps {
   icon?: React.ReactNode;
   onClose?: () => void;
   showIcon?: boolean;
-  variant: 'normal' | 'success' | 'error';
+  variant: 'normal' | 'info' | 'success' | 'warning' | 'error';
 }
 
 declare const Notification: React.FunctionComponent<NotificationProps>;
