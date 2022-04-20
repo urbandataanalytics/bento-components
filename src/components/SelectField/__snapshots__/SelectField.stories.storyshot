@@ -657,7 +657,10 @@ exports[`Storyshots SelectField Playground 1`] = `
     </p>
     <div
       className="SelectField__StyledSelectField-sc-1svgo9p-2 hOCuXj"
+      disabled={false}
+      size="medium"
     >
+      <div
         className="SelectField__StyledSelectHeader-sc-1svgo9p-3 hDDWSm"
         onClick={[Function]}
         role="button"
