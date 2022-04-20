@@ -9,7 +9,7 @@ export interface SelectFieldProps {
   onChange: (ev: SyntheticSelectEvent<HTMLSelectElement>) => void | Promise<any>;
   options: Array<T>;
   tabIndex?: string;
-  value: string;
+  value: string | number | Array<string> | Array<number> | null;
 }
 
 declare const SelectField: React.FunctionComponent<

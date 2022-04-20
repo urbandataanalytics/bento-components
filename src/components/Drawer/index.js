@@ -100,6 +100,7 @@ const StyledDrawerSide = styled.aside`
   display: flex;
   flex-direction: column;
   ${({ offsetTop }) => offsetTop && `margin-top: ${offsetTop}`};
+  ${({ theme, offsetTop }) => offsetTop && `border-top: ${theme.components.drawerBorder}`};
   ${({ offsetBottom }) => offsetBottom && `margin-bottom: ${offsetBottom}`};
   ${({ offsetLeft }) => offsetLeft && `margin-left: ${offsetLeft}`};
   ${({ offsetRight }) => offsetRight && `margin-right: ${offsetRight}`};
@@ -120,6 +121,7 @@ const Drawer = props => {
     closeButton,
     header,
     headerColor,
+    hideHeader,
     offsetBottom,
     offsetLeft,
     offsetRight,
@@ -145,18 +147,20 @@ const Drawer = props => {
       offsetBottom={offsetBottom}
       {...other}
     >
-      <StyledDrawerHeader headerColor={headerColor}>
-        <div>
-          <StyleHeading>{header}</StyleHeading>
-          <StyleSubHeading>{subHeader}</StyleSubHeading>
-        </div>
+      {!hideHeader && (
+        <StyledDrawerHeader headerColor={headerColor}>
+          <div>
+            <StyleHeading>{header}</StyleHeading>
+            <StyleSubHeading>{subHeader}</StyleSubHeading>
+          </div>
 
-        {closeButton ? (
-          <CloseButton onClick={onClose}>
-            <IconClose size={'small'} />
-          </CloseButton>
-        ) : null}
-      </StyledDrawerHeader>
+          {closeButton ? (
+            <CloseButton onClick={onClose}>
+              <IconClose size={'small'} />
+            </CloseButton>
+          ) : null}
+        </StyledDrawerHeader>
+      )}
       <StyledDrawerContent>{children}</StyledDrawerContent>
     </StyledDrawerSide>
   );
@@ -169,11 +173,13 @@ const Drawer = props => {
 };
 
 Drawer.defaultProps = {
+  hideHeader: false,
   closeButton: true
 };
 Drawer.propTypes = {
   children: PropTypes.node.isRequired,
   header: PropTypes.node.isRequired,
+  hideHeader: PropTypes.bool,
   offsetBottom: PropTypes.string,
   offsetLeft: PropTypes.string,
   offsetRight: PropTypes.string,

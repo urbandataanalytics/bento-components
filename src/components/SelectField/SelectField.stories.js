@@ -32,6 +32,12 @@ export default {
         category: 'behaviour'
       }
     },
+    variant: {
+      description: 'Sets the variant of the field',
+      table: {
+        category: 'behaviour'
+      }
+    },
     size: {
       description: 'Sets size of the field, `medium` by default',
       table: {
@@ -112,6 +118,7 @@ export default {
     label: 'Label Text',
     defaultLabel: 'Select Value',
     options: [
+      { value: 'null', label: 'Select All' },
       { value: 'en', label: 'English' },
       { value: 'es', label: 'Spanish' },
       { value: 'it', label: 'Italy' }

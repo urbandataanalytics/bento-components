@@ -8,26 +8,30 @@ exports[`Storyshots SelectField Multi Select 1`] = `
     }
   }
 >
-  <div>
+  <div
+    className="SelectField__StyledContainer-sc-1svgo9p-0 bDeXta"
+  >
     <p
-      className="SelectField__LabelText-sc-1svgo9p-0 kcBvxG"
+      className="SelectField__LabelText-sc-1svgo9p-1 dBQebh"
       disabled={false}
     >
       Label Text
     </p>
     <div
-      className="SelectField__StyledSelectField-sc-1svgo9p-1 cVOtoA"
+      className="SelectField__StyledSelectField-sc-1svgo9p-2 hOCuXj"
       disabled={false}
       size="medium"
     >
       <div
-        className="SelectField__StyledSelectHeader-sc-1svgo9p-2 eYeOLg"
+        className="SelectField__StyledSelectHeader-sc-1svgo9p-3 hDDWSm"
         onClick={[Function]}
         role="button"
       >
-        Select Value
+        <p>
+          Select Value
+        </p>
         <div
-          className="SelectField__StyledSelectHeaderIcon-sc-1svgo9p-3 hsQSUI"
+          className="SelectField__StyledSelectHeaderIcon-sc-1svgo9p-4 jnOBem"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
@@ -642,26 +646,27 @@ exports[`Storyshots SelectField Playground 1`] = `
     }
   }
 >
-  <div>
+  <div
+    className="SelectField__StyledContainer-sc-1svgo9p-0 bDeXta"
+  >
     <p
-      className="SelectField__LabelText-sc-1svgo9p-0 kcBvxG"
+      className="SelectField__LabelText-sc-1svgo9p-1 dBQebh"
       disabled={false}
     >
       Label Text
     </p>
     <div
-      className="SelectField__StyledSelectField-sc-1svgo9p-1 cVOtoA"
-      disabled={false}
-      size="medium"
+      className="SelectField__StyledSelectField-sc-1svgo9p-2 hOCuXj"
     >
-      <div
-        className="SelectField__StyledSelectHeader-sc-1svgo9p-2 eYeOLg"
+        className="SelectField__StyledSelectHeader-sc-1svgo9p-3 hDDWSm"
         onClick={[Function]}
         role="button"
       >
-        Select Value
+        <p>
+          Select Value
+        </p>
         <div
-          className="SelectField__StyledSelectHeaderIcon-sc-1svgo9p-3 hsQSUI"
+          className="SelectField__StyledSelectHeaderIcon-sc-1svgo9p-4 jnOBem"
         >
           <svg
             className="Icon__StyledIcon-xqsk8h-0 fYJxjg"
