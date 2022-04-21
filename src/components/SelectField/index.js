@@ -8,6 +8,17 @@ import IconArrowOpen from '../../icons/ArrowOpen/index';
 import IconCheck from '../../icons/Check/index';
 import IconDotLarge from '../../icons/DotLarge/index';
 
+const componentVariant = () => ({
+  medium: {
+    'flex-direction': 'column'
+  },
+  small: {
+    'flex-direction': 'row',
+    'justify-content': 'space-between',
+    'align-items': 'center'
+  }
+});
+
 const componentSizes = theme => ({
   small: {
     height: theme.spacings.medium1
@@ -29,6 +40,11 @@ const positionList = () => ({
     top: '52px'
   }
 });
+
+const StyledContainer = styled.div`
+  display: flex;
+  ${({ variant }) => componentVariant()[variant]}
+`;
 
 const LabelText = styled.p`
   font-size: ${({ theme }) => theme.components.inputFieldLabelFontSize};
@@ -80,7 +96,7 @@ const StyledSelectHeader = styled.div`
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: ${({ theme }) => theme.components.selectFieldColor};
+    ${({ theme, active }) => (active ? theme.texts.p1b : theme.texts.p1)};
   }
 `;
 
@@ -101,7 +117,7 @@ const StyledSelectList = styled.ul`
   max-height: 320px;
   overflow-y: scroll;
   width: 100%;
-  min-width: fit-content;
+  min-width: 192px;
   max-width: fit-content;
   position: absolute;
   ${({ size }) => positionList()[size]};
@@ -148,19 +164,14 @@ const StyledSelectItem = styled.li`
         ? theme.components.selectFieldFocusBackgroundColor
         : theme.components.selectFieldBackgroundColor};
     border-radius: ${({ theme }) => theme.shapes.borderRadiusSmall};
-    font-size: ${({ theme }) => theme.components.selectFieldFontSize};
     padding: 10px 16px;
     height: 40px;
-    line-height: 150%;
     width: 100%;
     text-align: left;
     cursor: pointer;
+    font-weight: ${({ active }) => (active ? '600' : '400')};
     color: ${({ active, theme }) =>
       active ? theme.components.selectFieldFocusColor : theme.components.selectFieldColor};
-    font-weight: ${({ active, theme }) =>
-      active
-        ? theme.components.selectFieldFocusFontWeight
-        : theme.components.selectFieldFontWeight};
     &:hover {
       background-color: ${({ theme }) => theme.components.selectFieldHoverBackgroundColor};
     }
@@ -193,6 +204,8 @@ StyledLinkText.defaultProps = {
 
 const SelectField = ({
   className,
+  customStyleSelect,
+  customStyleLabel,
   defaultLabel,
   defaultValue,
   disabled,
@@ -205,6 +218,7 @@ const SelectField = ({
   tabIndex,
   value,
   multiSelect,
+  variant,
   size,
   clearButton,
   clearButtonWord,
@@ -215,11 +229,35 @@ const SelectField = ({
   const [selection, setSelection] = useState([]);
 
   useEffect(() => {
-    if (value) {
-      const option = options.find(option => option.value === value);
+    if (
+      multiSelect &&
+      (value === null || value === 'null') &&
+      options.some(i => i.value === null || i.value === 'null')
+    ) {
+      return selectAll();
+    }
+    if (multiSelect && typeof value === 'object') {
+      return handleInitialMultiSelect(value);
+    }
+    if (!multiSelect && value) {
+      const option = options.find(opt => opt?.value === value);
       setHeaderTitle(option?.label || defaultLabel);
+      handleSelect(option);
     }
   }, []);
+
+  useEffect(() => {
+    if (multiSelect && (value === null || value === 'null')) {
+      return selectAll();
+    }
+    if (!value) return clearSelection();
+  }, [value]);
+
+  const selectAll = () => {
+    const option = options.find(option => option.value === 'null' || option.value === null);
+    setSelection([option.value]);
+    setHeaderTitle(option?.label || allSelectedWord);
+  };
 
   const toggleList = () => {
     !disabled && setListOpen(!listOpen);
@@ -236,13 +274,24 @@ const SelectField = ({
   );
 
   const isItemInSelection = item => {
-    return selection.some(current => current === item.value);
+    return selection.some(current => current === item?.value) || false;
   };
 
   const clearSelection = () => {
     setSelection([]);
     setHeaderTitle(defaultLabel);
-    onChange(null);
+    onChange([]);
+  };
+
+  const handleInitialMultiSelect = items => {
+    if (items.length === 1) {
+      setSelection(items);
+      const option = options.find(pot => pot.value === items[0]);
+      setHeaderTitle(option?.label);
+    } else {
+      setSelection(items);
+      setHeaderTitle(`${items.length} ${selectedWord}`);
+    }
   };
 
   const handleSelect = item => {
@@ -253,7 +302,14 @@ const SelectField = ({
         setListOpen(false);
         onChange(item.value);
       } else if (multiSelect) {
-        const selectedItems = [...selection, item.value];
+        if (item?.value === 'null' || item?.value === null) {
+          onChange([item?.value || null]);
+          return selectAll();
+        }
+
+        const selectedItems = [...selection, item.value]
+          .filter(i => i !== null)
+          .filter(i => i !== 'null');
         if (selectedItems.length === 1) {
           setHeaderTitle(item.label);
         } else if (selectedItems.length === options.length) {
@@ -283,17 +339,27 @@ const SelectField = ({
   };
 
   return (
-    <div className={className}>
-      {label && <LabelText disabled={disabled}>{label}</LabelText>}
+    <StyledContainer className={className} variant={variant}>
+      {label && (
+        <LabelText style={customStyleLabel} disabled={disabled}>
+          {label}
+        </LabelText>
+      )}
       <StyledSelectField
         {...other}
         size={size}
         disabled={disabled}
         active={listOpen}
         ref={container}
+        style={customStyleSelect}
       >
-        <StyledSelectHeader tabIndex={tabIndex} role="button" onClick={toggleList}>
-          {headerTitle?.length < 24 ? headerTitle : `${headerTitle?.substring(0, 21)}...`}
+        <StyledSelectHeader
+          tabIndex={tabIndex}
+          role="button"
+          onClick={toggleList}
+          active={selection.length >= 1}
+        >
+          <p>{headerTitle?.length < 24 ? headerTitle : `${headerTitle?.substring(0, 21)}...`}</p>
           <StyledSelectHeaderIcon>
             {listOpen ? <IconArrowOpen /> : <IconArrowClose />}
           </StyledSelectHeaderIcon>
@@ -319,18 +385,21 @@ const SelectField = ({
           </StyledSelectList>
         )}
       </StyledSelectField>
-    </div>
+    </StyledContainer>
   );
 };
 
 SelectField.propTypes = {
   className: PropTypes.string,
+  customStyleSelect: PropTypes.object,
+  customStyleLabel: PropTypes.object,
   defaultLabel: PropTypes.string,
   defaultValue: PropTypes.string,
   disabled: PropTypes.bool,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   name: PropTypes.string,
   size: PropTypes.oneOf(['small', 'medium']),
+  variant: PropTypes.oneOf(['small', 'medium']),
   selectedWord: PropTypes.string,
   allSelectedWord: PropTypes.string,
   onChange: PropTypes.func.isRequired,
@@ -346,6 +415,7 @@ SelectField.defaultProps = {
   value: '',
   defaultLabel: '',
   defaultValue: '',
+  variant: 'medium',
   size: 'medium',
   selectedWord: 'Selected',
   allSelectedWord: 'All',

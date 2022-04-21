@@ -210,7 +210,7 @@ exports[`Storyshots Slider Range 1`] = `
         className="Slider__MinMaxContainer-sc-14leke7-0 epwLrn"
       >
         <label
-          className="Slider__InputContainer-sc-14leke7-1 cPTUps"
+          className="Slider__InputContainer-sc-14leke7-1 gmtvJG"
         >
           <input
             className="InputFormatter__MinMaxInput-ptc9ju-0 iDjFxn"
@@ -226,7 +226,7 @@ exports[`Storyshots Slider Range 1`] = `
           </span>
         </label>
         <label
-          className="Slider__InputContainer-sc-14leke7-1 cPTUps"
+          className="Slider__InputContainer-sc-14leke7-1 gmtvJG"
         >
           <input
             className="InputFormatter__MinMaxInput-ptc9ju-0 ihySDw"
