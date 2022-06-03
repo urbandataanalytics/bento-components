@@ -8,7 +8,6 @@ export interface Props {
   linkList?: React.ReactNode;
   loading?: boolean;
   rightContent?: React.ReactNode;
-  sticked?: boolean;
 }
 
 declare const NavigationBar: React.FunctionComponent<Props>;
