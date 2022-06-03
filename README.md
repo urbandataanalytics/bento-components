@@ -64,6 +64,12 @@ UI components guide
 
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://urbandataanalytics.github.io/bento-components/)
 
+## 🧪 Update snapshots
+
+```bash
+ yarn test --updateSnapshot
+```
+
 ## 🕹️ Playroom
 
 **[Bento Playroom](https://urbandataanalytics.github.io/bento-components/)**
