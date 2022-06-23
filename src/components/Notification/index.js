@@ -13,10 +13,20 @@ const componentVariants = theme => ({
     backgroundColor: theme.components.notificationNormalBackgroundColor,
     borderColor: theme.components.notificationNormalBorderColor
   },
+  info: {
+    color: theme.components.notificationInfoColor,
+    backgroundColor: theme.components.notificationInfoBackgroundColor,
+    borderColor: theme.components.notificationInfoBorderColor
+  },
   success: {
     color: theme.components.notificationSuccessColor,
     backgroundColor: theme.components.notificationSuccessBackgroundColor,
     borderColor: theme.components.notificationSuccessBorderColor
+  },
+  warning: {
+    color: theme.components.notificationWarningColor,
+    backgroundColor: theme.components.notificationWarningBackgroundColor,
+    borderColor: theme.components.notificationWarningBorderColor
   },
   error: {
     color: theme.components.notificationErrorColor,
@@ -29,8 +39,14 @@ const variants = {
   normal: {
     icon: IconInfo
   },
+  info: {
+    icon: IconInfo
+  },
   success: {
     icon: IconSuccess
+  },
+  warning: {
+    icon: IconError
   },
   error: {
     icon: IconError
@@ -112,7 +128,7 @@ Notification.propTypes = {
   icon: PropTypes.node,
   onClose: PropTypes.func,
   showIcon: PropTypes.bool,
-  variant: PropTypes.oneOf(['normal', 'success', 'error']).isRequired
+  variant: PropTypes.oneOf(['normal', 'info', 'success', 'warning', 'error']).isRequired
 };
 
 Notification.defaultProps = {
