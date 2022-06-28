@@ -7404,9 +7404,9 @@ exports[`Storyshots List Link List 1`] = `
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 fXRHPF ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
-        disabled={false}
-        href="#"
+        className="TextLink__StyledTextLink-qefl1h-0 djQzKO ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        disabled={true}
+        href=""
         size="medium"
       >
         Link 2 - active Default rightContent
@@ -7425,9 +7425,9 @@ exports[`Storyshots List Link List 1`] = `
       size="medium"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 fXRHPF ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
-        disabled={false}
-        href="#"
+        className="TextLink__StyledTextLink-qefl1h-0 djQzKO ListItem__StyledComponent-sc-4kscw7-1 dvguhF"
+        disabled={true}
+        href=""
         size="medium"
       >
         Link 3 - active Defined rightContent
