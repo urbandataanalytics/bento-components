@@ -60,7 +60,7 @@ export default {
     children: 'Link Text',
     disabled: false,
     external: false,
-    href: '#',
+    href: '',
     size: 'medium',
     variant: 'primary'
   }

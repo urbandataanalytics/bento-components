@@ -4316,9 +4316,9 @@ exports[`Storyshots AccordionList Expand One By One 1`] = `
       className="Accordion__StyledRightContent-jp5rw6-5 eriVpY"
     >
       <a
-        className="TextLink__StyledTextLink-qefl1h-0 fXRHPF"
-        disabled={false}
-        href="#"
+        className="TextLink__StyledTextLink-qefl1h-0 djQzKO"
+        disabled={true}
+        href=""
         size="medium"
       >
         link
