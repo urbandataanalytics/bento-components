@@ -16,7 +16,7 @@ describe(`TextLink`, () => {
     const button = () => wrapper.find('TextLink__StyledTextLink');
     expect(button().props().disabled).toBe(true);
 
-    wrapper.setProps({ disabled: false });
+    wrapper.setProps({ disabled: false, href: '#' });
     expect(button().props().disabled).toBe(false);
   });
 
@@ -39,7 +39,11 @@ describe(`TextLink`, () => {
   });
 
   describe('styles', () => {
-    const component = mount(<TextLink variant="secondary">Text</TextLink>);
+    const component = mount(
+      <TextLink variant="secondary" href="#">
+        Text
+      </TextLink>
+    );
     const container = component.find('TextLink__StyledTextLink');
     const theme = container.prop('theme');
 
