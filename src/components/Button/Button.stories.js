@@ -29,7 +29,6 @@ export default {
       description: 'Loading mode for the button',
       table: { category: 'format' }
     },
-
     loadingText: {
       description: 'Text to show on when loading  = true',
       table: { category: 'content' }
@@ -45,6 +44,11 @@ export default {
       description: 'Specifies the tab order of an element. ',
       table: { category: 'others' },
       control: 'null'
+    },
+    customHoverColor: {
+      description: 'Customize hover color',
+      control: 'text',
+      table: { category: 'content' }
     },
     iconLeft: {
       description: 'The displayed icon on the left',

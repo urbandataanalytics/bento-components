@@ -40,6 +40,7 @@ export default {
     },
     variant: {
       description: 'The format of the notification',
+      control: { type: 'select', options: ['normal', 'info', 'success', 'warning', 'error'] },
       table: { category: 'format' }
     }
   },
