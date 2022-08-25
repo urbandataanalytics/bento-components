@@ -18,13 +18,13 @@ const componentSizes = theme => ({
   }
 });
 
-const componentVariants = (theme, customHoverColor) => ({
+const componentVariants = theme => ({
   primary: {
     color: theme.components.buttonPrimaryColor,
     backgroundColor: theme.components.buttonPrimaryBackgroundColor,
     borderRadius: theme.components.buttonPrimaryBorderRadius,
     '&:hover': {
-      backgroundColor: customHoverColor || theme.components.buttonPrimaryHoverBackgroundColor,
+      backgroundColor: theme.components.buttonPrimaryHoverBackgroundColor,
       color: theme.components.buttonPrimaryHoverColor
     },
     '&:disabled': {
@@ -37,7 +37,7 @@ const componentVariants = (theme, customHoverColor) => ({
     borderColor: theme.components.buttonSecondaryBorderColor,
     borderRadius: theme.components.buttonSecondaryBorderRadius,
     '&:hover': {
-      backgroundColor: customHoverColor || theme.components.buttonSecondaryHoverBackgroundColor,
+      backgroundColor: theme.components.buttonSecondaryHoverBackgroundColor,
       borderColor: theme.components.buttonSecondaryHoverBorderColor,
       color: theme.components.buttonSecondaryHoverColor
     },
@@ -53,7 +53,7 @@ const componentVariants = (theme, customHoverColor) => ({
     borderColor: theme.components.buttonTertiaryBorderColor,
     borderRadius: theme.components.buttonTertiaryBorderRadius,
     '&:hover': {
-      backgroundColor: customHoverColor || theme.components.buttonTertiaryHoverBackgroundColor,
+      backgroundColor: theme.components.buttonTertiaryHoverBackgroundColor,
       borderColor: theme.components.buttonTertiaryHoverBorderColor,
       color: theme.components.buttonTertiaryHoverColor
     },
@@ -68,7 +68,7 @@ const componentVariants = (theme, customHoverColor) => ({
     backgroundColor: theme.components.buttonDangerPrimaryBackgroundColor,
     borderRadius: theme.components.buttonDangerPrimaryBorderRadius,
     '&:hover': {
-      backgroundColor: customHoverColor || theme.components.buttonDangerPrimaryHoverBackgroundColor,
+      backgroundColor: theme.components.buttonDangerPrimaryHoverBackgroundColor,
       color: theme.components.buttonDangerPrimaryHoverColor
     },
     '&:disabled': {
@@ -81,8 +81,7 @@ const componentVariants = (theme, customHoverColor) => ({
     borderColor: theme.components.buttonDangerSecondaryBorderColor,
     borderRadius: theme.components.buttonDangerSecondaryBorderRadius,
     '&:hover': {
-      backgroundColor:
-        customHoverColor || theme.components.buttonDangerSecondaryHoverBackgroundColor,
+      backgroundColor: theme.components.buttonDangerSecondaryHoverBackgroundColor,
       borderColor: theme.components.buttonDangerSecondaryHoverBorderColor,
       color: theme.components.buttonDangerSecondaryHoverColor
     },
@@ -147,7 +146,7 @@ const StyledButton = styled.button`
 
   ${props => (props.block ? 'width: 100%;' : '')}
   ${props => componentSizes(props.theme)[props.size]}
-  ${props => componentVariants(props.theme, props.customHoverColor)[props.variant]}
+  ${props => componentVariants(props.theme)[props.variant]}
 
   ${({ isMobile }) =>
     isMobile &&
@@ -195,7 +194,6 @@ const Button = React.forwardRef((props, ref) => {
     loading,
     loadingText,
     variant,
-    customHoverColor,
     ...other
   } = props;
 
@@ -215,7 +213,6 @@ const Button = React.forwardRef((props, ref) => {
       size={size}
       tabIndex={tabIndex}
       variant={variant}
-      customHoverColor={customHoverColor}
       {...other}
     >
       <Loader loading={loading} loadingText={loadingText} />

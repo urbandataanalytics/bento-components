@@ -172,10 +172,6 @@ const StyledSelectItem = styled.li`
     font-weight: ${({ active }) => (active ? '600' : '400')};
     color: ${({ active, theme }) =>
       active ? theme.components.selectFieldFocusColor : theme.components.selectFieldColor};
-
-    &:disabled {
-      color: ${({ theme }) => theme.color.charcoal500};
-    }
     &:hover {
       background-color: ${({ theme }) => theme.components.selectFieldHoverBackgroundColor};
     }
@@ -374,11 +370,7 @@ const SelectField = ({
               const active = isItemInSelection(option);
               return (
                 <StyledSelectItem key={option.value} active={active}>
-                  <button
-                    type="button"
-                    onClick={() => handleSelect(option)}
-                    disabled={option.disabled}
-                  >
+                  <button type="button" onClick={() => handleSelect(option)}>
                     {option.label}
                     {active && <span>{multiSelect ? <IconCheck /> : <IconDotLarge />}</span>}
                   </button>

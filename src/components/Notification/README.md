@@ -30,7 +30,5 @@ Table below contains all types of the props available in the Notification compon
 | variant     |
 | :---------- |
 | `"normal"`  |
-| `"info"`  |
 | `"success"` |
-| `"warning"` |
 | `"error"`   |

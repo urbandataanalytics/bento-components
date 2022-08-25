@@ -10,7 +10,6 @@ export interface ButtonProps {
   onClick?: (event: React.SyntheticEvent<HTMLInputElement>) => void;
   size?: 'medium' | 'large';
   tabIndex?: string;
-  customHoverColor?: string;
   variant?: 'primary' | 'secondary' | 'tertiary' | 'dangerPrimary' | 'dangerSecondary';
 }
 

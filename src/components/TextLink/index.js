@@ -93,7 +93,7 @@ const TextLink = React.forwardRef((props, ref) => {
       isMobile={isMobile}
       isDesktop={isDesktop}
       className={className}
-      disabled={disabled || !href}
+      disabled={disabled}
       href={href}
       rel={external ? 'noopener noreferrer' : undefined}
       size={size}
@@ -121,7 +121,7 @@ TextLink.propTypes = {
 TextLink.defaultProps = {
   disabled: false,
   external: false,
-  href: '',
+  href: '#',
   size: 'medium',
   variant: 'primary'
 };
