@@ -534,6 +534,7 @@ const components = {
   drawerCloseButtonBackground: color.white,
   drawerCloseButtonPadding: '6px',
   drawerCloseButtonBorderRadius: shapes.borderRadiusMedium,
+  drawerBorderRadius: shapes.borderRadiusMedium,
   drawerCloseButtonBorder: `1px solid ${color.charcoal400}`,
 
   dropdownBorderColor: color.charcoal300,

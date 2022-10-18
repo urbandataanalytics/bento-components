@@ -300,6 +300,7 @@ exports[`Storyshots MapActions Playground 1`] = `
                 "checkboxSizeSmall": "16px",
                 "drawerBackgroundColor": "#FFFFFF",
                 "drawerBorder": "1px solid #EFF2F7",
+                "drawerBorderRadius": "4px",
                 "drawerCloseButtonBackground": "#FFFFFF",
                 "drawerCloseButtonBorder": "1px solid #DCDFE6",
                 "drawerCloseButtonBorderRadius": "4px",

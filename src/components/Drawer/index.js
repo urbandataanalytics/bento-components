@@ -91,13 +91,14 @@ StyledDrawerContent.defaultProps = {
 const StyledDrawerSide = styled.aside`
   position: fixed;
   box-sizing: border-box;
-  z-index: 4;
+  z-index: 5;
 
   ${({ position, theme, width }) =>
     position === 'right' &&
     css`
       top: 0;
       right: 0;
+      width: 100%;
       max-width: ${width ? width : theme.components.drawerMaxWidth};
     `};
   ${({ position, theme, width }) =>
@@ -105,6 +106,7 @@ const StyledDrawerSide = styled.aside`
     css`
       top: 0;
       left: 0;
+      width: 100%;
       max-width: ${width ? width : theme.components.drawerMaxWidth};
     `};
   ${({ position, theme, height }) =>
@@ -112,11 +114,17 @@ const StyledDrawerSide = styled.aside`
     css`
       left: ${theme.spacings.small3};
       right: ${theme.spacings.small3};
+      width: calc(100% - ${theme.spacings.small3} * 2);
+      margin: 0 auto;
       max-height: ${height ? height : theme.components.drawerMaxHeight};
+      border-top: ${theme.components.drawerBorder};
+      border-right: ${theme.components.drawerBorder};
+      border-left: ${theme.components.drawerBorder};
+      border-radius: ${theme.components.drawerBorderRadius} ${theme.components.drawerBorderRadius} 0
+        0;
     `};
   bottom: 0;
   height: 100%;
-  width: 100%;
   background-color: ${({ theme }) => theme.components.drawerBackgroundColor};
   transition: transform 0.3s ease-in-out;
   overflow: auto;
