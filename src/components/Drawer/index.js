@@ -27,6 +27,7 @@ const StyledDrawerOverlay = styled.div`
   width: 100%;
   height: 100%;
   z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
 `;
 
 StyledDrawerOverlay.defaultProps = {
@@ -202,7 +203,9 @@ const Drawer = props => {
   );
 
   return showOverlay ? (
-    <StyledDrawerOverlay open={open}>{DrawerContent}</StyledDrawerOverlay>
+    <StyledDrawerOverlay open={open} onClick={onClose}>
+      {DrawerContent}
+    </StyledDrawerOverlay>
   ) : (
     DrawerContent
   );
