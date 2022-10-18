@@ -290,6 +290,7 @@ exports[`Storyshots Pagination Playground 1`] = `
                 "drawerHeaderColor": "#363C4B",
                 "drawerHeaderMinHeight": "56px",
                 "drawerHeaderPadding": "12px 24px",
+                "drawerMaxHeight": "90vh",
                 "drawerMaxWidth": "320px",
                 "dropdownBackground": "#FFFFFF",
                 "dropdownBorderColor": "#EFF2F7",
