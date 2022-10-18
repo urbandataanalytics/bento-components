@@ -189,10 +189,12 @@ Playground.args = {
   subHeader: 'Subtitle'
 };
 
-export const RightPosition = args => {
+export const RightPosition = ({ onClose, ...args }) => {
+  const [{ open }, updateArgs] = useArgs();
   return (
     <>
-      <Drawer {...args}>
+      <Button onClick={() => updateArgs({ open: !open })}>{open ? 'Close' : 'Open'}</Button>
+      <Drawer onClose={() => updateArgs({ open: false })} {...args}>
         <Accordion header={'Accordion title 1'} leftContent={<IconNavigation />}>
           <List>
             <ListItem leftContent={<IconUser />}>Text</ListItem>
@@ -259,6 +261,22 @@ RightPosition.args = {
   header: 'Accordion title 1',
   subHeader: 'Subtitle',
   position: 'right'
+};
+
+export const BottomPosition = ({ onClose, ...args }) => {
+  const [{ open }, updateArgs] = useArgs();
+  return (
+    <div>
+      <Button onClick={() => updateArgs({ open: !open })}>{open ? 'Close' : 'Open'}</Button>
+      <Drawer onClose={() => updateArgs({ open: false })} {...args}></Drawer>
+    </div>
+  );
+};
+
+BottomPosition.args = {
+  header: 'Accordion bottom',
+  subHeader: 'Subtitle bottom',
+  position: 'bottom'
 };
 
 export const NoCloseButton = args => {

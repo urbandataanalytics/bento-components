@@ -1,12 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 import { IconClose } from '../../icons';
 
-const transforms = {
+const transformsClose = {
   right: 'translateX(100%)',
-  left: 'translateX(-100%)'
+  left: 'translateX(-100%)',
+  bottom: 'translateY(100%)'
+};
+
+const transformsOpen = {
+  right: 'translateX(0%)',
+  left: 'translateX(0%)',
+  bottom: 'translateY(0%)'
 };
 
 const StyledDrawerOverlay = styled.div`
@@ -85,30 +92,49 @@ const StyledDrawerSide = styled.aside`
   position: fixed;
   box-sizing: border-box;
   z-index: 4;
-  top: 0;
-  ${({ position }) => position === 'right' && 'right: 0'};
-  ${({ position }) => position === 'left' && 'left: 0'};
+
+  ${({ position, theme, width }) =>
+    position === 'right' &&
+    css`
+      top: 0;
+      right: 0;
+      max-width: ${width ? width : theme.components.drawerMaxWidth};
+    `};
+  ${({ position, theme, width }) =>
+    position === 'left' &&
+    css`
+      top: 0;
+      left: 0;
+      max-width: ${width ? width : theme.components.drawerMaxWidth};
+    `};
+  ${({ position, theme, height }) =>
+    position === 'bottom' &&
+    css`
+      left: ${theme.spacings.small3};
+      right: ${theme.spacings.small3};
+      max-height: ${height ? height : theme.components.drawerMaxHeight};
+    `};
   bottom: 0;
   height: 100%;
   width: 100%;
-  max-width: ${({ theme, width }) => width || theme.components.drawerMaxWidth};
   background-color: ${({ theme }) => theme.components.drawerBackgroundColor};
   transition: transform 0.3s ease-in-out;
-  ${({ offsetTop }) => offsetTop && `height: calc(100% - ${offsetTop})`};
-  ${({ offsetBottom }) => offsetBottom && `height: calc(100% + ${offsetBottom})`};
   overflow: auto;
   display: flex;
   flex-direction: column;
-  ${({ offsetTop }) => offsetTop && `margin-top: ${offsetTop}`};
-  ${({ theme, offsetTop }) => offsetTop && `border-top: ${theme.components.drawerBorder}`};
+  ${({ offsetTop }) => offsetTop && `height: calc(100% - ${offsetTop})`};
+  ${({ offsetBottom }) => offsetBottom && `height: calc(100% + ${offsetBottom})`};
   ${({ offsetBottom }) => offsetBottom && `margin-bottom: ${offsetBottom}`};
   ${({ offsetLeft }) => offsetLeft && `margin-left: ${offsetLeft}`};
   ${({ offsetRight }) => offsetRight && `margin-right: ${offsetRight}`};
+  ${({ offsetTop }) => offsetTop && `margin-top: ${offsetTop}`};
+  ${({ theme, offsetTop }) => offsetTop && `border-top: ${theme.components.drawerBorder}`};
   ${props =>
     props.position === 'right'
       ? `border-left: ${props.theme.components.drawerBorder}`
       : `border-right: ${props.theme.components.drawerBorder}`};
-  transform: ${props => (props.open ? 'translateX(0)' : transforms[props.position])};
+  transform: ${props =>
+    props.open ? transformsOpen[props.position] : transformsClose[props.position]};
 `;
 
 StyledDrawerSide.defaultProps = {
@@ -133,6 +159,7 @@ const Drawer = props => {
     size,
     subHeader,
     width,
+    height,
     ...other
   } = props;
 
@@ -141,6 +168,7 @@ const Drawer = props => {
       position={position}
       open={open}
       width={width}
+      height={height}
       offsetTop={offsetTop}
       offsetLeft={offsetLeft}
       offsetRight={offsetRight}
@@ -186,10 +214,11 @@ Drawer.propTypes = {
   offsetTop: PropTypes.string,
   onClose: PropTypes.func,
   open: PropTypes.bool.isRequired,
-  position: PropTypes.oneOf(['left', 'right']).isRequired,
+  position: PropTypes.oneOf(['left', 'right', 'bottom']).isRequired,
   showOverlay: PropTypes.bool,
   subHeader: PropTypes.node,
   width: PropTypes.string,
+  height: PropTypes.string,
   closeButton: PropTypes.bool,
   headerColor: PropTypes.string
 };

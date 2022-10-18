@@ -524,6 +524,7 @@ const components = {
   textLinkSecondaryHoverColor: color.primary300,
 
   drawerMaxWidth: '320px',
+  drawerMaxHeight: '90vh',
   drawerBackgroundColor: color.white,
   drawerBorder: `1px solid ${color.charcoal300}`,
   drawerHeaderColor: color.charcoal700,
