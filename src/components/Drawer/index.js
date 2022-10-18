@@ -178,7 +178,7 @@ Drawer.defaultProps = {
 };
 Drawer.propTypes = {
   children: PropTypes.node.isRequired,
-  header: PropTypes.node.isRequired,
+  header: PropTypes.node,
   hideHeader: PropTypes.bool,
   offsetBottom: PropTypes.string,
   offsetLeft: PropTypes.string,
