@@ -24,7 +24,7 @@
     "build:lib": "yarn copy:lib && cross-env NODE_ENV=\"production\" babel --out-dir lib --ignore **/*.stories.js,**/*.test.js,**/serviceWorker.js,**/setupTests.js src",
     "build:icons": "babel-node scripts/cleanSVGIcons.js && babel-node scripts/svgIcon.js",
     "build:storybook": "yarn build:icons && build-storybook -s public",
-    "build:local": "yarn build:icons && yarn build:lib && yalc publish --push",
+    "build:local": "yarn install && yarn build:icons && yarn build:lib && yalc publish --push",
     "build:module": "yarn babel-base --env-name esm --out-dir es",
     "build:umd": "webpack --mode=production",
     "babel-base": "babel src --ignore **/*.stories.js,**/*.test.js,**/serviceWorker.js,**/setupTests.js",

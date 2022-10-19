@@ -196,12 +196,12 @@ const Drawer = props => {
             </div>
           </StyledDrawerHeader>
         )}
+        <StyledDrawerContent>{children}</StyledDrawerContent>
         {closeButton ? (
           <CloseButton onClick={onClose}>
             <IconClose size={'small'} />
           </CloseButton>
         ) : null}
-        <StyledDrawerContent>{children}</StyledDrawerContent>
       </StyledDrawerSide>
     </>
   );
