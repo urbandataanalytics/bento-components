@@ -413,7 +413,8 @@ SelectField.propTypes = {
   onChange: PropTypes.func.isRequired,
   options: PropTypes.array.isRequired,
   tabIndex: PropTypes.string,
-  value: PropTypes.string.isRequired,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.array, null])
+    .isRequired,
   multiSelect: PropTypes.bool,
   clearButton: PropTypes.bool,
   clearButtonWord: PropTypes.string
