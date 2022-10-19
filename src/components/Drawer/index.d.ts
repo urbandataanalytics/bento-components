@@ -3,7 +3,6 @@ export interface Props {
   closeButton: boolean;
   header?: React.ReactNode;
   headerColor?: string;
-  hideHeader?: boolean;
   offsetBottom?: string;
   offsetLeft?: string;
   offsetRight?: string;

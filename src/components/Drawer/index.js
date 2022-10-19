@@ -65,7 +65,10 @@ StyleSubHeading.defaultProps = {
 };
 
 const CloseButton = styled.button`
-  margin-left: auto;
+  position: absolute;
+  z-index: 1;
+  right: ${({ theme }) => theme.spacings.small3};
+  top: ${({ theme }) => theme.spacings.small3};
   padding: ${({ theme }) => theme.components.drawerCloseButtonPadding};
   background: ${({ theme }) => theme.components.drawerCloseButtonBackground};
   border-radius: ${({ theme }) => theme.components.drawerCloseButtonBorderRadius};
@@ -110,12 +113,12 @@ const StyledDrawerSide = styled.aside`
       width: 100%;
       max-width: ${width ? width : theme.components.drawerMaxWidth};
     `};
-  ${({ position, theme, height }) =>
+  ${({ position, theme, height, width }) =>
     position === 'bottom' &&
     css`
-      left: ${theme.spacings.small3};
-      right: ${theme.spacings.small3};
-      width: calc(100% - ${theme.spacings.small3} * 2);
+      left: ${width ? 'auto' : theme.spacings.small3};
+      right: ${width ? 'auto' : theme.spacings.small3};
+      width: ${width ? width : `calc(100% - ${theme.spacings.small3} * 2)`};
       margin: 0 auto;
       max-height: ${height ? height : theme.components.drawerMaxHeight};
       border-top: ${theme.components.drawerBorder};
@@ -156,7 +159,6 @@ const Drawer = props => {
     closeButton,
     header,
     headerColor,
-    hideHeader,
     offsetBottom,
     offsetLeft,
     offsetRight,
@@ -184,20 +186,19 @@ const Drawer = props => {
       offsetBottom={offsetBottom}
       {...other}
     >
-      {!hideHeader && (
+      {header && (
         <StyledDrawerHeader headerColor={headerColor}>
           <div>
             <StyleHeading>{header}</StyleHeading>
             <StyleSubHeading>{subHeader}</StyleSubHeading>
           </div>
-
-          {closeButton ? (
-            <CloseButton onClick={onClose}>
-              <IconClose size={'small'} />
-            </CloseButton>
-          ) : null}
         </StyledDrawerHeader>
       )}
+      {closeButton ? (
+        <CloseButton onClick={onClose}>
+          <IconClose size={'small'} />
+        </CloseButton>
+      ) : null}
       <StyledDrawerContent>{children}</StyledDrawerContent>
     </StyledDrawerSide>
   );
@@ -212,13 +213,11 @@ const Drawer = props => {
 };
 
 Drawer.defaultProps = {
-  hideHeader: false,
   closeButton: true
 };
 Drawer.propTypes = {
   children: PropTypes.node.isRequired,
   header: PropTypes.node,
-  hideHeader: PropTypes.bool,
   offsetBottom: PropTypes.string,
   offsetLeft: PropTypes.string,
   offsetRight: PropTypes.string,
