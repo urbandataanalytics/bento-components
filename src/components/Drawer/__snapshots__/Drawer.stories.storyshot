@@ -624,7 +624,7 @@ exports[`Storyshots Drawer Bottom Position 1`] = `
     </span>
   </button>
   <aside
-    className="Drawer__StyledDrawerSide-z7ijst-6 kbIHDa"
+    className="Drawer__StyledDrawerSide-z7ijst-6 ADnFH"
     open={true}
     width="320px"
   >
@@ -1879,7 +1879,7 @@ Array [
     </span>
   </button>,
   <aside
-    className="Drawer__StyledDrawerSide-z7ijst-6 ghiXVz"
+    className="Drawer__StyledDrawerSide-z7ijst-6 lfMuzi"
     open={true}
     width="320px"
   >
@@ -10565,7 +10565,7 @@ Array [
     </span>
   </button>,
   <aside
-    className="Drawer__StyledDrawerSide-z7ijst-6 fXywAe"
+    className="Drawer__StyledDrawerSide-z7ijst-6 eeprdv"
     open={true}
     width="320px"
   >
@@ -19855,7 +19855,7 @@ Array [
     </span>
   </button>,
   <aside
-    className="Drawer__StyledDrawerSide-z7ijst-6 ghiXVz"
+    className="Drawer__StyledDrawerSide-z7ijst-6 lfMuzi"
     open={true}
     width="320px"
   >
