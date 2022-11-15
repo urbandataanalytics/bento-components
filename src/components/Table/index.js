@@ -85,7 +85,7 @@ Table.defaultProps = {
 
 Table.propTypes = {
   height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  rows: PropTypes.array.isRequired,
+  rows: PropTypes.array,
   columns: PropTypes.arrayOf(
     PropTypes.shape({
       headerName: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
