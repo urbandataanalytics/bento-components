@@ -11,7 +11,7 @@ export interface TableProps {
   columns: ColumnProps[];
   height?: string | number;
   loading?: boolean;
-  rows: any[];
+  rows?: any[];
   striped?: boolean;
   variant?: 'small' | 'medium' | 'large';
 }

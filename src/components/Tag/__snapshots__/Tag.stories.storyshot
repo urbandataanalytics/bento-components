@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Tag Custom Color 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <span
+    className="Tag__Container-sc-1ltddmq-0 cueHej"
+  >
+    Text
+  </span>
+</div>
+`;
+
+exports[`Storyshots Tag Default 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <span
+    className="Tag__Container-sc-1ltddmq-0 cueHej"
+  >
+    Text
+  </span>
+</div>
+`;
