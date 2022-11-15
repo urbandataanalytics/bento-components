@@ -26,7 +26,7 @@ const StyledDrawerOverlay = styled.div`
   bottom: 0;
   width: 100%;
   height: 100%;
-  z-index: 999;
+  z-index: 998;
   background-color: rgba(0, 0, 0, 0.5);
 `;
 
@@ -95,7 +95,7 @@ StyledDrawerContent.defaultProps = {
 const StyledDrawerSide = styled.aside`
   position: fixed;
   box-sizing: border-box;
-  z-index: 5;
+  z-index: 999;
 
   ${({ position, theme, width }) =>
     position === 'right' &&
@@ -174,41 +174,36 @@ const Drawer = props => {
     ...other
   } = props;
 
-  const DrawerContent = (
-    <StyledDrawerSide
-      position={position}
-      open={open}
-      width={width}
-      height={height}
-      offsetTop={offsetTop}
-      offsetLeft={offsetLeft}
-      offsetRight={offsetRight}
-      offsetBottom={offsetBottom}
-      {...other}
-    >
-      {header && (
-        <StyledDrawerHeader headerColor={headerColor}>
-          <div>
-            <StyleHeading>{header}</StyleHeading>
-            <StyleSubHeading>{subHeader}</StyleSubHeading>
-          </div>
-        </StyledDrawerHeader>
-      )}
-      {closeButton ? (
-        <CloseButton onClick={onClose}>
-          <IconClose size={'small'} />
-        </CloseButton>
-      ) : null}
-      <StyledDrawerContent>{children}</StyledDrawerContent>
-    </StyledDrawerSide>
-  );
-
-  return showOverlay ? (
-    <StyledDrawerOverlay open={open} onClick={onClose}>
-      {DrawerContent}
-    </StyledDrawerOverlay>
-  ) : (
-    DrawerContent
+  return (
+    <>
+      {showOverlay && <StyledDrawerOverlay open={open} onClick={onClose} />}
+      <StyledDrawerSide
+        position={position}
+        open={open}
+        width={width}
+        height={height}
+        offsetTop={offsetTop}
+        offsetLeft={offsetLeft}
+        offsetRight={offsetRight}
+        offsetBottom={offsetBottom}
+        {...other}
+      >
+        {header && (
+          <StyledDrawerHeader headerColor={headerColor}>
+            <div>
+              <StyleHeading>{header}</StyleHeading>
+              <StyleSubHeading>{subHeader}</StyleSubHeading>
+            </div>
+          </StyledDrawerHeader>
+        )}
+        <StyledDrawerContent>{children}</StyledDrawerContent>
+        {closeButton ? (
+          <CloseButton onClick={onClose}>
+            <IconClose size={'small'} />
+          </CloseButton>
+        ) : null}
+      </StyledDrawerSide>
+    </>
   );
 };
 

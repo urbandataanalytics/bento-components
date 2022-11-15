@@ -198,22 +198,22 @@ const headings = [
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '36px'
+    fontSize: '36px'
   },
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '32px'
+    fontSize: '32px'
   },
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '24px'
+    fontSize: '24px'
   },
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '16px'
+    fontSize: '16px'
   },
   {
     fontFamily: global.fontFamily,
@@ -627,7 +627,15 @@ const components = {
   carouselButtonTransition: global.transitionS,
   carouselButtonBackground: 'rgba(255, 255, 255, .6)',
   carouselButtonHoverBackground: 'rgba(255, 255, 255, .8)',
-  carouselSlideTransition: global.transitionS
+  carouselSlideTransition: global.transitionS,
+
+  TagBackground: color.charcoal500,
+  TagColor: color.white,
+  TagBorderRadius: shapes.borderRadiusMedium,
+  TagPadding: `0 ${spacings.small2}`,
+  TagLineHeight: '18px',
+  TagFontSize: '10px',
+  TagFontWeight: '700'
 };
 
 export default {

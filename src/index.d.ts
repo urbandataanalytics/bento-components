@@ -125,3 +125,6 @@ export * from './components/TextareaField';
 
 export { default as ToggleGroup } from './components/ToggleGroup';
 export * from './components/ToggleGroup';
+
+export { default as Tag } from './components/Tag';
+export * from './components/Tag';

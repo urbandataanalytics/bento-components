@@ -137,3 +137,6 @@ export * from './components/VerticalSeparator';
 
 export { default as RadioButton } from './components/RadioButton';
 export * from './components/RadioButton';
+
+export { default as Tag } from './components/Tag';
+export * from './components/Tag';
