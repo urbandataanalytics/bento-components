@@ -128,8 +128,8 @@ const GlobalStyle = createGlobalStyle`
 
 const headingsGenerator = config =>
   config.map(
-    ({ size, fontFamily, fontWeight }, i) =>
-      `h${i + 1}{font-size: ${size}; font-family: ${fontFamily}; font-weight: ${fontWeight};}`
+    ({ fontSize, fontFamily, fontWeight }, i) =>
+      `h${i + 1}{font-size: ${fontSize}; font-family: ${fontFamily}; font-weight: ${fontWeight};}`
   );
 
 GlobalStyle.defaultProps = {

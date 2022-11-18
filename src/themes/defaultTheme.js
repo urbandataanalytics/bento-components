@@ -218,7 +218,7 @@ const headings = [
   {
     fontFamily: global.fontFamily,
     fontWeight: global.fontWeightMedium,
-    size: '12px'
+    fontSize: '12px'
   }
 ];
 
