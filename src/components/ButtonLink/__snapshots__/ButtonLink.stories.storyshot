@@ -609,8 +609,8 @@ exports[`Storyshots ButtonLink With Icon Left 1`] = `
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontSize": "12px",
                 "fontWeight": 500,
-                "size": "12px",
               },
             ],
             "shapes": Object {
@@ -1242,8 +1242,8 @@ exports[`Storyshots ButtonLink With Icon Right 1`] = `
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontSize": "12px",
                 "fontWeight": 500,
-                "size": "12px",
               },
             ],
             "shapes": Object {

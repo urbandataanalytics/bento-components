@@ -550,8 +550,8 @@ exports[`Storyshots Search Playground 1`] = `
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontSize": "12px",
               "fontWeight": 500,
-              "size": "12px",
             },
           ],
           "shapes": Object {
@@ -1182,8 +1182,8 @@ exports[`Storyshots Search Playground 1`] = `
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontSize": "12px",
                 "fontWeight": 500,
-                "size": "12px",
               },
             ],
             "shapes": Object {

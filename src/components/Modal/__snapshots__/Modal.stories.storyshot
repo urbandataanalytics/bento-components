@@ -551,8 +551,8 @@ exports[`Storyshots Modal Playground 1`] = `
               },
               Object {
                 "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                "fontSize": "12px",
                 "fontWeight": 500,
-                "size": "12px",
               },
             ],
             "shapes": Object {
@@ -1183,8 +1183,8 @@ exports[`Storyshots Modal With Full Borders 1`] = `
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontSize": "12px",
               "fontWeight": 500,
-              "size": "12px",
             },
           ],
           "shapes": Object {
@@ -1814,8 +1814,8 @@ exports[`Storyshots Modal With Overflow 1`] = `
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontSize": "12px",
               "fontWeight": 500,
-              "size": "12px",
             },
           ],
           "shapes": Object {
@@ -2445,8 +2445,8 @@ exports[`Storyshots Modal Without Header 1`] = `
             },
             Object {
               "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+              "fontSize": "12px",
               "fontWeight": 500,
-              "size": "12px",
             },
           ],
           "shapes": Object {

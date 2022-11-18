@@ -564,8 +564,8 @@ exports[`Storyshots Dropdown Bottom Position 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -1212,8 +1212,8 @@ exports[`Storyshots Dropdown Center Alignment 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -1860,8 +1860,8 @@ exports[`Storyshots Dropdown Close On Click Inside 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -2508,8 +2508,8 @@ exports[`Storyshots Dropdown Left Alignment 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -3156,8 +3156,8 @@ exports[`Storyshots Dropdown Playground 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -3804,8 +3804,8 @@ exports[`Storyshots Dropdown Right Alignment 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -4452,8 +4452,8 @@ exports[`Storyshots Dropdown Top Position 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -5100,8 +5100,8 @@ exports[`Storyshots Dropdown With Childrens 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {

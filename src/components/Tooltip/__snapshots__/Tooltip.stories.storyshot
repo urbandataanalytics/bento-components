@@ -572,8 +572,8 @@ exports[`Storyshots Tooltip All Positions 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -1213,8 +1213,8 @@ exports[`Storyshots Tooltip All Positions 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -1854,8 +1854,8 @@ exports[`Storyshots Tooltip All Positions 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -2495,8 +2495,8 @@ exports[`Storyshots Tooltip All Positions 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -3152,8 +3152,8 @@ exports[`Storyshots Tooltip Max Width 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -3808,8 +3808,8 @@ exports[`Storyshots Tooltip Playground 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {

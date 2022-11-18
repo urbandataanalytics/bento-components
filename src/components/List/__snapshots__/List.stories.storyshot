@@ -563,8 +563,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -1185,8 +1185,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -1811,8 +1811,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -2436,8 +2436,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -3060,8 +3060,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -3672,8 +3672,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -4293,8 +4293,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -4905,8 +4905,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -5529,8 +5529,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -6168,8 +6168,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -6792,8 +6792,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -7405,8 +7405,8 @@ exports[`Storyshots List Formatted List Items 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -8081,8 +8081,8 @@ exports[`Storyshots List Link List 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -8732,8 +8732,8 @@ exports[`Storyshots List Navbar List 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -9354,8 +9354,8 @@ exports[`Storyshots List Navbar List 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -9978,8 +9978,8 @@ exports[`Storyshots List Navbar List 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -10603,8 +10603,8 @@ exports[`Storyshots List Navbar List 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -11360,8 +11360,8 @@ exports[`Storyshots List With Check List 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -11992,8 +11992,8 @@ exports[`Storyshots List With Check List 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -12604,8 +12604,8 @@ exports[`Storyshots List With Check List 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -13226,8 +13226,8 @@ exports[`Storyshots List With Check List 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
@@ -13848,8 +13848,8 @@ exports[`Storyshots List With Check List 1`] = `
                   },
                   Object {
                     "fontFamily": "\\"Roboto\\", Arial, sans-serif",
+                    "fontSize": "12px",
                     "fontWeight": 500,
-                    "size": "12px",
                   },
                 ],
                 "shapes": Object {
