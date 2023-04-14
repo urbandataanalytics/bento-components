@@ -236,17 +236,12 @@ const SelectField = ({
     if (
       multiSelect &&
       (value === null || value === 'null') &&
-      options.some(i => i.value === null || i.value === 'null')
+      options.some(i => i?.value === null || i?.value === 'null')
     ) {
       return selectAll();
     }
     if (multiSelect && typeof value === 'object') {
       return handleInitialMultiSelect(value);
-    }
-    if (!multiSelect && value) {
-      const option = options.find(opt => opt?.value === value);
-      setHeaderTitle(option?.label || defaultLabel);
-      handleSelect(option);
     }
   }, []);
 
@@ -254,12 +249,17 @@ const SelectField = ({
     if (multiSelect && (value === null || value === 'null')) {
       return selectAll();
     }
+    if (!multiSelect && value) {
+      const option = options.find(opt => opt?.value === value);
+      setHeaderTitle(option?.label || defaultLabel);
+      setSelection([option?.value]);
+    }
     if (!value) return clearSelection();
   }, [value]);
 
   const selectAll = () => {
-    const option = options.find(option => option.value === 'null' || option.value === null);
-    setSelection([option.value]);
+    const option = options.find(option => option?.value === 'null' || option?.value === null);
+    setSelection([option?.value]);
     setHeaderTitle(option?.label || allSelectedWord);
   };
 
@@ -290,7 +290,7 @@ const SelectField = ({
   const handleInitialMultiSelect = items => {
     if (items.length === 1) {
       setSelection(items);
-      const option = options.find(pot => pot.value === items[0]);
+      const option = options.find(pot => pot?.value === items[0]);
       setHeaderTitle(option?.label);
     } else {
       setSelection(items);
@@ -301,17 +301,17 @@ const SelectField = ({
   const handleSelect = item => {
     if (!isItemInSelection(item)) {
       if (!multiSelect) {
-        setSelection([item.value]);
-        setHeaderTitle(item.label);
+        setSelection([item?.value]);
+        setHeaderTitle(item?.label);
         setListOpen(false);
-        onChange(item.value);
+        onChange(item?.value);
       } else if (multiSelect) {
         if (item?.value === 'null' || item?.value === null) {
           onChange([item?.value || null]);
           return selectAll();
         }
 
-        const selectedItems = [...selection, item.value]
+        const selectedItems = [...selection, item?.value]
           .filter(i => i !== null)
           .filter(i => i !== 'null');
         if (selectedItems.length === 1) {
@@ -327,12 +327,12 @@ const SelectField = ({
       }
     } else {
       let selectionAfterRemoval = selection;
-      selectionAfterRemoval = selectionAfterRemoval.filter(current => current !== item.value);
+      selectionAfterRemoval = selectionAfterRemoval.filter(current => current !== item?.value);
 
       if (selectionAfterRemoval.length === 0) {
         setHeaderTitle(defaultLabel);
       } else if (selectionAfterRemoval.length === 1) {
-        const onlyOne = options.find(i => i.value === selectionAfterRemoval[0]);
+        const onlyOne = options.find(i => i?.value === selectionAfterRemoval[0]);
         setHeaderTitle(onlyOne.label);
       } else if (selectionAfterRemoval.length > 1) {
         setHeaderTitle(`${selectionAfterRemoval.length} ${selectedWord}`);
@@ -373,7 +373,7 @@ const SelectField = ({
             {options.map(option => {
               const active = isItemInSelection(option);
               return (
-                <StyledSelectItem key={option.value} active={active}>
+                <StyledSelectItem key={option?.value} active={active}>
                   <button
                     type="button"
                     onClick={() => handleSelect(option)}
