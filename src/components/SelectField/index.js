@@ -328,7 +328,6 @@ const SelectField = ({
     } else {
       let selectionAfterRemoval = selection;
       selectionAfterRemoval = selectionAfterRemoval.filter(current => current !== item?.value);
-
       if (selectionAfterRemoval.length === 0) {
         setHeaderTitle(defaultLabel);
       } else if (selectionAfterRemoval.length === 1) {
