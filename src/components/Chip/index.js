@@ -111,18 +111,20 @@ const StyledOptionTitle = styled.div`
 			font-weight: ${theme.global.fontWeightMedium};
 		`}
 `;
-const Chip = ({
-  iconLeft,
-  iconRight,
-  iconPressed = <IconCheck />,
-  options = [], // structure [{value: '', title: '', description: '', tag: ''},...]
-  value = false,
-  disabled = false,
-  onChange = () => {},
-  defaultOption = '',
-  children,
-  rounded
-}) => {
+
+const Chip = React.forwardRef((props, ref) => {
+  const {
+    iconLeft,
+    iconRight,
+    iconPressed = <IconCheck />,
+    options = [], // structure [{value: '', title: '', description: '', tag: ''},...]
+    value = false,
+    disabled = false,
+    onChange = () => {},
+    defaultOption,
+    children,
+    rounded
+  } = props;
   const breakpoint = useBreakpoint();
   const isMobile = breakpoint === 's';
   const [isShowingList, setIsShowingList] = useState(false);
@@ -219,7 +221,7 @@ const Chip = ({
       )}
     </StyledContainer>
   );
-};
+});
 Chip.propTypes = {
   children: PropTypes.node.isRequired,
   customColor: PropTypes.string,
@@ -228,7 +230,7 @@ Chip.propTypes = {
   iconLeft: PropTypes.node,
   iconCheck: PropTypes.node,
   iconRight: PropTypes.node,
-  onClick: PropTypes.func,
+  onChange: PropTypes.func,
   tabIndex: PropTypes.string,
   variant: PropTypes.oneOf(['rounded']).isRequired,
   contrast: PropTypes.bool
