@@ -6,7 +6,6 @@ import useOnclickOutside from 'react-cool-onclickoutside';
 import { useBreakpoint } from '../utils';
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 
 const StyledContainer = styled.div`

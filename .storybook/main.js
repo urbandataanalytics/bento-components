@@ -1,15 +1,16 @@
 module.exports = {
   stories: ['../src/components/**/*.stories.js'],
-  addons: [
-    '@storybook/preset-create-react-app',
-    '@storybook/addon-actions',
-    '@storybook/addon-links',
-    {
-      name: '@storybook/addon-docs',
-      options: {
-        configureJSX: true
-      }
-    },
-    '@storybook/addon-controls'
-  ]
+  addons: ['@storybook/preset-create-react-app', '@storybook/addon-actions', '@storybook/addon-links', {
+    name: '@storybook/addon-docs',
+    options: {
+      configureJSX: true
+    }
+  }, '@storybook/addon-controls'],
+  framework: {
+    name: '@storybook/react-webpack5',
+    options: {}
+  },
+  docs: {
+    autodocs: true
+  }
 };
