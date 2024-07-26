@@ -4,11 +4,10 @@ import styled from 'styled-components';
 import defaultTheme from '../../themes/defaultTheme';
 
 const StyledToggleGroupContainer = styled.div`
-
   > button.switch__button {
     ${({ theme }) => theme.texts.p1}
     padding: ${({ theme }) => `${theme.spacings.small2} ${theme.spacings.small3}`};
-    background-color: ${({ theme }) => theme.color.white};    
+    background-color: ${({ theme }) => theme.color.white};
     margin-right: ${({ theme }) => theme.spacings.small2};
     border: 1px solid ${({ theme }) => theme.color.charcoal300};
     color: ${({ theme }) => theme.color.charcoal600};
@@ -19,7 +18,7 @@ const StyledToggleGroupContainer = styled.div`
       border: 2px solid ${({ theme }) => theme.color.primary500};
     }
 
-    &:hover{
+    &:hover {
       background-color: ${({ theme }) => theme.color.charcoal300};
       &:disabled {
         background-color: ${({ theme }) => theme.color.white};

@@ -176,26 +176,28 @@ const Tooltip = ({
     }
   };
 
-  const handleEnter = (forward = true) => event => {
-    const childrenProps = children.props;
-    if (event.type === 'mouseover' && childrenProps.onMouseOver && forward) {
-      childrenProps.onMouseOver(event);
-    }
+  const handleEnter =
+    (forward = true) =>
+    event => {
+      const childrenProps = children.props;
+      if (event.type === 'mouseover' && childrenProps.onMouseOver && forward) {
+        childrenProps.onMouseOver(event);
+      }
 
-    clearTimeout(enterTimer.current);
-    clearTimeout(leaveTimer.current);
-    if (enterDelay || (hystersisOpen && enterNextDelay)) {
-      event.persist();
-      enterTimer.current = setTimeout(
-        () => {
-          handleOpen(event);
-        },
-        hystersisOpen ? enterNextDelay : enterDelay
-      );
-    } else {
-      handleOpen(event);
-    }
-  };
+      clearTimeout(enterTimer.current);
+      clearTimeout(leaveTimer.current);
+      if (enterDelay || (hystersisOpen && enterNextDelay)) {
+        event.persist();
+        enterTimer.current = setTimeout(
+          () => {
+            handleOpen(event);
+          },
+          hystersisOpen ? enterNextDelay : enterDelay
+        );
+      } else {
+        handleOpen(event);
+      }
+    };
 
   const handleClose = event => {
     clearTimeout(hystersisTimer);
@@ -214,20 +216,22 @@ const Tooltip = ({
     }, 120);
   };
 
-  const handleLeave = (forward = true) => event => {
-    const childrenProps = children.props;
+  const handleLeave =
+    (forward = true) =>
+    event => {
+      const childrenProps = children.props;
 
-    if (event.type === 'mouseleave' && childrenProps.onMouseLeave) {
-      childrenProps.onMouseLeave(event);
-    }
+      if (event.type === 'mouseleave' && childrenProps.onMouseLeave) {
+        childrenProps.onMouseLeave(event);
+      }
 
-    clearTimeout(enterTimer.current);
-    clearTimeout(leaveTimer.current);
-    event.persist();
-    leaveTimer.current = setTimeout(() => {
-      handleClose(event);
-    }, leaveDelay);
-  };
+      clearTimeout(enterTimer.current);
+      clearTimeout(leaveTimer.current);
+      event.persist();
+      leaveTimer.current = setTimeout(() => {
+        handleClose(event);
+      }, leaveDelay);
+    };
 
   // There is no point in displaying an empty tooltip.
   if (title === '') {

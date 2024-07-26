@@ -71,17 +71,8 @@ StyledTextLink.defaultProps = {
 };
 
 const TextLink = React.forwardRef((props, ref) => {
-  const {
-    variant,
-    tabIndex,
-    size,
-    href,
-    external,
-    disabled,
-    className,
-    children,
-    ...other
-  } = props;
+  const { variant, tabIndex, size, href, external, disabled, className, children, ...other } =
+    props;
 
   const breakpoint = useBreakpoint();
 

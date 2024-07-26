@@ -139,8 +139,6 @@ const StyledButton = styled.button`
       }
     `}
 
-
-
   &:disabled {
     cursor: default;
   }
